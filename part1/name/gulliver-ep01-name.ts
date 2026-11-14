@@ -833,7 +833,23 @@ export type RoughImage = { src: string; alt: string; source: string; license: st
  * レイヤー分け（画作りガイドのレイヤーの決まり）。ラフでは、コマごとに LY-01 下絵（3D）・LY-02 アタリ・
  * LY-09 吹き出し・LY-10 文字のグループを作り、コマの中身をそこへ入れる。
  */
-export type LayerOptions = { rough?: Record<string, RoughImage>; underlayOpacity?: number; avoid?: Record<string, Occupancy> };
+export type LayerOptions = {
+  rough?: Record<string, RoughImage>;
+  underlayOpacity?: number;
+  avoid?: Record<string, Occupancy>;
+  /**
+   * 線画：コマごとの LY-04 背景の線画・LY-07 人物の線画・LY-08 効果の画像。あると、LY-02 アタリの上に
+   * 3つのグループを作り、LY-01 と LY-02 を隠す（画作りガイド：線画からは隠して残す）。
+   */
+  ink?: Record<string, InkImages>;
+};
+export type InkImages = { bg: RoughImage; fig: RoughImage; fx: RoughImage };
+/** 線画のレイヤー（画作りガイドのレイヤーの決まりの名前）。重ね順は LY-04、LY-07、LY-08。 */
+export const INK_LAYERS = {
+  bg: 'LY-04 背景の線画',
+  fig: 'LY-07 人物の線画',
+  fx: 'LY-08 効果',
+} as const;
 /**
  * 文字を置きたくないところ（コマの絵の上の格子、行優先、0〜1）。ラフ絵の線の濃さと、3D のカメラに写る人物の頭。
  * 格子はコマの外接矩形（絵を敷いた範囲）を cols×rows に分ける。
@@ -885,6 +901,7 @@ export function buildEpisodeName(episode = 1, pages = EP01_NAME, stage?: StageIn
   let n = 0;
   const nid = (kind: string) => `${kind}-${String(++n).padStart(4, '0')}`;
   const toLock: string[] = [];
+  const toHide: string[] = [];
   const text = (parentId: string, box: Rect, value: string, name: string, typography: Record<string, unknown>, fill = '#111111') => {
     const id = nid('tx');
     d = insertElement('text', { id, parentId, bounds: box }).apply(d);
@@ -896,13 +913,18 @@ export function buildEpisodeName(episode = 1, pages = EP01_NAME, stage?: StageIn
     const p = r.panel;
     d = updateElement(r.id, { name: `${r.page}-${r.order} ${p.shot}：${p.art}`.slice(0, 200), strokeWidth: 3, stroke: '#111111', fill: '#ffffff' }).apply(d);
     // レイヤー（ラフ）：コマの中に、重ね順のとおりグループを作る。
-    const layer: Record<keyof typeof LAYERS | 'balloon', string> = { underlay: r.id, atari: r.id, balloon: r.id, text: r.id, memo: r.id };
+    type LayerKey = keyof typeof LAYERS | keyof typeof INK_LAYERS;
+    const layer: Record<LayerKey | 'balloon', string> = { underlay: r.id, atari: r.id, bg: r.id, fig: r.id, fx: r.id, balloon: r.id, text: r.id, memo: r.id };
+    const ink = layers?.ink?.[r.id];
     if (layers) {
-      for (const k of Object.keys(LAYERS) as (keyof typeof LAYERS)[]) {
+      const keys: LayerKey[] = ['underlay', 'atari', ...(ink ? (['bg', 'fig', 'fx'] as const) : []), 'text', 'memo'];
+      for (const k of keys) {
         const gid = nid(`layer-${k}`);
         d = insertElement('group', { id: gid, parentId: r.id, bounds: { ...panel.bounds } }).apply(d);
-        d = updateElement(gid, { name: LAYERS[k] }).apply(d);
-        if (LOCKED_LAYERS.has(k)) toLock.push(gid);
+        d = updateElement(gid, { name: k in LAYERS ? LAYERS[k as keyof typeof LAYERS] : INK_LAYERS[k as keyof typeof INK_LAYERS] }).apply(d);
+        // 線画では、絵のレイヤーも固定する（吹き出しを動かすときに一緒に動かさない）。下絵とアタリは隠して残す。
+        if (LOCKED_LAYERS.has(k as keyof typeof LAYERS) || (ink && k in INK_LAYERS)) toLock.push(gid);
+        if (ink && (k === 'underlay' || k === 'atari')) toHide.push(gid);
         layer[k] = gid;
       }
     }
@@ -932,6 +954,14 @@ export function buildEpisodeName(episode = 1, pages = EP01_NAME, stage?: StageIn
       d = insertElement('image', { id: iid, parentId: layer.atari, bounds: { ...panel.bounds }, src: rough.src }).apply(d);
       d = updateElement(iid, { name: `ラフ絵 ${r.id}`, imageFit: 'fill', opacity: 1, alt: rough.alt }).apply(d);
       d = setDesignPagination({ ...d.pagination!, images: [...d.pagination!.images, { elementId: iid, source: rough.source, license: rough.license }] }).apply(d);
+    }
+    if (ink) {
+      for (const k of ['bg', 'fig', 'fx'] as const) {
+        const iid = nid(`ink-${k}`);
+        d = insertElement('image', { id: iid, parentId: layer[k], bounds: { ...panel.bounds }, src: ink[k].src }).apply(d);
+        d = updateElement(iid, { name: `${INK_LAYERS[k].slice(6)} ${r.id}`, imageFit: 'fill', opacity: 1, alt: ink[k].alt }).apply(d);
+        d = setDesignPagination({ ...d.pagination!, images: [...d.pagination!.images, { elementId: iid, source: ink[k].source, license: ink[k].license }] }).apply(d);
+      }
     }
     const laid = layoutPanel(panel, r);
     const ok = laid.ok;
@@ -987,7 +1017,8 @@ export function buildEpisodeName(episode = 1, pages = EP01_NAME, stage?: StageIn
     text(id, { x: x + PAGE.width / 2 - 30, y: PAGE.height - 40, width: 60, height: 20 }, String(pi + 1).padStart(2, '0'), 'ノンブル', { fontFamily: GOTHIC, fontSize: 14, align: 'center' }, '#6b7280');
   });
   // 中身を入れ終えてから、動かさないレイヤーを固定する。
-  for (const id of toLock) d = updateElement(id, { locked: true }).apply(d);
+  // 隠すレイヤー（線画の LY-01・LY-02）は、隠すのと固定するのを一度にする（隠したものは編集できない）。
+  for (const id of toLock) d = updateElement(id, toHide.includes(id) ? { locked: true, hidden: true } : { locked: true }).apply(d);
   return { content: d, records, placed, overflow, memos };
 }
 

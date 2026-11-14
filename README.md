@@ -14,5 +14,6 @@
 | `part1/codex-prompts.md` | Codex への依頼書（共通ルールと項目ごとの指示）。 |
 | `part1/codex/<項目>/` | Codex の設定画。元画像（raw）、レイヤー PNG（LY-03/04/05/07）、合成画像、`provenance.json`。 |
 | `part1/codex/_tools/` | 生成スクリプト（`gen.sh`, `gen2.sh`）と、線と塗りに分けるスクリプト（`split.py`）。 |
+| `part1/name/`・`part1/rough/`・`part1/ink/` | 第1話のネーム・ラフ・線画（Editor Platform の Design 原稿と表、ページの絵、作り方）。詳しくはそれぞれの `README.md`。 |
 
 Markdown の書き出しでは、Claude Doc の図（工程の順と相関図）は「embedded content」という仮の文字に置き換わっています。
