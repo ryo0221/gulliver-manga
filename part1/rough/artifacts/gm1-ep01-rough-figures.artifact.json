@@ -1,0 +1,3921 @@
+{
+ "schemaVersion": 1,
+ "id": "gm1-ep01-rough-figures",
+ "name": "第1話 ラフの人物の絵（FG ごと）",
+ "kind": "data",
+ "provenance": {
+  "source": "created"
+ },
+ "draft": {
+  "baseVersionId": "rough-ep01-v1",
+  "updatedAt": "2026-11-14T00:00:00.000Z",
+  "content": {
+   "schemaVersion": 2,
+   "columns": [
+    {
+     "id": "rf.fg",
+     "name": "人物の配置（FG）",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "rf.panel",
+     "name": "コマ",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "rf.ch",
+     "name": "人物表",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "rf.name",
+     "name": "名前",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "rf.pose",
+     "name": "ポーズ（3D の舞台）",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "rf.drawn",
+     "name": "このコマ用に描いた",
+     "type": "boolean",
+     "required": true
+    },
+    {
+     "id": "rf.drawing",
+     "name": "絵",
+     "type": "text"
+    },
+    {
+     "id": "rf.where",
+     "name": "コマの中の位置（3D のカメラから）",
+     "type": "text"
+    },
+    {
+     "id": "rf.note",
+     "name": "描かない理由・同じ絵を使う理由",
+     "type": "text"
+    }
+   ],
+   "rows": [
+    {
+     "id": "FG-e01-p01-k1-01",
+     "values": {
+      "rf.fg": "FG-e01-p01-k1-01",
+      "rf.panel": "e01-p01-k1",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "lie-look",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p01-k1（panels/e01-p01-k1.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 52%, y 51%), feet at behind the camera (not drawn)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p01-k1-02",
+     "values": {
+      "rf.fg": "FG-e01-p01-k1-02",
+      "rf.panel": "e01-p01-k1",
+      "rf.ch": "CH-30",
+      "rf.name": "最初の小人（弓と矢筒）",
+      "rf.pose": "archer",
+      "rf.drawn": false,
+      "rf.drawing": "",
+      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+      "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+     }
+    },
+    {
+     "id": "FG-e01-p01-k1-03",
+     "values": {
+      "rf.fg": "FG-e01-p01-k1-03",
+      "rf.panel": "e01-p01-k1",
+      "rf.ch": "CH-30",
+      "rf.name": "胸の小人2",
+      "rf.pose": "stand",
+      "rf.drawn": false,
+      "rf.drawing": "",
+      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+      "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+     }
+    },
+    {
+     "id": "FG-e01-p01-k1-04",
+     "values": {
+      "rf.fg": "FG-e01-p01-k1-04",
+      "rf.panel": "e01-p01-k1",
+      "rf.ch": "CH-30",
+      "rf.name": "胸の小人3",
+      "rf.pose": "archer",
+      "rf.drawn": false,
+      "rf.drawing": "",
+      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+      "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+     }
+    },
+    {
+     "id": "FG-e01-p01-k1-05",
+     "values": {
+      "rf.fg": "FG-e01-p01-k1-05",
+      "rf.panel": "e01-p01-k1",
+      "rf.ch": "CH-30",
+      "rf.name": "胸の小人4",
+      "rf.pose": "stand",
+      "rf.drawn": false,
+      "rf.drawing": "",
+      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+      "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+     }
+    },
+    {
+     "id": "FG-e01-p01-k1-06",
+     "values": {
+      "rf.fg": "FG-e01-p01-k1-06",
+      "rf.panel": "e01-p01-k1",
+      "rf.ch": "CH-30",
+      "rf.name": "胸の小人5",
+      "rf.pose": "stand",
+      "rf.drawn": false,
+      "rf.drawing": "",
+      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+      "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+     }
+    },
+    {
+     "id": "FG-e01-p01-k2-01",
+     "values": {
+      "rf.fg": "FG-e01-p01-k2-01",
+      "rf.panel": "e01-p01-k2",
+      "rf.ch": "CH-10",
+      "rf.name": "メアリー",
+      "rf.pose": "stand",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p01-k2（panels/e01-p01-k2.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 46%, y 47%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p02-k1-01",
+     "values": {
+      "rf.fg": "FG-e01-p02-k1-01",
+      "rf.panel": "e01-p02-k1",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "hands-together",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p02-k1（panels/e01-p02-k1.jpg）",
+      "rf.where": "head at middle-right of the frame (x 80%, y 35%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p02-k1-02",
+     "values": {
+      "rf.fg": "FG-e01-p02-k1-02",
+      "rf.panel": "e01-p02-k1",
+      "rf.ch": "horse",
+      "rf.name": "馬（灰）",
+      "rf.pose": "stand",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p02-k1（panels/e01-p02-k1.jpg）",
+      "rf.where": "head at middle-left of the frame (x 10%, y 42%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p02-k1-03",
+     "values": {
+      "rf.fg": "FG-e01-p02-k1-03",
+      "rf.panel": "e01-p02-k1",
+      "rf.ch": "horse",
+      "rf.name": "馬（栗毛）",
+      "rf.pose": "stand",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p02-k1（panels/e01-p02-k1.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 48%, y 42%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p02-k1-04",
+     "values": {
+      "rf.fg": "FG-e01-p02-k1-04",
+      "rf.panel": "e01-p02-k1",
+      "rf.ch": "CH-10",
+      "rf.name": "メアリー",
+      "rf.pose": "hands-together",
+      "rf.drawn": false,
+      "rf.drawing": "",
+      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+      "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+     }
+    },
+    {
+     "id": "FG-e01-p02-k2-01",
+     "values": {
+      "rf.fg": "FG-e01-p02-k2-01",
+      "rf.panel": "e01-p02-k2",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "hands-together",
+      "rf.drawn": false,
+      "rf.drawing": "",
+      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+      "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+     }
+    },
+    {
+     "id": "FG-e01-p02-k2-02",
+     "values": {
+      "rf.fg": "FG-e01-p02-k2-02",
+      "rf.panel": "e01-p02-k2",
+      "rf.ch": "horse",
+      "rf.name": "馬（灰）",
+      "rf.pose": "stand",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p02-k2（panels/e01-p02-k2.jpg）",
+      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+      "rf.note": "3D のカメラ（注視点が馬の頭より左）では画角のわずかに外。ネームの絵のメモ「馬の鼻先」に合わせ、ラフでは灰の馬の鼻先を描いた。ネームの舞台のカメラを直す"
+     }
+    },
+    {
+     "id": "FG-e01-p02-k2-03",
+     "values": {
+      "rf.fg": "FG-e01-p02-k2-03",
+      "rf.panel": "e01-p02-k2",
+      "rf.ch": "horse",
+      "rf.name": "馬（栗毛）",
+      "rf.pose": "stand",
+      "rf.drawn": false,
+      "rf.drawing": "",
+      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+      "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+     }
+    },
+    {
+     "id": "FG-e01-p02-k3-01",
+     "values": {
+      "rf.fg": "FG-e01-p02-k3-01",
+      "rf.panel": "e01-p02-k3",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "hands-together",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p02-k3（panels/e01-p02-k3.jpg）",
+      "rf.where": "head at middle-right of the frame (x 76%, y 36%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p02-k3-02",
+     "values": {
+      "rf.fg": "FG-e01-p02-k3-02",
+      "rf.panel": "e01-p02-k3",
+      "rf.ch": "horse",
+      "rf.name": "馬（灰）",
+      "rf.pose": "stand",
+      "rf.drawn": false,
+      "rf.drawing": "",
+      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+      "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+     }
+    },
+    {
+     "id": "FG-e01-p02-k3-03",
+     "values": {
+      "rf.fg": "FG-e01-p02-k3-03",
+      "rf.panel": "e01-p02-k3",
+      "rf.ch": "horse",
+      "rf.name": "馬（栗毛）",
+      "rf.pose": "stand",
+      "rf.drawn": false,
+      "rf.drawing": "",
+      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+      "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+     }
+    },
+    {
+     "id": "FG-e01-p02-k3-04",
+     "values": {
+      "rf.fg": "FG-e01-p02-k3-04",
+      "rf.panel": "e01-p02-k3",
+      "rf.ch": "CH-10",
+      "rf.name": "メアリー",
+      "rf.pose": "hands-together",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p02-k3（panels/e01-p02-k3.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 50%, y 43%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p02-k4-01",
+     "values": {
+      "rf.fg": "FG-e01-p02-k4-01",
+      "rf.panel": "e01-p02-k4",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "hands-together",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p02-k4（panels/e01-p02-k4.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 47%, y 49%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p02-k4-02",
+     "values": {
+      "rf.fg": "FG-e01-p02-k4-02",
+      "rf.panel": "e01-p02-k4",
+      "rf.ch": "horse",
+      "rf.name": "馬（灰）",
+      "rf.pose": "stand",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p02-k4（panels/e01-p02-k4.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 36%, y 52%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p02-k4-03",
+     "values": {
+      "rf.fg": "FG-e01-p02-k4-03",
+      "rf.panel": "e01-p02-k4",
+      "rf.ch": "horse",
+      "rf.name": "馬（栗毛）",
+      "rf.pose": "stand",
+      "rf.drawn": false,
+      "rf.drawing": "",
+      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+      "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+     }
+    },
+    {
+     "id": "FG-e01-p02-k5-01",
+     "values": {
+      "rf.fg": "FG-e01-p02-k5-01",
+      "rf.panel": "e01-p02-k5",
+      "rf.ch": "CH-10",
+      "rf.name": "メアリー",
+      "rf.pose": "turn-away",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p02-k5（panels/e01-p02-k5.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 59%, y 44%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p02-k6-01",
+     "values": {
+      "rf.fg": "FG-e01-p02-k6-01",
+      "rf.panel": "e01-p02-k6",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "hands-together",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p02-k6（panels/e01-p02-k6.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 66%, y 40%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p02-k6-02",
+     "values": {
+      "rf.fg": "FG-e01-p02-k6-02",
+      "rf.panel": "e01-p02-k6",
+      "rf.ch": "horse",
+      "rf.name": "馬（灰）",
+      "rf.pose": "stand",
+      "rf.drawn": false,
+      "rf.drawing": "",
+      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+      "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+     }
+    },
+    {
+     "id": "FG-e01-p02-k6-03",
+     "values": {
+      "rf.fg": "FG-e01-p02-k6-03",
+      "rf.panel": "e01-p02-k6",
+      "rf.ch": "horse",
+      "rf.name": "馬（栗毛）",
+      "rf.pose": "stand",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p02-k6（panels/e01-p02-k6.jpg）",
+      "rf.where": "head at middle-right of the frame (x 73%, y 64%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p03-k1-01",
+     "values": {
+      "rf.fg": "FG-e01-p03-k1-01",
+      "rf.panel": "e01-p03-k1",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "carry-bag",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p03-k1（panels/e01-p03-k1.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 63%, y 58%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p03-k1-02",
+     "values": {
+      "rf.fg": "FG-e01-p03-k1-02",
+      "rf.panel": "e01-p03-k1",
+      "rf.ch": "CH-10",
+      "rf.name": "メアリー",
+      "rf.pose": "hands-together",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p03-k1（panels/e01-p03-k1.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 65%, y 58%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p03-k1-03",
+     "values": {
+      "rf.fg": "FG-e01-p03-k1-03",
+      "rf.panel": "e01-p03-k1",
+      "rf.ch": "EX",
+      "rf.name": "船員1",
+      "rf.pose": "carry-up",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p03-k1（panels/e01-p03-k1.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 40%, y 55%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p03-k1-04",
+     "values": {
+      "rf.fg": "FG-e01-p03-k1-04",
+      "rf.panel": "e01-p03-k1",
+      "rf.ch": "EX",
+      "rf.name": "船員2",
+      "rf.pose": "walk",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p03-k1（panels/e01-p03-k1.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 43%, y 49%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p03-k1-05",
+     "values": {
+      "rf.fg": "FG-e01-p03-k1-05",
+      "rf.panel": "e01-p03-k1",
+      "rf.ch": "EX",
+      "rf.name": "船員3",
+      "rf.pose": "point",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p03-k1（panels/e01-p03-k1.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 54%, y 41%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p03-k2-01",
+     "values": {
+      "rf.fg": "FG-e01-p03-k2-01",
+      "rf.panel": "e01-p03-k2",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "carry-bag",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p03-k2（panels/e01-p03-k2.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 50%, y 34%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p03-k2-02",
+     "values": {
+      "rf.fg": "FG-e01-p03-k2-02",
+      "rf.panel": "e01-p03-k2",
+      "rf.ch": "CH-10",
+      "rf.name": "メアリー",
+      "rf.pose": "hands-together",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p03-k2（panels/e01-p03-k2.jpg）",
+      "rf.where": "head at middle-right of the frame (x 89%, y 38%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p03-k3-01",
+     "values": {
+      "rf.fg": "FG-e01-p03-k3-01",
+      "rf.panel": "e01-p03-k3",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "carry-bag",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p03-k3（panels/e01-p03-k3.jpg）",
+      "rf.where": "head at middle-left of the frame (x 0%, y 39%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p03-k3-02",
+     "values": {
+      "rf.fg": "FG-e01-p03-k3-02",
+      "rf.panel": "e01-p03-k3",
+      "rf.ch": "CH-10",
+      "rf.name": "メアリー",
+      "rf.pose": "hands-together",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p03-k3（panels/e01-p03-k3.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 50%, y 49%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p03-k4-01",
+     "values": {
+      "rf.fg": "FG-e01-p03-k4-01",
+      "rf.panel": "e01-p03-k4",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "carry-bag",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p03-k4（panels/e01-p03-k4.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 50%, y 48%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p03-k4-02",
+     "values": {
+      "rf.fg": "FG-e01-p03-k4-02",
+      "rf.panel": "e01-p03-k4",
+      "rf.ch": "CH-10",
+      "rf.name": "メアリー",
+      "rf.pose": "hands-together",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p03-k4（panels/e01-p03-k4.jpg）",
+      "rf.where": "head at bottom-left of the frame (x 26%, y 69%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p04-k1-01",
+     "values": {
+      "rf.fg": "FG-e01-p04-k1-01",
+      "rf.panel": "e01-p04-k1",
+      "rf.ch": "CH-10",
+      "rf.name": "メアリー",
+      "rf.pose": "hands-together",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p04-k1（panels/e01-p04-k1.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 50%, y 50%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p04-k2-01",
+     "values": {
+      "rf.fg": "FG-e01-p04-k2-01",
+      "rf.panel": "e01-p04-k2",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "wave-hat",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p04-k2（panels/e01-p04-k2.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 45%, y 40%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p04-k2-02",
+     "values": {
+      "rf.fg": "FG-e01-p04-k2-02",
+      "rf.panel": "e01-p04-k2",
+      "rf.ch": "CH-10",
+      "rf.name": "メアリー",
+      "rf.pose": "hands-together",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p04-k2（panels/e01-p04-k2.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 38%, y 47%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p04-k3-01",
+     "values": {
+      "rf.fg": "FG-e01-p04-k3-01",
+      "rf.panel": "e01-p04-k3",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "wave-hat",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p04-k3（panels/e01-p04-k3.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 46%, y 43%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p04-k3-02",
+     "values": {
+      "rf.fg": "FG-e01-p04-k3-02",
+      "rf.panel": "e01-p04-k3",
+      "rf.ch": "EX",
+      "rf.name": "船員1",
+      "rf.pose": "carry-up",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p04-k3（panels/e01-p04-k3.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 48%, y 42%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p05-k1-01",
+     "values": {
+      "rf.fg": "FG-e01-p05-k1-01",
+      "rf.panel": "e01-p05-k1",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "crouch",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p05-k1（panels/e01-p05-k1.jpg）",
+      "rf.where": "head at middle-left of the frame (x 21%, y 53%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p05-k1-02",
+     "values": {
+      "rf.fg": "FG-e01-p05-k1-02",
+      "rf.panel": "e01-p05-k1",
+      "rf.ch": "EX",
+      "rf.name": "船員1",
+      "rf.pose": "fall",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p05-k1（panels/e01-p05-k1.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 34%, y 54%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p05-k1-03",
+     "values": {
+      "rf.fg": "FG-e01-p05-k1-03",
+      "rf.panel": "e01-p05-k1",
+      "rf.ch": "EX",
+      "rf.name": "船員2",
+      "rf.pose": "carry-up",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p05-k1（panels/e01-p05-k1.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 45%, y 55%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p05-k1-04",
+     "values": {
+      "rf.fg": "FG-e01-p05-k1-04",
+      "rf.panel": "e01-p05-k1",
+      "rf.ch": "EX",
+      "rf.name": "船員3",
+      "rf.pose": "fall",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p05-k1（panels/e01-p05-k1.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 66%, y 49%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p05-k1-05",
+     "values": {
+      "rf.fg": "FG-e01-p05-k1-05",
+      "rf.panel": "e01-p05-k1",
+      "rf.ch": "EX",
+      "rf.name": "船員4",
+      "rf.pose": "point",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p05-k1（panels/e01-p05-k1.jpg）",
+      "rf.where": "head at middle-left of the frame (x 0%, y 35%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p05-k2-01",
+     "values": {
+      "rf.fg": "FG-e01-p05-k2-01",
+      "rf.panel": "e01-p05-k2",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "crouch",
+      "rf.drawn": false,
+      "rf.drawing": "",
+      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+      "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+     }
+    },
+    {
+     "id": "FG-e01-p05-k2-02",
+     "values": {
+      "rf.fg": "FG-e01-p05-k2-02",
+      "rf.panel": "e01-p05-k2",
+      "rf.ch": "EX",
+      "rf.name": "船員3",
+      "rf.pose": "fall",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p05-k2（panels/e01-p05-k2.jpg）",
+      "rf.where": "head at top-centre of the frame (x 65%, y -2%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p05-k2-03",
+     "values": {
+      "rf.fg": "FG-e01-p05-k2-03",
+      "rf.panel": "e01-p05-k2",
+      "rf.ch": "EX",
+      "rf.name": "船員4",
+      "rf.pose": "crouch",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p05-k2（panels/e01-p05-k2.jpg）",
+      "rf.where": "very close, filling the foreground near x -19% (cut by the frame)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p05-k2-04",
+     "values": {
+      "rf.fg": "FG-e01-p05-k2-04",
+      "rf.panel": "e01-p05-k2",
+      "rf.ch": "EX",
+      "rf.name": "船員5",
+      "rf.pose": "carry-up",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p05-k2（panels/e01-p05-k2.jpg）",
+      "rf.where": "head at top-centre of the frame (x 59%, y 32%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p05-k3-01",
+     "values": {
+      "rf.fg": "FG-e01-p05-k3-01",
+      "rf.panel": "e01-p05-k3",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "tread",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p05-k3（panels/e01-p05-k3.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 55%, y 54%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p05-k3-02",
+     "values": {
+      "rf.fg": "FG-e01-p05-k3-02",
+      "rf.panel": "e01-p05-k3",
+      "rf.ch": "EX",
+      "rf.name": "船員1",
+      "rf.pose": "fall",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p05-k3（panels/e01-p05-k3.jpg）",
+      "rf.where": "head at top-right of the frame (x 95%, y 21%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p05-k3-03",
+     "values": {
+      "rf.fg": "FG-e01-p05-k3-03",
+      "rf.panel": "e01-p05-k3",
+      "rf.ch": "EX",
+      "rf.name": "船員2",
+      "rf.pose": "tread",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p05-k3（panels/e01-p05-k3.jpg）",
+      "rf.where": "head at middle-right of the frame (x 88%, y 54%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p05-k3-04",
+     "values": {
+      "rf.fg": "FG-e01-p05-k3-04",
+      "rf.panel": "e01-p05-k3",
+      "rf.ch": "EX",
+      "rf.name": "船員3",
+      "rf.pose": "fall",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p05-k3（panels/e01-p05-k3.jpg）",
+      "rf.where": "head at top-left of the frame (x 26%, y 27%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p05-k3-05",
+     "values": {
+      "rf.fg": "FG-e01-p05-k3-05",
+      "rf.panel": "e01-p05-k3",
+      "rf.ch": "EX",
+      "rf.name": "船員4",
+      "rf.pose": "swim",
+      "rf.drawn": false,
+      "rf.drawing": "",
+      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+      "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+     }
+    },
+    {
+     "id": "FG-e01-p05-k3-06",
+     "values": {
+      "rf.fg": "FG-e01-p05-k3-06",
+      "rf.panel": "e01-p05-k3",
+      "rf.ch": "EX",
+      "rf.name": "船員5",
+      "rf.pose": "tread",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p05-k3（panels/e01-p05-k3.jpg）",
+      "rf.where": "head at middle-left of the frame (x 5%, y 55%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p06-k1-01",
+     "values": {
+      "rf.fg": "FG-e01-p06-k1-01",
+      "rf.panel": "e01-p06-k1",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "tread",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p06-k1（panels/e01-p06-k1.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 50%, y 49%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p06-k2-01",
+     "values": {
+      "rf.fg": "FG-e01-p06-k2-01",
+      "rf.panel": "e01-p06-k2",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "swim",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p06-k2（panels/e01-p06-k2.jpg）",
+      "rf.where": "only the legs/feet in frame, at middle-centre of the frame (x 50%, y 58%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p06-k3-01",
+     "values": {
+      "rf.fg": "FG-e01-p06-k3-01",
+      "rf.panel": "e01-p06-k3",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "walk",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p06-k3（panels/e01-p06-k3.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 39%, y 34%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p07-k1-01",
+     "values": {
+      "rf.fg": "FG-e01-p07-k1-01",
+      "rf.panel": "e01-p07-k1",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "lie",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p07-k1（panels/e01-p07-k1.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 59%, y 49%), feet at middle-centre of the frame (x 36%, y 50%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p07-k2-01",
+     "values": {
+      "rf.fg": "FG-e01-p07-k2-01",
+      "rf.panel": "e01-p07-k2",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "lie",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p07-k2（panels/e01-p07-k2.jpg）",
+      "rf.where": "head at top-right of the frame (x 104%, y 28%), feet at outside the frame",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p08-k1-01",
+     "values": {
+      "rf.fg": "FG-e01-p08-k1-01",
+      "rf.panel": "e01-p08-k1",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "lie",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p08-k1（panels/e01-p08-k1.jpg）",
+      "rf.where": "head at outside the frame, feet at outside the frame",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p08-k2-01",
+     "values": {
+      "rf.fg": "FG-e01-p08-k2-01",
+      "rf.panel": "e01-p08-k2",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "lie",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p08-k2（panels/e01-p08-k2.jpg）",
+      "rf.where": "head at middle-left of the frame (x 32%, y 51%), feet at behind the camera (not drawn)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p08-k3-01",
+     "values": {
+      "rf.fg": "FG-e01-p08-k3-01",
+      "rf.panel": "e01-p08-k3",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "lie",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p08-k3（panels/e01-p08-k3.jpg）",
+      "rf.where": "head at outside the frame, feet at outside the frame",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p08-k4-01",
+     "values": {
+      "rf.fg": "FG-e01-p08-k4-01",
+      "rf.panel": "e01-p08-k4",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "lie",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p08-k4（panels/e01-p08-k4.jpg）",
+      "rf.where": "head at outside the frame, feet at outside the frame",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p08-k4-02",
+     "values": {
+      "rf.fg": "FG-e01-p08-k4-02",
+      "rf.panel": "e01-p08-k4",
+      "rf.ch": "CH-30",
+      "rf.name": "最初の小人（弓と矢筒）",
+      "rf.pose": "walk",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p08-k4（panels/e01-p08-k4.jpg）",
+      "rf.where": "head at top-centre of the frame (x 50%, y 14%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p09-k1-01",
+     "values": {
+      "rf.fg": "FG-e01-p09-k1-01",
+      "rf.panel": "e01-p09-k1",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "lie-look",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p09-k1（panels/e01-p09-k1.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 42%, y 57%), feet at behind the camera (not drawn)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p09-k1-02",
+     "values": {
+      "rf.fg": "FG-e01-p09-k1-02",
+      "rf.panel": "e01-p09-k1",
+      "rf.ch": "CH-30",
+      "rf.name": "最初の小人（弓と矢筒）",
+      "rf.pose": "stand",
+      "rf.drawn": false,
+      "rf.drawing": "",
+      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+      "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+     }
+    },
+    {
+     "id": "FG-e01-p09-k2-01",
+     "values": {
+      "rf.fg": "FG-e01-p09-k2-01",
+      "rf.panel": "e01-p09-k2",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "lie-look",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p09-k2（panels/e01-p09-k2.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 51%, y 53%), feet at behind the camera (not drawn)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p09-k2-02",
+     "values": {
+      "rf.fg": "FG-e01-p09-k2-02",
+      "rf.panel": "e01-p09-k2",
+      "rf.ch": "CH-30",
+      "rf.name": "最初の小人（弓と矢筒）",
+      "rf.pose": "archer",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p09-k2（panels/e01-p09-k2.jpg）",
+      "rf.where": "head at top-left of the frame (x 18%, y 10%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p09-k2-03",
+     "values": {
+      "rf.fg": "FG-e01-p09-k2-03",
+      "rf.panel": "e01-p09-k2",
+      "rf.ch": "CH-30",
+      "rf.name": "胸の小人2",
+      "rf.pose": "stand",
+      "rf.drawn": false,
+      "rf.drawing": "",
+      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+      "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+     }
+    },
+    {
+     "id": "FG-e01-p09-k2-04",
+     "values": {
+      "rf.fg": "FG-e01-p09-k2-04",
+      "rf.panel": "e01-p09-k2",
+      "rf.ch": "CH-30",
+      "rf.name": "胸の小人3",
+      "rf.pose": "archer",
+      "rf.drawn": false,
+      "rf.drawing": "",
+      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+      "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+     }
+    },
+    {
+     "id": "FG-e01-p09-k2-05",
+     "values": {
+      "rf.fg": "FG-e01-p09-k2-05",
+      "rf.panel": "e01-p09-k2",
+      "rf.ch": "CH-30",
+      "rf.name": "胸の小人4",
+      "rf.pose": "stand",
+      "rf.drawn": false,
+      "rf.drawing": "",
+      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+      "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+     }
+    },
+    {
+     "id": "FG-e01-p09-k2-06",
+     "values": {
+      "rf.fg": "FG-e01-p09-k2-06",
+      "rf.panel": "e01-p09-k2",
+      "rf.ch": "CH-30",
+      "rf.name": "胸の小人5",
+      "rf.pose": "stand",
+      "rf.drawn": false,
+      "rf.drawing": "",
+      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+      "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+     }
+    },
+    {
+     "id": "FG-e01-p09-k3-01",
+     "values": {
+      "rf.fg": "FG-e01-p09-k3-01",
+      "rf.panel": "e01-p09-k3",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "lie-look",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p09-k3（panels/e01-p09-k3.jpg）",
+      "rf.where": "head at outside the frame, feet at outside the frame",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p09-k3-02",
+     "values": {
+      "rf.fg": "FG-e01-p09-k3-02",
+      "rf.panel": "e01-p09-k3",
+      "rf.ch": "CH-30",
+      "rf.name": "最初の小人（弓と矢筒）",
+      "rf.pose": "archer",
+      "rf.drawn": false,
+      "rf.drawing": "",
+      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+      "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+     }
+    },
+    {
+     "id": "FG-e01-p10-k1-01",
+     "values": {
+      "rf.fg": "FG-e01-p10-k1-01",
+      "rf.panel": "e01-p10-k1",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "lie",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p10-k1（panels/e01-p10-k1.jpg）",
+      "rf.where": "head at outside the frame, feet at outside the frame",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p10-k1-02",
+     "values": {
+      "rf.fg": "FG-e01-p10-k1-02",
+      "rf.panel": "e01-p10-k1",
+      "rf.ch": "CH-30",
+      "rf.name": "最初の小人（弓と矢筒）",
+      "rf.pose": "fall",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p10-k1（panels/e01-p10-k1.jpg）",
+      "rf.where": "head at top-centre of the frame (x 35%, y 6%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p10-k1-03",
+     "values": {
+      "rf.fg": "FG-e01-p10-k1-03",
+      "rf.panel": "e01-p10-k1",
+      "rf.ch": "CH-30",
+      "rf.name": "胸の小人2",
+      "rf.pose": "fall",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p10-k1（panels/e01-p10-k1.jpg）",
+      "rf.where": "head at top-right of the frame (x 69%, y 28%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p10-k1-04",
+     "values": {
+      "rf.fg": "FG-e01-p10-k1-04",
+      "rf.panel": "e01-p10-k1",
+      "rf.ch": "CH-30",
+      "rf.name": "胸の小人3",
+      "rf.pose": "fall",
+      "rf.drawn": false,
+      "rf.drawing": "",
+      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+      "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+     }
+    },
+    {
+     "id": "FG-e01-p10-k1-05",
+     "values": {
+      "rf.fg": "FG-e01-p10-k1-05",
+      "rf.panel": "e01-p10-k1",
+      "rf.ch": "CH-30",
+      "rf.name": "胸の小人4",
+      "rf.pose": "dance",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p10-k1（panels/e01-p10-k1.jpg）",
+      "rf.where": "head at top-centre of the frame (x 58%, y -4%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p10-k2-01",
+     "values": {
+      "rf.fg": "FG-e01-p10-k2-01",
+      "rf.panel": "e01-p10-k2",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "lie-arm-free",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p10-k2（panels/e01-p10-k2.jpg）",
+      "rf.where": "head at bottom-right of the frame (x 93%, y 110%), feet at outside the frame",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p10-k3-01",
+     "values": {
+      "rf.fg": "FG-e01-p10-k3-01",
+      "rf.panel": "e01-p10-k3",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "lie-arm-free",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p10-k3（panels/e01-p10-k3.jpg）",
+      "rf.where": "head at outside the frame, feet at outside the frame",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p10-k3-02",
+     "values": {
+      "rf.fg": "FG-e01-p10-k3-02",
+      "rf.panel": "e01-p10-k3",
+      "rf.ch": "CH-30",
+      "rf.name": "隊長",
+      "rf.pose": "sword-up",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p10-k3（panels/e01-p10-k3.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 53%, y 41%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p10-k3-03",
+     "values": {
+      "rf.fg": "FG-e01-p10-k3-03",
+      "rf.panel": "e01-p10-k3",
+      "rf.ch": "CH-30",
+      "rf.name": "弓兵1",
+      "rf.pose": "archer",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p10-k3（panels/e01-p10-k3.jpg）",
+      "rf.where": "head at middle-right of the frame (x 101%, y 41%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p10-k3-04",
+     "values": {
+      "rf.fg": "FG-e01-p10-k3-04",
+      "rf.panel": "e01-p10-k3",
+      "rf.ch": "CH-30",
+      "rf.name": "弓兵2",
+      "rf.pose": "archer",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p10-k3（panels/e01-p10-k3.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 61%, y 41%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p10-k3-05",
+     "values": {
+      "rf.fg": "FG-e01-p10-k3-05",
+      "rf.panel": "e01-p10-k3",
+      "rf.ch": "CH-30",
+      "rf.name": "弓兵3",
+      "rf.pose": "archer",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p10-k3（panels/e01-p10-k3.jpg）",
+      "rf.where": "head at middle-left of the frame (x 16%, y 41%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p10-k4-01",
+     "values": {
+      "rf.fg": "FG-e01-p10-k4-01",
+      "rf.panel": "e01-p10-k4",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "lie-arm-free",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p10-k4（panels/e01-p10-k4.jpg）",
+      "rf.where": "head at bottom-centre of the frame (x 61%, y 104%), feet at outside the frame",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p10-k4-02",
+     "values": {
+      "rf.fg": "FG-e01-p10-k4-02",
+      "rf.panel": "e01-p10-k4",
+      "rf.ch": "CH-30",
+      "rf.name": "弓兵1",
+      "rf.pose": "archer",
+      "rf.drawn": false,
+      "rf.drawing": "",
+      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+      "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+     }
+    },
+    {
+     "id": "FG-e01-p10-k4-03",
+     "values": {
+      "rf.fg": "FG-e01-p10-k4-03",
+      "rf.panel": "e01-p10-k4",
+      "rf.ch": "CH-30",
+      "rf.name": "弓兵2",
+      "rf.pose": "archer",
+      "rf.drawn": false,
+      "rf.drawing": "",
+      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+      "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+     }
+    },
+    {
+     "id": "FG-e01-p10-k4-04",
+     "values": {
+      "rf.fg": "FG-e01-p10-k4-04",
+      "rf.panel": "e01-p10-k4",
+      "rf.ch": "CH-30",
+      "rf.name": "弓兵3",
+      "rf.pose": "archer",
+      "rf.drawn": false,
+      "rf.drawing": "",
+      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+      "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+     }
+    },
+    {
+     "id": "FG-e01-p10-k4-05",
+     "values": {
+      "rf.fg": "FG-e01-p10-k4-05",
+      "rf.panel": "e01-p10-k4",
+      "rf.ch": "CH-30",
+      "rf.name": "弓兵4",
+      "rf.pose": "archer",
+      "rf.drawn": false,
+      "rf.drawing": "",
+      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+      "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+     }
+    },
+    {
+     "id": "FG-e01-p11-k1-01",
+     "values": {
+      "rf.fg": "FG-e01-p11-k1-01",
+      "rf.panel": "e01-p11-k1",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "lie",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p11-k1（panels/e01-p11-k1.jpg）",
+      "rf.where": "head at outside the frame, feet at outside the frame",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p11-k2-01",
+     "values": {
+      "rf.fg": "FG-e01-p11-k2-01",
+      "rf.panel": "e01-p11-k2",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "lie",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p11-k2（panels/e01-p11-k2.jpg）",
+      "rf.where": "head at outside the frame, feet at outside the frame",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p11-k3-01",
+     "values": {
+      "rf.fg": "FG-e01-p11-k3-01",
+      "rf.panel": "e01-p11-k3",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "lie",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p11-k3（panels/e01-p11-k3.jpg）",
+      "rf.where": "head at bottom-centre of the frame (x 51%, y 109%), feet at outside the frame",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p11-k3-02",
+     "values": {
+      "rf.fg": "FG-e01-p11-k3-02",
+      "rf.panel": "e01-p11-k3",
+      "rf.ch": "CH-30",
+      "rf.name": "演説する貴人",
+      "rf.pose": "orate",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p11-k3（panels/e01-p11-k3.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 50%, y 40%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p11-k3-03",
+     "values": {
+      "rf.fg": "FG-e01-p11-k3-03",
+      "rf.panel": "e01-p11-k3",
+      "rf.ch": "CH-30",
+      "rf.name": "胸の小人2",
+      "rf.pose": "stand",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p11-k3（panels/e01-p11-k3.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 46%, y 45%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p11-k4-01",
+     "values": {
+      "rf.fg": "FG-e01-p11-k4-01",
+      "rf.panel": "e01-p11-k4",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "lie-eat",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p11-k4（panels/e01-p11-k4.jpg）",
+      "rf.where": "head at outside the frame, feet at outside the frame",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p11-k5-01",
+     "values": {
+      "rf.fg": "FG-e01-p11-k5-01",
+      "rf.panel": "e01-p11-k5",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "lie",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p11-k5（panels/e01-p11-k5.jpg）",
+      "rf.where": "head at outside the frame, feet at outside the frame",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p11-k5-02",
+     "values": {
+      "rf.fg": "FG-e01-p11-k5-02",
+      "rf.panel": "e01-p11-k5",
+      "rf.ch": "CH-30",
+      "rf.name": "胸の小人2",
+      "rf.pose": "carry-up",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p11-k5（panels/e01-p11-k5.jpg）",
+      "rf.where": "head at top-centre of the frame (x 50%, y 19%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p11-k5-03",
+     "values": {
+      "rf.fg": "FG-e01-p11-k5-03",
+      "rf.panel": "e01-p11-k5",
+      "rf.ch": "CH-30",
+      "rf.name": "胸の小人3",
+      "rf.pose": "carry-up",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p11-k5（panels/e01-p11-k5.jpg）",
+      "rf.where": "head at top-centre of the frame (x 54%, y 14%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p11-k5-04",
+     "values": {
+      "rf.fg": "FG-e01-p11-k5-04",
+      "rf.panel": "e01-p11-k5",
+      "rf.ch": "CH-30",
+      "rf.name": "胸の小人4",
+      "rf.pose": "carry-up",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p11-k5（panels/e01-p11-k5.jpg）",
+      "rf.where": "head at top-centre of the frame (x 54%, y 26%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p12-k1-01",
+     "values": {
+      "rf.fg": "FG-e01-p12-k1-01",
+      "rf.panel": "e01-p12-k1",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "lie-eat",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p12-k1（panels/e01-p12-k1.jpg）",
+      "rf.where": "head at outside the frame, feet at outside the frame",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p12-k2-01",
+     "values": {
+      "rf.fg": "FG-e01-p12-k2-01",
+      "rf.panel": "e01-p12-k2",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "lie-drink",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p12-k2（panels/e01-p12-k2.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 50%, y 34%), feet at behind the camera (not drawn)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p12-k2-02",
+     "values": {
+      "rf.fg": "FG-e01-p12-k2-02",
+      "rf.panel": "e01-p12-k2",
+      "rf.ch": "CH-30",
+      "rf.name": "胸の小人2",
+      "rf.pose": "stand",
+      "rf.drawn": false,
+      "rf.drawing": "",
+      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+      "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+     }
+    },
+    {
+     "id": "FG-e01-p12-k2-03",
+     "values": {
+      "rf.fg": "FG-e01-p12-k2-03",
+      "rf.panel": "e01-p12-k2",
+      "rf.ch": "CH-30",
+      "rf.name": "胸の小人3",
+      "rf.pose": "stand",
+      "rf.drawn": false,
+      "rf.drawing": "",
+      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+      "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+     }
+    },
+    {
+     "id": "FG-e01-p12-k3-01",
+     "values": {
+      "rf.fg": "FG-e01-p12-k3-01",
+      "rf.panel": "e01-p12-k3",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "lie",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p12-k3（panels/e01-p12-k3.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 40%, y 51%), feet at behind the camera (not drawn)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p12-k3-02",
+     "values": {
+      "rf.fg": "FG-e01-p12-k3-02",
+      "rf.panel": "e01-p12-k3",
+      "rf.ch": "CH-30",
+      "rf.name": "最初の小人（弓と矢筒）",
+      "rf.pose": "dance",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p12-k3（panels/e01-p12-k3.jpg）",
+      "rf.where": "big in the foreground, head cut off by the frame edge, body at middle-centre of the frame (x 64%, y 39%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p12-k3-03",
+     "values": {
+      "rf.fg": "FG-e01-p12-k3-03",
+      "rf.panel": "e01-p12-k3",
+      "rf.ch": "CH-30",
+      "rf.name": "胸の小人2",
+      "rf.pose": "dance",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p12-k3（panels/e01-p12-k3.jpg）",
+      "rf.where": "big in the foreground, head cut off by the frame edge, body at middle-centre of the frame (x 39%, y 47%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p12-k3-04",
+     "values": {
+      "rf.fg": "FG-e01-p12-k3-04",
+      "rf.panel": "e01-p12-k3",
+      "rf.ch": "CH-30",
+      "rf.name": "胸の小人3",
+      "rf.pose": "dance",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p12-k3（panels/e01-p12-k3.jpg）",
+      "rf.where": "big in the foreground, head cut off by the frame edge, body at middle-right of the frame (x 72%, y 61%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p12-k3-05",
+     "values": {
+      "rf.fg": "FG-e01-p12-k3-05",
+      "rf.panel": "e01-p12-k3",
+      "rf.ch": "CH-30",
+      "rf.name": "胸の小人4",
+      "rf.pose": "dance",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p12-k3（panels/e01-p12-k3.jpg）",
+      "rf.where": "big in the foreground, head cut off by the frame edge, body at bottom-centre of the frame (x 39%, y 88%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p12-k3-06",
+     "values": {
+      "rf.fg": "FG-e01-p12-k3-06",
+      "rf.panel": "e01-p12-k3",
+      "rf.ch": "CH-30",
+      "rf.name": "胸の小人5",
+      "rf.pose": "dance",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p12-k3（panels/e01-p12-k3.jpg）",
+      "rf.where": "very close, filling the foreground near x 119% (cut by the frame)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p12-k4-01",
+     "values": {
+      "rf.fg": "FG-e01-p12-k4-01",
+      "rf.panel": "e01-p12-k4",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "lie-hand-hover",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p12-k4（panels/e01-p12-k4.jpg）",
+      "rf.where": "head at middle-right of the frame (x 78%, y 42%), feet at outside the frame",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p12-k4-02",
+     "values": {
+      "rf.fg": "FG-e01-p12-k4-02",
+      "rf.panel": "e01-p12-k4",
+      "rf.ch": "CH-30",
+      "rf.name": "最初の小人（弓と矢筒）",
+      "rf.pose": "dance",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p12-k4（panels/e01-p12-k4.jpg）",
+      "rf.where": "head at top-centre of the frame (x 50%, y 3%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p12-k4-03",
+     "values": {
+      "rf.fg": "FG-e01-p12-k4-03",
+      "rf.panel": "e01-p12-k4",
+      "rf.ch": "CH-30",
+      "rf.name": "胸の小人2",
+      "rf.pose": "dance",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p12-k4（panels/e01-p12-k4.jpg）",
+      "rf.where": "head at top-centre of the frame (x 40%, y 3%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p12-k4-04",
+     "values": {
+      "rf.fg": "FG-e01-p12-k4-04",
+      "rf.panel": "e01-p12-k4",
+      "rf.ch": "CH-30",
+      "rf.name": "胸の小人3",
+      "rf.pose": "dance",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p12-k4（panels/e01-p12-k4.jpg）",
+      "rf.where": "head at top-centre of the frame (x 38%, y 5%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p12-k5-01",
+     "values": {
+      "rf.fg": "FG-e01-p12-k5-01",
+      "rf.panel": "e01-p12-k5",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "lie",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p12-k5（panels/e01-p12-k5.jpg）",
+      "rf.where": "head at outside the frame, feet at outside the frame",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p13-k1-01",
+     "values": {
+      "rf.fg": "FG-e01-p13-k1-01",
+      "rf.panel": "e01-p13-k1",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "lie",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p13-k1（panels/e01-p13-k1.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 34%, y 44%), feet at outside the frame",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p13-k2-01",
+     "values": {
+      "rf.fg": "FG-e01-p13-k2-01",
+      "rf.panel": "e01-p13-k2",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "lie",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p13-k2（panels/e01-p13-k2.jpg）",
+      "rf.where": "head at bottom-left of the frame (x -7%, y 74%), feet at middle-centre of the frame (x 34%, y 55%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p13-k2-02",
+     "values": {
+      "rf.fg": "FG-e01-p13-k2-02",
+      "rf.panel": "e01-p13-k2",
+      "rf.ch": "CH-30",
+      "rf.name": "見張り",
+      "rf.pose": "point",
+      "rf.drawn": false,
+      "rf.drawing": "",
+      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+      "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+     }
+    },
+    {
+     "id": "FG-e01-p13-k3-01",
+     "values": {
+      "rf.fg": "FG-e01-p13-k3-01",
+      "rf.panel": "e01-p13-k3",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "lie",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p13-k3（panels/e01-p13-k3.jpg）",
+      "rf.where": "head at top-right of the frame (x 70%, y -9%), feet at outside the frame",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p14-k1-01",
+     "values": {
+      "rf.fg": "FG-e01-p14-k1-01",
+      "rf.panel": "e01-p14-k1",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "lie",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p14-k1（panels/e01-p14-k1.jpg）",
+      "rf.where": "head at middle-left of the frame (x 26%, y 60%), feet at middle-centre of the frame (x 43%, y 62%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p14-k2-01",
+     "values": {
+      "rf.fg": "FG-e01-p14-k2-01",
+      "rf.panel": "e01-p14-k2",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "lie",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p14-k2（panels/e01-p14-k2.jpg）",
+      "rf.where": "head at behind the camera (not drawn), feet at top-centre of the frame (x 38%, y 19%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p14-k2-02",
+     "values": {
+      "rf.fg": "FG-e01-p14-k2-02",
+      "rf.panel": "e01-p14-k2",
+      "rf.ch": "CH-30",
+      "rf.name": "王の鍛冶",
+      "rf.pose": "crouch",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p14-k2（panels/e01-p14-k2.jpg）",
+      "rf.where": "big in the foreground, head cut off by the frame edge, body at top-left of the frame (x 2%, y 21%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p14-k3-01",
+     "values": {
+      "rf.fg": "FG-e01-p14-k3-01",
+      "rf.panel": "e01-p14-k3",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "lie",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p14-k3（panels/e01-p14-k3.jpg）",
+      "rf.where": "head at outside the frame, feet at outside the frame",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p15-k1-01",
+     "values": {
+      "rf.fg": "FG-e01-p15-k1-01",
+      "rf.panel": "e01-p15-k1",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "stand",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p15-k1（panels/e01-p15-k1.jpg）",
+      "rf.where": "head at top-centre of the frame (x 50%, y 30%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p15-k2-01",
+     "values": {
+      "rf.fg": "FG-e01-p15-k2-01",
+      "rf.panel": "e01-p15-k2",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "stand",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p15-k2（panels/e01-p15-k2.jpg）",
+      "rf.where": "big in the foreground, head cut off by the frame edge, body at top-left of the frame (x 13%, y -4%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p16-k1-01",
+     "values": {
+      "rf.fg": "FG-e01-p16-k1-01",
+      "rf.panel": "e01-p16-k1",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "stand",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p16-k1（panels/e01-p16-k1.jpg）",
+      "rf.where": "head at top-centre of the frame (x 50%, y 33%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p16-k1-02",
+     "values": {
+      "rf.fg": "FG-e01-p16-k1-02",
+      "rf.panel": "e01-p16-k1",
+      "rf.ch": "CH-02",
+      "rf.name": "皇帝",
+      "rf.pose": "stand",
+      "rf.drawn": false,
+      "rf.drawing": "",
+      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+      "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+     }
+    },
+    {
+     "id": "FG-e01-p16-k1-03",
+     "values": {
+      "rf.fg": "FG-e01-p16-k1-03",
+      "rf.panel": "e01-p16-k1",
+      "rf.ch": "CH-30",
+      "rf.name": "貴人1",
+      "rf.pose": "stand",
+      "rf.drawn": false,
+      "rf.drawing": "",
+      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+      "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+     }
+    },
+    {
+     "id": "FG-e01-p16-k1-04",
+     "values": {
+      "rf.fg": "FG-e01-p16-k1-04",
+      "rf.panel": "e01-p16-k1",
+      "rf.ch": "CH-30",
+      "rf.name": "貴人2",
+      "rf.pose": "stand",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p16-k1（panels/e01-p16-k1.jpg）",
+      "rf.where": "head at top-right of the frame (x 99%, y 32%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p16-k2-01",
+     "values": {
+      "rf.fg": "FG-e01-p16-k2-01",
+      "rf.panel": "e01-p16-k2",
+      "rf.ch": "CH-02",
+      "rf.name": "皇帝",
+      "rf.pose": "stand",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p16-k2（panels/e01-p16-k2.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 50%, y 40%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p16-k2-02",
+     "values": {
+      "rf.fg": "FG-e01-p16-k2-02",
+      "rf.panel": "e01-p16-k2",
+      "rf.ch": "CH-30",
+      "rf.name": "貴人1",
+      "rf.pose": "stand",
+      "rf.drawn": false,
+      "rf.drawing": "",
+      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+      "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+     }
+    },
+    {
+     "id": "FG-e01-p16-k3-01",
+     "values": {
+      "rf.fg": "FG-e01-p16-k3-01",
+      "rf.panel": "e01-p16-k3",
+      "rf.ch": "CH-02",
+      "rf.name": "皇帝",
+      "rf.pose": "point",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p16-k3（panels/e01-p16-k3.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 50%, y 35%)",
+      "rf.note": ""
+     }
+    },
+    {
+     "id": "FG-e01-p16-k4-01",
+     "values": {
+      "rf.fg": "FG-e01-p16-k4-01",
+      "rf.panel": "e01-p16-k4",
+      "rf.ch": "CH-01",
+      "rf.name": "ガリヴァー",
+      "rf.pose": "sit",
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p16-k4（panels/e01-p16-k4.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 50%, y 49%)",
+      "rf.note": ""
+     }
+    }
+   ]
+  }
+ },
+ "versions": [
+  {
+   "artifactId": "gm1-ep01-rough-figures",
+   "versionId": "rough-ep01-v1",
+   "parentVersionId": null,
+   "schemaVersion": 1,
+   "createdAt": "2026-11-14T00:00:00.000Z",
+   "createdBy": null,
+   "reason": "ガリヴァー旅行記 第1話のラフ（fiction-manga@1.2.0 ラフ、gm1-ep01-name@name-ep01-v2 から。AI の提案）",
+   "content": {
+    "schemaVersion": 2,
+    "columns": [
+     {
+      "id": "rf.fg",
+      "name": "人物の配置（FG）",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "rf.panel",
+      "name": "コマ",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "rf.ch",
+      "name": "人物表",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "rf.name",
+      "name": "名前",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "rf.pose",
+      "name": "ポーズ（3D の舞台）",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "rf.drawn",
+      "name": "このコマ用に描いた",
+      "type": "boolean",
+      "required": true
+     },
+     {
+      "id": "rf.drawing",
+      "name": "絵",
+      "type": "text"
+     },
+     {
+      "id": "rf.where",
+      "name": "コマの中の位置（3D のカメラから）",
+      "type": "text"
+     },
+     {
+      "id": "rf.note",
+      "name": "描かない理由・同じ絵を使う理由",
+      "type": "text"
+     }
+    ],
+    "rows": [
+     {
+      "id": "FG-e01-p01-k1-01",
+      "values": {
+       "rf.fg": "FG-e01-p01-k1-01",
+       "rf.panel": "e01-p01-k1",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "lie-look",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p01-k1（panels/e01-p01-k1.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 52%, y 51%), feet at behind the camera (not drawn)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p01-k1-02",
+      "values": {
+       "rf.fg": "FG-e01-p01-k1-02",
+       "rf.panel": "e01-p01-k1",
+       "rf.ch": "CH-30",
+       "rf.name": "最初の小人（弓と矢筒）",
+       "rf.pose": "archer",
+       "rf.drawn": false,
+       "rf.drawing": "",
+       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+       "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+      }
+     },
+     {
+      "id": "FG-e01-p01-k1-03",
+      "values": {
+       "rf.fg": "FG-e01-p01-k1-03",
+       "rf.panel": "e01-p01-k1",
+       "rf.ch": "CH-30",
+       "rf.name": "胸の小人2",
+       "rf.pose": "stand",
+       "rf.drawn": false,
+       "rf.drawing": "",
+       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+       "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+      }
+     },
+     {
+      "id": "FG-e01-p01-k1-04",
+      "values": {
+       "rf.fg": "FG-e01-p01-k1-04",
+       "rf.panel": "e01-p01-k1",
+       "rf.ch": "CH-30",
+       "rf.name": "胸の小人3",
+       "rf.pose": "archer",
+       "rf.drawn": false,
+       "rf.drawing": "",
+       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+       "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+      }
+     },
+     {
+      "id": "FG-e01-p01-k1-05",
+      "values": {
+       "rf.fg": "FG-e01-p01-k1-05",
+       "rf.panel": "e01-p01-k1",
+       "rf.ch": "CH-30",
+       "rf.name": "胸の小人4",
+       "rf.pose": "stand",
+       "rf.drawn": false,
+       "rf.drawing": "",
+       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+       "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+      }
+     },
+     {
+      "id": "FG-e01-p01-k1-06",
+      "values": {
+       "rf.fg": "FG-e01-p01-k1-06",
+       "rf.panel": "e01-p01-k1",
+       "rf.ch": "CH-30",
+       "rf.name": "胸の小人5",
+       "rf.pose": "stand",
+       "rf.drawn": false,
+       "rf.drawing": "",
+       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+       "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+      }
+     },
+     {
+      "id": "FG-e01-p01-k2-01",
+      "values": {
+       "rf.fg": "FG-e01-p01-k2-01",
+       "rf.panel": "e01-p01-k2",
+       "rf.ch": "CH-10",
+       "rf.name": "メアリー",
+       "rf.pose": "stand",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p01-k2（panels/e01-p01-k2.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 46%, y 47%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p02-k1-01",
+      "values": {
+       "rf.fg": "FG-e01-p02-k1-01",
+       "rf.panel": "e01-p02-k1",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "hands-together",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p02-k1（panels/e01-p02-k1.jpg）",
+       "rf.where": "head at middle-right of the frame (x 80%, y 35%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p02-k1-02",
+      "values": {
+       "rf.fg": "FG-e01-p02-k1-02",
+       "rf.panel": "e01-p02-k1",
+       "rf.ch": "horse",
+       "rf.name": "馬（灰）",
+       "rf.pose": "stand",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p02-k1（panels/e01-p02-k1.jpg）",
+       "rf.where": "head at middle-left of the frame (x 10%, y 42%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p02-k1-03",
+      "values": {
+       "rf.fg": "FG-e01-p02-k1-03",
+       "rf.panel": "e01-p02-k1",
+       "rf.ch": "horse",
+       "rf.name": "馬（栗毛）",
+       "rf.pose": "stand",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p02-k1（panels/e01-p02-k1.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 48%, y 42%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p02-k1-04",
+      "values": {
+       "rf.fg": "FG-e01-p02-k1-04",
+       "rf.panel": "e01-p02-k1",
+       "rf.ch": "CH-10",
+       "rf.name": "メアリー",
+       "rf.pose": "hands-together",
+       "rf.drawn": false,
+       "rf.drawing": "",
+       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+       "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+      }
+     },
+     {
+      "id": "FG-e01-p02-k2-01",
+      "values": {
+       "rf.fg": "FG-e01-p02-k2-01",
+       "rf.panel": "e01-p02-k2",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "hands-together",
+       "rf.drawn": false,
+       "rf.drawing": "",
+       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+       "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+      }
+     },
+     {
+      "id": "FG-e01-p02-k2-02",
+      "values": {
+       "rf.fg": "FG-e01-p02-k2-02",
+       "rf.panel": "e01-p02-k2",
+       "rf.ch": "horse",
+       "rf.name": "馬（灰）",
+       "rf.pose": "stand",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p02-k2（panels/e01-p02-k2.jpg）",
+       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+       "rf.note": "3D のカメラ（注視点が馬の頭より左）では画角のわずかに外。ネームの絵のメモ「馬の鼻先」に合わせ、ラフでは灰の馬の鼻先を描いた。ネームの舞台のカメラを直す"
+      }
+     },
+     {
+      "id": "FG-e01-p02-k2-03",
+      "values": {
+       "rf.fg": "FG-e01-p02-k2-03",
+       "rf.panel": "e01-p02-k2",
+       "rf.ch": "horse",
+       "rf.name": "馬（栗毛）",
+       "rf.pose": "stand",
+       "rf.drawn": false,
+       "rf.drawing": "",
+       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+       "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+      }
+     },
+     {
+      "id": "FG-e01-p02-k3-01",
+      "values": {
+       "rf.fg": "FG-e01-p02-k3-01",
+       "rf.panel": "e01-p02-k3",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "hands-together",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p02-k3（panels/e01-p02-k3.jpg）",
+       "rf.where": "head at middle-right of the frame (x 76%, y 36%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p02-k3-02",
+      "values": {
+       "rf.fg": "FG-e01-p02-k3-02",
+       "rf.panel": "e01-p02-k3",
+       "rf.ch": "horse",
+       "rf.name": "馬（灰）",
+       "rf.pose": "stand",
+       "rf.drawn": false,
+       "rf.drawing": "",
+       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+       "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+      }
+     },
+     {
+      "id": "FG-e01-p02-k3-03",
+      "values": {
+       "rf.fg": "FG-e01-p02-k3-03",
+       "rf.panel": "e01-p02-k3",
+       "rf.ch": "horse",
+       "rf.name": "馬（栗毛）",
+       "rf.pose": "stand",
+       "rf.drawn": false,
+       "rf.drawing": "",
+       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+       "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+      }
+     },
+     {
+      "id": "FG-e01-p02-k3-04",
+      "values": {
+       "rf.fg": "FG-e01-p02-k3-04",
+       "rf.panel": "e01-p02-k3",
+       "rf.ch": "CH-10",
+       "rf.name": "メアリー",
+       "rf.pose": "hands-together",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p02-k3（panels/e01-p02-k3.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 50%, y 43%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p02-k4-01",
+      "values": {
+       "rf.fg": "FG-e01-p02-k4-01",
+       "rf.panel": "e01-p02-k4",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "hands-together",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p02-k4（panels/e01-p02-k4.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 47%, y 49%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p02-k4-02",
+      "values": {
+       "rf.fg": "FG-e01-p02-k4-02",
+       "rf.panel": "e01-p02-k4",
+       "rf.ch": "horse",
+       "rf.name": "馬（灰）",
+       "rf.pose": "stand",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p02-k4（panels/e01-p02-k4.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 36%, y 52%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p02-k4-03",
+      "values": {
+       "rf.fg": "FG-e01-p02-k4-03",
+       "rf.panel": "e01-p02-k4",
+       "rf.ch": "horse",
+       "rf.name": "馬（栗毛）",
+       "rf.pose": "stand",
+       "rf.drawn": false,
+       "rf.drawing": "",
+       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+       "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+      }
+     },
+     {
+      "id": "FG-e01-p02-k5-01",
+      "values": {
+       "rf.fg": "FG-e01-p02-k5-01",
+       "rf.panel": "e01-p02-k5",
+       "rf.ch": "CH-10",
+       "rf.name": "メアリー",
+       "rf.pose": "turn-away",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p02-k5（panels/e01-p02-k5.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 59%, y 44%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p02-k6-01",
+      "values": {
+       "rf.fg": "FG-e01-p02-k6-01",
+       "rf.panel": "e01-p02-k6",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "hands-together",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p02-k6（panels/e01-p02-k6.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 66%, y 40%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p02-k6-02",
+      "values": {
+       "rf.fg": "FG-e01-p02-k6-02",
+       "rf.panel": "e01-p02-k6",
+       "rf.ch": "horse",
+       "rf.name": "馬（灰）",
+       "rf.pose": "stand",
+       "rf.drawn": false,
+       "rf.drawing": "",
+       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+       "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+      }
+     },
+     {
+      "id": "FG-e01-p02-k6-03",
+      "values": {
+       "rf.fg": "FG-e01-p02-k6-03",
+       "rf.panel": "e01-p02-k6",
+       "rf.ch": "horse",
+       "rf.name": "馬（栗毛）",
+       "rf.pose": "stand",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p02-k6（panels/e01-p02-k6.jpg）",
+       "rf.where": "head at middle-right of the frame (x 73%, y 64%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p03-k1-01",
+      "values": {
+       "rf.fg": "FG-e01-p03-k1-01",
+       "rf.panel": "e01-p03-k1",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "carry-bag",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p03-k1（panels/e01-p03-k1.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 63%, y 58%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p03-k1-02",
+      "values": {
+       "rf.fg": "FG-e01-p03-k1-02",
+       "rf.panel": "e01-p03-k1",
+       "rf.ch": "CH-10",
+       "rf.name": "メアリー",
+       "rf.pose": "hands-together",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p03-k1（panels/e01-p03-k1.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 65%, y 58%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p03-k1-03",
+      "values": {
+       "rf.fg": "FG-e01-p03-k1-03",
+       "rf.panel": "e01-p03-k1",
+       "rf.ch": "EX",
+       "rf.name": "船員1",
+       "rf.pose": "carry-up",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p03-k1（panels/e01-p03-k1.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 40%, y 55%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p03-k1-04",
+      "values": {
+       "rf.fg": "FG-e01-p03-k1-04",
+       "rf.panel": "e01-p03-k1",
+       "rf.ch": "EX",
+       "rf.name": "船員2",
+       "rf.pose": "walk",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p03-k1（panels/e01-p03-k1.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 43%, y 49%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p03-k1-05",
+      "values": {
+       "rf.fg": "FG-e01-p03-k1-05",
+       "rf.panel": "e01-p03-k1",
+       "rf.ch": "EX",
+       "rf.name": "船員3",
+       "rf.pose": "point",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p03-k1（panels/e01-p03-k1.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 54%, y 41%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p03-k2-01",
+      "values": {
+       "rf.fg": "FG-e01-p03-k2-01",
+       "rf.panel": "e01-p03-k2",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "carry-bag",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p03-k2（panels/e01-p03-k2.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 50%, y 34%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p03-k2-02",
+      "values": {
+       "rf.fg": "FG-e01-p03-k2-02",
+       "rf.panel": "e01-p03-k2",
+       "rf.ch": "CH-10",
+       "rf.name": "メアリー",
+       "rf.pose": "hands-together",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p03-k2（panels/e01-p03-k2.jpg）",
+       "rf.where": "head at middle-right of the frame (x 89%, y 38%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p03-k3-01",
+      "values": {
+       "rf.fg": "FG-e01-p03-k3-01",
+       "rf.panel": "e01-p03-k3",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "carry-bag",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p03-k3（panels/e01-p03-k3.jpg）",
+       "rf.where": "head at middle-left of the frame (x 0%, y 39%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p03-k3-02",
+      "values": {
+       "rf.fg": "FG-e01-p03-k3-02",
+       "rf.panel": "e01-p03-k3",
+       "rf.ch": "CH-10",
+       "rf.name": "メアリー",
+       "rf.pose": "hands-together",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p03-k3（panels/e01-p03-k3.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 50%, y 49%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p03-k4-01",
+      "values": {
+       "rf.fg": "FG-e01-p03-k4-01",
+       "rf.panel": "e01-p03-k4",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "carry-bag",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p03-k4（panels/e01-p03-k4.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 50%, y 48%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p03-k4-02",
+      "values": {
+       "rf.fg": "FG-e01-p03-k4-02",
+       "rf.panel": "e01-p03-k4",
+       "rf.ch": "CH-10",
+       "rf.name": "メアリー",
+       "rf.pose": "hands-together",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p03-k4（panels/e01-p03-k4.jpg）",
+       "rf.where": "head at bottom-left of the frame (x 26%, y 69%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p04-k1-01",
+      "values": {
+       "rf.fg": "FG-e01-p04-k1-01",
+       "rf.panel": "e01-p04-k1",
+       "rf.ch": "CH-10",
+       "rf.name": "メアリー",
+       "rf.pose": "hands-together",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p04-k1（panels/e01-p04-k1.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 50%, y 50%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p04-k2-01",
+      "values": {
+       "rf.fg": "FG-e01-p04-k2-01",
+       "rf.panel": "e01-p04-k2",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "wave-hat",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p04-k2（panels/e01-p04-k2.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 45%, y 40%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p04-k2-02",
+      "values": {
+       "rf.fg": "FG-e01-p04-k2-02",
+       "rf.panel": "e01-p04-k2",
+       "rf.ch": "CH-10",
+       "rf.name": "メアリー",
+       "rf.pose": "hands-together",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p04-k2（panels/e01-p04-k2.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 38%, y 47%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p04-k3-01",
+      "values": {
+       "rf.fg": "FG-e01-p04-k3-01",
+       "rf.panel": "e01-p04-k3",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "wave-hat",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p04-k3（panels/e01-p04-k3.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 46%, y 43%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p04-k3-02",
+      "values": {
+       "rf.fg": "FG-e01-p04-k3-02",
+       "rf.panel": "e01-p04-k3",
+       "rf.ch": "EX",
+       "rf.name": "船員1",
+       "rf.pose": "carry-up",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p04-k3（panels/e01-p04-k3.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 48%, y 42%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p05-k1-01",
+      "values": {
+       "rf.fg": "FG-e01-p05-k1-01",
+       "rf.panel": "e01-p05-k1",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "crouch",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p05-k1（panels/e01-p05-k1.jpg）",
+       "rf.where": "head at middle-left of the frame (x 21%, y 53%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p05-k1-02",
+      "values": {
+       "rf.fg": "FG-e01-p05-k1-02",
+       "rf.panel": "e01-p05-k1",
+       "rf.ch": "EX",
+       "rf.name": "船員1",
+       "rf.pose": "fall",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p05-k1（panels/e01-p05-k1.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 34%, y 54%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p05-k1-03",
+      "values": {
+       "rf.fg": "FG-e01-p05-k1-03",
+       "rf.panel": "e01-p05-k1",
+       "rf.ch": "EX",
+       "rf.name": "船員2",
+       "rf.pose": "carry-up",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p05-k1（panels/e01-p05-k1.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 45%, y 55%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p05-k1-04",
+      "values": {
+       "rf.fg": "FG-e01-p05-k1-04",
+       "rf.panel": "e01-p05-k1",
+       "rf.ch": "EX",
+       "rf.name": "船員3",
+       "rf.pose": "fall",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p05-k1（panels/e01-p05-k1.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 66%, y 49%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p05-k1-05",
+      "values": {
+       "rf.fg": "FG-e01-p05-k1-05",
+       "rf.panel": "e01-p05-k1",
+       "rf.ch": "EX",
+       "rf.name": "船員4",
+       "rf.pose": "point",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p05-k1（panels/e01-p05-k1.jpg）",
+       "rf.where": "head at middle-left of the frame (x 0%, y 35%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p05-k2-01",
+      "values": {
+       "rf.fg": "FG-e01-p05-k2-01",
+       "rf.panel": "e01-p05-k2",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "crouch",
+       "rf.drawn": false,
+       "rf.drawing": "",
+       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+       "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+      }
+     },
+     {
+      "id": "FG-e01-p05-k2-02",
+      "values": {
+       "rf.fg": "FG-e01-p05-k2-02",
+       "rf.panel": "e01-p05-k2",
+       "rf.ch": "EX",
+       "rf.name": "船員3",
+       "rf.pose": "fall",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p05-k2（panels/e01-p05-k2.jpg）",
+       "rf.where": "head at top-centre of the frame (x 65%, y -2%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p05-k2-03",
+      "values": {
+       "rf.fg": "FG-e01-p05-k2-03",
+       "rf.panel": "e01-p05-k2",
+       "rf.ch": "EX",
+       "rf.name": "船員4",
+       "rf.pose": "crouch",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p05-k2（panels/e01-p05-k2.jpg）",
+       "rf.where": "very close, filling the foreground near x -19% (cut by the frame)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p05-k2-04",
+      "values": {
+       "rf.fg": "FG-e01-p05-k2-04",
+       "rf.panel": "e01-p05-k2",
+       "rf.ch": "EX",
+       "rf.name": "船員5",
+       "rf.pose": "carry-up",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p05-k2（panels/e01-p05-k2.jpg）",
+       "rf.where": "head at top-centre of the frame (x 59%, y 32%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p05-k3-01",
+      "values": {
+       "rf.fg": "FG-e01-p05-k3-01",
+       "rf.panel": "e01-p05-k3",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "tread",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p05-k3（panels/e01-p05-k3.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 55%, y 54%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p05-k3-02",
+      "values": {
+       "rf.fg": "FG-e01-p05-k3-02",
+       "rf.panel": "e01-p05-k3",
+       "rf.ch": "EX",
+       "rf.name": "船員1",
+       "rf.pose": "fall",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p05-k3（panels/e01-p05-k3.jpg）",
+       "rf.where": "head at top-right of the frame (x 95%, y 21%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p05-k3-03",
+      "values": {
+       "rf.fg": "FG-e01-p05-k3-03",
+       "rf.panel": "e01-p05-k3",
+       "rf.ch": "EX",
+       "rf.name": "船員2",
+       "rf.pose": "tread",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p05-k3（panels/e01-p05-k3.jpg）",
+       "rf.where": "head at middle-right of the frame (x 88%, y 54%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p05-k3-04",
+      "values": {
+       "rf.fg": "FG-e01-p05-k3-04",
+       "rf.panel": "e01-p05-k3",
+       "rf.ch": "EX",
+       "rf.name": "船員3",
+       "rf.pose": "fall",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p05-k3（panels/e01-p05-k3.jpg）",
+       "rf.where": "head at top-left of the frame (x 26%, y 27%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p05-k3-05",
+      "values": {
+       "rf.fg": "FG-e01-p05-k3-05",
+       "rf.panel": "e01-p05-k3",
+       "rf.ch": "EX",
+       "rf.name": "船員4",
+       "rf.pose": "swim",
+       "rf.drawn": false,
+       "rf.drawing": "",
+       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+       "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+      }
+     },
+     {
+      "id": "FG-e01-p05-k3-06",
+      "values": {
+       "rf.fg": "FG-e01-p05-k3-06",
+       "rf.panel": "e01-p05-k3",
+       "rf.ch": "EX",
+       "rf.name": "船員5",
+       "rf.pose": "tread",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p05-k3（panels/e01-p05-k3.jpg）",
+       "rf.where": "head at middle-left of the frame (x 5%, y 55%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p06-k1-01",
+      "values": {
+       "rf.fg": "FG-e01-p06-k1-01",
+       "rf.panel": "e01-p06-k1",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "tread",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p06-k1（panels/e01-p06-k1.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 50%, y 49%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p06-k2-01",
+      "values": {
+       "rf.fg": "FG-e01-p06-k2-01",
+       "rf.panel": "e01-p06-k2",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "swim",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p06-k2（panels/e01-p06-k2.jpg）",
+       "rf.where": "only the legs/feet in frame, at middle-centre of the frame (x 50%, y 58%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p06-k3-01",
+      "values": {
+       "rf.fg": "FG-e01-p06-k3-01",
+       "rf.panel": "e01-p06-k3",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "walk",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p06-k3（panels/e01-p06-k3.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 39%, y 34%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p07-k1-01",
+      "values": {
+       "rf.fg": "FG-e01-p07-k1-01",
+       "rf.panel": "e01-p07-k1",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "lie",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p07-k1（panels/e01-p07-k1.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 59%, y 49%), feet at middle-centre of the frame (x 36%, y 50%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p07-k2-01",
+      "values": {
+       "rf.fg": "FG-e01-p07-k2-01",
+       "rf.panel": "e01-p07-k2",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "lie",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p07-k2（panels/e01-p07-k2.jpg）",
+       "rf.where": "head at top-right of the frame (x 104%, y 28%), feet at outside the frame",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p08-k1-01",
+      "values": {
+       "rf.fg": "FG-e01-p08-k1-01",
+       "rf.panel": "e01-p08-k1",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "lie",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p08-k1（panels/e01-p08-k1.jpg）",
+       "rf.where": "head at outside the frame, feet at outside the frame",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p08-k2-01",
+      "values": {
+       "rf.fg": "FG-e01-p08-k2-01",
+       "rf.panel": "e01-p08-k2",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "lie",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p08-k2（panels/e01-p08-k2.jpg）",
+       "rf.where": "head at middle-left of the frame (x 32%, y 51%), feet at behind the camera (not drawn)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p08-k3-01",
+      "values": {
+       "rf.fg": "FG-e01-p08-k3-01",
+       "rf.panel": "e01-p08-k3",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "lie",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p08-k3（panels/e01-p08-k3.jpg）",
+       "rf.where": "head at outside the frame, feet at outside the frame",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p08-k4-01",
+      "values": {
+       "rf.fg": "FG-e01-p08-k4-01",
+       "rf.panel": "e01-p08-k4",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "lie",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p08-k4（panels/e01-p08-k4.jpg）",
+       "rf.where": "head at outside the frame, feet at outside the frame",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p08-k4-02",
+      "values": {
+       "rf.fg": "FG-e01-p08-k4-02",
+       "rf.panel": "e01-p08-k4",
+       "rf.ch": "CH-30",
+       "rf.name": "最初の小人（弓と矢筒）",
+       "rf.pose": "walk",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p08-k4（panels/e01-p08-k4.jpg）",
+       "rf.where": "head at top-centre of the frame (x 50%, y 14%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p09-k1-01",
+      "values": {
+       "rf.fg": "FG-e01-p09-k1-01",
+       "rf.panel": "e01-p09-k1",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "lie-look",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p09-k1（panels/e01-p09-k1.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 42%, y 57%), feet at behind the camera (not drawn)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p09-k1-02",
+      "values": {
+       "rf.fg": "FG-e01-p09-k1-02",
+       "rf.panel": "e01-p09-k1",
+       "rf.ch": "CH-30",
+       "rf.name": "最初の小人（弓と矢筒）",
+       "rf.pose": "stand",
+       "rf.drawn": false,
+       "rf.drawing": "",
+       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+       "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+      }
+     },
+     {
+      "id": "FG-e01-p09-k2-01",
+      "values": {
+       "rf.fg": "FG-e01-p09-k2-01",
+       "rf.panel": "e01-p09-k2",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "lie-look",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p09-k2（panels/e01-p09-k2.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 51%, y 53%), feet at behind the camera (not drawn)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p09-k2-02",
+      "values": {
+       "rf.fg": "FG-e01-p09-k2-02",
+       "rf.panel": "e01-p09-k2",
+       "rf.ch": "CH-30",
+       "rf.name": "最初の小人（弓と矢筒）",
+       "rf.pose": "archer",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p09-k2（panels/e01-p09-k2.jpg）",
+       "rf.where": "head at top-left of the frame (x 18%, y 10%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p09-k2-03",
+      "values": {
+       "rf.fg": "FG-e01-p09-k2-03",
+       "rf.panel": "e01-p09-k2",
+       "rf.ch": "CH-30",
+       "rf.name": "胸の小人2",
+       "rf.pose": "stand",
+       "rf.drawn": false,
+       "rf.drawing": "",
+       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+       "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+      }
+     },
+     {
+      "id": "FG-e01-p09-k2-04",
+      "values": {
+       "rf.fg": "FG-e01-p09-k2-04",
+       "rf.panel": "e01-p09-k2",
+       "rf.ch": "CH-30",
+       "rf.name": "胸の小人3",
+       "rf.pose": "archer",
+       "rf.drawn": false,
+       "rf.drawing": "",
+       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+       "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+      }
+     },
+     {
+      "id": "FG-e01-p09-k2-05",
+      "values": {
+       "rf.fg": "FG-e01-p09-k2-05",
+       "rf.panel": "e01-p09-k2",
+       "rf.ch": "CH-30",
+       "rf.name": "胸の小人4",
+       "rf.pose": "stand",
+       "rf.drawn": false,
+       "rf.drawing": "",
+       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+       "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+      }
+     },
+     {
+      "id": "FG-e01-p09-k2-06",
+      "values": {
+       "rf.fg": "FG-e01-p09-k2-06",
+       "rf.panel": "e01-p09-k2",
+       "rf.ch": "CH-30",
+       "rf.name": "胸の小人5",
+       "rf.pose": "stand",
+       "rf.drawn": false,
+       "rf.drawing": "",
+       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+       "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+      }
+     },
+     {
+      "id": "FG-e01-p09-k3-01",
+      "values": {
+       "rf.fg": "FG-e01-p09-k3-01",
+       "rf.panel": "e01-p09-k3",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "lie-look",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p09-k3（panels/e01-p09-k3.jpg）",
+       "rf.where": "head at outside the frame, feet at outside the frame",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p09-k3-02",
+      "values": {
+       "rf.fg": "FG-e01-p09-k3-02",
+       "rf.panel": "e01-p09-k3",
+       "rf.ch": "CH-30",
+       "rf.name": "最初の小人（弓と矢筒）",
+       "rf.pose": "archer",
+       "rf.drawn": false,
+       "rf.drawing": "",
+       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+       "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+      }
+     },
+     {
+      "id": "FG-e01-p10-k1-01",
+      "values": {
+       "rf.fg": "FG-e01-p10-k1-01",
+       "rf.panel": "e01-p10-k1",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "lie",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p10-k1（panels/e01-p10-k1.jpg）",
+       "rf.where": "head at outside the frame, feet at outside the frame",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p10-k1-02",
+      "values": {
+       "rf.fg": "FG-e01-p10-k1-02",
+       "rf.panel": "e01-p10-k1",
+       "rf.ch": "CH-30",
+       "rf.name": "最初の小人（弓と矢筒）",
+       "rf.pose": "fall",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p10-k1（panels/e01-p10-k1.jpg）",
+       "rf.where": "head at top-centre of the frame (x 35%, y 6%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p10-k1-03",
+      "values": {
+       "rf.fg": "FG-e01-p10-k1-03",
+       "rf.panel": "e01-p10-k1",
+       "rf.ch": "CH-30",
+       "rf.name": "胸の小人2",
+       "rf.pose": "fall",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p10-k1（panels/e01-p10-k1.jpg）",
+       "rf.where": "head at top-right of the frame (x 69%, y 28%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p10-k1-04",
+      "values": {
+       "rf.fg": "FG-e01-p10-k1-04",
+       "rf.panel": "e01-p10-k1",
+       "rf.ch": "CH-30",
+       "rf.name": "胸の小人3",
+       "rf.pose": "fall",
+       "rf.drawn": false,
+       "rf.drawing": "",
+       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+       "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+      }
+     },
+     {
+      "id": "FG-e01-p10-k1-05",
+      "values": {
+       "rf.fg": "FG-e01-p10-k1-05",
+       "rf.panel": "e01-p10-k1",
+       "rf.ch": "CH-30",
+       "rf.name": "胸の小人4",
+       "rf.pose": "dance",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p10-k1（panels/e01-p10-k1.jpg）",
+       "rf.where": "head at top-centre of the frame (x 58%, y -4%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p10-k2-01",
+      "values": {
+       "rf.fg": "FG-e01-p10-k2-01",
+       "rf.panel": "e01-p10-k2",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "lie-arm-free",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p10-k2（panels/e01-p10-k2.jpg）",
+       "rf.where": "head at bottom-right of the frame (x 93%, y 110%), feet at outside the frame",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p10-k3-01",
+      "values": {
+       "rf.fg": "FG-e01-p10-k3-01",
+       "rf.panel": "e01-p10-k3",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "lie-arm-free",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p10-k3（panels/e01-p10-k3.jpg）",
+       "rf.where": "head at outside the frame, feet at outside the frame",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p10-k3-02",
+      "values": {
+       "rf.fg": "FG-e01-p10-k3-02",
+       "rf.panel": "e01-p10-k3",
+       "rf.ch": "CH-30",
+       "rf.name": "隊長",
+       "rf.pose": "sword-up",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p10-k3（panels/e01-p10-k3.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 53%, y 41%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p10-k3-03",
+      "values": {
+       "rf.fg": "FG-e01-p10-k3-03",
+       "rf.panel": "e01-p10-k3",
+       "rf.ch": "CH-30",
+       "rf.name": "弓兵1",
+       "rf.pose": "archer",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p10-k3（panels/e01-p10-k3.jpg）",
+       "rf.where": "head at middle-right of the frame (x 101%, y 41%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p10-k3-04",
+      "values": {
+       "rf.fg": "FG-e01-p10-k3-04",
+       "rf.panel": "e01-p10-k3",
+       "rf.ch": "CH-30",
+       "rf.name": "弓兵2",
+       "rf.pose": "archer",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p10-k3（panels/e01-p10-k3.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 61%, y 41%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p10-k3-05",
+      "values": {
+       "rf.fg": "FG-e01-p10-k3-05",
+       "rf.panel": "e01-p10-k3",
+       "rf.ch": "CH-30",
+       "rf.name": "弓兵3",
+       "rf.pose": "archer",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p10-k3（panels/e01-p10-k3.jpg）",
+       "rf.where": "head at middle-left of the frame (x 16%, y 41%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p10-k4-01",
+      "values": {
+       "rf.fg": "FG-e01-p10-k4-01",
+       "rf.panel": "e01-p10-k4",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "lie-arm-free",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p10-k4（panels/e01-p10-k4.jpg）",
+       "rf.where": "head at bottom-centre of the frame (x 61%, y 104%), feet at outside the frame",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p10-k4-02",
+      "values": {
+       "rf.fg": "FG-e01-p10-k4-02",
+       "rf.panel": "e01-p10-k4",
+       "rf.ch": "CH-30",
+       "rf.name": "弓兵1",
+       "rf.pose": "archer",
+       "rf.drawn": false,
+       "rf.drawing": "",
+       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+       "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+      }
+     },
+     {
+      "id": "FG-e01-p10-k4-03",
+      "values": {
+       "rf.fg": "FG-e01-p10-k4-03",
+       "rf.panel": "e01-p10-k4",
+       "rf.ch": "CH-30",
+       "rf.name": "弓兵2",
+       "rf.pose": "archer",
+       "rf.drawn": false,
+       "rf.drawing": "",
+       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+       "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+      }
+     },
+     {
+      "id": "FG-e01-p10-k4-04",
+      "values": {
+       "rf.fg": "FG-e01-p10-k4-04",
+       "rf.panel": "e01-p10-k4",
+       "rf.ch": "CH-30",
+       "rf.name": "弓兵3",
+       "rf.pose": "archer",
+       "rf.drawn": false,
+       "rf.drawing": "",
+       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+       "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+      }
+     },
+     {
+      "id": "FG-e01-p10-k4-05",
+      "values": {
+       "rf.fg": "FG-e01-p10-k4-05",
+       "rf.panel": "e01-p10-k4",
+       "rf.ch": "CH-30",
+       "rf.name": "弓兵4",
+       "rf.pose": "archer",
+       "rf.drawn": false,
+       "rf.drawing": "",
+       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+       "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+      }
+     },
+     {
+      "id": "FG-e01-p11-k1-01",
+      "values": {
+       "rf.fg": "FG-e01-p11-k1-01",
+       "rf.panel": "e01-p11-k1",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "lie",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p11-k1（panels/e01-p11-k1.jpg）",
+       "rf.where": "head at outside the frame, feet at outside the frame",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p11-k2-01",
+      "values": {
+       "rf.fg": "FG-e01-p11-k2-01",
+       "rf.panel": "e01-p11-k2",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "lie",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p11-k2（panels/e01-p11-k2.jpg）",
+       "rf.where": "head at outside the frame, feet at outside the frame",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p11-k3-01",
+      "values": {
+       "rf.fg": "FG-e01-p11-k3-01",
+       "rf.panel": "e01-p11-k3",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "lie",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p11-k3（panels/e01-p11-k3.jpg）",
+       "rf.where": "head at bottom-centre of the frame (x 51%, y 109%), feet at outside the frame",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p11-k3-02",
+      "values": {
+       "rf.fg": "FG-e01-p11-k3-02",
+       "rf.panel": "e01-p11-k3",
+       "rf.ch": "CH-30",
+       "rf.name": "演説する貴人",
+       "rf.pose": "orate",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p11-k3（panels/e01-p11-k3.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 50%, y 40%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p11-k3-03",
+      "values": {
+       "rf.fg": "FG-e01-p11-k3-03",
+       "rf.panel": "e01-p11-k3",
+       "rf.ch": "CH-30",
+       "rf.name": "胸の小人2",
+       "rf.pose": "stand",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p11-k3（panels/e01-p11-k3.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 46%, y 45%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p11-k4-01",
+      "values": {
+       "rf.fg": "FG-e01-p11-k4-01",
+       "rf.panel": "e01-p11-k4",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "lie-eat",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p11-k4（panels/e01-p11-k4.jpg）",
+       "rf.where": "head at outside the frame, feet at outside the frame",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p11-k5-01",
+      "values": {
+       "rf.fg": "FG-e01-p11-k5-01",
+       "rf.panel": "e01-p11-k5",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "lie",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p11-k5（panels/e01-p11-k5.jpg）",
+       "rf.where": "head at outside the frame, feet at outside the frame",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p11-k5-02",
+      "values": {
+       "rf.fg": "FG-e01-p11-k5-02",
+       "rf.panel": "e01-p11-k5",
+       "rf.ch": "CH-30",
+       "rf.name": "胸の小人2",
+       "rf.pose": "carry-up",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p11-k5（panels/e01-p11-k5.jpg）",
+       "rf.where": "head at top-centre of the frame (x 50%, y 19%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p11-k5-03",
+      "values": {
+       "rf.fg": "FG-e01-p11-k5-03",
+       "rf.panel": "e01-p11-k5",
+       "rf.ch": "CH-30",
+       "rf.name": "胸の小人3",
+       "rf.pose": "carry-up",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p11-k5（panels/e01-p11-k5.jpg）",
+       "rf.where": "head at top-centre of the frame (x 54%, y 14%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p11-k5-04",
+      "values": {
+       "rf.fg": "FG-e01-p11-k5-04",
+       "rf.panel": "e01-p11-k5",
+       "rf.ch": "CH-30",
+       "rf.name": "胸の小人4",
+       "rf.pose": "carry-up",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p11-k5（panels/e01-p11-k5.jpg）",
+       "rf.where": "head at top-centre of the frame (x 54%, y 26%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p12-k1-01",
+      "values": {
+       "rf.fg": "FG-e01-p12-k1-01",
+       "rf.panel": "e01-p12-k1",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "lie-eat",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p12-k1（panels/e01-p12-k1.jpg）",
+       "rf.where": "head at outside the frame, feet at outside the frame",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p12-k2-01",
+      "values": {
+       "rf.fg": "FG-e01-p12-k2-01",
+       "rf.panel": "e01-p12-k2",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "lie-drink",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p12-k2（panels/e01-p12-k2.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 50%, y 34%), feet at behind the camera (not drawn)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p12-k2-02",
+      "values": {
+       "rf.fg": "FG-e01-p12-k2-02",
+       "rf.panel": "e01-p12-k2",
+       "rf.ch": "CH-30",
+       "rf.name": "胸の小人2",
+       "rf.pose": "stand",
+       "rf.drawn": false,
+       "rf.drawing": "",
+       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+       "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+      }
+     },
+     {
+      "id": "FG-e01-p12-k2-03",
+      "values": {
+       "rf.fg": "FG-e01-p12-k2-03",
+       "rf.panel": "e01-p12-k2",
+       "rf.ch": "CH-30",
+       "rf.name": "胸の小人3",
+       "rf.pose": "stand",
+       "rf.drawn": false,
+       "rf.drawing": "",
+       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+       "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+      }
+     },
+     {
+      "id": "FG-e01-p12-k3-01",
+      "values": {
+       "rf.fg": "FG-e01-p12-k3-01",
+       "rf.panel": "e01-p12-k3",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "lie",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p12-k3（panels/e01-p12-k3.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 40%, y 51%), feet at behind the camera (not drawn)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p12-k3-02",
+      "values": {
+       "rf.fg": "FG-e01-p12-k3-02",
+       "rf.panel": "e01-p12-k3",
+       "rf.ch": "CH-30",
+       "rf.name": "最初の小人（弓と矢筒）",
+       "rf.pose": "dance",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p12-k3（panels/e01-p12-k3.jpg）",
+       "rf.where": "big in the foreground, head cut off by the frame edge, body at middle-centre of the frame (x 64%, y 39%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p12-k3-03",
+      "values": {
+       "rf.fg": "FG-e01-p12-k3-03",
+       "rf.panel": "e01-p12-k3",
+       "rf.ch": "CH-30",
+       "rf.name": "胸の小人2",
+       "rf.pose": "dance",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p12-k3（panels/e01-p12-k3.jpg）",
+       "rf.where": "big in the foreground, head cut off by the frame edge, body at middle-centre of the frame (x 39%, y 47%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p12-k3-04",
+      "values": {
+       "rf.fg": "FG-e01-p12-k3-04",
+       "rf.panel": "e01-p12-k3",
+       "rf.ch": "CH-30",
+       "rf.name": "胸の小人3",
+       "rf.pose": "dance",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p12-k3（panels/e01-p12-k3.jpg）",
+       "rf.where": "big in the foreground, head cut off by the frame edge, body at middle-right of the frame (x 72%, y 61%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p12-k3-05",
+      "values": {
+       "rf.fg": "FG-e01-p12-k3-05",
+       "rf.panel": "e01-p12-k3",
+       "rf.ch": "CH-30",
+       "rf.name": "胸の小人4",
+       "rf.pose": "dance",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p12-k3（panels/e01-p12-k3.jpg）",
+       "rf.where": "big in the foreground, head cut off by the frame edge, body at bottom-centre of the frame (x 39%, y 88%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p12-k3-06",
+      "values": {
+       "rf.fg": "FG-e01-p12-k3-06",
+       "rf.panel": "e01-p12-k3",
+       "rf.ch": "CH-30",
+       "rf.name": "胸の小人5",
+       "rf.pose": "dance",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p12-k3（panels/e01-p12-k3.jpg）",
+       "rf.where": "very close, filling the foreground near x 119% (cut by the frame)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p12-k4-01",
+      "values": {
+       "rf.fg": "FG-e01-p12-k4-01",
+       "rf.panel": "e01-p12-k4",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "lie-hand-hover",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p12-k4（panels/e01-p12-k4.jpg）",
+       "rf.where": "head at middle-right of the frame (x 78%, y 42%), feet at outside the frame",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p12-k4-02",
+      "values": {
+       "rf.fg": "FG-e01-p12-k4-02",
+       "rf.panel": "e01-p12-k4",
+       "rf.ch": "CH-30",
+       "rf.name": "最初の小人（弓と矢筒）",
+       "rf.pose": "dance",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p12-k4（panels/e01-p12-k4.jpg）",
+       "rf.where": "head at top-centre of the frame (x 50%, y 3%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p12-k4-03",
+      "values": {
+       "rf.fg": "FG-e01-p12-k4-03",
+       "rf.panel": "e01-p12-k4",
+       "rf.ch": "CH-30",
+       "rf.name": "胸の小人2",
+       "rf.pose": "dance",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p12-k4（panels/e01-p12-k4.jpg）",
+       "rf.where": "head at top-centre of the frame (x 40%, y 3%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p12-k4-04",
+      "values": {
+       "rf.fg": "FG-e01-p12-k4-04",
+       "rf.panel": "e01-p12-k4",
+       "rf.ch": "CH-30",
+       "rf.name": "胸の小人3",
+       "rf.pose": "dance",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p12-k4（panels/e01-p12-k4.jpg）",
+       "rf.where": "head at top-centre of the frame (x 38%, y 5%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p12-k5-01",
+      "values": {
+       "rf.fg": "FG-e01-p12-k5-01",
+       "rf.panel": "e01-p12-k5",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "lie",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p12-k5（panels/e01-p12-k5.jpg）",
+       "rf.where": "head at outside the frame, feet at outside the frame",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p13-k1-01",
+      "values": {
+       "rf.fg": "FG-e01-p13-k1-01",
+       "rf.panel": "e01-p13-k1",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "lie",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p13-k1（panels/e01-p13-k1.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 34%, y 44%), feet at outside the frame",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p13-k2-01",
+      "values": {
+       "rf.fg": "FG-e01-p13-k2-01",
+       "rf.panel": "e01-p13-k2",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "lie",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p13-k2（panels/e01-p13-k2.jpg）",
+       "rf.where": "head at bottom-left of the frame (x -7%, y 74%), feet at middle-centre of the frame (x 34%, y 55%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p13-k2-02",
+      "values": {
+       "rf.fg": "FG-e01-p13-k2-02",
+       "rf.panel": "e01-p13-k2",
+       "rf.ch": "CH-30",
+       "rf.name": "見張り",
+       "rf.pose": "point",
+       "rf.drawn": false,
+       "rf.drawing": "",
+       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+       "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+      }
+     },
+     {
+      "id": "FG-e01-p13-k3-01",
+      "values": {
+       "rf.fg": "FG-e01-p13-k3-01",
+       "rf.panel": "e01-p13-k3",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "lie",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p13-k3（panels/e01-p13-k3.jpg）",
+       "rf.where": "head at top-right of the frame (x 70%, y -9%), feet at outside the frame",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p14-k1-01",
+      "values": {
+       "rf.fg": "FG-e01-p14-k1-01",
+       "rf.panel": "e01-p14-k1",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "lie",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p14-k1（panels/e01-p14-k1.jpg）",
+       "rf.where": "head at middle-left of the frame (x 26%, y 60%), feet at middle-centre of the frame (x 43%, y 62%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p14-k2-01",
+      "values": {
+       "rf.fg": "FG-e01-p14-k2-01",
+       "rf.panel": "e01-p14-k2",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "lie",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p14-k2（panels/e01-p14-k2.jpg）",
+       "rf.where": "head at behind the camera (not drawn), feet at top-centre of the frame (x 38%, y 19%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p14-k2-02",
+      "values": {
+       "rf.fg": "FG-e01-p14-k2-02",
+       "rf.panel": "e01-p14-k2",
+       "rf.ch": "CH-30",
+       "rf.name": "王の鍛冶",
+       "rf.pose": "crouch",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p14-k2（panels/e01-p14-k2.jpg）",
+       "rf.where": "big in the foreground, head cut off by the frame edge, body at top-left of the frame (x 2%, y 21%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p14-k3-01",
+      "values": {
+       "rf.fg": "FG-e01-p14-k3-01",
+       "rf.panel": "e01-p14-k3",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "lie",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p14-k3（panels/e01-p14-k3.jpg）",
+       "rf.where": "head at outside the frame, feet at outside the frame",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p15-k1-01",
+      "values": {
+       "rf.fg": "FG-e01-p15-k1-01",
+       "rf.panel": "e01-p15-k1",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "stand",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p15-k1（panels/e01-p15-k1.jpg）",
+       "rf.where": "head at top-centre of the frame (x 50%, y 30%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p15-k2-01",
+      "values": {
+       "rf.fg": "FG-e01-p15-k2-01",
+       "rf.panel": "e01-p15-k2",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "stand",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p15-k2（panels/e01-p15-k2.jpg）",
+       "rf.where": "big in the foreground, head cut off by the frame edge, body at top-left of the frame (x 13%, y -4%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p16-k1-01",
+      "values": {
+       "rf.fg": "FG-e01-p16-k1-01",
+       "rf.panel": "e01-p16-k1",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "stand",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p16-k1（panels/e01-p16-k1.jpg）",
+       "rf.where": "head at top-centre of the frame (x 50%, y 33%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p16-k1-02",
+      "values": {
+       "rf.fg": "FG-e01-p16-k1-02",
+       "rf.panel": "e01-p16-k1",
+       "rf.ch": "CH-02",
+       "rf.name": "皇帝",
+       "rf.pose": "stand",
+       "rf.drawn": false,
+       "rf.drawing": "",
+       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+       "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+      }
+     },
+     {
+      "id": "FG-e01-p16-k1-03",
+      "values": {
+       "rf.fg": "FG-e01-p16-k1-03",
+       "rf.panel": "e01-p16-k1",
+       "rf.ch": "CH-30",
+       "rf.name": "貴人1",
+       "rf.pose": "stand",
+       "rf.drawn": false,
+       "rf.drawing": "",
+       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+       "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+      }
+     },
+     {
+      "id": "FG-e01-p16-k1-04",
+      "values": {
+       "rf.fg": "FG-e01-p16-k1-04",
+       "rf.panel": "e01-p16-k1",
+       "rf.ch": "CH-30",
+       "rf.name": "貴人2",
+       "rf.pose": "stand",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p16-k1（panels/e01-p16-k1.jpg）",
+       "rf.where": "head at top-right of the frame (x 99%, y 32%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p16-k2-01",
+      "values": {
+       "rf.fg": "FG-e01-p16-k2-01",
+       "rf.panel": "e01-p16-k2",
+       "rf.ch": "CH-02",
+       "rf.name": "皇帝",
+       "rf.pose": "stand",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p16-k2（panels/e01-p16-k2.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 50%, y 40%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p16-k2-02",
+      "values": {
+       "rf.fg": "FG-e01-p16-k2-02",
+       "rf.panel": "e01-p16-k2",
+       "rf.ch": "CH-30",
+       "rf.name": "貴人1",
+       "rf.pose": "stand",
+       "rf.drawn": false,
+       "rf.drawing": "",
+       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
+       "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+      }
+     },
+     {
+      "id": "FG-e01-p16-k3-01",
+      "values": {
+       "rf.fg": "FG-e01-p16-k3-01",
+       "rf.panel": "e01-p16-k3",
+       "rf.ch": "CH-02",
+       "rf.name": "皇帝",
+       "rf.pose": "point",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p16-k3（panels/e01-p16-k3.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 50%, y 35%)",
+       "rf.note": ""
+      }
+     },
+     {
+      "id": "FG-e01-p16-k4-01",
+      "values": {
+       "rf.fg": "FG-e01-p16-k4-01",
+       "rf.panel": "e01-p16-k4",
+       "rf.ch": "CH-01",
+       "rf.name": "ガリヴァー",
+       "rf.pose": "sit",
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p16-k4（panels/e01-p16-k4.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 50%, y 49%)",
+       "rf.note": ""
+      }
+     }
+    ]
+   },
+   "contentHash": "43a475ebc77bd084d549434ca5f2cfc69f465f9b6caaa55748fb7abc3c6fca86"
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+Use your image generation tool. Make ONE image: a manga ROUGH (ラフ) for one comic panel, drawn the way a manga artist roughs a panel before inking.
+Style: loose but clear grey pencil lines on white paper, monochrome only (no colour), light grey tone only to separate figures from the background, no finished rendering. Faces must show the direction of the face and the expression; bodies must show the pose with readable joints; contacts (hands, ropes, feet on the body) must be clear.
+The FIRST attached image fixes the composition: keep its camera angle, horizon, and where each object and figure sits and how big it is in the frame. Redraw the blocky stand-ins as real people, horses, ships and places.
+The SECOND attached image is the approved design of Gulliver (CH-01): keep that costume and face design.
+The THIRD attached image is the approved design of a Lilliputian (CH-30, the tiny people): keep that costume and face design.
+The FOURTH attached image is the approved setting art of the old temple (LO-03), where Gulliver is chained: keep that costume and face design.
+ Gulliver's coat is plain blue in the design but this rough is monochrome: draw it as a plain coat with buttons and NO trim or edging.
+Early-18th-century England and its ships; Lilliput is a country of people 1/12 of Gulliver's size: keep their true size against him (AR-01, no exaggeration).
+No likeness to any film, game or existing illustration. No text, no letters, no speech balloons, no panel border, no signature, no watermark.
+Landscape 1536x1024.
+
+Panel e01-p13-k2, page 13 panel 2, scene SC-005.
+Shot: 大引き. Camera: 小人の目の高さ, 1200 mm above the ground (standing on: 見張りの柱（創作：1,064 mm）); 柱の上の見張りの目から、900人の滑車と1,500頭の馬を.
+What the panel shows (storyboard memo): 900人が滑車で持ち上げ、1,500頭の馬が引く。
+Words in this panel (for the mood and the faces only, do NOT draw any text): ナレーション（ガリヴァー）：私を載せるのに、強い男900人が3時間かかった。引いたのは、高さ4インチ半の王の馬1,500頭である。
+Figures, placed by the 3D layout (keep these places, facings and poses; draw each with a readable face direction, pose and expression):
+- FG-e01-p13-k2-01 ガリヴァー — Gulliver (CH-01): 1,750 mm, plain blue coat with brass buttons and NO gold trim, tan breeches, white stockings, black shoes, brown hair tied back; lying flat on his back; head at bottom-left of the frame (x -7%, y 74%), feet at middle-centre of the frame (x 34%, y 55%); 2846 mm from the camera.
+- FG-e01-p13-k2-02 見張り — a Lilliputian (CH-30): 146 mm tall, 1/12 of Gulliver; pointing; outside the frame (at most a cut-off sliver at the frame edge), facing the camera; 14 mm from the camera.
+The FIRST image is the 3D layout render from this camera: figures there are blocky stand-ins, ground/sea/walls are flat placeholders. The flat grey bands at the edges of the FIRST image are padding outside the panel: continue the scene into them, nothing important there.
+Correction after the author's review (the first rough drew 12 wheels on one side): the carriage follows the text exactly — a low wooden frame 7 feet long and 4 feet wide (2,134 × 1,219 mm), raised 3 inches, on EXACTLY 22 wheels: 11 small solid wooden wheels evenly spaced along EACH long side. Wherever a whole side is visible, count exactly 11 wheels on it; never more. Where the side is cut by the frame or hidden, draw only the part that shows.
+
+After generating, copy the generated PNG to ./raw.png in the current directory. Do not generate more than one image.

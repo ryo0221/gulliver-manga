@@ -1,0 +1,23 @@
+Use your image generation tool. Make ONE image: a manga ROUGH (ラフ) for one comic panel, drawn the way a manga artist roughs a panel before inking.
+Style: loose but clear grey pencil lines on white paper, monochrome only (no colour), light grey tone only to separate figures from the background, no finished rendering. Faces must show the direction of the face and the expression; bodies must show the pose with readable joints; contacts (hands, ropes, feet on the body) must be clear.
+The FIRST attached image fixes the composition: keep its camera angle, horizon, and where each object and figure sits and how big it is in the frame. Redraw the blocky stand-ins as real people, horses, ships and places.
+The SECOND attached image is the approved design of Gulliver (CH-01): keep that costume and face design.
+ Gulliver's coat is plain blue in the design but this rough is monochrome: draw it as a plain coat with buttons and NO trim or edging.
+Early-18th-century England and its ships; Lilliput is a country of people 1/12 of Gulliver's size: keep their true size against him (AR-01, no exaggeration).
+No likeness to any film, game or existing illustration. No text, no letters, no speech balloons, no panel border, no signature, no watermark.
+Portrait 1024x1536.
+
+Panel e01-p05-k3, page 5 panel 3, scene SC-003.
+Shot: 中. Camera: 水面すれすれ・水の中, 300 mm above the ground; 波間から.
+What the panel shows (storyboard memo): 6人の乗った小舟が転覆する。
+Words in this panel (for the mood and the faces only, do NOT draw any text): ナレーション（ガリヴァー）：11月5日、ヴァン・ディーメンの地の北西で、船は嵐に遭い、岩に砕けた。
+Figures, placed by the 3D layout (keep these places, facings and poses; draw each with a readable face direction, pose and expression):
+- FG-e01-p05-k3-01 ガリヴァー — Gulliver (CH-01): 1,750 mm, plain blue coat with brass buttons and NO gold trim, tan breeches, white stockings, black shoes, brown hair tied back; treading water, head above water; head at middle-centre of the frame (x 55%, y 54%), back to the camera; 9591 mm from the camera.
+- FG-e01-p05-k3-02 船員1 — an early-18th-century English sailor or townsperson (extra); tumbling and falling; head at top-right of the frame (x 95%, y 21%), facing the camera; 10676 mm from the camera.
+- FG-e01-p05-k3-03 船員2 — an early-18th-century English sailor or townsperson (extra); treading water, head above water; head at middle-right of the frame (x 88%, y 54%), back to the camera; 13122 mm from the camera.
+- FG-e01-p05-k3-04 船員3 — an early-18th-century English sailor or townsperson (extra); tumbling and falling; head at top-left of the frame (x 26%, y 27%), three-quarter view toward the camera, turned to frame right; 12097 mm from the camera.
+- FG-e01-p05-k3-05 船員4 — an early-18th-century English sailor or townsperson (extra); swimming; outside the frame (at most a cut-off sliver at the frame edge), in profile, facing frame left; 11781 mm from the camera.
+- FG-e01-p05-k3-06 船員5 — an early-18th-century English sailor or townsperson (extra); treading water, head above water; head at middle-left of the frame (x 5%, y 55%), in profile, facing frame left; 10543 mm from the camera.
+The FIRST image is the 3D layout render from this camera: figures there are blocky stand-ins, ground/sea/walls are flat placeholders. The flat grey bands at the edges of the FIRST image are padding outside the panel: continue the scene into them, nothing important there.
+
+After generating, copy the generated PNG to ./raw.png in the current directory. Do not generate more than one image.

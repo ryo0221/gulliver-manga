@@ -1,0 +1,17 @@
+Use your image generation tool. Make ONE image: a manga ROUGH (ラフ) for one comic panel, drawn the way a manga artist roughs a panel before inking.
+Style: loose but clear grey pencil lines on white paper, monochrome only (no colour), light grey tone only to separate figures from the background, no finished rendering. Faces must show the direction of the face and the expression; bodies must show the pose with readable joints; contacts (hands, ropes, feet on the body) must be clear.
+The FIRST attached image fixes the composition: keep its camera angle, horizon, and where each object and figure sits and how big it is in the frame. Redraw the blocky stand-ins as real people, horses, ships and places.
+ Gulliver's coat is plain blue in the design but this rough is monochrome: draw it as a plain coat with buttons and NO trim or edging.
+Early-18th-century England and its ships; Lilliput is a country of people 1/12 of Gulliver's size: keep their true size against him (AR-01, no exaggeration).
+No likeness to any film, game or existing illustration. No text, no letters, no speech balloons, no panel border, no signature, no watermark.
+Portrait 1024x1536.
+
+Panel e01-p04-k1, page 4 panel 1, scene SC-002.
+Shot: 寄り. Camera: 英国の人の目の高さ, 1520 mm above the ground; 正面.
+What the panel shows (storyboard memo): メアリーの顔。口元だけ笑っている。
+Words in this panel (for the mood and the faces only, do NOT draw any text): 台詞（メアリー）：前もそう言いました。
+Figures, placed by the 3D layout (keep these places, facings and poses; draw each with a readable face direction, pose and expression):
+- FG-e01-p04-k1-01 メアリー — Mary, Gulliver's wife (CH-10): plain dark early-18th-century house dress, white apron and cap, practical; standing with hands clasped in front; head at middle-centre of the frame (x 50%, y 50%), facing the camera; 871 mm from the camera.
+The FIRST image is the 3D layout render from this camera: figures there are blocky stand-ins, ground/sea/walls are flat placeholders. The flat grey bands at the edges of the FIRST image are padding outside the panel: continue the scene into them, nothing important there.
+
+After generating, copy the generated PNG to ./raw.png in the current directory. Do not generate more than one image.
