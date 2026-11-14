@@ -1,0 +1,1374 @@
+{
+ "schemaVersion": 1,
+ "capability": "vector",
+ "artwork": [],
+ "source": {
+  "artifactId": "gm1-ep01-rough",
+  "versionId": "version_497269dd-4c99-4fea-abaf-6ed3de086051",
+  "contentHash": "80ea43182cc6179d70b020f47b012acf7b6a14c21bb5fd2bdd47918c7894e3e8"
+ },
+ "direction": "ltr",
+ "pages": [
+  {
+   "frameId": "e01-p01",
+   "panelIds": [
+    "e01-p01-k1",
+    "e01-p01-k2"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e01-p01-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 803.6
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e01-p01-k1"
+     },
+     "b": {
+      "panelId": "e01-p01-k2"
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e01-p02",
+   "panelIds": [
+    "e01-p02-k1",
+    "e01-p02-k2",
+    "e01-p02-k3",
+    "e01-p02-k4",
+    "e01-p02-k5",
+    "e01-p02-k6"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e01-p02-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 483.2
+     },
+     "gap": 16,
+     "a": {
+      "dividerId": "e01-p02-t1v1",
+      "line": {
+       "nx": 1,
+       "ny": 0,
+       "offset": 526
+      },
+      "gap": 16,
+      "a": {
+       "panelId": "e01-p02-k1"
+      },
+      "b": {
+       "panelId": "e01-p02-k2"
+      }
+     },
+     "b": {
+      "dividerId": "e01-p02-h2",
+      "line": {
+       "nx": 0,
+       "ny": 1,
+       "offset": 803.5999999999999
+      },
+      "gap": 16,
+      "a": {
+       "dividerId": "e01-p02-t2v1",
+       "line": {
+        "nx": 1,
+        "ny": 0,
+        "offset": 400
+       },
+       "gap": 16,
+       "a": {
+        "panelId": "e01-p02-k3"
+       },
+       "b": {
+        "panelId": "e01-p02-k4"
+       }
+      },
+      "b": {
+       "dividerId": "e01-p02-t3v1",
+       "line": {
+        "nx": 1,
+        "ny": 0,
+        "offset": 328
+       },
+       "gap": 16,
+       "a": {
+        "panelId": "e01-p02-k5"
+       },
+       "b": {
+        "panelId": "e01-p02-k6"
+       }
+      }
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e01-p03",
+   "panelIds": [
+    "e01-p03-k1",
+    "e01-p03-k2",
+    "e01-p03-k3",
+    "e01-p03-k4"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e01-p03-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 590
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e01-p03-k1"
+     },
+     "b": {
+      "dividerId": "e01-p03-t2v1",
+      "line": {
+       "nx": 1,
+       "ny": 0,
+       "offset": 280
+      },
+      "gap": 16,
+      "a": {
+       "panelId": "e01-p03-k2"
+      },
+      "b": {
+       "dividerId": "e01-p03-t2v2",
+       "line": {
+        "nx": 1,
+        "ny": 0,
+        "offset": 520
+       },
+       "gap": 16,
+       "a": {
+        "panelId": "e01-p03-k3"
+       },
+       "b": {
+        "panelId": "e01-p03-k4"
+       }
+      }
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e01-p04",
+   "panelIds": [
+    "e01-p04-k1",
+    "e01-p04-k2",
+    "e01-p04-k3"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e01-p04-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 483.2
+     },
+     "gap": 16,
+     "a": {
+      "dividerId": "e01-p04-t1v1",
+      "line": {
+       "nx": 1,
+       "ny": 0,
+       "offset": 328
+      },
+      "gap": 16,
+      "a": {
+       "panelId": "e01-p04-k1"
+      },
+      "b": {
+       "panelId": "e01-p04-k2"
+      }
+     },
+     "b": {
+      "panelId": "e01-p04-k3"
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e01-p05",
+   "panelIds": [
+    "e01-p05-k1",
+    "e01-p05-k2",
+    "e01-p05-k3"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e01-p05-h1",
+     "line": {
+      "nx": 0.08,
+      "ny": 0.996794863550169,
+      "offset": 620.1089694945997
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e01-p05-k1"
+     },
+     "b": {
+      "dividerId": "e01-p05-t2v1",
+      "line": {
+       "nx": 1,
+       "ny": 0,
+       "offset": 400
+      },
+      "gap": 16,
+      "a": {
+       "panelId": "e01-p05-k2"
+      },
+      "b": {
+       "panelId": "e01-p05-k3"
+      }
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e01-p06",
+   "panelIds": [
+    "e01-p06-k1",
+    "e01-p06-k2",
+    "e01-p06-k3"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e01-p06-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 590
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e01-p06-k1"
+     },
+     "b": {
+      "dividerId": "e01-p06-t2v1",
+      "line": {
+       "nx": 1,
+       "ny": 0,
+       "offset": 400
+      },
+      "gap": 16,
+      "a": {
+       "panelId": "e01-p06-k2"
+      },
+      "b": {
+       "panelId": "e01-p06-k3"
+      }
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e01-p07",
+   "panelIds": [
+    "e01-p07-k1",
+    "e01-p07-k2"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e01-p07-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 483.2
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e01-p07-k1"
+     },
+     "b": {
+      "panelId": "e01-p07-k2"
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e01-p08",
+   "panelIds": [
+    "e01-p08-k1",
+    "e01-p08-k2",
+    "e01-p08-k3",
+    "e01-p08-k4"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e01-p08-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 483.2
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e01-p08-k1"
+     },
+     "b": {
+      "dividerId": "e01-p08-h2",
+      "line": {
+       "nx": 0,
+       "ny": 1,
+       "offset": 803.5999999999999
+      },
+      "gap": 16,
+      "a": {
+       "dividerId": "e01-p08-t2v1",
+       "line": {
+        "nx": 1,
+        "ny": 0,
+        "offset": 400
+       },
+       "gap": 16,
+       "a": {
+        "panelId": "e01-p08-k2"
+       },
+       "b": {
+        "panelId": "e01-p08-k3"
+       }
+      },
+      "b": {
+       "panelId": "e01-p08-k4"
+      }
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e01-p09",
+   "panelIds": [
+    "e01-p09-k1",
+    "e01-p09-k2",
+    "e01-p09-k3"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e01-p09-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 323
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e01-p09-k1"
+     },
+     "b": {
+      "dividerId": "e01-p09-h2",
+      "line": {
+       "nx": 0,
+       "ny": 1,
+       "offset": 910.4
+      },
+      "gap": 16,
+      "a": {
+       "panelId": "e01-p09-k2"
+      },
+      "b": {
+       "panelId": "e01-p09-k3"
+      }
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e01-p10",
+   "panelIds": [
+    "e01-p10-k1",
+    "e01-p10-k2",
+    "e01-p10-k3",
+    "e01-p10-k4"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e01-p10-h1",
+     "line": {
+      "nx": 0.07,
+      "ny": 0.9975469913743412,
+      "offset": 403.476687553302
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e01-p10-k1"
+     },
+     "b": {
+      "dividerId": "e01-p10-h2",
+      "line": {
+       "nx": 0,
+       "ny": 1,
+       "offset": 696.8
+      },
+      "gap": 16,
+      "a": {
+       "dividerId": "e01-p10-t2v1",
+       "line": {
+        "nx": 1,
+        "ny": 0,
+        "offset": 400
+       },
+       "gap": 16,
+       "a": {
+        "panelId": "e01-p10-k2"
+       },
+       "b": {
+        "panelId": "e01-p10-k3"
+       }
+      },
+      "b": {
+       "panelId": "e01-p10-k4"
+      }
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e01-p11",
+   "panelIds": [
+    "e01-p11-k1",
+    "e01-p11-k2",
+    "e01-p11-k3",
+    "e01-p11-k4",
+    "e01-p11-k5"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e01-p11-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 376.4
+     },
+     "gap": 16,
+     "a": {
+      "dividerId": "e01-p11-t1v1",
+      "line": {
+       "nx": 1,
+       "ny": 0,
+       "offset": 400
+      },
+      "gap": 16,
+      "a": {
+       "panelId": "e01-p11-k1"
+      },
+      "b": {
+       "panelId": "e01-p11-k2"
+      }
+     },
+     "b": {
+      "dividerId": "e01-p11-h2",
+      "line": {
+       "nx": 0,
+       "ny": 1,
+       "offset": 803.5999999999999
+      },
+      "gap": 16,
+      "a": {
+       "panelId": "e01-p11-k3"
+      },
+      "b": {
+       "dividerId": "e01-p11-t3v1",
+       "line": {
+        "nx": 1,
+        "ny": 0,
+        "offset": 328
+       },
+       "gap": 16,
+       "a": {
+        "panelId": "e01-p11-k4"
+       },
+       "b": {
+        "panelId": "e01-p11-k5"
+       }
+      }
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e01-p12",
+   "panelIds": [
+    "e01-p12-k1",
+    "e01-p12-k2",
+    "e01-p12-k3",
+    "e01-p12-k4",
+    "e01-p12-k5"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e01-p12-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 376.4
+     },
+     "gap": 16,
+     "a": {
+      "dividerId": "e01-p12-t1v1",
+      "line": {
+       "nx": 1,
+       "ny": 0,
+       "offset": 400
+      },
+      "gap": 16,
+      "a": {
+       "panelId": "e01-p12-k1"
+      },
+      "b": {
+       "panelId": "e01-p12-k2"
+      }
+     },
+     "b": {
+      "dividerId": "e01-p12-h2",
+      "line": {
+       "nx": 0,
+       "ny": 1,
+       "offset": 654.0799999999999
+      },
+      "gap": 16,
+      "a": {
+       "panelId": "e01-p12-k3"
+      },
+      "b": {
+       "dividerId": "e01-p12-h3",
+       "line": {
+        "nx": 0,
+        "ny": 1,
+        "offset": 931.76
+       },
+       "gap": 16,
+       "a": {
+        "panelId": "e01-p12-k4"
+       },
+       "b": {
+        "panelId": "e01-p12-k5"
+       }
+      }
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e01-p13",
+   "panelIds": [
+    "e01-p13-k1",
+    "e01-p13-k2",
+    "e01-p13-k3"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e01-p13-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 376.4
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e01-p13-k1"
+     },
+     "b": {
+      "dividerId": "e01-p13-h2",
+      "line": {
+       "nx": 0,
+       "ny": 1,
+       "offset": 910.4
+      },
+      "gap": 16,
+      "a": {
+       "panelId": "e01-p13-k2"
+      },
+      "b": {
+       "panelId": "e01-p13-k3"
+      }
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e01-p14",
+   "panelIds": [
+    "e01-p14-k1",
+    "e01-p14-k2",
+    "e01-p14-k3"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e01-p14-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 590
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e01-p14-k1"
+     },
+     "b": {
+      "dividerId": "e01-p14-t2v1",
+      "line": {
+       "nx": 1,
+       "ny": 0,
+       "offset": 400
+      },
+      "gap": 16,
+      "a": {
+       "panelId": "e01-p14-k2"
+      },
+      "b": {
+       "panelId": "e01-p14-k3"
+      }
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e01-p15",
+   "panelIds": [
+    "e01-p15-k1",
+    "e01-p15-k2"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e01-p15-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 803.6
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e01-p15-k1"
+     },
+     "b": {
+      "panelId": "e01-p15-k2"
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e01-p16",
+   "panelIds": [
+    "e01-p16-k1",
+    "e01-p16-k2",
+    "e01-p16-k3",
+    "e01-p16-k4"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e01-p16-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 376.4
+     },
+     "gap": 16,
+     "a": {
+      "dividerId": "e01-p16-t1v1",
+      "line": {
+       "nx": 1,
+       "ny": 0,
+       "offset": 472
+      },
+      "gap": 16,
+      "a": {
+       "panelId": "e01-p16-k1"
+      },
+      "b": {
+       "panelId": "e01-p16-k2"
+      }
+     },
+     "b": {
+      "dividerId": "e01-p16-h2",
+      "line": {
+       "nx": 0,
+       "ny": 1,
+       "offset": 696.8
+      },
+      "gap": 16,
+      "a": {
+       "panelId": "e01-p16-k3"
+      },
+      "b": {
+       "panelId": "e01-p16-k4"
+      }
+     }
+    }
+   }
+  }
+ ],
+ "images": [
+  {
+   "elementId": "underlay-0006",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p01-k1、横 34.1°×縦 35°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0007",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p01-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-30 小人の設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:00d172cb1355",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0016",
+   "source": "3D の舞台「英国の田舎家の厩（仮の3D、創作）」のカメラの絵（e01-p01-k2、横 62.7°×縦 29.6°）。モデル：舞台 stable artifact_6cdd509d-17e7-4aa9-ae3f-a0dd5fec7ee8@version_7d4d268a-57e4-4ca7-81ce-43f816b0289a",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0017",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p01-k2.jpg、。生の出力 sha256:feee7502c134",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0025",
+   "source": "3D の舞台「英国の田舎家の厩（仮の3D、創作）」のカメラの絵（e01-p02-k1、横 39.5°×縦 35°）。モデル：舞台 stable artifact_6cdd509d-17e7-4aa9-ae3f-a0dd5fec7ee8@version_7d4d268a-57e4-4ca7-81ce-43f816b0289a",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0026",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p02-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:261a4c2efe2d",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0042",
+   "source": "3D の舞台「英国の田舎家の厩（仮の3D、創作）」のカメラの絵（e01-p02-k2、横 19.3°×縦 35°）。モデル：舞台 stable artifact_6cdd509d-17e7-4aa9-ae3f-a0dd5fec7ee8@version_7d4d268a-57e4-4ca7-81ce-43f816b0289a",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0043",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p02-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:db1a0b29e9a8",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0052",
+   "source": "3D の舞台「英国の田舎家の厩（仮の3D、創作）」のカメラの絵（e01-p02-k3、横 40.1°×縦 35°）。モデル：舞台 stable artifact_6cdd509d-17e7-4aa9-ae3f-a0dd5fec7ee8@version_7d4d268a-57e4-4ca7-81ce-43f816b0289a",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0053",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p02-k3.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:2b6c573d6315",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0065",
+   "source": "3D の舞台「英国の田舎家の厩（仮の3D、創作）」のカメラの絵（e01-p02-k4、横 40.1°×縦 35°）。モデル：舞台 stable artifact_6cdd509d-17e7-4aa9-ae3f-a0dd5fec7ee8@version_7d4d268a-57e4-4ca7-81ce-43f816b0289a",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0066",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p02-k4.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:c273ad7ab837",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0078",
+   "source": "3D の舞台「英国の田舎家の厩（仮の3D、創作）」のカメラの絵（e01-p02-k5、横 31.6°×縦 35°）。モデル：舞台 stable artifact_6cdd509d-17e7-4aa9-ae3f-a0dd5fec7ee8@version_7d4d268a-57e4-4ca7-81ce-43f816b0289a",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0079",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p02-k5.jpg、。生の出力 sha256:fea916339aae",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0087",
+   "source": "3D の舞台「英国の田舎家の厩（仮の3D、創作）」のカメラの絵（e01-p02-k6、横 46.3°×縦 35°）。モデル：舞台 stable artifact_6cdd509d-17e7-4aa9-ae3f-a0dd5fec7ee8@version_7d4d268a-57e4-4ca7-81ce-43f816b0289a",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0088",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p02-k6.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:745e40768c11",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0100",
+   "source": "3D の舞台「ブリストルの岸壁（仮の3D、創作）」のカメラの絵（e01-p03-k1、横 46.7°×縦 35°）。モデル：舞台 port artifact_2f4eea78-7c55-43a4-81a0-80123a2491ad@version_9b417d35-92e8-4308-a991-3189e90720ce、舞台 port ship artifact_d01fca4b-e451-4160-8529-68f7e9449101@version_5d52e0f9-b174-42a0-93ce-f093ade7223a",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0101",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p03-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:9b3e417b1ae1",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0111",
+   "source": "3D の舞台「ブリストルの岸壁（仮の3D、創作）」のカメラの絵（e01-p03-k2、横 15.8°×縦 35°）。モデル：舞台 port artifact_2f4eea78-7c55-43a4-81a0-80123a2491ad@version_9b417d35-92e8-4308-a991-3189e90720ce、舞台 port ship artifact_d01fca4b-e451-4160-8529-68f7e9449101@version_5d52e0f9-b174-42a0-93ce-f093ade7223a",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0112",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p03-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:50d26ef9db7f",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0122",
+   "source": "3D の舞台「ブリストルの岸壁（仮の3D、創作）」のカメラの絵（e01-p03-k3、横 15.3°×縦 35°）。モデル：舞台 port artifact_2f4eea78-7c55-43a4-81a0-80123a2491ad@version_9b417d35-92e8-4308-a991-3189e90720ce、舞台 port ship artifact_d01fca4b-e451-4160-8529-68f7e9449101@version_5d52e0f9-b174-42a0-93ce-f093ade7223a",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0123",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p03-k3.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:af891e966977",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0135",
+   "source": "3D の舞台「ブリストルの岸壁（仮の3D、創作）」のカメラの絵（e01-p03-k4、横 15.8°×縦 35°）。モデル：舞台 port artifact_2f4eea78-7c55-43a4-81a0-80123a2491ad@version_9b417d35-92e8-4308-a991-3189e90720ce、舞台 port ship artifact_d01fca4b-e451-4160-8529-68f7e9449101@version_5d52e0f9-b174-42a0-93ce-f093ade7223a",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0136",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p03-k4.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:30be0fae4d95",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0148",
+   "source": "3D の舞台「ブリストルの岸壁（仮の3D、創作）」のカメラの絵（e01-p04-k1、横 23.8°×縦 35°）。モデル：舞台 port artifact_2f4eea78-7c55-43a4-81a0-80123a2491ad@version_9b417d35-92e8-4308-a991-3189e90720ce、舞台 port ship artifact_d01fca4b-e451-4160-8529-68f7e9449101@version_5d52e0f9-b174-42a0-93ce-f093ade7223a",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0149",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p04-k1.jpg、。生の出力 sha256:f3215e54850d",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0161",
+   "source": "3D の舞台「ブリストルの岸壁（仮の3D、創作）」のカメラの絵（e01-p04-k2、横 35.4°×縦 35°）。モデル：舞台 port artifact_2f4eea78-7c55-43a4-81a0-80123a2491ad@version_9b417d35-92e8-4308-a991-3189e90720ce、舞台 port ship artifact_d01fca4b-e451-4160-8529-68f7e9449101@version_5d52e0f9-b174-42a0-93ce-f093ade7223a",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0162",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p04-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:a1f0a5760789",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0170",
+   "source": "3D の舞台「ブリストルの岸壁（仮の3D、創作）」のカメラの絵（e01-p04-k3、横 39.5°×縦 35°）。モデル：舞台 port artifact_2f4eea78-7c55-43a4-81a0-80123a2491ad@version_9b417d35-92e8-4308-a991-3189e90720ce、舞台 port ship artifact_d01fca4b-e451-4160-8529-68f7e9449101@version_5d52e0f9-b174-42a0-93ce-f093ade7223a",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0171",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p04-k3.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:45c35da1ddb8",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0179",
+   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p05-k1、横 44.5°×縦 35°）。モデル：舞台 sea artifact_0a1fbb69-79ea-404c-8ce7-95684b0354ca@version_3cb20f3f-ca51-4c0e-8c63-cc2c7fb6b46a、舞台 sea ship artifact_594d2b77-eccf-4f8e-a804-7891ef1ba327@version_1e8214f2-b5fc-45be-ac06-8358bd8ae0a8、舞台 sea boat artifact_758e4541-0110-4537-97d3-571badbf8f1d@version_a07ef471-0298-41b1-bd90-b9edadd619f3",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0180",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p05-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:04179e349ac5",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0189",
+   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p05-k2、横 23.9°×縦 35°）。モデル：舞台 sea artifact_0a1fbb69-79ea-404c-8ce7-95684b0354ca@version_3cb20f3f-ca51-4c0e-8c63-cc2c7fb6b46a、舞台 sea ship artifact_594d2b77-eccf-4f8e-a804-7891ef1ba327@version_1e8214f2-b5fc-45be-ac06-8358bd8ae0a8、舞台 sea boat artifact_758e4541-0110-4537-97d3-571badbf8f1d@version_a07ef471-0298-41b1-bd90-b9edadd619f3",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0190",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p05-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:7ae39866edc7",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0199",
+   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p05-k3、横 22.6°×縦 35°）。モデル：舞台 sea artifact_0a1fbb69-79ea-404c-8ce7-95684b0354ca@version_3cb20f3f-ca51-4c0e-8c63-cc2c7fb6b46a、舞台 sea ship artifact_594d2b77-eccf-4f8e-a804-7891ef1ba327@version_1e8214f2-b5fc-45be-ac06-8358bd8ae0a8、舞台 sea boat artifact_758e4541-0110-4537-97d3-571badbf8f1d@version_a07ef471-0298-41b1-bd90-b9edadd619f3",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0200",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p05-k3.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:594362b51813",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0210",
+   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p06-k1、横 46.7°×縦 35°）。モデル：舞台 sea artifact_0a1fbb69-79ea-404c-8ce7-95684b0354ca@version_3cb20f3f-ca51-4c0e-8c63-cc2c7fb6b46a、舞台 sea ship artifact_594d2b77-eccf-4f8e-a804-7891ef1ba327@version_1e8214f2-b5fc-45be-ac06-8358bd8ae0a8、舞台 sea boat artifact_758e4541-0110-4537-97d3-571badbf8f1d@version_a07ef471-0298-41b1-bd90-b9edadd619f3",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0211",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p06-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:21300970c999",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0221",
+   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p06-k2、横 23.8°×縦 35°）。モデル：舞台 sea artifact_0a1fbb69-79ea-404c-8ce7-95684b0354ca@version_3cb20f3f-ca51-4c0e-8c63-cc2c7fb6b46a、舞台 sea ship artifact_594d2b77-eccf-4f8e-a804-7891ef1ba327@version_1e8214f2-b5fc-45be-ac06-8358bd8ae0a8、舞台 sea boat artifact_758e4541-0110-4537-97d3-571badbf8f1d@version_a07ef471-0298-41b1-bd90-b9edadd619f3",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0222",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p06-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:424bd8e98c45",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0230",
+   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p06-k3、横 23.8°×縦 35°）。モデル：舞台 sea artifact_0a1fbb69-79ea-404c-8ce7-95684b0354ca@version_3cb20f3f-ca51-4c0e-8c63-cc2c7fb6b46a、舞台 sea ship artifact_594d2b77-eccf-4f8e-a804-7891ef1ba327@version_1e8214f2-b5fc-45be-ac06-8358bd8ae0a8、舞台 sea boat artifact_758e4541-0110-4537-97d3-571badbf8f1d@version_a07ef471-0298-41b1-bd90-b9edadd619f3",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0231",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p06-k3.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:83db41cc4d48",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0241",
+   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p07-k1、横 56.9°×縦 35°）。モデル：舞台 sea artifact_0a1fbb69-79ea-404c-8ce7-95684b0354ca@version_3cb20f3f-ca51-4c0e-8c63-cc2c7fb6b46a、舞台 sea ship artifact_594d2b77-eccf-4f8e-a804-7891ef1ba327@version_1e8214f2-b5fc-45be-ac06-8358bd8ae0a8、舞台 sea boat artifact_758e4541-0110-4537-97d3-571badbf8f1d@version_a07ef471-0298-41b1-bd90-b9edadd619f3",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0242",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p07-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:3b1b5c12bc00",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0252",
+   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p07-k2、横 39.5°×縦 35°）。モデル：舞台 sea artifact_0a1fbb69-79ea-404c-8ce7-95684b0354ca@version_3cb20f3f-ca51-4c0e-8c63-cc2c7fb6b46a、舞台 sea ship artifact_594d2b77-eccf-4f8e-a804-7891ef1ba327@version_1e8214f2-b5fc-45be-ac06-8358bd8ae0a8、舞台 sea boat artifact_758e4541-0110-4537-97d3-571badbf8f1d@version_a07ef471-0298-41b1-bd90-b9edadd619f3",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0253",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p07-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:f1f0c0e1cd88",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0261",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p08-k1、横 56.9°×縦 35°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0262",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p08-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:47ddc4ee2c0b",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0270",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p08-k2、横 40.1°×縦 35°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0271",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p08-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:4b4368bcda15",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0281",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p08-k3、横 40.1°×縦 35°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0282",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p08-k3.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:a82bb3542986",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0292",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p08-k4、横 62.7°×縦 29.6°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0293",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p08-k4.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-30 小人の設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:71c44c890052",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0302",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p09-k1、横 62.7°×縦 24.7°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0303",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p09-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-30 小人の設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:8eaf619e503e",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0311",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p09-k2、横 43.3°×縦 35°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0312",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p09-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-30 小人の設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:f1edcd1bf346",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0320",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p09-k3、横 62.7°×縦 19.7°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0321",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p09-k3.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-30 小人の設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:8bff87db544f",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0333",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p10-k1、横 62.7°×縦 31.9°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0334",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p10-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-30 小人の設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:1c6af8453308",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0346",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p10-k2、横 40.1°×縦 35°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0347",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p10-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:39a2f15d088a",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0356",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p10-k3、横 37.2°×縦 35°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0357",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p10-k3.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-30 小人の設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:e8a86a200aa5",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0369",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p10-k4、横 56.9°×縦 35°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0370",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p10-k4.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-30 小人の設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:c3257ce66b41",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0379",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p11-k1、横 39.1°×縦 35°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0380",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p11-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:5c6013ab9d89",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0390",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p11-k2、横 39.1°×縦 35°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0391",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p11-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:3158409486c8",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0401",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p11-k3、横 57.8°×縦 35°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0402",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p11-k3.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-30 小人の設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:0d1deea89870",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0410",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p11-k4、横 31.6°×縦 35°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0411",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p11-k4.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:80447d0a03c5",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0423",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p11-k5、横 46.3°×縦 35°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0424",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p11-k5.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-30 小人の設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:4f2bd9abbbf6",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0432",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p12-k1、横 39.1°×縦 35°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0433",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p12-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:9e49dda52ce7",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0443",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p12-k2、横 39.1°×縦 35°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0444",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p12-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-30 小人の設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:4a21177f243f",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0456",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p12-k3、横 62.7°×縦 25°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0457",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p12-k3.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-30 小人の設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:02abe9aedff2",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0469",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p12-k4、横 62.7°×縦 25°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0470",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p12-k4.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-30 小人の設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:ccff8e1fa9d5",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0482",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p12-k5、横 62.7°×縦 17.7°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0483",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p12-k5.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:c4cbd8c40fc4",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0491",
+   "source": "3D の舞台「古い神殿（F106）と都の外の道」のカメラの絵（e01-p13-k1、横 62.7°×縦 29.6°）。モデル：F106 古い神殿 artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44、舞台 temple artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0492",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p13-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、LO-03 古い神殿の舞台の設定画（gulliver-manga@1fc6c3ad part1/codex/lo03-temple/lo03-temple-raw.png sha256:417c8a947fb6）。生の出力 sha256:da783ed27af1",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0502",
+   "source": "3D の舞台「古い神殿（F106）と都の外の道」のカメラの絵（e01-p13-k2、横 47.3°×縦 35°）。モデル：F106 古い神殿 artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44、舞台 temple artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0503",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p13-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-30 小人の設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）、LO-03 古い神殿の舞台の設定画（gulliver-manga@1fc6c3ad part1/codex/lo03-temple/lo03-temple-raw.png sha256:417c8a947fb6）。生の出力 sha256:200b5a2fe029",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0513",
+   "source": "3D の舞台「古い神殿（F106）と都の外の道」のカメラの絵（e01-p13-k3、横 62.7°×縦 19.7°）。モデル：F106 古い神殿 artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44、舞台 temple artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0514",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p13-k3.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、LO-03 古い神殿の舞台の設定画（gulliver-manga@1fc6c3ad part1/codex/lo03-temple/lo03-temple-raw.png sha256:417c8a947fb6）。生の出力 sha256:736b96559e95",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0523",
+   "source": "3D の舞台「古い神殿（F106）と都の外の道」のカメラの絵（e01-p14-k1、横 46.7°×縦 35°）。モデル：F106 古い神殿 artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44、舞台 temple artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0524",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p14-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、LO-03 古い神殿の舞台の設定画（gulliver-manga@1fc6c3ad part1/codex/lo03-temple/lo03-temple-raw.png sha256:417c8a947fb6）、LO-04 都ミルドゥンドの舞台の設定画（gulliver-manga@1fc6c3ad part1/codex/lo04-mildendo/lo04-mildendo-raw.png sha256:5a161ac8ecd7）。生の出力 sha256:f73e7720c19b",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0534",
+   "source": "3D の舞台「古い神殿（F106）と都の外の道」のカメラの絵（e01-p14-k2、横 23.8°×縦 35°）。モデル：F106 古い神殿 artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44、舞台 temple artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0535",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p14-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-30 小人の設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）、LO-03 古い神殿の舞台の設定画（gulliver-manga@1fc6c3ad part1/codex/lo03-temple/lo03-temple-raw.png sha256:417c8a947fb6）。生の出力 sha256:259f8ec2e0e8",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0543",
+   "source": "3D の舞台「古い神殿（F106）と都の外の道」のカメラの絵（e01-p14-k3、横 23.8°×縦 35°）。モデル：F106 古い神殿 artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44、舞台 temple artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0544",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p14-k3.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、LO-03 古い神殿の舞台の設定画（gulliver-manga@1fc6c3ad part1/codex/lo03-temple/lo03-temple-raw.png sha256:417c8a947fb6）。生の出力 sha256:0b426e15fb9c",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0553",
+   "source": "3D の舞台「古い神殿（F106）と都の外の道」のカメラの絵（e01-p15-k1、横 34.1°×縦 35°）。モデル：F106 古い神殿 artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44、舞台 temple artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0554",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p15-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、LO-03 古い神殿の舞台の設定画（gulliver-manga@1fc6c3ad part1/codex/lo03-temple/lo03-temple-raw.png sha256:417c8a947fb6）。生の出力 sha256:1dde11f224f6",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0562",
+   "source": "3D の舞台「古い神殿（F106）と都の外の道」のカメラの絵（e01-p15-k2、横 62.7°×縦 29.6°）。モデル：F106 古い神殿 artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44、舞台 temple artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0563",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p15-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、LO-03 古い神殿の舞台の設定画（gulliver-manga@1fc6c3ad part1/codex/lo03-temple/lo03-temple-raw.png sha256:417c8a947fb6）。生の出力 sha256:6a2e2a26609a",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0575",
+   "source": "3D の舞台「古い神殿（F106）と都の外の道」のカメラの絵（e01-p16-k1、横 46.3°×縦 35°）。モデル：F106 古い神殿 artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44、舞台 temple artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0576",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p16-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-02 皇帝の設定画（gulliver-manga@1fc6c3ad part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080）、CH-30 小人の設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）、LO-03 古い神殿の舞台の設定画（gulliver-manga@1fc6c3ad part1/codex/lo03-temple/lo03-temple-raw.png sha256:417c8a947fb6）。生の出力 sha256:7fa6c5d0edbf",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0584",
+   "source": "3D の舞台「古い神殿（F106）と都の外の道」のカメラの絵（e01-p16-k2、横 31.6°×縦 35°）。モデル：F106 古い神殿 artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44、舞台 temple artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0585",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p16-k2.jpg、CH-02 皇帝の設定画（gulliver-manga@1fc6c3ad part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080）、CH-30 小人の設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）、LO-03 古い神殿の舞台の設定画（gulliver-manga@1fc6c3ad part1/codex/lo03-temple/lo03-temple-raw.png sha256:417c8a947fb6）。生の出力 sha256:3a78a9e022c5",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0597",
+   "source": "3D の舞台「古い神殿（F106）と都の外の道」のカメラの絵（e01-p16-k3、横 62.7°×縦 28.9°）。モデル：F106 古い神殿 artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44、舞台 temple artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0598",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p16-k3.jpg、CH-02 皇帝の設定画（gulliver-manga@1fc6c3ad part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080）、LO-03 古い神殿の舞台の設定画（gulliver-manga@1fc6c3ad part1/codex/lo03-temple/lo03-temple-raw.png sha256:417c8a947fb6）。生の出力 sha256:f37c8415554a",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "underlay-0610",
+   "source": "3D の舞台「古い神殿（F106）と都の外の道」のカメラの絵（e01-p16-k4、横 56.9°×縦 35°）。モデル：F106 古い神殿 artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44、舞台 temple artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "rough-0611",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep01-name@name-ep01-v2 のカメラの絵 part1/name/stage/underlay/e01-p16-k4.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1fc6c3ad part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、LO-03 古い神殿の舞台の設定画（gulliver-manga@1fc6c3ad part1/codex/lo03-temple/lo03-temple-raw.png sha256:417c8a947fb6）、LO-04 都ミルドゥンドの舞台の設定画（gulliver-manga@1fc6c3ad part1/codex/lo04-mildendo/lo04-mildendo-raw.png sha256:5a161ac8ecd7）。生の出力 sha256:7339bfd570cc",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  }
+ ],
+ "diagnostics": [
+  {
+   "code": "raster-pdf",
+   "severity": "warning",
+   "message": "PNG/PDF are derived raster representations; native editing, annotations, typography and vector fidelity are not preserved. Vertical text and ruby are unsupported."
+  }
+ ]
+}

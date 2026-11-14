@@ -1,0 +1,3008 @@
+{
+ "schemaVersion": 1,
+ "episode": 1,
+ "generatedAt": "2026-11-14",
+ "panels": {
+  "e01-p01-k1": {
+   "image": "panels/e01-p01-k1.jpg",
+   "prompt": "prompts/e01-p01-k1.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da26-7327-7403-aa7d-a8ff7d278108",
+   "rawSha256": "00d172cb13556e8a116cc456ced5f82b94f57842f0659a5aaefb00c422c84fd8",
+   "rawSize": [
+    1254,
+    1254
+   ],
+   "frame": {
+    "canvas": [
+     1024,
+     1024
+    ],
+    "panel": [
+     13,
+     0,
+     998,
+     1024
+    ],
+    "underlay": [
+     726,
+     745
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p01-k1.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p01-k1-01",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 52%, y 51%), feet at behind the camera (not drawn)"
+    },
+    {
+     "fg": "FG-e01-p01-k1-02",
+     "inFrame": false,
+     "where": "outside the frame (at most a cut-off sliver at the frame edge)"
+    },
+    {
+     "fg": "FG-e01-p01-k1-03",
+     "inFrame": false,
+     "where": "outside the frame (at most a cut-off sliver at the frame edge)"
+    },
+    {
+     "fg": "FG-e01-p01-k1-04",
+     "inFrame": false,
+     "where": "outside the frame (at most a cut-off sliver at the frame edge)"
+    },
+    {
+     "fg": "FG-e01-p01-k1-05",
+     "inFrame": false,
+     "where": "outside the frame (at most a cut-off sliver at the frame edge)"
+    },
+    {
+     "fg": "FG-e01-p01-k1-06",
+     "inFrame": false,
+     "where": "outside the frame (at most a cut-off sliver at the frame edge)"
+    }
+   ]
+  },
+  "e01-p01-k2": {
+   "image": "panels/e01-p01-k2.jpg",
+   "prompt": "prompts/e01-p01-k2.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da27-f7ac-7611-b9d1-846055a5a4e4",
+   "rawSha256": "feee7502c134ec3ce7c54110e78552376dc7234e1b54bfd25327de34c3103ba2",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "frame": {
+    "canvas": [
+     1536,
+     1024
+    ],
+    "panel": [
+     0,
+     178,
+     1536,
+     667
+    ],
+    "underlay": [
+     1440,
+     625
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p01-k2.jpg",
+   "refs": [],
+   "figures": [
+    {
+     "fg": "FG-e01-p01-k2-01",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 46%, y 47%)"
+    }
+   ]
+  },
+  "e01-p02-k1": {
+   "image": "panels/e01-p02-k1.jpg",
+   "prompt": "prompts/e01-p02-k1.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da26-7368-7623-80bf-7aa2bdd3c560",
+   "rawSha256": "261a4c2efe2de7e5d9817778ee1ca865d9761b0a3c4ab7048f5ef5d1d12ad637",
+   "rawSize": [
+    1024,
+    1024
+   ],
+   "frame": {
+    "canvas": [
+     1024,
+     1024
+    ],
+    "panel": [
+     0,
+     63,
+     1024,
+     898
+    ],
+    "underlay": [
+     850,
+     745
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p02-k1.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p02-k1-01",
+     "inFrame": true,
+     "where": "head at middle-right of the frame (x 80%, y 35%)"
+    },
+    {
+     "fg": "FG-e01-p02-k1-02",
+     "inFrame": true,
+     "where": "head at middle-left of the frame (x 10%, y 42%)"
+    },
+    {
+     "fg": "FG-e01-p02-k1-03",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 48%, y 42%)"
+    },
+    {
+     "fg": "FG-e01-p02-k1-04",
+     "inFrame": false,
+     "where": "outside the frame (at most a cut-off sliver at the frame edge)"
+    }
+   ]
+  },
+  "e01-p02-k2": {
+   "image": "panels/e01-p02-k2.jpg",
+   "prompt": "prompts/e01-p02-k2.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da27-f776-7872-9580-52c44e2bd577",
+   "rawSha256": "db1a0b29e9a8cfe3b8489b9290701b2595b0fe6fc2dfdc5ef55dedfcf6de71eb",
+   "rawSize": [
+    1024,
+    1536
+   ],
+   "frame": {
+    "canvas": [
+     1024,
+     1536
+    ],
+    "panel": [
+     97,
+     0,
+     829,
+     1536
+    ],
+    "underlay": [
+     402,
+     745
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p02-k2.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p02-k2-01",
+     "inFrame": false,
+     "where": "outside the frame (at most a cut-off sliver at the frame edge)"
+    },
+    {
+     "fg": "FG-e01-p02-k2-02",
+     "inFrame": false,
+     "where": "outside the frame (at most a cut-off sliver at the frame edge)"
+    },
+    {
+     "fg": "FG-e01-p02-k2-03",
+     "inFrame": false,
+     "where": "outside the frame (at most a cut-off sliver at the frame edge)"
+    }
+   ]
+  },
+  "e01-p02-k3": {
+   "image": "panels/e01-p02-k3.jpg",
+   "prompt": "prompts/e01-p02-k3.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da27-f758-7821-bccf-f14970cecb07",
+   "rawSha256": "2b6c573d6315eda8094e56294b18b14eecfb086217fe3e62e12985878e598495",
+   "rawSize": [
+    1254,
+    1254
+   ],
+   "frame": {
+    "canvas": [
+     1024,
+     1024
+    ],
+    "panel": [
+     0,
+     70,
+     1024,
+     884
+    ],
+    "underlay": [
+     704,
+     608
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p02-k3.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p02-k3-01",
+     "inFrame": true,
+     "where": "head at middle-right of the frame (x 76%, y 36%)"
+    },
+    {
+     "fg": "FG-e01-p02-k3-02",
+     "inFrame": false,
+     "where": "outside the frame (at most a cut-off sliver at the frame edge)"
+    },
+    {
+     "fg": "FG-e01-p02-k3-03",
+     "inFrame": false,
+     "where": "outside the frame (at most a cut-off sliver at the frame edge)"
+    },
+    {
+     "fg": "FG-e01-p02-k3-04",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 50%, y 43%)"
+    }
+   ]
+  },
+  "e01-p02-k4": {
+   "image": "panels/e01-p02-k4.jpg",
+   "prompt": "prompts/e01-p02-k4.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da27-f757-7d02-b442-eb43637f17f3",
+   "rawSha256": "c273ad7ab837debb99462eb377e8f2aebbd7a80d0669e9968ad3e61739fc303f",
+   "rawSize": [
+    1254,
+    1254
+   ],
+   "frame": {
+    "canvas": [
+     1024,
+     1024
+    ],
+    "panel": [
+     0,
+     70,
+     1024,
+     884
+    ],
+    "underlay": [
+     704,
+     608
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p02-k4.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p02-k4-01",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 47%, y 49%)"
+    },
+    {
+     "fg": "FG-e01-p02-k4-02",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 36%, y 52%)"
+    },
+    {
+     "fg": "FG-e01-p02-k4-03",
+     "inFrame": false,
+     "where": "outside the frame (at most a cut-off sliver at the frame edge)"
+    }
+   ]
+  },
+  "e01-p02-k5": {
+   "image": "panels/e01-p02-k5.jpg",
+   "prompt": "prompts/e01-p02-k5.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da27-f7a9-75e0-8606-ccac50e055f7",
+   "rawSha256": "fea916339aae22a7970117c5c9759c2c310a3d5173d1192bc446a35ab898a44d",
+   "rawSize": [
+    1254,
+    1254
+   ],
+   "frame": {
+    "canvas": [
+     1024,
+     1024
+    ],
+    "panel": [
+     53,
+     0,
+     918,
+     1024
+    ],
+    "underlay": [
+     560,
+     625
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p02-k5.jpg",
+   "refs": [],
+   "figures": [
+    {
+     "fg": "FG-e01-p02-k5-01",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 59%, y 44%)"
+    }
+   ]
+  },
+  "e01-p02-k6": {
+   "image": "panels/e01-p02-k6.jpg",
+   "prompt": "prompts/e01-p02-k6.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da28-aa28-7f92-a268-b63a2719dbd1",
+   "rawSha256": "745e40768c110c6eb46bc2506245ff9e0536180da0df0121ef181ab2235965c5",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "frame": {
+    "canvas": [
+     1536,
+     1024
+    ],
+    "panel": [
+     72,
+     0,
+     1392,
+     1024
+    ],
+    "underlay": [
+     848,
+     624
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p02-k6.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p02-k6-01",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 66%, y 40%)"
+    },
+    {
+     "fg": "FG-e01-p02-k6-02",
+     "inFrame": false,
+     "where": "outside the frame (at most a cut-off sliver at the frame edge)"
+    },
+    {
+     "fg": "FG-e01-p02-k6-03",
+     "inFrame": true,
+     "where": "head at middle-right of the frame (x 73%, y 64%)"
+    }
+   ]
+  },
+  "e01-p03-k1": {
+   "image": "panels/e01-p03-k1.jpg",
+   "prompt": "prompts/e01-p03-k1.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da28-c018-7460-819f-06e177bc9217",
+   "rawSha256": "9b3e417b1ae104a549db6cebc945db398f9958791ed949675a8eacf935f5214f",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "frame": {
+    "canvas": [
+     1536,
+     1024
+    ],
+    "panel": [
+     67,
+     0,
+     1402,
+     1024
+    ],
+    "underlay": [
+     1020,
+     745
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p03-k1.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p03-k1-01",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 63%, y 58%)"
+    },
+    {
+     "fg": "FG-e01-p03-k1-02",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 65%, y 58%)"
+    },
+    {
+     "fg": "FG-e01-p03-k1-03",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 40%, y 55%)"
+    },
+    {
+     "fg": "FG-e01-p03-k1-04",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 43%, y 49%)"
+    },
+    {
+     "fg": "FG-e01-p03-k1-05",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 54%, y 41%)"
+    }
+   ]
+  },
+  "e01-p03-k2": {
+   "image": "panels/e01-p03-k2.jpg",
+   "prompt": "prompts/e01-p03-k2.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da28-d1d5-7e50-a391-7d12a528d2d0",
+   "rawSha256": "50d26ef9db7fce8f5b664d429f85b9e47a22ac97c5af1359d565d9e0c94ad2b2",
+   "rawSize": [
+    1024,
+    1536
+   ],
+   "frame": {
+    "canvas": [
+     1024,
+     1536
+    ],
+    "panel": [
+     174,
+     0,
+     676,
+     1536
+    ],
+    "underlay": [
+     328,
+     745
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p03-k2.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p03-k2-01",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 50%, y 34%)"
+    },
+    {
+     "fg": "FG-e01-p03-k2-02",
+     "inFrame": true,
+     "where": "head at middle-right of the frame (x 89%, y 38%)"
+    }
+   ]
+  },
+  "e01-p03-k3": {
+   "image": "panels/e01-p03-k3.jpg",
+   "prompt": "prompts/e01-p03-k3.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da28-e4cc-7db2-b3e7-c971416b2a40",
+   "rawSha256": "af891e966977f3dc3a9eb32f9dde699e48f4d700ddf32bf02eb500941bf98a06",
+   "rawSize": [
+    1024,
+    1536
+   ],
+   "frame": {
+    "canvas": [
+     1024,
+     1536
+    ],
+    "panel": [
+     184,
+     0,
+     656,
+     1536
+    ],
+    "underlay": [
+     318,
+     745
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p03-k3.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p03-k3-01",
+     "inFrame": true,
+     "where": "head at middle-left of the frame (x 0%, y 39%)"
+    },
+    {
+     "fg": "FG-e01-p03-k3-02",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 50%, y 49%)"
+    }
+   ]
+  },
+  "e01-p03-k4": {
+   "image": "panels/e01-p03-k4.jpg",
+   "prompt": "prompts/e01-p03-k4.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da29-76b7-73d1-9443-18f9f3bad0be",
+   "rawSha256": "30be0fae4d9577deddfd52d758dc10ea279c4ba588ea9ea18defa7421a82c334",
+   "rawSize": [
+    1024,
+    1536
+   ],
+   "frame": {
+    "canvas": [
+     1024,
+     1536
+    ],
+    "panel": [
+     174,
+     0,
+     676,
+     1536
+    ],
+    "underlay": [
+     328,
+     745
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p03-k4.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p03-k4-01",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 50%, y 48%)"
+    },
+    {
+     "fg": "FG-e01-p03-k4-02",
+     "inFrame": true,
+     "where": "head at bottom-left of the frame (x 26%, y 69%)"
+    }
+   ]
+  },
+  "e01-p04-k1": {
+   "image": "panels/e01-p04-k1.jpg",
+   "prompt": "prompts/e01-p04-k1.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da29-ac83-7303-af70-c39fc97cb761",
+   "rawSha256": "f3215e54850d21e015a2c8bcd28524214cfd7d4387f7433c11cee4fdb6e8c495",
+   "rawSize": [
+    1024,
+    1536
+   ],
+   "frame": {
+    "canvas": [
+     1024,
+     1536
+    ],
+    "panel": [
+     0,
+     2,
+     1024,
+     1532
+    ],
+    "underlay": [
+     498,
+     745
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p04-k1.jpg",
+   "refs": [],
+   "figures": [
+    {
+     "fg": "FG-e01-p04-k1-01",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 50%, y 50%)"
+    }
+   ]
+  },
+  "e01-p04-k2": {
+   "image": "panels/e01-p04-k2.jpg",
+   "prompt": "prompts/e01-p04-k2.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da29-e326-7f02-b0b4-c3b790dd7e6f",
+   "rawSha256": "a1f0a5760789d1f4e027e1f9dc073c6a4ead48ced89f0b5d21bfa01463498474",
+   "rawSize": [
+    1254,
+    1254
+   ],
+   "frame": {
+    "canvas": [
+     1024,
+     1024
+    ],
+    "panel": [
+     0,
+     6,
+     1024,
+     1012
+    ],
+    "underlay": [
+     754,
+     745
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p04-k2.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p04-k2-01",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 45%, y 40%)"
+    },
+    {
+     "fg": "FG-e01-p04-k2-02",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 38%, y 47%)"
+    }
+   ]
+  },
+  "e01-p04-k3": {
+   "image": "panels/e01-p04-k3.jpg",
+   "prompt": "prompts/e01-p04-k3.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da29-ffe3-7a30-9a83-fa2e50e3efbf",
+   "rawSha256": "45c35da1ddb8d94fe5bc0e32c3a88e3803c9053eab69c5e24f1ea6975cccbefc",
+   "rawSize": [
+    1254,
+    1254
+   ],
+   "frame": {
+    "canvas": [
+     1024,
+     1024
+    ],
+    "panel": [
+     0,
+     62,
+     1024,
+     900
+    ],
+    "underlay": [
+     848,
+     745
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p04-k3.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p04-k3-01",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 46%, y 43%)"
+    },
+    {
+     "fg": "FG-e01-p04-k3-02",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 48%, y 42%)"
+    }
+   ]
+  },
+  "e01-p05-k1": {
+   "image": "panels/e01-p05-k1.jpg",
+   "prompt": "prompts/e01-p05-k1.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da2a-44b1-7e03-b2f5-13ff9ffc4ff8",
+   "rawSha256": "04179e349ac5480c2e26b56b8378517784fb7c1caebd3a68b15b6be1a44e4211",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "frame": {
+    "canvas": [
+     1536,
+     1024
+    ],
+    "panel": [
+     104,
+     0,
+     1328,
+     1024
+    ],
+    "underlay": [
+     966,
+     745
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p05-k1.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p05-k1-01",
+     "inFrame": true,
+     "where": "head at middle-left of the frame (x 21%, y 53%)"
+    },
+    {
+     "fg": "FG-e01-p05-k1-02",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 34%, y 54%)"
+    },
+    {
+     "fg": "FG-e01-p05-k1-03",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 45%, y 55%)"
+    },
+    {
+     "fg": "FG-e01-p05-k1-04",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 66%, y 49%)"
+    },
+    {
+     "fg": "FG-e01-p05-k1-05",
+     "inFrame": true,
+     "where": "head at middle-left of the frame (x 0%, y 35%)"
+    }
+   ]
+  },
+  "e01-p05-k2": {
+   "image": "panels/e01-p05-k2.jpg",
+   "prompt": "prompts/e01-p05-k2.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da2a-6c59-7942-b0c5-283a2b677bf4",
+   "rawSha256": "7ae39866edc77179ba3abfc8c7b467b04a703584d778d1424a2f65a69fbc6e6e",
+   "rawSize": [
+    1024,
+    1536
+   ],
+   "frame": {
+    "canvas": [
+     1024,
+     1536
+    ],
+    "panel": [
+     0,
+     5,
+     1024,
+     1526
+    ],
+    "underlay": [
+     500,
+     745
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p05-k2.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p05-k2-01",
+     "inFrame": false,
+     "where": "outside the frame (at most a cut-off sliver at the frame edge)"
+    },
+    {
+     "fg": "FG-e01-p05-k2-02",
+     "inFrame": true,
+     "where": "head at top-centre of the frame (x 65%, y -2%)"
+    },
+    {
+     "fg": "FG-e01-p05-k2-03",
+     "inFrame": true,
+     "where": "very close, filling the foreground near x -19% (cut by the frame)"
+    },
+    {
+     "fg": "FG-e01-p05-k2-04",
+     "inFrame": true,
+     "where": "head at top-centre of the frame (x 59%, y 32%)"
+    }
+   ]
+  },
+  "e01-p05-k3": {
+   "image": "panels/e01-p05-k3.jpg",
+   "prompt": "prompts/e01-p05-k3.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da2a-81d0-7952-9c7e-3ebc6c887e06",
+   "rawSha256": "594362b51813618505ae55dfba23f91dd78e5e45f5ada33f15a6ea0364374806",
+   "rawSize": [
+    1024,
+    1536
+   ],
+   "frame": {
+    "canvas": [
+     1024,
+     1536
+    ],
+    "panel": [
+     25,
+     0,
+     973,
+     1536
+    ],
+    "underlay": [
+     472,
+     745
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p05-k3.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p05-k3-01",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 55%, y 54%)"
+    },
+    {
+     "fg": "FG-e01-p05-k3-02",
+     "inFrame": true,
+     "where": "head at top-right of the frame (x 95%, y 21%)"
+    },
+    {
+     "fg": "FG-e01-p05-k3-03",
+     "inFrame": true,
+     "where": "head at middle-right of the frame (x 88%, y 54%)"
+    },
+    {
+     "fg": "FG-e01-p05-k3-04",
+     "inFrame": true,
+     "where": "head at top-left of the frame (x 26%, y 27%)"
+    },
+    {
+     "fg": "FG-e01-p05-k3-05",
+     "inFrame": false,
+     "where": "outside the frame (at most a cut-off sliver at the frame edge)"
+    },
+    {
+     "fg": "FG-e01-p05-k3-06",
+     "inFrame": true,
+     "where": "head at middle-left of the frame (x 5%, y 55%)"
+    }
+   ]
+  },
+  "e01-p06-k1": {
+   "image": "panels/e01-p06-k1.jpg",
+   "prompt": "prompts/e01-p06-k1.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da2b-07e1-78b0-a25b-03bd864b6114",
+   "rawSha256": "21300970c99961efa99a6e298bbce2bce6c9e96d7f5fadf4e1145c3f53b7bca1",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "frame": {
+    "canvas": [
+     1536,
+     1024
+    ],
+    "panel": [
+     67,
+     0,
+     1402,
+     1024
+    ],
+    "underlay": [
+     1020,
+     745
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p06-k1.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p06-k1-01",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 50%, y 49%)"
+    }
+   ]
+  },
+  "e01-p06-k2": {
+   "image": "panels/e01-p06-k2.jpg",
+   "prompt": "prompts/e01-p06-k2.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da2b-127a-7d63-bba4-cf4abecc9062",
+   "rawSha256": "424bd8e98c45635b205098e22d7bc9de30f47d83df01072b63263d273612a904",
+   "rawSize": [
+    1024,
+    1536
+   ],
+   "frame": {
+    "canvas": [
+     1024,
+     1536
+    ],
+    "panel": [
+     0,
+     2,
+     1024,
+     1532
+    ],
+    "underlay": [
+     498,
+     745
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p06-k2.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p06-k2-01",
+     "inFrame": true,
+     "where": "only the legs/feet in frame, at middle-centre of the frame (x 50%, y 58%)"
+    }
+   ]
+  },
+  "e01-p06-k3": {
+   "image": "panels/e01-p06-k3.jpg",
+   "prompt": "prompts/e01-p06-k3.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da2b-8f80-7d93-9120-8424f35cf885",
+   "rawSha256": "83db41cc4d48205376388d47bb6e4d983a9e36b947fecb7c4bc395b41a4c106d",
+   "rawSize": [
+    1024,
+    1536
+   ],
+   "frame": {
+    "canvas": [
+     1024,
+     1536
+    ],
+    "panel": [
+     0,
+     2,
+     1024,
+     1532
+    ],
+    "underlay": [
+     498,
+     745
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p06-k3.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p06-k3-01",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 39%, y 34%)"
+    }
+   ]
+  },
+  "e01-p07-k1": {
+   "image": "panels/e01-p07-k1.jpg",
+   "prompt": "prompts/e01-p07-k1.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da2b-b8e6-73e1-8ddf-ae212df3c8b2",
+   "rawSha256": "3b1b5c12bc00e4836659a43924065a5a8fcac7c3c37d30239c8e1e6589ddbd52",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "frame": {
+    "canvas": [
+     1536,
+     1024
+    ],
+    "panel": [
+     0,
+     65,
+     1536,
+     894
+    ],
+    "underlay": [
+     1280,
+     745
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p07-k1.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p07-k1-01",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 59%, y 49%), feet at middle-centre of the frame (x 36%, y 50%)"
+    }
+   ]
+  },
+  "e01-p07-k2": {
+   "image": "panels/e01-p07-k2.jpg",
+   "prompt": "prompts/e01-p07-k2.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da2b-e029-75a2-812a-0561c7e1ae1c",
+   "rawSha256": "f1f0c0e1cd880a4f9a96133db4d334917962af7cf45f568a1159215991bf3c2a",
+   "rawSize": [
+    1024,
+    1024
+   ],
+   "frame": {
+    "canvas": [
+     1024,
+     1024
+    ],
+    "panel": [
+     0,
+     62,
+     1024,
+     900
+    ],
+    "underlay": [
+     848,
+     745
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p07-k2.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p07-k2-01",
+     "inFrame": true,
+     "where": "head at top-right of the frame (x 104%, y 28%), feet at outside the frame"
+    }
+   ]
+  },
+  "e01-p08-k1": {
+   "image": "panels/e01-p08-k1.jpg",
+   "prompt": "prompts/e01-p08-k1.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da2b-f6cb-7f73-9f11-e96a8a511dde",
+   "rawSha256": "47ddc4ee2c0b394a9fb7919124f647cf79309851416047f3d7054aa0e3c584be",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "frame": {
+    "canvas": [
+     1536,
+     1024
+    ],
+    "panel": [
+     0,
+     65,
+     1536,
+     894
+    ],
+    "underlay": [
+     1280,
+     745
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p08-k1.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p08-k1-01",
+     "inFrame": true,
+     "where": "head at outside the frame, feet at outside the frame"
+    }
+   ]
+  },
+  "e01-p08-k2": {
+   "image": "panels/e01-p08-k2.jpg",
+   "prompt": "prompts/e01-p08-k2.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da2c-1fdf-7bc0-9c7e-4517fa127a42",
+   "rawSha256": "4b4368bcda15fe29f195a8e9126d58334d946209655c255686f7c04742274b55",
+   "rawSize": [
+    1254,
+    1254
+   ],
+   "frame": {
+    "canvas": [
+     1024,
+     1024
+    ],
+    "panel": [
+     0,
+     70,
+     1024,
+     884
+    ],
+    "underlay": [
+     704,
+     608
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p08-k2.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p08-k2-01",
+     "inFrame": true,
+     "where": "head at middle-left of the frame (x 32%, y 51%), feet at behind the camera (not drawn)"
+    }
+   ]
+  },
+  "e01-p08-k3": {
+   "image": "panels/e01-p08-k3.jpg",
+   "prompt": "prompts/e01-p08-k3.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da2c-a1a2-7353-9bac-2735a410a5ec",
+   "rawSha256": "a82bb3542986289372aebbfbc8faa0375596955b05e5f42fe64b83a2a716ad3e",
+   "rawSize": [
+    1024,
+    1024
+   ],
+   "frame": {
+    "canvas": [
+     1024,
+     1024
+    ],
+    "panel": [
+     0,
+     70,
+     1024,
+     884
+    ],
+    "underlay": [
+     704,
+     608
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p08-k3.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p08-k3-01",
+     "inFrame": true,
+     "where": "head at outside the frame, feet at outside the frame"
+    }
+   ]
+  },
+  "e01-p08-k4": {
+   "image": "panels/e01-p08-k4.jpg",
+   "prompt": "prompts/e01-p08-k4.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da2c-a603-7f80-b53a-5ae5693733eb",
+   "rawSha256": "71c44c89005278a641c5d8c616fcbaf95168c2902f2fb51e6ce93f7bc302c1c8",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "frame": {
+    "canvas": [
+     1536,
+     1024
+    ],
+    "panel": [
+     0,
+     178,
+     1536,
+     667
+    ],
+    "underlay": [
+     1440,
+     625
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p08-k4.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p08-k4-01",
+     "inFrame": true,
+     "where": "head at outside the frame, feet at outside the frame"
+    },
+    {
+     "fg": "FG-e01-p08-k4-02",
+     "inFrame": true,
+     "where": "head at top-centre of the frame (x 50%, y 14%)"
+    }
+   ]
+  },
+  "e01-p09-k1": {
+   "image": "panels/e01-p09-k1.jpg",
+   "prompt": "prompts/e01-p09-k1.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da2c-b37b-7443-8cd4-e43c262b89d5",
+   "rawSha256": "8eaf619e503efe53a2f45b4af1d86d979dfb7d94a833161dd1fe46482b8d19c2",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "frame": {
+    "canvas": [
+     1536,
+     1024
+    ],
+    "panel": [
+     0,
+     235,
+     1536,
+     553
+    ],
+    "underlay": [
+     1440,
+     518
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p09-k1.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p09-k1-01",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 42%, y 57%), feet at behind the camera (not drawn)"
+    },
+    {
+     "fg": "FG-e01-p09-k1-02",
+     "inFrame": false,
+     "where": "outside the frame (at most a cut-off sliver at the frame edge)"
+    }
+   ]
+  },
+  "e01-p09-k2": {
+   "image": "panels/e01-p09-k2.jpg",
+   "prompt": "prompts/e01-p09-k2.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da26-72e0-78e0-a850-27d1494a0b12",
+   "rawSha256": "f1edcd1bf3464bdb4cdd5c5996eaedc27f3abf6be738b507e09c07163a1d3834",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "frame": {
+    "canvas": [
+     1536,
+     1024
+    ],
+    "panel": [
+     123,
+     0,
+     1289,
+     1024
+    ],
+    "underlay": [
+     938,
+     745
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p09-k2.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p09-k2-01",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 51%, y 53%), feet at behind the camera (not drawn)"
+    },
+    {
+     "fg": "FG-e01-p09-k2-02",
+     "inFrame": true,
+     "where": "head at top-left of the frame (x 18%, y 10%)"
+    },
+    {
+     "fg": "FG-e01-p09-k2-03",
+     "inFrame": false,
+     "where": "outside the frame (at most a cut-off sliver at the frame edge)"
+    },
+    {
+     "fg": "FG-e01-p09-k2-04",
+     "inFrame": false,
+     "where": "outside the frame (at most a cut-off sliver at the frame edge)"
+    },
+    {
+     "fg": "FG-e01-p09-k2-05",
+     "inFrame": false,
+     "where": "outside the frame (at most a cut-off sliver at the frame edge)"
+    },
+    {
+     "fg": "FG-e01-p09-k2-06",
+     "inFrame": false,
+     "where": "outside the frame (at most a cut-off sliver at the frame edge)"
+    }
+   ]
+  },
+  "e01-p09-k3": {
+   "image": "panels/e01-p09-k3.jpg",
+   "prompt": "prompts/e01-p09-k3.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da2c-e099-7223-9479-27a61444d98e",
+   "rawSha256": "8bff87db544fc3ad51a56559811bacf0d8ef066cd80eddb885b1fe62f09d9b60",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "frame": {
+    "canvas": [
+     1536,
+     1024
+    ],
+    "panel": [
+     0,
+     293,
+     1536,
+     438
+    ],
+    "underlay": [
+     1440,
+     411
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p09-k3.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p09-k3-01",
+     "inFrame": true,
+     "where": "head at outside the frame, feet at outside the frame"
+    },
+    {
+     "fg": "FG-e01-p09-k3-02",
+     "inFrame": false,
+     "where": "outside the frame (at most a cut-off sliver at the frame edge)"
+    }
+   ]
+  },
+  "e01-p10-k1": {
+   "image": "panels/e01-p10-k1.jpg",
+   "prompt": "prompts/e01-p10-k1.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da2d-16d5-7031-a14d-9666092e4549",
+   "rawSha256": "1c6af84533080b2b5ee108a6efc579c70a97284711c610abeddfeea34d9ec198",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "frame": {
+    "canvas": [
+     1536,
+     1024
+    ],
+    "panel": [
+     0,
+     152,
+     1536,
+     720
+    ],
+    "underlay": [
+     1440,
+     675
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p10-k1.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p10-k1-01",
+     "inFrame": true,
+     "where": "head at outside the frame, feet at outside the frame"
+    },
+    {
+     "fg": "FG-e01-p10-k1-02",
+     "inFrame": true,
+     "where": "head at top-centre of the frame (x 35%, y 6%)"
+    },
+    {
+     "fg": "FG-e01-p10-k1-03",
+     "inFrame": true,
+     "where": "head at top-right of the frame (x 69%, y 28%)"
+    },
+    {
+     "fg": "FG-e01-p10-k1-04",
+     "inFrame": false,
+     "where": "outside the frame (at most a cut-off sliver at the frame edge)"
+    },
+    {
+     "fg": "FG-e01-p10-k1-05",
+     "inFrame": true,
+     "where": "head at top-centre of the frame (x 58%, y -4%)"
+    }
+   ]
+  },
+  "e01-p10-k2": {
+   "image": "panels/e01-p10-k2.jpg",
+   "prompt": "prompts/e01-p10-k2.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da2d-8ee5-7bd3-9375-0d0b25ef0314",
+   "rawSha256": "39a2f15d088aa8336cdef5e43b931a3c29f993bc245f7322902df2f4d91d523e",
+   "rawSize": [
+    1254,
+    1254
+   ],
+   "frame": {
+    "canvas": [
+     1024,
+     1024
+    ],
+    "panel": [
+     0,
+     70,
+     1024,
+     883
+    ],
+    "underlay": [
+     704,
+     607
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p10-k2.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p10-k2-01",
+     "inFrame": true,
+     "where": "head at bottom-right of the frame (x 93%, y 110%), feet at outside the frame"
+    }
+   ]
+  },
+  "e01-p10-k3": {
+   "image": "panels/e01-p10-k3.jpg",
+   "prompt": "prompts/e01-p10-k3.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da2d-a651-7f70-94c0-22f350efb30f",
+   "rawSha256": "e8a86a200aa5f05b2d3362f8863709674efee5d750d1c73b2a0208727a14c8c8",
+   "rawSize": [
+    1254,
+    1254
+   ],
+   "frame": {
+    "canvas": [
+     1024,
+     1024
+    ],
+    "panel": [
+     0,
+     32,
+     1024,
+     959
+    ],
+    "underlay": [
+     704,
+     659
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p10-k3.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p10-k3-01",
+     "inFrame": true,
+     "where": "head at outside the frame, feet at outside the frame"
+    },
+    {
+     "fg": "FG-e01-p10-k3-02",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 53%, y 41%)"
+    },
+    {
+     "fg": "FG-e01-p10-k3-03",
+     "inFrame": true,
+     "where": "head at middle-right of the frame (x 101%, y 41%)"
+    },
+    {
+     "fg": "FG-e01-p10-k3-04",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 61%, y 41%)"
+    },
+    {
+     "fg": "FG-e01-p10-k3-05",
+     "inFrame": true,
+     "where": "head at middle-left of the frame (x 16%, y 41%)"
+    }
+   ]
+  },
+  "e01-p10-k4": {
+   "image": "panels/e01-p10-k4.jpg",
+   "prompt": "prompts/e01-p10-k4.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da2d-b7e6-7280-830f-045b062e499e",
+   "rawSha256": "c3257ce66b410fd27d888a8dc80e82212201d45ea6d82f86bbc31e66df80b1fe",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "frame": {
+    "canvas": [
+     1536,
+     1024
+    ],
+    "panel": [
+     0,
+     65,
+     1536,
+     894
+    ],
+    "underlay": [
+     1280,
+     745
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p10-k4.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p10-k4-01",
+     "inFrame": true,
+     "where": "head at bottom-centre of the frame (x 61%, y 104%), feet at outside the frame"
+    },
+    {
+     "fg": "FG-e01-p10-k4-02",
+     "inFrame": false,
+     "where": "outside the frame (at most a cut-off sliver at the frame edge)"
+    },
+    {
+     "fg": "FG-e01-p10-k4-03",
+     "inFrame": false,
+     "where": "outside the frame (at most a cut-off sliver at the frame edge)"
+    },
+    {
+     "fg": "FG-e01-p10-k4-04",
+     "inFrame": false,
+     "where": "outside the frame (at most a cut-off sliver at the frame edge)"
+    },
+    {
+     "fg": "FG-e01-p10-k4-05",
+     "inFrame": false,
+     "where": "outside the frame (at most a cut-off sliver at the frame edge)"
+    }
+   ]
+  },
+  "e01-p11-k1": {
+   "image": "panels/e01-p11-k1.jpg",
+   "prompt": "prompts/e01-p11-k1.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da2d-f718-7ce0-93a9-6bd367dcb6e0",
+   "rawSha256": "5c6013ab9d898944a11b3fe1232179f9a3834cc089e790db1fc5ece4b3fb85d6",
+   "rawSize": [
+    1024,
+    1024
+   ],
+   "frame": {
+    "canvas": [
+     1024,
+     1024
+    ],
+    "panel": [
+     0,
+     58,
+     1024,
+     908
+    ],
+    "underlay": [
+     704,
+     624
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p11-k1.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p11-k1-01",
+     "inFrame": true,
+     "where": "head at outside the frame, feet at outside the frame"
+    }
+   ]
+  },
+  "e01-p11-k2": {
+   "image": "panels/e01-p11-k2.jpg",
+   "prompt": "prompts/e01-p11-k2.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da2e-5180-7033-a567-9567483c4b1a",
+   "rawSha256": "3158409486c878821aaf31f677e963518f106a59bccd26362f9f64c30d0277d7",
+   "rawSize": [
+    1254,
+    1254
+   ],
+   "frame": {
+    "canvas": [
+     1024,
+     1024
+    ],
+    "panel": [
+     0,
+     58,
+     1024,
+     908
+    ],
+    "underlay": [
+     704,
+     624
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p11-k2.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p11-k2-01",
+     "inFrame": true,
+     "where": "head at outside the frame, feet at outside the frame"
+    }
+   ]
+  },
+  "e01-p11-k3": {
+   "image": "panels/e01-p11-k3.jpg",
+   "prompt": "prompts/e01-p11-k3.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da2e-d31c-7811-9973-e5f1d29c557c",
+   "rawSha256": "0d1deea89870233258c2cbae892e4d43172a817bacd8056ba056b1b2362f9635",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "frame": {
+    "canvas": [
+     1536,
+     1024
+    ],
+    "panel": [
+     0,
+     73,
+     1536,
+     878
+    ],
+    "underlay": [
+     1304,
+     745
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p11-k3.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p11-k3-01",
+     "inFrame": true,
+     "where": "head at bottom-centre of the frame (x 51%, y 109%), feet at outside the frame"
+    },
+    {
+     "fg": "FG-e01-p11-k3-02",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 50%, y 40%)"
+    },
+    {
+     "fg": "FG-e01-p11-k3-03",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 46%, y 45%)"
+    }
+   ]
+  },
+  "e01-p11-k4": {
+   "image": "panels/e01-p11-k4.jpg",
+   "prompt": "prompts/e01-p11-k4.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da2e-f101-7380-8a00-571b162e493b",
+   "rawSha256": "80447d0a03c59679a2e65c7e10cb5f8934e4f80a60b48367204eeb1ac1239309",
+   "rawSize": [
+    1254,
+    1254
+   ],
+   "frame": {
+    "canvas": [
+     1024,
+     1024
+    ],
+    "panel": [
+     53,
+     0,
+     918,
+     1024
+    ],
+    "underlay": [
+     560,
+     625
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p11-k4.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p11-k4-01",
+     "inFrame": true,
+     "where": "head at outside the frame, feet at outside the frame"
+    }
+   ]
+  },
+  "e01-p11-k5": {
+   "image": "panels/e01-p11-k5.jpg",
+   "prompt": "prompts/e01-p11-k5.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da2f-04fa-76e2-9451-d15b83306cce",
+   "rawSha256": "4f2bd9abbbf6735abdabf7e7cf7e9f35d2b94993131d015a1a8f693833f6da3e",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "frame": {
+    "canvas": [
+     1536,
+     1024
+    ],
+    "panel": [
+     72,
+     0,
+     1392,
+     1024
+    ],
+    "underlay": [
+     848,
+     624
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p11-k5.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p11-k5-01",
+     "inFrame": true,
+     "where": "head at outside the frame, feet at outside the frame"
+    },
+    {
+     "fg": "FG-e01-p11-k5-02",
+     "inFrame": true,
+     "where": "head at top-centre of the frame (x 50%, y 19%)"
+    },
+    {
+     "fg": "FG-e01-p11-k5-03",
+     "inFrame": true,
+     "where": "head at top-centre of the frame (x 54%, y 14%)"
+    },
+    {
+     "fg": "FG-e01-p11-k5-04",
+     "inFrame": true,
+     "where": "head at top-centre of the frame (x 54%, y 26%)"
+    }
+   ]
+  },
+  "e01-p12-k1": {
+   "image": "panels/e01-p12-k1.jpg",
+   "prompt": "prompts/e01-p12-k1.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da2f-058d-7ab2-827c-5076ed26cffd",
+   "rawSha256": "9e49dda52ce7b375f19ab900efde4cd851958733138f72505ca916124c213531",
+   "rawSize": [
+    1024,
+    1024
+   ],
+   "frame": {
+    "canvas": [
+     1024,
+     1024
+    ],
+    "panel": [
+     0,
+     58,
+     1024,
+     908
+    ],
+    "underlay": [
+     704,
+     624
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p12-k1.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p12-k1-01",
+     "inFrame": true,
+     "where": "head at outside the frame, feet at outside the frame"
+    }
+   ]
+  },
+  "e01-p12-k2": {
+   "image": "panels/e01-p12-k2.jpg",
+   "prompt": "prompts/e01-p12-k2.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da2f-31ff-7f80-a0d1-cf47ed927e2f",
+   "rawSha256": "4a21177f243fd689025abc7b2b09f5690110f3fc49f3df61744cece32fd6c7e7",
+   "rawSize": [
+    1254,
+    1254
+   ],
+   "frame": {
+    "canvas": [
+     1024,
+     1024
+    ],
+    "panel": [
+     0,
+     58,
+     1024,
+     908
+    ],
+    "underlay": [
+     704,
+     624
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p12-k2.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p12-k2-01",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 50%, y 34%), feet at behind the camera (not drawn)"
+    },
+    {
+     "fg": "FG-e01-p12-k2-02",
+     "inFrame": false,
+     "where": "outside the frame (at most a cut-off sliver at the frame edge)"
+    },
+    {
+     "fg": "FG-e01-p12-k2-03",
+     "inFrame": false,
+     "where": "outside the frame (at most a cut-off sliver at the frame edge)"
+    }
+   ]
+  },
+  "e01-p12-k3": {
+   "image": "panels/e01-p12-k3.jpg",
+   "prompt": "prompts/e01-p12-k3.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da2f-b6f1-7451-994d-994b0638207e",
+   "rawSha256": "02abe9aedff26123335a39e301ea0ca0cd06319882bd0aff06ade1b4aefb35c1",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "frame": {
+    "canvas": [
+     1536,
+     1024
+    ],
+    "panel": [
+     0,
+     233,
+     1536,
+     558
+    ],
+    "underlay": [
+     1440,
+     523
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p12-k3.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p12-k3-01",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 40%, y 51%), feet at behind the camera (not drawn)"
+    },
+    {
+     "fg": "FG-e01-p12-k3-02",
+     "inFrame": true,
+     "where": "big in the foreground, head cut off by the frame edge, body at middle-centre of the frame (x 64%, y 39%)"
+    },
+    {
+     "fg": "FG-e01-p12-k3-03",
+     "inFrame": true,
+     "where": "big in the foreground, head cut off by the frame edge, body at middle-centre of the frame (x 39%, y 47%)"
+    },
+    {
+     "fg": "FG-e01-p12-k3-04",
+     "inFrame": true,
+     "where": "big in the foreground, head cut off by the frame edge, body at middle-right of the frame (x 72%, y 61%)"
+    },
+    {
+     "fg": "FG-e01-p12-k3-05",
+     "inFrame": true,
+     "where": "big in the foreground, head cut off by the frame edge, body at bottom-centre of the frame (x 39%, y 88%)"
+    },
+    {
+     "fg": "FG-e01-p12-k3-06",
+     "inFrame": true,
+     "where": "very close, filling the foreground near x 119% (cut by the frame)"
+    }
+   ]
+  },
+  "e01-p12-k4": {
+   "image": "panels/e01-p12-k4.jpg",
+   "prompt": "prompts/e01-p12-k4.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da2f-cac5-7182-b093-42194779b020",
+   "rawSha256": "ccff8e1fa9d5cb97b81f23a5b3a8100f8a3407211efa65ee034bae304b0f5c1d",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "frame": {
+    "canvas": [
+     1536,
+     1024
+    ],
+    "panel": [
+     0,
+     233,
+     1536,
+     558
+    ],
+    "underlay": [
+     1440,
+     523
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p12-k4.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p12-k4-01",
+     "inFrame": true,
+     "where": "head at middle-right of the frame (x 78%, y 42%), feet at outside the frame"
+    },
+    {
+     "fg": "FG-e01-p12-k4-02",
+     "inFrame": true,
+     "where": "head at top-centre of the frame (x 50%, y 3%)"
+    },
+    {
+     "fg": "FG-e01-p12-k4-03",
+     "inFrame": true,
+     "where": "head at top-centre of the frame (x 40%, y 3%)"
+    },
+    {
+     "fg": "FG-e01-p12-k4-04",
+     "inFrame": true,
+     "where": "head at top-centre of the frame (x 38%, y 5%)"
+    }
+   ]
+  },
+  "e01-p12-k5": {
+   "image": "panels/e01-p12-k5.jpg",
+   "prompt": "prompts/e01-p12-k5.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da2f-d3aa-71f2-8bba-db717de69588",
+   "rawSha256": "c4cbd8c40fc4e3e7437a37da317b54d4193302d83d4a3176776082f7a3d2f86e",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "frame": {
+    "canvas": [
+     1536,
+     1024
+    ],
+    "panel": [
+     0,
+     315,
+     1536,
+     394
+    ],
+    "underlay": [
+     1440,
+     369
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p12-k5.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p12-k5-01",
+     "inFrame": true,
+     "where": "head at outside the frame, feet at outside the frame"
+    }
+   ]
+  },
+  "e01-p13-k1": {
+   "image": "panels/e01-p13-k1.jpg",
+   "prompt": "prompts/e01-p13-k1.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da2f-f53b-7e92-87fa-0184a28e3207",
+   "rawSha256": "da783ed27af1e49ce1bc16c3272635c705fba8e9b07de1be6284b87d3a1fc266",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "frame": {
+    "canvas": [
+     1536,
+     1024
+    ],
+    "panel": [
+     0,
+     178,
+     1536,
+     667
+    ],
+    "underlay": [
+     1440,
+     625
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p13-k1.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lo03-temple/lo03-temple-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "417c8a947fb6c716efd31d15973ef7a95ec07f34c0fc869509807347259f7735"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p13-k1-01",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 34%, y 44%), feet at outside the frame"
+    }
+   ]
+  },
+  "e01-p13-k2": {
+   "image": "panels/e01-p13-k2.jpg",
+   "prompt": "prompts/e01-p13-k2.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da30-2e51-7b40-bf5e-2010ca54d67e",
+   "rawSha256": "200b5a2fe0297a366429d6b1d75d39c0f2a421e212b87267d2ed8463646dc4e9",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "frame": {
+    "canvas": [
+     1536,
+     1024
+    ],
+    "panel": [
+     56,
+     0,
+     1424,
+     1024
+    ],
+    "underlay": [
+     1036,
+     745
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p13-k2.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
+    },
+    {
+     "path": "part1/codex/lo03-temple/lo03-temple-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "417c8a947fb6c716efd31d15973ef7a95ec07f34c0fc869509807347259f7735"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p13-k2-01",
+     "inFrame": true,
+     "where": "head at bottom-left of the frame (x -7%, y 74%), feet at middle-centre of the frame (x 34%, y 55%)"
+    },
+    {
+     "fg": "FG-e01-p13-k2-02",
+     "inFrame": false,
+     "where": "outside the frame (at most a cut-off sliver at the frame edge)"
+    }
+   ]
+  },
+  "e01-p13-k3": {
+   "image": "panels/e01-p13-k3.jpg",
+   "prompt": "prompts/e01-p13-k3.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da30-9a1d-7a90-988b-66671cace7c7",
+   "rawSha256": "736b96559e956836faf074247bca5c4c15506b5af520cf6913fa773f6e06abca",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "frame": {
+    "canvas": [
+     1536,
+     1024
+    ],
+    "panel": [
+     0,
+     293,
+     1536,
+     438
+    ],
+    "underlay": [
+     1440,
+     411
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p13-k3.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lo03-temple/lo03-temple-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "417c8a947fb6c716efd31d15973ef7a95ec07f34c0fc869509807347259f7735"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p13-k3-01",
+     "inFrame": true,
+     "where": "head at top-right of the frame (x 70%, y -9%), feet at outside the frame"
+    }
+   ]
+  },
+  "e01-p14-k1": {
+   "image": "panels/e01-p14-k1.jpg",
+   "prompt": "prompts/e01-p14-k1.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da31-093f-7b53-8d85-382881ad757a",
+   "rawSha256": "f73e7720c19b150ad4893c6a89b7c64f8b07759a2c0cc1f8033f0dbbce6f636c",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "frame": {
+    "canvas": [
+     1536,
+     1024
+    ],
+    "panel": [
+     67,
+     0,
+     1402,
+     1024
+    ],
+    "underlay": [
+     1020,
+     745
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p14-k1.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lo03-temple/lo03-temple-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "417c8a947fb6c716efd31d15973ef7a95ec07f34c0fc869509807347259f7735"
+    },
+    {
+     "path": "part1/codex/lo04-mildendo/lo04-mildendo-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "5a161ac8ecd7ccb15ce83b4142cb80397962cdc66e9c4a672f59c9092c94a86b"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p14-k1-01",
+     "inFrame": true,
+     "where": "head at middle-left of the frame (x 26%, y 60%), feet at middle-centre of the frame (x 43%, y 62%)"
+    }
+   ]
+  },
+  "e01-p14-k2": {
+   "image": "panels/e01-p14-k2.jpg",
+   "prompt": "prompts/e01-p14-k2.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da31-0d13-7633-8d83-fa74ada80fd9",
+   "rawSha256": "259f8ec2e0e81e61abb598010a3a2f5ea07f6438532e49497f86bb6902f64355",
+   "rawSize": [
+    1024,
+    1536
+   ],
+   "frame": {
+    "canvas": [
+     1024,
+     1536
+    ],
+    "panel": [
+     0,
+     2,
+     1024,
+     1532
+    ],
+    "underlay": [
+     498,
+     745
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p14-k2.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
+    },
+    {
+     "path": "part1/codex/lo03-temple/lo03-temple-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "417c8a947fb6c716efd31d15973ef7a95ec07f34c0fc869509807347259f7735"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p14-k2-01",
+     "inFrame": true,
+     "where": "head at behind the camera (not drawn), feet at top-centre of the frame (x 38%, y 19%)"
+    },
+    {
+     "fg": "FG-e01-p14-k2-02",
+     "inFrame": true,
+     "where": "big in the foreground, head cut off by the frame edge, body at top-left of the frame (x 2%, y 21%)"
+    }
+   ]
+  },
+  "e01-p14-k3": {
+   "image": "panels/e01-p14-k3.jpg",
+   "prompt": "prompts/e01-p14-k3.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da31-4866-7922-84cb-d68f13402686",
+   "rawSha256": "0b426e15fb9c8b650d5210e2b33e75ca78f60d4c5ee5bac3fe576a807f68da94",
+   "rawSize": [
+    1024,
+    1536
+   ],
+   "frame": {
+    "canvas": [
+     1024,
+     1536
+    ],
+    "panel": [
+     0,
+     2,
+     1024,
+     1532
+    ],
+    "underlay": [
+     498,
+     745
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p14-k3.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lo03-temple/lo03-temple-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "417c8a947fb6c716efd31d15973ef7a95ec07f34c0fc869509807347259f7735"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p14-k3-01",
+     "inFrame": true,
+     "where": "head at outside the frame, feet at outside the frame"
+    }
+   ]
+  },
+  "e01-p15-k1": {
+   "image": "panels/e01-p15-k1.jpg",
+   "prompt": "prompts/e01-p15-k1.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da26-72d5-7531-8fdb-a5498e8490cc",
+   "rawSha256": "1dde11f224f68ebbdd89e1d998a9316e9f0085f0992e7ea79a64aec48c2564c9",
+   "rawSize": [
+    1254,
+    1254
+   ],
+   "frame": {
+    "canvas": [
+     1024,
+     1024
+    ],
+    "panel": [
+     13,
+     0,
+     998,
+     1024
+    ],
+    "underlay": [
+     726,
+     745
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p15-k1.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lo03-temple/lo03-temple-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "417c8a947fb6c716efd31d15973ef7a95ec07f34c0fc869509807347259f7735"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p15-k1-01",
+     "inFrame": true,
+     "where": "head at top-centre of the frame (x 50%, y 30%)"
+    }
+   ]
+  },
+  "e01-p15-k2": {
+   "image": "panels/e01-p15-k2.jpg",
+   "prompt": "prompts/e01-p15-k2.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da31-cf21-7701-9496-30c15bdfb852",
+   "rawSha256": "6a2e2a26609a337ed878e35b69f2cb20a77905408badfc476e9210ecc061f605",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "frame": {
+    "canvas": [
+     1536,
+     1024
+    ],
+    "panel": [
+     0,
+     178,
+     1536,
+     667
+    ],
+    "underlay": [
+     1440,
+     625
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p15-k2.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lo03-temple/lo03-temple-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "417c8a947fb6c716efd31d15973ef7a95ec07f34c0fc869509807347259f7735"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p15-k2-01",
+     "inFrame": true,
+     "where": "big in the foreground, head cut off by the frame edge, body at top-left of the frame (x 13%, y -4%)"
+    }
+   ]
+  },
+  "e01-p16-k1": {
+   "image": "panels/e01-p16-k1.jpg",
+   "prompt": "prompts/e01-p16-k1.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da31-cfc7-72f2-bef3-4185e58f2a33",
+   "rawSha256": "7fa6c5d0edbfcfdcb71954e098646bdf860662b1f40f9f87647b033a89862944",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "frame": {
+    "canvas": [
+     1536,
+     1024
+    ],
+    "panel": [
+     72,
+     0,
+     1392,
+     1024
+    ],
+    "underlay": [
+     848,
+     624
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p16-k1.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/ch02-emperor/ch02-emperor-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "50970136e0807db55316ebf15536ae2c7a6be805090603292d80d7094815f14a"
+    },
+    {
+     "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
+    },
+    {
+     "path": "part1/codex/lo03-temple/lo03-temple-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "417c8a947fb6c716efd31d15973ef7a95ec07f34c0fc869509807347259f7735"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p16-k1-01",
+     "inFrame": true,
+     "where": "head at top-centre of the frame (x 50%, y 33%)"
+    },
+    {
+     "fg": "FG-e01-p16-k1-02",
+     "inFrame": false,
+     "where": "outside the frame (at most a cut-off sliver at the frame edge)"
+    },
+    {
+     "fg": "FG-e01-p16-k1-03",
+     "inFrame": false,
+     "where": "outside the frame (at most a cut-off sliver at the frame edge)"
+    },
+    {
+     "fg": "FG-e01-p16-k1-04",
+     "inFrame": true,
+     "where": "head at top-right of the frame (x 99%, y 32%)"
+    }
+   ]
+  },
+  "e01-p16-k2": {
+   "image": "panels/e01-p16-k2.jpg",
+   "prompt": "prompts/e01-p16-k2.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da32-39f1-7f00-9dca-4cc1bfdc38d0",
+   "rawSha256": "3a78a9e022c5112b09aac116ed7b6b68af5a0b9b234258562be55e51848366be",
+   "rawSize": [
+    1024,
+    1024
+   ],
+   "frame": {
+    "canvas": [
+     1024,
+     1024
+    ],
+    "panel": [
+     53,
+     0,
+     918,
+     1024
+    ],
+    "underlay": [
+     560,
+     625
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p16-k2.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch02-emperor/ch02-emperor-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "50970136e0807db55316ebf15536ae2c7a6be805090603292d80d7094815f14a"
+    },
+    {
+     "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
+    },
+    {
+     "path": "part1/codex/lo03-temple/lo03-temple-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "417c8a947fb6c716efd31d15973ef7a95ec07f34c0fc869509807347259f7735"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p16-k2-01",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 50%, y 40%)"
+    },
+    {
+     "fg": "FG-e01-p16-k2-02",
+     "inFrame": false,
+     "where": "outside the frame (at most a cut-off sliver at the frame edge)"
+    }
+   ]
+  },
+  "e01-p16-k3": {
+   "image": "panels/e01-p16-k3.jpg",
+   "prompt": "prompts/e01-p16-k3.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da32-6d34-78f0-a687-a5acba0025e6",
+   "rawSha256": "f37c8415554aa73a1a1a910f781ad3f7bd73f393fd18f0a3a94123f503867830",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "frame": {
+    "canvas": [
+     1536,
+     1024
+    ],
+    "panel": [
+     0,
+     187,
+     1536,
+     650
+    ],
+    "underlay": [
+     1440,
+     609
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p16-k3.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch02-emperor/ch02-emperor-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "50970136e0807db55316ebf15536ae2c7a6be805090603292d80d7094815f14a"
+    },
+    {
+     "path": "part1/codex/lo03-temple/lo03-temple-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "417c8a947fb6c716efd31d15973ef7a95ec07f34c0fc869509807347259f7735"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p16-k3-01",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 50%, y 35%)"
+    }
+   ]
+  },
+  "e01-p16-k4": {
+   "image": "panels/e01-p16-k4.jpg",
+   "prompt": "prompts/e01-p16-k4.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da32-ae0f-75c3-89d7-81fad6f68f26",
+   "rawSha256": "7339bfd570cc5018743709fed4cc0d3b981bb70f5008f9e3677d6c30392c1c6a",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "frame": {
+    "canvas": [
+     1536,
+     1024
+    ],
+    "panel": [
+     0,
+     65,
+     1536,
+     894
+    ],
+    "underlay": [
+     1280,
+     745
+    ]
+   },
+   "layout": "part1/name/stage/underlay/e01-p16-k4.jpg",
+   "refs": [
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lo03-temple/lo03-temple-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "417c8a947fb6c716efd31d15973ef7a95ec07f34c0fc869509807347259f7735"
+    },
+    {
+     "path": "part1/codex/lo04-mildendo/lo04-mildendo-raw.png",
+     "commit": "1fc6c3ad2d64c53abcb962d26b02ae422ac994e3",
+     "sha256": "5a161ac8ecd7ccb15ce83b4142cb80397962cdc66e9c4a672f59c9092c94a86b"
+    }
+   ],
+   "figures": [
+    {
+     "fg": "FG-e01-p16-k4-01",
+     "inFrame": true,
+     "where": "head at middle-centre of the frame (x 50%, y 49%)"
+    }
+   ]
+  }
+ }
+}

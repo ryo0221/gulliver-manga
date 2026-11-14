@@ -1,0 +1,18 @@
+Use your image generation tool. Make ONE image: a manga ROUGH (ラフ) for one comic panel, drawn the way a manga artist roughs a panel before inking.
+Style: loose but clear grey pencil lines on white paper, monochrome only (no colour), light grey tone only to separate figures from the background, no finished rendering. Faces must show the direction of the face and the expression; bodies must show the pose with readable joints; contacts (hands, ropes, feet on the body) must be clear.
+The FIRST attached image fixes the composition: keep its camera angle, horizon, and where each object and figure sits and how big it is in the frame. Redraw the blocky stand-ins as real people, horses, ships and places.
+The SECOND attached image is the approved design of Gulliver (CH-01): keep that costume and face design.
+ Gulliver's coat is plain blue in the design but this rough is monochrome: draw it as a plain coat with buttons and NO trim or edging.
+Early-18th-century England and its ships; Lilliput is a country of people 1/12 of Gulliver's size: keep their true size against him (AR-01, no exaggeration).
+No likeness to any film, game or existing illustration. No text, no letters, no speech balloons, no panel border, no signature, no watermark.
+Square 1024x1024.
+
+Panel e01-p11-k2, page 11 panel 2, scene SC-004.
+Shot: 中. Camera: ガリヴァーの側（顔や手の近く）, 300 mm above the ground; 顔の横から.
+What the panel shows (storyboard memo): じっと横たわり、夜を待つと決めるガリヴァー。
+Words in this panel (for the mood and the faces only, do NOT draw any text): ナレーション（ガリヴァー）：夜になれば、自由になった左手で逃げられる。相手がこの大きさならば、どんな軍勢でも敵ではない、と。
+Figures, placed by the 3D layout (keep these places, facings and poses; draw each with a readable face direction, pose and expression):
+- FG-e01-p11-k2-01 ガリヴァー — Gulliver (CH-01): 1,750 mm, plain blue coat with brass buttons and NO gold trim, tan breeches, white stockings, black shoes, brown hair tied back; lying flat on his back; head at outside the frame, feet at outside the frame; 490 mm from the camera.
+The FIRST image is the 3D layout render from this camera: figures there are blocky stand-ins, ground/sea/walls are flat placeholders. The flat grey bands at the edges of the FIRST image are padding outside the panel: continue the scene into them, nothing important there.
+
+After generating, copy the generated PNG to ./raw.png in the current directory. Do not generate more than one image.

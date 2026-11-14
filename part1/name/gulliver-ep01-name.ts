@@ -751,6 +751,21 @@ function layoutPanel(panel: DesignElement, record: PanelRecord): { placed: Place
   throw Error('unreachable');
 }
 
+/** ラフ（fiction-manga ラフ）でコマのアタリの層に敷く絵。 */
+export type RoughImage = { src: string; alt: string; source: string; license: string };
+/**
+ * レイヤー分け（画作りガイドのレイヤーの決まり）。ラフでは、コマごとに LY-01 下絵（3D）・LY-02 アタリ・
+ * LY-09 吹き出し・LY-10 文字のグループを作り、コマの中身をそこへ入れる。
+ */
+export type LayerOptions = { rough?: Record<string, RoughImage>; underlayOpacity?: number };
+export const LAYERS = {
+  underlay: 'LY-01 下絵（3D）',
+  atari: 'LY-02 アタリ',
+  balloon: 'LY-09 吹き出し（仮）',
+  text: 'LY-10 文字（仮）',
+  memo: 'メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）',
+} as const;
+
 export type NameBuild = {
   content: DesignContent;
   records: PanelRecord[];
@@ -760,7 +775,7 @@ export type NameBuild = {
 };
 
 /** 第1話のネームを Design 原稿にする。 */
-export function buildEpisodeName(episode = 1, pages = EP01_NAME, stage?: StageInput): NameBuild {
+export function buildEpisodeName(episode = 1, pages = EP01_NAME, stage?: StageInput, layers?: LayerOptions): NameBuild {
   const records = assignLines(episode, pages);
   let d = createDesign();
   pages.forEach((page, pi) => {
@@ -792,13 +807,23 @@ export function buildEpisodeName(episode = 1, pages = EP01_NAME, stage?: StageIn
     const panel = d.elements.find((e) => e.id === r.id)!;
     const p = r.panel;
     d = updateElement(r.id, { name: `${r.page}-${r.order} ${p.shot}：${p.art}`.slice(0, 200), strokeWidth: 3, stroke: '#111111', fill: '#ffffff' }).apply(d);
-    // アタリ：3D の舞台のカメラの絵をコマの枠に切り抜いたもの。コマの一番下に敷く。
+    // レイヤー（ラフ）：コマの中に、重ね順のとおりグループを作る。
+    const layer: Record<keyof typeof LAYERS, string> = { underlay: r.id, atari: r.id, balloon: r.id, text: r.id, memo: r.id };
+    if (layers) {
+      for (const k of Object.keys(LAYERS) as (keyof typeof LAYERS)[]) {
+        const gid = nid(`layer-${k}`);
+        d = insertElement('group', { id: gid, parentId: r.id, bounds: { ...panel.bounds } }).apply(d);
+        d = updateElement(gid, { name: LAYERS[k] }).apply(d);
+        layer[k] = gid;
+      }
+    }
+    // アタリ：3D の舞台のカメラの絵をコマの枠に切り抜いたもの。コマの一番下に敷く（ラフでは LY-01 下絵（3D））。
     const sp = stage?.data.panels.find((x) => x.panel === r.id);
     if (sp?.underlay) {
       const set = stage!.data.sets[sp.set]!;
       const iid = nid('underlay');
-      d = insertElement('image', { id: iid, parentId: r.id, bounds: { ...panel.bounds }, src: stage!.images[r.id] }).apply(d);
-      d = updateElement(iid, { name: `アタリ（3D のカメラの絵 ${r.id}）`, imageFit: 'fill', opacity: UNDERLAY_OPACITY, alt: `3D の舞台「${set.name}」をカメラ (${sp.cam.join(', ')}) mm から注視点 (${sp.look.join(', ')}) mm へ見た絵` }).apply(d);
+      d = insertElement('image', { id: iid, parentId: layer.underlay, bounds: { ...panel.bounds }, src: stage!.images[r.id] }).apply(d);
+      d = updateElement(iid, { name: layers ? `下絵（3D のカメラの絵 ${r.id}）` : `アタリ（3D のカメラの絵 ${r.id}）`, imageFit: 'fill', opacity: layers?.underlayOpacity ?? UNDERLAY_OPACITY, alt: `3D の舞台「${set.name}」をカメラ (${sp.cam.join(', ')}) mm から注視点 (${sp.look.join(', ')}) mm へ見た絵` }).apply(d);
       d = setDesignPagination({
         ...d.pagination!,
         images: [
@@ -811,6 +836,13 @@ export function buildEpisodeName(episode = 1, pages = EP01_NAME, stage?: StageIn
         ],
       }).apply(d);
     }
+    const rough = layers?.rough?.[r.id];
+    if (rough) {
+      const iid = nid('rough');
+      d = insertElement('image', { id: iid, parentId: layer.atari, bounds: { ...panel.bounds }, src: rough.src }).apply(d);
+      d = updateElement(iid, { name: `ラフ絵 ${r.id}`, imageFit: 'fill', opacity: 1, alt: rough.alt }).apply(d);
+      d = setDesignPagination({ ...d.pagination!, images: [...d.pagination!.images, { elementId: iid, source: rough.source, license: rough.license }] }).apply(d);
+    }
     const { placed: items, ok } = layoutPanel(panel, r);
     if (!ok) overflow.push(r.id);
     const memo = `絵：${p.art}`;
@@ -818,17 +850,17 @@ export function buildEpisodeName(episode = 1, pages = EP01_NAME, stage?: StageIn
     for (const it of items) {
       placed.push(it);
       if (it.kind === 'tag')
-        text(r.id, it.textBox, tagText(r), 'コマのタグ（ネームのメモ）', { fontFamily: GOTHIC, fontSize: FONT.memo, bold: true, lineHeight: 1.2 }, '#2563eb');
+        text(layer.memo, it.textBox, tagText(r), 'コマのタグ（ネームのメモ）', { fontFamily: GOTHIC, fontSize: FONT.memo, bold: true, lineHeight: 1.2 }, '#2563eb');
       else if (it.kind === 'memo')
-        text(r.id, it.textBox, memo, '絵のメモ（ト書き）', { fontFamily: GOTHIC, fontSize: FONT.memo, lineHeight: 1.3 }, '#6b7280');
+        text(layer.memo, it.textBox, memo, '絵のメモ（ト書き）', { fontFamily: GOTHIC, fontSize: FONT.memo, lineHeight: 1.3 }, '#6b7280');
       else if (it.kind === 'title')
-        text(r.id, it.textBox, p.title!, '題', { fontFamily: MINCHO, fontSize: it.font, bold: true, lineHeight: 1.15 });
+        text(layer.text, it.textBox, p.title!, '題', { fontFamily: MINCHO, fontSize: it.font, bold: true, lineHeight: 1.15 });
       else {
         const line = r.lines.find((l) => l.id === it.lineId)!.line;
         if (it.kind === 'D') {
           const gid = nid('balloon');
           const speaker = SPEAKER_NAMES[line.who!];
-          d = insertElement('group', { id: gid, parentId: r.id, bounds: { ...it.outline, height: it.outline.height + 14 } }).apply(d);
+          d = insertElement('group', { id: gid, parentId: layer.balloon, bounds: { ...it.outline, height: it.outline.height + 14 } }).apply(d);
           d = updateElement(gid, { name: `台詞 ${it.lineId} ${line.who} ${speaker}` }).apply(d);
           const oid = nid('outline');
           d = insertElement('shape', { id: oid, parentId: gid, bounds: it.outline }).apply(d);
@@ -837,14 +869,14 @@ export function buildEpisodeName(episode = 1, pages = EP01_NAME, stage?: StageIn
           const tx = it.outline.x + it.outline.width * (it.outline.x > panel.bounds.x + panel.bounds.width / 2 - it.outline.width / 2 ? 0.3 : 0.6);
           d = insertElement('shape', { id: tail, parentId: gid, bounds: { x: tx, y: it.outline.y + it.outline.height - 3, width: 16, height: 17 } }).apply(d);
           d = updateElement(tail, { name: `尻尾（${speaker}へ）`, shape: 'triangle', flipY: true, fill: '#ffffff', stroke: '#111111', strokeWidth: 2 }).apply(d);
-          text(gid, it.textBox, line.text, `台詞の文 ${it.lineId}`, { fontFamily: GOTHIC, fontSize: it.font, bold: isShout(line), align: 'center', verticalAlign: 'middle', lineHeight: 1.25 });
+          text(layers ? layer.text : gid, it.textBox, line.text, `台詞の文 ${it.lineId}`, { fontFamily: GOTHIC, fontSize: it.font, bold: isShout(line), align: 'center', verticalAlign: 'middle', lineHeight: 1.25 });
         } else if (it.kind === 'N') {
           const bid = nid('narration');
-          d = insertElement('rectangle', { id: bid, parentId: r.id, bounds: it.outline }).apply(d);
+          d = insertElement('rectangle', { id: bid, parentId: layer.balloon, bounds: it.outline }).apply(d);
           d = updateElement(bid, { name: `ナレーションの枠 ${it.lineId}`, fill: '#ffffff', stroke: '#111111', strokeWidth: 1.5 }).apply(d);
-          text(r.id, it.textBox, line.text, `ナレーション ${it.lineId} CH-01`, { fontFamily: MINCHO, fontSize: it.font, lineHeight: 1.35 });
+          text(layer.text, it.textBox, line.text, `ナレーション ${it.lineId} CH-01`, { fontFamily: MINCHO, fontSize: it.font, lineHeight: 1.35 });
         } else if (it.kind === 'S') {
-          text(r.id, it.textBox, line.text, `擬音 ${it.lineId}（仮、手描きは LY-08）`, { fontFamily: GOTHIC, fontSize: it.font, bold: true, lineHeight: 1.15 }, '#9ca3af');
+          text(layer.text, it.textBox, line.text, `擬音 ${it.lineId}（仮、手描きは LY-08）`, { fontFamily: GOTHIC, fontSize: it.font, bold: true, lineHeight: 1.15 }, '#9ca3af');
         }
       }
     }
