@@ -4,8 +4,8 @@
  "artwork": [],
  "source": {
   "artifactId": "gm1-ep01-name",
-  "versionId": "version_3f31682e-751f-4e16-b812-6c1afb29ad5a",
-  "contentHash": "d8eb8d2b32e1738cbfd887ba75b27702f86a82c345232a0b01271298fc63a2ca"
+  "versionId": "version_0f3e3778-80a0-400d-8da0-b6da555a2e46",
+  "contentHash": "7e91a90518baec3b9f616104894ddb0cba7c30d16465c942a487f6321c35eec3"
  },
  "direction": "ltr",
  "pages": [
@@ -880,42 +880,42 @@
   },
   {
    "elementId": "underlay-0084",
-   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p05-k1、横 44.5°×縦 35°）。モデル：舞台 sea artifact_8e7c4c5b-26f3-41e4-a18b-d26778e92dad@version_85669d05-2f08-49c7-801e-5e5f84e74af2、舞台 sea ship artifact_d1959588-71c9-44a0-9338-34eb35d53385@version_9bd66ad8-c67b-4247-9e61-59d64c8abaa7、舞台 sea boat artifact_231ae001-acd0-4711-b689-2596a522656b@version_ae676796-d5da-47b3-b074-276facc9b3d1",
+   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p05-k1、横 44.5°×縦 35°）。モデル：舞台 sea artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e、舞台 sea ship artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8、舞台 sea boat artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0088",
-   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p05-k2、横 23.9°×縦 35°）。モデル：舞台 sea artifact_8e7c4c5b-26f3-41e4-a18b-d26778e92dad@version_85669d05-2f08-49c7-801e-5e5f84e74af2、舞台 sea ship artifact_d1959588-71c9-44a0-9338-34eb35d53385@version_9bd66ad8-c67b-4247-9e61-59d64c8abaa7、舞台 sea boat artifact_231ae001-acd0-4711-b689-2596a522656b@version_ae676796-d5da-47b3-b074-276facc9b3d1",
+   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p05-k2、横 23.9°×縦 35°）。モデル：舞台 sea artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e、舞台 sea ship artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8、舞台 sea boat artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0092",
-   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p05-k3、横 22.6°×縦 35°）。モデル：舞台 sea artifact_8e7c4c5b-26f3-41e4-a18b-d26778e92dad@version_85669d05-2f08-49c7-801e-5e5f84e74af2、舞台 sea ship artifact_d1959588-71c9-44a0-9338-34eb35d53385@version_9bd66ad8-c67b-4247-9e61-59d64c8abaa7、舞台 sea boat artifact_231ae001-acd0-4711-b689-2596a522656b@version_ae676796-d5da-47b3-b074-276facc9b3d1",
+   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p05-k3、横 22.6°×縦 35°）。モデル：舞台 sea artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e、舞台 sea ship artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8、舞台 sea boat artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0097",
-   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p06-k1、横 46.7°×縦 35°）。モデル：舞台 sea artifact_8e7c4c5b-26f3-41e4-a18b-d26778e92dad@version_85669d05-2f08-49c7-801e-5e5f84e74af2、舞台 sea ship artifact_d1959588-71c9-44a0-9338-34eb35d53385@version_9bd66ad8-c67b-4247-9e61-59d64c8abaa7、舞台 sea boat artifact_231ae001-acd0-4711-b689-2596a522656b@version_ae676796-d5da-47b3-b074-276facc9b3d1",
+   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p06-k1、横 46.7°×縦 35°）。モデル：舞台 sea artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e、舞台 sea ship artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8、舞台 sea boat artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0102",
-   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p06-k2、横 23.8°×縦 35°）。モデル：舞台 sea artifact_8e7c4c5b-26f3-41e4-a18b-d26778e92dad@version_85669d05-2f08-49c7-801e-5e5f84e74af2、舞台 sea ship artifact_d1959588-71c9-44a0-9338-34eb35d53385@version_9bd66ad8-c67b-4247-9e61-59d64c8abaa7、舞台 sea boat artifact_231ae001-acd0-4711-b689-2596a522656b@version_ae676796-d5da-47b3-b074-276facc9b3d1",
+   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p06-k2、横 23.8°×縦 35°）。モデル：舞台 sea artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e、舞台 sea ship artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8、舞台 sea boat artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0105",
-   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p06-k3、横 23.8°×縦 35°）。モデル：舞台 sea artifact_8e7c4c5b-26f3-41e4-a18b-d26778e92dad@version_85669d05-2f08-49c7-801e-5e5f84e74af2、舞台 sea ship artifact_d1959588-71c9-44a0-9338-34eb35d53385@version_9bd66ad8-c67b-4247-9e61-59d64c8abaa7、舞台 sea boat artifact_231ae001-acd0-4711-b689-2596a522656b@version_ae676796-d5da-47b3-b074-276facc9b3d1",
+   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p06-k3、横 23.8°×縦 35°）。モデル：舞台 sea artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e、舞台 sea ship artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8、舞台 sea boat artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0110",
-   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p07-k1、横 56.9°×縦 35°）。モデル：舞台 sea artifact_8e7c4c5b-26f3-41e4-a18b-d26778e92dad@version_85669d05-2f08-49c7-801e-5e5f84e74af2、舞台 sea ship artifact_d1959588-71c9-44a0-9338-34eb35d53385@version_9bd66ad8-c67b-4247-9e61-59d64c8abaa7、舞台 sea boat artifact_231ae001-acd0-4711-b689-2596a522656b@version_ae676796-d5da-47b3-b074-276facc9b3d1",
+   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p07-k1、横 56.9°×縦 35°）。モデル：舞台 sea artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e、舞台 sea ship artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8、舞台 sea boat artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0115",
-   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p07-k2、横 39.5°×縦 35°）。モデル：舞台 sea artifact_8e7c4c5b-26f3-41e4-a18b-d26778e92dad@version_85669d05-2f08-49c7-801e-5e5f84e74af2、舞台 sea ship artifact_d1959588-71c9-44a0-9338-34eb35d53385@version_9bd66ad8-c67b-4247-9e61-59d64c8abaa7、舞台 sea boat artifact_231ae001-acd0-4711-b689-2596a522656b@version_ae676796-d5da-47b3-b074-276facc9b3d1",
+   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p07-k2、横 39.5°×縦 35°）。モデル：舞台 sea artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e、舞台 sea ship artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8、舞台 sea boat artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {

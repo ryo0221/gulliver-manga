@@ -572,7 +572,7 @@
       "st.fov": "横 44.5° × 縦 35°",
       "st.figures": "FG-e01-p05-k1-01 CH-01 ガリヴァー (-6000, -40500, 1500) 向き 17.2° crouch / FG-e01-p05-k1-02 EX 船員1 (-3000, -41000, 1500) 向き 126.1° fall / FG-e01-p05-k1-03 EX 船員2 (2000, -39000, 1500) 向き -68.8° carry-up / FG-e01-p05-k1-04 EX 船員3 (10000, -40000, 3000) 向き -91.7° fall / FG-e01-p05-k1-05 EX 船員4 (-10000, -39500, 4000) 向き -90° point",
       "st.crowds": "",
-      "st.models": "舞台 sea（cad artifact_8e7c4c5b-26f3-41e4-a18b-d26778e92dad@version_85669d05-2f08-49c7-801e-5e5f84e74af2 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_d1959588-71c9-44a0-9338-34eb35d53385@version_9bd66ad8-c67b-4247-9e61-59d64c8abaa7 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_231ae001-acd0-4711-b689-2596a522656b@version_ae676796-d5da-47b3-b074-276facc9b3d1 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
+      "st.models": "舞台 sea（cad artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
       "st.underlay": "underlay/e01-p05-k1.jpg",
       "st.plan": "plans/e01-p05-k1.svg"
      }
@@ -599,7 +599,7 @@
       "st.fov": "横 23.9° × 縦 35°",
       "st.figures": "FG-e01-p05-k2-01 CH-01 ガリヴァー (5000, -39000, 1500) 向き -80.2° crouch / FG-e01-p05-k2-02 EX 船員3 (10500, -40500, 3000) 向き 143.2° fall / FG-e01-p05-k2-03 EX 船員4 (9000, -38800, 3000) 向き -114.6° crouch / FG-e01-p05-k2-04 EX 船員5 (7000, -41500, 1500) 向き -57.3° carry-up",
       "st.crowds": "",
-      "st.models": "舞台 sea（cad artifact_8e7c4c5b-26f3-41e4-a18b-d26778e92dad@version_85669d05-2f08-49c7-801e-5e5f84e74af2 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_d1959588-71c9-44a0-9338-34eb35d53385@version_9bd66ad8-c67b-4247-9e61-59d64c8abaa7 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_231ae001-acd0-4711-b689-2596a522656b@version_ae676796-d5da-47b3-b074-276facc9b3d1 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
+      "st.models": "舞台 sea（cad artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
       "st.underlay": "underlay/e01-p05-k2.jpg",
       "st.plan": "plans/e01-p05-k2.svg"
      }
@@ -621,12 +621,12 @@
       "nm.text": "ナレーション（ガリヴァー）：11月5日、ヴァン・ディーメンの地の北西で、船は嵐に遭い、岩に砕けた。",
       "nm.turn": "",
       "st.set": "sea：難破の海と浜（仮の3D、創作）",
-      "st.cam": "(-3000, -27500, 300)",
-      "st.look": "(0, -20000, 300)",
+      "st.cam": "(-3500, -31000, 300)",
+      "st.look": "(-600, -20300, 300)",
       "st.fov": "横 22.6° × 縦 35°",
       "st.figures": "FG-e01-p05-k3-01 CH-01 ガリヴァー (-800, -21800, -1560) 向き 22.9° tread / FG-e01-p05-k3-02 EX 船員1 (1000, -21500, 600) 向き 114.6° fall / FG-e01-p05-k3-03 EX 船員2 (1800, -19000, -1560) 向き -28.6° tread / FG-e01-p05-k3-04 EX 船員3 (-1500, -19200, 500) 向き -126.1° fall / FG-e01-p05-k3-05 EX 船員4 (2600, -21000, 0) 向き 45.8° swim / FG-e01-p05-k3-06 EX 船員5 (-2600, -20500, -1560) 向き 68.8° tread",
       "st.crowds": "",
-      "st.models": "舞台 sea（cad artifact_8e7c4c5b-26f3-41e4-a18b-d26778e92dad@version_85669d05-2f08-49c7-801e-5e5f84e74af2 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_d1959588-71c9-44a0-9338-34eb35d53385@version_9bd66ad8-c67b-4247-9e61-59d64c8abaa7 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_231ae001-acd0-4711-b689-2596a522656b@version_ae676796-d5da-47b3-b074-276facc9b3d1 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
+      "st.models": "舞台 sea（cad artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
       "st.underlay": "underlay/e01-p05-k3.jpg",
       "st.plan": "plans/e01-p05-k3.svg"
      }
@@ -653,7 +653,7 @@
       "st.fov": "横 46.7° × 縦 35°",
       "st.figures": "FG-e01-p06-k1-01 CH-01 ガリヴァー (0, 0, -1560) 向き 17.2° tread",
       "st.crowds": "",
-      "st.models": "舞台 sea（cad artifact_8e7c4c5b-26f3-41e4-a18b-d26778e92dad@version_85669d05-2f08-49c7-801e-5e5f84e74af2 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_d1959588-71c9-44a0-9338-34eb35d53385@version_9bd66ad8-c67b-4247-9e61-59d64c8abaa7 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_231ae001-acd0-4711-b689-2596a522656b@version_ae676796-d5da-47b3-b074-276facc9b3d1 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
+      "st.models": "舞台 sea（cad artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
       "st.underlay": "underlay/e01-p06-k1.jpg",
       "st.plan": "plans/e01-p06-k1.svg"
      }
@@ -680,7 +680,7 @@
       "st.fov": "横 23.8° × 縦 35°",
       "st.figures": "FG-e01-p06-k2-01 CH-01 ガリヴァー (0, 300, -1000) 向き 11.5° swim",
       "st.crowds": "",
-      "st.models": "舞台 sea（cad artifact_8e7c4c5b-26f3-41e4-a18b-d26778e92dad@version_85669d05-2f08-49c7-801e-5e5f84e74af2 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_d1959588-71c9-44a0-9338-34eb35d53385@version_9bd66ad8-c67b-4247-9e61-59d64c8abaa7 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_231ae001-acd0-4711-b689-2596a522656b@version_ae676796-d5da-47b3-b074-276facc9b3d1 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
+      "st.models": "舞台 sea（cad artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
       "st.underlay": "underlay/e01-p06-k2.jpg",
       "st.plan": "plans/e01-p06-k2.svg"
      }
@@ -707,7 +707,7 @@
       "st.fov": "横 23.8° × 縦 35°",
       "st.figures": "FG-e01-p06-k3-01 CH-01 ガリヴァー (0, 8800, -410) 向き 0° walk",
       "st.crowds": "",
-      "st.models": "舞台 sea（cad artifact_8e7c4c5b-26f3-41e4-a18b-d26778e92dad@version_85669d05-2f08-49c7-801e-5e5f84e74af2 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_d1959588-71c9-44a0-9338-34eb35d53385@version_9bd66ad8-c67b-4247-9e61-59d64c8abaa7 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_231ae001-acd0-4711-b689-2596a522656b@version_ae676796-d5da-47b3-b074-276facc9b3d1 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
+      "st.models": "舞台 sea（cad artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
       "st.underlay": "underlay/e01-p06-k3.jpg",
       "st.plan": "plans/e01-p06-k3.svg"
      }
@@ -734,7 +734,7 @@
       "st.fov": "横 56.9° × 縦 35°",
       "st.figures": "FG-e01-p07-k1-01 CH-01 ガリヴァー (0, 30500, 12) 向き 8.6° lie",
       "st.crowds": "",
-      "st.models": "舞台 sea（cad artifact_8e7c4c5b-26f3-41e4-a18b-d26778e92dad@version_85669d05-2f08-49c7-801e-5e5f84e74af2 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_d1959588-71c9-44a0-9338-34eb35d53385@version_9bd66ad8-c67b-4247-9e61-59d64c8abaa7 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_231ae001-acd0-4711-b689-2596a522656b@version_ae676796-d5da-47b3-b074-276facc9b3d1 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
+      "st.models": "舞台 sea（cad artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
       "st.underlay": "underlay/e01-p07-k1.jpg",
       "st.plan": "plans/e01-p07-k1.svg"
      }
@@ -761,7 +761,7 @@
       "st.fov": "横 39.5° × 縦 35°",
       "st.figures": "FG-e01-p07-k2-01 CH-01 ガリヴァー (0, 30500, 12) 向き 0° lie",
       "st.crowds": "",
-      "st.models": "舞台 sea（cad artifact_8e7c4c5b-26f3-41e4-a18b-d26778e92dad@version_85669d05-2f08-49c7-801e-5e5f84e74af2 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_d1959588-71c9-44a0-9338-34eb35d53385@version_9bd66ad8-c67b-4247-9e61-59d64c8abaa7 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_231ae001-acd0-4711-b689-2596a522656b@version_ae676796-d5da-47b3-b074-276facc9b3d1 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
+      "st.models": "舞台 sea（cad artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
       "st.underlay": "underlay/e01-p07-k2.jpg",
       "st.plan": "plans/e01-p07-k2.svg"
      }
@@ -2232,7 +2232,7 @@
        "st.fov": "横 44.5° × 縦 35°",
        "st.figures": "FG-e01-p05-k1-01 CH-01 ガリヴァー (-6000, -40500, 1500) 向き 17.2° crouch / FG-e01-p05-k1-02 EX 船員1 (-3000, -41000, 1500) 向き 126.1° fall / FG-e01-p05-k1-03 EX 船員2 (2000, -39000, 1500) 向き -68.8° carry-up / FG-e01-p05-k1-04 EX 船員3 (10000, -40000, 3000) 向き -91.7° fall / FG-e01-p05-k1-05 EX 船員4 (-10000, -39500, 4000) 向き -90° point",
        "st.crowds": "",
-       "st.models": "舞台 sea（cad artifact_8e7c4c5b-26f3-41e4-a18b-d26778e92dad@version_85669d05-2f08-49c7-801e-5e5f84e74af2 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_d1959588-71c9-44a0-9338-34eb35d53385@version_9bd66ad8-c67b-4247-9e61-59d64c8abaa7 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_231ae001-acd0-4711-b689-2596a522656b@version_ae676796-d5da-47b3-b074-276facc9b3d1 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
+       "st.models": "舞台 sea（cad artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
        "st.underlay": "underlay/e01-p05-k1.jpg",
        "st.plan": "plans/e01-p05-k1.svg"
       }
@@ -2259,7 +2259,7 @@
        "st.fov": "横 23.9° × 縦 35°",
        "st.figures": "FG-e01-p05-k2-01 CH-01 ガリヴァー (5000, -39000, 1500) 向き -80.2° crouch / FG-e01-p05-k2-02 EX 船員3 (10500, -40500, 3000) 向き 143.2° fall / FG-e01-p05-k2-03 EX 船員4 (9000, -38800, 3000) 向き -114.6° crouch / FG-e01-p05-k2-04 EX 船員5 (7000, -41500, 1500) 向き -57.3° carry-up",
        "st.crowds": "",
-       "st.models": "舞台 sea（cad artifact_8e7c4c5b-26f3-41e4-a18b-d26778e92dad@version_85669d05-2f08-49c7-801e-5e5f84e74af2 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_d1959588-71c9-44a0-9338-34eb35d53385@version_9bd66ad8-c67b-4247-9e61-59d64c8abaa7 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_231ae001-acd0-4711-b689-2596a522656b@version_ae676796-d5da-47b3-b074-276facc9b3d1 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
+       "st.models": "舞台 sea（cad artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
        "st.underlay": "underlay/e01-p05-k2.jpg",
        "st.plan": "plans/e01-p05-k2.svg"
       }
@@ -2281,12 +2281,12 @@
        "nm.text": "ナレーション（ガリヴァー）：11月5日、ヴァン・ディーメンの地の北西で、船は嵐に遭い、岩に砕けた。",
        "nm.turn": "",
        "st.set": "sea：難破の海と浜（仮の3D、創作）",
-       "st.cam": "(-3000, -27500, 300)",
-       "st.look": "(0, -20000, 300)",
+       "st.cam": "(-3500, -31000, 300)",
+       "st.look": "(-600, -20300, 300)",
        "st.fov": "横 22.6° × 縦 35°",
        "st.figures": "FG-e01-p05-k3-01 CH-01 ガリヴァー (-800, -21800, -1560) 向き 22.9° tread / FG-e01-p05-k3-02 EX 船員1 (1000, -21500, 600) 向き 114.6° fall / FG-e01-p05-k3-03 EX 船員2 (1800, -19000, -1560) 向き -28.6° tread / FG-e01-p05-k3-04 EX 船員3 (-1500, -19200, 500) 向き -126.1° fall / FG-e01-p05-k3-05 EX 船員4 (2600, -21000, 0) 向き 45.8° swim / FG-e01-p05-k3-06 EX 船員5 (-2600, -20500, -1560) 向き 68.8° tread",
        "st.crowds": "",
-       "st.models": "舞台 sea（cad artifact_8e7c4c5b-26f3-41e4-a18b-d26778e92dad@version_85669d05-2f08-49c7-801e-5e5f84e74af2 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_d1959588-71c9-44a0-9338-34eb35d53385@version_9bd66ad8-c67b-4247-9e61-59d64c8abaa7 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_231ae001-acd0-4711-b689-2596a522656b@version_ae676796-d5da-47b3-b074-276facc9b3d1 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
+       "st.models": "舞台 sea（cad artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
        "st.underlay": "underlay/e01-p05-k3.jpg",
        "st.plan": "plans/e01-p05-k3.svg"
       }
@@ -2313,7 +2313,7 @@
        "st.fov": "横 46.7° × 縦 35°",
        "st.figures": "FG-e01-p06-k1-01 CH-01 ガリヴァー (0, 0, -1560) 向き 17.2° tread",
        "st.crowds": "",
-       "st.models": "舞台 sea（cad artifact_8e7c4c5b-26f3-41e4-a18b-d26778e92dad@version_85669d05-2f08-49c7-801e-5e5f84e74af2 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_d1959588-71c9-44a0-9338-34eb35d53385@version_9bd66ad8-c67b-4247-9e61-59d64c8abaa7 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_231ae001-acd0-4711-b689-2596a522656b@version_ae676796-d5da-47b3-b074-276facc9b3d1 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
+       "st.models": "舞台 sea（cad artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
        "st.underlay": "underlay/e01-p06-k1.jpg",
        "st.plan": "plans/e01-p06-k1.svg"
       }
@@ -2340,7 +2340,7 @@
        "st.fov": "横 23.8° × 縦 35°",
        "st.figures": "FG-e01-p06-k2-01 CH-01 ガリヴァー (0, 300, -1000) 向き 11.5° swim",
        "st.crowds": "",
-       "st.models": "舞台 sea（cad artifact_8e7c4c5b-26f3-41e4-a18b-d26778e92dad@version_85669d05-2f08-49c7-801e-5e5f84e74af2 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_d1959588-71c9-44a0-9338-34eb35d53385@version_9bd66ad8-c67b-4247-9e61-59d64c8abaa7 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_231ae001-acd0-4711-b689-2596a522656b@version_ae676796-d5da-47b3-b074-276facc9b3d1 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
+       "st.models": "舞台 sea（cad artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
        "st.underlay": "underlay/e01-p06-k2.jpg",
        "st.plan": "plans/e01-p06-k2.svg"
       }
@@ -2367,7 +2367,7 @@
        "st.fov": "横 23.8° × 縦 35°",
        "st.figures": "FG-e01-p06-k3-01 CH-01 ガリヴァー (0, 8800, -410) 向き 0° walk",
        "st.crowds": "",
-       "st.models": "舞台 sea（cad artifact_8e7c4c5b-26f3-41e4-a18b-d26778e92dad@version_85669d05-2f08-49c7-801e-5e5f84e74af2 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_d1959588-71c9-44a0-9338-34eb35d53385@version_9bd66ad8-c67b-4247-9e61-59d64c8abaa7 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_231ae001-acd0-4711-b689-2596a522656b@version_ae676796-d5da-47b3-b074-276facc9b3d1 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
+       "st.models": "舞台 sea（cad artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
        "st.underlay": "underlay/e01-p06-k3.jpg",
        "st.plan": "plans/e01-p06-k3.svg"
       }
@@ -2394,7 +2394,7 @@
        "st.fov": "横 56.9° × 縦 35°",
        "st.figures": "FG-e01-p07-k1-01 CH-01 ガリヴァー (0, 30500, 12) 向き 8.6° lie",
        "st.crowds": "",
-       "st.models": "舞台 sea（cad artifact_8e7c4c5b-26f3-41e4-a18b-d26778e92dad@version_85669d05-2f08-49c7-801e-5e5f84e74af2 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_d1959588-71c9-44a0-9338-34eb35d53385@version_9bd66ad8-c67b-4247-9e61-59d64c8abaa7 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_231ae001-acd0-4711-b689-2596a522656b@version_ae676796-d5da-47b3-b074-276facc9b3d1 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
+       "st.models": "舞台 sea（cad artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
        "st.underlay": "underlay/e01-p07-k1.jpg",
        "st.plan": "plans/e01-p07-k1.svg"
       }
@@ -2421,7 +2421,7 @@
        "st.fov": "横 39.5° × 縦 35°",
        "st.figures": "FG-e01-p07-k2-01 CH-01 ガリヴァー (0, 30500, 12) 向き 0° lie",
        "st.crowds": "",
-       "st.models": "舞台 sea（cad artifact_8e7c4c5b-26f3-41e4-a18b-d26778e92dad@version_85669d05-2f08-49c7-801e-5e5f84e74af2 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_d1959588-71c9-44a0-9338-34eb35d53385@version_9bd66ad8-c67b-4247-9e61-59d64c8abaa7 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_231ae001-acd0-4711-b689-2596a522656b@version_ae676796-d5da-47b3-b074-276facc9b3d1 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
+       "st.models": "舞台 sea（cad artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
        "st.underlay": "underlay/e01-p07-k2.jpg",
        "st.plan": "plans/e01-p07-k2.svg"
       }
@@ -3319,7 +3319,7 @@
      }
     ]
    },
-   "contentHash": "238e65faf4c0fbe2daff3707814df19e7571ebfd7fd9d5a4bc9b4d39f8fcf057"
+   "contentHash": "f958c77328bd18b5a45e4845bfc2689feb3f2ab5af836c7a673a51a47868af05"
   }
  ]
 }

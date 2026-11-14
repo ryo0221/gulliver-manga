@@ -270,22 +270,22 @@
     {
      "name": "舞台 sea",
      "kind": "cad",
-     "artifactId": "artifact_8e7c4c5b-26f3-41e4-a18b-d26778e92dad",
-     "versionId": "version_85669d05-2f08-49c7-801e-5e5f84e74af2",
+     "artifactId": "artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd",
+     "versionId": "version_b5afc14d-ff7b-439a-8c80-ce477eda360e",
      "contentHash": "7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e"
     },
     {
      "name": "舞台 sea ship",
      "kind": "cad",
-     "artifactId": "artifact_d1959588-71c9-44a0-9338-34eb35d53385",
-     "versionId": "version_9bd66ad8-c67b-4247-9e61-59d64c8abaa7",
+     "artifactId": "artifact_552de0a9-4da0-4416-8fd8-4f659196d04e",
+     "versionId": "version_ff062107-2bb9-4288-98fc-0ad8a3730aa8",
      "contentHash": "569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3"
     },
     {
      "name": "舞台 sea boat",
      "kind": "cad",
-     "artifactId": "artifact_231ae001-acd0-4711-b689-2596a522656b",
-     "versionId": "version_ae676796-d5da-47b3-b074-276facc9b3d1",
+     "artifactId": "artifact_31184af3-82d6-4705-840d-97a2e77b6c86",
+     "versionId": "version_9e41e176-6ce9-4d7a-b180-09613334ab9e",
      "contentHash": "2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52"
     }
    ],
@@ -2200,13 +2200,13 @@
    "panel": "e01-p05-k3",
    "set": "sea",
    "cam": [
-    -3000,
-    -27500,
+    -3500,
+    -31000,
     300
    ],
    "look": [
-    0,
-    -20000,
+    -600,
+    -20300,
     300
    ],
    "stand": null,

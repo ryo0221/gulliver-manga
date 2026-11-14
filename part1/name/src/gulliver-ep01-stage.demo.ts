@@ -296,7 +296,7 @@ const SETS: SetDef[] = [
         { fig: 's3', at: [10500, -40500, 3000], facing: 2.5, pose: 'fall' },
         { fig: 's4', at: [9000, -38800, 3000], facing: -2.0, pose: 'crouch' },
         { fig: 's5', at: [7000, -41500, 1500], facing: -1.0, pose: 'carry-up' } ] },
-      { panel: 'e01-p05-k3', cam: [-3000, -27500, 300], look: [0, -20000, 300], vessels: { boat: { at: [0, -20000, 0], rot: axisAngleQuat([1, 0, 0], 1.1) } }, places: [
+      { panel: 'e01-p05-k3', cam: [-3500, -31000, 300], look: [-600, -20300, 300], vessels: { boat: { at: [0, -20000, 0], rot: axisAngleQuat([1, 0, 0], 1.1) } }, places: [
         { fig: 'gulliver', at: [-800, -21800, -1560], facing: 0.4, pose: 'tread' },
         { fig: 's1', at: [1000, -21500, 600], facing: 2.0, pose: 'fall' },
         { fig: 's2', at: [1800, -19000, -1560], facing: -0.5, pose: 'tread' },
