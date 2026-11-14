@@ -12,7 +12,7 @@ import { READ_COMMIT, READ_VERSIONS } from './gulliver-ep01-read';
 export type OutputFile = { file: string; format: 'PNG' | 'PDF'; page?: number | 'colophon'; pages?: number; colophon?: boolean; width?: number; height?: number; pointSize?: [number, number]; bytes: number; sha256: string };
 export type Outputs = { name: string; scale: number; source: { artifactId: string; versionId: string; contentHash: string; exportFilter?: string; exportContentHash?: string }; files: OutputFile[] };
 
-/** 書誌情報と紹介文（AI の草案。著者名は作者が決めた（2026-11-14）。題・紹介文は作者の確認待ち）。 */
+/** 書誌情報と紹介文（AI の草案。著者名は作者が決めた（2026-11-14）。題・あらすじ・紹介文は AI の草案）。 */
 export const BIBLIO = {
   title: 'ガリヴァー旅行記　第1話「人の山」',
   series: 'ガリヴァー旅行記（全4部・24話）第1部 リリパット 第1話',
@@ -57,7 +57,7 @@ th{text-align:left;vertical-align:top;white-space:nowrap;padding:5px 14px 5px 0;
 }
 
 const stamp = '2026-11-14T00:00:00.000Z';
-const VERSION = 'output-ep01-v1';
+const VERSION = 'output-ep01-v2';
 async function native(kind: string, id: string, name: string, content: unknown) {
   const artifact: Artifact<unknown> = {
     schemaVersion: 1,
@@ -97,7 +97,7 @@ function outputTable(outputs: Outputs): StructuredData {
   if (colophon) row('OR-e01-03b', '出力物', '奥付（話の最後のページ）', `${colophon.file}、${colophon.width}×${colophon.height} px。書誌情報と AI の関わり（この表の「AI の関わり」と同じ中身）。sha256:${colophon.sha256.slice(0, 12)}`, src);
   for (const f of outputs.files.filter((x) => x.format === 'PDF'))
     row('OR-e01-03', '出力物', 'PDF（話ごと）', `${f.file}、${f.pages}ページ（漫画16ページ${f.colophon ? '＋奥付' : ''}）、${f.pointSize!.join('×')} pt。書き出しの元の版（references.json）を添付。sha256:${f.sha256.slice(0, 12)}、${Math.round(f.bytes / 1024)} KB`, src);
-  row('OR-e01-04', '出力物', '判型', '原稿の枠は 800×1180（縦横比 1:1.475）。企画の「A4縦」（1:1.414）より縦長で、PDF のページは 600×885 pt（A4 は 595×842 pt）。A4 に合わせるかは作者が決める。');
+  row('OR-e01-04', '出力物', '判型', '原稿の枠は 800×1180（縦横比 1:1.475）。企画の「A4縦」（1:1.414）より縦長で、PDF のページは 600×885 pt（A4 は 595×842 pt）。作者の判断（2026-11-14）：このまま（A4 に合わせない）。');
   // 書誌情報と紹介文
   row('OR-e01-05', '書誌情報と紹介文', '題', BIBLIO.title);
   row('OR-e01-06', '書誌情報と紹介文', '連載', BIBLIO.series);

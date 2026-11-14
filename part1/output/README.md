@@ -28,7 +28,7 @@ node gm-export-ep.tmp.mjs /tmp/out /tmp/out/export gulliver-ep01 3
 GM_FINISH=$GM/part1/finish GM_OUT=/tmp/out GM_OUTPUTS=/tmp/out/export npx vitest run apps/artifact-host/src/creative/story-board/gulliver-ep01-output.build.test.ts
 ```
 
-## 作者の確認待ち
+## 作者の判断
 
 - 著者名は作者が決めました（ナナシ　アイ）。題・あらすじ・紹介文は AI の草案です。
-- 判型：原稿の枠 800×1180（1:1.475）は、企画の「A4縦」（1:1.414、595×842 pt）より縦長です。このままにするか、A4 に合わせるか。
+- 判型：原稿の枠 800×1180（1:1.475）は企画の「A4縦」（1:1.414）より縦長ですが、作者の判断でこのままにしました（2026-11-14）。

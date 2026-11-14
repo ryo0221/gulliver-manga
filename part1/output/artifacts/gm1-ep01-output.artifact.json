@@ -7,7 +7,7 @@
   "source": "created"
  },
  "draft": {
-  "baseVersionId": "output-ep01-v1",
+  "baseVersionId": "output-ep01-v2",
   "updatedAt": "2026-11-14T00:00:00.000Z",
   "content": {
    "schemaVersion": 2,
@@ -83,7 +83,7 @@
      "values": {
       "or.section": "出力物",
       "or.item": "判型",
-      "or.value": "原稿の枠は 800×1180（縦横比 1:1.475）。企画の「A4縦」（1:1.414）より縦長で、PDF のページは 600×885 pt（A4 は 595×842 pt）。A4 に合わせるかは作者が決める。",
+      "or.value": "原稿の枠は 800×1180（縦横比 1:1.475）。企画の「A4縦」（1:1.414）より縦長で、PDF のページは 600×885 pt（A4 は 595×842 pt）。作者の判断（2026-11-14）：このまま（A4 に合わせない）。",
       "or.source": ""
      }
     },
@@ -210,7 +210,7 @@
  "versions": [
   {
    "artifactId": "gm1-ep01-output",
-   "versionId": "output-ep01-v1",
+   "versionId": "output-ep01-v2",
    "parentVersionId": null,
    "schemaVersion": 1,
    "createdAt": "2026-11-14T00:00:00.000Z",
@@ -290,7 +290,7 @@
       "values": {
        "or.section": "出力物",
        "or.item": "判型",
-       "or.value": "原稿の枠は 800×1180（縦横比 1:1.475）。企画の「A4縦」（1:1.414）より縦長で、PDF のページは 600×885 pt（A4 は 595×842 pt）。A4 に合わせるかは作者が決める。",
+       "or.value": "原稿の枠は 800×1180（縦横比 1:1.475）。企画の「A4縦」（1:1.414）より縦長で、PDF のページは 600×885 pt（A4 は 595×842 pt）。作者の判断（2026-11-14）：このまま（A4 に合わせない）。",
        "or.source": ""
       }
      },
@@ -413,7 +413,7 @@
      }
     ]
    },
-   "contentHash": "a7ba7849bdc9f2629f31d3e3b4bf3991c21d5dce01054a3a7bd9cee9bcea259d"
+   "contentHash": "4784f45d405d70cfb48df704f3f8000e88b95ac8f3091a4915d2c565f44dada0"
   }
  ]
 }

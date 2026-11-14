@@ -7,7 +7,7 @@
   "source": "created"
  },
  "draft": {
-  "baseVersionId": "read-ep01-v2",
+  "baseVersionId": "read-ep01-v3",
   "updatedAt": "2026-11-14T00:00:00.000Z",
   "content": {
    "schemaVersion": 2,
@@ -204,8 +204,8 @@
       "rv.by": "AI",
       "rv.when": "2026-11-14 直した版の見直し",
       "rv.text": "描き直した 12-3 で、ネームの覚え書きの「放り投げた樽」がコマの上の外に出て見えない。",
-      "rv.decision": "作者の判断待ち",
-      "rv.reason": "提案：直さない。台詞とナレーションは樽に触れておらず、前のコマ（12-2）で樽から飲んでいる。",
+      "rv.decision": "直さない",
+      "rv.reason": "作者の判断（2026-11-14「直さない」）：直さない。台詞とナレーションは樽に触れておらず、前のコマ（12-2）で樽から飲んでいる。",
       "rv.fixedIn": ""
      }
     }
@@ -215,7 +215,7 @@
  "versions": [
   {
    "artifactId": "gm1-ep01-read-findings",
-   "versionId": "read-ep01-v2",
+   "versionId": "read-ep01-v3",
    "parentVersionId": null,
    "schemaVersion": 1,
    "createdAt": "2026-11-14T00:00:00.000Z",
@@ -416,14 +416,14 @@
        "rv.by": "AI",
        "rv.when": "2026-11-14 直した版の見直し",
        "rv.text": "描き直した 12-3 で、ネームの覚え書きの「放り投げた樽」がコマの上の外に出て見えない。",
-       "rv.decision": "作者の判断待ち",
-       "rv.reason": "提案：直さない。台詞とナレーションは樽に触れておらず、前のコマ（12-2）で樽から飲んでいる。",
+       "rv.decision": "直さない",
+       "rv.reason": "作者の判断（2026-11-14「直さない」）：直さない。台詞とナレーションは樽に触れておらず、前のコマ（12-2）で樽から飲んでいる。",
        "rv.fixedIn": ""
       }
      }
     ]
    },
-   "contentHash": "101be732e640077994c9afb2ae2c1666d3db587063e364490377e71d6625828b"
+   "contentHash": "141ebc9b8d40338daa995dc9b3cdef3709f8a4e15e3a082941edc03bd2d5355a"
   }
  ]
 }

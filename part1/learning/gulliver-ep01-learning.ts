@@ -3,7 +3,7 @@
  *
  * 成果物は「学びの記録」(learning-record、表)：第1話の制作で分かったこと、どこで分かったか（指摘・工程）、
  * 次の話でどうするか。並べたのは AI の提案で、次の話に持ち込む学びを選ぶのは作者（learning.chosen）。
- * 選ぶまでは「作者の選択待ち」。次の話のネームの前に、選んだ学びを読む。
+ * 作者は全部を採った（2026-11-14）。次の話のネームの前に、選んだ学びを読む。
  */
 import { contentHash, type Artifact } from '@editor-platform/artifact-core';
 import type { StructuredData } from '@editor-platform/structured-data/model';
@@ -60,10 +60,12 @@ export const LEARNINGS: Learning[] = [
     source: 'RV-e01-03、RV-e01-02',
     next: 'ネームの舞台とラフの段階で、扉と見開きの大きなコマだけは先に作者に見せる。',
   },
-].map((l) => ({ ...l, choice: '作者の選択待ち' as Choice }));
+].map((l) => ({ ...l, choice: '採る' as Choice }));
+/** 作者の選択（learning.chosen）：2026-11-14「全部」。 */
+export const CHOSEN_BY = '作者（2026-11-14「全部」）';
 
 const stamp = '2026-11-14T00:00:00.000Z';
-const VERSION = 'learning-ep01-v1';
+const VERSION = 'learning-ep01-v2';
 async function native(kind: string, id: string, name: string, content: unknown) {
   const artifact: Artifact<unknown> = {
     schemaVersion: 1,

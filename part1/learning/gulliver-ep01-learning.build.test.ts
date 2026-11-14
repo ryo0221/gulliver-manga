@@ -4,7 +4,7 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { expect, test } from 'vitest';
 import { FINDINGS } from './gulliver-ep01-read';
-import { buildGulliverEp01Learning, LEARNINGS } from './gulliver-ep01-learning';
+import { buildGulliverEp01Learning, CHOSEN_BY, LEARNINGS } from './gulliver-ep01-learning';
 
 test('episode 1 学びの記録 ties each learning to its source and leaves the choice to the author', async () => {
   const findings = new Set(FINDINGS.map((f) => f.id));
@@ -15,8 +15,8 @@ test('episode 1 学びの記録 ties each learning to its source and leaves the 
     ids.add(l.id);
     for (const rv of l.source.match(/RV-e01-\d{2}/g) ?? []) expect(findings.has(rv), `${l.id} ${rv}`).toBe(true);
     expect(l.next.length, l.id).toBeGreaterThan(10);
-    // learning.chosen is the author's: the AI only proposes.
-    expect(l.choice, l.id).toBe('作者の選択待ち');
+    // learning.chosen is the author's: the AI only proposes; a choice other than waiting names the author's word.
+    if (l.choice !== '作者の選択待ち') expect(CHOSEN_BY).toMatch(/^作者/);
   }
   const artifacts = await buildGulliverEp01Learning();
   expect(artifacts.map((a) => a.id)).toEqual(['gm1-ep01-learning']);

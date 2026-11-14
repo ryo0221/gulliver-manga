@@ -153,22 +153,23 @@ export const FINDINGS: Finding[] = [
     by: 'AI',
     when: '2026-11-14 直した版の見直し',
     text: '描き直した 12-3 で、ネームの覚え書きの「放り投げた樽」がコマの上の外に出て見えない。',
-    decision: '作者の判断待ち',
-    reason: '提案：直さない。台詞とナレーションは樽に触れておらず、前のコマ（12-2）で樽から飲んでいる。',
+    decision: '直さない',
+    reason: '作者の判断（2026-11-14「直さない」）：直さない。台詞とナレーションは樽に触れておらず、前のコマ（12-2）で樽から飲んでいる。',
   },
 ];
 
 /** 完成とするかの判断（作者）。作者が決めるまでは AI の見立てを書いておく。 */
 export const VERDICT = {
-  status: '作者の判断待ち',
+  status: '完成',
+  decidedBy: '作者（2026-11-14「完成として良い」）',
   proposal:
-    '提案：完成とする。RV-e01-03・04・05・07・09 を直した版（finish-ep01-v3）を1ページ目から読み直し、直した5コマで新しく気になったのは RV-e01-12 だけ（提案は直さない）。完成と決めるのは作者。',
+    'RV-e01-03・04・05・07・09 を直した版（finish-ep01-v3）を1ページ目から読み直し、直した5コマで新しく気になったのは RV-e01-12 だけ（作者の判断：直さない）。出版準備はこの版から作る。',
 };
 
 // ---------------------------------------------------------------- 資料
 
 const stamp = '2026-11-14T00:00:00.000Z';
-const VERSION = 'read-ep01-v2';
+const VERSION = 'read-ep01-v3';
 async function native(kind: string, id: string, name: string, content: unknown) {
   const artifact: Artifact<unknown> = {
     schemaVersion: 1,
