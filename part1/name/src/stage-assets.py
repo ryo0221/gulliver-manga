@@ -128,6 +128,11 @@ def plan_svg(set_rec, shot, hfov, crowd_pts):
 
 records = {}
 sets = {}
+# A partial re-run (STAGE_SETS) keeps the other sets' records of the existing episode record.
+if os.environ.get('STAGE_SETS') and os.path.exists(f'{out}/ep{EPISODE:02d}-stage.json'):
+    old = json.load(open(f'{out}/ep{EPISODE:02d}-stage.json'))
+    sets = {k: v for k, v in old['sets'].items() if k not in SETS}
+    records = {r['panel']: r for r in old['panels'] if r['set'] not in SETS}
 for sid in SETS:
     st = json.load(open(f'{stage_dir}/{sid}/stage.json'))
     s = st['set']

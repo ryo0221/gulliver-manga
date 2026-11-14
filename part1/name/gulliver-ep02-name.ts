@@ -26,7 +26,8 @@ export const ROOF: Stand = { on: '大通りの家の屋根の上（F105 の3階�
 /** 王宮の囲いの壁（本文：2フィート、610 mm）。 */
 export const PALACE_WALL: Stand = { on: '王宮の囲いの壁（本文：2フィート、610 mm）', mm: 610 };
 /** 奥の宮殿の上の階の床（F105 の奥の宮殿：窓の敷居 3.8 フィート、床は創作で 914 mm）。 */
-export const ROYAL_FLOOR: Stand = { on: '奥の宮殿の上の階の床（F105、創作：914 mm）', mm: 914 };
+// The palace room's floor: a 250 mm dais at the window inside F105 (the stage's 'dais'; the cameras stand on it).
+export const ROYAL_FLOOR: Stand = { on: '奥の宮殿の窓辺の段（F105 の中、創作：250 mm）', mm: 250 };
 /** 座ったガリヴァーの目の高さ（3D の体 F107 で座った形：地面から約 950 mm）。 */
 const SEATED_EYE = 950;
 

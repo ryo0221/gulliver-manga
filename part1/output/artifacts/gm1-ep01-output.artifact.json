@@ -74,7 +74,7 @@
      "values": {
       "or.section": "出力物",
       "or.item": "PDF（話ごと）",
-      "or.value": "gulliver-ep01.pdf、17ページ（漫画16ページ＋奥付）、600×885 pt。書き出しの元の版（references.json）を添付。sha256:1bf57fe0065b、23353 KB",
+      "or.value": "gulliver-ep01.pdf、17ページ（漫画16ページ＋奥付）、600×885 pt。書き出しの元の版（references.json）を添付。sha256:f7f2d68c5102、23353 KB",
       "or.source": "gm1-ep01-finish@finish-ep01-v3（contentHash e002a327f5f6、コミット e0136eec）。書き出しではメモのグループ（カメラの札と描き方の覚え書き）を隠した（forExport）"
      }
     },
@@ -281,7 +281,7 @@
       "values": {
        "or.section": "出力物",
        "or.item": "PDF（話ごと）",
-       "or.value": "gulliver-ep01.pdf、17ページ（漫画16ページ＋奥付）、600×885 pt。書き出しの元の版（references.json）を添付。sha256:1bf57fe0065b、23353 KB",
+       "or.value": "gulliver-ep01.pdf、17ページ（漫画16ページ＋奥付）、600×885 pt。書き出しの元の版（references.json）を添付。sha256:f7f2d68c5102、23353 KB",
        "or.source": "gm1-ep01-finish@finish-ep01-v3（contentHash e002a327f5f6、コミット e0136eec）。書き出しではメモのグループ（カメラの札と描き方の覚え書き）を隠した（forExport）"
       }
      },
@@ -413,7 +413,7 @@
      }
     ]
    },
-   "contentHash": "c608187a174b9a86e31161f2ebf9fba3c22bb24600c2303d156d545b17a16d9e"
+   "contentHash": "a7ba7849bdc9f2629f31d3e3b4bf3991c21d5dce01054a3a7bd9cee9bcea259d"
   }
  ]
 }

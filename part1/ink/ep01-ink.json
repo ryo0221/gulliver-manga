@@ -51,12 +51,12 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p01-k1.jpg",
-     "commit": "7ef7bae3de93f94b5f79405b6a7fee89b12d1eb7",
+     "commit": "e0136eec628b83a5b8d53785347e6246efe6e12d",
      "sha256": "e9b2ecdc2adcbceb9bb1e2ca04e8d99c7704ec0c903bfa616ee3a245afae4b36"
     },
     {
      "path": "part1/name/stage/underlay/e01-p01-k1.jpg",
-     "commit": "7ef7bae3de93f94b5f79405b6a7fee89b12d1eb7",
+     "commit": "e0136eec628b83a5b8d53785347e6246efe6e12d",
      "sha256": "58ba28271db6e3e09fd1a9dac10a425b16680013e336c3cde978841fed851823"
     },
     {
