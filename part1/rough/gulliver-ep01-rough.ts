@@ -10,6 +10,7 @@
  * editor-platform の作業ツリーで apps/artifact-host/src/creative/story-board/ に置いて使う（commit しない）。
  */
 import { contentHash, type Artifact } from '@editor-platform/artifact-core';
+import type { DesignContent } from '@editor-platform/design/model';
 import type { StructuredData } from '@editor-platform/structured-data/model';
 import {
   buildEpisodeName,
@@ -74,6 +75,11 @@ function roughImages(rough: RoughInput, stage: StageInput): Record<string, Rough
 
 export function buildEpisodeRough(stage: StageInput, rough: RoughInput) {
   return buildEpisodeName(1, EP01_NAME, stage, { rough: roughImages(rough, stage), underlayOpacity: ROUGH_UNDERLAY_OPACITY });
+}
+
+/** 書き出し用の写し：メモ（ネームのタグと絵のメモ）のグループを隠す。編集する原稿には残す。 */
+export function forExport(content: DesignContent): DesignContent {
+  return { ...content, elements: content.elements.map((e) => (e.name === LAYERS.memo ? { ...e, hidden: true } : e)) };
 }
 
 // ---------------------------------------------------------------- 表

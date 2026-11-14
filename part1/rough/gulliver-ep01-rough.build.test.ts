@@ -11,6 +11,7 @@ import type { DesignContent, DesignElement } from '@editor-platform/design/model
 import { EP01_NAME, LAYERS, type EpisodeStage, type StageInput } from './gulliver-ep01-name';
 import {
   buildGulliverEp01Rough,
+  forExport,
   NAME_VERSION,
   ROUGH_LAYERS,
   ROUGH_UNDERLAY_OPACITY,
@@ -116,10 +117,17 @@ test('episode 1 rough has the rough layers, its sources and a drawing for every 
 
   // The draft captures as 16 vector pages with no error diagnostics.
   const design = artifacts.find((a) => a.id === 'gm1-ep01-rough')! as Artifact<DesignContent>;
-  const committed = await commitVersion({ ...design, versions: [] } as never, null, 'ラフ 第1話');
+  // The export hides the memo groups (the ネーム tags and art memos); the editable draft keeps them.
+  const exported = { ...design, draft: { ...design.draft, content: forExport(design.draft.content) } };
+  expect(design.draft.content.elements.filter((e) => e.name === LAYERS.memo && !e.hidden).length).toBe(records.length);
+  const committed = await commitVersion({ ...exported, versions: [] } as never, null, 'ラフ 第1話');
   const capture = await captureDesignPages(committed as never, (committed as Artifact<DesignContent>).versions[0].versionId, { mode: 'vector' });
   expect(capture.ok, JSON.stringify(capture.manifest.diagnostics)).toBe(true);
   expect(capture.pages.length).toBe(16);
+  const memos = els.filter((e) => e.type === 'text' && byId.get(e.parentId!)?.name === LAYERS.memo).map((e) => e.text!);
+  expect(memos.length).toBe(records.length * 2);
+  const svg = capture.pages.map((p) => p.svg).join('');
+  for (const r of records) expect(svg.includes(`絵：${r.panel.art}`.slice(0, 20)), r.id).toBe(false);
 
   const out = process.env.GM_OUT;
   if (out) {

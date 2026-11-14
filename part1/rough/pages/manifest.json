@@ -4,8 +4,8 @@
  "artwork": [],
  "source": {
   "artifactId": "gm1-ep01-rough",
-  "versionId": "version_497269dd-4c99-4fea-abaf-6ed3de086051",
-  "contentHash": "80ea43182cc6179d70b020f47b012acf7b6a14c21bb5fd2bdd47918c7894e3e8"
+  "versionId": "version_88b81861-e387-420f-bfc9-d36177ef4e51",
+  "contentHash": "0c181f384fa6a45c2953c8d40a6e7eb449e364f8868e433399245fd9c9151540"
  },
  "direction": "ltr",
  "pages": [
@@ -1369,6 +1369,1014 @@
    "code": "raster-pdf",
    "severity": "warning",
    "message": "PNG/PDF are derived raster representations; native editing, annotations, typography and vector fidelity are not preserved. Vertical text and ruby are unsupported."
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0005",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0008",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0010",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0015",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0018",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0019",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0024",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0027",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0036",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0041",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0044",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0046",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0051",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0054",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0059",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0064",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0067",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0072",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0077",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0080",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0081",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0086",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0089",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0094",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0099",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0102",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0105",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0110",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0113",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0116",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0121",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0124",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0129",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0134",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0137",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0142",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0147",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0150",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0155",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0160",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0163",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0164",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0169",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0172",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0173",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0178",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0181",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0183",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0188",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0191",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0193",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0198",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0201",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0204",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0209",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0212",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0215",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0220",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0223",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0224",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0229",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0232",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0235",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0240",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0243",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0246",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0251",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0254",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0255",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0260",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0263",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0264",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0269",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0272",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0275",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0280",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0283",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0286",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0291",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0294",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0296",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0301",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0304",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0305",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0310",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0313",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0314",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0319",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0322",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0327",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0332",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0335",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0340",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0345",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0348",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0350",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0355",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0358",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0363",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0368",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0371",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0373",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0378",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0381",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0384",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0389",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0392",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0395",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0400",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0403",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0404",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0409",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0412",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0417",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0422",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0425",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0426",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0431",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0434",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0437",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0442",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0445",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0450",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0455",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0458",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0463",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0468",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0471",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0476",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0481",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0484",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0485",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0490",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0493",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0496",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0501",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0504",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0507",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0512",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0515",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0517",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0522",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0525",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0528",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0533",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0536",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0537",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0542",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0545",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0547",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0552",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0555",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0556",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0561",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0564",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0569",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0574",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0577",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0578",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0583",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0586",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0591",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0596",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0599",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0604",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0609",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0612",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0615",
+   "message": "Hidden element is omitted"
   }
  ]
 }
