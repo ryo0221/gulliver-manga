@@ -17,7 +17,7 @@
 
 ## 書き出し方
 
-1. `gulliver-ep01-output.build.test.ts`：通読の記録（`../read/gulliver-ep01-read.ts` の `READ_VERSIONS`）にある固定した版を `captureDesignPages`（vector）で書き出し、奥付（`colophonHtml()`：書誌情報と AI の関わり）を添えます。
+1. `gulliver-ep01-output.build.test.ts`：通読の記録（`../read/gulliver-ep01-read.ts` の `READ_VERSIONS`）にある固定した版の中身から、メモのグループ（カメラの札と描き方の覚え書き）だけを隠して（仕上げのテストと同じ `forExport`）書き出し用の版にし、`captureDesignPages`（vector）で書き出します。固定した版との違いがメモのグループだけで、ページに「絵：」の覚え書きが出ないことを確かめます。もとにした版と隠したものは `pages/source.json`（PDF にも添付）と `ep01-outputs.json` の `source` に残します。奥付（`colophonHtml()`：書誌情報と AI の関わり）を添えます。
 2. `src/export-ep.mjs`：SVG と奥付を Chromium で3倍の PNG にし、PDF は同じ絵を JPEG（品質92）で1ページずつ入れます（PNG のままだと 110 MB になったため）。エディタのページの書き出し（canvas-ui `exportPages`）と同じく、ページの大きさの 0.75 倍の pt で、manifest を添付します。
 3. もう一度テストを `GM_OUTPUTS` 付きで動かすと、出力が固定した版から作られたことを確かめ、出力の記録を作ります。
 

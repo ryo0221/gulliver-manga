@@ -47,9 +47,12 @@ for (const [i, f] of [...svgs, ...(colophon ? ['colophon'] : [])].entries()) {
   await page.context().close();
 }
 await browser.close();
+if (existsSync(`${src}/pages/source.json`)) await pdf.attach(readFileSync(`${src}/pages/source.json`), 'source.json', { mimeType: 'application/json', description: 'The fixed version this export comes from and the export filter' });
 await pdf.attach(new TextEncoder().encode(manifest), 'references.json', { mimeType: 'application/json', description: 'Exact committed artifact sources used by this export' });
 const bytes = await pdf.save({ useObjectStreams: false });
 writeFileSync(`${out}/${name}.pdf`, bytes);
 files.push({ file: `${name}.pdf`, format: 'PDF', pages: svgs.length + (colophon ? 1 : 0), colophon: !!colophon, pointSize: size, embedded: 'JPEG q92', bytes: bytes.length, sha256: sha(bytes) });
-writeFileSync(`${out}/outputs.json`, JSON.stringify({ name, scale, source: JSON.parse(manifest).source, files }, null, 1));
+// source.json (written by the output test): the fixed version and the export filter (memo groups hidden).
+const source = existsSync(`${src}/pages/source.json`) ? JSON.parse(readFileSync(`${src}/pages/source.json`, 'utf8')) : JSON.parse(manifest).source;
+writeFileSync(`${out}/outputs.json`, JSON.stringify({ name, scale, source, files }, null, 1));
 console.log(files.length, 'files');

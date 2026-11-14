@@ -10,7 +10,7 @@ import type { StructuredData } from '@editor-platform/structured-data/model';
 import { READ_COMMIT, READ_VERSIONS } from './gulliver-ep01-read';
 
 export type OutputFile = { file: string; format: 'PNG' | 'PDF'; page?: number | 'colophon'; pages?: number; colophon?: boolean; width?: number; height?: number; pointSize?: [number, number]; bytes: number; sha256: string };
-export type Outputs = { name: string; scale: number; source: { artifactId: string; versionId: string; contentHash: string }; files: OutputFile[] };
+export type Outputs = { name: string; scale: number; source: { artifactId: string; versionId: string; contentHash: string; exportFilter?: string; exportContentHash?: string }; files: OutputFile[] };
 
 /** 書誌情報と紹介文（AI の草案。著者名は作者が決めた（2026-11-14）。題・紹介文は作者の確認待ち）。 */
 export const BIBLIO = {
@@ -85,7 +85,7 @@ async function native(kind: string, id: string, name: string, content: unknown) 
 
 function outputTable(outputs: Outputs): StructuredData {
   const fixed = READ_VERSIONS.find((v) => v.artifact === 'gm1-ep01-finish')!;
-  const src = `${outputs.source.artifactId}@${outputs.source.versionId}（contentHash ${outputs.source.contentHash.slice(0, 12)}、コミット ${READ_COMMIT.slice(0, 8)}）`;
+  const src = `${outputs.source.artifactId}@${outputs.source.versionId}（contentHash ${outputs.source.contentHash.slice(0, 12)}、コミット ${READ_COMMIT.slice(0, 8)}）${outputs.source.exportFilter ? `。書き出しでは${outputs.source.exportFilter}` : ''}`;
   const rows: StructuredData['rows'] = [];
   const row = (id: string, section: string, item: string, value: string, source = '') =>
     rows.push({ id, values: { 'or.section': section, 'or.item': item, 'or.value': value, 'or.source': source } });

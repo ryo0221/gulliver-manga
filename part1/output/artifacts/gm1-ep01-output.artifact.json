@@ -56,8 +56,8 @@
      "values": {
       "or.section": "出力物",
       "or.item": "PNG（ページごと）",
-      "or.value": "16枚、2400×3540 px（原稿の枠 800×1180 の 3 倍）。png/gulliver-ep01-p01.png sha256:62448df14ef9、png/gulliver-ep01-p02.png sha256:193ad8c6a10f、png/gulliver-ep01-p03.png sha256:f3b84658a981、png/gulliver-ep01-p04.png sha256:43cdcc0570d3、png/gulliver-ep01-p05.png sha256:dff5af23ca49、png/gulliver-ep01-p06.png sha256:1dc9ca170b83、png/gulliver-ep01-p07.png sha256:dc21714e0869、png/gulliver-ep01-p08.png sha256:f7225d94f679、png/gulliver-ep01-p09.png sha256:70dc9497a2fe、png/gulliver-ep01-p10.png sha256:41eafa38c797、png/gulliver-ep01-p11.png sha256:77a1a9f0dcfc、png/gulliver-ep01-p12.png sha256:c1771aaa3819、png/gulliver-ep01-p13.png sha256:43cb031904b6、png/gulliver-ep01-p14.png sha256:c4cc58c3ca19、png/gulliver-ep01-p15.png sha256:e26cd932b7ff、png/gulliver-ep01-p16.png sha256:d8ab41d40925",
-      "or.source": "gm1-ep01-finish@finish-ep01-v3（contentHash e002a327f5f6、コミット e0136eec）"
+      "or.value": "16枚、2400×3540 px（原稿の枠 800×1180 の 3 倍）。png/gulliver-ep01-p01.png sha256:f4f21bd8d4a6、png/gulliver-ep01-p02.png sha256:e6e044715e7c、png/gulliver-ep01-p03.png sha256:fcdbe42196e9、png/gulliver-ep01-p04.png sha256:03619cae9bdd、png/gulliver-ep01-p05.png sha256:7cb346b06416、png/gulliver-ep01-p06.png sha256:850bb0115dd1、png/gulliver-ep01-p07.png sha256:ccee1af2fcbc、png/gulliver-ep01-p08.png sha256:3e6d6188d131、png/gulliver-ep01-p09.png sha256:b6de854ab351、png/gulliver-ep01-p10.png sha256:51942fe92449、png/gulliver-ep01-p11.png sha256:315dc2ca420a、png/gulliver-ep01-p12.png sha256:4f3310ce2bf7、png/gulliver-ep01-p13.png sha256:96ceb80a2b3e、png/gulliver-ep01-p14.png sha256:0265cb3898c0、png/gulliver-ep01-p15.png sha256:1e830a4fa096、png/gulliver-ep01-p16.png sha256:f835a0aa63cc",
+      "or.source": "gm1-ep01-finish@finish-ep01-v3（contentHash e002a327f5f6、コミット e0136eec）。書き出しではメモのグループ（カメラの札と描き方の覚え書き）を隠した（forExport）"
      }
     },
     {
@@ -66,7 +66,7 @@
       "or.section": "出力物",
       "or.item": "奥付（話の最後のページ）",
       "or.value": "png/gulliver-ep01-colophon.png、2400×3540 px。書誌情報と AI の関わり（この表の「AI の関わり」と同じ中身）。sha256:13d305e477dc",
-      "or.source": "gm1-ep01-finish@finish-ep01-v3（contentHash e002a327f5f6、コミット e0136eec）"
+      "or.source": "gm1-ep01-finish@finish-ep01-v3（contentHash e002a327f5f6、コミット e0136eec）。書き出しではメモのグループ（カメラの札と描き方の覚え書き）を隠した（forExport）"
      }
     },
     {
@@ -74,8 +74,8 @@
      "values": {
       "or.section": "出力物",
       "or.item": "PDF（話ごと）",
-      "or.value": "gulliver-ep01.pdf、17ページ（漫画16ページ＋奥付）、600×885 pt。書き出しの元の版（references.json）を添付。sha256:af28dc778fbf、24026 KB",
-      "or.source": "gm1-ep01-finish@finish-ep01-v3（contentHash e002a327f5f6、コミット e0136eec）"
+      "or.value": "gulliver-ep01.pdf、17ページ（漫画16ページ＋奥付）、600×885 pt。書き出しの元の版（references.json）を添付。sha256:1bf57fe0065b、23353 KB",
+      "or.source": "gm1-ep01-finish@finish-ep01-v3（contentHash e002a327f5f6、コミット e0136eec）。書き出しではメモのグループ（カメラの札と描き方の覚え書き）を隠した（forExport）"
      }
     },
     {
@@ -263,8 +263,8 @@
       "values": {
        "or.section": "出力物",
        "or.item": "PNG（ページごと）",
-       "or.value": "16枚、2400×3540 px（原稿の枠 800×1180 の 3 倍）。png/gulliver-ep01-p01.png sha256:62448df14ef9、png/gulliver-ep01-p02.png sha256:193ad8c6a10f、png/gulliver-ep01-p03.png sha256:f3b84658a981、png/gulliver-ep01-p04.png sha256:43cdcc0570d3、png/gulliver-ep01-p05.png sha256:dff5af23ca49、png/gulliver-ep01-p06.png sha256:1dc9ca170b83、png/gulliver-ep01-p07.png sha256:dc21714e0869、png/gulliver-ep01-p08.png sha256:f7225d94f679、png/gulliver-ep01-p09.png sha256:70dc9497a2fe、png/gulliver-ep01-p10.png sha256:41eafa38c797、png/gulliver-ep01-p11.png sha256:77a1a9f0dcfc、png/gulliver-ep01-p12.png sha256:c1771aaa3819、png/gulliver-ep01-p13.png sha256:43cb031904b6、png/gulliver-ep01-p14.png sha256:c4cc58c3ca19、png/gulliver-ep01-p15.png sha256:e26cd932b7ff、png/gulliver-ep01-p16.png sha256:d8ab41d40925",
-       "or.source": "gm1-ep01-finish@finish-ep01-v3（contentHash e002a327f5f6、コミット e0136eec）"
+       "or.value": "16枚、2400×3540 px（原稿の枠 800×1180 の 3 倍）。png/gulliver-ep01-p01.png sha256:f4f21bd8d4a6、png/gulliver-ep01-p02.png sha256:e6e044715e7c、png/gulliver-ep01-p03.png sha256:fcdbe42196e9、png/gulliver-ep01-p04.png sha256:03619cae9bdd、png/gulliver-ep01-p05.png sha256:7cb346b06416、png/gulliver-ep01-p06.png sha256:850bb0115dd1、png/gulliver-ep01-p07.png sha256:ccee1af2fcbc、png/gulliver-ep01-p08.png sha256:3e6d6188d131、png/gulliver-ep01-p09.png sha256:b6de854ab351、png/gulliver-ep01-p10.png sha256:51942fe92449、png/gulliver-ep01-p11.png sha256:315dc2ca420a、png/gulliver-ep01-p12.png sha256:4f3310ce2bf7、png/gulliver-ep01-p13.png sha256:96ceb80a2b3e、png/gulliver-ep01-p14.png sha256:0265cb3898c0、png/gulliver-ep01-p15.png sha256:1e830a4fa096、png/gulliver-ep01-p16.png sha256:f835a0aa63cc",
+       "or.source": "gm1-ep01-finish@finish-ep01-v3（contentHash e002a327f5f6、コミット e0136eec）。書き出しではメモのグループ（カメラの札と描き方の覚え書き）を隠した（forExport）"
       }
      },
      {
@@ -273,7 +273,7 @@
        "or.section": "出力物",
        "or.item": "奥付（話の最後のページ）",
        "or.value": "png/gulliver-ep01-colophon.png、2400×3540 px。書誌情報と AI の関わり（この表の「AI の関わり」と同じ中身）。sha256:13d305e477dc",
-       "or.source": "gm1-ep01-finish@finish-ep01-v3（contentHash e002a327f5f6、コミット e0136eec）"
+       "or.source": "gm1-ep01-finish@finish-ep01-v3（contentHash e002a327f5f6、コミット e0136eec）。書き出しではメモのグループ（カメラの札と描き方の覚え書き）を隠した（forExport）"
       }
      },
      {
@@ -281,8 +281,8 @@
       "values": {
        "or.section": "出力物",
        "or.item": "PDF（話ごと）",
-       "or.value": "gulliver-ep01.pdf、17ページ（漫画16ページ＋奥付）、600×885 pt。書き出しの元の版（references.json）を添付。sha256:af28dc778fbf、24026 KB",
-       "or.source": "gm1-ep01-finish@finish-ep01-v3（contentHash e002a327f5f6、コミット e0136eec）"
+       "or.value": "gulliver-ep01.pdf、17ページ（漫画16ページ＋奥付）、600×885 pt。書き出しの元の版（references.json）を添付。sha256:1bf57fe0065b、23353 KB",
+       "or.source": "gm1-ep01-finish@finish-ep01-v3（contentHash e002a327f5f6、コミット e0136eec）。書き出しではメモのグループ（カメラの札と描き方の覚え書き）を隠した（forExport）"
       }
      },
      {
@@ -413,7 +413,7 @@
      }
     ]
    },
-   "contentHash": "a4aa8f065fb0789c0a4282698acff2a7e69b0b76982406e33640cb85da791555"
+   "contentHash": "c608187a174b9a86e31161f2ebf9fba3c22bb24600c2303d156d545b17a16d9e"
   }
  ]
 }
