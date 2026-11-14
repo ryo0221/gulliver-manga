@@ -1,9 +1,10 @@
 #!/bin/bash
 # usage: gen.sh <item> <underlay.png> <kind: figure|place> <brief>
 set -e
-item=$1; ul=$2; kind=$3; brief=$4
-W=/tmp/claude-0/-home-user/44300328-351a-52ce-b649-b63fb7917747/scratchpad/gen/$item
-mkdir -p $W; cd $W
+item=$1; ul=$(realpath "$2"); kind=$3; brief=$4
+# Work directory for the Codex run; paths above are resolved before changing into it.
+W=${GEN_WORK:-${TMPDIR:-/tmp}/gulliver-manga-gen}/$item
+mkdir -p "$W"; cd "$W"
 if [ "$kind" = figure ]; then
  bg="Background must be pure flat white (#FFFFFF) everywhere outside the figure: no floor, no grid, no shadow."
  rules="Ignore and do not draw the orange bone lines and dots in the reference, and do not draw the grey floor grid."
