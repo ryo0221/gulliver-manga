@@ -14,5 +14,6 @@ Figures, placed by the 3D layout (as placed in the rough and the 3D layout: keep
 - FG-e01-p02-k2-01 ガリヴァー — Gulliver (CH-01): 1,750 mm, plain blue coat with brass buttons and NO gold trim, tan breeches, white stockings, black shoes, brown hair tied back; standing with hands clasped in front; outside the frame (at most a cut-off sliver at the frame edge), three-quarter view toward the camera, turned to frame right; 302 mm from the camera.
 - FG-e01-p02-k2-02 馬（灰） — a young horse; standing; outside the frame (at most a cut-off sliver at the frame edge), facing the camera; 2380 mm from the camera.
 - FG-e01-p02-k2-03 馬（栗毛） — a young horse; standing; outside the frame (at most a cut-off sliver at the frame edge), facing the camera; 2292 mm from the camera.
+The background is the inside of an English country stable: weathered brown wooden planks, posts and beams, golden hay in the rack, pale straw on the floor (not grass).
 
 After generating, copy the generated PNG to ./color-raw.png in the current directory. Do not generate more than one image.

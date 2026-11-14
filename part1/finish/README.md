@@ -1,6 +1,6 @@
 # 第1話「人の山」仕上げと写植（Editor Platform）
 
-工程定義 `fiction-manga@1.3.0` の「仕上げと写植」の成果物です。線画 `gm1-ep01-ink@ink-ep01-v1` と同じ16ページ・56コマ（コマの ID はそのまま）に色を付け、吹き出しと文字を入れました。線は作者が採った線画のままで、その下に塗りと影を敷いています。塗りは AI の提案です。トーン・塗り・影・効果の確認（`finish.approved`）と、台詞の全文と吹き出しの形・書体・位置の確認（`lettering.approved`）は作者です。
+工程定義 `fiction-manga@1.3.0` の「仕上げと写植」の成果物です。線画 `gm1-ep01-ink@ink-ep01-v2` と同じ16ページ・56コマ（コマの ID はそのまま）に色を付け、吹き出しと文字を入れました。線は作者が採った線画のままで、その下に塗りと影を敷いています。塗りは AI の提案です。トーン・塗り・影・効果の確認（`finish.approved`）と、台詞の全文と吹き出しの形・書体・位置の確認（`lettering.approved`）は作者です。
 
 ## 成果物
 
@@ -40,7 +40,7 @@
 
 ## 作者に見てほしいところ
 
-- **背景が白いままのコマ**：背景の線が少ないコマ（2-2、3-4、6-1、8-4、11-5。コマの3割以上が白）は、色の見本でも空や地面が塗られず、白いままです。描き足すか、白の地で良いかを決めてください。
+- **背景を描き足したコマ**（作者「背景を描いて」、2026-11-14）：2-2（厩の板壁・屋根・干し草・藁の床）、3-4（ブリストルの岸壁・港・帆船・空）、6-1（嵐の空と雨）、8-4・11-5（リリパットの空と遠くの林と浜）。背景の線は `part1/ink/src/bg-briefs.py`→`gen-bg.sh`→`bg-merge.py` で線画（LY-04）に足し、人物の線（LY-07）と効果（LY-08）は変えていません。6-1 と 11-5 は元の海と梯子の線を残し、白かったところにだけ足しました。2-2 は以前の草地のような地面を厩の藁に描き直したので、馬の鼻先が栗毛になりました（3D の舞台では栗毛の馬が手前）。
 - **影**：影は色の見本の暗いところを取り出したものなので、コマによって量が違います。3-1 と 11-3 は影がほとんど取れていません（ページ表の「影の無いコマ」）。
 - **8ページ1コマ**の杭は木の色でなく草の緑になっています。
 - 小人の服の色（赤い上着が多い）、メアリーの服、皇帝の緑の服は、設定画が無い人物は Codex の提案のままです。
@@ -49,6 +49,9 @@
 
 ```sh
 # $W は線画のときの作業用フォルダ（rough-briefs.py と ink-briefs.py の出力）、$SB は editor-platform の story-board
+# 背景を描き足すコマ（bg-briefs.py の BG_NOTES）は、先に線画の LY-04 を作り直す
+python3 part1/ink/src/bg-briefs.py $W part1/ink && for p in e01-p02-k2 e01-p03-k4 e01-p06-k1 e01-p08-k4 e01-p11-k5; do bash part1/ink/src/gen-bg.sh $W/$p; done
+python3 part1/ink/src/bg-merge.py $W part1/ink $(git rev-parse HEAD)
 python3 part1/finish/src/finish-briefs.py $W part1/ink
 PAR=5 bash part1/finish/src/run-finish.sh $W            # Codex にサインインしておく。56コマで約1時間
 pip install scipy opencv-python-headless

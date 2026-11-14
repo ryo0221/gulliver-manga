@@ -12,5 +12,6 @@ What the panel shows (storyboard memo): 波間にひとり浮かぶガリヴァ�
 Words in this panel (for the mood and the faces only, do NOT draw any text): ナレーション（ガリヴァー）：小舟で逃れた6人のうち、助かったのは私一人だったと思う。
 Figures, placed by the 3D layout (as placed in the rough and the 3D layout: keep these places, facings and poses; draw each with a readable face direction, pose and expression):
 - FG-e01-p06-k1-01 ガリヴァー — Gulliver (CH-01): 1,750 mm, plain blue coat with brass buttons and NO gold trim, tan breeches, white stockings, black shoes, brown hair tied back; treading water, head above water; head at middle-centre of the frame (x 50%, y 49%), three-quarter back view, turned to frame left; 3546 mm from the camera.
+The background is a storm just passing over the open sea: dark slate-grey storm clouds, grey rain streaks, grey-green sea.
 
 After generating, copy the generated PNG to ./color-raw.png in the current directory. Do not generate more than one image.

@@ -27,6 +27,8 @@ export type InkPanel = {
   codexModel: string | null;
   imageModel: string;
   codexSession: string | null;
+  /** The background drawn in after the author's finish review (bg-briefs.py → gen-bg.sh → bg-merge.py). */
+  background?: { why: string; prompt: string; codexSession: string | null; kept: string };
   rawSha256: string;
   rawSize: [number, number];
   refs: RoughRef[];
@@ -109,6 +111,7 @@ function pageTable(records: PanelRecord[], stage: EpisodeStage, ink: EpisodeInk)
       const models = sets.flatMap((s) => stage.sets[s]!.props.map((p) => `${p.name} ${p.artifactId}@${p.versionId}`));
       const tools = [...new Set(ip.map((p) => `${p.tool}、モデル ${p.codexModel ?? '不明'}`))];
       const noBg = rs.filter((r) => ink.panels[r.id]!.layers['LY-04'].share < BG_MIN_SHARE).map((r) => r.id);
+      const bgAdded = rs.filter((r) => ink.panels[r.id]!.background);
       const fx = rs.filter((r) => ink.panels[r.id]!.layers['LY-08'].share >= FX_MIN_SHARE).map((r) => r.id);
       return {
         id: `PG-e01-${String(page).padStart(2, '0')}`,
@@ -128,7 +131,11 @@ function pageTable(records: PanelRecord[], stage: EpisodeStage, ink: EpisodeInk)
             '「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。',
           'ik.byHuman': 'まだ無い（作者が確かめて直す）',
           'ik.byAi': `${INK_LAYERS.bg}・${INK_LAYERS.fig}・${INK_LAYERS.fx}（画像生成）、${BALLOON_LAYER} 吹き出し・${LAYERS.text}（脚本の台詞を置いただけ）`,
-          'ik.generated': `${tools.join(' / ')}。コマごとに、${ROUGH_VERSION} のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：${LICENSE}`,
+          'ik.generated':
+            `${tools.join(' / ')}。コマごとに、${ROUGH_VERSION} のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：${LICENSE}` +
+            (bgAdded.length
+              ? `。背景を描き足したコマ（仕上げで作者「背景を描いて」、2026-11-14）：${bgAdded.map((r) => `${r.id}（${ink.panels[r.id]!.background!.kept}、part1/ink/${ink.panels[r.id]!.background!.prompt}）`).join('、')}。人物の線（LY-07）と効果（LY-08）は変えていない`
+              : ''),
           'ik.fx': fx.join(' ') || '無し',
           'ik.noBg': noBg.length
             ? `${noBg.join(' ')}：人物だけの寄りか、ガリヴァーの体が地面になるコマで、背景を描いていない。LY-04 のグループは空の線の画像のまま残した`
@@ -147,7 +154,7 @@ export const FX_MIN_SHARE = 0.005;
 // ---------------------------------------------------------------- 資料
 
 const stamp = '2026-11-14T00:00:00.000Z';
-const VERSION = 'ink-ep01-v1';
+const VERSION = 'ink-ep01-v2';
 async function native(kind: string, id: string, name: string, content: unknown) {
   const artifact: Artifact<unknown> = {
     schemaVersion: 1,

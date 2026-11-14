@@ -1,7 +1,7 @@
 /**
  * ガリヴァー旅行記 第1話「人の山」の仕上げと写植。工程定義 fiction-manga@1.3.0 の「仕上げと写植」の成果物。
  *
- * - 線画（gm1-ep01-ink@ink-ep01-v1）と同じページとコマ（PN の ID はそのまま）の Design 原稿。コマごとに、画作りガイドの
+ * - 線画（gm1-ep01-ink@ink-ep01-v2）と同じページとコマ（PN の ID はそのまま）の Design 原稿。コマごとに、画作りガイドの
  *   重ね順で LY-03 背景の塗り・LY-04 背景の線画・LY-05 人物の塗り・LY-06 影・LY-07 人物の線画・LY-08 効果・LY-10 文字の
  *   グループを作る。線は採った線画のまま。吹き出しとナレーションの枠（LY-09）は、一つずつエディタで動かせるグループ。
  * - 塗りは、線画を Codex の画像生成で塗らせた色の見本を、線画の位置へ合わせて、線の間の領域ごとに塗りと影に分けたもの。
@@ -52,7 +52,7 @@ export type EpisodeFinish = { schemaVersion: 1; episode: number; generatedAt: st
 export type FinishInput = { data: EpisodeFinish; images: Record<string, string> };
 
 /** 線画の固定した版（仕上げのもと）。 */
-export const INK_VERSION = 'gm1-ep01-ink@ink-ep01-v1';
+export const INK_VERSION = 'gm1-ep01-ink@ink-ep01-v2';
 /** 脚本の台詞の固定した版（写植で引用する）。 */
 export const SCRIPT_LINES_VERSION = 'gm1-script-lines@script-v1';
 /** 画作りガイドの決まりで、仕上げの段階に要るレイヤー。 */
@@ -206,7 +206,7 @@ export function letteringTable(records: PanelRecord[], placed: Placed[]): Struct
 // ---------------------------------------------------------------- 資料
 
 const stamp = '2026-11-14T00:00:00.000Z';
-const VERSION = 'finish-ep01-v1';
+const VERSION = 'finish-ep01-v2';
 async function native(kind: string, id: string, name: string, content: unknown) {
   const artifact: Artifact<unknown> = {
     schemaVersion: 1,

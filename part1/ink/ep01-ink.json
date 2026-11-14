@@ -196,17 +196,17 @@
    "layers": {
     "LY-07": {
      "image": "layers/e01-p02-k2-LY-07.png",
-     "share": 0.684,
+     "share": 0.114,
      "bytes": 9415
     },
     "LY-04": {
      "image": "layers/e01-p02-k2-LY-04.png",
-     "share": 0.302,
-     "bytes": 5463
+     "share": 0.883,
+     "bytes": 34922
     },
     "LY-08": {
      "image": "layers/e01-p02-k2-LY-08.png",
-     "share": 0.014,
+     "share": 0.003,
      "bytes": 909
     }
    },
@@ -253,7 +253,23 @@
      "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
-   ]
+   ],
+   "background": {
+    "why": "author's finish review 2026-11-14: 「背景を描いて」 (the panel's background was left white)",
+    "prompt": "prompts/e01-p02-k2-background.txt",
+    "codexModel": "gpt-6.1-sol",
+    "codexSession": "01a1daaa-d006-78d0-ae83-c7a51f91b4e6",
+    "rawSha256": "8386fe4702aca0c9c4b2cf3290b2a45be891c4a024f39dda68513516d3ab3894",
+    "rawSize": [
+     1024,
+     1536
+    ],
+    "input": {
+     "path": "part1/ink/layers/e01-p02-k2-LY-04/07/08.png (before this change)",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586"
+    },
+    "kept": "LY-04 を新しい背景の線に置き換えた"
+   }
   },
   "e01-p02-k3": {
    "layers": {
@@ -695,13 +711,13 @@
    "layers": {
     "LY-07": {
      "image": "layers/e01-p03-k4-LY-07.png",
-     "share": 1.0,
+     "share": 0.563,
      "bytes": 22225
     },
     "LY-04": {
      "image": "layers/e01-p03-k4-LY-04.png",
-     "share": 0.0,
-     "bytes": 554
+     "share": 0.437,
+     "bytes": 14022
     },
     "LY-08": {
      "image": "layers/e01-p03-k4-LY-08.png",
@@ -752,7 +768,23 @@
      "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
-   ]
+   ],
+   "background": {
+    "why": "author's finish review 2026-11-14: 「背景を描いて」 (the panel's background was left white)",
+    "prompt": "prompts/e01-p03-k4-background.txt",
+    "codexModel": "gpt-6.1-sol",
+    "codexSession": "01a1daa8-4f82-7573-8793-9924469cf594",
+    "rawSha256": "75870018dde8a445e13447429498f87eddc1bc03d69dd64ad33c03ec45bb50c7",
+    "rawSize": [
+     1024,
+     1536
+    ],
+    "input": {
+     "path": "part1/ink/layers/e01-p03-k4-LY-04/07/08.png (before this change)",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586"
+    },
+    "kept": "LY-04 を新しい背景の線に置き換えた"
+   }
   },
   "e01-p04-k1": {
    "layers": {
@@ -1131,13 +1163,13 @@
    "layers": {
     "LY-07": {
      "image": "layers/e01-p06-k1-LY-07.png",
-     "share": 0.359,
+     "share": 0.178,
      "bytes": 28903
     },
     "LY-04": {
      "image": "layers/e01-p06-k1-LY-04.png",
-     "share": 0.641,
-     "bytes": 58731
+     "share": 0.822,
+     "bytes": 81848
     },
     "LY-08": {
      "image": "layers/e01-p06-k1-LY-08.png",
@@ -1188,7 +1220,23 @@
      "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
-   ]
+   ],
+   "background": {
+    "why": "author's finish review 2026-11-14: 「背景を描いて」 (the panel's background was left white)",
+    "prompt": "prompts/e01-p06-k1-background.txt",
+    "codexModel": "gpt-6.1-sol",
+    "codexSession": "01a1daa8-4f80-7dc2-b66a-d6f1bd28774c",
+    "rawSha256": "7894cf848d3271c0b346464ec000fd4f63b16ca35574f13547a6d7e3e7cb3d77",
+    "rawSize": [
+     1536,
+     1024
+    ],
+    "input": {
+     "path": "part1/ink/layers/e01-p06-k1-LY-04/07/08.png (before this change)",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586"
+    },
+    "kept": "LY-04 を残し、白かったところにだけ新しい背景の線を足した"
+   }
   },
   "e01-p06-k2": {
    "layers": {
@@ -1635,13 +1683,13 @@
    "layers": {
     "LY-07": {
      "image": "layers/e01-p08-k4-LY-07.png",
-     "share": 1.0,
+     "share": 0.393,
      "bytes": 17142
     },
     "LY-04": {
      "image": "layers/e01-p08-k4-LY-04.png",
-     "share": 0.0,
-     "bytes": 762
+     "share": 0.607,
+     "bytes": 22993
     },
     "LY-08": {
      "image": "layers/e01-p08-k4-LY-08.png",
@@ -1697,7 +1745,23 @@
      "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
     }
-   ]
+   ],
+   "background": {
+    "why": "author's finish review 2026-11-14: 「背景を描いて」 (the panel's background was left white)",
+    "prompt": "prompts/e01-p08-k4-background.txt",
+    "codexModel": "gpt-6.1-sol",
+    "codexSession": "01a1daa8-4f81-7860-9506-4d5bff8bf5aa",
+    "rawSha256": "55a03bf9c51e15aedb648fdef665935cba55659d72c595b2d45bd83daf3246f3",
+    "rawSize": [
+     1536,
+     1024
+    ],
+    "input": {
+     "path": "part1/ink/layers/e01-p08-k4-LY-04/07/08.png (before this change)",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586"
+    },
+    "kept": "LY-04 を新しい背景の線に置き換えた"
+   }
   },
   "e01-p09-k1": {
    "layers": {
@@ -2431,13 +2495,13 @@
    "layers": {
     "LY-07": {
      "image": "layers/e01-p11-k5-LY-07.png",
-     "share": 0.802,
+     "share": 0.676,
      "bytes": 39461
     },
     "LY-04": {
      "image": "layers/e01-p11-k5-LY-04.png",
-     "share": 0.198,
-     "bytes": 9669
+     "share": 0.324,
+     "bytes": 17899
     },
     "LY-08": {
      "image": "layers/e01-p11-k5-LY-08.png",
@@ -2493,7 +2557,23 @@
      "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
     }
-   ]
+   ],
+   "background": {
+    "why": "author's finish review 2026-11-14: 「背景を描いて」 (the panel's background was left white)",
+    "prompt": "prompts/e01-p11-k5-background.txt",
+    "codexModel": "gpt-6.1-sol",
+    "codexSession": "01a1daa8-4f81-74b2-a106-35bfde80ed65",
+    "rawSha256": "83dcd07ac95fe3836e4a5576a0d4040bc70524503659741df5b0b5a651d03bdd",
+    "rawSize": [
+     1536,
+     1024
+    ],
+    "input": {
+     "path": "part1/ink/layers/e01-p11-k5-LY-04/07/08.png (before this change)",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586"
+    },
+    "kept": "LY-04 を残し、白かったところにだけ新しい背景の線を足した"
+   }
   },
   "e01-p12-k1": {
    "layers": {

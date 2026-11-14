@@ -7,7 +7,7 @@
   "source": "created"
  },
  "draft": {
-  "baseVersionId": "ink-ep01-v1",
+  "baseVersionId": "ink-ep01-v2",
   "updatedAt": "2026-11-14T00:00:00.000Z",
   "content": {
    "schemaVersion": 2,
@@ -119,8 +119,8 @@
       "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
       "ik.byHuman": "まだ無い（作者が確かめて直す）",
       "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-rough@rough-ep01-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
-      "ik.fx": "e01-p02-k2",
+      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-rough@rough-ep01-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う。背景を描き足したコマ（仕上げで作者「背景を描いて」、2026-11-14）：e01-p02-k2（LY-04 を新しい背景の線に置き換えた、part1/ink/prompts/e01-p02-k2-background.txt）。人物の線（LY-07）と効果（LY-08）は変えていない",
+      "ik.fx": "無し",
       "ik.noBg": ""
      }
     },
@@ -137,9 +137,9 @@
       "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
       "ik.byHuman": "まだ無い（作者が確かめて直す）",
       "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-rough@rough-ep01-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-rough@rough-ep01-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う。背景を描き足したコマ（仕上げで作者「背景を描いて」、2026-11-14）：e01-p03-k4（LY-04 を新しい背景の線に置き換えた、part1/ink/prompts/e01-p03-k4-background.txt）。人物の線（LY-07）と効果（LY-08）は変えていない",
       "ik.fx": "無し",
-      "ik.noBg": "e01-p03-k4：人物だけの寄りか、ガリヴァーの体が地面になるコマで、背景を描いていない。LY-04 のグループは空の線の画像のまま残した"
+      "ik.noBg": ""
      }
     },
     {
@@ -191,7 +191,7 @@
       "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
       "ik.byHuman": "まだ無い（作者が確かめて直す）",
       "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-rough@rough-ep01-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-rough@rough-ep01-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う。背景を描き足したコマ（仕上げで作者「背景を描いて」、2026-11-14）：e01-p06-k1（LY-04 を残し、白かったところにだけ新しい背景の線を足した、part1/ink/prompts/e01-p06-k1-background.txt）。人物の線（LY-07）と効果（LY-08）は変えていない",
       "ik.fx": "無し",
       "ik.noBg": ""
      }
@@ -227,9 +227,9 @@
       "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
       "ik.byHuman": "まだ無い（作者が確かめて直す）",
       "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-rough@rough-ep01-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-rough@rough-ep01-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う。背景を描き足したコマ（仕上げで作者「背景を描いて」、2026-11-14）：e01-p08-k4（LY-04 を新しい背景の線に置き換えた、part1/ink/prompts/e01-p08-k4-background.txt）。人物の線（LY-07）と効果（LY-08）は変えていない",
       "ik.fx": "無し",
-      "ik.noBg": "e01-p08-k4：人物だけの寄りか、ガリヴァーの体が地面になるコマで、背景を描いていない。LY-04 のグループは空の線の画像のまま残した"
+      "ik.noBg": ""
      }
     },
     {
@@ -281,7 +281,7 @@
       "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
       "ik.byHuman": "まだ無い（作者が確かめて直す）",
       "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-rough@rough-ep01-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-rough@rough-ep01-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う。背景を描き足したコマ（仕上げで作者「背景を描いて」、2026-11-14）：e01-p11-k5（LY-04 を残し、白かったところにだけ新しい背景の線を足した、part1/ink/prompts/e01-p11-k5-background.txt）。人物の線（LY-07）と効果（LY-08）は変えていない",
       "ik.fx": "無し",
       "ik.noBg": "e01-p11-k4：人物だけの寄りか、ガリヴァーの体が地面になるコマで、背景を描いていない。LY-04 のグループは空の線の画像のまま残した"
      }
@@ -382,7 +382,7 @@
  "versions": [
   {
    "artifactId": "gm1-ep01-ink-pages",
-   "versionId": "ink-ep01-v1",
+   "versionId": "ink-ep01-v2",
    "parentVersionId": null,
    "schemaVersion": 1,
    "createdAt": "2026-11-14T00:00:00.000Z",
@@ -498,8 +498,8 @@
        "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
        "ik.byHuman": "まだ無い（作者が確かめて直す）",
        "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-rough@rough-ep01-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
-       "ik.fx": "e01-p02-k2",
+       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-rough@rough-ep01-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う。背景を描き足したコマ（仕上げで作者「背景を描いて」、2026-11-14）：e01-p02-k2（LY-04 を新しい背景の線に置き換えた、part1/ink/prompts/e01-p02-k2-background.txt）。人物の線（LY-07）と効果（LY-08）は変えていない",
+       "ik.fx": "無し",
        "ik.noBg": ""
       }
      },
@@ -516,9 +516,9 @@
        "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
        "ik.byHuman": "まだ無い（作者が確かめて直す）",
        "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-rough@rough-ep01-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-rough@rough-ep01-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う。背景を描き足したコマ（仕上げで作者「背景を描いて」、2026-11-14）：e01-p03-k4（LY-04 を新しい背景の線に置き換えた、part1/ink/prompts/e01-p03-k4-background.txt）。人物の線（LY-07）と効果（LY-08）は変えていない",
        "ik.fx": "無し",
-       "ik.noBg": "e01-p03-k4：人物だけの寄りか、ガリヴァーの体が地面になるコマで、背景を描いていない。LY-04 のグループは空の線の画像のまま残した"
+       "ik.noBg": ""
       }
      },
      {
@@ -570,7 +570,7 @@
        "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
        "ik.byHuman": "まだ無い（作者が確かめて直す）",
        "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-rough@rough-ep01-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-rough@rough-ep01-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う。背景を描き足したコマ（仕上げで作者「背景を描いて」、2026-11-14）：e01-p06-k1（LY-04 を残し、白かったところにだけ新しい背景の線を足した、part1/ink/prompts/e01-p06-k1-background.txt）。人物の線（LY-07）と効果（LY-08）は変えていない",
        "ik.fx": "無し",
        "ik.noBg": ""
       }
@@ -606,9 +606,9 @@
        "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
        "ik.byHuman": "まだ無い（作者が確かめて直す）",
        "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-rough@rough-ep01-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-rough@rough-ep01-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う。背景を描き足したコマ（仕上げで作者「背景を描いて」、2026-11-14）：e01-p08-k4（LY-04 を新しい背景の線に置き換えた、part1/ink/prompts/e01-p08-k4-background.txt）。人物の線（LY-07）と効果（LY-08）は変えていない",
        "ik.fx": "無し",
-       "ik.noBg": "e01-p08-k4：人物だけの寄りか、ガリヴァーの体が地面になるコマで、背景を描いていない。LY-04 のグループは空の線の画像のまま残した"
+       "ik.noBg": ""
       }
      },
      {
@@ -660,7 +660,7 @@
        "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
        "ik.byHuman": "まだ無い（作者が確かめて直す）",
        "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-rough@rough-ep01-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-rough@rough-ep01-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う。背景を描き足したコマ（仕上げで作者「背景を描いて」、2026-11-14）：e01-p11-k5（LY-04 を残し、白かったところにだけ新しい背景の線を足した、part1/ink/prompts/e01-p11-k5-background.txt）。人物の線（LY-07）と効果（LY-08）は変えていない",
        "ik.fx": "無し",
        "ik.noBg": "e01-p11-k4：人物だけの寄りか、ガリヴァーの体が地面になるコマで、背景を描いていない。LY-04 のグループは空の線の画像のまま残した"
       }
@@ -757,7 +757,7 @@
      }
     ]
    },
-   "contentHash": "7f83ec7615eee5baf02c012d197311869dd9734d722c02025590b95e83340408"
+   "contentHash": "fed0ec792727b0e17c032221ee56c887248714236d34f2d2ff6d0273ecd5c8ae"
   }
  ]
 }

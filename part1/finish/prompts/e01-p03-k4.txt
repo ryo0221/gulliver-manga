@@ -13,5 +13,6 @@ Words in this panel (for the mood and the faces only, do NOT draw any text): 台
 Figures, placed by the 3D layout (as placed in the rough and the 3D layout: keep these places, facings and poses; draw each with a readable face direction, pose and expression):
 - FG-e01-p03-k4-01 ガリヴァー — Gulliver (CH-01): 1,750 mm, plain blue coat with brass buttons and NO gold trim, tan breeches, white stockings, black shoes, brown hair tied back; carrying a sea bag on his shoulder; head at middle-centre of the frame (x 50%, y 48%), facing the camera; 1825 mm from the camera.
 - FG-e01-p03-k4-02 メアリー — Mary, Gulliver's wife (CH-10): plain dark early-18th-century house dress, white apron and cap, practical; standing with hands clasped in front; head at bottom-left of the frame (x 26%, y 69%), back to the camera; 878 mm from the camera.
+The background is Bristol harbour on a bright morning: light blue sky with white clouds, blue-green harbour water, grey stone quay, the ship's brown wooden masts and yards with tan rigging, a red-brown warehouse roof. Paint the sky right up to the top edge of the panel (no white band at the top).
 
 After generating, copy the generated PNG to ./color-raw.png in the current directory. Do not generate more than one image.

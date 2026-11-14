@@ -14,5 +14,6 @@ Words in this panel (for the mood and the faces only, do NOT draw any text): 擬
 Figures, placed by the 3D layout (as placed in the rough and the 3D layout: keep these places, facings and poses; draw each with a readable face direction, pose and expression):
 - FG-e01-p08-k4-01 ガリヴァー — Gulliver (CH-01): 1,750 mm, plain blue coat with brass buttons and NO gold trim, tan breeches, white stockings, black shoes, brown hair tied back; lying flat on his back; head at outside the frame, feet at outside the frame; 1457 mm from the camera.
 - FG-e01-p08-k4-02 最初の小人（弓と矢筒） — a Lilliputian (CH-30): 146 mm tall, 1/12 of Gulliver; walking; head at top-centre of the frame (x 50%, y 14%), in profile, facing frame right; 386 mm from the camera.
+The background is a clear sunny morning in Lilliput: light blue sky, white clouds, distant trees and hills in soft greens with a little blue haze.
 
 After generating, copy the generated PNG to ./color-raw.png in the current directory. Do not generate more than one image.
