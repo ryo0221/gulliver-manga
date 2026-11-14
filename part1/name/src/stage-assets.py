@@ -5,7 +5,7 @@ plan per panel (stage/plans/*.svg) and one record per panel (stage/ep01-stage.js
 
 usage: stage-assets.py STAGE_OUT NAME_DESIGN_ARTIFACT OUT_DIR
 """
-import json, math, os, sys
+import glob, json, math, os, shutil, sys
 from PIL import Image
 
 stage_dir, design_path, out = sys.argv[1:4]
@@ -137,6 +137,10 @@ for sid in SETS:
         'vessels': [{'id': v['id'], 'name': v['name'], 'home': v['home']} for v in s.get('vessels') or []],
         'crowds': [{k: c[k] for k in ('id', 'name', 'count')} for c in st['crowds']],
     }
+    # The model versions the stage was built on (CAD/BIM, vessels, the character) and the raw record.
+    os.makedirs(f'{out}/models/{sid}', exist_ok=True)
+    for f in glob.glob(f'{stage_dir}/{sid}/*.json'):
+        shutil.copy(f, f'{out}/models/{sid}/')
     actors = {a['id']: a for a in st['actors']}
     crowd_pts = {c['id']: c['points'] for c in st['crowds']}
     cw, chh = st['canvas']['width'], st['canvas']['height']

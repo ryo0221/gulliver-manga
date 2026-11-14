@@ -101,7 +101,9 @@ function poseRotations(pose: Pose) {
       world.set(b, parentWorld);
       continue;
     }
-    const q = rotationBetween(rotateVec(inverseQuat(parentWorld), [0, 0, -1]) as V3, rotateVec(inverseQuat(parentWorld), norm(d)) as V3);
+    // The bone's own rest direction is straight down in its parent's frame; turn it toward the
+    // wanted body-frame direction brought into that frame.
+    const q = rotationBetween([0, 0, -1], rotateVec(inverseQuat(parentWorld), norm(d)) as V3);
     local[b] = q;
     world.set(b, multiplyQuat(parentWorld, q));
   }

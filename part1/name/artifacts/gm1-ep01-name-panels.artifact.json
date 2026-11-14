@@ -167,7 +167,7 @@
       "st.fov": "横 34.1° × 縦 35°",
       "st.figures": "FG-e01-p01-k1-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie-look / FG-e01-p01-k1-02 CH-30 最初の小人（弓と矢筒） (40, -300, 245) 向き 180° archer / FG-e01-p01-k1-03 CH-30 胸の小人2 (60, -260, 245) 向き 180° stand / FG-e01-p01-k1-04 CH-30 胸の小人3 (-90, -230, 245) 向き 180° archer / FG-e01-p01-k1-05 CH-30 胸の小人4 (20, -170, 245) 向き 180° stand / FG-e01-p01-k1-06 CH-30 胸の小人5 (-60, -100, 245) 向き 180° stand",
       "st.crowds": "体の上の小人（本文：40人ほど）（45）、周りの群衆（238）",
-      "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+      "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
       "st.underlay": "underlay/e01-p01-k1.jpg",
       "st.plan": "plans/e01-p01-k1.svg"
      }
@@ -194,7 +194,7 @@
       "st.fov": "横 62.7° × 縦 29.6°",
       "st.figures": "FG-e01-p01-k2-01 CH-10 メアリー (-300, -3300, 0) 向き 0° stand",
       "st.crowds": "",
-      "st.models": "舞台 stable（cad artifact_43e4287a-6629-495a-9eb6-2fe01947241f@version_df91cbe9-d5cf-489d-9071-3453d7ac33a2 bf24969d085d4b374edaf7baf0cb80123d4bac838f55f655bc98bcd4a7817c42）",
+      "st.models": "舞台 stable（cad artifact_6cdd509d-17e7-4aa9-ae3f-a0dd5fec7ee8@version_7d4d268a-57e4-4ca7-81ce-43f816b0289a bf24969d085d4b374edaf7baf0cb80123d4bac838f55f655bc98bcd4a7817c42）",
       "st.underlay": "underlay/e01-p01-k2.jpg",
       "st.plan": "plans/e01-p01-k2.svg"
      }
@@ -221,7 +221,7 @@
       "st.fov": "横 39.5° × 縦 35°",
       "st.figures": "FG-e01-p02-k1-01 CH-01 ガリヴァー (200, 300, 0) 向き 0° hands-together / FG-e01-p02-k1-02 horse 馬（灰） (-650, 2700, 0) 向き 180° stand / FG-e01-p02-k1-03 horse 馬（栗毛） (950, 2750, 0) 向き 180° stand / FG-e01-p02-k1-04 CH-10 メアリー (0, -2900, 0) 向き 0° hands-together",
       "st.crowds": "",
-      "st.models": "舞台 stable（cad artifact_43e4287a-6629-495a-9eb6-2fe01947241f@version_df91cbe9-d5cf-489d-9071-3453d7ac33a2 bf24969d085d4b374edaf7baf0cb80123d4bac838f55f655bc98bcd4a7817c42）",
+      "st.models": "舞台 stable（cad artifact_6cdd509d-17e7-4aa9-ae3f-a0dd5fec7ee8@version_7d4d268a-57e4-4ca7-81ce-43f816b0289a bf24969d085d4b374edaf7baf0cb80123d4bac838f55f655bc98bcd4a7817c42）",
       "st.underlay": "underlay/e01-p02-k1.jpg",
       "st.plan": "plans/e01-p02-k1.svg"
      }
@@ -248,7 +248,7 @@
       "st.fov": "横 19.3° × 縦 35°",
       "st.figures": "FG-e01-p02-k2-01 CH-01 ガリヴァー (200, 300, 0) 向き 20.1° hands-together / FG-e01-p02-k2-02 horse 馬（灰） (-650, 2700, 0) 向き 180° stand / FG-e01-p02-k2-03 horse 馬（栗毛） (950, 2750, 0) 向き 180° stand",
       "st.crowds": "",
-      "st.models": "舞台 stable（cad artifact_43e4287a-6629-495a-9eb6-2fe01947241f@version_df91cbe9-d5cf-489d-9071-3453d7ac33a2 bf24969d085d4b374edaf7baf0cb80123d4bac838f55f655bc98bcd4a7817c42）",
+      "st.models": "舞台 stable（cad artifact_6cdd509d-17e7-4aa9-ae3f-a0dd5fec7ee8@version_7d4d268a-57e4-4ca7-81ce-43f816b0289a bf24969d085d4b374edaf7baf0cb80123d4bac838f55f655bc98bcd4a7817c42）",
       "st.underlay": "underlay/e01-p02-k2.jpg",
       "st.plan": "plans/e01-p02-k2.svg"
      }
@@ -275,7 +275,7 @@
       "st.fov": "横 40.1° × 縦 35°",
       "st.figures": "FG-e01-p02-k3-01 CH-01 ガリヴァー (200, 300, 0) 向き 0° hands-together / FG-e01-p02-k3-02 horse 馬（灰） (-650, 2700, 0) 向き 180° stand / FG-e01-p02-k3-03 horse 馬（栗毛） (950, 2750, 0) 向き 180° stand / FG-e01-p02-k3-04 CH-10 メアリー (0, -2900, 0) 向き 0° hands-together",
       "st.crowds": "",
-      "st.models": "舞台 stable（cad artifact_43e4287a-6629-495a-9eb6-2fe01947241f@version_df91cbe9-d5cf-489d-9071-3453d7ac33a2 bf24969d085d4b374edaf7baf0cb80123d4bac838f55f655bc98bcd4a7817c42）",
+      "st.models": "舞台 stable（cad artifact_6cdd509d-17e7-4aa9-ae3f-a0dd5fec7ee8@version_7d4d268a-57e4-4ca7-81ce-43f816b0289a bf24969d085d4b374edaf7baf0cb80123d4bac838f55f655bc98bcd4a7817c42）",
       "st.underlay": "underlay/e01-p02-k3.jpg",
       "st.plan": "plans/e01-p02-k3.svg"
      }
@@ -302,7 +302,7 @@
       "st.fov": "横 40.1° × 縦 35°",
       "st.figures": "FG-e01-p02-k4-01 CH-01 ガリヴァー (200, 300, 0) 向き 0° hands-together / FG-e01-p02-k4-02 horse 馬（灰） (-650, 2700, 0) 向き 180° stand / FG-e01-p02-k4-03 horse 馬（栗毛） (950, 2750, 0) 向き 180° stand",
       "st.crowds": "",
-      "st.models": "舞台 stable（cad artifact_43e4287a-6629-495a-9eb6-2fe01947241f@version_df91cbe9-d5cf-489d-9071-3453d7ac33a2 bf24969d085d4b374edaf7baf0cb80123d4bac838f55f655bc98bcd4a7817c42）",
+      "st.models": "舞台 stable（cad artifact_6cdd509d-17e7-4aa9-ae3f-a0dd5fec7ee8@version_7d4d268a-57e4-4ca7-81ce-43f816b0289a bf24969d085d4b374edaf7baf0cb80123d4bac838f55f655bc98bcd4a7817c42）",
       "st.underlay": "underlay/e01-p02-k4.jpg",
       "st.plan": "plans/e01-p02-k4.svg"
      }
@@ -329,7 +329,7 @@
       "st.fov": "横 31.6° × 縦 35°",
       "st.figures": "FG-e01-p02-k5-01 CH-10 メアリー (400, -3600, 0) 向き 180° turn-away",
       "st.crowds": "",
-      "st.models": "舞台 stable（cad artifact_43e4287a-6629-495a-9eb6-2fe01947241f@version_df91cbe9-d5cf-489d-9071-3453d7ac33a2 bf24969d085d4b374edaf7baf0cb80123d4bac838f55f655bc98bcd4a7817c42）",
+      "st.models": "舞台 stable（cad artifact_6cdd509d-17e7-4aa9-ae3f-a0dd5fec7ee8@version_7d4d268a-57e4-4ca7-81ce-43f816b0289a bf24969d085d4b374edaf7baf0cb80123d4bac838f55f655bc98bcd4a7817c42）",
       "st.underlay": "underlay/e01-p02-k5.jpg",
       "st.plan": "plans/e01-p02-k5.svg"
      }
@@ -356,7 +356,7 @@
       "st.fov": "横 46.3° × 縦 35°",
       "st.figures": "FG-e01-p02-k6-01 CH-01 ガリヴァー (200, 300, 0) 向き 0° hands-together / FG-e01-p02-k6-02 horse 馬（灰） (-650, 2700, 0) 向き 180° stand / FG-e01-p02-k6-03 horse 馬（栗毛） (950, 2750, 0) 向き 180° stand",
       "st.crowds": "",
-      "st.models": "舞台 stable（cad artifact_43e4287a-6629-495a-9eb6-2fe01947241f@version_df91cbe9-d5cf-489d-9071-3453d7ac33a2 bf24969d085d4b374edaf7baf0cb80123d4bac838f55f655bc98bcd4a7817c42）",
+      "st.models": "舞台 stable（cad artifact_6cdd509d-17e7-4aa9-ae3f-a0dd5fec7ee8@version_7d4d268a-57e4-4ca7-81ce-43f816b0289a bf24969d085d4b374edaf7baf0cb80123d4bac838f55f655bc98bcd4a7817c42）",
       "st.underlay": "underlay/e01-p02-k6.jpg",
       "st.plan": "plans/e01-p02-k6.svg"
      }
@@ -383,7 +383,7 @@
       "st.fov": "横 46.7° × 縦 35°",
       "st.figures": "FG-e01-p03-k1-01 CH-01 ガリヴァー (-1500, -1500, 0) 向き 0° carry-bag / FG-e01-p03-k1-02 CH-10 メアリー (-600, -1700, 0) 向き 0° hands-together / FG-e01-p03-k1-03 EX 船員1 (-3000, 6000, 0) 向き 180° carry-up / FG-e01-p03-k1-04 EX 船員2 (3000, 8500, 0) 向き 0° walk / FG-e01-p03-k1-05 EX 船員3 (9500, 7000, 1500) 向き 90° point",
       "st.crowds": "岸壁の見送りの人々（84）",
-      "st.models": "舞台 port（cad artifact_3970a892-60d3-404e-819a-d55f8f7486c2@version_3284fd80-511e-4108-9361-a18285c3973f 01b195d3a69eaec7bc220fb39b977cddfb123a74bea83a405b9f1d29eb9012db） / 舞台 port ship（cad artifact_6d6f8262-69fd-41dd-9b4c-eca39a201051@version_4e4da562-86ed-4a26-b90c-48e8bba996be 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3）",
+      "st.models": "舞台 port（cad artifact_2f4eea78-7c55-43a4-81a0-80123a2491ad@version_9b417d35-92e8-4308-a991-3189e90720ce 01b195d3a69eaec7bc220fb39b977cddfb123a74bea83a405b9f1d29eb9012db） / 舞台 port ship（cad artifact_d01fca4b-e451-4160-8529-68f7e9449101@version_5d52e0f9-b174-42a0-93ce-f093ade7223a 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3）",
       "st.underlay": "underlay/e01-p03-k1.jpg",
       "st.plan": "plans/e01-p03-k1.svg"
      }
@@ -410,7 +410,7 @@
       "st.fov": "横 15.8° × 縦 35°",
       "st.figures": "FG-e01-p03-k2-01 CH-01 ガリヴァー (0, -1500, 0) 向き -90° carry-bag / FG-e01-p03-k2-02 CH-10 メアリー (950, -1400, 0) 向き 90° hands-together",
       "st.crowds": "",
-      "st.models": "舞台 port（cad artifact_3970a892-60d3-404e-819a-d55f8f7486c2@version_3284fd80-511e-4108-9361-a18285c3973f 01b195d3a69eaec7bc220fb39b977cddfb123a74bea83a405b9f1d29eb9012db） / 舞台 port ship（cad artifact_6d6f8262-69fd-41dd-9b4c-eca39a201051@version_4e4da562-86ed-4a26-b90c-48e8bba996be 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3）",
+      "st.models": "舞台 port（cad artifact_2f4eea78-7c55-43a4-81a0-80123a2491ad@version_9b417d35-92e8-4308-a991-3189e90720ce 01b195d3a69eaec7bc220fb39b977cddfb123a74bea83a405b9f1d29eb9012db） / 舞台 port ship（cad artifact_d01fca4b-e451-4160-8529-68f7e9449101@version_5d52e0f9-b174-42a0-93ce-f093ade7223a 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3）",
       "st.underlay": "underlay/e01-p03-k2.jpg",
       "st.plan": "plans/e01-p03-k2.svg"
      }
@@ -437,7 +437,7 @@
       "st.fov": "横 15.3° × 縦 35°",
       "st.figures": "FG-e01-p03-k3-01 CH-01 ガリヴァー (0, -1500, 0) 向き -90° carry-bag / FG-e01-p03-k3-02 CH-10 メアリー (950, -1400, 0) 向き 90° hands-together",
       "st.crowds": "",
-      "st.models": "舞台 port（cad artifact_3970a892-60d3-404e-819a-d55f8f7486c2@version_3284fd80-511e-4108-9361-a18285c3973f 01b195d3a69eaec7bc220fb39b977cddfb123a74bea83a405b9f1d29eb9012db） / 舞台 port ship（cad artifact_6d6f8262-69fd-41dd-9b4c-eca39a201051@version_4e4da562-86ed-4a26-b90c-48e8bba996be 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3）",
+      "st.models": "舞台 port（cad artifact_2f4eea78-7c55-43a4-81a0-80123a2491ad@version_9b417d35-92e8-4308-a991-3189e90720ce 01b195d3a69eaec7bc220fb39b977cddfb123a74bea83a405b9f1d29eb9012db） / 舞台 port ship（cad artifact_d01fca4b-e451-4160-8529-68f7e9449101@version_5d52e0f9-b174-42a0-93ce-f093ade7223a 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3）",
       "st.underlay": "underlay/e01-p03-k3.jpg",
       "st.plan": "plans/e01-p03-k3.svg"
      }
@@ -464,7 +464,7 @@
       "st.fov": "横 15.8° × 縦 35°",
       "st.figures": "FG-e01-p03-k4-01 CH-01 ガリヴァー (0, -1500, 0) 向き -90° carry-bag / FG-e01-p03-k4-02 CH-10 メアリー (950, -1400, 0) 向き 90° hands-together",
       "st.crowds": "",
-      "st.models": "舞台 port（cad artifact_3970a892-60d3-404e-819a-d55f8f7486c2@version_3284fd80-511e-4108-9361-a18285c3973f 01b195d3a69eaec7bc220fb39b977cddfb123a74bea83a405b9f1d29eb9012db） / 舞台 port ship（cad artifact_6d6f8262-69fd-41dd-9b4c-eca39a201051@version_4e4da562-86ed-4a26-b90c-48e8bba996be 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3）",
+      "st.models": "舞台 port（cad artifact_2f4eea78-7c55-43a4-81a0-80123a2491ad@version_9b417d35-92e8-4308-a991-3189e90720ce 01b195d3a69eaec7bc220fb39b977cddfb123a74bea83a405b9f1d29eb9012db） / 舞台 port ship（cad artifact_d01fca4b-e451-4160-8529-68f7e9449101@version_5d52e0f9-b174-42a0-93ce-f093ade7223a 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3）",
       "st.underlay": "underlay/e01-p03-k4.jpg",
       "st.plan": "plans/e01-p03-k4.svg"
      }
@@ -491,7 +491,7 @@
       "st.fov": "横 23.8° × 縦 35°",
       "st.figures": "FG-e01-p04-k1-01 CH-10 メアリー (950, -1400, 0) 向き 90° hands-together",
       "st.crowds": "",
-      "st.models": "舞台 port（cad artifact_3970a892-60d3-404e-819a-d55f8f7486c2@version_3284fd80-511e-4108-9361-a18285c3973f 01b195d3a69eaec7bc220fb39b977cddfb123a74bea83a405b9f1d29eb9012db） / 舞台 port ship（cad artifact_6d6f8262-69fd-41dd-9b4c-eca39a201051@version_4e4da562-86ed-4a26-b90c-48e8bba996be 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3）",
+      "st.models": "舞台 port（cad artifact_2f4eea78-7c55-43a4-81a0-80123a2491ad@version_9b417d35-92e8-4308-a991-3189e90720ce 01b195d3a69eaec7bc220fb39b977cddfb123a74bea83a405b9f1d29eb9012db） / 舞台 port ship（cad artifact_d01fca4b-e451-4160-8529-68f7e9449101@version_5d52e0f9-b174-42a0-93ce-f093ade7223a 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3）",
       "st.underlay": "underlay/e01-p04-k1.jpg",
       "st.plan": "plans/e01-p04-k1.svg"
      }
@@ -518,7 +518,7 @@
       "st.fov": "横 35.4° × 縦 35°",
       "st.figures": "FG-e01-p04-k2-01 CH-01 ガリヴァー (300, -300, 0) 向き 0° wave-hat / FG-e01-p04-k2-02 CH-10 メアリー (1500, -2600, 0) 向き -17.2° hands-together",
       "st.crowds": "岸壁の見送りの人々（84）",
-      "st.models": "舞台 port（cad artifact_3970a892-60d3-404e-819a-d55f8f7486c2@version_3284fd80-511e-4108-9361-a18285c3973f 01b195d3a69eaec7bc220fb39b977cddfb123a74bea83a405b9f1d29eb9012db） / 舞台 port ship（cad artifact_6d6f8262-69fd-41dd-9b4c-eca39a201051@version_4e4da562-86ed-4a26-b90c-48e8bba996be 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3）",
+      "st.models": "舞台 port（cad artifact_2f4eea78-7c55-43a4-81a0-80123a2491ad@version_9b417d35-92e8-4308-a991-3189e90720ce 01b195d3a69eaec7bc220fb39b977cddfb123a74bea83a405b9f1d29eb9012db） / 舞台 port ship（cad artifact_d01fca4b-e451-4160-8529-68f7e9449101@version_5d52e0f9-b174-42a0-93ce-f093ade7223a 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3）",
       "st.underlay": "underlay/e01-p04-k2.jpg",
       "st.plan": "plans/e01-p04-k2.svg"
      }
@@ -545,7 +545,7 @@
       "st.fov": "横 39.5° × 縦 35°",
       "st.figures": "FG-e01-p04-k3-01 CH-01 ガリヴァー (-1087, 87204, 0) 向き 248.8° wave-hat / FG-e01-p04-k3-02 EX 船員1 (1656, 91502, 0) 向き 68.8° carry-up",
       "st.crowds": "",
-      "st.models": "舞台 port（cad artifact_3970a892-60d3-404e-819a-d55f8f7486c2@version_3284fd80-511e-4108-9361-a18285c3973f 01b195d3a69eaec7bc220fb39b977cddfb123a74bea83a405b9f1d29eb9012db） / 舞台 port ship（cad artifact_6d6f8262-69fd-41dd-9b4c-eca39a201051@version_4e4da562-86ed-4a26-b90c-48e8bba996be 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3）",
+      "st.models": "舞台 port（cad artifact_2f4eea78-7c55-43a4-81a0-80123a2491ad@version_9b417d35-92e8-4308-a991-3189e90720ce 01b195d3a69eaec7bc220fb39b977cddfb123a74bea83a405b9f1d29eb9012db） / 舞台 port ship（cad artifact_d01fca4b-e451-4160-8529-68f7e9449101@version_5d52e0f9-b174-42a0-93ce-f093ade7223a 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3）",
       "st.underlay": "underlay/e01-p04-k3.jpg",
       "st.plan": "plans/e01-p04-k3.svg"
      }
@@ -572,7 +572,7 @@
       "st.fov": "横 44.5° × 縦 35°",
       "st.figures": "FG-e01-p05-k1-01 CH-01 ガリヴァー (-6000, -40500, 1500) 向き 17.2° crouch / FG-e01-p05-k1-02 EX 船員1 (-3000, -41000, 1500) 向き 126.1° fall / FG-e01-p05-k1-03 EX 船員2 (2000, -39000, 1500) 向き -68.8° carry-up / FG-e01-p05-k1-04 EX 船員3 (10000, -40000, 3000) 向き -91.7° fall / FG-e01-p05-k1-05 EX 船員4 (-10000, -39500, 4000) 向き -90° point",
       "st.crowds": "",
-      "st.models": "舞台 sea（cad artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
+      "st.models": "舞台 sea（cad artifact_0a1fbb69-79ea-404c-8ce7-95684b0354ca@version_3cb20f3f-ca51-4c0e-8c63-cc2c7fb6b46a 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_594d2b77-eccf-4f8e-a804-7891ef1ba327@version_1e8214f2-b5fc-45be-ac06-8358bd8ae0a8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_758e4541-0110-4537-97d3-571badbf8f1d@version_a07ef471-0298-41b1-bd90-b9edadd619f3 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
       "st.underlay": "underlay/e01-p05-k1.jpg",
       "st.plan": "plans/e01-p05-k1.svg"
      }
@@ -599,7 +599,7 @@
       "st.fov": "横 23.9° × 縦 35°",
       "st.figures": "FG-e01-p05-k2-01 CH-01 ガリヴァー (5000, -39000, 1500) 向き -80.2° crouch / FG-e01-p05-k2-02 EX 船員3 (10500, -40500, 3000) 向き 143.2° fall / FG-e01-p05-k2-03 EX 船員4 (9000, -38800, 3000) 向き -114.6° crouch / FG-e01-p05-k2-04 EX 船員5 (7000, -41500, 1500) 向き -57.3° carry-up",
       "st.crowds": "",
-      "st.models": "舞台 sea（cad artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
+      "st.models": "舞台 sea（cad artifact_0a1fbb69-79ea-404c-8ce7-95684b0354ca@version_3cb20f3f-ca51-4c0e-8c63-cc2c7fb6b46a 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_594d2b77-eccf-4f8e-a804-7891ef1ba327@version_1e8214f2-b5fc-45be-ac06-8358bd8ae0a8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_758e4541-0110-4537-97d3-571badbf8f1d@version_a07ef471-0298-41b1-bd90-b9edadd619f3 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
       "st.underlay": "underlay/e01-p05-k2.jpg",
       "st.plan": "plans/e01-p05-k2.svg"
      }
@@ -626,7 +626,7 @@
       "st.fov": "横 22.6° × 縦 35°",
       "st.figures": "FG-e01-p05-k3-01 CH-01 ガリヴァー (-800, -21800, -1560) 向き 22.9° tread / FG-e01-p05-k3-02 EX 船員1 (1000, -21500, 600) 向き 114.6° fall / FG-e01-p05-k3-03 EX 船員2 (1800, -19000, -1560) 向き -28.6° tread / FG-e01-p05-k3-04 EX 船員3 (-1500, -19200, 500) 向き -126.1° fall / FG-e01-p05-k3-05 EX 船員4 (2600, -21000, 0) 向き 45.8° swim / FG-e01-p05-k3-06 EX 船員5 (-2600, -20500, -1560) 向き 68.8° tread",
       "st.crowds": "",
-      "st.models": "舞台 sea（cad artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
+      "st.models": "舞台 sea（cad artifact_0a1fbb69-79ea-404c-8ce7-95684b0354ca@version_3cb20f3f-ca51-4c0e-8c63-cc2c7fb6b46a 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_594d2b77-eccf-4f8e-a804-7891ef1ba327@version_1e8214f2-b5fc-45be-ac06-8358bd8ae0a8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_758e4541-0110-4537-97d3-571badbf8f1d@version_a07ef471-0298-41b1-bd90-b9edadd619f3 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
       "st.underlay": "underlay/e01-p05-k3.jpg",
       "st.plan": "plans/e01-p05-k3.svg"
      }
@@ -653,7 +653,7 @@
       "st.fov": "横 46.7° × 縦 35°",
       "st.figures": "FG-e01-p06-k1-01 CH-01 ガリヴァー (0, 0, -1560) 向き 17.2° tread",
       "st.crowds": "",
-      "st.models": "舞台 sea（cad artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
+      "st.models": "舞台 sea（cad artifact_0a1fbb69-79ea-404c-8ce7-95684b0354ca@version_3cb20f3f-ca51-4c0e-8c63-cc2c7fb6b46a 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_594d2b77-eccf-4f8e-a804-7891ef1ba327@version_1e8214f2-b5fc-45be-ac06-8358bd8ae0a8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_758e4541-0110-4537-97d3-571badbf8f1d@version_a07ef471-0298-41b1-bd90-b9edadd619f3 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
       "st.underlay": "underlay/e01-p06-k1.jpg",
       "st.plan": "plans/e01-p06-k1.svg"
      }
@@ -680,7 +680,7 @@
       "st.fov": "横 23.8° × 縦 35°",
       "st.figures": "FG-e01-p06-k2-01 CH-01 ガリヴァー (0, 300, -1000) 向き 11.5° swim",
       "st.crowds": "",
-      "st.models": "舞台 sea（cad artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
+      "st.models": "舞台 sea（cad artifact_0a1fbb69-79ea-404c-8ce7-95684b0354ca@version_3cb20f3f-ca51-4c0e-8c63-cc2c7fb6b46a 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_594d2b77-eccf-4f8e-a804-7891ef1ba327@version_1e8214f2-b5fc-45be-ac06-8358bd8ae0a8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_758e4541-0110-4537-97d3-571badbf8f1d@version_a07ef471-0298-41b1-bd90-b9edadd619f3 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
       "st.underlay": "underlay/e01-p06-k2.jpg",
       "st.plan": "plans/e01-p06-k2.svg"
      }
@@ -707,7 +707,7 @@
       "st.fov": "横 23.8° × 縦 35°",
       "st.figures": "FG-e01-p06-k3-01 CH-01 ガリヴァー (0, 8800, -410) 向き 0° walk",
       "st.crowds": "",
-      "st.models": "舞台 sea（cad artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
+      "st.models": "舞台 sea（cad artifact_0a1fbb69-79ea-404c-8ce7-95684b0354ca@version_3cb20f3f-ca51-4c0e-8c63-cc2c7fb6b46a 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_594d2b77-eccf-4f8e-a804-7891ef1ba327@version_1e8214f2-b5fc-45be-ac06-8358bd8ae0a8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_758e4541-0110-4537-97d3-571badbf8f1d@version_a07ef471-0298-41b1-bd90-b9edadd619f3 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
       "st.underlay": "underlay/e01-p06-k3.jpg",
       "st.plan": "plans/e01-p06-k3.svg"
      }
@@ -734,7 +734,7 @@
       "st.fov": "横 56.9° × 縦 35°",
       "st.figures": "FG-e01-p07-k1-01 CH-01 ガリヴァー (0, 30500, 12) 向き 8.6° lie",
       "st.crowds": "",
-      "st.models": "舞台 sea（cad artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
+      "st.models": "舞台 sea（cad artifact_0a1fbb69-79ea-404c-8ce7-95684b0354ca@version_3cb20f3f-ca51-4c0e-8c63-cc2c7fb6b46a 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_594d2b77-eccf-4f8e-a804-7891ef1ba327@version_1e8214f2-b5fc-45be-ac06-8358bd8ae0a8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_758e4541-0110-4537-97d3-571badbf8f1d@version_a07ef471-0298-41b1-bd90-b9edadd619f3 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
       "st.underlay": "underlay/e01-p07-k1.jpg",
       "st.plan": "plans/e01-p07-k1.svg"
      }
@@ -761,7 +761,7 @@
       "st.fov": "横 39.5° × 縦 35°",
       "st.figures": "FG-e01-p07-k2-01 CH-01 ガリヴァー (0, 30500, 12) 向き 0° lie",
       "st.crowds": "",
-      "st.models": "舞台 sea（cad artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
+      "st.models": "舞台 sea（cad artifact_0a1fbb69-79ea-404c-8ce7-95684b0354ca@version_3cb20f3f-ca51-4c0e-8c63-cc2c7fb6b46a 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_594d2b77-eccf-4f8e-a804-7891ef1ba327@version_1e8214f2-b5fc-45be-ac06-8358bd8ae0a8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_758e4541-0110-4537-97d3-571badbf8f1d@version_a07ef471-0298-41b1-bd90-b9edadd619f3 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
       "st.underlay": "underlay/e01-p07-k2.jpg",
       "st.plan": "plans/e01-p07-k2.svg"
      }
@@ -788,7 +788,7 @@
       "st.fov": "横 56.9° × 縦 35°",
       "st.figures": "FG-e01-p08-k1-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie",
       "st.crowds": "",
-      "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+      "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
       "st.underlay": "underlay/e01-p08-k1.jpg",
       "st.plan": "plans/e01-p08-k1.svg"
      }
@@ -815,7 +815,7 @@
       "st.fov": "横 40.1° × 縦 35°",
       "st.figures": "FG-e01-p08-k2-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie",
       "st.crowds": "",
-      "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+      "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
       "st.underlay": "underlay/e01-p08-k2.jpg",
       "st.plan": "plans/e01-p08-k2.svg"
      }
@@ -842,7 +842,7 @@
       "st.fov": "横 40.1° × 縦 35°",
       "st.figures": "FG-e01-p08-k3-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie",
       "st.crowds": "",
-      "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+      "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
       "st.underlay": "underlay/e01-p08-k3.jpg",
       "st.plan": "plans/e01-p08-k3.svg"
      }
@@ -869,7 +869,7 @@
       "st.fov": "横 62.7° × 縦 29.6°",
       "st.figures": "FG-e01-p08-k4-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie / FG-e01-p08-k4-02 CH-30 最初の小人（弓と矢筒） (-96, 430, 190) 向き 180° walk",
       "st.crowds": "",
-      "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+      "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
       "st.underlay": "underlay/e01-p08-k4.jpg",
       "st.plan": "plans/e01-p08-k4.svg"
      }
@@ -896,7 +896,7 @@
       "st.fov": "横 62.7° × 縦 24.7°",
       "st.figures": "FG-e01-p09-k1-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie-look / FG-e01-p09-k1-02 CH-30 最初の小人（弓と矢筒） (-20, -360, 245) 向き 180° stand",
       "st.crowds": "",
-      "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+      "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
       "st.underlay": "underlay/e01-p09-k1.jpg",
       "st.plan": "plans/e01-p09-k1.svg"
      }
@@ -923,7 +923,7 @@
       "st.fov": "横 43.3° × 縦 35°",
       "st.figures": "FG-e01-p09-k2-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie-look / FG-e01-p09-k2-02 CH-30 最初の小人（弓と矢筒） (45, -330, 245) 向き 180° archer / FG-e01-p09-k2-03 CH-30 胸の小人2 (60, -260, 245) 向き 180° stand / FG-e01-p09-k2-04 CH-30 胸の小人3 (-90, -230, 245) 向き 180° archer / FG-e01-p09-k2-05 CH-30 胸の小人4 (20, -170, 245) 向き 180° stand / FG-e01-p09-k2-06 CH-30 胸の小人5 (-60, -100, 245) 向き 180° stand",
       "st.crowds": "体の上の小人（本文：40人ほど）（45）",
-      "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+      "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
       "st.underlay": "underlay/e01-p09-k2.jpg",
       "st.plan": "plans/e01-p09-k2.svg"
      }
@@ -950,7 +950,7 @@
       "st.fov": "横 62.7° × 縦 19.7°",
       "st.figures": "FG-e01-p09-k3-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie-look / FG-e01-p09-k3-02 CH-30 最初の小人（弓と矢筒） (-20, -360, 245) 向き 180° archer",
       "st.crowds": "体の上の小人（本文：40人ほど）（45）",
-      "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+      "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
       "st.underlay": "underlay/e01-p09-k3.jpg",
       "st.plan": "plans/e01-p09-k3.svg"
      }
@@ -977,7 +977,7 @@
       "st.fov": "横 62.7° × 縦 31.9°",
       "st.figures": "FG-e01-p10-k1-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie / FG-e01-p10-k1-02 CH-30 最初の小人（弓と矢筒） (170, -380, 160) 向き 180° fall / FG-e01-p10-k1-03 CH-30 胸の小人2 (210, -250, 90) 向き 143.2° fall / FG-e01-p10-k1-04 CH-30 胸の小人3 (240, -150, 20) 向き 68.8° fall / FG-e01-p10-k1-05 CH-30 胸の小人4 (40, -300, 245) 向き 180° dance",
       "st.crowds": "周りの群衆（238）",
-      "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+      "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
       "st.underlay": "underlay/e01-p10-k1.jpg",
       "st.plan": "plans/e01-p10-k1.svg"
      }
@@ -1004,7 +1004,7 @@
       "st.fov": "横 40.1° × 縦 35°",
       "st.figures": "FG-e01-p10-k2-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie-arm-free",
       "st.crowds": "周りの群衆（238）",
-      "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+      "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
       "st.underlay": "underlay/e01-p10-k2.jpg",
       "st.plan": "plans/e01-p10-k2.svg"
      }
@@ -1031,7 +1031,7 @@
       "st.fov": "横 37.2° × 縦 35°",
       "st.figures": "FG-e01-p10-k3-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie-arm-free / FG-e01-p10-k3-02 CH-30 隊長 (-620, 150, 0) 向き -90° sword-up / FG-e01-p10-k3-03 CH-30 弓兵1 (-780, 40, 0) 向き -90° archer / FG-e01-p10-k3-04 CH-30 弓兵2 (-790, 160, 0) 向き -90° archer / FG-e01-p10-k3-05 CH-30 弓兵3 (-780, 280, 0) 向き -90° archer",
       "st.crowds": "弓隊（30）",
-      "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+      "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
       "st.underlay": "underlay/e01-p10-k3.jpg",
       "st.plan": "plans/e01-p10-k3.svg"
      }
@@ -1058,7 +1058,7 @@
       "st.fov": "横 56.9° × 縦 35°",
       "st.figures": "FG-e01-p10-k4-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie-arm-free / FG-e01-p10-k4-02 CH-30 弓兵1 (-780, 40, 0) 向き -90° archer / FG-e01-p10-k4-03 CH-30 弓兵2 (-790, 160, 0) 向き -90° archer / FG-e01-p10-k4-04 CH-30 弓兵3 (-780, 280, 0) 向き -90° archer / FG-e01-p10-k4-05 CH-30 弓兵4 (-800, -80, 0) 向き -90° archer",
       "st.crowds": "弓隊（30）",
-      "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+      "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
       "st.underlay": "underlay/e01-p10-k4.jpg",
       "st.plan": "plans/e01-p10-k4.svg"
      }
@@ -1085,7 +1085,7 @@
       "st.fov": "横 39.1° × 縦 35°",
       "st.figures": "FG-e01-p11-k1-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie",
       "st.crowds": "",
-      "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+      "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
       "st.underlay": "underlay/e01-p11-k1.jpg",
       "st.plan": "plans/e01-p11-k1.svg"
      }
@@ -1112,7 +1112,7 @@
       "st.fov": "横 39.1° × 縦 35°",
       "st.figures": "FG-e01-p11-k2-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie",
       "st.crowds": "周りの群衆（238）",
-      "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+      "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
       "st.underlay": "underlay/e01-p11-k2.jpg",
       "st.plan": "plans/e01-p11-k2.svg"
      }
@@ -1139,7 +1139,7 @@
       "st.fov": "横 57.8° × 縦 35°",
       "st.figures": "FG-e01-p11-k3-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie / FG-e01-p11-k3-02 CH-30 演説する貴人 (430, -700, 457) 向き 90° orate / FG-e01-p11-k3-03 CH-30 胸の小人2 (380, -780, 457) 向き 90° stand",
       "st.crowds": "周りの群衆（238）",
-      "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+      "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
       "st.underlay": "underlay/e01-p11-k3.jpg",
       "st.plan": "plans/e01-p11-k3.svg"
      }
@@ -1166,7 +1166,7 @@
       "st.fov": "横 31.6° × 縦 35°",
       "st.figures": "FG-e01-p11-k4-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie-eat",
       "st.crowds": "",
-      "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+      "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
       "st.underlay": "underlay/e01-p11-k4.jpg",
       "st.plan": "plans/e01-p11-k4.svg"
      }
@@ -1193,7 +1193,7 @@
       "st.fov": "横 46.3° × 縦 35°",
       "st.figures": "FG-e01-p11-k5-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie / FG-e01-p11-k5-02 CH-30 胸の小人2 (260, -400, 150) 向き 90° carry-up / FG-e01-p11-k5-03 CH-30 胸の小人3 (120, -420, 245) 向き 90° carry-up / FG-e01-p11-k5-04 CH-30 胸の小人4 (40, -440, 245) 向き 180° carry-up",
       "st.crowds": "周りの群衆（238）",
-      "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+      "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
       "st.underlay": "underlay/e01-p11-k5.jpg",
       "st.plan": "plans/e01-p11-k5.svg"
      }
@@ -1220,7 +1220,7 @@
       "st.fov": "横 39.1° × 縦 35°",
       "st.figures": "FG-e01-p12-k1-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie-eat",
       "st.crowds": "",
-      "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+      "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
       "st.underlay": "underlay/e01-p12-k1.jpg",
       "st.plan": "plans/e01-p12-k1.svg"
      }
@@ -1247,7 +1247,7 @@
       "st.fov": "横 39.1° × 縦 35°",
       "st.figures": "FG-e01-p12-k2-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie-drink / FG-e01-p12-k2-02 CH-30 胸の小人2 (60, -330, 245) 向き 180° stand / FG-e01-p12-k2-03 CH-30 胸の小人3 (-70, -310, 245) 向き 180° stand",
       "st.crowds": "",
-      "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+      "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
       "st.underlay": "underlay/e01-p12-k2.jpg",
       "st.plan": "plans/e01-p12-k2.svg"
      }
@@ -1274,7 +1274,7 @@
       "st.fov": "横 62.7° × 縦 25°",
       "st.figures": "FG-e01-p12-k3-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie / FG-e01-p12-k3-02 CH-30 最初の小人（弓と矢筒） (-40, -330, 245) 向き 180° dance / FG-e01-p12-k3-03 CH-30 胸の小人2 (50, -300, 245) 向き 180° dance / FG-e01-p12-k3-04 CH-30 胸の小人3 (-20, -230, 245) 向き 180° dance / FG-e01-p12-k3-05 CH-30 胸の小人4 (60, -190, 245) 向き 180° dance / FG-e01-p12-k3-06 CH-30 胸の小人5 (-70, -160, 245) 向き 180° dance",
       "st.crowds": "体の上の小人（本文：40人ほど）（45）",
-      "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+      "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
       "st.underlay": "underlay/e01-p12-k3.jpg",
       "st.plan": "plans/e01-p12-k3.svg"
      }
@@ -1301,7 +1301,7 @@
       "st.fov": "横 62.7° × 縦 25°",
       "st.figures": "FG-e01-p12-k4-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie-hand-hover / FG-e01-p12-k4-02 CH-30 最初の小人（弓と矢筒） (-40, -330, 245) 向き 180° dance / FG-e01-p12-k4-03 CH-30 胸の小人2 (50, -300, 245) 向き 180° dance / FG-e01-p12-k4-04 CH-30 胸の小人3 (-20, -230, 245) 向き 180° dance",
       "st.crowds": "体の上の小人（本文：40人ほど）（45）",
-      "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+      "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
       "st.underlay": "underlay/e01-p12-k4.jpg",
       "st.plan": "plans/e01-p12-k4.svg"
      }
@@ -1328,7 +1328,7 @@
       "st.fov": "横 62.7° × 縦 17.7°",
       "st.figures": "FG-e01-p12-k5-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie",
       "st.crowds": "",
-      "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+      "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
       "st.underlay": "underlay/e01-p12-k5.jpg",
       "st.plan": "plans/e01-p12-k5.svg"
      }
@@ -1355,7 +1355,7 @@
       "st.fov": "横 62.7° × 縦 29.6°",
       "st.figures": "FG-e01-p13-k1-01 CH-01 ガリヴァー (-39950, 40000, 105) 向き -90° lie",
       "st.crowds": "滑車を引く900人（900）",
-      "st.models": "F106 古い神殿（bim artifact_413ea56f-0068-4d74-a7ea-5df871881644@version_f99a6279-79b6-4919-af87-844b799c59f5 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_be0e3b3a-d1b0-4eff-878b-bd6834a770e5@version_94ed3bd5-4b6e-4513-ab3c-bd5ddcf97e72 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
+      "st.models": "F106 古い神殿（bim artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
       "st.underlay": "underlay/e01-p13-k1.jpg",
       "st.plan": "plans/e01-p13-k1.svg"
      }
@@ -1382,7 +1382,7 @@
       "st.fov": "横 47.3° × 縦 35°",
       "st.figures": "FG-e01-p13-k2-01 CH-01 ガリヴァー (-39950, 40000, 105) 向き -90° lie / FG-e01-p13-k2-02 CH-30 見張り (-42570, 37930, 1064) 向き -51.6° point",
       "st.crowds": "滑車を引く900人（900）、王の馬（本文：高さ4インチ半、1,500頭）（1500）",
-      "st.models": "F106 古い神殿（bim artifact_413ea56f-0068-4d74-a7ea-5df871881644@version_f99a6279-79b6-4919-af87-844b799c59f5 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_be0e3b3a-d1b0-4eff-878b-bd6834a770e5@version_94ed3bd5-4b6e-4513-ab3c-bd5ddcf97e72 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
+      "st.models": "F106 古い神殿（bim artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
       "st.underlay": "underlay/e01-p13-k2.jpg",
       "st.plan": "plans/e01-p13-k2.svg"
      }
@@ -1409,7 +1409,7 @@
       "st.fov": "横 62.7° × 縦 19.7°",
       "st.figures": "FG-e01-p13-k3-01 CH-01 ガリヴァー (-39950, 40000, 105) 向き -90° lie",
       "st.crowds": "滑車を引く900人（900）",
-      "st.models": "F106 古い神殿（bim artifact_413ea56f-0068-4d74-a7ea-5df871881644@version_f99a6279-79b6-4919-af87-844b799c59f5 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_be0e3b3a-d1b0-4eff-878b-bd6834a770e5@version_94ed3bd5-4b6e-4513-ab3c-bd5ddcf97e72 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
+      "st.models": "F106 古い神殿（bim artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
       "st.underlay": "underlay/e01-p13-k3.jpg",
       "st.plan": "plans/e01-p13-k3.svg"
      }
@@ -1436,7 +1436,7 @@
       "st.fov": "横 46.7° × 縦 35°",
       "st.figures": "FG-e01-p14-k1-01 CH-01 ガリヴァー (100, -1300, 0) 向き 0° lie",
       "st.crowds": "神殿の前の群衆（本文：十万人以上のうち）（834）",
-      "st.models": "F106 古い神殿（bim artifact_413ea56f-0068-4d74-a7ea-5df871881644@version_f99a6279-79b6-4919-af87-844b799c59f5 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_be0e3b3a-d1b0-4eff-878b-bd6834a770e5@version_94ed3bd5-4b6e-4513-ab3c-bd5ddcf97e72 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
+      "st.models": "F106 古い神殿（bim artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
       "st.underlay": "underlay/e01-p14-k1.jpg",
       "st.plan": "plans/e01-p14-k1.svg"
      }
@@ -1463,7 +1463,7 @@
       "st.fov": "横 23.8° × 縦 35°",
       "st.figures": "FG-e01-p14-k2-01 CH-01 ガリヴァー (100, -1300, 0) 向き 0° lie / FG-e01-p14-k2-02 CH-30 王の鍛冶 (-140, -540, 100) 向き -90° crouch",
       "st.crowds": "",
-      "st.models": "F106 古い神殿（bim artifact_413ea56f-0068-4d74-a7ea-5df871881644@version_f99a6279-79b6-4919-af87-844b799c59f5 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_be0e3b3a-d1b0-4eff-878b-bd6834a770e5@version_94ed3bd5-4b6e-4513-ab3c-bd5ddcf97e72 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
+      "st.models": "F106 古い神殿（bim artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
       "st.underlay": "underlay/e01-p14-k2.jpg",
       "st.plan": "plans/e01-p14-k2.svg"
      }
@@ -1490,7 +1490,7 @@
       "st.fov": "横 23.8° × 縦 35°",
       "st.figures": "FG-e01-p14-k3-01 CH-01 ガリヴァー (100, -1300, 0) 向き 0° lie",
       "st.crowds": "",
-      "st.models": "F106 古い神殿（bim artifact_413ea56f-0068-4d74-a7ea-5df871881644@version_f99a6279-79b6-4919-af87-844b799c59f5 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_be0e3b3a-d1b0-4eff-878b-bd6834a770e5@version_94ed3bd5-4b6e-4513-ab3c-bd5ddcf97e72 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
+      "st.models": "F106 古い神殿（bim artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
       "st.underlay": "underlay/e01-p14-k3.jpg",
       "st.plan": "plans/e01-p14-k3.svg"
      }
@@ -1517,7 +1517,7 @@
       "st.fov": "横 34.1° × 縦 35°",
       "st.figures": "FG-e01-p15-k1-01 CH-01 ガリヴァー (-150, 1100, 0) 向き 0° stand",
       "st.crowds": "神殿の前の群衆（本文：十万人以上のうち）（834）",
-      "st.models": "F106 古い神殿（bim artifact_413ea56f-0068-4d74-a7ea-5df871881644@version_f99a6279-79b6-4919-af87-844b799c59f5 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_be0e3b3a-d1b0-4eff-878b-bd6834a770e5@version_94ed3bd5-4b6e-4513-ab3c-bd5ddcf97e72 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
+      "st.models": "F106 古い神殿（bim artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
       "st.underlay": "underlay/e01-p15-k1.jpg",
       "st.plan": "plans/e01-p15-k1.svg"
      }
@@ -1544,7 +1544,7 @@
       "st.fov": "横 62.7° × 縦 29.6°",
       "st.figures": "FG-e01-p15-k2-01 CH-01 ガリヴァー (-150, 1100, 0) 向き 0° stand",
       "st.crowds": "神殿の前の群衆（本文：十万人以上のうち）（834）",
-      "st.models": "F106 古い神殿（bim artifact_413ea56f-0068-4d74-a7ea-5df871881644@version_f99a6279-79b6-4919-af87-844b799c59f5 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_be0e3b3a-d1b0-4eff-878b-bd6834a770e5@version_94ed3bd5-4b6e-4513-ab3c-bd5ddcf97e72 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
+      "st.models": "F106 古い神殿（bim artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
       "st.underlay": "underlay/e01-p15-k2.jpg",
       "st.plan": "plans/e01-p15-k2.svg"
      }
@@ -1571,7 +1571,7 @@
       "st.fov": "横 46.3° × 縦 35°",
       "st.figures": "FG-e01-p16-k1-01 CH-01 ガリヴァー (-150, 1100, 0) 向き 0° stand / FG-e01-p16-k1-02 CH-02 皇帝 (0, 5800, 1524) 向き 180° stand / FG-e01-p16-k1-03 CH-30 貴人1 (-260, 5850, 1524) 向き 180° stand / FG-e01-p16-k1-04 CH-30 貴人2 (260, 5850, 1524) 向き 180° stand",
       "st.crowds": "神殿の前の群衆（本文：十万人以上のうち）（834）",
-      "st.models": "F106 古い神殿（bim artifact_413ea56f-0068-4d74-a7ea-5df871881644@version_f99a6279-79b6-4919-af87-844b799c59f5 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_be0e3b3a-d1b0-4eff-878b-bd6834a770e5@version_94ed3bd5-4b6e-4513-ab3c-bd5ddcf97e72 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
+      "st.models": "F106 古い神殿（bim artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
       "st.underlay": "underlay/e01-p16-k1.jpg",
       "st.plan": "plans/e01-p16-k1.svg"
      }
@@ -1598,7 +1598,7 @@
       "st.fov": "横 31.6° × 縦 35°",
       "st.figures": "FG-e01-p16-k2-01 CH-02 皇帝 (0, 5800, 1524) 向き 180° stand / FG-e01-p16-k2-02 CH-30 貴人1 (-260, 5850, 1524) 向き 180° stand",
       "st.crowds": "",
-      "st.models": "F106 古い神殿（bim artifact_413ea56f-0068-4d74-a7ea-5df871881644@version_f99a6279-79b6-4919-af87-844b799c59f5 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_be0e3b3a-d1b0-4eff-878b-bd6834a770e5@version_94ed3bd5-4b6e-4513-ab3c-bd5ddcf97e72 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
+      "st.models": "F106 古い神殿（bim artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
       "st.underlay": "underlay/e01-p16-k2.jpg",
       "st.plan": "plans/e01-p16-k2.svg"
      }
@@ -1625,7 +1625,7 @@
       "st.fov": "横 62.7° × 縦 28.9°",
       "st.figures": "FG-e01-p16-k3-01 CH-02 皇帝 (0, 5800, 1524) 向き 180° point",
       "st.crowds": "",
-      "st.models": "F106 古い神殿（bim artifact_413ea56f-0068-4d74-a7ea-5df871881644@version_f99a6279-79b6-4919-af87-844b799c59f5 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_be0e3b3a-d1b0-4eff-878b-bd6834a770e5@version_94ed3bd5-4b6e-4513-ab3c-bd5ddcf97e72 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
+      "st.models": "F106 古い神殿（bim artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
       "st.underlay": "underlay/e01-p16-k3.jpg",
       "st.plan": "plans/e01-p16-k3.svg"
      }
@@ -1652,7 +1652,7 @@
       "st.fov": "横 56.9° × 縦 35°",
       "st.figures": "FG-e01-p16-k4-01 CH-01 ガリヴァー (0, 700, 0) 向き 0° sit",
       "st.crowds": "神殿の前の群衆（本文：十万人以上のうち）（834）",
-      "st.models": "F106 古い神殿（bim artifact_413ea56f-0068-4d74-a7ea-5df871881644@version_f99a6279-79b6-4919-af87-844b799c59f5 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_be0e3b3a-d1b0-4eff-878b-bd6834a770e5@version_94ed3bd5-4b6e-4513-ab3c-bd5ddcf97e72 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
+      "st.models": "F106 古い神殿（bim artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
       "st.underlay": "underlay/e01-p16-k4.jpg",
       "st.plan": "plans/e01-p16-k4.svg"
      }
@@ -1827,7 +1827,7 @@
        "st.fov": "横 34.1° × 縦 35°",
        "st.figures": "FG-e01-p01-k1-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie-look / FG-e01-p01-k1-02 CH-30 最初の小人（弓と矢筒） (40, -300, 245) 向き 180° archer / FG-e01-p01-k1-03 CH-30 胸の小人2 (60, -260, 245) 向き 180° stand / FG-e01-p01-k1-04 CH-30 胸の小人3 (-90, -230, 245) 向き 180° archer / FG-e01-p01-k1-05 CH-30 胸の小人4 (20, -170, 245) 向き 180° stand / FG-e01-p01-k1-06 CH-30 胸の小人5 (-60, -100, 245) 向き 180° stand",
        "st.crowds": "体の上の小人（本文：40人ほど）（45）、周りの群衆（238）",
-       "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+       "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
        "st.underlay": "underlay/e01-p01-k1.jpg",
        "st.plan": "plans/e01-p01-k1.svg"
       }
@@ -1854,7 +1854,7 @@
        "st.fov": "横 62.7° × 縦 29.6°",
        "st.figures": "FG-e01-p01-k2-01 CH-10 メアリー (-300, -3300, 0) 向き 0° stand",
        "st.crowds": "",
-       "st.models": "舞台 stable（cad artifact_43e4287a-6629-495a-9eb6-2fe01947241f@version_df91cbe9-d5cf-489d-9071-3453d7ac33a2 bf24969d085d4b374edaf7baf0cb80123d4bac838f55f655bc98bcd4a7817c42）",
+       "st.models": "舞台 stable（cad artifact_6cdd509d-17e7-4aa9-ae3f-a0dd5fec7ee8@version_7d4d268a-57e4-4ca7-81ce-43f816b0289a bf24969d085d4b374edaf7baf0cb80123d4bac838f55f655bc98bcd4a7817c42）",
        "st.underlay": "underlay/e01-p01-k2.jpg",
        "st.plan": "plans/e01-p01-k2.svg"
       }
@@ -1881,7 +1881,7 @@
        "st.fov": "横 39.5° × 縦 35°",
        "st.figures": "FG-e01-p02-k1-01 CH-01 ガリヴァー (200, 300, 0) 向き 0° hands-together / FG-e01-p02-k1-02 horse 馬（灰） (-650, 2700, 0) 向き 180° stand / FG-e01-p02-k1-03 horse 馬（栗毛） (950, 2750, 0) 向き 180° stand / FG-e01-p02-k1-04 CH-10 メアリー (0, -2900, 0) 向き 0° hands-together",
        "st.crowds": "",
-       "st.models": "舞台 stable（cad artifact_43e4287a-6629-495a-9eb6-2fe01947241f@version_df91cbe9-d5cf-489d-9071-3453d7ac33a2 bf24969d085d4b374edaf7baf0cb80123d4bac838f55f655bc98bcd4a7817c42）",
+       "st.models": "舞台 stable（cad artifact_6cdd509d-17e7-4aa9-ae3f-a0dd5fec7ee8@version_7d4d268a-57e4-4ca7-81ce-43f816b0289a bf24969d085d4b374edaf7baf0cb80123d4bac838f55f655bc98bcd4a7817c42）",
        "st.underlay": "underlay/e01-p02-k1.jpg",
        "st.plan": "plans/e01-p02-k1.svg"
       }
@@ -1908,7 +1908,7 @@
        "st.fov": "横 19.3° × 縦 35°",
        "st.figures": "FG-e01-p02-k2-01 CH-01 ガリヴァー (200, 300, 0) 向き 20.1° hands-together / FG-e01-p02-k2-02 horse 馬（灰） (-650, 2700, 0) 向き 180° stand / FG-e01-p02-k2-03 horse 馬（栗毛） (950, 2750, 0) 向き 180° stand",
        "st.crowds": "",
-       "st.models": "舞台 stable（cad artifact_43e4287a-6629-495a-9eb6-2fe01947241f@version_df91cbe9-d5cf-489d-9071-3453d7ac33a2 bf24969d085d4b374edaf7baf0cb80123d4bac838f55f655bc98bcd4a7817c42）",
+       "st.models": "舞台 stable（cad artifact_6cdd509d-17e7-4aa9-ae3f-a0dd5fec7ee8@version_7d4d268a-57e4-4ca7-81ce-43f816b0289a bf24969d085d4b374edaf7baf0cb80123d4bac838f55f655bc98bcd4a7817c42）",
        "st.underlay": "underlay/e01-p02-k2.jpg",
        "st.plan": "plans/e01-p02-k2.svg"
       }
@@ -1935,7 +1935,7 @@
        "st.fov": "横 40.1° × 縦 35°",
        "st.figures": "FG-e01-p02-k3-01 CH-01 ガリヴァー (200, 300, 0) 向き 0° hands-together / FG-e01-p02-k3-02 horse 馬（灰） (-650, 2700, 0) 向き 180° stand / FG-e01-p02-k3-03 horse 馬（栗毛） (950, 2750, 0) 向き 180° stand / FG-e01-p02-k3-04 CH-10 メアリー (0, -2900, 0) 向き 0° hands-together",
        "st.crowds": "",
-       "st.models": "舞台 stable（cad artifact_43e4287a-6629-495a-9eb6-2fe01947241f@version_df91cbe9-d5cf-489d-9071-3453d7ac33a2 bf24969d085d4b374edaf7baf0cb80123d4bac838f55f655bc98bcd4a7817c42）",
+       "st.models": "舞台 stable（cad artifact_6cdd509d-17e7-4aa9-ae3f-a0dd5fec7ee8@version_7d4d268a-57e4-4ca7-81ce-43f816b0289a bf24969d085d4b374edaf7baf0cb80123d4bac838f55f655bc98bcd4a7817c42）",
        "st.underlay": "underlay/e01-p02-k3.jpg",
        "st.plan": "plans/e01-p02-k3.svg"
       }
@@ -1962,7 +1962,7 @@
        "st.fov": "横 40.1° × 縦 35°",
        "st.figures": "FG-e01-p02-k4-01 CH-01 ガリヴァー (200, 300, 0) 向き 0° hands-together / FG-e01-p02-k4-02 horse 馬（灰） (-650, 2700, 0) 向き 180° stand / FG-e01-p02-k4-03 horse 馬（栗毛） (950, 2750, 0) 向き 180° stand",
        "st.crowds": "",
-       "st.models": "舞台 stable（cad artifact_43e4287a-6629-495a-9eb6-2fe01947241f@version_df91cbe9-d5cf-489d-9071-3453d7ac33a2 bf24969d085d4b374edaf7baf0cb80123d4bac838f55f655bc98bcd4a7817c42）",
+       "st.models": "舞台 stable（cad artifact_6cdd509d-17e7-4aa9-ae3f-a0dd5fec7ee8@version_7d4d268a-57e4-4ca7-81ce-43f816b0289a bf24969d085d4b374edaf7baf0cb80123d4bac838f55f655bc98bcd4a7817c42）",
        "st.underlay": "underlay/e01-p02-k4.jpg",
        "st.plan": "plans/e01-p02-k4.svg"
       }
@@ -1989,7 +1989,7 @@
        "st.fov": "横 31.6° × 縦 35°",
        "st.figures": "FG-e01-p02-k5-01 CH-10 メアリー (400, -3600, 0) 向き 180° turn-away",
        "st.crowds": "",
-       "st.models": "舞台 stable（cad artifact_43e4287a-6629-495a-9eb6-2fe01947241f@version_df91cbe9-d5cf-489d-9071-3453d7ac33a2 bf24969d085d4b374edaf7baf0cb80123d4bac838f55f655bc98bcd4a7817c42）",
+       "st.models": "舞台 stable（cad artifact_6cdd509d-17e7-4aa9-ae3f-a0dd5fec7ee8@version_7d4d268a-57e4-4ca7-81ce-43f816b0289a bf24969d085d4b374edaf7baf0cb80123d4bac838f55f655bc98bcd4a7817c42）",
        "st.underlay": "underlay/e01-p02-k5.jpg",
        "st.plan": "plans/e01-p02-k5.svg"
       }
@@ -2016,7 +2016,7 @@
        "st.fov": "横 46.3° × 縦 35°",
        "st.figures": "FG-e01-p02-k6-01 CH-01 ガリヴァー (200, 300, 0) 向き 0° hands-together / FG-e01-p02-k6-02 horse 馬（灰） (-650, 2700, 0) 向き 180° stand / FG-e01-p02-k6-03 horse 馬（栗毛） (950, 2750, 0) 向き 180° stand",
        "st.crowds": "",
-       "st.models": "舞台 stable（cad artifact_43e4287a-6629-495a-9eb6-2fe01947241f@version_df91cbe9-d5cf-489d-9071-3453d7ac33a2 bf24969d085d4b374edaf7baf0cb80123d4bac838f55f655bc98bcd4a7817c42）",
+       "st.models": "舞台 stable（cad artifact_6cdd509d-17e7-4aa9-ae3f-a0dd5fec7ee8@version_7d4d268a-57e4-4ca7-81ce-43f816b0289a bf24969d085d4b374edaf7baf0cb80123d4bac838f55f655bc98bcd4a7817c42）",
        "st.underlay": "underlay/e01-p02-k6.jpg",
        "st.plan": "plans/e01-p02-k6.svg"
       }
@@ -2043,7 +2043,7 @@
        "st.fov": "横 46.7° × 縦 35°",
        "st.figures": "FG-e01-p03-k1-01 CH-01 ガリヴァー (-1500, -1500, 0) 向き 0° carry-bag / FG-e01-p03-k1-02 CH-10 メアリー (-600, -1700, 0) 向き 0° hands-together / FG-e01-p03-k1-03 EX 船員1 (-3000, 6000, 0) 向き 180° carry-up / FG-e01-p03-k1-04 EX 船員2 (3000, 8500, 0) 向き 0° walk / FG-e01-p03-k1-05 EX 船員3 (9500, 7000, 1500) 向き 90° point",
        "st.crowds": "岸壁の見送りの人々（84）",
-       "st.models": "舞台 port（cad artifact_3970a892-60d3-404e-819a-d55f8f7486c2@version_3284fd80-511e-4108-9361-a18285c3973f 01b195d3a69eaec7bc220fb39b977cddfb123a74bea83a405b9f1d29eb9012db） / 舞台 port ship（cad artifact_6d6f8262-69fd-41dd-9b4c-eca39a201051@version_4e4da562-86ed-4a26-b90c-48e8bba996be 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3）",
+       "st.models": "舞台 port（cad artifact_2f4eea78-7c55-43a4-81a0-80123a2491ad@version_9b417d35-92e8-4308-a991-3189e90720ce 01b195d3a69eaec7bc220fb39b977cddfb123a74bea83a405b9f1d29eb9012db） / 舞台 port ship（cad artifact_d01fca4b-e451-4160-8529-68f7e9449101@version_5d52e0f9-b174-42a0-93ce-f093ade7223a 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3）",
        "st.underlay": "underlay/e01-p03-k1.jpg",
        "st.plan": "plans/e01-p03-k1.svg"
       }
@@ -2070,7 +2070,7 @@
        "st.fov": "横 15.8° × 縦 35°",
        "st.figures": "FG-e01-p03-k2-01 CH-01 ガリヴァー (0, -1500, 0) 向き -90° carry-bag / FG-e01-p03-k2-02 CH-10 メアリー (950, -1400, 0) 向き 90° hands-together",
        "st.crowds": "",
-       "st.models": "舞台 port（cad artifact_3970a892-60d3-404e-819a-d55f8f7486c2@version_3284fd80-511e-4108-9361-a18285c3973f 01b195d3a69eaec7bc220fb39b977cddfb123a74bea83a405b9f1d29eb9012db） / 舞台 port ship（cad artifact_6d6f8262-69fd-41dd-9b4c-eca39a201051@version_4e4da562-86ed-4a26-b90c-48e8bba996be 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3）",
+       "st.models": "舞台 port（cad artifact_2f4eea78-7c55-43a4-81a0-80123a2491ad@version_9b417d35-92e8-4308-a991-3189e90720ce 01b195d3a69eaec7bc220fb39b977cddfb123a74bea83a405b9f1d29eb9012db） / 舞台 port ship（cad artifact_d01fca4b-e451-4160-8529-68f7e9449101@version_5d52e0f9-b174-42a0-93ce-f093ade7223a 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3）",
        "st.underlay": "underlay/e01-p03-k2.jpg",
        "st.plan": "plans/e01-p03-k2.svg"
       }
@@ -2097,7 +2097,7 @@
        "st.fov": "横 15.3° × 縦 35°",
        "st.figures": "FG-e01-p03-k3-01 CH-01 ガリヴァー (0, -1500, 0) 向き -90° carry-bag / FG-e01-p03-k3-02 CH-10 メアリー (950, -1400, 0) 向き 90° hands-together",
        "st.crowds": "",
-       "st.models": "舞台 port（cad artifact_3970a892-60d3-404e-819a-d55f8f7486c2@version_3284fd80-511e-4108-9361-a18285c3973f 01b195d3a69eaec7bc220fb39b977cddfb123a74bea83a405b9f1d29eb9012db） / 舞台 port ship（cad artifact_6d6f8262-69fd-41dd-9b4c-eca39a201051@version_4e4da562-86ed-4a26-b90c-48e8bba996be 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3）",
+       "st.models": "舞台 port（cad artifact_2f4eea78-7c55-43a4-81a0-80123a2491ad@version_9b417d35-92e8-4308-a991-3189e90720ce 01b195d3a69eaec7bc220fb39b977cddfb123a74bea83a405b9f1d29eb9012db） / 舞台 port ship（cad artifact_d01fca4b-e451-4160-8529-68f7e9449101@version_5d52e0f9-b174-42a0-93ce-f093ade7223a 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3）",
        "st.underlay": "underlay/e01-p03-k3.jpg",
        "st.plan": "plans/e01-p03-k3.svg"
       }
@@ -2124,7 +2124,7 @@
        "st.fov": "横 15.8° × 縦 35°",
        "st.figures": "FG-e01-p03-k4-01 CH-01 ガリヴァー (0, -1500, 0) 向き -90° carry-bag / FG-e01-p03-k4-02 CH-10 メアリー (950, -1400, 0) 向き 90° hands-together",
        "st.crowds": "",
-       "st.models": "舞台 port（cad artifact_3970a892-60d3-404e-819a-d55f8f7486c2@version_3284fd80-511e-4108-9361-a18285c3973f 01b195d3a69eaec7bc220fb39b977cddfb123a74bea83a405b9f1d29eb9012db） / 舞台 port ship（cad artifact_6d6f8262-69fd-41dd-9b4c-eca39a201051@version_4e4da562-86ed-4a26-b90c-48e8bba996be 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3）",
+       "st.models": "舞台 port（cad artifact_2f4eea78-7c55-43a4-81a0-80123a2491ad@version_9b417d35-92e8-4308-a991-3189e90720ce 01b195d3a69eaec7bc220fb39b977cddfb123a74bea83a405b9f1d29eb9012db） / 舞台 port ship（cad artifact_d01fca4b-e451-4160-8529-68f7e9449101@version_5d52e0f9-b174-42a0-93ce-f093ade7223a 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3）",
        "st.underlay": "underlay/e01-p03-k4.jpg",
        "st.plan": "plans/e01-p03-k4.svg"
       }
@@ -2151,7 +2151,7 @@
        "st.fov": "横 23.8° × 縦 35°",
        "st.figures": "FG-e01-p04-k1-01 CH-10 メアリー (950, -1400, 0) 向き 90° hands-together",
        "st.crowds": "",
-       "st.models": "舞台 port（cad artifact_3970a892-60d3-404e-819a-d55f8f7486c2@version_3284fd80-511e-4108-9361-a18285c3973f 01b195d3a69eaec7bc220fb39b977cddfb123a74bea83a405b9f1d29eb9012db） / 舞台 port ship（cad artifact_6d6f8262-69fd-41dd-9b4c-eca39a201051@version_4e4da562-86ed-4a26-b90c-48e8bba996be 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3）",
+       "st.models": "舞台 port（cad artifact_2f4eea78-7c55-43a4-81a0-80123a2491ad@version_9b417d35-92e8-4308-a991-3189e90720ce 01b195d3a69eaec7bc220fb39b977cddfb123a74bea83a405b9f1d29eb9012db） / 舞台 port ship（cad artifact_d01fca4b-e451-4160-8529-68f7e9449101@version_5d52e0f9-b174-42a0-93ce-f093ade7223a 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3）",
        "st.underlay": "underlay/e01-p04-k1.jpg",
        "st.plan": "plans/e01-p04-k1.svg"
       }
@@ -2178,7 +2178,7 @@
        "st.fov": "横 35.4° × 縦 35°",
        "st.figures": "FG-e01-p04-k2-01 CH-01 ガリヴァー (300, -300, 0) 向き 0° wave-hat / FG-e01-p04-k2-02 CH-10 メアリー (1500, -2600, 0) 向き -17.2° hands-together",
        "st.crowds": "岸壁の見送りの人々（84）",
-       "st.models": "舞台 port（cad artifact_3970a892-60d3-404e-819a-d55f8f7486c2@version_3284fd80-511e-4108-9361-a18285c3973f 01b195d3a69eaec7bc220fb39b977cddfb123a74bea83a405b9f1d29eb9012db） / 舞台 port ship（cad artifact_6d6f8262-69fd-41dd-9b4c-eca39a201051@version_4e4da562-86ed-4a26-b90c-48e8bba996be 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3）",
+       "st.models": "舞台 port（cad artifact_2f4eea78-7c55-43a4-81a0-80123a2491ad@version_9b417d35-92e8-4308-a991-3189e90720ce 01b195d3a69eaec7bc220fb39b977cddfb123a74bea83a405b9f1d29eb9012db） / 舞台 port ship（cad artifact_d01fca4b-e451-4160-8529-68f7e9449101@version_5d52e0f9-b174-42a0-93ce-f093ade7223a 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3）",
        "st.underlay": "underlay/e01-p04-k2.jpg",
        "st.plan": "plans/e01-p04-k2.svg"
       }
@@ -2205,7 +2205,7 @@
        "st.fov": "横 39.5° × 縦 35°",
        "st.figures": "FG-e01-p04-k3-01 CH-01 ガリヴァー (-1087, 87204, 0) 向き 248.8° wave-hat / FG-e01-p04-k3-02 EX 船員1 (1656, 91502, 0) 向き 68.8° carry-up",
        "st.crowds": "",
-       "st.models": "舞台 port（cad artifact_3970a892-60d3-404e-819a-d55f8f7486c2@version_3284fd80-511e-4108-9361-a18285c3973f 01b195d3a69eaec7bc220fb39b977cddfb123a74bea83a405b9f1d29eb9012db） / 舞台 port ship（cad artifact_6d6f8262-69fd-41dd-9b4c-eca39a201051@version_4e4da562-86ed-4a26-b90c-48e8bba996be 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3）",
+       "st.models": "舞台 port（cad artifact_2f4eea78-7c55-43a4-81a0-80123a2491ad@version_9b417d35-92e8-4308-a991-3189e90720ce 01b195d3a69eaec7bc220fb39b977cddfb123a74bea83a405b9f1d29eb9012db） / 舞台 port ship（cad artifact_d01fca4b-e451-4160-8529-68f7e9449101@version_5d52e0f9-b174-42a0-93ce-f093ade7223a 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3）",
        "st.underlay": "underlay/e01-p04-k3.jpg",
        "st.plan": "plans/e01-p04-k3.svg"
       }
@@ -2232,7 +2232,7 @@
        "st.fov": "横 44.5° × 縦 35°",
        "st.figures": "FG-e01-p05-k1-01 CH-01 ガリヴァー (-6000, -40500, 1500) 向き 17.2° crouch / FG-e01-p05-k1-02 EX 船員1 (-3000, -41000, 1500) 向き 126.1° fall / FG-e01-p05-k1-03 EX 船員2 (2000, -39000, 1500) 向き -68.8° carry-up / FG-e01-p05-k1-04 EX 船員3 (10000, -40000, 3000) 向き -91.7° fall / FG-e01-p05-k1-05 EX 船員4 (-10000, -39500, 4000) 向き -90° point",
        "st.crowds": "",
-       "st.models": "舞台 sea（cad artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
+       "st.models": "舞台 sea（cad artifact_0a1fbb69-79ea-404c-8ce7-95684b0354ca@version_3cb20f3f-ca51-4c0e-8c63-cc2c7fb6b46a 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_594d2b77-eccf-4f8e-a804-7891ef1ba327@version_1e8214f2-b5fc-45be-ac06-8358bd8ae0a8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_758e4541-0110-4537-97d3-571badbf8f1d@version_a07ef471-0298-41b1-bd90-b9edadd619f3 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
        "st.underlay": "underlay/e01-p05-k1.jpg",
        "st.plan": "plans/e01-p05-k1.svg"
       }
@@ -2259,7 +2259,7 @@
        "st.fov": "横 23.9° × 縦 35°",
        "st.figures": "FG-e01-p05-k2-01 CH-01 ガリヴァー (5000, -39000, 1500) 向き -80.2° crouch / FG-e01-p05-k2-02 EX 船員3 (10500, -40500, 3000) 向き 143.2° fall / FG-e01-p05-k2-03 EX 船員4 (9000, -38800, 3000) 向き -114.6° crouch / FG-e01-p05-k2-04 EX 船員5 (7000, -41500, 1500) 向き -57.3° carry-up",
        "st.crowds": "",
-       "st.models": "舞台 sea（cad artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
+       "st.models": "舞台 sea（cad artifact_0a1fbb69-79ea-404c-8ce7-95684b0354ca@version_3cb20f3f-ca51-4c0e-8c63-cc2c7fb6b46a 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_594d2b77-eccf-4f8e-a804-7891ef1ba327@version_1e8214f2-b5fc-45be-ac06-8358bd8ae0a8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_758e4541-0110-4537-97d3-571badbf8f1d@version_a07ef471-0298-41b1-bd90-b9edadd619f3 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
        "st.underlay": "underlay/e01-p05-k2.jpg",
        "st.plan": "plans/e01-p05-k2.svg"
       }
@@ -2286,7 +2286,7 @@
        "st.fov": "横 22.6° × 縦 35°",
        "st.figures": "FG-e01-p05-k3-01 CH-01 ガリヴァー (-800, -21800, -1560) 向き 22.9° tread / FG-e01-p05-k3-02 EX 船員1 (1000, -21500, 600) 向き 114.6° fall / FG-e01-p05-k3-03 EX 船員2 (1800, -19000, -1560) 向き -28.6° tread / FG-e01-p05-k3-04 EX 船員3 (-1500, -19200, 500) 向き -126.1° fall / FG-e01-p05-k3-05 EX 船員4 (2600, -21000, 0) 向き 45.8° swim / FG-e01-p05-k3-06 EX 船員5 (-2600, -20500, -1560) 向き 68.8° tread",
        "st.crowds": "",
-       "st.models": "舞台 sea（cad artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
+       "st.models": "舞台 sea（cad artifact_0a1fbb69-79ea-404c-8ce7-95684b0354ca@version_3cb20f3f-ca51-4c0e-8c63-cc2c7fb6b46a 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_594d2b77-eccf-4f8e-a804-7891ef1ba327@version_1e8214f2-b5fc-45be-ac06-8358bd8ae0a8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_758e4541-0110-4537-97d3-571badbf8f1d@version_a07ef471-0298-41b1-bd90-b9edadd619f3 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
        "st.underlay": "underlay/e01-p05-k3.jpg",
        "st.plan": "plans/e01-p05-k3.svg"
       }
@@ -2313,7 +2313,7 @@
        "st.fov": "横 46.7° × 縦 35°",
        "st.figures": "FG-e01-p06-k1-01 CH-01 ガリヴァー (0, 0, -1560) 向き 17.2° tread",
        "st.crowds": "",
-       "st.models": "舞台 sea（cad artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
+       "st.models": "舞台 sea（cad artifact_0a1fbb69-79ea-404c-8ce7-95684b0354ca@version_3cb20f3f-ca51-4c0e-8c63-cc2c7fb6b46a 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_594d2b77-eccf-4f8e-a804-7891ef1ba327@version_1e8214f2-b5fc-45be-ac06-8358bd8ae0a8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_758e4541-0110-4537-97d3-571badbf8f1d@version_a07ef471-0298-41b1-bd90-b9edadd619f3 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
        "st.underlay": "underlay/e01-p06-k1.jpg",
        "st.plan": "plans/e01-p06-k1.svg"
       }
@@ -2340,7 +2340,7 @@
        "st.fov": "横 23.8° × 縦 35°",
        "st.figures": "FG-e01-p06-k2-01 CH-01 ガリヴァー (0, 300, -1000) 向き 11.5° swim",
        "st.crowds": "",
-       "st.models": "舞台 sea（cad artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
+       "st.models": "舞台 sea（cad artifact_0a1fbb69-79ea-404c-8ce7-95684b0354ca@version_3cb20f3f-ca51-4c0e-8c63-cc2c7fb6b46a 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_594d2b77-eccf-4f8e-a804-7891ef1ba327@version_1e8214f2-b5fc-45be-ac06-8358bd8ae0a8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_758e4541-0110-4537-97d3-571badbf8f1d@version_a07ef471-0298-41b1-bd90-b9edadd619f3 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
        "st.underlay": "underlay/e01-p06-k2.jpg",
        "st.plan": "plans/e01-p06-k2.svg"
       }
@@ -2367,7 +2367,7 @@
        "st.fov": "横 23.8° × 縦 35°",
        "st.figures": "FG-e01-p06-k3-01 CH-01 ガリヴァー (0, 8800, -410) 向き 0° walk",
        "st.crowds": "",
-       "st.models": "舞台 sea（cad artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
+       "st.models": "舞台 sea（cad artifact_0a1fbb69-79ea-404c-8ce7-95684b0354ca@version_3cb20f3f-ca51-4c0e-8c63-cc2c7fb6b46a 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_594d2b77-eccf-4f8e-a804-7891ef1ba327@version_1e8214f2-b5fc-45be-ac06-8358bd8ae0a8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_758e4541-0110-4537-97d3-571badbf8f1d@version_a07ef471-0298-41b1-bd90-b9edadd619f3 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
        "st.underlay": "underlay/e01-p06-k3.jpg",
        "st.plan": "plans/e01-p06-k3.svg"
       }
@@ -2394,7 +2394,7 @@
        "st.fov": "横 56.9° × 縦 35°",
        "st.figures": "FG-e01-p07-k1-01 CH-01 ガリヴァー (0, 30500, 12) 向き 8.6° lie",
        "st.crowds": "",
-       "st.models": "舞台 sea（cad artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
+       "st.models": "舞台 sea（cad artifact_0a1fbb69-79ea-404c-8ce7-95684b0354ca@version_3cb20f3f-ca51-4c0e-8c63-cc2c7fb6b46a 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_594d2b77-eccf-4f8e-a804-7891ef1ba327@version_1e8214f2-b5fc-45be-ac06-8358bd8ae0a8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_758e4541-0110-4537-97d3-571badbf8f1d@version_a07ef471-0298-41b1-bd90-b9edadd619f3 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
        "st.underlay": "underlay/e01-p07-k1.jpg",
        "st.plan": "plans/e01-p07-k1.svg"
       }
@@ -2421,7 +2421,7 @@
        "st.fov": "横 39.5° × 縦 35°",
        "st.figures": "FG-e01-p07-k2-01 CH-01 ガリヴァー (0, 30500, 12) 向き 0° lie",
        "st.crowds": "",
-       "st.models": "舞台 sea（cad artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
+       "st.models": "舞台 sea（cad artifact_0a1fbb69-79ea-404c-8ce7-95684b0354ca@version_3cb20f3f-ca51-4c0e-8c63-cc2c7fb6b46a 7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e） / 舞台 sea ship（cad artifact_594d2b77-eccf-4f8e-a804-7891ef1ba327@version_1e8214f2-b5fc-45be-ac06-8358bd8ae0a8 569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3） / 舞台 sea boat（cad artifact_758e4541-0110-4537-97d3-571badbf8f1d@version_a07ef471-0298-41b1-bd90-b9edadd619f3 2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52）",
        "st.underlay": "underlay/e01-p07-k2.jpg",
        "st.plan": "plans/e01-p07-k2.svg"
       }
@@ -2448,7 +2448,7 @@
        "st.fov": "横 56.9° × 縦 35°",
        "st.figures": "FG-e01-p08-k1-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie",
        "st.crowds": "",
-       "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+       "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
        "st.underlay": "underlay/e01-p08-k1.jpg",
        "st.plan": "plans/e01-p08-k1.svg"
       }
@@ -2475,7 +2475,7 @@
        "st.fov": "横 40.1° × 縦 35°",
        "st.figures": "FG-e01-p08-k2-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie",
        "st.crowds": "",
-       "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+       "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
        "st.underlay": "underlay/e01-p08-k2.jpg",
        "st.plan": "plans/e01-p08-k2.svg"
       }
@@ -2502,7 +2502,7 @@
        "st.fov": "横 40.1° × 縦 35°",
        "st.figures": "FG-e01-p08-k3-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie",
        "st.crowds": "",
-       "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+       "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
        "st.underlay": "underlay/e01-p08-k3.jpg",
        "st.plan": "plans/e01-p08-k3.svg"
       }
@@ -2529,7 +2529,7 @@
        "st.fov": "横 62.7° × 縦 29.6°",
        "st.figures": "FG-e01-p08-k4-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie / FG-e01-p08-k4-02 CH-30 最初の小人（弓と矢筒） (-96, 430, 190) 向き 180° walk",
        "st.crowds": "",
-       "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+       "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
        "st.underlay": "underlay/e01-p08-k4.jpg",
        "st.plan": "plans/e01-p08-k4.svg"
       }
@@ -2556,7 +2556,7 @@
        "st.fov": "横 62.7° × 縦 24.7°",
        "st.figures": "FG-e01-p09-k1-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie-look / FG-e01-p09-k1-02 CH-30 最初の小人（弓と矢筒） (-20, -360, 245) 向き 180° stand",
        "st.crowds": "",
-       "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+       "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
        "st.underlay": "underlay/e01-p09-k1.jpg",
        "st.plan": "plans/e01-p09-k1.svg"
       }
@@ -2583,7 +2583,7 @@
        "st.fov": "横 43.3° × 縦 35°",
        "st.figures": "FG-e01-p09-k2-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie-look / FG-e01-p09-k2-02 CH-30 最初の小人（弓と矢筒） (45, -330, 245) 向き 180° archer / FG-e01-p09-k2-03 CH-30 胸の小人2 (60, -260, 245) 向き 180° stand / FG-e01-p09-k2-04 CH-30 胸の小人3 (-90, -230, 245) 向き 180° archer / FG-e01-p09-k2-05 CH-30 胸の小人4 (20, -170, 245) 向き 180° stand / FG-e01-p09-k2-06 CH-30 胸の小人5 (-60, -100, 245) 向き 180° stand",
        "st.crowds": "体の上の小人（本文：40人ほど）（45）",
-       "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+       "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
        "st.underlay": "underlay/e01-p09-k2.jpg",
        "st.plan": "plans/e01-p09-k2.svg"
       }
@@ -2610,7 +2610,7 @@
        "st.fov": "横 62.7° × 縦 19.7°",
        "st.figures": "FG-e01-p09-k3-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie-look / FG-e01-p09-k3-02 CH-30 最初の小人（弓と矢筒） (-20, -360, 245) 向き 180° archer",
        "st.crowds": "体の上の小人（本文：40人ほど）（45）",
-       "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+       "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
        "st.underlay": "underlay/e01-p09-k3.jpg",
        "st.plan": "plans/e01-p09-k3.svg"
       }
@@ -2637,7 +2637,7 @@
        "st.fov": "横 62.7° × 縦 31.9°",
        "st.figures": "FG-e01-p10-k1-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie / FG-e01-p10-k1-02 CH-30 最初の小人（弓と矢筒） (170, -380, 160) 向き 180° fall / FG-e01-p10-k1-03 CH-30 胸の小人2 (210, -250, 90) 向き 143.2° fall / FG-e01-p10-k1-04 CH-30 胸の小人3 (240, -150, 20) 向き 68.8° fall / FG-e01-p10-k1-05 CH-30 胸の小人4 (40, -300, 245) 向き 180° dance",
        "st.crowds": "周りの群衆（238）",
-       "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+       "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
        "st.underlay": "underlay/e01-p10-k1.jpg",
        "st.plan": "plans/e01-p10-k1.svg"
       }
@@ -2664,7 +2664,7 @@
        "st.fov": "横 40.1° × 縦 35°",
        "st.figures": "FG-e01-p10-k2-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie-arm-free",
        "st.crowds": "周りの群衆（238）",
-       "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+       "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
        "st.underlay": "underlay/e01-p10-k2.jpg",
        "st.plan": "plans/e01-p10-k2.svg"
       }
@@ -2691,7 +2691,7 @@
        "st.fov": "横 37.2° × 縦 35°",
        "st.figures": "FG-e01-p10-k3-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie-arm-free / FG-e01-p10-k3-02 CH-30 隊長 (-620, 150, 0) 向き -90° sword-up / FG-e01-p10-k3-03 CH-30 弓兵1 (-780, 40, 0) 向き -90° archer / FG-e01-p10-k3-04 CH-30 弓兵2 (-790, 160, 0) 向き -90° archer / FG-e01-p10-k3-05 CH-30 弓兵3 (-780, 280, 0) 向き -90° archer",
        "st.crowds": "弓隊（30）",
-       "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+       "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
        "st.underlay": "underlay/e01-p10-k3.jpg",
        "st.plan": "plans/e01-p10-k3.svg"
       }
@@ -2718,7 +2718,7 @@
        "st.fov": "横 56.9° × 縦 35°",
        "st.figures": "FG-e01-p10-k4-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie-arm-free / FG-e01-p10-k4-02 CH-30 弓兵1 (-780, 40, 0) 向き -90° archer / FG-e01-p10-k4-03 CH-30 弓兵2 (-790, 160, 0) 向き -90° archer / FG-e01-p10-k4-04 CH-30 弓兵3 (-780, 280, 0) 向き -90° archer / FG-e01-p10-k4-05 CH-30 弓兵4 (-800, -80, 0) 向き -90° archer",
        "st.crowds": "弓隊（30）",
-       "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+       "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
        "st.underlay": "underlay/e01-p10-k4.jpg",
        "st.plan": "plans/e01-p10-k4.svg"
       }
@@ -2745,7 +2745,7 @@
        "st.fov": "横 39.1° × 縦 35°",
        "st.figures": "FG-e01-p11-k1-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie",
        "st.crowds": "",
-       "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+       "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
        "st.underlay": "underlay/e01-p11-k1.jpg",
        "st.plan": "plans/e01-p11-k1.svg"
       }
@@ -2772,7 +2772,7 @@
        "st.fov": "横 39.1° × 縦 35°",
        "st.figures": "FG-e01-p11-k2-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie",
        "st.crowds": "周りの群衆（238）",
-       "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+       "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
        "st.underlay": "underlay/e01-p11-k2.jpg",
        "st.plan": "plans/e01-p11-k2.svg"
       }
@@ -2799,7 +2799,7 @@
        "st.fov": "横 57.8° × 縦 35°",
        "st.figures": "FG-e01-p11-k3-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie / FG-e01-p11-k3-02 CH-30 演説する貴人 (430, -700, 457) 向き 90° orate / FG-e01-p11-k3-03 CH-30 胸の小人2 (380, -780, 457) 向き 90° stand",
        "st.crowds": "周りの群衆（238）",
-       "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+       "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
        "st.underlay": "underlay/e01-p11-k3.jpg",
        "st.plan": "plans/e01-p11-k3.svg"
       }
@@ -2826,7 +2826,7 @@
        "st.fov": "横 31.6° × 縦 35°",
        "st.figures": "FG-e01-p11-k4-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie-eat",
        "st.crowds": "",
-       "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+       "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
        "st.underlay": "underlay/e01-p11-k4.jpg",
        "st.plan": "plans/e01-p11-k4.svg"
       }
@@ -2853,7 +2853,7 @@
        "st.fov": "横 46.3° × 縦 35°",
        "st.figures": "FG-e01-p11-k5-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie / FG-e01-p11-k5-02 CH-30 胸の小人2 (260, -400, 150) 向き 90° carry-up / FG-e01-p11-k5-03 CH-30 胸の小人3 (120, -420, 245) 向き 90° carry-up / FG-e01-p11-k5-04 CH-30 胸の小人4 (40, -440, 245) 向き 180° carry-up",
        "st.crowds": "周りの群衆（238）",
-       "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+       "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
        "st.underlay": "underlay/e01-p11-k5.jpg",
        "st.plan": "plans/e01-p11-k5.svg"
       }
@@ -2880,7 +2880,7 @@
        "st.fov": "横 39.1° × 縦 35°",
        "st.figures": "FG-e01-p12-k1-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie-eat",
        "st.crowds": "",
-       "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+       "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
        "st.underlay": "underlay/e01-p12-k1.jpg",
        "st.plan": "plans/e01-p12-k1.svg"
       }
@@ -2907,7 +2907,7 @@
        "st.fov": "横 39.1° × 縦 35°",
        "st.figures": "FG-e01-p12-k2-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie-drink / FG-e01-p12-k2-02 CH-30 胸の小人2 (60, -330, 245) 向き 180° stand / FG-e01-p12-k2-03 CH-30 胸の小人3 (-70, -310, 245) 向き 180° stand",
        "st.crowds": "",
-       "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+       "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
        "st.underlay": "underlay/e01-p12-k2.jpg",
        "st.plan": "plans/e01-p12-k2.svg"
       }
@@ -2934,7 +2934,7 @@
        "st.fov": "横 62.7° × 縦 25°",
        "st.figures": "FG-e01-p12-k3-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie / FG-e01-p12-k3-02 CH-30 最初の小人（弓と矢筒） (-40, -330, 245) 向き 180° dance / FG-e01-p12-k3-03 CH-30 胸の小人2 (50, -300, 245) 向き 180° dance / FG-e01-p12-k3-04 CH-30 胸の小人3 (-20, -230, 245) 向き 180° dance / FG-e01-p12-k3-05 CH-30 胸の小人4 (60, -190, 245) 向き 180° dance / FG-e01-p12-k3-06 CH-30 胸の小人5 (-70, -160, 245) 向き 180° dance",
        "st.crowds": "体の上の小人（本文：40人ほど）（45）",
-       "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+       "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
        "st.underlay": "underlay/e01-p12-k3.jpg",
        "st.plan": "plans/e01-p12-k3.svg"
       }
@@ -2961,7 +2961,7 @@
        "st.fov": "横 62.7° × 縦 25°",
        "st.figures": "FG-e01-p12-k4-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie-hand-hover / FG-e01-p12-k4-02 CH-30 最初の小人（弓と矢筒） (-40, -330, 245) 向き 180° dance / FG-e01-p12-k4-03 CH-30 胸の小人2 (50, -300, 245) 向き 180° dance / FG-e01-p12-k4-04 CH-30 胸の小人3 (-20, -230, 245) 向き 180° dance",
        "st.crowds": "体の上の小人（本文：40人ほど）（45）",
-       "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+       "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
        "st.underlay": "underlay/e01-p12-k4.jpg",
        "st.plan": "plans/e01-p12-k4.svg"
       }
@@ -2988,7 +2988,7 @@
        "st.fov": "横 62.7° × 縦 17.7°",
        "st.figures": "FG-e01-p12-k5-01 CH-01 ガリヴァー (0, 0, 0) 向き 0° lie",
        "st.crowds": "",
-       "st.models": "舞台 beach（cad artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
+       "st.models": "舞台 beach（cad artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d 7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51）",
        "st.underlay": "underlay/e01-p12-k5.jpg",
        "st.plan": "plans/e01-p12-k5.svg"
       }
@@ -3015,7 +3015,7 @@
        "st.fov": "横 62.7° × 縦 29.6°",
        "st.figures": "FG-e01-p13-k1-01 CH-01 ガリヴァー (-39950, 40000, 105) 向き -90° lie",
        "st.crowds": "滑車を引く900人（900）",
-       "st.models": "F106 古い神殿（bim artifact_413ea56f-0068-4d74-a7ea-5df871881644@version_f99a6279-79b6-4919-af87-844b799c59f5 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_be0e3b3a-d1b0-4eff-878b-bd6834a770e5@version_94ed3bd5-4b6e-4513-ab3c-bd5ddcf97e72 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
+       "st.models": "F106 古い神殿（bim artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
        "st.underlay": "underlay/e01-p13-k1.jpg",
        "st.plan": "plans/e01-p13-k1.svg"
       }
@@ -3042,7 +3042,7 @@
        "st.fov": "横 47.3° × 縦 35°",
        "st.figures": "FG-e01-p13-k2-01 CH-01 ガリヴァー (-39950, 40000, 105) 向き -90° lie / FG-e01-p13-k2-02 CH-30 見張り (-42570, 37930, 1064) 向き -51.6° point",
        "st.crowds": "滑車を引く900人（900）、王の馬（本文：高さ4インチ半、1,500頭）（1500）",
-       "st.models": "F106 古い神殿（bim artifact_413ea56f-0068-4d74-a7ea-5df871881644@version_f99a6279-79b6-4919-af87-844b799c59f5 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_be0e3b3a-d1b0-4eff-878b-bd6834a770e5@version_94ed3bd5-4b6e-4513-ab3c-bd5ddcf97e72 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
+       "st.models": "F106 古い神殿（bim artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
        "st.underlay": "underlay/e01-p13-k2.jpg",
        "st.plan": "plans/e01-p13-k2.svg"
       }
@@ -3069,7 +3069,7 @@
        "st.fov": "横 62.7° × 縦 19.7°",
        "st.figures": "FG-e01-p13-k3-01 CH-01 ガリヴァー (-39950, 40000, 105) 向き -90° lie",
        "st.crowds": "滑車を引く900人（900）",
-       "st.models": "F106 古い神殿（bim artifact_413ea56f-0068-4d74-a7ea-5df871881644@version_f99a6279-79b6-4919-af87-844b799c59f5 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_be0e3b3a-d1b0-4eff-878b-bd6834a770e5@version_94ed3bd5-4b6e-4513-ab3c-bd5ddcf97e72 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
+       "st.models": "F106 古い神殿（bim artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
        "st.underlay": "underlay/e01-p13-k3.jpg",
        "st.plan": "plans/e01-p13-k3.svg"
       }
@@ -3096,7 +3096,7 @@
        "st.fov": "横 46.7° × 縦 35°",
        "st.figures": "FG-e01-p14-k1-01 CH-01 ガリヴァー (100, -1300, 0) 向き 0° lie",
        "st.crowds": "神殿の前の群衆（本文：十万人以上のうち）（834）",
-       "st.models": "F106 古い神殿（bim artifact_413ea56f-0068-4d74-a7ea-5df871881644@version_f99a6279-79b6-4919-af87-844b799c59f5 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_be0e3b3a-d1b0-4eff-878b-bd6834a770e5@version_94ed3bd5-4b6e-4513-ab3c-bd5ddcf97e72 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
+       "st.models": "F106 古い神殿（bim artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
        "st.underlay": "underlay/e01-p14-k1.jpg",
        "st.plan": "plans/e01-p14-k1.svg"
       }
@@ -3123,7 +3123,7 @@
        "st.fov": "横 23.8° × 縦 35°",
        "st.figures": "FG-e01-p14-k2-01 CH-01 ガリヴァー (100, -1300, 0) 向き 0° lie / FG-e01-p14-k2-02 CH-30 王の鍛冶 (-140, -540, 100) 向き -90° crouch",
        "st.crowds": "",
-       "st.models": "F106 古い神殿（bim artifact_413ea56f-0068-4d74-a7ea-5df871881644@version_f99a6279-79b6-4919-af87-844b799c59f5 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_be0e3b3a-d1b0-4eff-878b-bd6834a770e5@version_94ed3bd5-4b6e-4513-ab3c-bd5ddcf97e72 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
+       "st.models": "F106 古い神殿（bim artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
        "st.underlay": "underlay/e01-p14-k2.jpg",
        "st.plan": "plans/e01-p14-k2.svg"
       }
@@ -3150,7 +3150,7 @@
        "st.fov": "横 23.8° × 縦 35°",
        "st.figures": "FG-e01-p14-k3-01 CH-01 ガリヴァー (100, -1300, 0) 向き 0° lie",
        "st.crowds": "",
-       "st.models": "F106 古い神殿（bim artifact_413ea56f-0068-4d74-a7ea-5df871881644@version_f99a6279-79b6-4919-af87-844b799c59f5 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_be0e3b3a-d1b0-4eff-878b-bd6834a770e5@version_94ed3bd5-4b6e-4513-ab3c-bd5ddcf97e72 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
+       "st.models": "F106 古い神殿（bim artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
        "st.underlay": "underlay/e01-p14-k3.jpg",
        "st.plan": "plans/e01-p14-k3.svg"
       }
@@ -3177,7 +3177,7 @@
        "st.fov": "横 34.1° × 縦 35°",
        "st.figures": "FG-e01-p15-k1-01 CH-01 ガリヴァー (-150, 1100, 0) 向き 0° stand",
        "st.crowds": "神殿の前の群衆（本文：十万人以上のうち）（834）",
-       "st.models": "F106 古い神殿（bim artifact_413ea56f-0068-4d74-a7ea-5df871881644@version_f99a6279-79b6-4919-af87-844b799c59f5 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_be0e3b3a-d1b0-4eff-878b-bd6834a770e5@version_94ed3bd5-4b6e-4513-ab3c-bd5ddcf97e72 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
+       "st.models": "F106 古い神殿（bim artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
        "st.underlay": "underlay/e01-p15-k1.jpg",
        "st.plan": "plans/e01-p15-k1.svg"
       }
@@ -3204,7 +3204,7 @@
        "st.fov": "横 62.7° × 縦 29.6°",
        "st.figures": "FG-e01-p15-k2-01 CH-01 ガリヴァー (-150, 1100, 0) 向き 0° stand",
        "st.crowds": "神殿の前の群衆（本文：十万人以上のうち）（834）",
-       "st.models": "F106 古い神殿（bim artifact_413ea56f-0068-4d74-a7ea-5df871881644@version_f99a6279-79b6-4919-af87-844b799c59f5 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_be0e3b3a-d1b0-4eff-878b-bd6834a770e5@version_94ed3bd5-4b6e-4513-ab3c-bd5ddcf97e72 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
+       "st.models": "F106 古い神殿（bim artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
        "st.underlay": "underlay/e01-p15-k2.jpg",
        "st.plan": "plans/e01-p15-k2.svg"
       }
@@ -3231,7 +3231,7 @@
        "st.fov": "横 46.3° × 縦 35°",
        "st.figures": "FG-e01-p16-k1-01 CH-01 ガリヴァー (-150, 1100, 0) 向き 0° stand / FG-e01-p16-k1-02 CH-02 皇帝 (0, 5800, 1524) 向き 180° stand / FG-e01-p16-k1-03 CH-30 貴人1 (-260, 5850, 1524) 向き 180° stand / FG-e01-p16-k1-04 CH-30 貴人2 (260, 5850, 1524) 向き 180° stand",
        "st.crowds": "神殿の前の群衆（本文：十万人以上のうち）（834）",
-       "st.models": "F106 古い神殿（bim artifact_413ea56f-0068-4d74-a7ea-5df871881644@version_f99a6279-79b6-4919-af87-844b799c59f5 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_be0e3b3a-d1b0-4eff-878b-bd6834a770e5@version_94ed3bd5-4b6e-4513-ab3c-bd5ddcf97e72 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
+       "st.models": "F106 古い神殿（bim artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
        "st.underlay": "underlay/e01-p16-k1.jpg",
        "st.plan": "plans/e01-p16-k1.svg"
       }
@@ -3258,7 +3258,7 @@
        "st.fov": "横 31.6° × 縦 35°",
        "st.figures": "FG-e01-p16-k2-01 CH-02 皇帝 (0, 5800, 1524) 向き 180° stand / FG-e01-p16-k2-02 CH-30 貴人1 (-260, 5850, 1524) 向き 180° stand",
        "st.crowds": "",
-       "st.models": "F106 古い神殿（bim artifact_413ea56f-0068-4d74-a7ea-5df871881644@version_f99a6279-79b6-4919-af87-844b799c59f5 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_be0e3b3a-d1b0-4eff-878b-bd6834a770e5@version_94ed3bd5-4b6e-4513-ab3c-bd5ddcf97e72 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
+       "st.models": "F106 古い神殿（bim artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
        "st.underlay": "underlay/e01-p16-k2.jpg",
        "st.plan": "plans/e01-p16-k2.svg"
       }
@@ -3285,7 +3285,7 @@
        "st.fov": "横 62.7° × 縦 28.9°",
        "st.figures": "FG-e01-p16-k3-01 CH-02 皇帝 (0, 5800, 1524) 向き 180° point",
        "st.crowds": "",
-       "st.models": "F106 古い神殿（bim artifact_413ea56f-0068-4d74-a7ea-5df871881644@version_f99a6279-79b6-4919-af87-844b799c59f5 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_be0e3b3a-d1b0-4eff-878b-bd6834a770e5@version_94ed3bd5-4b6e-4513-ab3c-bd5ddcf97e72 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
+       "st.models": "F106 古い神殿（bim artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
        "st.underlay": "underlay/e01-p16-k3.jpg",
        "st.plan": "plans/e01-p16-k3.svg"
       }
@@ -3312,14 +3312,14 @@
        "st.fov": "横 56.9° × 縦 35°",
        "st.figures": "FG-e01-p16-k4-01 CH-01 ガリヴァー (0, 700, 0) 向き 0° sit",
        "st.crowds": "神殿の前の群衆（本文：十万人以上のうち）（834）",
-       "st.models": "F106 古い神殿（bim artifact_413ea56f-0068-4d74-a7ea-5df871881644@version_f99a6279-79b6-4919-af87-844b799c59f5 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_be0e3b3a-d1b0-4eff-878b-bd6834a770e5@version_94ed3bd5-4b6e-4513-ab3c-bd5ddcf97e72 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
+       "st.models": "F106 古い神殿（bim artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 temple（cad artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2 e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca）",
        "st.underlay": "underlay/e01-p16-k4.jpg",
        "st.plan": "plans/e01-p16-k4.svg"
       }
      }
     ]
    },
-   "contentHash": "f958c77328bd18b5a45e4845bfc2689feb3f2ab5af836c7a673a51a47868af05"
+   "contentHash": "be17d644044d67728ab88b5b4409909d09604d224ece075c9af0664265226cf7"
   }
  ]
 }

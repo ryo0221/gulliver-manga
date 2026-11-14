@@ -63,7 +63,7 @@ node gm-name-screens.tmp.mjs /tmp/name/name-editor.json /tmp/name/screens
 ```sh
 mkdir -p tests/demo && cp <gm>/part1/name/src/gulliver-ep01-stage.demo.ts tests/demo/ && cp <gm>/part1/name/src/gulliver-ep01-stage.config.ts gm-stage.config.ts
 CAD_OCCT_DIST=$PWD/work/cad-kernel STAGE_OUT=/tmp/stage npx playwright test -c gm-stage.config.ts --trace off   # 5つの舞台、約4分
-python3 <gm>/part1/name/src/stage-assets.py /tmp/stage <gm>/part1/name/artifacts/gm1-ep01-name.artifact.json <gm>/part1/name/stage
+python3 <gm>/part1/name/src/stage-assets.py /tmp/stage <gm>/part1/name/artifacts/gm1-ep01-name.artifact.json <gm>/part1/name/stage   # カメラの絵・配置図・記録と、モデルの版（models/）を書く
 cp -r <gm>/part1/name/stage $SB/gulliver-ep01-stage   # ネームのテストが読む
 python3 <gm>/part1/name/src/name-doc.py <gm>/part1/name/artifacts/gm1-ep01-name-panels.artifact.json <gm>/part1/name/stage/ep01-stage.json <gm>/docs/part1-ep01-name.md
 ```

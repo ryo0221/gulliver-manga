@@ -4,8 +4,8 @@
  "artwork": [],
  "source": {
   "artifactId": "gm1-ep01-name",
-  "versionId": "version_0f3e3778-80a0-400d-8da0-b6da555a2e46",
-  "contentHash": "7e91a90518baec3b9f616104894ddb0cba7c30d16465c942a487f6321c35eec3"
+  "versionId": "version_241c2c4d-985e-4aaa-bfb5-2ddace9355fc",
+  "contentHash": "bdff58e33ee263441338264f30fdfc4f4a1b7e89259a3ebecdcf5bd8542c9554"
  },
  "direction": "ltr",
  "pages": [
@@ -805,282 +805,282 @@
  "images": [
   {
    "elementId": "underlay-0001",
-   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p01-k1、横 34.1°×縦 35°）。モデル：舞台 beach artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p01-k1、横 34.1°×縦 35°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0005",
-   "source": "3D の舞台「英国の田舎家の厩（仮の3D、創作）」のカメラの絵（e01-p01-k2、横 62.7°×縦 29.6°）。モデル：舞台 stable artifact_43e4287a-6629-495a-9eb6-2fe01947241f@version_df91cbe9-d5cf-489d-9071-3453d7ac33a2",
+   "source": "3D の舞台「英国の田舎家の厩（仮の3D、創作）」のカメラの絵（e01-p01-k2、横 62.7°×縦 29.6°）。モデル：舞台 stable artifact_6cdd509d-17e7-4aa9-ae3f-a0dd5fec7ee8@version_7d4d268a-57e4-4ca7-81ce-43f816b0289a",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0008",
-   "source": "3D の舞台「英国の田舎家の厩（仮の3D、創作）」のカメラの絵（e01-p02-k1、横 39.5°×縦 35°）。モデル：舞台 stable artifact_43e4287a-6629-495a-9eb6-2fe01947241f@version_df91cbe9-d5cf-489d-9071-3453d7ac33a2",
+   "source": "3D の舞台「英国の田舎家の厩（仮の3D、創作）」のカメラの絵（e01-p02-k1、横 39.5°×縦 35°）。モデル：舞台 stable artifact_6cdd509d-17e7-4aa9-ae3f-a0dd5fec7ee8@version_7d4d268a-57e4-4ca7-81ce-43f816b0289a",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0019",
-   "source": "3D の舞台「英国の田舎家の厩（仮の3D、創作）」のカメラの絵（e01-p02-k2、横 19.3°×縦 35°）。モデル：舞台 stable artifact_43e4287a-6629-495a-9eb6-2fe01947241f@version_df91cbe9-d5cf-489d-9071-3453d7ac33a2",
+   "source": "3D の舞台「英国の田舎家の厩（仮の3D、創作）」のカメラの絵（e01-p02-k2、横 19.3°×縦 35°）。モデル：舞台 stable artifact_6cdd509d-17e7-4aa9-ae3f-a0dd5fec7ee8@version_7d4d268a-57e4-4ca7-81ce-43f816b0289a",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0023",
-   "source": "3D の舞台「英国の田舎家の厩（仮の3D、創作）」のカメラの絵（e01-p02-k3、横 40.1°×縦 35°）。モデル：舞台 stable artifact_43e4287a-6629-495a-9eb6-2fe01947241f@version_df91cbe9-d5cf-489d-9071-3453d7ac33a2",
+   "source": "3D の舞台「英国の田舎家の厩（仮の3D、創作）」のカメラの絵（e01-p02-k3、横 40.1°×縦 35°）。モデル：舞台 stable artifact_6cdd509d-17e7-4aa9-ae3f-a0dd5fec7ee8@version_7d4d268a-57e4-4ca7-81ce-43f816b0289a",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0030",
-   "source": "3D の舞台「英国の田舎家の厩（仮の3D、創作）」のカメラの絵（e01-p02-k4、横 40.1°×縦 35°）。モデル：舞台 stable artifact_43e4287a-6629-495a-9eb6-2fe01947241f@version_df91cbe9-d5cf-489d-9071-3453d7ac33a2",
+   "source": "3D の舞台「英国の田舎家の厩（仮の3D、創作）」のカメラの絵（e01-p02-k4、横 40.1°×縦 35°）。モデル：舞台 stable artifact_6cdd509d-17e7-4aa9-ae3f-a0dd5fec7ee8@version_7d4d268a-57e4-4ca7-81ce-43f816b0289a",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0037",
-   "source": "3D の舞台「英国の田舎家の厩（仮の3D、創作）」のカメラの絵（e01-p02-k5、横 31.6°×縦 35°）。モデル：舞台 stable artifact_43e4287a-6629-495a-9eb6-2fe01947241f@version_df91cbe9-d5cf-489d-9071-3453d7ac33a2",
+   "source": "3D の舞台「英国の田舎家の厩（仮の3D、創作）」のカメラの絵（e01-p02-k5、横 31.6°×縦 35°）。モデル：舞台 stable artifact_6cdd509d-17e7-4aa9-ae3f-a0dd5fec7ee8@version_7d4d268a-57e4-4ca7-81ce-43f816b0289a",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0040",
-   "source": "3D の舞台「英国の田舎家の厩（仮の3D、創作）」のカメラの絵（e01-p02-k6、横 46.3°×縦 35°）。モデル：舞台 stable artifact_43e4287a-6629-495a-9eb6-2fe01947241f@version_df91cbe9-d5cf-489d-9071-3453d7ac33a2",
+   "source": "3D の舞台「英国の田舎家の厩（仮の3D、創作）」のカメラの絵（e01-p02-k6、横 46.3°×縦 35°）。モデル：舞台 stable artifact_6cdd509d-17e7-4aa9-ae3f-a0dd5fec7ee8@version_7d4d268a-57e4-4ca7-81ce-43f816b0289a",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0047",
-   "source": "3D の舞台「ブリストルの岸壁（仮の3D、創作）」のカメラの絵（e01-p03-k1、横 46.7°×縦 35°）。モデル：舞台 port artifact_3970a892-60d3-404e-819a-d55f8f7486c2@version_3284fd80-511e-4108-9361-a18285c3973f、舞台 port ship artifact_6d6f8262-69fd-41dd-9b4c-eca39a201051@version_4e4da562-86ed-4a26-b90c-48e8bba996be",
+   "source": "3D の舞台「ブリストルの岸壁（仮の3D、創作）」のカメラの絵（e01-p03-k1、横 46.7°×縦 35°）。モデル：舞台 port artifact_2f4eea78-7c55-43a4-81a0-80123a2491ad@version_9b417d35-92e8-4308-a991-3189e90720ce、舞台 port ship artifact_d01fca4b-e451-4160-8529-68f7e9449101@version_5d52e0f9-b174-42a0-93ce-f093ade7223a",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0052",
-   "source": "3D の舞台「ブリストルの岸壁（仮の3D、創作）」のカメラの絵（e01-p03-k2、横 15.8°×縦 35°）。モデル：舞台 port artifact_3970a892-60d3-404e-819a-d55f8f7486c2@version_3284fd80-511e-4108-9361-a18285c3973f、舞台 port ship artifact_6d6f8262-69fd-41dd-9b4c-eca39a201051@version_4e4da562-86ed-4a26-b90c-48e8bba996be",
+   "source": "3D の舞台「ブリストルの岸壁（仮の3D、創作）」のカメラの絵（e01-p03-k2、横 15.8°×縦 35°）。モデル：舞台 port artifact_2f4eea78-7c55-43a4-81a0-80123a2491ad@version_9b417d35-92e8-4308-a991-3189e90720ce、舞台 port ship artifact_d01fca4b-e451-4160-8529-68f7e9449101@version_5d52e0f9-b174-42a0-93ce-f093ade7223a",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0057",
-   "source": "3D の舞台「ブリストルの岸壁（仮の3D、創作）」のカメラの絵（e01-p03-k3、横 15.3°×縦 35°）。モデル：舞台 port artifact_3970a892-60d3-404e-819a-d55f8f7486c2@version_3284fd80-511e-4108-9361-a18285c3973f、舞台 port ship artifact_6d6f8262-69fd-41dd-9b4c-eca39a201051@version_4e4da562-86ed-4a26-b90c-48e8bba996be",
+   "source": "3D の舞台「ブリストルの岸壁（仮の3D、創作）」のカメラの絵（e01-p03-k3、横 15.3°×縦 35°）。モデル：舞台 port artifact_2f4eea78-7c55-43a4-81a0-80123a2491ad@version_9b417d35-92e8-4308-a991-3189e90720ce、舞台 port ship artifact_d01fca4b-e451-4160-8529-68f7e9449101@version_5d52e0f9-b174-42a0-93ce-f093ade7223a",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0064",
-   "source": "3D の舞台「ブリストルの岸壁（仮の3D、創作）」のカメラの絵（e01-p03-k4、横 15.8°×縦 35°）。モデル：舞台 port artifact_3970a892-60d3-404e-819a-d55f8f7486c2@version_3284fd80-511e-4108-9361-a18285c3973f、舞台 port ship artifact_6d6f8262-69fd-41dd-9b4c-eca39a201051@version_4e4da562-86ed-4a26-b90c-48e8bba996be",
+   "source": "3D の舞台「ブリストルの岸壁（仮の3D、創作）」のカメラの絵（e01-p03-k4、横 15.8°×縦 35°）。モデル：舞台 port artifact_2f4eea78-7c55-43a4-81a0-80123a2491ad@version_9b417d35-92e8-4308-a991-3189e90720ce、舞台 port ship artifact_d01fca4b-e451-4160-8529-68f7e9449101@version_5d52e0f9-b174-42a0-93ce-f093ade7223a",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0071",
-   "source": "3D の舞台「ブリストルの岸壁（仮の3D、創作）」のカメラの絵（e01-p04-k1、横 23.8°×縦 35°）。モデル：舞台 port artifact_3970a892-60d3-404e-819a-d55f8f7486c2@version_3284fd80-511e-4108-9361-a18285c3973f、舞台 port ship artifact_6d6f8262-69fd-41dd-9b4c-eca39a201051@version_4e4da562-86ed-4a26-b90c-48e8bba996be",
+   "source": "3D の舞台「ブリストルの岸壁（仮の3D、創作）」のカメラの絵（e01-p04-k1、横 23.8°×縦 35°）。モデル：舞台 port artifact_2f4eea78-7c55-43a4-81a0-80123a2491ad@version_9b417d35-92e8-4308-a991-3189e90720ce、舞台 port ship artifact_d01fca4b-e451-4160-8529-68f7e9449101@version_5d52e0f9-b174-42a0-93ce-f093ade7223a",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0078",
-   "source": "3D の舞台「ブリストルの岸壁（仮の3D、創作）」のカメラの絵（e01-p04-k2、横 35.4°×縦 35°）。モデル：舞台 port artifact_3970a892-60d3-404e-819a-d55f8f7486c2@version_3284fd80-511e-4108-9361-a18285c3973f、舞台 port ship artifact_6d6f8262-69fd-41dd-9b4c-eca39a201051@version_4e4da562-86ed-4a26-b90c-48e8bba996be",
+   "source": "3D の舞台「ブリストルの岸壁（仮の3D、創作）」のカメラの絵（e01-p04-k2、横 35.4°×縦 35°）。モデル：舞台 port artifact_2f4eea78-7c55-43a4-81a0-80123a2491ad@version_9b417d35-92e8-4308-a991-3189e90720ce、舞台 port ship artifact_d01fca4b-e451-4160-8529-68f7e9449101@version_5d52e0f9-b174-42a0-93ce-f093ade7223a",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0081",
-   "source": "3D の舞台「ブリストルの岸壁（仮の3D、創作）」のカメラの絵（e01-p04-k3、横 39.5°×縦 35°）。モデル：舞台 port artifact_3970a892-60d3-404e-819a-d55f8f7486c2@version_3284fd80-511e-4108-9361-a18285c3973f、舞台 port ship artifact_6d6f8262-69fd-41dd-9b4c-eca39a201051@version_4e4da562-86ed-4a26-b90c-48e8bba996be",
+   "source": "3D の舞台「ブリストルの岸壁（仮の3D、創作）」のカメラの絵（e01-p04-k3、横 39.5°×縦 35°）。モデル：舞台 port artifact_2f4eea78-7c55-43a4-81a0-80123a2491ad@version_9b417d35-92e8-4308-a991-3189e90720ce、舞台 port ship artifact_d01fca4b-e451-4160-8529-68f7e9449101@version_5d52e0f9-b174-42a0-93ce-f093ade7223a",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0084",
-   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p05-k1、横 44.5°×縦 35°）。モデル：舞台 sea artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e、舞台 sea ship artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8、舞台 sea boat artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e",
+   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p05-k1、横 44.5°×縦 35°）。モデル：舞台 sea artifact_0a1fbb69-79ea-404c-8ce7-95684b0354ca@version_3cb20f3f-ca51-4c0e-8c63-cc2c7fb6b46a、舞台 sea ship artifact_594d2b77-eccf-4f8e-a804-7891ef1ba327@version_1e8214f2-b5fc-45be-ac06-8358bd8ae0a8、舞台 sea boat artifact_758e4541-0110-4537-97d3-571badbf8f1d@version_a07ef471-0298-41b1-bd90-b9edadd619f3",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0088",
-   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p05-k2、横 23.9°×縦 35°）。モデル：舞台 sea artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e、舞台 sea ship artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8、舞台 sea boat artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e",
+   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p05-k2、横 23.9°×縦 35°）。モデル：舞台 sea artifact_0a1fbb69-79ea-404c-8ce7-95684b0354ca@version_3cb20f3f-ca51-4c0e-8c63-cc2c7fb6b46a、舞台 sea ship artifact_594d2b77-eccf-4f8e-a804-7891ef1ba327@version_1e8214f2-b5fc-45be-ac06-8358bd8ae0a8、舞台 sea boat artifact_758e4541-0110-4537-97d3-571badbf8f1d@version_a07ef471-0298-41b1-bd90-b9edadd619f3",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0092",
-   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p05-k3、横 22.6°×縦 35°）。モデル：舞台 sea artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e、舞台 sea ship artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8、舞台 sea boat artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e",
+   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p05-k3、横 22.6°×縦 35°）。モデル：舞台 sea artifact_0a1fbb69-79ea-404c-8ce7-95684b0354ca@version_3cb20f3f-ca51-4c0e-8c63-cc2c7fb6b46a、舞台 sea ship artifact_594d2b77-eccf-4f8e-a804-7891ef1ba327@version_1e8214f2-b5fc-45be-ac06-8358bd8ae0a8、舞台 sea boat artifact_758e4541-0110-4537-97d3-571badbf8f1d@version_a07ef471-0298-41b1-bd90-b9edadd619f3",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0097",
-   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p06-k1、横 46.7°×縦 35°）。モデル：舞台 sea artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e、舞台 sea ship artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8、舞台 sea boat artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e",
+   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p06-k1、横 46.7°×縦 35°）。モデル：舞台 sea artifact_0a1fbb69-79ea-404c-8ce7-95684b0354ca@version_3cb20f3f-ca51-4c0e-8c63-cc2c7fb6b46a、舞台 sea ship artifact_594d2b77-eccf-4f8e-a804-7891ef1ba327@version_1e8214f2-b5fc-45be-ac06-8358bd8ae0a8、舞台 sea boat artifact_758e4541-0110-4537-97d3-571badbf8f1d@version_a07ef471-0298-41b1-bd90-b9edadd619f3",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0102",
-   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p06-k2、横 23.8°×縦 35°）。モデル：舞台 sea artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e、舞台 sea ship artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8、舞台 sea boat artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e",
+   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p06-k2、横 23.8°×縦 35°）。モデル：舞台 sea artifact_0a1fbb69-79ea-404c-8ce7-95684b0354ca@version_3cb20f3f-ca51-4c0e-8c63-cc2c7fb6b46a、舞台 sea ship artifact_594d2b77-eccf-4f8e-a804-7891ef1ba327@version_1e8214f2-b5fc-45be-ac06-8358bd8ae0a8、舞台 sea boat artifact_758e4541-0110-4537-97d3-571badbf8f1d@version_a07ef471-0298-41b1-bd90-b9edadd619f3",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0105",
-   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p06-k3、横 23.8°×縦 35°）。モデル：舞台 sea artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e、舞台 sea ship artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8、舞台 sea boat artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e",
+   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p06-k3、横 23.8°×縦 35°）。モデル：舞台 sea artifact_0a1fbb69-79ea-404c-8ce7-95684b0354ca@version_3cb20f3f-ca51-4c0e-8c63-cc2c7fb6b46a、舞台 sea ship artifact_594d2b77-eccf-4f8e-a804-7891ef1ba327@version_1e8214f2-b5fc-45be-ac06-8358bd8ae0a8、舞台 sea boat artifact_758e4541-0110-4537-97d3-571badbf8f1d@version_a07ef471-0298-41b1-bd90-b9edadd619f3",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0110",
-   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p07-k1、横 56.9°×縦 35°）。モデル：舞台 sea artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e、舞台 sea ship artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8、舞台 sea boat artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e",
+   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p07-k1、横 56.9°×縦 35°）。モデル：舞台 sea artifact_0a1fbb69-79ea-404c-8ce7-95684b0354ca@version_3cb20f3f-ca51-4c0e-8c63-cc2c7fb6b46a、舞台 sea ship artifact_594d2b77-eccf-4f8e-a804-7891ef1ba327@version_1e8214f2-b5fc-45be-ac06-8358bd8ae0a8、舞台 sea boat artifact_758e4541-0110-4537-97d3-571badbf8f1d@version_a07ef471-0298-41b1-bd90-b9edadd619f3",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0115",
-   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p07-k2、横 39.5°×縦 35°）。モデル：舞台 sea artifact_bd402d9a-7ba3-4c71-aba2-7e4eb816f5cd@version_b5afc14d-ff7b-439a-8c80-ce477eda360e、舞台 sea ship artifact_552de0a9-4da0-4416-8fd8-4f659196d04e@version_ff062107-2bb9-4288-98fc-0ad8a3730aa8、舞台 sea boat artifact_31184af3-82d6-4705-840d-97a2e77b6c86@version_9e41e176-6ce9-4d7a-b180-09613334ab9e",
+   "source": "3D の舞台「難破の海と浜（仮の3D、創作）」のカメラの絵（e01-p07-k2、横 39.5°×縦 35°）。モデル：舞台 sea artifact_0a1fbb69-79ea-404c-8ce7-95684b0354ca@version_3cb20f3f-ca51-4c0e-8c63-cc2c7fb6b46a、舞台 sea ship artifact_594d2b77-eccf-4f8e-a804-7891ef1ba327@version_1e8214f2-b5fc-45be-ac06-8358bd8ae0a8、舞台 sea boat artifact_758e4541-0110-4537-97d3-571badbf8f1d@version_a07ef471-0298-41b1-bd90-b9edadd619f3",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0118",
-   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p08-k1、横 56.9°×縦 35°）。モデル：舞台 beach artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p08-k1、横 56.9°×縦 35°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0121",
-   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p08-k2、横 40.1°×縦 35°）。モデル：舞台 beach artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p08-k2、横 40.1°×縦 35°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0126",
-   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p08-k3、横 40.1°×縦 35°）。モデル：舞台 beach artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p08-k3、横 40.1°×縦 35°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0131",
-   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p08-k4、横 62.7°×縦 29.6°）。モデル：舞台 beach artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p08-k4、横 62.7°×縦 29.6°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0135",
-   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p09-k1、横 62.7°×縦 24.7°）。モデル：舞台 beach artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p09-k1、横 62.7°×縦 24.7°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0138",
-   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p09-k2、横 43.3°×縦 35°）。モデル：舞台 beach artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p09-k2、横 43.3°×縦 35°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0141",
-   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p09-k3、横 62.7°×縦 19.7°）。モデル：舞台 beach artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p09-k3、横 62.7°×縦 19.7°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0148",
-   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p10-k1、横 62.7°×縦 31.9°）。モデル：舞台 beach artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p10-k1、横 62.7°×縦 31.9°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0155",
-   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p10-k2、横 40.1°×縦 35°）。モデル：舞台 beach artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p10-k2、横 40.1°×縦 35°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0159",
-   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p10-k3、横 37.2°×縦 35°）。モデル：舞台 beach artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p10-k3、横 37.2°×縦 35°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0166",
-   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p10-k4、横 56.9°×縦 35°）。モデル：舞台 beach artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p10-k4、横 56.9°×縦 35°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0170",
-   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p11-k1、横 39.1°×縦 35°）。モデル：舞台 beach artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p11-k1、横 39.1°×縦 35°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0175",
-   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p11-k2、横 39.1°×縦 35°）。モデル：舞台 beach artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p11-k2、横 39.1°×縦 35°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0180",
-   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p11-k3、横 57.8°×縦 35°）。モデル：舞台 beach artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p11-k3、横 57.8°×縦 35°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0183",
-   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p11-k4、横 31.6°×縦 35°）。モデル：舞台 beach artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p11-k4、横 31.6°×縦 35°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0190",
-   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p11-k5、横 46.3°×縦 35°）。モデル：舞台 beach artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p11-k5、横 46.3°×縦 35°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0193",
-   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p12-k1、横 39.1°×縦 35°）。モデル：舞台 beach artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p12-k1、横 39.1°×縦 35°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0198",
-   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p12-k2、横 39.1°×縦 35°）。モデル：舞台 beach artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p12-k2、横 39.1°×縦 35°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0205",
-   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p12-k3、横 62.7°×縦 25°）。モデル：舞台 beach artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p12-k3、横 62.7°×縦 25°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0212",
-   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p12-k4、横 62.7°×縦 25°）。モデル：舞台 beach artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p12-k4、横 62.7°×縦 25°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0219",
-   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p12-k5、横 62.7°×縦 17.7°）。モデル：舞台 beach artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df@version_81280072-450c-459c-8c70-d80c3835bce5",
+   "source": "3D の舞台「浜の草地（リリパット、仮の3D）」のカメラの絵（e01-p12-k5、横 62.7°×縦 17.7°）。モデル：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0222",
-   "source": "3D の舞台「古い神殿（F106）と都の外の道」のカメラの絵（e01-p13-k1、横 62.7°×縦 29.6°）。モデル：F106 古い神殿 artifact_413ea56f-0068-4d74-a7ea-5df871881644@version_f99a6279-79b6-4919-af87-844b799c59f5、舞台 temple artifact_be0e3b3a-d1b0-4eff-878b-bd6834a770e5@version_94ed3bd5-4b6e-4513-ab3c-bd5ddcf97e72",
+   "source": "3D の舞台「古い神殿（F106）と都の外の道」のカメラの絵（e01-p13-k1、横 62.7°×縦 29.6°）。モデル：F106 古い神殿 artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44、舞台 temple artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0227",
-   "source": "3D の舞台「古い神殿（F106）と都の外の道」のカメラの絵（e01-p13-k2、横 47.3°×縦 35°）。モデル：F106 古い神殿 artifact_413ea56f-0068-4d74-a7ea-5df871881644@version_f99a6279-79b6-4919-af87-844b799c59f5、舞台 temple artifact_be0e3b3a-d1b0-4eff-878b-bd6834a770e5@version_94ed3bd5-4b6e-4513-ab3c-bd5ddcf97e72",
+   "source": "3D の舞台「古い神殿（F106）と都の外の道」のカメラの絵（e01-p13-k2、横 47.3°×縦 35°）。モデル：F106 古い神殿 artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44、舞台 temple artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0232",
-   "source": "3D の舞台「古い神殿（F106）と都の外の道」のカメラの絵（e01-p13-k3、横 62.7°×縦 19.7°）。モデル：F106 古い神殿 artifact_413ea56f-0068-4d74-a7ea-5df871881644@version_f99a6279-79b6-4919-af87-844b799c59f5、舞台 temple artifact_be0e3b3a-d1b0-4eff-878b-bd6834a770e5@version_94ed3bd5-4b6e-4513-ab3c-bd5ddcf97e72",
+   "source": "3D の舞台「古い神殿（F106）と都の外の道」のカメラの絵（e01-p13-k3、横 62.7°×縦 19.7°）。モデル：F106 古い神殿 artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44、舞台 temple artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0236",
-   "source": "3D の舞台「古い神殿（F106）と都の外の道」のカメラの絵（e01-p14-k1、横 46.7°×縦 35°）。モデル：F106 古い神殿 artifact_413ea56f-0068-4d74-a7ea-5df871881644@version_f99a6279-79b6-4919-af87-844b799c59f5、舞台 temple artifact_be0e3b3a-d1b0-4eff-878b-bd6834a770e5@version_94ed3bd5-4b6e-4513-ab3c-bd5ddcf97e72",
+   "source": "3D の舞台「古い神殿（F106）と都の外の道」のカメラの絵（e01-p14-k1、横 46.7°×縦 35°）。モデル：F106 古い神殿 artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44、舞台 temple artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0241",
-   "source": "3D の舞台「古い神殿（F106）と都の外の道」のカメラの絵（e01-p14-k2、横 23.8°×縦 35°）。モデル：F106 古い神殿 artifact_413ea56f-0068-4d74-a7ea-5df871881644@version_f99a6279-79b6-4919-af87-844b799c59f5、舞台 temple artifact_be0e3b3a-d1b0-4eff-878b-bd6834a770e5@version_94ed3bd5-4b6e-4513-ab3c-bd5ddcf97e72",
+   "source": "3D の舞台「古い神殿（F106）と都の外の道」のカメラの絵（e01-p14-k2、横 23.8°×縦 35°）。モデル：F106 古い神殿 artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44、舞台 temple artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0244",
-   "source": "3D の舞台「古い神殿（F106）と都の外の道」のカメラの絵（e01-p14-k3、横 23.8°×縦 35°）。モデル：F106 古い神殿 artifact_413ea56f-0068-4d74-a7ea-5df871881644@version_f99a6279-79b6-4919-af87-844b799c59f5、舞台 temple artifact_be0e3b3a-d1b0-4eff-878b-bd6834a770e5@version_94ed3bd5-4b6e-4513-ab3c-bd5ddcf97e72",
+   "source": "3D の舞台「古い神殿（F106）と都の外の道」のカメラの絵（e01-p14-k3、横 23.8°×縦 35°）。モデル：F106 古い神殿 artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44、舞台 temple artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0248",
-   "source": "3D の舞台「古い神殿（F106）と都の外の道」のカメラの絵（e01-p15-k1、横 34.1°×縦 35°）。モデル：F106 古い神殿 artifact_413ea56f-0068-4d74-a7ea-5df871881644@version_f99a6279-79b6-4919-af87-844b799c59f5、舞台 temple artifact_be0e3b3a-d1b0-4eff-878b-bd6834a770e5@version_94ed3bd5-4b6e-4513-ab3c-bd5ddcf97e72",
+   "source": "3D の舞台「古い神殿（F106）と都の外の道」のカメラの絵（e01-p15-k1、横 34.1°×縦 35°）。モデル：F106 古い神殿 artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44、舞台 temple artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0251",
-   "source": "3D の舞台「古い神殿（F106）と都の外の道」のカメラの絵（e01-p15-k2、横 62.7°×縦 29.6°）。モデル：F106 古い神殿 artifact_413ea56f-0068-4d74-a7ea-5df871881644@version_f99a6279-79b6-4919-af87-844b799c59f5、舞台 temple artifact_be0e3b3a-d1b0-4eff-878b-bd6834a770e5@version_94ed3bd5-4b6e-4513-ab3c-bd5ddcf97e72",
+   "source": "3D の舞台「古い神殿（F106）と都の外の道」のカメラの絵（e01-p15-k2、横 62.7°×縦 29.6°）。モデル：F106 古い神殿 artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44、舞台 temple artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0258",
-   "source": "3D の舞台「古い神殿（F106）と都の外の道」のカメラの絵（e01-p16-k1、横 46.3°×縦 35°）。モデル：F106 古い神殿 artifact_413ea56f-0068-4d74-a7ea-5df871881644@version_f99a6279-79b6-4919-af87-844b799c59f5、舞台 temple artifact_be0e3b3a-d1b0-4eff-878b-bd6834a770e5@version_94ed3bd5-4b6e-4513-ab3c-bd5ddcf97e72",
+   "source": "3D の舞台「古い神殿（F106）と都の外の道」のカメラの絵（e01-p16-k1、横 46.3°×縦 35°）。モデル：F106 古い神殿 artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44、舞台 temple artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0261",
-   "source": "3D の舞台「古い神殿（F106）と都の外の道」のカメラの絵（e01-p16-k2、横 31.6°×縦 35°）。モデル：F106 古い神殿 artifact_413ea56f-0068-4d74-a7ea-5df871881644@version_f99a6279-79b6-4919-af87-844b799c59f5、舞台 temple artifact_be0e3b3a-d1b0-4eff-878b-bd6834a770e5@version_94ed3bd5-4b6e-4513-ab3c-bd5ddcf97e72",
+   "source": "3D の舞台「古い神殿（F106）と都の外の道」のカメラの絵（e01-p16-k2、横 31.6°×縦 35°）。モデル：F106 古い神殿 artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44、舞台 temple artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0268",
-   "source": "3D の舞台「古い神殿（F106）と都の外の道」のカメラの絵（e01-p16-k3、横 62.7°×縦 28.9°）。モデル：F106 古い神殿 artifact_413ea56f-0068-4d74-a7ea-5df871881644@version_f99a6279-79b6-4919-af87-844b799c59f5、舞台 temple artifact_be0e3b3a-d1b0-4eff-878b-bd6834a770e5@version_94ed3bd5-4b6e-4513-ab3c-bd5ddcf97e72",
+   "source": "3D の舞台「古い神殿（F106）と都の外の道」のカメラの絵（e01-p16-k3、横 62.7°×縦 28.9°）。モデル：F106 古い神殿 artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44、舞台 temple artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0275",
-   "source": "3D の舞台「古い神殿（F106）と都の外の道」のカメラの絵（e01-p16-k4、横 56.9°×縦 35°）。モデル：F106 古い神殿 artifact_413ea56f-0068-4d74-a7ea-5df871881644@version_f99a6279-79b6-4919-af87-844b799c59f5、舞台 temple artifact_be0e3b3a-d1b0-4eff-878b-bd6834a770e5@version_94ed3bd5-4b6e-4513-ab3c-bd5ddcf97e72",
+   "source": "3D の舞台「古い神殿（F106）と都の外の道」のカメラの絵（e01-p16-k4、横 56.9°×縦 35°）。モデル：F106 古い神殿 artifact_e66dc4fe-41d4-4dc2-a2a8-ed3ba80cc631@version_4b64180a-de6e-4ebc-89a0-3bb00889ae44、舞台 temple artifact_a69be503-f2f1-480d-90b0-8c6604b7a0ed@version_df320a50-bf1c-4509-9fa1-a538b3a12fe2",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   }
  ],
