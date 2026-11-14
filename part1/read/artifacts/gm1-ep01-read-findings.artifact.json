@@ -1,0 +1,429 @@
+{
+ "schemaVersion": 1,
+ "id": "gm1-ep01-read-findings",
+ "name": "第1話 通読の指摘",
+ "kind": "data",
+ "provenance": {
+  "source": "created"
+ },
+ "draft": {
+  "baseVersionId": "read-ep01-v3",
+  "updatedAt": "2026-11-14T00:00:00.000Z",
+  "content": {
+   "schemaVersion": 2,
+   "columns": [
+    {
+     "id": "rv.target",
+     "name": "対象（コマ・ページ・シーン・台詞の行）",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "rv.by",
+     "name": "出し手",
+     "type": "select",
+     "options": [
+      "作者",
+      "AI"
+     ],
+     "required": true
+    },
+    {
+     "id": "rv.when",
+     "name": "いつ・どの工程で",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "rv.text",
+     "name": "指摘",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "rv.decision",
+     "name": "判断",
+     "type": "select",
+     "options": [
+      "直す",
+      "直さない",
+      "意図として残す",
+      "作者の判断待ち"
+     ],
+     "required": true
+    },
+    {
+     "id": "rv.reason",
+     "name": "理由（判断待ちは AI の提案）",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "rv.fixedIn",
+     "name": "直した後の版",
+     "type": "text"
+    }
+   ],
+   "rows": [
+    {
+     "id": "RV-e01-01",
+     "values": {
+      "rv.target": "e01-p12-k5",
+      "rv.by": "作者",
+      "rv.when": "2026-11-14 線画の確認",
+      "rv.text": "顔が切れていて不自然。",
+      "rv.decision": "直す",
+      "rv.reason": "片目だけが大きく枠で切れ、端に草があった。3D のカメラの絵に合わせ、両目・眉・鼻の付け根を、耳と髪まで枠に入れて描き直した。",
+      "rv.fixedIn": "gm1-ep01-ink@ink-ep01-v1（PR #8）"
+     }
+    },
+    {
+     "id": "RV-e01-02",
+     "values": {
+      "rv.target": "e01-p02-k2 e01-p03-k4 e01-p06-k1 e01-p08-k4 e01-p11-k5",
+      "rv.by": "作者",
+      "rv.when": "2026-11-14 仕上げの確認",
+      "rv.text": "背景を描いて（背景が白いままのコマ）。",
+      "rv.decision": "直す",
+      "rv.reason": "背景の線を線画（LY-04）に描き足し、塗りと影を作り直した。人物の線と効果は変えていない。",
+      "rv.fixedIn": "gm1-ep01-finish@finish-ep01-v2（PR #9）"
+     }
+    },
+    {
+     "id": "RV-e01-03",
+     "values": {
+      "rv.target": "e01-p01-k1",
+      "rv.by": "AI",
+      "rv.when": "2026-11-14 通読",
+      "rv.text": "扉：胸の上の小人が弓の先しか見えず、題のコマで大きさの違い（AR-05）が伝わらない。",
+      "rv.decision": "直す",
+      "rv.reason": "作者の判断（2026-11-14「おすすめです直して」、提案どおり）：直す。舞台のカメラを胸の上の小人の後ろの少し上（胸から 300 mm）へ引き、ラフ・線画・仕上げを描き直した。手前に弓を引く小人たちの背中、奥にガリヴァーの顔。",
+      "rv.fixedIn": "gm1-ep01-finish@finish-ep01-v3（線画 ink-ep01-v3、ラフ rough-ep01-v2）"
+     }
+    },
+    {
+     "id": "RV-e01-04",
+     "values": {
+      "rv.target": "e01-p09-k2 e01-p12-k3",
+      "rv.by": "AI",
+      "rv.when": "2026-11-14 通読",
+      "rv.text": "小人が大きすぎる：9-2 の弓を引く小人と、12-3 で顔の周りに集まる小人が、ガリヴァーの顔とほぼ同じ大きさに見える（AR-01：1/12）。",
+      "rv.decision": "直す",
+      "rv.reason": "作者の判断（2026-11-14「おすすめです直して」、提案どおり）：12ページ3コマ（胸の上で踊る小人たち）を直す。小人を実寸（1/12）で線画から描き直し、塗り直した。9-2 は手前の近さで説明できるので直していない。",
+      "rv.fixedIn": "gm1-ep01-finish@finish-ep01-v3（線画 ink-ep01-v3、ラフ rough-ep01-v2）"
+     }
+    },
+    {
+     "id": "RV-e01-05",
+     "values": {
+      "rv.target": "e01-p08-k1",
+      "rv.by": "AI",
+      "rv.when": "2026-11-14 通読",
+      "rv.text": "髪を留める杭が木の色でなく草の緑になっている。",
+      "rv.decision": "直す",
+      "rv.reason": "作者の判断（2026-11-14「おすすめです直して」、提案どおり）：直す。仕上げの塗りで、杭の中の小さな領域だけを木の茶色に塗り直した（finish-assets.py の REGION_FIX、線画はそのまま）。",
+      "rv.fixedIn": "gm1-ep01-finish@finish-ep01-v3（線画 ink-ep01-v3、ラフ rough-ep01-v2）"
+     }
+    },
+    {
+     "id": "RV-e01-06",
+     "values": {
+      "rv.target": "e01-p03-k1 e01-p11-k3",
+      "rv.by": "AI",
+      "rv.when": "2026-11-14 仕上げ",
+      "rv.text": "影がほとんど無いコマがある（仕上げのページ表の「影の無いコマ」）。",
+      "rv.decision": "直さない",
+      "rv.reason": "作者の判断（2026-11-14「おすすめです直して」、提案どおり）：直さない。昼の外の引きで、影が無くても読める。",
+      "rv.fixedIn": ""
+     }
+    },
+    {
+     "id": "RV-e01-07",
+     "values": {
+      "rv.target": "e01-p15-k1 e01-p15-k2",
+      "rv.by": "AI",
+      "rv.when": "2026-11-14 線画",
+      "rv.text": "15-1 は左脚だけが鎖につながれているのに、15-2 では両脚に鎖がある。",
+      "rv.decision": "直す",
+      "rv.reason": "作者の判断（2026-11-14「おすすめです直して」、提案どおり）：直す。15-2 を線画から描き直し、鎖を左脚だけにして（南京錠つき）、塗り直した。",
+      "rv.fixedIn": "gm1-ep01-finish@finish-ep01-v3（線画 ink-ep01-v3、ラフ rough-ep01-v2）"
+     }
+    },
+    {
+     "id": "RV-e01-08",
+     "values": {
+      "rv.target": "e01-p16-k1",
+      "rv.by": "AI",
+      "rv.when": "2026-11-14 通読",
+      "rv.text": "神殿の門の前に立つガリヴァーが、門と同じくらいの背に見える。門は本文で高さ4フィート（1,219 mm）、ガリヴァーは 1,750 mm。",
+      "rv.decision": "直さない",
+      "rv.reason": "作者の判断（2026-11-14「おすすめです直して」、提案どおり）：直さない。カメラが塔の上で遠く、門はガリヴァーの胸ほどに見えている。",
+      "rv.fixedIn": ""
+     }
+    },
+    {
+     "id": "RV-e01-09",
+     "values": {
+      "rv.target": "e01-p07-k2",
+      "rv.by": "AI",
+      "rv.when": "2026-11-14 通読",
+      "rv.text": "寝顔の大写しで、コマの右上が白い地のまま（背景を描き足した5コマと同じ様子）。",
+      "rv.decision": "直す",
+      "rv.reason": "作者の判断（2026-11-14「おすすめです直して」、提案どおり）：直す。夜空と星、草を線画（LY-04）に描き足し、夜の色で塗り直した。",
+      "rv.fixedIn": "gm1-ep01-finish@finish-ep01-v3（線画 ink-ep01-v3、ラフ rough-ep01-v2）"
+     }
+    },
+    {
+     "id": "RV-e01-10",
+     "values": {
+      "rv.target": "e01-p02-k2 e01-p02-k4",
+      "rv.by": "AI",
+      "rv.when": "2026-11-14 仕上げ",
+      "rv.text": "2-2 の馬の鼻先が栗毛、2-4 で男が向き合う馬は灰色。",
+      "rv.decision": "意図として残す",
+      "rv.reason": "二頭いる（灰と栗毛）。3D の舞台では栗毛の馬が手前で、2-2 はその鼻先。2-4 は灰の馬を正面から見る。",
+      "rv.fixedIn": ""
+     }
+    },
+    {
+     "id": "RV-e01-11",
+     "values": {
+      "rv.target": "e01-p01-k2 e01-p02-k6",
+      "rv.by": "AI",
+      "rv.when": "2026-11-14 通読",
+      "rv.text": "序（SC-001）は約5年後の場面で、2ページの終わりから過去（1699年）へ戻る。時の飛びは手記の語り（2-6 のナレーション）だけで示している。",
+      "rv.decision": "意図として残す",
+      "rv.reason": "脚本どおりの語りの仕掛け（構成図 FS-01、第24話で同じシーンを再び出して閉じる）。めくりの頭（3ページ）で年号のナレーションが入る。",
+      "rv.fixedIn": ""
+     }
+    },
+    {
+     "id": "RV-e01-12",
+     "values": {
+      "rv.target": "e01-p12-k3",
+      "rv.by": "AI",
+      "rv.when": "2026-11-14 直した版の見直し",
+      "rv.text": "描き直した 12-3 で、ネームの覚え書きの「放り投げた樽」がコマの上の外に出て見えない。",
+      "rv.decision": "直さない",
+      "rv.reason": "作者の判断（2026-11-14「直さない」）：直さない。台詞とナレーションは樽に触れておらず、前のコマ（12-2）で樽から飲んでいる。",
+      "rv.fixedIn": ""
+     }
+    }
+   ]
+  }
+ },
+ "versions": [
+  {
+   "artifactId": "gm1-ep01-read-findings",
+   "versionId": "read-ep01-v3",
+   "parentVersionId": null,
+   "schemaVersion": 1,
+   "createdAt": "2026-11-14T00:00:00.000Z",
+   "createdBy": null,
+   "reason": "ガリヴァー旅行記 第1話の通読（fiction-manga@1.3.0 通読：編集の記録。指摘の判断と完成の判断は作者）",
+   "content": {
+    "schemaVersion": 2,
+    "columns": [
+     {
+      "id": "rv.target",
+      "name": "対象（コマ・ページ・シーン・台詞の行）",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "rv.by",
+      "name": "出し手",
+      "type": "select",
+      "options": [
+       "作者",
+       "AI"
+      ],
+      "required": true
+     },
+     {
+      "id": "rv.when",
+      "name": "いつ・どの工程で",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "rv.text",
+      "name": "指摘",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "rv.decision",
+      "name": "判断",
+      "type": "select",
+      "options": [
+       "直す",
+       "直さない",
+       "意図として残す",
+       "作者の判断待ち"
+      ],
+      "required": true
+     },
+     {
+      "id": "rv.reason",
+      "name": "理由（判断待ちは AI の提案）",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "rv.fixedIn",
+      "name": "直した後の版",
+      "type": "text"
+     }
+    ],
+    "rows": [
+     {
+      "id": "RV-e01-01",
+      "values": {
+       "rv.target": "e01-p12-k5",
+       "rv.by": "作者",
+       "rv.when": "2026-11-14 線画の確認",
+       "rv.text": "顔が切れていて不自然。",
+       "rv.decision": "直す",
+       "rv.reason": "片目だけが大きく枠で切れ、端に草があった。3D のカメラの絵に合わせ、両目・眉・鼻の付け根を、耳と髪まで枠に入れて描き直した。",
+       "rv.fixedIn": "gm1-ep01-ink@ink-ep01-v1（PR #8）"
+      }
+     },
+     {
+      "id": "RV-e01-02",
+      "values": {
+       "rv.target": "e01-p02-k2 e01-p03-k4 e01-p06-k1 e01-p08-k4 e01-p11-k5",
+       "rv.by": "作者",
+       "rv.when": "2026-11-14 仕上げの確認",
+       "rv.text": "背景を描いて（背景が白いままのコマ）。",
+       "rv.decision": "直す",
+       "rv.reason": "背景の線を線画（LY-04）に描き足し、塗りと影を作り直した。人物の線と効果は変えていない。",
+       "rv.fixedIn": "gm1-ep01-finish@finish-ep01-v2（PR #9）"
+      }
+     },
+     {
+      "id": "RV-e01-03",
+      "values": {
+       "rv.target": "e01-p01-k1",
+       "rv.by": "AI",
+       "rv.when": "2026-11-14 通読",
+       "rv.text": "扉：胸の上の小人が弓の先しか見えず、題のコマで大きさの違い（AR-05）が伝わらない。",
+       "rv.decision": "直す",
+       "rv.reason": "作者の判断（2026-11-14「おすすめです直して」、提案どおり）：直す。舞台のカメラを胸の上の小人の後ろの少し上（胸から 300 mm）へ引き、ラフ・線画・仕上げを描き直した。手前に弓を引く小人たちの背中、奥にガリヴァーの顔。",
+       "rv.fixedIn": "gm1-ep01-finish@finish-ep01-v3（線画 ink-ep01-v3、ラフ rough-ep01-v2）"
+      }
+     },
+     {
+      "id": "RV-e01-04",
+      "values": {
+       "rv.target": "e01-p09-k2 e01-p12-k3",
+       "rv.by": "AI",
+       "rv.when": "2026-11-14 通読",
+       "rv.text": "小人が大きすぎる：9-2 の弓を引く小人と、12-3 で顔の周りに集まる小人が、ガリヴァーの顔とほぼ同じ大きさに見える（AR-01：1/12）。",
+       "rv.decision": "直す",
+       "rv.reason": "作者の判断（2026-11-14「おすすめです直して」、提案どおり）：12ページ3コマ（胸の上で踊る小人たち）を直す。小人を実寸（1/12）で線画から描き直し、塗り直した。9-2 は手前の近さで説明できるので直していない。",
+       "rv.fixedIn": "gm1-ep01-finish@finish-ep01-v3（線画 ink-ep01-v3、ラフ rough-ep01-v2）"
+      }
+     },
+     {
+      "id": "RV-e01-05",
+      "values": {
+       "rv.target": "e01-p08-k1",
+       "rv.by": "AI",
+       "rv.when": "2026-11-14 通読",
+       "rv.text": "髪を留める杭が木の色でなく草の緑になっている。",
+       "rv.decision": "直す",
+       "rv.reason": "作者の判断（2026-11-14「おすすめです直して」、提案どおり）：直す。仕上げの塗りで、杭の中の小さな領域だけを木の茶色に塗り直した（finish-assets.py の REGION_FIX、線画はそのまま）。",
+       "rv.fixedIn": "gm1-ep01-finish@finish-ep01-v3（線画 ink-ep01-v3、ラフ rough-ep01-v2）"
+      }
+     },
+     {
+      "id": "RV-e01-06",
+      "values": {
+       "rv.target": "e01-p03-k1 e01-p11-k3",
+       "rv.by": "AI",
+       "rv.when": "2026-11-14 仕上げ",
+       "rv.text": "影がほとんど無いコマがある（仕上げのページ表の「影の無いコマ」）。",
+       "rv.decision": "直さない",
+       "rv.reason": "作者の判断（2026-11-14「おすすめです直して」、提案どおり）：直さない。昼の外の引きで、影が無くても読める。",
+       "rv.fixedIn": ""
+      }
+     },
+     {
+      "id": "RV-e01-07",
+      "values": {
+       "rv.target": "e01-p15-k1 e01-p15-k2",
+       "rv.by": "AI",
+       "rv.when": "2026-11-14 線画",
+       "rv.text": "15-1 は左脚だけが鎖につながれているのに、15-2 では両脚に鎖がある。",
+       "rv.decision": "直す",
+       "rv.reason": "作者の判断（2026-11-14「おすすめです直して」、提案どおり）：直す。15-2 を線画から描き直し、鎖を左脚だけにして（南京錠つき）、塗り直した。",
+       "rv.fixedIn": "gm1-ep01-finish@finish-ep01-v3（線画 ink-ep01-v3、ラフ rough-ep01-v2）"
+      }
+     },
+     {
+      "id": "RV-e01-08",
+      "values": {
+       "rv.target": "e01-p16-k1",
+       "rv.by": "AI",
+       "rv.when": "2026-11-14 通読",
+       "rv.text": "神殿の門の前に立つガリヴァーが、門と同じくらいの背に見える。門は本文で高さ4フィート（1,219 mm）、ガリヴァーは 1,750 mm。",
+       "rv.decision": "直さない",
+       "rv.reason": "作者の判断（2026-11-14「おすすめです直して」、提案どおり）：直さない。カメラが塔の上で遠く、門はガリヴァーの胸ほどに見えている。",
+       "rv.fixedIn": ""
+      }
+     },
+     {
+      "id": "RV-e01-09",
+      "values": {
+       "rv.target": "e01-p07-k2",
+       "rv.by": "AI",
+       "rv.when": "2026-11-14 通読",
+       "rv.text": "寝顔の大写しで、コマの右上が白い地のまま（背景を描き足した5コマと同じ様子）。",
+       "rv.decision": "直す",
+       "rv.reason": "作者の判断（2026-11-14「おすすめです直して」、提案どおり）：直す。夜空と星、草を線画（LY-04）に描き足し、夜の色で塗り直した。",
+       "rv.fixedIn": "gm1-ep01-finish@finish-ep01-v3（線画 ink-ep01-v3、ラフ rough-ep01-v2）"
+      }
+     },
+     {
+      "id": "RV-e01-10",
+      "values": {
+       "rv.target": "e01-p02-k2 e01-p02-k4",
+       "rv.by": "AI",
+       "rv.when": "2026-11-14 仕上げ",
+       "rv.text": "2-2 の馬の鼻先が栗毛、2-4 で男が向き合う馬は灰色。",
+       "rv.decision": "意図として残す",
+       "rv.reason": "二頭いる（灰と栗毛）。3D の舞台では栗毛の馬が手前で、2-2 はその鼻先。2-4 は灰の馬を正面から見る。",
+       "rv.fixedIn": ""
+      }
+     },
+     {
+      "id": "RV-e01-11",
+      "values": {
+       "rv.target": "e01-p01-k2 e01-p02-k6",
+       "rv.by": "AI",
+       "rv.when": "2026-11-14 通読",
+       "rv.text": "序（SC-001）は約5年後の場面で、2ページの終わりから過去（1699年）へ戻る。時の飛びは手記の語り（2-6 のナレーション）だけで示している。",
+       "rv.decision": "意図として残す",
+       "rv.reason": "脚本どおりの語りの仕掛け（構成図 FS-01、第24話で同じシーンを再び出して閉じる）。めくりの頭（3ページ）で年号のナレーションが入る。",
+       "rv.fixedIn": ""
+      }
+     },
+     {
+      "id": "RV-e01-12",
+      "values": {
+       "rv.target": "e01-p12-k3",
+       "rv.by": "AI",
+       "rv.when": "2026-11-14 直した版の見直し",
+       "rv.text": "描き直した 12-3 で、ネームの覚え書きの「放り投げた樽」がコマの上の外に出て見えない。",
+       "rv.decision": "直さない",
+       "rv.reason": "作者の判断（2026-11-14「直さない」）：直さない。台詞とナレーションは樽に触れておらず、前のコマ（12-2）で樽から飲んでいる。",
+       "rv.fixedIn": ""
+      }
+     }
+    ]
+   },
+   "contentHash": "141ebc9b8d40338daa995dc9b3cdef3709f8a4e15e3a082941edc03bd2d5355a"
+  }
+ ]
+}

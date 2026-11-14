@@ -26,6 +26,7 @@ data = json.load(open(f'{ink}/ep01-ink.json'))
 # whole (2-2: the meadow-like ground hatching becomes the stable's straw, wall and roof).
 ADD_ONLY = {'e01-p06-k1', 'e01-p11-k5'}
 EMPTY = 12
+WHY = {'e01-p07-k2': "read-through 2026-11-14 (RV-e01-09, the author chose the proposed fix): the top right was left white"}
 sha = lambda p: hashlib.sha256(open(p, 'rb').read()).hexdigest()
 
 
@@ -34,7 +35,9 @@ def alpha(path, size=None):
     return np.asarray(a.resize(size, Image.LANCZOS) if size and a.size != size else a, np.float32)
 
 
+ONLY = os.environ.get('BG_ONLY', '').split(',') if os.environ.get('BG_ONLY') else None  # redo some panels only
 for pid in bgb.BG_NOTES:
+    if ONLY and pid not in ONLY: continue
     d = f'{root}/{pid}'
     if not os.path.exists(f'{d}/bg-raw.png'): print(pid, 'no bg-raw.png'); continue
     b = briefs[pid]
@@ -99,7 +102,7 @@ for pid in bgb.BG_NOTES:
     session = re.search(r'^session id: (.+)$', log, re.M)
     model = re.search(r'^model: (.+)$', log, re.M)
     p['background'] = {
-        'why': "author's finish review 2026-11-14: 「背景を描いて」 (the panel's background was left white)",
+        'why': WHY.get(pid, "author's finish review 2026-11-14: 「背景を描いて」 (the panel's background was left white)"),
         'prompt': f'prompts/{pid}-background.txt',
         'codexModel': model.group(1) if model else None,
         'codexSession': session.group(1) if session else None,

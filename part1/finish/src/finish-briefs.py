@@ -25,6 +25,9 @@ SETTING = {
     'e01-p06-k1': "The background is a storm just passing over the open sea: dark slate-grey storm clouds, grey rain streaks, grey-green sea.",
     'e01-p08-k4': "The background is a clear sunny morning in Lilliput: light blue sky, white clouds, distant trees and hills in soft greens with a little blue haze.",
     'e01-p11-k5': "The background is a clear sunny morning in Lilliput: light blue sky, white clouds, distant trees and hills in soft greens with a little blue haze.",
+    # 通読の直し（2026-11-14）
+    'e01-p07-k2': "It is night (the same night as the panel above, with the moon): a deep navy-blue night sky with small pale stars and thin grey-blue clouds, dark green grass in the moonlight; his skin and coat in cool moonlit tones. Paint the sky right up to the top edge (no white).",
+    'e01-p01-k1': "The cover: a bright sunny morning on the beach of Lilliput: light blue sky, pale sand, Gulliver's blue coat with brass buttons; the tiny Lilliputians in red, green, blue and mustard-yellow coats with white wigs, wooden bows. Paint the light blue sky right up to the top edge of the panel (no white band at the top).",
 }
 briefs = json.load(open(f'{root}/briefs.json'))
 for pid, b in briefs.items():

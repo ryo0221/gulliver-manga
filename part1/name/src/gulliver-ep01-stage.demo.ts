@@ -372,7 +372,9 @@ const SETS: SetDef[] = [
 const lie = (pose: Pose): Place => ({ fig: 'gulliver', at: [0, 0, 0], facing: 0, pose });
 const onChest = (fig: string, x: number, y: number, pose: Pose = 'stand', facing = Math.PI): Place => ({ fig, at: [x, y, 245], facing, pose });
 SETS[3]!.shots = [
-  { panel: 'e01-p01-k1', cam: [-30, -170, CHEST_EYE], look: [0, -700, 230], stand: 'chest', places: [lie('lie-look'), onChest('a1', 40, -300, 'archer'), onChest('a2', 60, -260), onChest('a3', -90, -230, 'archer'), onChest('a4', 20, -170), onChest('a5', -60, -100)], crowds: ['body40', 'ring'] },
+  // 通読の直し（RV-e01-03、2026-11-14）：小人の目の高さでは胸の上の小人が枠の外だった。小人の後ろの少し上（胸から 300 mm）へ引き、
+  // 小人の背中と弓を手前に、ガリヴァーの顔を奥に入れる。
+  { panel: 'e01-p01-k1', cam: [-30, 250, 245 + 300], look: [0, -650, 290], stand: 'chest', places: [lie('lie-look'), onChest('a1', 40, -300, 'archer'), onChest('a2', 60, -260), onChest('a3', -90, -230, 'archer'), onChest('a4', 20, -170), onChest('a5', -60, -100)], crowds: ['body40', 'ring'] },
   { panel: 'e01-p08-k1', cam: [-40, -760, 520], look: [-40, -700, 175], places: [lie('lie')], crowds: [] },
   { panel: 'e01-p08-k2', cam: [450, -150, 300], look: [0, -700, 200], places: [lie('lie')], crowds: [] },
   { panel: 'e01-p08-k3', cam: [-700, 450, 136], look: [-236, 150, 120], places: [lie('lie')], crowds: [] },

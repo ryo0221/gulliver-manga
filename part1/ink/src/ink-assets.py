@@ -50,8 +50,13 @@ def to_png(a, path):
     return os.path.getsize(path)
 
 
-panels = {}
+# INK_ONLY=<panel>,... redraws those panels only and keeps the rest of ep01-ink.json (e.g. the read-through fixes).
+ONLY = os.environ.get('INK_ONLY', '').split(',') if os.environ.get('INK_ONLY') else None
+REVISED = {'e01-p12-k3': 'RV-e01-04', 'e01-p15-k2': 'RV-e01-07', 'e01-p01-k1': 'RV-e01-03'}
+before = json.load(open(f'{out}/ep01-ink.json'))['panels'] if ONLY else {}
+panels = dict(before)
 for pid, b in briefs.items():
+    if ONLY and pid not in ONLY: continue
     d = f'{root}/{pid}'
     if not os.path.exists(f'{d}/ink-raw.png'): continue
     raw = Image.open(f'{d}/ink-raw.png').convert('RGB')
@@ -92,6 +97,8 @@ for pid, b in briefs.items():
         'frame': b['frame'],
         'refs': refs,
     }
+    if pid in before and REVISED.get(pid):
+        panels[pid]['revision'] = {'finding': REVISED[pid], 'date': '2026-11-14', 'previousRawSha256': before[pid]['rawSha256']}
     print(pid, {ly: v['share'] for ly, v in layers.items()}, sum(v['bytes'] for v in layers.values()) // 1024, 'KB')
 json.dump({'schemaVersion': 1, 'episode': 1, 'generatedAt': '2026-11-14', 'panels': panels}, open(f'{out}/ep01-ink.json', 'w'), ensure_ascii=False, indent=1)
 print(len(panels), 'panels')

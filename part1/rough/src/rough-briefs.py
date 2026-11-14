@@ -10,6 +10,14 @@ import json, math, os, sys
 from PIL import Image
 
 panels_path, stage_path, ul_dir, out = sys.argv[1:5]
+# 通読の直し（RV-e01-03、2026-11-14）：扉のカメラを、胸の上の小人の後ろの少し上へ引いた（stage の ep01-stage.json の revised）。
+# ネームのカメラの覚え書きはこの直しの前のまま。
+REVISED_CAMERA = {
+    'e01-p01-k1': {'nm.eye': '胸の上の小人たちの後ろの少し上', 'nm.mm': 545, 'nm.look': '胸の上に並ぶ小人たちの背中と弓の向こうに、横たわるガリヴァーの顎と顔'},
+}
+REVISED_NOTE = {
+    'e01-p01-k1': "Correction after the read-through (the cover): the Lilliputians standing on Gulliver's chest must be clearly SEEN, as the cover's subject: in the foreground several tiny archers and men seen from behind, full figures from head to feet, bows drawn and quivers on their backs, standing on the blue coat with its brass buttons; beyond them, up the slope of his chest, Gulliver's chin and face (eyes open, looking down along his body in astonishment), his hair tied to the sand. The Lilliputians are 1/12 of his size: a whole man is about as tall as Gulliver's face. Beach sand and the sky beyond.",
+}
 rows = {r['id']: r['values'] for r in json.load(open(panels_path))['draft']['content']['rows']}
 stage = json.load(open(stage_path))
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../..'))
@@ -125,6 +133,7 @@ for p in stage['panels']:
     json.dump({'canvas': [cw, ch], 'panel': [ox, oy, pw, ph], 'underlay': [W, H]}, open(f'{out}/{pid}/frame.json', 'w'))
     noframe = '' if (ox, oy) == (0, 0) else ' The flat grey bands at the edges of the FIRST image are padding outside the panel: continue the scene into them, nothing important there.'
     text = v['nm.text'].replace(' / ', '\n  ') or '(no words)'
+    if pid in REVISED_CAMERA: v = {**v, **REVISED_CAMERA[pid]}
     brief = f"""Panel {pid}, page {v['nm.page']} panel {v['nm.order']}, scene {v['nm.scene']}.
 Shot: {v['nm.shot']}. Camera: {v['nm.eye']}, {v['nm.mm']} mm above the ground{' (standing on: ' + v['nm.stand'] + ')' if v['nm.stand'] else ''}; {v['nm.look']}.
 What the panel shows (storyboard memo): {v['nm.art']}
@@ -132,6 +141,7 @@ Words in this panel (for the mood and the faces only, do NOT draw any text): {te
 Figures, placed by the 3D layout (keep these places, facings and poses; draw each with a readable face direction, pose and expression):
 {chr(10).join(figs) if figs else '- no figures'}
 The FIRST image is the 3D layout render from this camera: figures there are blocky stand-ins, ground/sea/walls are flat placeholders.{noframe}"""
+    if pid in REVISED_NOTE: brief += '\n' + REVISED_NOTE[pid]
     if p.get('noModel'):
         brief += f"\nThis place has only a placeholder 3D model: {p['noModel']}"
     open(f'{out}/{pid}/brief.txt', 'w').write(brief)

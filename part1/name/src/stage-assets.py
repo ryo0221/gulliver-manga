@@ -3,15 +3,18 @@
 ネーム's inputs: each panel's camera view cropped to its frame (stage/underlay/*.jpg), a top-view
 plan per panel (stage/plans/*.svg) and one record per panel (stage/ep01-stage.json).
 
-usage: stage-assets.py STAGE_OUT NAME_DESIGN_ARTIFACT OUT_DIR
+usage: stage-assets.py STAGE_OUT NAME_DESIGN_ARTIFACT OUT_DIR [EPISODE]
+EPISODE (default 1) picks the sets and names the record stage/epNN-stage.json.
 """
 import glob, json, math, os, shutil, sys
 from PIL import Image
 
 stage_dir, design_path, out = sys.argv[1:4]
 VFOV = 35.0  # the character view's PerspectiveCamera (fixed vertical field of view)
-WHO = {'CH-01': 'ガリヴァー', 'CH-10': 'メアリー', 'CH-02': '皇帝', 'CH-30': '小人', 'EX': '端役', 'horse': '馬'}
-SETS = ['stable', 'port', 'sea', 'beach', 'temple']
+EPISODE = int(sys.argv[4]) if len(sys.argv) > 4 else 1
+WHO = {'CH-01': 'ガリヴァー', 'CH-10': 'メアリー', 'CH-02': '皇帝', 'CH-03': '皇后', 'CH-04': 'フリムナップ', 'CH-06': 'ボルゴラム', 'CH-30': '小人', 'EX': '端役', 'horse': '馬'}
+SETS = {1: ['stable', 'port', 'sea', 'beach', 'temple'], 2: ['court', 'council', 'city']}[EPISODE]
+if os.environ.get('STAGE_SETS'): SETS = os.environ['STAGE_SETS'].split(',')  # a re-run of some sets only
 
 design = json.load(open(design_path))['draft']['content']
 panels = {e['id']: e for e in design['elements'] if e.get('panelGeometry')}
@@ -125,6 +128,11 @@ def plan_svg(set_rec, shot, hfov, crowd_pts):
 
 records = {}
 sets = {}
+# A partial re-run (STAGE_SETS) keeps the other sets' records of the existing episode record.
+if os.environ.get('STAGE_SETS') and os.path.exists(f'{out}/ep{EPISODE:02d}-stage.json'):
+    old = json.load(open(f'{out}/ep{EPISODE:02d}-stage.json'))
+    sets = {k: v for k, v in old['sets'].items() if k not in SETS}
+    records = {r['panel']: r for r in old['panels'] if r['set'] not in SETS}
 for sid in SETS:
     st = json.load(open(f'{stage_dir}/{sid}/stage.json'))
     s = st['set']
@@ -174,7 +182,7 @@ for sid in SETS:
         rec['plan'] = f'plans/{pid}.svg'
         records[pid] = rec
 
-json.dump({'schemaVersion': 1, 'episode': 1, 'verticalFovDeg': VFOV, 'sets': sets,
+json.dump({'schemaVersion': 1, 'episode': EPISODE, 'verticalFovDeg': VFOV, 'sets': sets,
            'panels': [records[k] for k in sorted(records)]},
-          open(f'{out}/ep01-stage.json', 'w'), ensure_ascii=False, indent=1)
+          open(f'{out}/ep{EPISODE:02d}-stage.json', 'w'), ensure_ascii=False, indent=1)
 print(len(records), 'panels')

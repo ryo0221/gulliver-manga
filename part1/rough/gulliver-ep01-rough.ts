@@ -189,7 +189,7 @@ function figureTable(records: PanelRecord[], stage: EpisodeStage, rough: Episode
 // ---------------------------------------------------------------- 資料
 
 const stamp = '2026-11-14T00:00:00.000Z';
-const VERSION = 'rough-ep01-v1';
+const VERSION = 'rough-ep01-v2';
 async function native(kind: string, id: string, name: string, content: unknown) {
   const artifact: Artifact<unknown> = {
     schemaVersion: 1,

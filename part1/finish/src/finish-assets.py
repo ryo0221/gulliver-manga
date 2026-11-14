@@ -113,12 +113,40 @@ def register(ref, lines):
     return cv2.remap(ref.astype(np.float32), gx + flow[..., 0], gy + flow[..., 1], cv2.INTER_LINEAR, borderMode=cv2.BORDER_REPLICATE)
 
 
+# 通読の直し（RV-e01-05、2026-11-14）：8-1 は人物の線だけで塗らせたので（FIGURE_ONLY）、髪を留める杭まで草の緑になった。
+# 杭の中心（線画の座標、長い辺 900 px）の近くの、線に囲まれた小さな領域だけを木の茶色に塗り直す。
+REGION_FIX = {
+    'e01-p08-k1': {'what': '髪を留める4本の杭を木の茶色に', 'rgb': (150, 105, 60),
+                   'at': [(143, 257), (737, 257), (143, 430), (707, 443)], 'near': (16, 24), 'maxArea': 700},
+}
+
+
+def region_fix(pid, fill, lines):
+    fx = REGION_FIX[pid]
+    ink_all = np.maximum.reduce([lines[k] for k in lines])
+    labels, n = ndi.label(~ndi.binary_dilation(ink_all > 70, iterations=1))
+    sizes = ndi.sum(np.ones_like(labels), labels, index=np.arange(n + 1))
+    centres = ndi.center_of_mass(np.ones_like(labels), labels, index=np.arange(n + 1))
+    nx, ny = fx['near']
+    sel = np.zeros(n + 1, bool)
+    for x, y in fx['at']:
+        for lab in np.unique(labels[max(0, y - 30):y + 30, max(0, x - 30):x + 30]):
+            if lab and sizes[lab] < fx['maxArea'] and abs(centres[lab][1] - x) < nx and abs(centres[lab][0] - y) < ny: sel[lab] = True
+    mask = sel[labels]
+    fill[mask] = fx['rgb']
+    return int(mask.sum())
+
 def rgba(rgb, alpha):
     return Image.fromarray(np.dstack([rgb, (alpha * 255).astype(np.uint8)]), 'RGBA')
 
 
-panels = {}
+# FINISH_ONLY=<panel>,... recolours those panels only and keeps the rest of ep01-finish.json.
+ONLY = os.environ.get('FINISH_ONLY', '').split(',') if os.environ.get('FINISH_ONLY') else None
+REVISED = {'e01-p01-k1': 'RV-e01-03', 'e01-p12-k3': 'RV-e01-04', 'e01-p08-k1': 'RV-e01-05', 'e01-p15-k2': 'RV-e01-07', 'e01-p07-k2': 'RV-e01-09'}
+before = json.load(open(f'{out}/ep01-finish.json'))['panels'] if ONLY else {}
+panels = dict(before)
 for pid, b in briefs.items():
+    if ONLY and pid not in ONLY: continue
     d = f'{root}/{pid}'
     if not os.path.exists(f'{d}/color-raw.png'): continue
     ip = inkdata['panels'][pid]
@@ -130,6 +158,7 @@ for pid, b in briefs.items():
     ref = np.array(raw.crop((round(ox * sx), round(oy * sy), round((ox + pw) * sx), round((oy + ph) * sy))).resize((W, H), Image.LANCZOS), np.float32)
     ref = register(ref, lines)
     fill, figmask, shadow = split(ref, lines)
+    fixed = region_fix(pid, fill, lines) if pid in REGION_FIX else None
     files = {}
     for ly, img in (('LY-03', rgba(fill, (~figmask).astype(np.float32))), ('LY-05', rgba(fill, figmask.astype(np.float32))),
                     ('LY-06', rgba(np.broadcast_to(np.array(SHADOW_TONE, np.uint8), (H, W, 3)), shadow))):
@@ -161,6 +190,9 @@ for pid, b in briefs.items():
         'codexSession': session.group(1) if session else None, 'rawSha256': sha(f'{d}/color-raw.png'), 'rawSize': [raw.width, raw.height],
         'refs': refs,
     }
+    if pid in before and REVISED.get(pid):
+        panels[pid]['revision'] = {'finding': REVISED[pid], 'date': '2026-11-14', 'previousRawSha256': before[pid]['rawSha256']}
+    if fixed is not None: panels[pid]['regionFix'] = {'what': REGION_FIX[pid]['what'], 'rgb': list(REGION_FIX[pid]['rgb']), 'pixels': fixed, 'finding': 'RV-e01-05'}
     print(pid, files['LY-05']['share'], files['LY-06']['share'], sum(v['bytes'] for v in files.values()) // 1024, 'KB')
 json.dump({'schemaVersion': 1, 'episode': 1, 'generatedAt': '2026-11-14', 'panels': panels}, open(f'{out}/ep01-finish.json', 'w'), ensure_ascii=False, indent=1)
 print(len(panels), 'panels')

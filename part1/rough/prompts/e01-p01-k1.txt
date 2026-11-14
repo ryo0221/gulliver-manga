@@ -9,16 +9,17 @@ No likeness to any film, game or existing illustration. No text, no letters, no 
 Square 1024x1024.
 
 Panel e01-p01-k1, page 1 panel 1, scene SC-001.
-Shot: 大引き. Camera: 小人の目の高さ, 381 mm above the ground (standing on: 仰向けのガリヴァーの胸（3D の体 F107 で測った高さ：地面から 245 mm）); 胸の上の小人の後ろから、横たわるガリヴァーの顎と顔を見上げる。手前に小人の背中と弓.
+Shot: 大引き. Camera: 胸の上の小人たちの後ろの少し上, 545 mm above the ground (standing on: 仰向けのガリヴァーの胸（3D の体 F107 で測った高さ：地面から 245 mm）); 胸の上に並ぶ小人たちの背中と弓の向こうに、横たわるガリヴァーの顎と顔.
 What the panel shows (storyboard memo): 扉。浜に縛られて横たわるガリヴァーと、胸の上に立つ小人たち。
 Words in this panel (for the mood and the faces only, do NOT draw any text): (no words)
 Figures, placed by the 3D layout (keep these places, facings and poses; draw each with a readable face direction, pose and expression):
-- FG-e01-p01-k1-01 ガリヴァー — Gulliver (CH-01): 1,750 mm, plain blue coat with brass buttons and NO gold trim, tan breeches, white stockings, black shoes, brown hair tied back; lying on his back, eyes looking down along his body; head at middle-centre of the frame (x 52%, y 51%), feet at behind the camera (not drawn); 735 mm from the camera.
-- FG-e01-p01-k1-02 最初の小人（弓と矢筒） — a Lilliputian (CH-30): 146 mm tall, 1/12 of Gulliver; drawing a bow; outside the frame (at most a cut-off sliver at the frame edge), back to the camera; 148 mm from the camera.
-- FG-e01-p01-k1-03 胸の小人2 — a Lilliputian (CH-30): 146 mm tall, 1/12 of Gulliver; standing; outside the frame (at most a cut-off sliver at the frame edge), back to the camera; 127 mm from the camera.
-- FG-e01-p01-k1-04 胸の小人3 — a Lilliputian (CH-30): 146 mm tall, 1/12 of Gulliver; drawing a bow; outside the frame (at most a cut-off sliver at the frame edge), back to the camera; 85 mm from the camera.
-- FG-e01-p01-k1-05 胸の小人4 — a Lilliputian (CH-30): 146 mm tall, 1/12 of Gulliver; standing; outside the frame (at most a cut-off sliver at the frame edge), in profile, facing frame right; 50 mm from the camera.
-- FG-e01-p01-k1-06 胸の小人5 — a Lilliputian (CH-30): 146 mm tall, 1/12 of Gulliver; standing; outside the frame (at most a cut-off sliver at the frame edge), facing the camera; 76 mm from the camera.
+- FG-e01-p01-k1-01 ガリヴァー — Gulliver (CH-01): 1,750 mm, plain blue coat with brass buttons and NO gold trim, tan breeches, white stockings, black shoes, brown hair tied back; lying on his back, eyes looking down along his body; head at middle-centre of the frame (x 51%, y 57%), feet at behind the camera (not drawn); 1185 mm from the camera.
+- FG-e01-p01-k1-02 最初の小人（弓と矢筒） — a Lilliputian (CH-30): 146 mm tall, 1/12 of Gulliver; drawing a bow; head at middle-centre of the frame (x 35%, y 52%), back to the camera; 578 mm from the camera.
+- FG-e01-p01-k1-03 胸の小人2 — a Lilliputian (CH-30): 146 mm tall, 1/12 of Gulliver; standing; head at middle-left of the frame (x 28%, y 55%), back to the camera; 543 mm from the camera.
+- FG-e01-p01-k1-04 胸の小人3 — a Lilliputian (CH-30): 146 mm tall, 1/12 of Gulliver; drawing a bow; head at middle-right of the frame (x 75%, y 59%), back to the camera; 511 mm from the camera.
+- FG-e01-p01-k1-05 胸の小人4 — a Lilliputian (CH-30): 146 mm tall, 1/12 of Gulliver; standing; head at middle-centre of the frame (x 37%, y 65%), back to the camera; 454 mm from the camera.
+- FG-e01-p01-k1-06 胸の小人5 — a Lilliputian (CH-30): 146 mm tall, 1/12 of Gulliver; standing; head at bottom-right of the frame (x 68%, y 76%), back to the camera; 388 mm from the camera.
 The FIRST image is the 3D layout render from this camera: figures there are blocky stand-ins, ground/sea/walls are flat placeholders. The flat grey bands at the edges of the FIRST image are padding outside the panel: continue the scene into them, nothing important there.
+Correction after the read-through (the cover): the Lilliputians standing on Gulliver's chest must be clearly SEEN, as the cover's subject: in the foreground several tiny archers and men seen from behind, full figures from head to feet, bows drawn and quivers on their backs, standing on the blue coat with its brass buttons; beyond them, up the slope of his chest, Gulliver's chin and face (eyes open, looking down along his body in astonishment), his hair tied to the sand. The Lilliputians are 1/12 of his size: a whole man is about as tall as Gulliver's face. Beach sand and the sky beyond.
 
 After generating, copy the generated PNG to ./raw.png in the current directory. Do not generate more than one image.

@@ -1,7 +1,7 @@
 /**
  * ガリヴァー旅行記 第1話「人の山」の線画。工程定義 fiction-manga@1.3.0 の「線画」（ページごと）の成果物。
  *
- * - ラフ（gm1-ep01-rough@rough-ep01-v1）と同じページとコマ（PN の ID はそのまま）の Design 原稿。
+ * - ラフ（gm1-ep01-rough@rough-ep01-v2）と同じページとコマ（PN の ID はそのまま）の Design 原稿。
  *   コマごとに、画作りガイドのレイヤー LY-01 下絵（3D）・LY-02 アタリ（ラフ絵）を隠して残し、その上に
  *   LY-04 背景の線画・LY-07 人物の線画・LY-08 効果のグループを作る。吹き出しとナレーションの枠（LY-09）は
  *   ラフのまま、一つずつエディタで動かせるグループ。
@@ -38,7 +38,7 @@ export type EpisodeInk = { schemaVersion: 1; episode: number; generatedAt: strin
 export type InkInput = { data: EpisodeInk; images: Record<string, string> };
 
 /** ラフの固定した版（線画のもと）。 */
-export const ROUGH_VERSION = 'gm1-ep01-rough@rough-ep01-v1';
+export const ROUGH_VERSION = 'gm1-ep01-rough@rough-ep01-v2';
 /** 画作りガイドの決まりで、線画の段階に要るレイヤー。LY-01 と LY-02 は隠して残す。 */
 export const INK_STAGE_LAYERS = ['LY-04', 'LY-07', 'LY-08'] as const satisfies readonly string[];
 const LICENSE = 'OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う';
@@ -154,7 +154,7 @@ export const FX_MIN_SHARE = 0.005;
 // ---------------------------------------------------------------- 資料
 
 const stamp = '2026-11-14T00:00:00.000Z';
-const VERSION = 'ink-ep01-v2';
+const VERSION = 'ink-ep01-v3';
 async function native(kind: string, id: string, name: string, content: unknown) {
   const artifact: Artifact<unknown> = {
     schemaVersion: 1,

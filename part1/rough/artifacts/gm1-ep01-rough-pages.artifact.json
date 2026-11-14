@@ -7,7 +7,7 @@
   "source": "created"
  },
  "draft": {
-  "baseVersionId": "rough-ep01-v1",
+  "baseVersionId": "rough-ep01-v2",
   "updatedAt": "2026-11-14T00:00:00.000Z",
   "content": {
    "schemaVersion": 2,
@@ -85,7 +85,7 @@
       "rf.scene": "SC-001",
       "rf.panels": "e01-p01-k1 e01-p01-k2",
       "rf.method": "3D の下絵（ネームの舞台とカメラ）＋ AI の画像生成（Codex）。人物と背景の位置は 3D の舞台で決めたまま",
-      "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@fc566203 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-30 小人の設定画（正面）（gulliver-manga@fc566203 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
+      "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7ef7bae3 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-30 小人の設定画（正面）（gulliver-manga@7ef7bae3 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
       "rf.samples": "SM-03 実寸の建物と物・SM-04 人物と馬の体（main 40645e80 の見本）。3D の舞台：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d、舞台 stable artifact_6cdd509d-17e7-4aa9-ae3f-a0dd5fec7ee8@version_7d4d268a-57e4-4ca7-81ce-43f816b0289a",
       "rf.layers": "LY-01 下絵（3D）、LY-02 アタリ（ラフ絵）、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "rf.layerNotes": "LY-02 アタリに、人物と背景の位置を一枚に描いたラフ絵を入れた（画作りガイドのラフのレイヤーに背景の位置の層が無く、Codex は 1 コマを 1 枚で描くため。線画で LY-04 と LY-07 に分ける）。「メモ」はネームのタグと絵のメモで、決まりの外。ラフの指示として残し、書き出しでは隠す。台詞とナレーションの文字（LY-10）は、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。写植で分ける。LY-01・LY-02・メモは、吹き出しを動かすときに一緒に動かないよう固定した。吹き出しと枠は、ラフ絵の線の濃いところと 3D のカメラに写る人物の頭を避けて置いた（rough.lettering-clear）。",
@@ -340,7 +340,7 @@
  "versions": [
   {
    "artifactId": "gm1-ep01-rough-pages",
-   "versionId": "rough-ep01-v1",
+   "versionId": "rough-ep01-v2",
    "parentVersionId": null,
    "schemaVersion": 1,
    "createdAt": "2026-11-14T00:00:00.000Z",
@@ -422,7 +422,7 @@
        "rf.scene": "SC-001",
        "rf.panels": "e01-p01-k1 e01-p01-k2",
        "rf.method": "3D の下絵（ネームの舞台とカメラ）＋ AI の画像生成（Codex）。人物と背景の位置は 3D の舞台で決めたまま",
-       "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@fc566203 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-30 小人の設定画（正面）（gulliver-manga@fc566203 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
+       "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7ef7bae3 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-30 小人の設定画（正面）（gulliver-manga@7ef7bae3 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
        "rf.samples": "SM-03 実寸の建物と物・SM-04 人物と馬の体（main 40645e80 の見本）。3D の舞台：舞台 beach artifact_b2b932b4-236e-47ca-a2d9-60c64230b932@version_8c06df23-6f18-425e-9ec8-527a0728443d、舞台 stable artifact_6cdd509d-17e7-4aa9-ae3f-a0dd5fec7ee8@version_7d4d268a-57e4-4ca7-81ce-43f816b0289a",
        "rf.layers": "LY-01 下絵（3D）、LY-02 アタリ（ラフ絵）、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "rf.layerNotes": "LY-02 アタリに、人物と背景の位置を一枚に描いたラフ絵を入れた（画作りガイドのラフのレイヤーに背景の位置の層が無く、Codex は 1 コマを 1 枚で描くため。線画で LY-04 と LY-07 に分ける）。「メモ」はネームのタグと絵のメモで、決まりの外。ラフの指示として残し、書き出しでは隠す。台詞とナレーションの文字（LY-10）は、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。写植で分ける。LY-01・LY-02・メモは、吹き出しを動かすときに一緒に動かないよう固定した。吹き出しと枠は、ラフ絵の線の濃いところと 3D のカメラに写る人物の頭を避けて置いた（rough.lettering-clear）。",
@@ -673,7 +673,7 @@
      }
     ]
    },
-   "contentHash": "55d9a0f57dd39cba4f3b08ef3f02c25304f61c5df83c0d89ba29af426195e4ed"
+   "contentHash": "ea51377380470957ed8593214b8fd2e5a5f93aa4d90c181403fdb8075f7fdad6"
   }
  ]
 }

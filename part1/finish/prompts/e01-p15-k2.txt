@@ -13,5 +13,6 @@ What the panel shows (storyboard memo): どよめく群衆。
 Words in this panel (for the mood and the faces only, do NOT draw any text): 台詞（小人たち）：ヘキナ・デグル！
 Figures, placed by the 3D layout (as placed in the rough and the 3D layout: keep these places, facings and poses; draw each with a readable face direction, pose and expression):
 - FG-e01-p15-k2-01 ガリヴァー — Gulliver (CH-01): 1,750 mm, plain blue coat with brass buttons and NO gold trim, tan breeches, white stockings, black shoes, brown hair tied back; standing; big in the foreground, head cut off by the frame edge, body at top-left of the frame (x 13%, y -4%), three-quarter view toward the camera, turned to frame right; 3609 mm from the camera.
+Line-art correction after the author's rough review: Read-through correction (RV-e01-07): only Gulliver's LEFT leg is chained (the text: 91 chains fixed to his left leg with 36 padlocks), as in the panel before. Draw the chain and the shackle ONLY on his left ankle (the leg toward frame right), running to the ring in the temple wall; his right ankle (toward frame left) is free: no shackle, no chain, no ring line to it.
 
 After generating, copy the generated PNG to ./color-raw.png in the current directory. Do not generate more than one image.

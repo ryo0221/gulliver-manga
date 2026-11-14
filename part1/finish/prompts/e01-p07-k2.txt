@@ -12,5 +12,6 @@ What the panel shows (storyboard memo): 頬のそばの短い柔らかな草。�
 Words in this panel (for the mood and the faces only, do NOT draw any text): (no words)
 Figures, placed by the 3D layout (as placed in the rough and the 3D layout: keep these places, facings and poses; draw each with a readable face direction, pose and expression):
 - FG-e01-p07-k2-01 ガリヴァー — Gulliver (CH-01): 1,750 mm, plain blue coat with brass buttons and NO gold trim, tan breeches, white stockings, black shoes, brown hair tied back; lying flat on his back; head at top-right of the frame (x 104%, y 28%), feet at outside the frame; 458 mm from the camera.
+It is night (the same night as the panel above, with the moon): a deep navy-blue night sky with small pale stars and thin grey-blue clouds, dark green grass in the moonlight; his skin and coat in cool moonlit tones. Paint the sky right up to the top edge (no white).
 
 After generating, copy the generated PNG to ./color-raw.png in the current directory. Do not generate more than one image.

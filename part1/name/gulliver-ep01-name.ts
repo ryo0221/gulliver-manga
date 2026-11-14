@@ -63,21 +63,21 @@ export type Camera = { eye: Eye; mm: number; look: string; stand?: Stand };
 /** 小人の目の高さ（実寸）。ガリヴァーの目 1,630 mm の 1/12。 */
 export const LILLIPUT_EYE = 136;
 /** 小人の目。台の上に立つときは、台の高さに目の高さを足す。数を渡すと、地面すれすれの低いカメラ。 */
-const L = (look: string, at?: number | Stand): Camera =>
+export const L = (look: string, at?: number | Stand): Camera =>
   typeof at === 'number'
     ? { eye: 'L', mm: at, look }
     : at
       ? { eye: 'L', mm: at.mm + LILLIPUT_EYE, look, stand: at }
       : { eye: 'L', mm: LILLIPUT_EYE, look };
-const CHEST: Stand = { on: '仰向けのガリヴァーの胸（3D の体 F107 で測った高さ：地面から 245 mm）', mm: 245 };
-const TURRET: Stand = { on: '神殿の向かいの塔の見晴らし台（本文：5フィート以上、1,524 mm）', mm: 1524 };
-const CITY_WALL: Stand = { on: '都の城壁（本文：2フィート半、762 mm）', mm: 762 };
+export const CHEST: Stand = { on: '仰向けのガリヴァーの胸（3D の体 F107 で測った高さ：地面から 245 mm）', mm: 245 };
+export const TURRET: Stand = { on: '神殿の向かいの塔の見晴らし台（本文：5フィート以上、1,524 mm）', mm: 1524 };
+export const CITY_WALL: Stand = { on: '都の城壁（本文：2フィート半、762 mm）', mm: 762 };
 const LOOKOUT: Stand = { on: '見張りの柱（創作：1,064 mm）', mm: 1064 };
 const SMITH: Stand = { on: '鍛冶の足場（創作：100 mm）', mm: 100 };
-const G = (look: string, mm = 1630): Camera => ({ eye: 'G', mm, look });
-const E = (look: string, mm = 1600): Camera => ({ eye: 'E', mm, look });
-const H = (look: string, mm: number): Camera => ({ eye: 'H', mm, look });
-const W = (look: string, mm = 300): Camera => ({ eye: 'W', mm, look });
+export const G = (look: string, mm = 1630): Camera => ({ eye: 'G', mm, look });
+export const E = (look: string, mm = 1600): Camera => ({ eye: 'E', mm, look });
+export const H = (look: string, mm: number): Camera => ({ eye: 'H', mm, look });
+export const W = (look: string, mm = 300): Camera => ({ eye: 'W', mm, look });
 
 /** 3D の舞台（fiction-manga@1.2.0 storyboard.staged）。座標はモデルの版の座標（mm、z が上、北が +y）。 */
 export type V3 = [number, number, number];
@@ -1071,23 +1071,23 @@ export function buildEpisodeName(episode = 1, pages = EP01_NAME, stage?: StageIn
 
 const stamp = '2026-11-14T00:00:00.000Z';
 const VERSION = 'name-ep01-v2';
-async function native(kind: string, id: string, name: string, content: unknown) {
+export async function native(kind: string, id: string, name: string, content: unknown, version = VERSION, reason = 'ガリヴァー旅行記 第1話のネーム（fiction-manga@1.2.0 ネーム、3D の舞台で組んだ AI の提案）') {
   const artifact: Artifact<unknown> = {
     schemaVersion: 1,
     id,
     name,
     kind,
     provenance: { source: 'created' },
-    draft: { baseVersionId: VERSION, updatedAt: stamp, content: structuredClone(content) },
+    draft: { baseVersionId: version, updatedAt: stamp, content: structuredClone(content) },
     versions: [
       {
         artifactId: id,
-        versionId: VERSION,
+        versionId: version,
         parentVersionId: null,
         schemaVersion: 1,
         createdAt: stamp,
         createdBy: null,
-        reason: 'ガリヴァー旅行記 第1話のネーム（fiction-manga@1.2.0 ネーム、3D の舞台で組んだ AI の提案）',
+        reason,
         content,
         contentHash: await contentHash(content),
       },
@@ -1097,7 +1097,7 @@ async function native(kind: string, id: string, name: string, content: unknown) 
 }
 
 const xyz = (v: V3) => `(${v.map((n) => Math.round(n)).join(', ')})`;
-function panelTable(records: PanelRecord[], pages: NamePage[], stage?: EpisodeStage): StructuredData {
+export function panelTable(records: PanelRecord[], pages: NamePage[], stage?: EpisodeStage): StructuredData {
   const staged = (id: string) => stage?.panels.find((x) => x.panel === id);
   const kinds = { N: 'ナレーション', D: '台詞', T: 'ト書き', S: '擬音' } as const;
   return {

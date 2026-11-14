@@ -7,7 +7,7 @@
   "source": "created"
  },
  "draft": {
-  "baseVersionId": "rough-ep01-v1",
+  "baseVersionId": "rough-ep01-v2",
   "updatedAt": "2026-11-14T00:00:00.000Z",
   "content": {
    "schemaVersion": 2,
@@ -75,7 +75,7 @@
       "rf.pose": "lie-look",
       "rf.drawn": true,
       "rf.drawing": "ラフ絵 e01-p01-k1（panels/e01-p01-k1.jpg）",
-      "rf.where": "head at middle-centre of the frame (x 52%, y 51%), feet at behind the camera (not drawn)",
+      "rf.where": "head at middle-centre of the frame (x 51%, y 57%), feet at behind the camera (not drawn)",
       "rf.note": ""
      }
     },
@@ -87,10 +87,10 @@
       "rf.ch": "CH-30",
       "rf.name": "最初の小人（弓と矢筒）",
       "rf.pose": "archer",
-      "rf.drawn": false,
-      "rf.drawing": "",
-      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
-      "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p01-k1（panels/e01-p01-k1.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 35%, y 52%)",
+      "rf.note": ""
      }
     },
     {
@@ -101,10 +101,10 @@
       "rf.ch": "CH-30",
       "rf.name": "胸の小人2",
       "rf.pose": "stand",
-      "rf.drawn": false,
-      "rf.drawing": "",
-      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
-      "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p01-k1（panels/e01-p01-k1.jpg）",
+      "rf.where": "head at middle-left of the frame (x 28%, y 55%)",
+      "rf.note": ""
      }
     },
     {
@@ -115,10 +115,10 @@
       "rf.ch": "CH-30",
       "rf.name": "胸の小人3",
       "rf.pose": "archer",
-      "rf.drawn": false,
-      "rf.drawing": "",
-      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
-      "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p01-k1（panels/e01-p01-k1.jpg）",
+      "rf.where": "head at middle-right of the frame (x 75%, y 59%)",
+      "rf.note": ""
      }
     },
     {
@@ -129,10 +129,10 @@
       "rf.ch": "CH-30",
       "rf.name": "胸の小人4",
       "rf.pose": "stand",
-      "rf.drawn": false,
-      "rf.drawing": "",
-      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
-      "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p01-k1（panels/e01-p01-k1.jpg）",
+      "rf.where": "head at middle-centre of the frame (x 37%, y 65%)",
+      "rf.note": ""
      }
     },
     {
@@ -143,10 +143,10 @@
       "rf.ch": "CH-30",
       "rf.name": "胸の小人5",
       "rf.pose": "stand",
-      "rf.drawn": false,
-      "rf.drawing": "",
-      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
-      "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e01-p01-k1（panels/e01-p01-k1.jpg）",
+      "rf.where": "head at bottom-right of the frame (x 68%, y 76%)",
+      "rf.note": ""
      }
     },
     {
@@ -1961,7 +1961,7 @@
  "versions": [
   {
    "artifactId": "gm1-ep01-rough-figures",
-   "versionId": "rough-ep01-v1",
+   "versionId": "rough-ep01-v2",
    "parentVersionId": null,
    "schemaVersion": 1,
    "createdAt": "2026-11-14T00:00:00.000Z",
@@ -2033,7 +2033,7 @@
        "rf.pose": "lie-look",
        "rf.drawn": true,
        "rf.drawing": "ラフ絵 e01-p01-k1（panels/e01-p01-k1.jpg）",
-       "rf.where": "head at middle-centre of the frame (x 52%, y 51%), feet at behind the camera (not drawn)",
+       "rf.where": "head at middle-centre of the frame (x 51%, y 57%), feet at behind the camera (not drawn)",
        "rf.note": ""
       }
      },
@@ -2045,10 +2045,10 @@
        "rf.ch": "CH-30",
        "rf.name": "最初の小人（弓と矢筒）",
        "rf.pose": "archer",
-       "rf.drawn": false,
-       "rf.drawing": "",
-       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
-       "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p01-k1（panels/e01-p01-k1.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 35%, y 52%)",
+       "rf.note": ""
       }
      },
      {
@@ -2059,10 +2059,10 @@
        "rf.ch": "CH-30",
        "rf.name": "胸の小人2",
        "rf.pose": "stand",
-       "rf.drawn": false,
-       "rf.drawing": "",
-       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
-       "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p01-k1（panels/e01-p01-k1.jpg）",
+       "rf.where": "head at middle-left of the frame (x 28%, y 55%)",
+       "rf.note": ""
       }
      },
      {
@@ -2073,10 +2073,10 @@
        "rf.ch": "CH-30",
        "rf.name": "胸の小人3",
        "rf.pose": "archer",
-       "rf.drawn": false,
-       "rf.drawing": "",
-       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
-       "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p01-k1（panels/e01-p01-k1.jpg）",
+       "rf.where": "head at middle-right of the frame (x 75%, y 59%)",
+       "rf.note": ""
       }
      },
      {
@@ -2087,10 +2087,10 @@
        "rf.ch": "CH-30",
        "rf.name": "胸の小人4",
        "rf.pose": "stand",
-       "rf.drawn": false,
-       "rf.drawing": "",
-       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
-       "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p01-k1（panels/e01-p01-k1.jpg）",
+       "rf.where": "head at middle-centre of the frame (x 37%, y 65%)",
+       "rf.note": ""
       }
      },
      {
@@ -2101,10 +2101,10 @@
        "rf.ch": "CH-30",
        "rf.name": "胸の小人5",
        "rf.pose": "stand",
-       "rf.drawn": false,
-       "rf.drawing": "",
-       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
-       "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e01-p01-k1（panels/e01-p01-k1.jpg）",
+       "rf.where": "head at bottom-right of the frame (x 68%, y 76%)",
+       "rf.note": ""
       }
      },
      {
@@ -3915,7 +3915,7 @@
      }
     ]
    },
-   "contentHash": "43a475ebc77bd084d549434ca5f2cfc69f465f9b6caaa55748fb7abc3c6fca86"
+   "contentHash": "84f9327401fc601926f73941f2863b856ee5c0e97d30d0bdaae82e014fa1e864"
   }
  ]
 }
