@@ -842,7 +842,19 @@ export type LayerOptions = {
    * 3つのグループを作り、LY-01 と LY-02 を隠す（画作りガイド：線画からは隠して残す）。
    */
   ink?: Record<string, InkImages>;
+  /**
+   * 仕上げ：コマごとの LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影の画像（線画と一緒に使う）。あると、レイヤーを
+   * 画作りガイドの重ね順 LY-03〜LY-08 で作り、LY-01 下絵と LY-02 アタリは作らない（仕上げの段階には要らない）。
+   */
+  finish?: Record<string, FinishImages>;
 };
+export type FinishImages = { bgFill: RoughImage; figFill: RoughImage; shadow: RoughImage };
+/** 仕上げの塗りと影のレイヤー（画作りガイドのレイヤーの決まりの名前）。 */
+export const FINISH_LAYERS = {
+  bgFill: 'LY-03 背景の塗り',
+  figFill: 'LY-05 人物の塗り',
+  shadow: 'LY-06 影',
+} as const;
 export type InkImages = { bg: RoughImage; fig: RoughImage; fx: RoughImage };
 /** 線画のレイヤー（画作りガイドのレイヤーの決まりの名前）。重ね順は LY-04、LY-07、LY-08。 */
 export const INK_LAYERS = {
@@ -908,22 +920,42 @@ export function buildEpisodeName(episode = 1, pages = EP01_NAME, stage?: StageIn
     d = updateElement(id, { name, text: value, fill, typography: { padding: 0, ...typography } as never }).apply(d);
     return id;
   };
+  /**
+   * 色の上でも読める文字（仕上げの題と擬音）：白い縁取り（8方向にずらした白い文字）を下に敷き、黒い文字を重ねる。
+   * 縁取りと文字は一つのグループ（エディタで一緒に動く）。
+   */
+  const haloText = (parentId: string, box: Rect, value: string, name: string, typography: Record<string, unknown>) => {
+    const gid = nid('halo-group');
+    d = insertElement('group', { id: gid, parentId, bounds: { ...box } }).apply(d);
+    d = updateElement(gid, { name: `${name}（白い縁取り付き）` }).apply(d);
+    const w = Math.max(1.5, Number(typography.fontSize) / 12);
+    for (const [dx, dy] of [[-1, -1], [0, -1], [1, -1], [-1, 0], [1, 0], [-1, 1], [0, 1], [1, 1]] as const)
+      text(gid, { ...box, x: box.x + dx * w, y: box.y + dy * w }, value, `${name} の縁取り`, typography, '#ffffff');
+    return text(gid, box, value, name, typography);
+  };
   for (const r of records) {
     const panel = d.elements.find((e) => e.id === r.id)!;
     const p = r.panel;
     d = updateElement(r.id, { name: `${r.page}-${r.order} ${p.shot}：${p.art}`.slice(0, 200), strokeWidth: 3, stroke: '#111111', fill: '#ffffff' }).apply(d);
     // レイヤー（ラフ）：コマの中に、重ね順のとおりグループを作る。
-    type LayerKey = keyof typeof LAYERS | keyof typeof INK_LAYERS;
-    const layer: Record<LayerKey | 'balloon', string> = { underlay: r.id, atari: r.id, bg: r.id, fig: r.id, fx: r.id, balloon: r.id, text: r.id, memo: r.id };
+    type LayerKey = keyof typeof LAYERS | keyof typeof INK_LAYERS | keyof typeof FINISH_LAYERS;
+    const layer: Record<LayerKey | 'balloon', string> = {
+      underlay: r.id, atari: r.id, bg: r.id, fig: r.id, fx: r.id, bgFill: r.id, figFill: r.id, shadow: r.id, balloon: r.id, text: r.id, memo: r.id,
+    };
     const ink = layers?.ink?.[r.id];
+    const fin = ink ? layers?.finish?.[r.id] : undefined;
+    const layerName = (k: LayerKey) =>
+      k in LAYERS ? LAYERS[k as keyof typeof LAYERS] : k in INK_LAYERS ? INK_LAYERS[k as keyof typeof INK_LAYERS] : FINISH_LAYERS[k as keyof typeof FINISH_LAYERS];
     if (layers) {
-      const keys: LayerKey[] = ['underlay', 'atari', ...(ink ? (['bg', 'fig', 'fx'] as const) : []), 'text', 'memo'];
+      const keys: LayerKey[] = fin
+        ? ['bgFill', 'bg', 'figFill', 'shadow', 'fig', 'fx', 'text', 'memo']
+        : ['underlay', 'atari', ...(ink ? (['bg', 'fig', 'fx'] as const) : []), 'text', 'memo'];
       for (const k of keys) {
         const gid = nid(`layer-${k}`);
         d = insertElement('group', { id: gid, parentId: r.id, bounds: { ...panel.bounds } }).apply(d);
-        d = updateElement(gid, { name: k in LAYERS ? LAYERS[k as keyof typeof LAYERS] : INK_LAYERS[k as keyof typeof INK_LAYERS] }).apply(d);
+        d = updateElement(gid, { name: layerName(k) }).apply(d);
         // 線画では、絵のレイヤーも固定する（吹き出しを動かすときに一緒に動かさない）。下絵とアタリは隠して残す。
-        if (LOCKED_LAYERS.has(k as keyof typeof LAYERS) || (ink && k in INK_LAYERS)) toLock.push(gid);
+        if (LOCKED_LAYERS.has(k as keyof typeof LAYERS) || (ink && (k in INK_LAYERS || k in FINISH_LAYERS))) toLock.push(gid);
         if (ink && (k === 'underlay' || k === 'atari')) toHide.push(gid);
         layer[k] = gid;
       }
@@ -931,7 +963,7 @@ export function buildEpisodeName(episode = 1, pages = EP01_NAME, stage?: StageIn
     const lyName = (name: string) => (layers ? `${BALLOON_LAYER} ${name}` : name);
     // アタリ：3D の舞台のカメラの絵をコマの枠に切り抜いたもの。コマの一番下に敷く（ラフでは LY-01 下絵（3D））。
     const sp = stage?.data.panels.find((x) => x.panel === r.id);
-    if (sp?.underlay) {
+    if (sp?.underlay && !fin) {
       const set = stage!.data.sets[sp.set]!;
       const iid = nid('underlay');
       d = insertElement('image', { id: iid, parentId: layer.underlay, bounds: { ...panel.bounds }, src: stage!.images[r.id] }).apply(d);
@@ -949,11 +981,19 @@ export function buildEpisodeName(episode = 1, pages = EP01_NAME, stage?: StageIn
       }).apply(d);
     }
     const rough = layers?.rough?.[r.id];
-    if (rough) {
+    if (rough && !fin) {
       const iid = nid('rough');
       d = insertElement('image', { id: iid, parentId: layer.atari, bounds: { ...panel.bounds }, src: rough.src }).apply(d);
       d = updateElement(iid, { name: `ラフ絵 ${r.id}`, imageFit: 'fill', opacity: 1, alt: rough.alt }).apply(d);
       d = setDesignPagination({ ...d.pagination!, images: [...d.pagination!.images, { elementId: iid, source: rough.source, license: rough.license }] }).apply(d);
+    }
+    if (fin) {
+      for (const k of ['bgFill', 'figFill', 'shadow'] as const) {
+        const iid = nid(`finish-${k}`);
+        d = insertElement('image', { id: iid, parentId: layer[k], bounds: { ...panel.bounds }, src: fin[k].src }).apply(d);
+        d = updateElement(iid, { name: `${FINISH_LAYERS[k].slice(6)} ${r.id}`, imageFit: 'fill', opacity: 1, alt: fin[k].alt }).apply(d);
+        d = setDesignPagination({ ...d.pagination!, images: [...d.pagination!.images, { elementId: iid, source: fin[k].source, license: fin[k].license }] }).apply(d);
+      }
     }
     if (ink) {
       for (const k of ['bg', 'fig', 'fx'] as const) {
@@ -976,8 +1016,11 @@ export function buildEpisodeName(episode = 1, pages = EP01_NAME, stage?: StageIn
         text(layer.memo, it.textBox, tagText(r), 'コマのタグ（ネームのメモ）', { fontFamily: GOTHIC, fontSize: FONT.memo, bold: true, lineHeight: 1.2 }, '#2563eb');
       else if (it.kind === 'memo')
         text(layer.memo, it.textBox, memo, '絵のメモ（ト書き）', { fontFamily: GOTHIC, fontSize: FONT.memo, lineHeight: 1.3 }, '#6b7280');
-      else if (it.kind === 'title')
-        text(layer.text, it.textBox, p.title!, '題', { fontFamily: MINCHO, fontSize: it.font, bold: true, lineHeight: 1.15 });
+      else if (it.kind === 'title') {
+        const ty = { fontFamily: MINCHO, fontSize: it.font, bold: true, lineHeight: 1.15 };
+        if (fin) haloText(layer.text, it.textBox, p.title!, '題', ty);
+        else text(layer.text, it.textBox, p.title!, '題', ty);
+      }
       else {
         const line = r.lines.find((l) => l.id === it.lineId)!.line;
         if (it.kind === 'D') {
@@ -1005,7 +1048,9 @@ export function buildEpisodeName(episode = 1, pages = EP01_NAME, stage?: StageIn
           d = updateElement(bid, { name: `ナレーションの枠 ${it.lineId}`, fill: '#ffffff', stroke: '#111111', strokeWidth: 1.5 }).apply(d);
           text(holder, it.textBox, line.text, `ナレーション ${it.lineId} CH-01`, { fontFamily: MINCHO, fontSize: it.font, lineHeight: 1.35 });
         } else if (it.kind === 'S') {
-          text(layer.text, it.textBox, line.text, `擬音 ${it.lineId}（仮、手描きは LY-08）`, { fontFamily: GOTHIC, fontSize: it.font, bold: true, lineHeight: 1.15 }, '#9ca3af');
+          const ty = { fontFamily: GOTHIC, fontSize: it.font, bold: true, lineHeight: 1.15 };
+          if (fin) haloText(layer.text, it.textBox, line.text, `擬音 ${it.lineId}（仮、手描きは LY-08）`, ty);
+          else text(layer.text, it.textBox, line.text, `擬音 ${it.lineId}（仮、手描きは LY-08）`, ty, '#9ca3af');
         }
       }
     }

@@ -1,0 +1,21 @@
+Use your image generation tool. Make ONE image: the full-colour FINISH (仕上げ) of one manga panel, coloured over the attached line art.
+The FIRST attached image is the author's approved black line art of this panel. Keep every line exactly where it is, with the same shapes, sizes and composition: do not redraw, move, add or remove anything; only colour it in, like colouring the inked page. The white bands at the edges (if any) are outside the panel: leave them plain white.
+The SECOND attached image is the approved design of Gulliver (CH-01), in its approved colours: use those colours for that person or place.
+The THIRD attached image is the approved design of a Lilliputian (CH-30, the tiny people), in its approved colours: use those colours for that person or place.
+ Colouring style: clean anime-style cel colouring. Flat base colours inside the lines, plus ONE hard-edged darker shadow tone per colour (cel shadow) on the side away from the light; light from the upper left unless the scene says otherwise (night scenes: cool moonlight, warm lantern light). No gradients except in the sky and the sea, no texture, no screentone, no glow, no added lines, no text.
+Palette (art guide AR-04, AR-06): part 1 (Lilliput) is built on warm brick and grass greens; England and the sea in muted 18th-century colours. Gulliver: plain blue coat with BRASS buttons and NO gold trim or edging, tan breeches, white stockings, black shoes, brown hair tied back. Lilliputians: early-18th-century clothes in muted colours. Skin tones natural.
+No likeness to any film, game or existing illustration. No text, no letters, no speech balloons, no signature, no watermark.
+Landscape 1536x1024.
+
+Panel e01-p12-k4, page 12 panel 4, scene SC-004.
+Shot: 中. Camera: ガリヴァーの側（顔や手の近く）, 420 mm above the ground; 胸の上の群れを、自由になった左手越しに.
+What the panel shows (storyboard memo): 群れの上で止まるガリヴァーの手。
+Words in this panel (for the mood and the faces only, do NOT draw any text): ナレーション（ガリヴァー）：胸の上を行き来する彼らを、四、五十人つかんで地面に叩きつけてやろうか、と何度も思った。
+  ナレーション（ガリヴァー）：だが私は、もてなしを受けた客として約束を守る、と心に決めていた。
+Figures, placed by the 3D layout (as placed in the rough and the 3D layout: keep these places, facings and poses; draw each with a readable face direction, pose and expression):
+- FG-e01-p12-k4-01 ガリヴァー — Gulliver (CH-01): 1,750 mm, plain blue coat with brass buttons and NO gold trim, tan breeches, white stockings, black shoes, brown hair tied back; lying on his back, left hand hovering above his chest; head at middle-right of the frame (x 78%, y 42%), feet at outside the frame; 1168 mm from the camera.
+- FG-e01-p12-k4-02 最初の小人（弓と矢筒） — a Lilliputian (CH-30): 146 mm tall, 1/12 of Gulliver; dancing / hopping; head at top-centre of the frame (x 50%, y 3%), three-quarter back view, turned to frame right; 689 mm from the camera.
+- FG-e01-p12-k4-03 胸の小人2 — a Lilliputian (CH-30): 146 mm tall, 1/12 of Gulliver; dancing / hopping; head at top-centre of the frame (x 40%, y 3%), three-quarter back view, turned to frame right; 742 mm from the camera.
+- FG-e01-p12-k4-04 胸の小人3 — a Lilliputian (CH-30): 146 mm tall, 1/12 of Gulliver; dancing / hopping; head at top-centre of the frame (x 38%, y 5%), three-quarter back view, turned to frame right; 645 mm from the camera.
+
+After generating, copy the generated PNG to ./color-raw.png in the current directory. Do not generate more than one image.

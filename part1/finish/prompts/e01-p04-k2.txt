@@ -1,0 +1,17 @@
+Use your image generation tool. Make ONE image: the full-colour FINISH (仕上げ) of one manga panel, coloured over the attached line art.
+The FIRST attached image is the author's approved black line art of this panel. Keep every line exactly where it is, with the same shapes, sizes and composition: do not redraw, move, add or remove anything; only colour it in, like colouring the inked page. The white bands at the edges (if any) are outside the panel: leave them plain white.
+The SECOND attached image is the approved design of Gulliver (CH-01), in its approved colours: use those colours for that person or place.
+ Colouring style: clean anime-style cel colouring. Flat base colours inside the lines, plus ONE hard-edged darker shadow tone per colour (cel shadow) on the side away from the light; light from the upper left unless the scene says otherwise (night scenes: cool moonlight, warm lantern light). No gradients except in the sky and the sea, no texture, no screentone, no glow, no added lines, no text.
+Palette (art guide AR-04, AR-06): part 1 (Lilliput) is built on warm brick and grass greens; England and the sea in muted 18th-century colours. Gulliver: plain blue coat with BRASS buttons and NO gold trim or edging, tan breeches, white stockings, black shoes, brown hair tied back. Lilliputians: early-18th-century clothes in muted colours. Skin tones natural.
+No likeness to any film, game or existing illustration. No text, no letters, no speech balloons, no signature, no watermark.
+Square 1024x1024.
+
+Panel e01-p04-k2, page 4 panel 2, scene SC-002.
+Shot: 中. Camera: 英国の人の目の高さ, 1600 mm above the ground; 岸壁の人垣の後ろから.
+What the panel shows (storyboard memo): メアリーは笑うが目は笑っていない。ガリヴァーは帽子を振って船に乗る。
+Words in this panel (for the mood and the faces only, do NOT draw any text): (no words)
+Figures, placed by the 3D layout (as placed in the rough and the 3D layout: keep these places, facings and poses; draw each with a readable face direction, pose and expression):
+- FG-e01-p04-k2-01 ガリヴァー — Gulliver (CH-01): 1,750 mm, plain blue coat with brass buttons and NO gold trim, tan breeches, white stockings, black shoes, brown hair tied back; waving his hat; head at middle-centre of the frame (x 45%, y 40%), back to the camera; 5694 mm from the camera.
+- FG-e01-p04-k2-02 メアリー — Mary, Gulliver's wife (CH-10): plain dark early-18th-century house dress, white apron and cap, practical; standing with hands clasped in front; head at middle-centre of the frame (x 38%, y 47%), three-quarter back view, turned to frame right; 3108 mm from the camera.
+
+After generating, copy the generated PNG to ./color-raw.png in the current directory. Do not generate more than one image.
