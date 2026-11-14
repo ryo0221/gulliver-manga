@@ -4,7 +4,9 @@
  * - 漫画ワークスペースの Design 原稿（16ページ、左から右へ読む）。コマは連動コマ割り（分割木）で作り、
  *   脚本の台詞・ナレーション・擬音をコマへ置く。ト書きは文字にせず、コマの「絵」のメモに書く。
  * - コマごとの大きさ（引き・寄り）とカメラ（目の高さ、実寸の mm）は、ネームの表（Structured Data）に書く。
- *   ラフの工程で、このカメラから 3D の下絵（LY-01）を書き出す。
+ * - fiction-manga@1.2.0（storyboard.staged）：コマごとに 3D の舞台（デジタルツイン）で人物（FG）の位置・向き・
+ *   ポーズとカメラの位置・注視点を決め（stage/ep01-stage.json、src/gulliver-ep01-stage.demo.ts）、カメラの絵を
+ *   コマの枠に切り抜いてコマの下に敷く（アタリ）。真上からの配置図は stage/plans/。
  * - 構図・間・めくりの採否は作者（Ryo）。これは AI の提案で、原稿は通常の Design として直接直せる。
  *
  * editor-platform の作業ツリーで apps/artifact-host/src/creative/story-board/ に置いて使う（commit しない）。
@@ -45,7 +47,7 @@ export const MINCHO = 'Noto Serif CJK JP, IPAMincho, serif';
 export type Shot = '大引き' | '引き' | '中' | '寄り' | '大寄り';
 /**
  * カメラの目。L は小人（リリパットの人）の目の高さ、G はガリヴァーの目の高さ、E は英国の人の目の高さ、
- * H は俯瞰（大きさの違いを見せないコマだけ）、W は水面すれすれ。mm は実寸の地面からの高さ。
+ * H は俯瞰（大きさの違いを見せないコマだけ）、W は水面すれすれか水の中。mm は実寸の地面（海では水面）からの高さで、3D の舞台のカメラの高さと同じ。
  */
 export type Eye = 'L' | 'G' | 'E' | 'H' | 'W';
 export const EYE_NAMES: Record<Eye, string> = {
@@ -53,7 +55,7 @@ export const EYE_NAMES: Record<Eye, string> = {
   G: 'ガリヴァーの側（顔や手の近く）',
   E: '英国の人の目の高さ',
   H: '俯瞰',
-  W: '水面すれすれ',
+  W: '水面すれすれ・水の中',
 };
 /** カメラの立つ台（地面より高いところ）。mm は台の上面の地面からの高さ。 */
 export type Stand = { on: string; mm: number };
@@ -67,8 +69,8 @@ const L = (look: string, at?: number | Stand): Camera =>
     : at
       ? { eye: 'L', mm: at.mm + LILLIPUT_EYE, look, stand: at }
       : { eye: 'L', mm: LILLIPUT_EYE, look };
-const CHEST: Stand = { on: '仰向けのガリヴァーの胸（創作：地面から 250 mm）', mm: 250 };
-const TURRET: Stand = { on: '神殿の向かいの塔（本文：5フィート以上、1,524 mm）', mm: 1524 };
+const CHEST: Stand = { on: '仰向けのガリヴァーの胸（3D の体 F107 で測った高さ：地面から 245 mm）', mm: 245 };
+const TURRET: Stand = { on: '神殿の向かいの塔の見晴らし台（本文：5フィート以上、1,524 mm）', mm: 1524 };
 const CITY_WALL: Stand = { on: '都の城壁（本文：2フィート半、762 mm）', mm: 762 };
 const LOOKOUT: Stand = { on: '見張りの柱（創作：1,064 mm）', mm: 1064 };
 const SMITH: Stand = { on: '鍛冶の足場（創作：100 mm）', mm: 100 };
@@ -76,6 +78,32 @@ const G = (look: string, mm = 1630): Camera => ({ eye: 'G', mm, look });
 const E = (look: string, mm = 1600): Camera => ({ eye: 'E', mm, look });
 const H = (look: string, mm: number): Camera => ({ eye: 'H', mm, look });
 const W = (look: string, mm = 300): Camera => ({ eye: 'W', mm, look });
+
+/** 3D の舞台（fiction-manga@1.2.0 storyboard.staged）。座標はモデルの版の座標（mm、z が上、北が +y）。 */
+export type V3 = [number, number, number];
+export type StageFigure = { fg: string; ch: string; name: string; fig: string; at: V3; facingDeg: number; pose: string; heightMm: number };
+export type StagePanel = {
+  panel: string;
+  set: string;
+  cam: V3;
+  look: V3;
+  stand?: string | null;
+  hfovDeg: number;
+  vfovDeg: number;
+  figures: StageFigure[];
+  crowds: string[];
+  /** 3D のモデルが無いコマの理由（地図と本文で描く）。 */
+  noModel?: string | null;
+  underlay?: string;
+  plan: string;
+};
+export type StageProp = { name: string; kind: string; artifactId: string; versionId: string; contentHash: string };
+export type StageSet = { name: string; scenes: string[]; reason: string | null; props: StageProp[]; crowds: { id: string; name: string; count: number }[] };
+export type EpisodeStage = { schemaVersion: 1; episode: number; verticalFovDeg: number; sets: Record<string, StageSet>; panels: StagePanel[] };
+/** 舞台と、コマに敷くカメラの絵（data:image/jpeg の URI、コマの id ごと）。 */
+export type StageInput = { data: EpisodeStage; images: Record<string, string> };
+/** 下に敷くカメラの絵の濃さ。 */
+export const UNDERLAY_OPACITY = 0.5;
 
 export type NamePanel = {
   /** 脚本のこのシーンから、順に何行を受け持つか。0 は台詞の無い絵だけのコマ。 */
@@ -141,14 +169,14 @@ export const EP01_NAME: NamePage[] = [
             art: '厩の中。二頭の若い馬に低い声で語りかける痩せた中年の男。戸口に妻メアリー。',
             w: 1.35,
           },
-          { take: 2, shot: '寄り', cam: E('馬の鼻先', 1500), art: '馬が鼻を鳴らす。男が嬉しそうに頷く。', w: 0.65 },
+          { take: 2, shot: '寄り', cam: E('馬の鼻先', 1550), art: '馬が鼻を鳴らす。男が嬉しそうに頷く。', w: 0.65 },
         ],
       },
       {
         h: 3,
         panels: [
           { take: 1, shot: '中', cam: E('厩の中から戸口を'), art: '戸口に立つメアリー。中へは入らない。' },
-          { take: 1, shot: '寄り', cam: E('男の肩越しに馬を'), art: '戸口に背を向けたままの男。' },
+          { take: 1, shot: '寄り', cam: E('男の肩越しに馬を', 1680), art: '戸口に背を向けたままの男。' },
         ],
       },
       {
@@ -158,7 +186,7 @@ export const EP01_NAME: NamePage[] = [
           {
             take: 2,
             shot: '引き',
-            cam: E('厩の奥から、夕日の差す戸口を背に'),
+            cam: E('厩の奥から、夕日の差す戸口を背に', 2000),
             art: '男と馬の後ろ姿。手記の語りが始まる。',
             w: 1.2,
           },
@@ -191,8 +219,8 @@ export const EP01_NAME: NamePage[] = [
             cam: E('岸壁から'),
             art: '若いガリヴァー（青い上着、真鍮のボタン、金の縁取りなし）が荷を担ぐ。',
           },
-          { take: 1, shot: '寄り', cam: E('ガリヴァーの肩越しに'), art: 'メアリー。' },
-          { take: 1, shot: '寄り', cam: E('メアリーの肩越しに'), art: 'ガリヴァー。' },
+          { take: 1, shot: '寄り', cam: E('ガリヴァーの肩越しに', 1650), art: 'メアリー。' },
+          { take: 1, shot: '寄り', cam: E('メアリーの肩越しに', 1580), art: 'ガリヴァー。' },
         ],
       },
     ],
@@ -203,7 +231,7 @@ export const EP01_NAME: NamePage[] = [
       {
         h: 4,
         panels: [
-          { take: 1, shot: '寄り', cam: E('正面'), art: 'メアリーの顔。口元だけ笑っている。', w: 0.8 },
+          { take: 1, shot: '寄り', cam: E('正面', 1520), art: 'メアリーの顔。口元だけ笑っている。', w: 0.8 },
           {
             take: 1,
             shot: '中',
@@ -252,7 +280,7 @@ export const EP01_NAME: NamePage[] = [
       {
         h: 5,
         panels: [
-          { take: 1, shot: '中', cam: W('水中から'), art: '泳ぐ。やがて足が底に着く。' },
+          { take: 1, shot: '中', cam: W('水中から', -700), art: '泳ぐ。やがて足が底に着く。' },
           { take: 1, shot: '引き', cam: W('浅瀬の先から、陸へ歩く背中を', 600), art: '夕暮れの浅瀬を、1マイル近く歩く。' },
         ],
       },
@@ -261,7 +289,7 @@ export const EP01_NAME: NamePage[] = [
   {
     scene: 'SC-003',
     tiers: [
-      { h: 4, panels: [{ take: 1, shot: '引き', cam: G('浜の高さから、草地に倒れ込む姿を', 400), art: '夜の浜。人家も人影もない。草の上に倒れ込む。' }] },
+      { h: 4, panels: [{ take: 1, shot: '引き', cam: G('浜の高さから、草地に倒れ込む姿を', 450), art: '夜の浜。人家も人影もない。草の上に倒れ込む。' }] },
       {
         h: 6,
         panels: [
@@ -280,7 +308,7 @@ export const EP01_NAME: NamePage[] = [
     scene: 'SC-004',
     turn: '朝。動けない（見開きの右）。',
     tiers: [
-      { h: 4, panels: [{ take: 1, shot: '大寄り', cam: G('目の真上から'), art: '仰向けのガリヴァーの目が開く。空。' }] },
+      { h: 4, panels: [{ take: 1, shot: '大寄り', cam: G('目の真上から', 520), art: '仰向けのガリヴァーの目が開く。空。' }] },
       {
         h: 3,
         panels: [
@@ -308,7 +336,7 @@ export const EP01_NAME: NamePage[] = [
           },
         ],
       },
-      { h: 2, panels: [{ take: 1, shot: '寄り', cam: G('正面'), art: '叫ぶガリヴァーの口。' }] },
+      { h: 2, panels: [{ take: 1, shot: '寄り', cam: G('正面', 760), art: '叫ぶガリヴァーの口。' }] },
     ],
   },
   {
@@ -365,7 +393,7 @@ export const EP01_NAME: NamePage[] = [
       {
         h: 3,
         panels: [
-          { take: 1, shot: '寄り', cam: G('口元', 200), art: '指で口を差すガリヴァー。', w: 0.8 },
+          { take: 1, shot: '寄り', cam: G('口元', 360), art: '指で口を差すガリヴァー。', w: 0.8 },
           {
             take: 1,
             shot: '引き',
@@ -384,7 +412,7 @@ export const EP01_NAME: NamePage[] = [
       {
         h: 3,
         panels: [
-          { take: 1, shot: '寄り', cam: G('口の前', 200), art: '雲雀の翼より小さな肉を、二つ三つずつ摘む指。' },
+          { take: 1, shot: '寄り', cam: G('口の前', 260), art: '雲雀の翼より小さな肉を、二つ三つずつ摘む指。' },
           { take: 2, shot: '中', cam: L('胸の上から、傾く樽と喉を', CHEST), art: '樽を一息で飲み干す。', size: true },
         ],
       },
@@ -394,9 +422,9 @@ export const EP01_NAME: NamePage[] = [
       },
       {
         h: 2.6,
-        panels: [{ take: 2, shot: '中', cam: G('胸の上の群れを、自由になった左手越しに', 400), art: '群れの上で止まるガリヴァーの手。' }],
+        panels: [{ take: 2, shot: '中', cam: G('胸の上の群れを、自由になった左手越しに', 420), art: '群れの上で止まるガリヴァーの手。' }],
       },
-      { h: 1.8, panels: [{ take: 1, shot: '大寄り', cam: G('目の真上から'), art: '薬入りの酒で、目が重くなる。' }] },
+      { h: 1.8, panels: [{ take: 1, shot: '大寄り', cam: G('目の真上から', 520), art: '薬入りの酒で、目が重くなる。' }] },
     ],
   },
   // SC-005 運搬と神殿（4ページ）
@@ -732,7 +760,7 @@ export type NameBuild = {
 };
 
 /** 第1話のネームを Design 原稿にする。 */
-export function buildEpisodeName(episode = 1, pages = EP01_NAME): NameBuild {
+export function buildEpisodeName(episode = 1, pages = EP01_NAME, stage?: StageInput): NameBuild {
   const records = assignLines(episode, pages);
   let d = createDesign();
   pages.forEach((page, pi) => {
@@ -764,6 +792,25 @@ export function buildEpisodeName(episode = 1, pages = EP01_NAME): NameBuild {
     const panel = d.elements.find((e) => e.id === r.id)!;
     const p = r.panel;
     d = updateElement(r.id, { name: `${r.page}-${r.order} ${p.shot}：${p.art}`.slice(0, 200), strokeWidth: 3, stroke: '#111111', fill: '#ffffff' }).apply(d);
+    // アタリ：3D の舞台のカメラの絵をコマの枠に切り抜いたもの。コマの一番下に敷く。
+    const sp = stage?.data.panels.find((x) => x.panel === r.id);
+    if (sp?.underlay) {
+      const set = stage!.data.sets[sp.set]!;
+      const iid = nid('underlay');
+      d = insertElement('image', { id: iid, parentId: r.id, bounds: { ...panel.bounds }, src: stage!.images[r.id] }).apply(d);
+      d = updateElement(iid, { name: `アタリ（3D のカメラの絵 ${r.id}）`, imageFit: 'fill', opacity: UNDERLAY_OPACITY, alt: `3D の舞台「${set.name}」をカメラ (${sp.cam.join(', ')}) mm から注視点 (${sp.look.join(', ')}) mm へ見た絵` }).apply(d);
+      d = setDesignPagination({
+        ...d.pagination!,
+        images: [
+          ...d.pagination!.images,
+          {
+            elementId: iid,
+            source: `3D の舞台「${set.name}」のカメラの絵（${sp.panel}、横 ${sp.hfovDeg}°×縦 ${sp.vfovDeg}°）。モデル：${set.props.map((p) => `${p.name} ${p.artifactId}@${p.versionId}`).join('、')}`,
+            license: 'gulliver-manga の自作（Editor Platform で描いた 3D の下絵）',
+          },
+        ],
+      }).apply(d);
+    }
     const { placed: items, ok } = layoutPanel(panel, r);
     if (!ok) overflow.push(r.id);
     const memo = `絵：${p.art}`;
@@ -814,7 +861,7 @@ export function buildEpisodeName(episode = 1, pages = EP01_NAME): NameBuild {
 // ---------------------------------------------------------------- 資料
 
 const stamp = '2026-11-14T00:00:00.000Z';
-const VERSION = 'name-ep01-v1';
+const VERSION = 'name-ep01-v2';
 async function native(kind: string, id: string, name: string, content: unknown) {
   const artifact: Artifact<unknown> = {
     schemaVersion: 1,
@@ -831,7 +878,7 @@ async function native(kind: string, id: string, name: string, content: unknown) 
         schemaVersion: 1,
         createdAt: stamp,
         createdBy: null,
-        reason: 'ガリヴァー旅行記 第1話のネーム（fiction-manga@1.1.0 ネーム、AI の提案）',
+        reason: 'ガリヴァー旅行記 第1話のネーム（fiction-manga@1.2.0 ネーム、3D の舞台で組んだ AI の提案）',
         content,
         contentHash: await contentHash(content),
       },
@@ -840,7 +887,9 @@ async function native(kind: string, id: string, name: string, content: unknown) 
   return artifact;
 }
 
-function panelTable(records: PanelRecord[], pages: NamePage[]): StructuredData {
+const xyz = (v: V3) => `(${v.map((n) => Math.round(n)).join(', ')})`;
+function panelTable(records: PanelRecord[], pages: NamePage[], stage?: EpisodeStage): StructuredData {
+  const staged = (id: string) => stage?.panels.find((x) => x.panel === id);
   const kinds = { N: 'ナレーション', D: '台詞', T: 'ト書き', S: '擬音' } as const;
   return {
     schemaVersion: 2,
@@ -850,7 +899,7 @@ function panelTable(records: PanelRecord[], pages: NamePage[]): StructuredData {
       { id: 'nm.scene', name: 'シーン', type: 'text', required: true },
       { id: 'nm.shot', name: '大きさ', type: 'select', options: ['大引き', '引き', '中', '寄り', '大寄り'], required: true },
       { id: 'nm.eye', name: 'カメラの目', type: 'select', options: Object.values(EYE_NAMES), required: true },
-      { id: 'nm.mm', name: '目の高さ（地面から、mm、実寸）', type: 'number', required: true },
+      { id: 'nm.mm', name: '目の高さ（地面・水面から、mm、実寸。3D の舞台のカメラの高さ）', type: 'number', required: true },
       { id: 'nm.stand', name: 'カメラの立つ台', type: 'text' },
       { id: 'nm.look', name: 'カメラの向き', type: 'text' },
       { id: 'nm.size', name: '大きさの違いを見せる', type: 'boolean' },
@@ -858,6 +907,15 @@ function panelTable(records: PanelRecord[], pages: NamePage[]): StructuredData {
       { id: 'nm.lines', name: '脚本の行', type: 'text' },
       { id: 'nm.text', name: '文字にする行', type: 'text' },
       { id: 'nm.turn', name: 'めくり', type: 'text' },
+      { id: 'st.set', name: '3D の舞台', type: 'text' },
+      { id: 'st.cam', name: 'カメラの位置（モデルの座標、mm）', type: 'text' },
+      { id: 'st.look', name: 'カメラの注視点（モデルの座標、mm）', type: 'text' },
+      { id: 'st.fov', name: '画角（コマの枠）', type: 'text' },
+      { id: 'st.figures', name: '人物（FG・人物表・位置・向き・ポーズ）', type: 'text' },
+      { id: 'st.crowds', name: '群衆', type: 'text' },
+      { id: 'st.models', name: 'モデルの版', type: 'text' },
+      { id: 'st.underlay', name: 'コマに敷いたカメラの絵', type: 'text' },
+      { id: 'st.plan', name: '真上からの配置図', type: 'text' },
     ],
     rows: records.map((r) => ({
       id: r.id,
@@ -878,18 +936,35 @@ function panelTable(records: PanelRecord[], pages: NamePage[]): StructuredData {
           .map((l) => `${kinds[l.line.k]}${l.line.who ? `（${SPEAKER_NAMES[l.line.who]}）` : ''}：${l.line.text}`)
           .join(' / '),
         'nm.turn': r.order === 1 ? (pages[r.page - 1].turn ?? '') : '',
+        ...stageValues(staged(r.id), stage),
       },
     })),
   };
 }
 
-export async function buildGulliverEp01Name() {
-  const build = buildEpisodeName(1, EP01_NAME);
+function stageValues(sp: StagePanel | undefined, stage: EpisodeStage | undefined) {
+  if (!sp || !stage) return {};
+  const set = stage.sets[sp.set]!;
+  return {
+    'st.set': `${sp.set}：${set.name}`,
+    'st.cam': `${xyz(sp.cam)}${sp.stand ? `（${sp.stand} の上）` : ''}`,
+    'st.look': xyz(sp.look),
+    'st.fov': `横 ${sp.hfovDeg}° × 縦 ${sp.vfovDeg}°`,
+    'st.figures': sp.figures.map((f) => `${f.fg} ${f.ch} ${f.name} ${xyz(f.at)} 向き ${f.facingDeg}° ${f.pose}`).join(' / '),
+    'st.crowds': sp.crowds.map((c) => set.crowds.find((x) => x.id === c)).filter(Boolean).map((c) => `${c!.name}（${c!.count}）`).join('、'),
+    'st.models': set.props.map((p) => `${p.name}（${p.kind} ${p.artifactId}@${p.versionId} ${p.contentHash}）`).join(' / '),
+    'st.underlay': sp.underlay ?? `無し：${sp.noModel ?? ''}`,
+    'st.plan': sp.plan,
+  };
+}
+
+export async function buildGulliverEp01Name(stage?: StageInput) {
+  const build = buildEpisodeName(1, EP01_NAME, stage);
   return {
     build,
     artifacts: [
       await native('design', 'gm1-ep01-name', '第1話「人の山」ネーム（16ページ）', build.content),
-      await native('data', 'gm1-ep01-name-panels', '第1話 ネームのコマ表', panelTable(build.records, EP01_NAME)),
+      await native('data', 'gm1-ep01-name-panels', '第1話 ネームのコマ表', panelTable(build.records, EP01_NAME, stage?.data)),
     ],
   };
 }

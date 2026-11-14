@@ -2,7 +2,7 @@
 // script and the art guide (AR-05), captures the pages as SVG, and writes everything as JSON (GM_OUT).
 // Run with vitest from apps/artifact-host/src/creative/story-board/ next to gulliver-part1.ts,
 // gulliver-story.ts and gulliver-part1-script.ts.
-import { writeFileSync, mkdirSync } from 'node:fs';
+import { existsSync, readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { test, expect } from 'vitest';
 import { commitVersion, type Artifact } from '@editor-platform/artifact-core';
 import { layoutDrawingText } from '@editor-platform/editor-core';
@@ -16,10 +16,24 @@ import {
   insidePolygon,
   LILLIPUT_EYE,
   panelPolygon,
+  UNDERLAY_OPACITY,
+  type EpisodeStage,
+  type StageInput,
 } from './gulliver-ep01-name';
 
+// The 3D staging (part1/name/stage/ in gulliver-manga), copied next to this file.
+const STAGE = process.env.GM_STAGE ?? new URL('./gulliver-ep01-stage/', import.meta.url).pathname;
+function loadStage(): StageInput {
+  const data = JSON.parse(readFileSync(`${STAGE}/ep01-stage.json`, 'utf8')) as EpisodeStage;
+  const images: Record<string, string> = {};
+  for (const p of data.panels)
+    if (p.underlay) images[p.panel] = `data:image/jpeg;base64,${readFileSync(`${STAGE}/${p.underlay}`).toString('base64')}`;
+  return { data, images };
+}
+
 test('episode 1 ネーム covers every script line, reads left to right and fits its text', async () => {
-  const { build, artifacts } = await buildGulliverEp01Name();
+  const stage = loadStage();
+  const { build, artifacts } = await buildGulliverEp01Name(stage);
   const { content, records, placed } = build;
   const script = PART1_SCRIPT.find((e) => e.n === 1)!;
 
@@ -104,6 +118,46 @@ test('episode 1 ネーム covers every script line, reads left to right and fits
         expect(overlap, `${r.id} ${boxes[i].lineId} ${boxes[j].lineId}`).toBe(false);
       }
   }
+
+  // fiction-manga@1.2.0 storyboard.staged: every panel is staged on the 3D digital twin.
+  const byPanel = new Map(stage.data.panels.map((p) => [p.panel, p]));
+  expect([...byPanel.keys()].sort()).toEqual(records.map((r) => r.id).sort());
+  for (const r of records) {
+    const sp = byPanel.get(r.id)!;
+    const set = stage.data.sets[sp.set]!;
+    // The set belongs to the panel's scene and names the model versions it was staged on.
+    expect(set.scenes, r.id).toContain(r.scene);
+    expect(set.props.length, r.id).toBeGreaterThan(0);
+    for (const m of set.props) expect(m.versionId && m.contentHash, `${r.id} ${m.name}`).toBeTruthy();
+    // The camera stands where the panel table says: its height is the table's eye height.
+    expect(Math.abs(sp.cam[2] - r.panel.cam.mm), `${r.id} camera height`).toBeLessThanOrEqual(1);
+    if (r.panel.cam.stand) expect(sp.stand, `${r.id} stand`).toBeTruthy();
+    expect(existsSync(`${STAGE}/${sp.plan}`), `${r.id} plan`).toBe(true);
+    // Every figure has an FG id and a character from the cast list.
+    for (const f of sp.figures) {
+      expect(f.fg, r.id).toMatch(new RegExp(`^FG-${r.id}-\\d{2}$`));
+      expect(f.ch, `${r.id} ${f.fg}`).toMatch(/^(CH-\d{2}|horse)$/);
+    }
+    const under = content.elements.filter((e) => e.parentId === r.id && e.type === 'image');
+    if (sp.noModel) {
+      // No model for the place: the reason is written, and nothing is laid under the panel.
+      expect(sp.noModel.length, r.id).toBeGreaterThan(5);
+      expect(under, r.id).toEqual([]);
+    } else {
+      // The camera's view, cropped to the panel's shape, lies under everything else in the panel.
+      expect(under.length, r.id).toBe(1);
+      const u = under[0]!;
+      expect(u.bounds, r.id).toEqual(index.get(r.id)!.bounds);
+      expect(u.opacity, r.id).toBe(UNDERLAY_OPACITY);
+      const children = content.elements.filter((e) => e.parentId === r.id);
+      expect(children[0]!.id, r.id).toBe(u.id);
+      expect(content.pagination!.images.some((i) => i.elementId === u.id), r.id).toBe(true);
+      // The crop keeps the panel's aspect: its field of view is no wider than the camera's.
+      expect(sp.vfovDeg, r.id).toBeLessThanOrEqual(stage.data.verticalFovDeg + 0.05);
+    }
+  }
+  // The size-difference panels are all staged with a model (AR-05 needs the real sizes).
+  for (const r of records.filter((r) => r.panel.size)) expect(byPanel.get(r.id)!.noModel ?? null, r.id).toBeNull();
 
   // The draft captures as 16 vector pages with no error diagnostics.
   const design = artifacts.find((a) => a.id === 'gm1-ep01-name')! as Artifact<DesignContent>;

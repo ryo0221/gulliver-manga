@@ -1,0 +1,3864 @@
+{
+ "schemaVersion": 1,
+ "episode": 1,
+ "verticalFovDeg": 35.0,
+ "sets": {
+  "stable": {
+   "name": "英国の田舎家の厩（仮の3D、創作）",
+   "scenes": [
+    "SC-001"
+   ],
+   "reason": "再現（GV1〜GV7）に英国の家と厩の3Dモデルは無い。床・壁・戸口だけの仮の3D（創作）で人物と馬の配置とカメラを決めた。",
+   "props": [
+    {
+     "name": "舞台 stable",
+     "kind": "cad",
+     "artifactId": "artifact_43e4287a-6629-495a-9eb6-2fe01947241f",
+     "versionId": "version_df91cbe9-d5cf-489d-9071-3453d7ac33a2",
+     "contentHash": "bf24969d085d4b374edaf7baf0cb80123d4bac838f55f655bc98bcd4a7817c42"
+    }
+   ],
+   "canvas": {
+    "width": 1440,
+    "height": 745,
+    "verticalFovDeg": 35
+   },
+   "cad": [
+    {
+     "id": "yard",
+     "name": "庭",
+     "at": [
+      -30000,
+      -30000,
+      -60
+     ],
+     "size": [
+      60000,
+      60000,
+      50
+     ]
+    },
+    {
+     "id": "floor",
+     "name": "厩の床（藁）",
+     "at": [
+      -3000,
+      -2650,
+      -10
+     ],
+     "size": [
+      6000,
+      7300,
+      12
+     ]
+    },
+    {
+     "id": "back",
+     "name": "奥の壁",
+     "at": [
+      -3000,
+      4500,
+      0
+     ],
+     "size": [
+      6000,
+      150,
+      2600
+     ]
+    },
+    {
+     "id": "left",
+     "name": "左の壁",
+     "at": [
+      -3150,
+      -2650,
+      0
+     ],
+     "size": [
+      150,
+      7300,
+      2600
+     ]
+    },
+    {
+     "id": "right",
+     "name": "右の壁",
+     "at": [
+      3000,
+      -2650,
+      0
+     ],
+     "size": [
+      150,
+      7300,
+      2600
+     ]
+    },
+    {
+     "id": "front-l",
+     "name": "戸口の左",
+     "at": [
+      -3000,
+      -2650,
+      0
+     ],
+     "size": [
+      2400,
+      150,
+      2600
+     ]
+    },
+    {
+     "id": "front-r",
+     "name": "戸口の右",
+     "at": [
+      600,
+      -2650,
+      0
+     ],
+     "size": [
+      2400,
+      150,
+      2600
+     ]
+    },
+    {
+     "id": "lintel",
+     "name": "戸口の上",
+     "at": [
+      -600,
+      -2650,
+      2100
+     ],
+     "size": [
+      1200,
+      150,
+      500
+     ]
+    },
+    {
+     "id": "house",
+     "name": "母屋",
+     "at": [
+      -14000,
+      -9000,
+      0
+     ],
+     "size": [
+      8000,
+      6000,
+      5200
+     ]
+    }
+   ],
+   "bim": null,
+   "crowds": []
+  },
+  "port": {
+   "name": "ブリストルの岸壁（仮の3D、創作）",
+   "scenes": [
+    "SC-002"
+   ],
+   "reason": "再現（GV1〜GV7）にブリストルの港とアンテロープ号の3Dモデルは無い。岸壁と海面だけの仮の3D（創作）で人物の配置とカメラを決めた。船を描くコマは地図と本文で決める。",
+   "props": [
+    {
+     "name": "舞台 port",
+     "kind": "cad",
+     "artifactId": "artifact_f0fd5bcd-665c-4ec6-b319-63cd47b55466",
+     "versionId": "version_7b74ba41-5ee9-4d71-a692-b2b8f4cc5376",
+     "contentHash": "01b195d3a69eaec7bc220fb39b977cddfb123a74bea83a405b9f1d29eb9012db"
+    }
+   ],
+   "canvas": {
+    "width": 1440,
+    "height": 745,
+    "verticalFovDeg": 35
+   },
+   "cad": [
+    {
+     "id": "quay",
+     "name": "岸壁",
+     "at": [
+      -40000,
+      -30000,
+      -20
+     ],
+     "size": [
+      80000,
+      30000,
+      20
+     ]
+    },
+    {
+     "id": "sea",
+     "name": "海面",
+     "at": [
+      -200000,
+      0,
+      -1500
+     ],
+     "size": [
+      400000,
+      200000,
+      20
+     ]
+    },
+    {
+     "id": "bollard",
+     "name": "係船柱",
+     "at": [
+      1200,
+      -400,
+      0
+     ],
+     "size": [
+      250,
+      250,
+      600
+     ]
+    },
+    {
+     "id": "warehouse",
+     "name": "倉庫",
+     "at": [
+      -15000,
+      -24000,
+      0
+     ],
+     "size": [
+      30000,
+      8000,
+      9000
+     ]
+    }
+   ],
+   "bim": null,
+   "crowds": []
+  },
+  "sea": {
+   "name": "難破の海と浜（仮の3D、創作）",
+   "scenes": [
+    "SC-003"
+   ],
+   "reason": "再現（GV1〜GV7）に難破の海とアンテロープ号・小舟の3Dモデルは無い。海面・海底・浜・草地だけの仮の3D（創作）で人物の配置とカメラを決めた。船を描くコマは本文で決める。",
+   "props": [
+    {
+     "name": "舞台 sea",
+     "kind": "cad",
+     "artifactId": "artifact_4dae6abe-f15a-44d8-9e3e-b91d066d54f2",
+     "versionId": "version_9582e799-f7dc-45a4-9c63-99b0a75cbb85",
+     "contentHash": "7870ef54c05e9a9fb15948d616113dbb6ed0bad427852b5c97505e1e32b23cb4"
+    }
+   ],
+   "canvas": {
+    "width": 1440,
+    "height": 800,
+    "verticalFovDeg": 35
+   },
+   "cad": [
+    {
+     "id": "seabed",
+     "name": "海底",
+     "at": [
+      -100000,
+      -100000,
+      -1450
+     ],
+     "size": [
+      200000,
+      106000,
+      20
+     ]
+    },
+    {
+     "id": "shallows",
+     "name": "浅瀬の底",
+     "at": [
+      -100000,
+      6000,
+      -420
+     ],
+     "size": [
+      200000,
+      14000,
+      20
+     ]
+    },
+    {
+     "id": "water",
+     "name": "海面",
+     "at": [
+      -100000,
+      -100000,
+      -12
+     ],
+     "size": [
+      200000,
+      120000,
+      12
+     ]
+    },
+    {
+     "id": "beach",
+     "name": "浜（砂）",
+     "at": [
+      -100000,
+      20000,
+      -10
+     ],
+     "size": [
+      200000,
+      8000,
+      10
+     ]
+    },
+    {
+     "id": "grass",
+     "name": "草地（短い草）",
+     "at": [
+      -100000,
+      28000,
+      0
+     ],
+     "size": [
+      200000,
+      30000,
+      12
+     ]
+    }
+   ],
+   "bim": null,
+   "crowds": []
+  },
+  "beach": {
+   "name": "浜の草地（リリパット、仮の3D）",
+   "scenes": [
+    "SC-004",
+    "SC-001"
+   ],
+   "reason": "再現（GV1〜GV7）に上陸地点（LO-01・LO-02）の3Dモデルは無い（地図 SM-02 だけ）。草地と演説の台（本文：地面から1フィート半、4人が乗れる）を仮の3D（創作）で作り、人物（F107・F108 の体）の配置とカメラを決めた。",
+   "props": [
+    {
+     "name": "舞台 beach",
+     "kind": "cad",
+     "artifactId": "artifact_63f7ffb9-dffb-4fa1-a3cc-4926253731df",
+     "versionId": "version_81280072-450c-459c-8c70-d80c3835bce5",
+     "contentHash": "7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51"
+    }
+   ],
+   "canvas": {
+    "width": 1440,
+    "height": 745,
+    "verticalFovDeg": 35
+   },
+   "cad": [
+    {
+     "id": "grass",
+     "name": "草地（短い草）",
+     "at": [
+      -60000,
+      -60000,
+      -12
+     ],
+     "size": [
+      120000,
+      120000,
+      12
+     ]
+    },
+    {
+     "id": "stage",
+     "name": "演説の台（1フィート半）",
+     "at": [
+      300,
+      -820,
+      0
+     ],
+     "size": [
+      260,
+      240,
+      457
+     ]
+    },
+    {
+     "id": "stake-arm",
+     "name": "杭（左腕）",
+     "at": [
+      -300,
+      150,
+      0
+     ],
+     "size": [
+      12,
+      12,
+      60
+     ]
+    },
+    {
+     "id": "stake-leg",
+     "name": "杭（左脚）",
+     "at": [
+      -170,
+      650,
+      0
+     ],
+     "size": [
+      12,
+      12,
+      60
+     ]
+    }
+   ],
+   "bim": null,
+   "crowds": [
+    {
+     "id": "body40",
+     "name": "体の上の小人（本文：40人ほど）",
+     "count": 45
+    },
+    {
+     "id": "ring",
+     "name": "周りの群衆",
+     "count": 238
+    },
+    {
+     "id": "archers",
+     "name": "弓隊",
+     "count": 30
+    }
+   ]
+  },
+  "temple": {
+   "name": "古い神殿（F106）と都の外の道",
+   "scenes": [
+    "SC-005"
+   ],
+   "reason": null,
+   "props": [
+    {
+     "name": "F106 古い神殿",
+     "kind": "bim",
+     "artifactId": "artifact_413ea56f-0068-4d74-a7ea-5df871881644",
+     "versionId": "version_f99a6279-79b6-4919-af87-844b799c59f5",
+     "contentHash": "d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384"
+    },
+    {
+     "name": "舞台 temple",
+     "kind": "cad",
+     "artifactId": "artifact_be0e3b3a-d1b0-4eff-878b-bd6834a770e5",
+     "versionId": "version_94ed3bd5-4b6e-4513-ab3c-bd5ddcf97e72",
+     "contentHash": "e44814767edc4cd7d142548256c3d949405956fb1228ebc37077caa5679f15ca"
+    }
+   ],
+   "canvas": {
+    "width": 1440,
+    "height": 745,
+    "verticalFovDeg": 35
+   },
+   "cad": [
+    {
+     "id": "grass",
+     "name": "草地",
+     "at": [
+      -250000,
+      -250000,
+      -14
+     ],
+     "size": [
+      500000,
+      500000,
+      12
+     ]
+    },
+    {
+     "id": "road",
+     "name": "道（運搬機の通った道）",
+     "at": [
+      -60000,
+      39000,
+      -2
+     ],
+     "size": [
+      57000,
+      2000,
+      2
+     ]
+    },
+    {
+     "id": "deck",
+     "name": "運搬機の台（7×4フィート、高さ3インチ）",
+     "at": [
+      -41067,
+      39390,
+      76
+     ],
+     "size": [
+      2134,
+      1219,
+      25
+     ]
+    },
+    {
+     "id": "wheel-1",
+     "name": "車輪 1",
+     "at": [
+      -41007,
+      39360,
+      51
+     ],
+     "size": [
+      0,
+      0,
+      0
+     ],
+     "cylinder": {
+      "r": 51,
+      "h": 19
+     }
+    },
+    {
+     "id": "wheel-2",
+     "name": "車輪 2",
+     "at": [
+      -40811,
+      39360,
+      51
+     ],
+     "size": [
+      0,
+      0,
+      0
+     ],
+     "cylinder": {
+      "r": 51,
+      "h": 19
+     }
+    },
+    {
+     "id": "wheel-3",
+     "name": "車輪 3",
+     "at": [
+      -40615,
+      39360,
+      51
+     ],
+     "size": [
+      0,
+      0,
+      0
+     ],
+     "cylinder": {
+      "r": 51,
+      "h": 19
+     }
+    },
+    {
+     "id": "wheel-4",
+     "name": "車輪 4",
+     "at": [
+      -40419,
+      39360,
+      51
+     ],
+     "size": [
+      0,
+      0,
+      0
+     ],
+     "cylinder": {
+      "r": 51,
+      "h": 19
+     }
+    },
+    {
+     "id": "wheel-5",
+     "name": "車輪 5",
+     "at": [
+      -40223,
+      39360,
+      51
+     ],
+     "size": [
+      0,
+      0,
+      0
+     ],
+     "cylinder": {
+      "r": 51,
+      "h": 19
+     }
+    },
+    {
+     "id": "wheel-6",
+     "name": "車輪 6",
+     "at": [
+      -40027,
+      39360,
+      51
+     ],
+     "size": [
+      0,
+      0,
+      0
+     ],
+     "cylinder": {
+      "r": 51,
+      "h": 19
+     }
+    },
+    {
+     "id": "wheel-7",
+     "name": "車輪 7",
+     "at": [
+      -39831,
+      39360,
+      51
+     ],
+     "size": [
+      0,
+      0,
+      0
+     ],
+     "cylinder": {
+      "r": 51,
+      "h": 19
+     }
+    },
+    {
+     "id": "wheel-8",
+     "name": "車輪 8",
+     "at": [
+      -39635,
+      39360,
+      51
+     ],
+     "size": [
+      0,
+      0,
+      0
+     ],
+     "cylinder": {
+      "r": 51,
+      "h": 19
+     }
+    },
+    {
+     "id": "wheel-9",
+     "name": "車輪 9",
+     "at": [
+      -39439,
+      39360,
+      51
+     ],
+     "size": [
+      0,
+      0,
+      0
+     ],
+     "cylinder": {
+      "r": 51,
+      "h": 19
+     }
+    },
+    {
+     "id": "wheel-10",
+     "name": "車輪 10",
+     "at": [
+      -39243,
+      39360,
+      51
+     ],
+     "size": [
+      0,
+      0,
+      0
+     ],
+     "cylinder": {
+      "r": 51,
+      "h": 19
+     }
+    },
+    {
+     "id": "wheel-11",
+     "name": "車輪 11",
+     "at": [
+      -39047,
+      39360,
+      51
+     ],
+     "size": [
+      0,
+      0,
+      0
+     ],
+     "cylinder": {
+      "r": 51,
+      "h": 19
+     }
+    },
+    {
+     "id": "wheel-12",
+     "name": "車輪 12",
+     "at": [
+      -41007,
+      40640,
+      51
+     ],
+     "size": [
+      0,
+      0,
+      0
+     ],
+     "cylinder": {
+      "r": 51,
+      "h": 19
+     }
+    },
+    {
+     "id": "wheel-13",
+     "name": "車輪 13",
+     "at": [
+      -40811,
+      40640,
+      51
+     ],
+     "size": [
+      0,
+      0,
+      0
+     ],
+     "cylinder": {
+      "r": 51,
+      "h": 19
+     }
+    },
+    {
+     "id": "wheel-14",
+     "name": "車輪 14",
+     "at": [
+      -40615,
+      40640,
+      51
+     ],
+     "size": [
+      0,
+      0,
+      0
+     ],
+     "cylinder": {
+      "r": 51,
+      "h": 19
+     }
+    },
+    {
+     "id": "wheel-15",
+     "name": "車輪 15",
+     "at": [
+      -40419,
+      40640,
+      51
+     ],
+     "size": [
+      0,
+      0,
+      0
+     ],
+     "cylinder": {
+      "r": 51,
+      "h": 19
+     }
+    },
+    {
+     "id": "wheel-16",
+     "name": "車輪 16",
+     "at": [
+      -40223,
+      40640,
+      51
+     ],
+     "size": [
+      0,
+      0,
+      0
+     ],
+     "cylinder": {
+      "r": 51,
+      "h": 19
+     }
+    },
+    {
+     "id": "wheel-17",
+     "name": "車輪 17",
+     "at": [
+      -40027,
+      40640,
+      51
+     ],
+     "size": [
+      0,
+      0,
+      0
+     ],
+     "cylinder": {
+      "r": 51,
+      "h": 19
+     }
+    },
+    {
+     "id": "wheel-18",
+     "name": "車輪 18",
+     "at": [
+      -39831,
+      40640,
+      51
+     ],
+     "size": [
+      0,
+      0,
+      0
+     ],
+     "cylinder": {
+      "r": 51,
+      "h": 19
+     }
+    },
+    {
+     "id": "wheel-19",
+     "name": "車輪 19",
+     "at": [
+      -39635,
+      40640,
+      51
+     ],
+     "size": [
+      0,
+      0,
+      0
+     ],
+     "cylinder": {
+      "r": 51,
+      "h": 19
+     }
+    },
+    {
+     "id": "wheel-20",
+     "name": "車輪 20",
+     "at": [
+      -39439,
+      40640,
+      51
+     ],
+     "size": [
+      0,
+      0,
+      0
+     ],
+     "cylinder": {
+      "r": 51,
+      "h": 19
+     }
+    },
+    {
+     "id": "wheel-21",
+     "name": "車輪 21",
+     "at": [
+      -39243,
+      40640,
+      51
+     ],
+     "size": [
+      0,
+      0,
+      0
+     ],
+     "cylinder": {
+      "r": 51,
+      "h": 19
+     }
+    },
+    {
+     "id": "wheel-22",
+     "name": "車輪 22",
+     "at": [
+      -39047,
+      40640,
+      51
+     ],
+     "size": [
+      0,
+      0,
+      0
+     ],
+     "cylinder": {
+      "r": 51,
+      "h": 19
+     }
+    },
+    {
+     "id": "pole",
+     "name": "見張りの柱（創作 1,064 mm）",
+     "at": [
+      -42600,
+      37900,
+      0
+     ],
+     "size": [
+      60,
+      60,
+      1064
+     ]
+    },
+    {
+     "id": "scaffold",
+     "name": "鍛冶の足場（創作 100 mm）",
+     "at": [
+      -250,
+      -620,
+      0
+     ],
+     "size": [
+      240,
+      160,
+      100
+     ]
+    },
+    {
+     "id": "balcony",
+     "name": "塔の南の見晴らし台（創作、高さ5フィート）",
+     "at": [
+      -500,
+      5500,
+      1494
+     ],
+     "size": [
+      1000,
+      596,
+      30
+     ]
+    }
+   ],
+   "bim": "temple",
+   "crowds": [
+    {
+     "id": "pullers",
+     "name": "滑車を引く900人",
+     "count": 900
+    },
+    {
+     "id": "horses",
+     "name": "王の馬（本文：高さ4インチ半、1,500頭）",
+     "count": 1500
+    },
+    {
+     "id": "mob",
+     "name": "神殿の前の群衆（本文：十万人以上のうち）",
+     "count": 834
+    }
+   ]
+  }
+ },
+ "panels": [
+  {
+   "panel": "e01-p01-k1",
+   "set": "beach",
+   "cam": [
+    -30,
+    -170,
+    381
+   ],
+   "look": [
+    0,
+    -700,
+    230
+   ],
+   "stand": "chest",
+   "hfovDeg": 34.1,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p01-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      0,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "lie-look",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e01-p01-k1-02",
+     "ch": "CH-30",
+     "name": "最初の小人（弓と矢筒）",
+     "fig": "a1",
+     "at": [
+      40,
+      -300,
+      245
+     ],
+     "facingDeg": 180.0,
+     "pose": "archer",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e01-p01-k1-03",
+     "ch": "CH-30",
+     "name": "胸の小人2",
+     "fig": "a2",
+     "at": [
+      60,
+      -260,
+      245
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e01-p01-k1-04",
+     "ch": "CH-30",
+     "name": "胸の小人3",
+     "fig": "a3",
+     "at": [
+      -90,
+      -230,
+      245
+     ],
+     "facingDeg": 180.0,
+     "pose": "archer",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e01-p01-k1-05",
+     "ch": "CH-30",
+     "name": "胸の小人4",
+     "fig": "a4",
+     "at": [
+      20,
+      -170,
+      245
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e01-p01-k1-06",
+     "ch": "CH-30",
+     "name": "胸の小人5",
+     "fig": "a5",
+     "at": [
+      -60,
+      -100,
+      245
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [
+    "body40",
+    "ring"
+   ],
+   "noModel": null,
+   "underlay": "underlay/e01-p01-k1.jpg",
+   "plan": "plans/e01-p01-k1.svg"
+  },
+  {
+   "panel": "e01-p01-k2",
+   "set": "stable",
+   "cam": [
+    2500,
+    -11000,
+    1600
+   ],
+   "look": [
+    -300,
+    -2000,
+    1300
+   ],
+   "stand": null,
+   "hfovDeg": 62.7,
+   "vfovDeg": 29.6,
+   "figures": [
+    {
+     "fg": "FG-e01-p01-k2-01",
+     "ch": "CH-10",
+     "name": "メアリー",
+     "fig": "mary",
+     "at": [
+      -300,
+      -3300,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "stand",
+     "heightMm": 1600
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "underlay": "underlay/e01-p01-k2.jpg",
+   "plan": "plans/e01-p01-k2.svg"
+  },
+  {
+   "panel": "e01-p02-k1",
+   "set": "stable",
+   "cam": [
+    -2700,
+    -1500,
+    1600
+   ],
+   "look": [
+    200,
+    1300,
+    1250
+   ],
+   "stand": null,
+   "hfovDeg": 39.5,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p02-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      200,
+      300,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "hands-together",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e01-p02-k1-02",
+     "ch": "horse",
+     "name": "馬（灰）",
+     "fig": "horse1",
+     "at": [
+      -650,
+      2700,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 1450
+    },
+    {
+     "fg": "FG-e01-p02-k1-03",
+     "ch": "horse",
+     "name": "馬（栗毛）",
+     "fig": "horse2",
+     "at": [
+      950,
+      2750,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 1420
+    },
+    {
+     "fg": "FG-e01-p02-k1-04",
+     "ch": "CH-10",
+     "name": "メアリー",
+     "fig": "mary",
+     "at": [
+      0,
+      -2900,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "hands-together",
+     "heightMm": 1600
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "underlay": "underlay/e01-p02-k1.jpg",
+   "plan": "plans/e01-p02-k1.svg"
+  },
+  {
+   "panel": "e01-p02-k2",
+   "set": "stable",
+   "cam": [
+    350,
+    550,
+    1550
+   ],
+   "look": [
+    -650,
+    1050,
+    1700
+   ],
+   "stand": null,
+   "hfovDeg": 19.3,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p02-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      200,
+      300,
+      0
+     ],
+     "facingDeg": 20.1,
+     "pose": "hands-together",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e01-p02-k2-02",
+     "ch": "horse",
+     "name": "馬（灰）",
+     "fig": "horse1",
+     "at": [
+      -650,
+      2700,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 1450
+    },
+    {
+     "fg": "FG-e01-p02-k2-03",
+     "ch": "horse",
+     "name": "馬（栗毛）",
+     "fig": "horse2",
+     "at": [
+      950,
+      2750,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 1420
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "underlay": "underlay/e01-p02-k2.jpg",
+   "plan": "plans/e01-p02-k2.svg"
+  },
+  {
+   "panel": "e01-p02-k3",
+   "set": "stable",
+   "cam": [
+    600,
+    1500,
+    1600
+   ],
+   "look": [
+    0,
+    -2900,
+    1300
+   ],
+   "stand": null,
+   "hfovDeg": 40.1,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p02-k3-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      200,
+      300,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "hands-together",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e01-p02-k3-02",
+     "ch": "horse",
+     "name": "馬（灰）",
+     "fig": "horse1",
+     "at": [
+      -650,
+      2700,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 1450
+    },
+    {
+     "fg": "FG-e01-p02-k3-03",
+     "ch": "horse",
+     "name": "馬（栗毛）",
+     "fig": "horse2",
+     "at": [
+      950,
+      2750,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 1420
+    },
+    {
+     "fg": "FG-e01-p02-k3-04",
+     "ch": "CH-10",
+     "name": "メアリー",
+     "fig": "mary",
+     "at": [
+      0,
+      -2900,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "hands-together",
+     "heightMm": 1600
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "underlay": "underlay/e01-p02-k3.jpg",
+   "plan": "plans/e01-p02-k3.svg"
+  },
+  {
+   "panel": "e01-p02-k4",
+   "set": "stable",
+   "cam": [
+    480,
+    -500,
+    1680
+   ],
+   "look": [
+    -100,
+    1300,
+    1550
+   ],
+   "stand": null,
+   "hfovDeg": 40.1,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p02-k4-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      200,
+      300,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "hands-together",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e01-p02-k4-02",
+     "ch": "horse",
+     "name": "馬（灰）",
+     "fig": "horse1",
+     "at": [
+      -650,
+      2700,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 1450
+    },
+    {
+     "fg": "FG-e01-p02-k4-03",
+     "ch": "horse",
+     "name": "馬（栗毛）",
+     "fig": "horse2",
+     "at": [
+      950,
+      2750,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 1420
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "underlay": "underlay/e01-p02-k4.jpg",
+   "plan": "plans/e01-p02-k4.svg"
+  },
+  {
+   "panel": "e01-p02-k5",
+   "set": "stable",
+   "cam": [
+    -2400,
+    -7500,
+    1600
+   ],
+   "look": [
+    300,
+    -3300,
+    1300
+   ],
+   "stand": null,
+   "hfovDeg": 31.6,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p02-k5-01",
+     "ch": "CH-10",
+     "name": "メアリー",
+     "fig": "mary",
+     "at": [
+      400,
+      -3600,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "turn-away",
+     "heightMm": 1600
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "underlay": "underlay/e01-p02-k5.jpg",
+   "plan": "plans/e01-p02-k5.svg"
+  },
+  {
+   "panel": "e01-p02-k6",
+   "set": "stable",
+   "cam": [
+    2200,
+    4200,
+    2000
+   ],
+   "look": [
+    -200,
+    -2600,
+    900
+   ],
+   "stand": null,
+   "hfovDeg": 46.3,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p02-k6-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      200,
+      300,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "hands-together",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e01-p02-k6-02",
+     "ch": "horse",
+     "name": "馬（灰）",
+     "fig": "horse1",
+     "at": [
+      -650,
+      2700,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 1450
+    },
+    {
+     "fg": "FG-e01-p02-k6-03",
+     "ch": "horse",
+     "name": "馬（栗毛）",
+     "fig": "horse2",
+     "at": [
+      950,
+      2750,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 1420
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "underlay": "underlay/e01-p02-k6.jpg",
+   "plan": "plans/e01-p02-k6.svg"
+  },
+  {
+   "panel": "e01-p03-k1",
+   "set": "port",
+   "cam": [
+    0,
+    0,
+    12000
+   ],
+   "look": [
+    0,
+    30000,
+    0
+   ],
+   "stand": null,
+   "hfovDeg": 46.7,
+   "vfovDeg": 35.0,
+   "figures": [],
+   "crowds": [],
+   "noModel": "アンテロープ号と港の3Dモデルが無い（地図 SM-02 と本文で描く）。",
+   "plan": "plans/e01-p03-k1.svg"
+  },
+  {
+   "panel": "e01-p03-k2",
+   "set": "port",
+   "cam": [
+    -3200,
+    -4200,
+    1600
+   ],
+   "look": [
+    0,
+    -1500,
+    1200
+   ],
+   "stand": null,
+   "hfovDeg": 15.8,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p03-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      -1500,
+      0
+     ],
+     "facingDeg": -90.0,
+     "pose": "carry-bag",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e01-p03-k2-02",
+     "ch": "CH-10",
+     "name": "メアリー",
+     "fig": "mary",
+     "at": [
+      950,
+      -1400,
+      0
+     ],
+     "facingDeg": 90.0,
+     "pose": "hands-together",
+     "heightMm": 1600
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "underlay": "underlay/e01-p03-k2.jpg",
+   "plan": "plans/e01-p03-k2.svg"
+  },
+  {
+   "panel": "e01-p03-k3",
+   "set": "port",
+   "cam": [
+    -800,
+    -1800,
+    1650
+   ],
+   "look": [
+    950,
+    -1400,
+    1480
+   ],
+   "stand": null,
+   "hfovDeg": 15.3,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p03-k3-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      -1500,
+      0
+     ],
+     "facingDeg": -90.0,
+     "pose": "carry-bag",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e01-p03-k3-02",
+     "ch": "CH-10",
+     "name": "メアリー",
+     "fig": "mary",
+     "at": [
+      950,
+      -1400,
+      0
+     ],
+     "facingDeg": 90.0,
+     "pose": "hands-together",
+     "heightMm": 1600
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "underlay": "underlay/e01-p03-k3.jpg",
+   "plan": "plans/e01-p03-k3.svg"
+  },
+  {
+   "panel": "e01-p03-k4",
+   "set": "port",
+   "cam": [
+    1800,
+    -1200,
+    1580
+   ],
+   "look": [
+    0,
+    -1500,
+    1600
+   ],
+   "stand": null,
+   "hfovDeg": 15.8,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p03-k4-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      -1500,
+      0
+     ],
+     "facingDeg": -90.0,
+     "pose": "carry-bag",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e01-p03-k4-02",
+     "ch": "CH-10",
+     "name": "メアリー",
+     "fig": "mary",
+     "at": [
+      950,
+      -1400,
+      0
+     ],
+     "facingDeg": 90.0,
+     "pose": "hands-together",
+     "heightMm": 1600
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "underlay": "underlay/e01-p03-k4.jpg",
+   "plan": "plans/e01-p03-k4.svg"
+  },
+  {
+   "panel": "e01-p04-k1",
+   "set": "port",
+   "cam": [
+    80,
+    -1420,
+    1520
+   ],
+   "look": [
+    950,
+    -1400,
+    1490
+   ],
+   "stand": null,
+   "hfovDeg": 23.8,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p04-k1-01",
+     "ch": "CH-10",
+     "name": "メアリー",
+     "fig": "mary",
+     "at": [
+      950,
+      -1400,
+      0
+     ],
+     "facingDeg": 90.0,
+     "pose": "hands-together",
+     "heightMm": 1600
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "underlay": "underlay/e01-p04-k1.jpg",
+   "plan": "plans/e01-p04-k1.svg"
+  },
+  {
+   "panel": "e01-p04-k2",
+   "set": "port",
+   "cam": [
+    3200,
+    -5200,
+    1600
+   ],
+   "look": [
+    600,
+    -500,
+    1300
+   ],
+   "stand": null,
+   "hfovDeg": 35.4,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p04-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      300,
+      -300,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "wave-hat",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e01-p04-k2-02",
+     "ch": "CH-10",
+     "name": "メアリー",
+     "fig": "mary",
+     "at": [
+      1500,
+      -2600,
+      0
+     ],
+     "facingDeg": -17.2,
+     "pose": "hands-together",
+     "heightMm": 1600
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "underlay": "underlay/e01-p04-k2.jpg",
+   "plan": "plans/e01-p04-k2.svg"
+  },
+  {
+   "panel": "e01-p04-k3",
+   "set": "port",
+   "cam": [
+    0,
+    -20000,
+    30000
+   ],
+   "look": [
+    0,
+    30000,
+    0
+   ],
+   "stand": null,
+   "hfovDeg": 39.5,
+   "vfovDeg": 35.0,
+   "figures": [],
+   "crowds": [],
+   "noModel": "アンテロープ号の3Dモデルが無い（本文と地図で描く）。",
+   "plan": "plans/e01-p04-k3.svg"
+  },
+  {
+   "panel": "e01-p05-k1",
+   "set": "sea",
+   "cam": [
+    0,
+    -8000,
+    2000
+   ],
+   "look": [
+    0,
+    0,
+    1500
+   ],
+   "stand": null,
+   "hfovDeg": 44.5,
+   "vfovDeg": 35.0,
+   "figures": [],
+   "crowds": [],
+   "noModel": "嵐の海で岩に乗り上げる船。船の3Dモデルが無い（本文で描く）。",
+   "plan": "plans/e01-p05-k1.svg"
+  },
+  {
+   "panel": "e01-p05-k2",
+   "set": "sea",
+   "cam": [
+    0,
+    -3000,
+    3000
+   ],
+   "look": [
+    0,
+    0,
+    1500
+   ],
+   "stand": null,
+   "hfovDeg": 23.9,
+   "vfovDeg": 35.0,
+   "figures": [],
+   "crowds": [],
+   "noModel": "砕ける船首。船の3Dモデルが無い（本文で描く）。",
+   "plan": "plans/e01-p05-k2.svg"
+  },
+  {
+   "panel": "e01-p05-k3",
+   "set": "sea",
+   "cam": [
+    0,
+    -6000,
+    300
+   ],
+   "look": [
+    0,
+    0,
+    0
+   ],
+   "stand": null,
+   "hfovDeg": 22.6,
+   "vfovDeg": 35.0,
+   "figures": [],
+   "crowds": [],
+   "noModel": "転覆する小舟。小舟の3Dモデルが無い（本文で描く）。",
+   "plan": "plans/e01-p05-k3.svg"
+  },
+  {
+   "panel": "e01-p06-k1",
+   "set": "sea",
+   "cam": [
+    -2400,
+    -2600,
+    300
+   ],
+   "look": [
+    0,
+    0,
+    50
+   ],
+   "stand": null,
+   "hfovDeg": 46.7,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p06-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      0,
+      -1560
+     ],
+     "facingDeg": 17.2,
+     "pose": "tread",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "underlay": "underlay/e01-p06-k1.jpg",
+   "plan": "plans/e01-p06-k1.svg"
+  },
+  {
+   "panel": "e01-p06-k2",
+   "set": "sea",
+   "cam": [
+    -1500,
+    -1100,
+    -700
+   ],
+   "look": [
+    0,
+    300,
+    -900
+   ],
+   "stand": null,
+   "hfovDeg": 23.8,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p06-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      300,
+      -1000
+     ],
+     "facingDeg": 11.5,
+     "pose": "swim",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "underlay": "underlay/e01-p06-k2.jpg",
+   "plan": "plans/e01-p06-k2.svg"
+  },
+  {
+   "panel": "e01-p06-k3",
+   "set": "sea",
+   "cam": [
+    400,
+    4200,
+    600
+   ],
+   "look": [
+    0,
+    14000,
+    900
+   ],
+   "stand": null,
+   "hfovDeg": 23.8,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p06-k3-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      8800,
+      -410
+     ],
+     "facingDeg": 0.0,
+     "pose": "walk",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "underlay": "underlay/e01-p06-k3.jpg",
+   "plan": "plans/e01-p06-k3.svg"
+  },
+  {
+   "panel": "e01-p07-k1",
+   "set": "sea",
+   "cam": [
+    -3800,
+    26500,
+    450
+   ],
+   "look": [
+    0,
+    30200,
+    150
+   ],
+   "stand": null,
+   "hfovDeg": 56.9,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p07-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      30500,
+      12
+     ],
+     "facingDeg": 8.6,
+     "pose": "lie",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "underlay": "underlay/e01-p07-k1.jpg",
+   "plan": "plans/e01-p07-k1.svg"
+  },
+  {
+   "panel": "e01-p07-k2",
+   "set": "sea",
+   "cam": [
+    -430,
+    29640,
+    30
+   ],
+   "look": [
+    0,
+    29800,
+    140
+   ],
+   "stand": "grass",
+   "hfovDeg": 39.5,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p07-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      30500,
+      12
+     ],
+     "facingDeg": 0.0,
+     "pose": "lie",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "underlay": "underlay/e01-p07-k2.jpg",
+   "plan": "plans/e01-p07-k2.svg"
+  },
+  {
+   "panel": "e01-p08-k1",
+   "set": "beach",
+   "cam": [
+    -40,
+    -760,
+    520
+   ],
+   "look": [
+    -40,
+    -700,
+    175
+   ],
+   "stand": null,
+   "hfovDeg": 56.9,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p08-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      0,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "lie",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "underlay": "underlay/e01-p08-k1.jpg",
+   "plan": "plans/e01-p08-k1.svg"
+  },
+  {
+   "panel": "e01-p08-k2",
+   "set": "beach",
+   "cam": [
+    450,
+    -150,
+    300
+   ],
+   "look": [
+    0,
+    -700,
+    200
+   ],
+   "stand": null,
+   "hfovDeg": 40.1,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p08-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      0,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "lie",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "underlay": "underlay/e01-p08-k2.jpg",
+   "plan": "plans/e01-p08-k2.svg"
+  },
+  {
+   "panel": "e01-p08-k3",
+   "set": "beach",
+   "cam": [
+    -700,
+    450,
+    136
+   ],
+   "look": [
+    -236,
+    150,
+    120
+   ],
+   "stand": null,
+   "hfovDeg": 40.1,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p08-k3-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      0,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "lie",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "underlay": "underlay/e01-p08-k3.jpg",
+   "plan": "plans/e01-p08-k3.svg"
+  },
+  {
+   "panel": "e01-p08-k4",
+   "set": "beach",
+   "cam": [
+    -420,
+    520,
+    136
+   ],
+   "look": [
+    -96,
+    430,
+    250
+   ],
+   "stand": null,
+   "hfovDeg": 62.7,
+   "vfovDeg": 29.6,
+   "figures": [
+    {
+     "fg": "FG-e01-p08-k4-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      0,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "lie",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e01-p08-k4-02",
+     "ch": "CH-30",
+     "name": "最初の小人（弓と矢筒）",
+     "fig": "a1",
+     "at": [
+      -96,
+      430,
+      190
+     ],
+     "facingDeg": 180.0,
+     "pose": "walk",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "underlay": "underlay/e01-p08-k4.jpg",
+   "plan": "plans/e01-p08-k4.svg"
+  },
+  {
+   "panel": "e01-p09-k1",
+   "set": "beach",
+   "cam": [
+    70,
+    -470,
+    250
+   ],
+   "look": [
+    0,
+    -720,
+    210
+   ],
+   "stand": null,
+   "hfovDeg": 62.7,
+   "vfovDeg": 24.7,
+   "figures": [
+    {
+     "fg": "FG-e01-p09-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      0,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "lie-look",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e01-p09-k1-02",
+     "ch": "CH-30",
+     "name": "最初の小人（弓と矢筒）",
+     "fig": "a1",
+     "at": [
+      -20,
+      -360,
+      245
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "underlay": "underlay/e01-p09-k1.jpg",
+   "plan": "plans/e01-p09-k1.svg"
+  },
+  {
+   "panel": "e01-p09-k2",
+   "set": "beach",
+   "cam": [
+    -10,
+    -120,
+    381
+   ],
+   "look": [
+    0,
+    -680,
+    240
+   ],
+   "stand": "chest",
+   "hfovDeg": 43.3,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p09-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      0,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "lie-look",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e01-p09-k2-02",
+     "ch": "CH-30",
+     "name": "最初の小人（弓と矢筒）",
+     "fig": "a1",
+     "at": [
+      45,
+      -330,
+      245
+     ],
+     "facingDeg": 180.0,
+     "pose": "archer",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e01-p09-k2-03",
+     "ch": "CH-30",
+     "name": "胸の小人2",
+     "fig": "a2",
+     "at": [
+      60,
+      -260,
+      245
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e01-p09-k2-04",
+     "ch": "CH-30",
+     "name": "胸の小人3",
+     "fig": "a3",
+     "at": [
+      -90,
+      -230,
+      245
+     ],
+     "facingDeg": 180.0,
+     "pose": "archer",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e01-p09-k2-05",
+     "ch": "CH-30",
+     "name": "胸の小人4",
+     "fig": "a4",
+     "at": [
+      20,
+      -170,
+      245
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e01-p09-k2-06",
+     "ch": "CH-30",
+     "name": "胸の小人5",
+     "fig": "a5",
+     "at": [
+      -60,
+      -100,
+      245
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [
+    "body40"
+   ],
+   "noModel": null,
+   "underlay": "underlay/e01-p09-k2.jpg",
+   "plan": "plans/e01-p09-k2.svg"
+  },
+  {
+   "panel": "e01-p09-k3",
+   "set": "beach",
+   "cam": [
+    0,
+    -780,
+    760
+   ],
+   "look": [
+    0,
+    -700,
+    190
+   ],
+   "stand": null,
+   "hfovDeg": 62.7,
+   "vfovDeg": 19.7,
+   "figures": [
+    {
+     "fg": "FG-e01-p09-k3-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      0,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "lie-look",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e01-p09-k3-02",
+     "ch": "CH-30",
+     "name": "最初の小人（弓と矢筒）",
+     "fig": "a1",
+     "at": [
+      -20,
+      -360,
+      245
+     ],
+     "facingDeg": 180.0,
+     "pose": "archer",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [
+    "body40"
+   ],
+   "noModel": null,
+   "underlay": "underlay/e01-p09-k3.jpg",
+   "plan": "plans/e01-p09-k3.svg"
+  },
+  {
+   "panel": "e01-p10-k1",
+   "set": "beach",
+   "cam": [
+    460,
+    -260,
+    136
+   ],
+   "look": [
+    110,
+    -330,
+    220
+   ],
+   "stand": null,
+   "hfovDeg": 62.7,
+   "vfovDeg": 31.9,
+   "figures": [
+    {
+     "fg": "FG-e01-p10-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      0,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "lie",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e01-p10-k1-02",
+     "ch": "CH-30",
+     "name": "最初の小人（弓と矢筒）",
+     "fig": "a1",
+     "at": [
+      170,
+      -380,
+      160
+     ],
+     "facingDeg": 180.0,
+     "pose": "fall",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e01-p10-k1-03",
+     "ch": "CH-30",
+     "name": "胸の小人2",
+     "fig": "a2",
+     "at": [
+      210,
+      -250,
+      90
+     ],
+     "facingDeg": 143.2,
+     "pose": "fall",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e01-p10-k1-04",
+     "ch": "CH-30",
+     "name": "胸の小人3",
+     "fig": "a3",
+     "at": [
+      240,
+      -150,
+      20
+     ],
+     "facingDeg": 68.8,
+     "pose": "fall",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e01-p10-k1-05",
+     "ch": "CH-30",
+     "name": "胸の小人4",
+     "fig": "a4",
+     "at": [
+      40,
+      -300,
+      245
+     ],
+     "facingDeg": 180.0,
+     "pose": "dance",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [
+    "ring"
+   ],
+   "noModel": null,
+   "underlay": "underlay/e01-p10-k1.jpg",
+   "plan": "plans/e01-p10-k1.svg"
+  },
+  {
+   "panel": "e01-p10-k2",
+   "set": "beach",
+   "cam": [
+    -900,
+    -300,
+    200
+   ],
+   "look": [
+    -220,
+    -500,
+    450
+   ],
+   "stand": null,
+   "hfovDeg": 40.1,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p10-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      0,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "lie-arm-free",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [
+    "ring"
+   ],
+   "noModel": null,
+   "underlay": "underlay/e01-p10-k2.jpg",
+   "plan": "plans/e01-p10-k2.svg"
+  },
+  {
+   "panel": "e01-p10-k3",
+   "set": "beach",
+   "cam": [
+    -1180,
+    260,
+    136
+   ],
+   "look": [
+    -560,
+    150,
+    100
+   ],
+   "stand": null,
+   "hfovDeg": 37.2,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p10-k3-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      0,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "lie-arm-free",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e01-p10-k3-02",
+     "ch": "CH-30",
+     "name": "隊長",
+     "fig": "cmd",
+     "at": [
+      -620,
+      150,
+      0
+     ],
+     "facingDeg": -90.0,
+     "pose": "sword-up",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e01-p10-k3-03",
+     "ch": "CH-30",
+     "name": "弓兵1",
+     "fig": "b1",
+     "at": [
+      -780,
+      40,
+      0
+     ],
+     "facingDeg": -90.0,
+     "pose": "archer",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e01-p10-k3-04",
+     "ch": "CH-30",
+     "name": "弓兵2",
+     "fig": "b2",
+     "at": [
+      -790,
+      160,
+      0
+     ],
+     "facingDeg": -90.0,
+     "pose": "archer",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e01-p10-k3-05",
+     "ch": "CH-30",
+     "name": "弓兵3",
+     "fig": "b3",
+     "at": [
+      -780,
+      280,
+      0
+     ],
+     "facingDeg": -90.0,
+     "pose": "archer",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [
+    "archers"
+   ],
+   "noModel": null,
+   "underlay": "underlay/e01-p10-k3.jpg",
+   "plan": "plans/e01-p10-k3.svg"
+  },
+  {
+   "panel": "e01-p10-k4",
+   "set": "beach",
+   "cam": [
+    -1000,
+    100,
+    136
+   ],
+   "look": [
+    -220,
+    -500,
+    500
+   ],
+   "stand": null,
+   "hfovDeg": 56.9,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p10-k4-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      0,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "lie-arm-free",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e01-p10-k4-02",
+     "ch": "CH-30",
+     "name": "弓兵1",
+     "fig": "b1",
+     "at": [
+      -780,
+      40,
+      0
+     ],
+     "facingDeg": -90.0,
+     "pose": "archer",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e01-p10-k4-03",
+     "ch": "CH-30",
+     "name": "弓兵2",
+     "fig": "b2",
+     "at": [
+      -790,
+      160,
+      0
+     ],
+     "facingDeg": -90.0,
+     "pose": "archer",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e01-p10-k4-04",
+     "ch": "CH-30",
+     "name": "弓兵3",
+     "fig": "b3",
+     "at": [
+      -780,
+      280,
+      0
+     ],
+     "facingDeg": -90.0,
+     "pose": "archer",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e01-p10-k4-05",
+     "ch": "CH-30",
+     "name": "弓兵4",
+     "fig": "b4",
+     "at": [
+      -800,
+      -80,
+      0
+     ],
+     "facingDeg": -90.0,
+     "pose": "archer",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [
+    "archers"
+   ],
+   "noModel": null,
+   "underlay": "underlay/e01-p10-k4.jpg",
+   "plan": "plans/e01-p10-k4.svg"
+  },
+  {
+   "panel": "e01-p11-k1",
+   "set": "beach",
+   "cam": [
+    -470,
+    60,
+    300
+   ],
+   "look": [
+    -236,
+    150,
+    130
+   ],
+   "stand": null,
+   "hfovDeg": 39.1,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p11-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      0,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "lie",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "underlay": "underlay/e01-p11-k1.jpg",
+   "plan": "plans/e01-p11-k1.svg"
+  },
+  {
+   "panel": "e01-p11-k2",
+   "set": "beach",
+   "cam": [
+    -460,
+    -760,
+    300
+   ],
+   "look": [
+    0,
+    -620,
+    150
+   ],
+   "stand": null,
+   "hfovDeg": 39.1,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p11-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      0,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "lie",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [
+    "ring"
+   ],
+   "noModel": null,
+   "underlay": "underlay/e01-p11-k2.jpg",
+   "plan": "plans/e01-p11-k2.svg"
+  },
+  {
+   "panel": "e01-p11-k3",
+   "set": "beach",
+   "cam": [
+    1300,
+    -300,
+    136
+   ],
+   "look": [
+    430,
+    -700,
+    520
+   ],
+   "stand": null,
+   "hfovDeg": 57.8,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p11-k3-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      0,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "lie",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e01-p11-k3-02",
+     "ch": "CH-30",
+     "name": "演説する貴人",
+     "fig": "orator",
+     "at": [
+      430,
+      -700,
+      457
+     ],
+     "facingDeg": 90.0,
+     "pose": "orate",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e01-p11-k3-03",
+     "ch": "CH-30",
+     "name": "胸の小人2",
+     "fig": "a2",
+     "at": [
+      380,
+      -780,
+      457
+     ],
+     "facingDeg": 90.0,
+     "pose": "stand",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [
+    "ring"
+   ],
+   "noModel": null,
+   "underlay": "underlay/e01-p11-k3.jpg",
+   "plan": "plans/e01-p11-k3.svg"
+  },
+  {
+   "panel": "e01-p11-k4",
+   "set": "beach",
+   "cam": [
+    -300,
+    -930,
+    360
+   ],
+   "look": [
+    -60,
+    -700,
+    220
+   ],
+   "stand": null,
+   "hfovDeg": 31.6,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p11-k4-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      0,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "lie-eat",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "underlay": "underlay/e01-p11-k4.jpg",
+   "plan": "plans/e01-p11-k4.svg"
+  },
+  {
+   "panel": "e01-p11-k5",
+   "set": "beach",
+   "cam": [
+    520,
+    -330,
+    136
+   ],
+   "look": [
+    180,
+    -420,
+    250
+   ],
+   "stand": null,
+   "hfovDeg": 46.3,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p11-k5-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      0,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "lie",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e01-p11-k5-02",
+     "ch": "CH-30",
+     "name": "胸の小人2",
+     "fig": "a2",
+     "at": [
+      260,
+      -400,
+      150
+     ],
+     "facingDeg": 90.0,
+     "pose": "carry-up",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e01-p11-k5-03",
+     "ch": "CH-30",
+     "name": "胸の小人3",
+     "fig": "a3",
+     "at": [
+      120,
+      -420,
+      245
+     ],
+     "facingDeg": 90.0,
+     "pose": "carry-up",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e01-p11-k5-04",
+     "ch": "CH-30",
+     "name": "胸の小人4",
+     "fig": "a4",
+     "at": [
+      40,
+      -440,
+      245
+     ],
+     "facingDeg": 180.0,
+     "pose": "carry-up",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [
+    "ring"
+   ],
+   "noModel": null,
+   "underlay": "underlay/e01-p11-k5.jpg",
+   "plan": "plans/e01-p11-k5.svg"
+  },
+  {
+   "panel": "e01-p12-k1",
+   "set": "beach",
+   "cam": [
+    -260,
+    -860,
+    260
+   ],
+   "look": [
+    -80,
+    -700,
+    220
+   ],
+   "stand": null,
+   "hfovDeg": 39.1,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p12-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      0,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "lie-eat",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "underlay": "underlay/e01-p12-k1.jpg",
+   "plan": "plans/e01-p12-k1.svg"
+  },
+  {
+   "panel": "e01-p12-k2",
+   "set": "beach",
+   "cam": [
+    0,
+    -260,
+    381
+   ],
+   "look": [
+    0,
+    -660,
+    200
+   ],
+   "stand": "chest",
+   "hfovDeg": 39.1,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p12-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      0,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "lie-drink",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e01-p12-k2-02",
+     "ch": "CH-30",
+     "name": "胸の小人2",
+     "fig": "a2",
+     "at": [
+      60,
+      -330,
+      245
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e01-p12-k2-03",
+     "ch": "CH-30",
+     "name": "胸の小人3",
+     "fig": "a3",
+     "at": [
+      -70,
+      -310,
+      245
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "underlay": "underlay/e01-p12-k2.jpg",
+   "plan": "plans/e01-p12-k2.svg"
+  },
+  {
+   "panel": "e01-p12-k3",
+   "set": "beach",
+   "cam": [
+    70,
+    -60,
+    381
+   ],
+   "look": [
+    0,
+    -380,
+    300
+   ],
+   "stand": "chest",
+   "hfovDeg": 62.7,
+   "vfovDeg": 25.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p12-k3-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      0,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "lie",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e01-p12-k3-02",
+     "ch": "CH-30",
+     "name": "最初の小人（弓と矢筒）",
+     "fig": "a1",
+     "at": [
+      -40,
+      -330,
+      245
+     ],
+     "facingDeg": 180.0,
+     "pose": "dance",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e01-p12-k3-03",
+     "ch": "CH-30",
+     "name": "胸の小人2",
+     "fig": "a2",
+     "at": [
+      50,
+      -300,
+      245
+     ],
+     "facingDeg": 180.0,
+     "pose": "dance",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e01-p12-k3-04",
+     "ch": "CH-30",
+     "name": "胸の小人3",
+     "fig": "a3",
+     "at": [
+      -20,
+      -230,
+      245
+     ],
+     "facingDeg": 180.0,
+     "pose": "dance",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e01-p12-k3-05",
+     "ch": "CH-30",
+     "name": "胸の小人4",
+     "fig": "a4",
+     "at": [
+      60,
+      -190,
+      245
+     ],
+     "facingDeg": 180.0,
+     "pose": "dance",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e01-p12-k3-06",
+     "ch": "CH-30",
+     "name": "胸の小人5",
+     "fig": "a5",
+     "at": [
+      -70,
+      -160,
+      245
+     ],
+     "facingDeg": 180.0,
+     "pose": "dance",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [
+    "body40"
+   ],
+   "noModel": null,
+   "underlay": "underlay/e01-p12-k3.jpg",
+   "plan": "plans/e01-p12-k3.svg"
+  },
+  {
+   "panel": "e01-p12-k4",
+   "set": "beach",
+   "cam": [
+    -560,
+    120,
+    420
+   ],
+   "look": [
+    -80,
+    -300,
+    250
+   ],
+   "stand": null,
+   "hfovDeg": 62.7,
+   "vfovDeg": 25.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p12-k4-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      0,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "lie-hand-hover",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e01-p12-k4-02",
+     "ch": "CH-30",
+     "name": "最初の小人（弓と矢筒）",
+     "fig": "a1",
+     "at": [
+      -40,
+      -330,
+      245
+     ],
+     "facingDeg": 180.0,
+     "pose": "dance",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e01-p12-k4-03",
+     "ch": "CH-30",
+     "name": "胸の小人2",
+     "fig": "a2",
+     "at": [
+      50,
+      -300,
+      245
+     ],
+     "facingDeg": 180.0,
+     "pose": "dance",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e01-p12-k4-04",
+     "ch": "CH-30",
+     "name": "胸の小人3",
+     "fig": "a3",
+     "at": [
+      -20,
+      -230,
+      245
+     ],
+     "facingDeg": 180.0,
+     "pose": "dance",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [
+    "body40"
+   ],
+   "noModel": null,
+   "underlay": "underlay/e01-p12-k4.jpg",
+   "plan": "plans/e01-p12-k4.svg"
+  },
+  {
+   "panel": "e01-p12-k5",
+   "set": "beach",
+   "cam": [
+    -40,
+    -760,
+    520
+   ],
+   "look": [
+    -40,
+    -700,
+    175
+   ],
+   "stand": null,
+   "hfovDeg": 62.7,
+   "vfovDeg": 17.7,
+   "figures": [
+    {
+     "fg": "FG-e01-p12-k5-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      0,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "lie",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "underlay": "underlay/e01-p12-k5.jpg",
+   "plan": "plans/e01-p12-k5.svg"
+  },
+  {
+   "panel": "e01-p13-k1",
+   "set": "temple",
+   "cam": [
+    -39200,
+    38600,
+    136
+   ],
+   "look": [
+    -40300,
+    40000,
+    200
+   ],
+   "stand": null,
+   "hfovDeg": 62.7,
+   "vfovDeg": 29.6,
+   "figures": [
+    {
+     "fg": "FG-e01-p13-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      -39950,
+      40000,
+      105
+     ],
+     "facingDeg": -90.0,
+     "pose": "lie",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [
+    "pullers"
+   ],
+   "noModel": null,
+   "underlay": "underlay/e01-p13-k1.jpg",
+   "plan": "plans/e01-p13-k1.svg"
+  },
+  {
+   "panel": "e01-p13-k2",
+   "set": "temple",
+   "cam": [
+    -42560,
+    37940,
+    1200
+   ],
+   "look": [
+    -37500,
+    40000,
+    0
+   ],
+   "stand": "pole",
+   "hfovDeg": 47.3,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p13-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      -39950,
+      40000,
+      105
+     ],
+     "facingDeg": -90.0,
+     "pose": "lie",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e01-p13-k2-02",
+     "ch": "CH-30",
+     "name": "見張り",
+     "fig": "w1",
+     "at": [
+      -42570,
+      37930,
+      1064
+     ],
+     "facingDeg": -51.6,
+     "pose": "point",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [
+    "pullers",
+    "horses"
+   ],
+   "noModel": null,
+   "underlay": "underlay/e01-p13-k2.jpg",
+   "plan": "plans/e01-p13-k2.svg"
+  },
+  {
+   "panel": "e01-p13-k3",
+   "set": "temple",
+   "cam": [
+    -40500,
+    39050,
+    40
+   ],
+   "look": [
+    -40700,
+    39360,
+    55
+   ],
+   "stand": null,
+   "hfovDeg": 62.7,
+   "vfovDeg": 19.7,
+   "figures": [
+    {
+     "fg": "FG-e01-p13-k3-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      -39950,
+      40000,
+      105
+     ],
+     "facingDeg": -90.0,
+     "pose": "lie",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [
+    "pullers"
+   ],
+   "noModel": null,
+   "underlay": "underlay/e01-p13-k3.jpg",
+   "plan": "plans/e01-p13-k3.svg"
+  },
+  {
+   "panel": "e01-p14-k1",
+   "set": "temple",
+   "cam": [
+    3600,
+    4200,
+    136
+   ],
+   "look": [
+    0,
+    0,
+    500
+   ],
+   "stand": null,
+   "hfovDeg": 46.7,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p14-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      100,
+      -1300,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "lie",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [
+    "mob"
+   ],
+   "noModel": null,
+   "underlay": "underlay/e01-p14-k1.jpg",
+   "plan": "plans/e01-p14-k1.svg"
+  },
+  {
+   "panel": "e01-p14-k2",
+   "set": "temple",
+   "cam": [
+    -260,
+    -640,
+    236
+   ],
+   "look": [
+    4,
+    -500,
+    60
+   ],
+   "stand": "scaffold",
+   "hfovDeg": 23.8,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p14-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      100,
+      -1300,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "lie",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e01-p14-k2-02",
+     "ch": "CH-30",
+     "name": "王の鍛冶",
+     "fig": "smith",
+     "at": [
+      -140,
+      -540,
+      100
+     ],
+     "facingDeg": -90.0,
+     "pose": "crouch",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "underlay": "underlay/e01-p14-k2.jpg",
+   "plan": "plans/e01-p14-k2.svg"
+  },
+  {
+   "panel": "e01-p14-k3",
+   "set": "temple",
+   "cam": [
+    -90,
+    -420,
+    60
+   ],
+   "look": [
+    4,
+    -500,
+    70
+   ],
+   "stand": null,
+   "hfovDeg": 23.8,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p14-k3-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      100,
+      -1300,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "lie",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "underlay": "underlay/e01-p14-k3.jpg",
+   "plan": "plans/e01-p14-k3.svg"
+  },
+  {
+   "panel": "e01-p15-k1",
+   "set": "temple",
+   "cam": [
+    400,
+    3400,
+    136
+   ],
+   "look": [
+    -150,
+    1100,
+    1250
+   ],
+   "stand": null,
+   "hfovDeg": 34.1,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p15-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      -150,
+      1100,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "stand",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [
+    "mob"
+   ],
+   "noModel": null,
+   "underlay": "underlay/e01-p15-k1.jpg",
+   "plan": "plans/e01-p15-k1.svg"
+  },
+  {
+   "panel": "e01-p15-k2",
+   "set": "temple",
+   "cam": [
+    2600,
+    2900,
+    136
+   ],
+   "look": [
+    0,
+    2500,
+    120
+   ],
+   "stand": null,
+   "hfovDeg": 62.7,
+   "vfovDeg": 29.6,
+   "figures": [
+    {
+     "fg": "FG-e01-p15-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      -150,
+      1100,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "stand",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [
+    "mob"
+   ],
+   "noModel": null,
+   "underlay": "underlay/e01-p15-k2.jpg",
+   "plan": "plans/e01-p15-k2.svg"
+  },
+  {
+   "panel": "e01-p16-k1",
+   "set": "temple",
+   "cam": [
+    330,
+    5980,
+    1660
+   ],
+   "look": [
+    -150,
+    1100,
+    1100
+   ],
+   "stand": "turret",
+   "hfovDeg": 46.3,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p16-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      -150,
+      1100,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "stand",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e01-p16-k1-02",
+     "ch": "CH-02",
+     "name": "皇帝",
+     "fig": "emperor",
+     "at": [
+      0,
+      5800,
+      1524
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 158
+    },
+    {
+     "fg": "FG-e01-p16-k1-03",
+     "ch": "CH-30",
+     "name": "貴人1",
+     "fig": "n1",
+     "at": [
+      -260,
+      5850,
+      1524
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e01-p16-k1-04",
+     "ch": "CH-30",
+     "name": "貴人2",
+     "fig": "n2",
+     "at": [
+      260,
+      5850,
+      1524
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [
+    "mob"
+   ],
+   "noModel": null,
+   "underlay": "underlay/e01-p16-k1.jpg",
+   "plan": "plans/e01-p16-k1.svg"
+  },
+  {
+   "panel": "e01-p16-k2",
+   "set": "temple",
+   "cam": [
+    0,
+    5300,
+    1660
+   ],
+   "look": [
+    0,
+    5800,
+    1640
+   ],
+   "stand": "turret",
+   "hfovDeg": 31.6,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p16-k2-01",
+     "ch": "CH-02",
+     "name": "皇帝",
+     "fig": "emperor",
+     "at": [
+      0,
+      5800,
+      1524
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 158
+    },
+    {
+     "fg": "FG-e01-p16-k2-02",
+     "ch": "CH-30",
+     "name": "貴人1",
+     "fig": "n1",
+     "at": [
+      -260,
+      5850,
+      1524
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "underlay": "underlay/e01-p16-k2.jpg",
+   "plan": "plans/e01-p16-k2.svg"
+  },
+  {
+   "panel": "e01-p16-k3",
+   "set": "temple",
+   "cam": [
+    400,
+    5800,
+    1660
+   ],
+   "look": [
+    0,
+    5800,
+    1640
+   ],
+   "stand": "turret",
+   "hfovDeg": 62.7,
+   "vfovDeg": 28.9,
+   "figures": [
+    {
+     "fg": "FG-e01-p16-k3-01",
+     "ch": "CH-02",
+     "name": "皇帝",
+     "fig": "emperor",
+     "at": [
+      0,
+      5800,
+      1524
+     ],
+     "facingDeg": 180.0,
+     "pose": "point",
+     "heightMm": 158
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "underlay": "underlay/e01-p16-k3.jpg",
+   "plan": "plans/e01-p16-k3.svg"
+  },
+  {
+   "panel": "e01-p16-k4",
+   "set": "temple",
+   "cam": [
+    182880,
+    1500,
+    898
+   ],
+   "look": [
+    0,
+    700,
+    600
+   ],
+   "stand": "city-wall",
+   "hfovDeg": 56.9,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e01-p16-k4-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      700,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "sit",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [
+    "mob"
+   ],
+   "noModel": null,
+   "underlay": "underlay/e01-p16-k4.jpg",
+   "plan": "plans/e01-p16-k4.svg"
+  }
+ ]
+}
