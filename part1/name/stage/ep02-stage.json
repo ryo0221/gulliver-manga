@@ -1,0 +1,3460 @@
+{
+ "schemaVersion": 1,
+ "episode": 2,
+ "verticalFovDeg": 35.0,
+ "sets": {
+  "court": {
+   "name": "古い神殿（F106）の前の広場：宮廷の芸と解放の誓い",
+   "scenes": [
+    "SC-006",
+    "SC-007"
+   ],
+   "reason": null,
+   "props": [
+    {
+     "name": "F106 古い神殿",
+     "kind": "bim",
+     "artifactId": "artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb",
+     "versionId": "version_1b27b613-8294-4d04-84c6-1efcf6bc8d74",
+     "contentHash": "d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384"
+    },
+    {
+     "name": "舞台 court",
+     "kind": "cad",
+     "artifactId": "artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0",
+     "versionId": "version_f3c63fb1-e061-425a-97ae-34627cf533ab",
+     "contentHash": "8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24"
+    }
+   ],
+   "canvas": {
+    "width": 1440,
+    "height": 745,
+    "verticalFovDeg": 35
+   },
+   "cad": [
+    {
+     "id": "grass",
+     "name": "草地",
+     "at": [
+      -250000,
+      -250000,
+      -14
+     ],
+     "size": [
+      500000,
+      500000,
+      12
+     ]
+    },
+    {
+     "id": "post-w",
+     "name": "糸を張る柱（西、創作）",
+     "at": [
+      -420,
+      1594,
+      0
+     ],
+     "size": [
+      12,
+      12,
+      325
+     ]
+    },
+    {
+     "id": "post-e",
+     "name": "糸を張る柱（東、創作）",
+     "at": [
+      408,
+      1594,
+      0
+     ],
+     "size": [
+      12,
+      12,
+      325
+     ]
+    },
+    {
+     "id": "rope",
+     "name": "細い糸（本文：地上12インチ、長さ2フィート）",
+     "at": [
+      -408,
+      1599,
+      304
+     ],
+     "size": [
+      816,
+      3,
+      3
+     ]
+    },
+    {
+     "id": "stick",
+     "name": "皇帝の棒（創作：長さ 300 mm）",
+     "at": [
+      250,
+      1948,
+      95
+     ],
+     "size": [
+      300,
+      4,
+      4
+     ]
+    }
+   ],
+   "bim": "temple",
+   "vessels": [],
+   "crowds": [
+    {
+     "id": "court",
+     "name": "見物の宮廷（創作の人数）",
+     "count": 77
+    },
+    {
+     "id": "mob",
+     "name": "広場の端の民（創作の人数）",
+     "count": 240
+    }
+   ]
+  },
+  "council": {
+   "name": "王宮の評議の間（仮の3D、創作）",
+   "scenes": [
+    "SC-007"
+   ],
+   "reason": "再現（GV1〜GV7）の王宮（F105）に部屋の中は無い。床・壁・長い卓・玉座だけの仮の3D（創作、小人の大きさ）で人物の配置とカメラを決めた。",
+   "props": [
+    {
+     "name": "舞台 council",
+     "kind": "cad",
+     "artifactId": "artifact_519b999d-13f7-4edf-9cdf-f49a17b9ad17",
+     "versionId": "version_d439069e-e47e-42cb-b0cf-4b2cf363e461",
+     "contentHash": "a79190853dd888558b96cbb2b6229f376f22288f3e3e026bf14c1cd903bee027"
+    }
+   ],
+   "canvas": {
+    "width": 1440,
+    "height": 745,
+    "verticalFovDeg": 35
+   },
+   "cad": [
+    {
+     "id": "floor",
+     "name": "床",
+     "at": [
+      -620,
+      -420,
+      -6
+     ],
+     "size": [
+      1240,
+      840,
+      6
+     ]
+    },
+    {
+     "id": "wall-n",
+     "name": "北の壁",
+     "at": [
+      -620,
+      420,
+      0
+     ],
+     "size": [
+      1240,
+      20,
+      420
+     ]
+    },
+    {
+     "id": "wall-s",
+     "name": "南の壁",
+     "at": [
+      -620,
+      -440,
+      0
+     ],
+     "size": [
+      1240,
+      20,
+      420
+     ]
+    },
+    {
+     "id": "wall-w",
+     "name": "西の壁（玉座の後ろ）",
+     "at": [
+      -640,
+      -440,
+      0
+     ],
+     "size": [
+      20,
+      880,
+      420
+     ]
+    },
+    {
+     "id": "wall-e1",
+     "name": "東の壁",
+     "at": [
+      620,
+      -440,
+      0
+     ],
+     "size": [
+      20,
+      360,
+      420
+     ]
+    },
+    {
+     "id": "wall-e2",
+     "name": "東の壁（入口の北）",
+     "at": [
+      620,
+      80,
+      0
+     ],
+     "size": [
+      20,
+      360,
+      420
+     ]
+    },
+    {
+     "id": "table",
+     "name": "長い卓",
+     "at": [
+      -300,
+      -60,
+      0
+     ],
+     "size": [
+      600,
+      120,
+      60
+     ]
+    },
+    {
+     "id": "throne",
+     "name": "玉座",
+     "at": [
+      -580,
+      -50,
+      0
+     ],
+     "size": [
+      60,
+      100,
+      110
+     ]
+    }
+   ],
+   "bim": null,
+   "vessels": [],
+   "crowds": []
+  },
+  "city": {
+   "name": "都ミルデンドウ（F105）と王宮",
+   "scenes": [
+    "SC-008"
+   ],
+   "reason": null,
+   "props": [
+    {
+     "name": "F105 都ミルデンドウ",
+     "kind": "bim",
+     "artifactId": "artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea",
+     "versionId": "version_dd49f153-6fbe-4d4e-995b-e454763fced2",
+     "contentHash": "63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1"
+    },
+    {
+     "name": "舞台 city",
+     "kind": "cad",
+     "artifactId": "artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584",
+     "versionId": "version_ca1904b1-487a-44ec-8355-5a2790dbc8b6",
+     "contentHash": "b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025"
+    }
+   ],
+   "canvas": {
+    "width": 1440,
+    "height": 745,
+    "verticalFovDeg": 35
+   },
+   "cad": [
+    {
+     "id": "ground",
+     "name": "都の外の地面",
+     "at": [
+      -200000,
+      -200000,
+      -14
+     ],
+     "size": [
+      400000,
+      400000,
+      12
+     ]
+    },
+    {
+     "id": "hill",
+     "name": "都の西の丘（創作：高さ 3,000 mm）",
+     "at": [
+      -103500,
+      -4000,
+      0
+     ],
+     "size": [
+      6000,
+      8000,
+      3000
+     ]
+    },
+    {
+     "id": "stool-a",
+     "name": "腰掛け1（本文：高さ5フィート）",
+     "at": [
+      -300,
+      -14600,
+      0
+     ],
+     "size": [
+      600,
+      600,
+      1524
+     ]
+    },
+    {
+     "id": "stool-b",
+     "name": "腰掛け2（本文：高さ5フィート、外庭と二の庭の間の8フィートの庭）",
+     "at": [
+      -300,
+      -5300,
+      0
+     ],
+     "size": [
+      600,
+      600,
+      1524
+     ]
+    },
+    {
+     "id": "dais",
+     "name": "窓辺の壇（創作：250 mm、王の住まいの南の壁の内側）",
+     "at": [
+      -1300,
+      -1500,
+      0
+     ],
+     "size": [
+      800,
+      260,
+      250
+     ]
+    }
+   ],
+   "bim": "mildendo",
+   "vessels": [],
+   "crowds": [
+    {
+     "id": "street",
+     "name": "大通りの民（創作の人数）",
+     "count": 76
+    },
+    {
+     "id": "roofs",
+     "name": "屋根と窓の見物人（創作の人数）",
+     "count": 62
+    },
+    {
+     "id": "wallway",
+     "name": "城壁の内側の道の民（創作の人数）",
+     "count": 64
+    }
+   ]
+  }
+ },
+ "panels": [
+  {
+   "panel": "e02-p01-k1",
+   "set": "court",
+   "cam": [
+    760,
+    1720,
+    136
+   ],
+   "look": [
+    180,
+    1290,
+    640
+   ],
+   "stand": null,
+   "hfovDeg": 34.1,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p01-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      700,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "sit-palm",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e02-p01-k1-02",
+     "ch": "CH-30",
+     "name": "廷臣1",
+     "fig": "d1",
+     "at": [
+      150,
+      1280,
+      600
+     ],
+     "facingDeg": 90.0,
+     "pose": "dance",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p01-k1-03",
+     "ch": "CH-30",
+     "name": "廷臣2",
+     "fig": "d2",
+     "at": [
+      205,
+      1305,
+      600
+     ],
+     "facingDeg": 90.0,
+     "pose": "jump",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p01-k1-04",
+     "ch": "CH-30",
+     "name": "廷臣3",
+     "fig": "d3",
+     "at": [
+      180,
+      1330,
+      600
+     ],
+     "facingDeg": 90.0,
+     "pose": "wave-hat",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p01-k1-05",
+     "ch": "CH-02",
+     "name": "皇帝",
+     "fig": "emperor",
+     "at": [
+      800,
+      1650,
+      0
+     ],
+     "facingDeg": 90.0,
+     "pose": "stand",
+     "heightMm": 158
+    }
+   ],
+   "crowds": [
+    "court"
+   ],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p01-k1.jpg",
+   "plan": "plans/e02-p01-k1.svg"
+  },
+  {
+   "panel": "e02-p01-k2",
+   "set": "court",
+   "cam": [
+    3600,
+    4300,
+    136
+   ],
+   "look": [
+    0,
+    1200,
+    500
+   ],
+   "stand": null,
+   "hfovDeg": 62.7,
+   "vfovDeg": 29.6,
+   "figures": [
+    {
+     "fg": "FG-e02-p01-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      700,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "sit-palm",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e02-p01-k2-02",
+     "ch": "CH-30",
+     "name": "廷臣1",
+     "fig": "d1",
+     "at": [
+      150,
+      1280,
+      600
+     ],
+     "facingDeg": 90.0,
+     "pose": "dance",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p01-k2-03",
+     "ch": "CH-30",
+     "name": "廷臣2",
+     "fig": "d2",
+     "at": [
+      205,
+      1305,
+      600
+     ],
+     "facingDeg": 90.0,
+     "pose": "jump",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p01-k2-04",
+     "ch": "CH-02",
+     "name": "皇帝",
+     "fig": "emperor",
+     "at": [
+      800,
+      1650,
+      0
+     ],
+     "facingDeg": 90.0,
+     "pose": "stand",
+     "heightMm": 158
+    }
+   ],
+   "crowds": [
+    "court",
+    "mob"
+   ],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p01-k2.jpg",
+   "plan": "plans/e02-p01-k2.svg"
+  },
+  {
+   "panel": "e02-p02-k1",
+   "set": "court",
+   "cam": [
+    -120,
+    2350,
+    136
+   ],
+   "look": [
+    0,
+    1600,
+    330
+   ],
+   "stand": null,
+   "hfovDeg": 56.9,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p02-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      700,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "sit-look-down",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e02-p02-k1-02",
+     "ch": "CH-30",
+     "name": "廷臣1",
+     "fig": "d1",
+     "at": [
+      -150,
+      1600,
+      305
+     ],
+     "facingDeg": 90.0,
+     "pose": "dance",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p02-k1-03",
+     "ch": "CH-30",
+     "name": "廷臣2",
+     "fig": "d2",
+     "at": [
+      120,
+      1600,
+      365
+     ],
+     "facingDeg": 90.0,
+     "pose": "jump",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p02-k1-04",
+     "ch": "CH-02",
+     "name": "皇帝",
+     "fig": "emperor",
+     "at": [
+      800,
+      1650,
+      0
+     ],
+     "facingDeg": 90.0,
+     "pose": "stand",
+     "heightMm": 158
+    }
+   ],
+   "crowds": [
+    "court"
+   ],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p02-k1.jpg",
+   "plan": "plans/e02-p02-k1.svg"
+  },
+  {
+   "panel": "e02-p02-k2",
+   "set": "court",
+   "cam": [
+    1350,
+    1720,
+    136
+   ],
+   "look": [
+    0,
+    1200,
+    450
+   ],
+   "stand": null,
+   "hfovDeg": 51.0,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p02-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      700,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "sit-look-down",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e02-p02-k2-02",
+     "ch": "CH-30",
+     "name": "廷臣1",
+     "fig": "d1",
+     "at": [
+      -150,
+      1600,
+      305
+     ],
+     "facingDeg": 90.0,
+     "pose": "dance",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p02-k2-03",
+     "ch": "CH-30",
+     "name": "廷臣2",
+     "fig": "d2",
+     "at": [
+      120,
+      1600,
+      365
+     ],
+     "facingDeg": 90.0,
+     "pose": "jump",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p02-k2-04",
+     "ch": "CH-02",
+     "name": "皇帝",
+     "fig": "emperor",
+     "at": [
+      800,
+      1650,
+      0
+     ],
+     "facingDeg": 90.0,
+     "pose": "stand",
+     "heightMm": 158
+    }
+   ],
+   "crowds": [
+    "court"
+   ],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p02-k2.jpg",
+   "plan": "plans/e02-p02-k2.svg"
+  },
+  {
+   "panel": "e02-p02-k3",
+   "set": "court",
+   "cam": [
+    -80,
+    1760,
+    300
+   ],
+   "look": [
+    -20,
+    1600,
+    305
+   ],
+   "stand": null,
+   "hfovDeg": 28.4,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p02-k3-01",
+     "ch": "CH-30",
+     "name": "廷臣1",
+     "fig": "d1",
+     "at": [
+      -20,
+      1600,
+      305
+     ],
+     "facingDeg": 90.0,
+     "pose": "dance",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p02-k3.jpg",
+   "plan": "plans/e02-p02-k3.svg"
+  },
+  {
+   "panel": "e02-p02-k4",
+   "set": "court",
+   "cam": [
+    0,
+    880,
+    950
+   ],
+   "look": [
+    0,
+    1600,
+    305
+   ],
+   "stand": null,
+   "hfovDeg": 62.7,
+   "vfovDeg": 29.6,
+   "figures": [
+    {
+     "fg": "FG-e02-p02-k4-01",
+     "ch": "CH-30",
+     "name": "廷臣1",
+     "fig": "d1",
+     "at": [
+      -150,
+      1600,
+      305
+     ],
+     "facingDeg": 90.0,
+     "pose": "dance",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p02-k4-02",
+     "ch": "CH-30",
+     "name": "廷臣2",
+     "fig": "d2",
+     "at": [
+      120,
+      1600,
+      365
+     ],
+     "facingDeg": 90.0,
+     "pose": "jump",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p02-k4-03",
+     "ch": "CH-02",
+     "name": "皇帝",
+     "fig": "emperor",
+     "at": [
+      800,
+      1650,
+      0
+     ],
+     "facingDeg": 90.0,
+     "pose": "stand",
+     "heightMm": 158
+    }
+   ],
+   "crowds": [
+    "court"
+   ],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p02-k4.jpg",
+   "plan": "plans/e02-p02-k4.svg"
+  },
+  {
+   "panel": "e02-p03-k1",
+   "set": "court",
+   "cam": [
+    -260,
+    1770,
+    136
+   ],
+   "look": [
+    0,
+    1600,
+    520
+   ],
+   "stand": null,
+   "hfovDeg": 42.4,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p03-k1-01",
+     "ch": "CH-04",
+     "name": "フリムナップ",
+     "fig": "flimnap",
+     "at": [
+      0,
+      1600,
+      485
+     ],
+     "facingDeg": 90.0,
+     "pose": "jump",
+     "heightMm": 156
+    },
+    {
+     "fg": "FG-e02-p03-k1-02",
+     "ch": "CH-30",
+     "name": "廷臣1",
+     "fig": "d1",
+     "at": [
+      -260,
+      1600,
+      305
+     ],
+     "facingDeg": 90.0,
+     "pose": "dance",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [
+    "court"
+   ],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p03-k1.jpg",
+   "plan": "plans/e02-p03-k1.svg"
+  },
+  {
+   "panel": "e02-p03-k2",
+   "set": "court",
+   "cam": [
+    -950,
+    2950,
+    136
+   ],
+   "look": [
+    -300,
+    1600,
+    350
+   ],
+   "stand": null,
+   "hfovDeg": 26.8,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p03-k2-01",
+     "ch": "CH-30",
+     "name": "廷臣3",
+     "fig": "d3",
+     "at": [
+      -800,
+      2300,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "wave-hat",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p03-k2-02",
+     "ch": "CH-30",
+     "name": "廷臣4",
+     "fig": "d4",
+     "at": [
+      -650,
+      2400,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "wave-hat",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p03-k2-03",
+     "ch": "CH-04",
+     "name": "フリムナップ",
+     "fig": "flimnap",
+     "at": [
+      0,
+      1600,
+      305
+     ],
+     "facingDeg": 90.0,
+     "pose": "stand",
+     "heightMm": 156
+    }
+   ],
+   "crowds": [
+    "court"
+   ],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p03-k2.jpg",
+   "plan": "plans/e02-p03-k2.svg"
+  },
+  {
+   "panel": "e02-p03-k3",
+   "set": "court",
+   "cam": [
+    40,
+    2480,
+    136
+   ],
+   "look": [
+    0,
+    2150,
+    135
+   ],
+   "stand": null,
+   "hfovDeg": 26.8,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p03-k3-01",
+     "ch": "CH-04",
+     "name": "フリムナップ",
+     "fig": "flimnap",
+     "at": [
+      0,
+      2150,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "stand",
+     "heightMm": 156
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p03-k3.jpg",
+   "plan": "plans/e02-p03-k3.svg"
+  },
+  {
+   "panel": "e02-p04-k1",
+   "set": "court",
+   "cam": [
+    -520,
+    1950,
+    136
+   ],
+   "look": [
+    200,
+    1500,
+    260
+   ],
+   "stand": null,
+   "hfovDeg": 56.9,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p04-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      700,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "sit-reach",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e02-p04-k1-02",
+     "ch": "CH-30",
+     "name": "廷臣2",
+     "fig": "d2",
+     "at": [
+      220,
+      1560,
+      200
+     ],
+     "facingDeg": 90.0,
+     "pose": "fall",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p04-k1-03",
+     "ch": "CH-30",
+     "name": "廷臣1",
+     "fig": "d1",
+     "at": [
+      -200,
+      1600,
+      305
+     ],
+     "facingDeg": 90.0,
+     "pose": "dance",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [
+    "court"
+   ],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p04-k1.jpg",
+   "plan": "plans/e02-p04-k1.svg"
+  },
+  {
+   "panel": "e02-p04-k2",
+   "set": "court",
+   "cam": [
+    120,
+    1450,
+    950
+   ],
+   "look": [
+    0,
+    700,
+    900
+   ],
+   "stand": null,
+   "hfovDeg": 40.1,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p04-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      700,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "sit-reach",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p04-k2.jpg",
+   "plan": "plans/e02-p04-k2.svg"
+  },
+  {
+   "panel": "e02-p04-k3",
+   "set": "court",
+   "cam": [
+    520,
+    1750,
+    250
+   ],
+   "look": [
+    230,
+    1520,
+    230
+   ],
+   "stand": null,
+   "hfovDeg": 40.1,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p04-k3-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      700,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "sit-reach",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e02-p04-k3-02",
+     "ch": "CH-30",
+     "name": "廷臣2",
+     "fig": "d2",
+     "at": [
+      230,
+      1520,
+      190
+     ],
+     "facingDeg": 90.0,
+     "pose": "crouch",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p04-k3.jpg",
+   "plan": "plans/e02-p04-k3.svg"
+  },
+  {
+   "panel": "e02-p04-k4",
+   "set": "court",
+   "cam": [
+    1050,
+    2350,
+    136
+   ],
+   "look": [
+    400,
+    1950,
+    100
+   ],
+   "stand": null,
+   "hfovDeg": 62.7,
+   "vfovDeg": 29.6,
+   "figures": [
+    {
+     "fg": "FG-e02-p04-k4-01",
+     "ch": "CH-02",
+     "name": "皇帝",
+     "fig": "emperor",
+     "at": [
+      250,
+      2120,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "hold-stick",
+     "heightMm": 158
+    },
+    {
+     "fg": "FG-e02-p04-k4-02",
+     "ch": "CH-30",
+     "name": "廷臣3",
+     "fig": "d3",
+     "at": [
+      400,
+      1950,
+      110
+     ],
+     "facingDeg": 90.0,
+     "pose": "jump",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p04-k4-03",
+     "ch": "CH-30",
+     "name": "廷臣4",
+     "fig": "d4",
+     "at": [
+      480,
+      1930,
+      0
+     ],
+     "facingDeg": 90.0,
+     "pose": "crouch",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [
+    "court"
+   ],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p04-k4.jpg",
+   "plan": "plans/e02-p04-k4.svg"
+  },
+  {
+   "panel": "e02-p05-k1",
+   "set": "court",
+   "cam": [
+    380,
+    1660,
+    136
+   ],
+   "look": [
+    800,
+    1650,
+    140
+   ],
+   "stand": null,
+   "hfovDeg": 56.9,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p05-k1-01",
+     "ch": "CH-02",
+     "name": "皇帝",
+     "fig": "emperor",
+     "at": [
+      800,
+      1650,
+      0
+     ],
+     "facingDeg": 90.0,
+     "pose": "carry-up",
+     "heightMm": 158
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p05-k1.jpg",
+   "plan": "plans/e02-p05-k1.svg"
+  },
+  {
+   "panel": "e02-p05-k2",
+   "set": "court",
+   "cam": [
+    -260,
+    1830,
+    136
+   ],
+   "look": [
+    -260,
+    2150,
+    70
+   ],
+   "stand": null,
+   "hfovDeg": 62.7,
+   "vfovDeg": 28.9,
+   "figures": [
+    {
+     "fg": "FG-e02-p05-k2-01",
+     "ch": "CH-30",
+     "name": "廷臣1",
+     "fig": "d1",
+     "at": [
+      -330,
+      2150,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p05-k2-02",
+     "ch": "CH-30",
+     "name": "廷臣3",
+     "fig": "d3",
+     "at": [
+      -200,
+      2170,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p05-k2-03",
+     "ch": "CH-04",
+     "name": "フリムナップ",
+     "fig": "flimnap",
+     "at": [
+      -460,
+      2140,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 156
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p05-k2.jpg",
+   "plan": "plans/e02-p05-k2.svg"
+  },
+  {
+   "panel": "e02-p05-k3",
+   "set": "court",
+   "cam": [
+    3600,
+    4300,
+    136
+   ],
+   "look": [
+    0,
+    1200,
+    500
+   ],
+   "stand": null,
+   "hfovDeg": 62.7,
+   "vfovDeg": 29.6,
+   "figures": [
+    {
+     "fg": "FG-e02-p05-k3-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      700,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "sit-look-down",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e02-p05-k3-02",
+     "ch": "CH-30",
+     "name": "廷臣1",
+     "fig": "d1",
+     "at": [
+      -150,
+      1600,
+      305
+     ],
+     "facingDeg": 90.0,
+     "pose": "dance",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p05-k3-03",
+     "ch": "CH-02",
+     "name": "皇帝",
+     "fig": "emperor",
+     "at": [
+      800,
+      1650,
+      0
+     ],
+     "facingDeg": 90.0,
+     "pose": "stand",
+     "heightMm": 158
+    }
+   ],
+   "crowds": [
+    "court",
+    "mob"
+   ],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p05-k3.jpg",
+   "plan": "plans/e02-p05-k3.svg"
+  },
+  {
+   "panel": "e02-p06-k1",
+   "set": "council",
+   "cam": [
+    580,
+    0,
+    136
+   ],
+   "look": [
+    -300,
+    0,
+    80
+   ],
+   "stand": null,
+   "hfovDeg": 50.9,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p06-k1-01",
+     "ch": "CH-02",
+     "name": "皇帝",
+     "fig": "emperor",
+     "at": [
+      -480,
+      0,
+      0
+     ],
+     "facingDeg": -90.0,
+     "pose": "stand",
+     "heightMm": 158
+    },
+    {
+     "fg": "FG-e02-p06-k1-02",
+     "ch": "CH-06",
+     "name": "ボルゴラム",
+     "fig": "bolgolam",
+     "at": [
+      100,
+      -110,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "arms-crossed",
+     "heightMm": 148
+    },
+    {
+     "fg": "FG-e02-p06-k1-03",
+     "ch": "CH-04",
+     "name": "フリムナップ",
+     "fig": "flimnap",
+     "at": [
+      -100,
+      110,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "read",
+     "heightMm": 156
+    },
+    {
+     "fg": "FG-e02-p06-k1-04",
+     "ch": "CH-30",
+     "name": "大臣1",
+     "fig": "m1",
+     "at": [
+      -200,
+      -110,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "stand",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p06-k1-05",
+     "ch": "CH-30",
+     "name": "大臣2",
+     "fig": "m2",
+     "at": [
+      200,
+      110,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p06-k1-06",
+     "ch": "CH-30",
+     "name": "大臣3",
+     "fig": "m3",
+     "at": [
+      -250,
+      110,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p06-k1-07",
+     "ch": "CH-30",
+     "name": "大臣4",
+     "fig": "m4",
+     "at": [
+      250,
+      -110,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "stand",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p06-k1.jpg",
+   "plan": "plans/e02-p06-k1.svg"
+  },
+  {
+   "panel": "e02-p06-k2",
+   "set": "council",
+   "cam": [
+    250,
+    0,
+    136
+   ],
+   "look": [
+    -450,
+    0,
+    120
+   ],
+   "stand": null,
+   "hfovDeg": 43.9,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p06-k2-01",
+     "ch": "CH-02",
+     "name": "皇帝",
+     "fig": "emperor",
+     "at": [
+      -480,
+      0,
+      0
+     ],
+     "facingDeg": -90.0,
+     "pose": "stand",
+     "heightMm": 158
+    },
+    {
+     "fg": "FG-e02-p06-k2-02",
+     "ch": "CH-06",
+     "name": "ボルゴラム",
+     "fig": "bolgolam",
+     "at": [
+      100,
+      -110,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "arms-crossed",
+     "heightMm": 148
+    },
+    {
+     "fg": "FG-e02-p06-k2-03",
+     "ch": "CH-04",
+     "name": "フリムナップ",
+     "fig": "flimnap",
+     "at": [
+      -100,
+      110,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "read",
+     "heightMm": 156
+    },
+    {
+     "fg": "FG-e02-p06-k2-04",
+     "ch": "CH-30",
+     "name": "大臣1",
+     "fig": "m1",
+     "at": [
+      -200,
+      -110,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "stand",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p06-k2-05",
+     "ch": "CH-30",
+     "name": "大臣2",
+     "fig": "m2",
+     "at": [
+      200,
+      110,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p06-k2-06",
+     "ch": "CH-30",
+     "name": "大臣3",
+     "fig": "m3",
+     "at": [
+      -250,
+      110,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p06-k2-07",
+     "ch": "CH-30",
+     "name": "大臣4",
+     "fig": "m4",
+     "at": [
+      250,
+      -110,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "stand",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p06-k2.jpg",
+   "plan": "plans/e02-p06-k2.svg"
+  },
+  {
+   "panel": "e02-p06-k3",
+   "set": "council",
+   "cam": [
+    120,
+    210,
+    136
+   ],
+   "look": [
+    100,
+    -110,
+    110
+   ],
+   "stand": null,
+   "hfovDeg": 43.9,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p06-k3-01",
+     "ch": "CH-02",
+     "name": "皇帝",
+     "fig": "emperor",
+     "at": [
+      -480,
+      0,
+      0
+     ],
+     "facingDeg": -90.0,
+     "pose": "stand",
+     "heightMm": 158
+    },
+    {
+     "fg": "FG-e02-p06-k3-02",
+     "ch": "CH-06",
+     "name": "ボルゴラム",
+     "fig": "bolgolam",
+     "at": [
+      100,
+      -110,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "arms-crossed",
+     "heightMm": 148
+    },
+    {
+     "fg": "FG-e02-p06-k3-03",
+     "ch": "CH-04",
+     "name": "フリムナップ",
+     "fig": "flimnap",
+     "at": [
+      -100,
+      110,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "read",
+     "heightMm": 156
+    },
+    {
+     "fg": "FG-e02-p06-k3-04",
+     "ch": "CH-30",
+     "name": "大臣1",
+     "fig": "m1",
+     "at": [
+      -200,
+      -110,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "stand",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p06-k3-05",
+     "ch": "CH-30",
+     "name": "大臣2",
+     "fig": "m2",
+     "at": [
+      200,
+      110,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p06-k3-06",
+     "ch": "CH-30",
+     "name": "大臣3",
+     "fig": "m3",
+     "at": [
+      -250,
+      110,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p06-k3-07",
+     "ch": "CH-30",
+     "name": "大臣4",
+     "fig": "m4",
+     "at": [
+      250,
+      -110,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "stand",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p06-k3.jpg",
+   "plan": "plans/e02-p06-k3.svg"
+  },
+  {
+   "panel": "e02-p06-k4",
+   "set": "council",
+   "cam": [
+    100,
+    40,
+    136
+   ],
+   "look": [
+    100,
+    -110,
+    115
+   ],
+   "stand": null,
+   "hfovDeg": 62.7,
+   "vfovDeg": 27.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p06-k4-01",
+     "ch": "CH-02",
+     "name": "皇帝",
+     "fig": "emperor",
+     "at": [
+      -480,
+      0,
+      0
+     ],
+     "facingDeg": -90.0,
+     "pose": "stand",
+     "heightMm": 158
+    },
+    {
+     "fg": "FG-e02-p06-k4-02",
+     "ch": "CH-06",
+     "name": "ボルゴラム",
+     "fig": "bolgolam",
+     "at": [
+      100,
+      -110,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "arms-crossed",
+     "heightMm": 148
+    },
+    {
+     "fg": "FG-e02-p06-k4-03",
+     "ch": "CH-04",
+     "name": "フリムナップ",
+     "fig": "flimnap",
+     "at": [
+      -100,
+      110,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "read",
+     "heightMm": 156
+    },
+    {
+     "fg": "FG-e02-p06-k4-04",
+     "ch": "CH-30",
+     "name": "大臣1",
+     "fig": "m1",
+     "at": [
+      -200,
+      -110,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "stand",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p06-k4-05",
+     "ch": "CH-30",
+     "name": "大臣2",
+     "fig": "m2",
+     "at": [
+      200,
+      110,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p06-k4-06",
+     "ch": "CH-30",
+     "name": "大臣3",
+     "fig": "m3",
+     "at": [
+      -250,
+      110,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p06-k4-07",
+     "ch": "CH-30",
+     "name": "大臣4",
+     "fig": "m4",
+     "at": [
+      250,
+      -110,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "stand",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p06-k4.jpg",
+   "plan": "plans/e02-p06-k4.svg"
+  },
+  {
+   "panel": "e02-p07-k1",
+   "set": "council",
+   "cam": [
+    -100,
+    -40,
+    136
+   ],
+   "look": [
+    -100,
+    110,
+    115
+   ],
+   "stand": null,
+   "hfovDeg": 56.9,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p07-k1-01",
+     "ch": "CH-02",
+     "name": "皇帝",
+     "fig": "emperor",
+     "at": [
+      -480,
+      0,
+      0
+     ],
+     "facingDeg": -90.0,
+     "pose": "stand",
+     "heightMm": 158
+    },
+    {
+     "fg": "FG-e02-p07-k1-02",
+     "ch": "CH-06",
+     "name": "ボルゴラム",
+     "fig": "bolgolam",
+     "at": [
+      100,
+      -110,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "arms-crossed",
+     "heightMm": 148
+    },
+    {
+     "fg": "FG-e02-p07-k1-03",
+     "ch": "CH-04",
+     "name": "フリムナップ",
+     "fig": "flimnap",
+     "at": [
+      -100,
+      110,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "read",
+     "heightMm": 156
+    },
+    {
+     "fg": "FG-e02-p07-k1-04",
+     "ch": "CH-30",
+     "name": "大臣1",
+     "fig": "m1",
+     "at": [
+      -200,
+      -110,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "stand",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p07-k1-05",
+     "ch": "CH-30",
+     "name": "大臣2",
+     "fig": "m2",
+     "at": [
+      200,
+      110,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p07-k1-06",
+     "ch": "CH-30",
+     "name": "大臣3",
+     "fig": "m3",
+     "at": [
+      -250,
+      110,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p07-k1-07",
+     "ch": "CH-30",
+     "name": "大臣4",
+     "fig": "m4",
+     "at": [
+      250,
+      -110,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "stand",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p07-k1.jpg",
+   "plan": "plans/e02-p07-k1.svg"
+  },
+  {
+   "panel": "e02-p07-k2",
+   "set": "council",
+   "cam": [
+    -300,
+    0,
+    136
+   ],
+   "look": [
+    -450,
+    0,
+    140
+   ],
+   "stand": null,
+   "hfovDeg": 40.1,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p07-k2-01",
+     "ch": "CH-02",
+     "name": "皇帝",
+     "fig": "emperor",
+     "at": [
+      -480,
+      0,
+      0
+     ],
+     "facingDeg": -90.0,
+     "pose": "stand",
+     "heightMm": 158
+    },
+    {
+     "fg": "FG-e02-p07-k2-02",
+     "ch": "CH-06",
+     "name": "ボルゴラム",
+     "fig": "bolgolam",
+     "at": [
+      100,
+      -110,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "arms-crossed",
+     "heightMm": 148
+    },
+    {
+     "fg": "FG-e02-p07-k2-03",
+     "ch": "CH-04",
+     "name": "フリムナップ",
+     "fig": "flimnap",
+     "at": [
+      -100,
+      110,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "read",
+     "heightMm": 156
+    },
+    {
+     "fg": "FG-e02-p07-k2-04",
+     "ch": "CH-30",
+     "name": "大臣1",
+     "fig": "m1",
+     "at": [
+      -200,
+      -110,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "stand",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p07-k2-05",
+     "ch": "CH-30",
+     "name": "大臣2",
+     "fig": "m2",
+     "at": [
+      200,
+      110,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p07-k2-06",
+     "ch": "CH-30",
+     "name": "大臣3",
+     "fig": "m3",
+     "at": [
+      -250,
+      110,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p07-k2-07",
+     "ch": "CH-30",
+     "name": "大臣4",
+     "fig": "m4",
+     "at": [
+      250,
+      -110,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "stand",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p07-k2.jpg",
+   "plan": "plans/e02-p07-k2.svg"
+  },
+  {
+   "panel": "e02-p07-k3",
+   "set": "council",
+   "cam": [
+    -120,
+    0,
+    136
+   ],
+   "look": [
+    -450,
+    0,
+    110
+   ],
+   "stand": null,
+   "hfovDeg": 40.1,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p07-k3-01",
+     "ch": "CH-02",
+     "name": "皇帝",
+     "fig": "emperor",
+     "at": [
+      -480,
+      0,
+      0
+     ],
+     "facingDeg": -90.0,
+     "pose": "orate",
+     "heightMm": 158
+    },
+    {
+     "fg": "FG-e02-p07-k3-02",
+     "ch": "CH-06",
+     "name": "ボルゴラム",
+     "fig": "bolgolam",
+     "at": [
+      100,
+      -110,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "arms-crossed",
+     "heightMm": 148
+    },
+    {
+     "fg": "FG-e02-p07-k3-03",
+     "ch": "CH-04",
+     "name": "フリムナップ",
+     "fig": "flimnap",
+     "at": [
+      -100,
+      110,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "read",
+     "heightMm": 156
+    },
+    {
+     "fg": "FG-e02-p07-k3-04",
+     "ch": "CH-30",
+     "name": "大臣1",
+     "fig": "m1",
+     "at": [
+      -200,
+      -110,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "stand",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p07-k3-05",
+     "ch": "CH-30",
+     "name": "大臣2",
+     "fig": "m2",
+     "at": [
+      200,
+      110,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p07-k3-06",
+     "ch": "CH-30",
+     "name": "大臣3",
+     "fig": "m3",
+     "at": [
+      -250,
+      110,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p07-k3-07",
+     "ch": "CH-30",
+     "name": "大臣4",
+     "fig": "m4",
+     "at": [
+      250,
+      -110,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "stand",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p07-k3.jpg",
+   "plan": "plans/e02-p07-k3.svg"
+  },
+  {
+   "panel": "e02-p07-k4",
+   "set": "court",
+   "cam": [
+    2250,
+    2700,
+    136
+   ],
+   "look": [
+    0,
+    1200,
+    500
+   ],
+   "stand": null,
+   "hfovDeg": 62.7,
+   "vfovDeg": 29.6,
+   "figures": [
+    {
+     "fg": "FG-e02-p07-k4-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      700,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "sit-look-down",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e02-p07-k4-02",
+     "ch": "CH-06",
+     "name": "ボルゴラム",
+     "fig": "bolgolam",
+     "at": [
+      -200,
+      1600,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "read",
+     "heightMm": 148
+    },
+    {
+     "fg": "FG-e02-p07-k4-03",
+     "ch": "CH-30",
+     "name": "ボルゴラムの従者1",
+     "fig": "b1",
+     "at": [
+      -50,
+      1750,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p07-k4-04",
+     "ch": "CH-30",
+     "name": "ボルゴラムの従者2",
+     "fig": "b2",
+     "at": [
+      -350,
+      1760,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [
+    "court"
+   ],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p07-k4.jpg",
+   "plan": "plans/e02-p07-k4.svg"
+  },
+  {
+   "panel": "e02-p08-k1",
+   "set": "court",
+   "cam": [
+    -160,
+    1760,
+    136
+   ],
+   "look": [
+    0,
+    800,
+    900
+   ],
+   "stand": null,
+   "hfovDeg": 56.9,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p08-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      700,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "sit-look-down",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e02-p08-k1-02",
+     "ch": "CH-06",
+     "name": "ボルゴラム",
+     "fig": "bolgolam",
+     "at": [
+      -200,
+      1600,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "read",
+     "heightMm": 148
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p08-k1.jpg",
+   "plan": "plans/e02-p08-k1.svg"
+  },
+  {
+   "panel": "e02-p08-k2",
+   "set": "court",
+   "cam": [
+    -200,
+    1430,
+    136
+   ],
+   "look": [
+    -200,
+    1600,
+    120
+   ],
+   "stand": null,
+   "hfovDeg": 40.1,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p08-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      700,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "sit-look-down",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e02-p08-k2-02",
+     "ch": "CH-06",
+     "name": "ボルゴラム",
+     "fig": "bolgolam",
+     "at": [
+      -200,
+      1600,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "read",
+     "heightMm": 148
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p08-k2.jpg",
+   "plan": "plans/e02-p08-k2.svg"
+  },
+  {
+   "panel": "e02-p08-k3",
+   "set": "court",
+   "cam": [
+    -470,
+    1580,
+    136
+   ],
+   "look": [
+    -200,
+    1600,
+    120
+   ],
+   "stand": null,
+   "hfovDeg": 40.1,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p08-k3-01",
+     "ch": "CH-06",
+     "name": "ボルゴラム",
+     "fig": "bolgolam",
+     "at": [
+      -200,
+      1600,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "read",
+     "heightMm": 148
+    },
+    {
+     "fg": "FG-e02-p08-k3-02",
+     "ch": "CH-30",
+     "name": "ボルゴラムの従者1",
+     "fig": "b1",
+     "at": [
+      -50,
+      1750,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p08-k3.jpg",
+   "plan": "plans/e02-p08-k3.svg"
+  },
+  {
+   "panel": "e02-p08-k4",
+   "set": "court",
+   "cam": [
+    0,
+    880,
+    950
+   ],
+   "look": [
+    -200,
+    1600,
+    80
+   ],
+   "stand": null,
+   "hfovDeg": 62.7,
+   "vfovDeg": 29.6,
+   "figures": [
+    {
+     "fg": "FG-e02-p08-k4-01",
+     "ch": "CH-06",
+     "name": "ボルゴラム",
+     "fig": "bolgolam",
+     "at": [
+      -200,
+      1600,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "read",
+     "heightMm": 148
+    },
+    {
+     "fg": "FG-e02-p08-k4-02",
+     "ch": "CH-30",
+     "name": "ボルゴラムの従者1",
+     "fig": "b1",
+     "at": [
+      -50,
+      1750,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p08-k4-03",
+     "ch": "CH-30",
+     "name": "ボルゴラムの従者2",
+     "fig": "b2",
+     "at": [
+      -350,
+      1760,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p08-k4.jpg",
+   "plan": "plans/e02-p08-k4.svg"
+  },
+  {
+   "panel": "e02-p09-k1",
+   "set": "court",
+   "cam": [
+    700,
+    4000,
+    136
+   ],
+   "look": [
+    0,
+    900,
+    950
+   ],
+   "stand": null,
+   "hfovDeg": 39.5,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p09-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      900,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "oath",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e02-p09-k1-02",
+     "ch": "CH-06",
+     "name": "ボルゴラム",
+     "fig": "bolgolam",
+     "at": [
+      -200,
+      1900,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 148
+    }
+   ],
+   "crowds": [
+    "court"
+   ],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p09-k1.jpg",
+   "plan": "plans/e02-p09-k1.svg"
+  },
+  {
+   "panel": "e02-p09-k2",
+   "set": "court",
+   "cam": [
+    160,
+    1350,
+    136
+   ],
+   "look": [
+    0,
+    900,
+    1500
+   ],
+   "stand": null,
+   "hfovDeg": 29.7,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p09-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      900,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "oath",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p09-k2.jpg",
+   "plan": "plans/e02-p09-k2.svg"
+  },
+  {
+   "panel": "e02-p09-k3",
+   "set": "court",
+   "cam": [
+    1250,
+    2250,
+    136
+   ],
+   "look": [
+    800,
+    2250,
+    110
+   ],
+   "stand": null,
+   "hfovDeg": 29.7,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p09-k3-01",
+     "ch": "CH-30",
+     "name": "廷臣3",
+     "fig": "d3",
+     "at": [
+      850,
+      2300,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "hands-together",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p09-k3-02",
+     "ch": "CH-30",
+     "name": "廷臣4",
+     "fig": "d4",
+     "at": [
+      720,
+      2350,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "turn-away",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [
+    "court"
+   ],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p09-k3.jpg",
+   "plan": "plans/e02-p09-k3.svg"
+  },
+  {
+   "panel": "e02-p10-k1",
+   "set": "court",
+   "cam": [
+    -360,
+    1060,
+    60
+   ],
+   "look": [
+    -110,
+    920,
+    50
+   ],
+   "stand": null,
+   "hfovDeg": 56.9,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p10-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      900,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "stand",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p10-k1.jpg",
+   "plan": "plans/e02-p10-k1.svg"
+  },
+  {
+   "panel": "e02-p10-k2",
+   "set": "court",
+   "cam": [
+    -520,
+    1250,
+    136
+   ],
+   "look": [
+    -300,
+    2200,
+    100
+   ],
+   "stand": null,
+   "hfovDeg": 62.7,
+   "vfovDeg": 28.9,
+   "figures": [
+    {
+     "fg": "FG-e02-p10-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      900,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "stand",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e02-p10-k2-02",
+     "ch": "CH-06",
+     "name": "ボルゴラム",
+     "fig": "bolgolam",
+     "at": [
+      -260,
+      2200,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "walk",
+     "heightMm": 148
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p10-k2.jpg",
+   "plan": "plans/e02-p10-k2.svg"
+  },
+  {
+   "panel": "e02-p10-k3",
+   "set": "court",
+   "cam": [
+    -260,
+    2560,
+    136
+   ],
+   "look": [
+    -260,
+    2200,
+    125
+   ],
+   "stand": null,
+   "hfovDeg": 62.7,
+   "vfovDeg": 29.6,
+   "figures": [
+    {
+     "fg": "FG-e02-p10-k3-01",
+     "ch": "CH-06",
+     "name": "ボルゴラム",
+     "fig": "bolgolam",
+     "at": [
+      -260,
+      2200,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "walk",
+     "heightMm": 148
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p10-k3.jpg",
+   "plan": "plans/e02-p10-k3.svg"
+  },
+  {
+   "panel": "e02-p11-k1",
+   "set": "city",
+   "cam": [
+    -100500,
+    0,
+    3136
+   ],
+   "look": [
+    -60000,
+    0,
+    0
+   ],
+   "stand": "hill",
+   "hfovDeg": 39.5,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p11-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      -80500,
+      0,
+      0
+     ],
+     "facingDeg": -90.0,
+     "pose": "stand",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p11-k1.jpg",
+   "plan": "plans/e02-p11-k1.svg"
+  },
+  {
+   "panel": "e02-p11-k2",
+   "set": "city",
+   "cam": [
+    -76200,
+    1520,
+    898
+   ],
+   "look": [
+    -79500,
+    0,
+    1000
+   ],
+   "stand": "city-wall",
+   "hfovDeg": 56.9,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p11-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      -79500,
+      0,
+      0
+     ],
+     "facingDeg": -90.0,
+     "pose": "walk",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e02-p11-k2-02",
+     "ch": "CH-30",
+     "name": "城壁の見張り",
+     "fig": "w1",
+     "at": [
+      -76200,
+      1750,
+      762
+     ],
+     "facingDeg": 90.0,
+     "pose": "point",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p11-k2.jpg",
+   "plan": "plans/e02-p11-k2.svg"
+  },
+  {
+   "panel": "e02-p12-k1",
+   "set": "city",
+   "cam": [
+    -59000,
+    600,
+    136
+   ],
+   "look": [
+    -62500,
+    0,
+    120
+   ],
+   "stand": null,
+   "hfovDeg": 61.7,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p12-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      -63500,
+      0,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "walk",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [
+    "street"
+   ],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p12-k1.jpg",
+   "plan": "plans/e02-p12-k1.svg"
+  },
+  {
+   "panel": "e02-p12-k2",
+   "set": "city",
+   "cam": [
+    -54500,
+    0,
+    136
+   ],
+   "look": [
+    -62000,
+    0,
+    900
+   ],
+   "stand": null,
+   "hfovDeg": 62.7,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p12-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      -62000,
+      0,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "walk",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [
+    "roofs"
+   ],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p12-k2.jpg",
+   "plan": "plans/e02-p12-k2.svg"
+  },
+  {
+   "panel": "e02-p12-k3",
+   "set": "city",
+   "cam": [
+    -62300,
+    1300,
+    886
+   ],
+   "look": [
+    -62000,
+    0,
+    650
+   ],
+   "stand": "roof",
+   "hfovDeg": 62.7,
+   "vfovDeg": 27.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p12-k3-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      -62000,
+      0,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "walk",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [
+    "roofs"
+   ],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p12-k3.jpg",
+   "plan": "plans/e02-p12-k3.svg"
+  },
+  {
+   "panel": "e02-p13-k1",
+   "set": "city",
+   "cam": [
+    -74300,
+    6400,
+    136
+   ],
+   "look": [
+    -76200,
+    8000,
+    1000
+   ],
+   "stand": null,
+   "hfovDeg": 46.7,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p13-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      -76200,
+      8000,
+      0
+     ],
+     "facingDeg": -90.0,
+     "pose": "step-over",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [
+    "wallway"
+   ],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p13-k1.jpg",
+   "plan": "plans/e02-p13-k1.svg"
+  },
+  {
+   "panel": "e02-p13-k2",
+   "set": "city",
+   "cam": [
+    -74600,
+    7350,
+    136
+   ],
+   "look": [
+    -75500,
+    8000,
+    60
+   ],
+   "stand": null,
+   "hfovDeg": 46.7,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p13-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      -76200,
+      8000,
+      0
+     ],
+     "facingDeg": -90.0,
+     "pose": "step-over",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [
+    "wallway"
+   ],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p13-k2.jpg",
+   "plan": "plans/e02-p13-k2.svg"
+  },
+  {
+   "panel": "e02-p14-k1",
+   "set": "city",
+   "cam": [
+    1600,
+    -18288,
+    746
+   ],
+   "look": [
+    0,
+    0,
+    500
+   ],
+   "stand": "palace-wall",
+   "hfovDeg": 46.7,
+   "vfovDeg": 35.0,
+   "figures": [],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p14-k1.jpg",
+   "plan": "plans/e02-p14-k1.svg"
+  },
+  {
+   "panel": "e02-p14-k2",
+   "set": "city",
+   "cam": [
+    2600,
+    -5600,
+    136
+   ],
+   "look": [
+    0,
+    -4300,
+    2200
+   ],
+   "stand": null,
+   "hfovDeg": 46.7,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p14-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      -5000,
+      1524
+     ],
+     "facingDeg": 0.0,
+     "pose": "step-over",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p14-k2.jpg",
+   "plan": "plans/e02-p14-k2.svg"
+  },
+  {
+   "panel": "e02-p15-k1",
+   "set": "city",
+   "cam": [
+    -762,
+    -700,
+    386
+   ],
+   "look": [
+    -762,
+    -1524,
+    530
+   ],
+   "stand": "dais",
+   "hfovDeg": 42.4,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p15-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      -762,
+      -2080,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "prone-look",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e02-p15-k1-02",
+     "ch": "CH-03",
+     "name": "皇后",
+     "fig": "empress",
+     "at": [
+      -1050,
+      -1330,
+      250
+     ],
+     "facingDeg": 180.0,
+     "pose": "point",
+     "heightMm": 140
+    },
+    {
+     "fg": "FG-e02-p15-k1-03",
+     "ch": "CH-30",
+     "name": "若い王子1",
+     "fig": "pr1",
+     "at": [
+      -560,
+      -1100,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "fall",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e02-p15-k1-04",
+     "ch": "CH-30",
+     "name": "若い王子2",
+     "fig": "pr2",
+     "at": [
+      -420,
+      -1000,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "point",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p15-k1.jpg",
+   "plan": "plans/e02-p15-k1.svg"
+  },
+  {
+   "panel": "e02-p15-k2",
+   "set": "city",
+   "cam": [
+    -1050,
+    -1470,
+    386
+   ],
+   "look": [
+    -1050,
+    -1330,
+    370
+   ],
+   "stand": "dais",
+   "hfovDeg": 26.8,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p15-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      -762,
+      -2080,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "prone-look",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e02-p15-k2-02",
+     "ch": "CH-03",
+     "name": "皇后",
+     "fig": "empress",
+     "at": [
+      -1050,
+      -1330,
+      250
+     ],
+     "facingDeg": 180.0,
+     "pose": "point",
+     "heightMm": 140
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p15-k2.jpg",
+   "plan": "plans/e02-p15-k2.svg"
+  },
+  {
+   "panel": "e02-p15-k3",
+   "set": "city",
+   "cam": [
+    -762,
+    900,
+    386
+   ],
+   "look": [
+    -762,
+    -1524,
+    500
+   ],
+   "stand": "dais",
+   "hfovDeg": 26.8,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p15-k3-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      -762,
+      -2080,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "prone-look",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e02-p15-k3-02",
+     "ch": "CH-03",
+     "name": "皇后",
+     "fig": "empress",
+     "at": [
+      -1050,
+      -1330,
+      250
+     ],
+     "facingDeg": 180.0,
+     "pose": "point",
+     "heightMm": 140
+    },
+    {
+     "fg": "FG-e02-p15-k3-03",
+     "ch": "CH-30",
+     "name": "若い王子1",
+     "fig": "pr1",
+     "at": [
+      -560,
+      -1100,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p15-k3.jpg",
+   "plan": "plans/e02-p15-k3.svg"
+  },
+  {
+   "panel": "e02-p16-k1",
+   "set": "city",
+   "cam": [
+    -380,
+    -1120,
+    386
+   ],
+   "look": [
+    -840,
+    -1480,
+    430
+   ],
+   "stand": "dais",
+   "hfovDeg": 46.7,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p16-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      -762,
+      -2080,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "prone-look",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e02-p16-k1-02",
+     "ch": "CH-03",
+     "name": "皇后",
+     "fig": "empress",
+     "at": [
+      -880,
+      -1400,
+      250
+     ],
+     "facingDeg": 180.0,
+     "pose": "point",
+     "heightMm": 140
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p16-k1.jpg",
+   "plan": "plans/e02-p16-k1.svg"
+  },
+  {
+   "panel": "e02-p16-k2",
+   "set": "city",
+   "cam": [
+    -100500,
+    0,
+    3136
+   ],
+   "look": [
+    -30000,
+    0,
+    0
+   ],
+   "stand": "hill",
+   "hfovDeg": 46.7,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e02-p16-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      -762,
+      -2080,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "prone-look",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e02-p16-k2.jpg",
+   "plan": "plans/e02-p16-k2.svg"
+  }
+ ]
+}
