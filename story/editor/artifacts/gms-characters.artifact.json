@@ -1,0 +1,1351 @@
+{
+ "schemaVersion": 1,
+ "id": "gms-characters",
+ "name": "全4部 人物表（第2〜4部は仮）",
+ "kind": "data",
+ "provenance": {
+  "source": "created"
+ },
+ "draft": {
+  "baseVersionId": "story-v1",
+  "updatedAt": "2026-11-14T00:00:00.000Z",
+  "content": {
+   "schemaVersion": 2,
+   "columns": [
+    {
+     "id": "ch.name",
+     "name": "名前",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "ch.desire",
+     "name": "欲求",
+     "type": "text"
+    },
+    {
+     "id": "ch.wound",
+     "name": "傷",
+     "type": "text"
+    },
+    {
+     "id": "ch.voice",
+     "name": "口調",
+     "type": "text"
+    },
+    {
+     "id": "ch.relations",
+     "name": "他の人物との関係",
+     "type": "text"
+    },
+    {
+     "id": "ch.first",
+     "name": "初めて出る場面",
+     "type": "text"
+    },
+    {
+     "id": "ch.look",
+     "name": "変えない外見",
+     "type": "text"
+    },
+    {
+     "id": "ch.change",
+     "name": "関係の変わり方",
+     "type": "text"
+    },
+    {
+     "id": "rel.serve",
+     "name": "仕える",
+     "type": "relation"
+    },
+    {
+     "id": "rel.ally",
+     "name": "味方する",
+     "type": "relation"
+    },
+    {
+     "id": "rel.enemy",
+     "name": "敵対する",
+     "type": "relation"
+    },
+    {
+     "id": "rel.grudge",
+     "name": "恨む",
+     "type": "relation"
+    },
+    {
+     "id": "rel.judge",
+     "name": "処遇を決める",
+     "type": "relation"
+    },
+    {
+     "id": "rel.rescue",
+     "name": "救う",
+     "type": "relation"
+    },
+    {
+     "id": "rel.spouse",
+     "name": "夫婦",
+     "type": "relation"
+    }
+   ],
+   "rows": [
+    {
+     "id": "CH-01",
+     "values": {
+      "ch.name": "レミュエル・ガリヴァー",
+      "ch.desire": "世界を見たい。家族を養う稼ぎを得たい（本文）",
+      "ch.wound": "師匠ベイツの死後、医者の商売が傾き、やむなく航海に出た（本文）",
+      "ch.voice": "丁寧で几帳面な手記の語り。数字と寸法を必ず言う（創作）",
+      "ch.relations": "皇帝に仕える。レルドレサルと友。フリムナップとボルゴラムに憎まれる",
+      "ch.first": "1話、難破と浜",
+      "ch.look": "1,750 mm、青い上着（金の縁取りなし・真鍮のボタン）、茶の半ズボン、白い靴下、黒い靴（AR-06）",
+      "ch.change": "皇帝の重用から弾劾へ。最後はブレフスキュへ逃れ、英国の家族のもとへ帰る",
+      "rel.serve": "CH-02",
+      "rel.ally": null,
+      "rel.enemy": null,
+      "rel.grudge": null,
+      "rel.judge": null,
+      "rel.rescue": null,
+      "rel.spouse": "CH-10"
+     }
+    },
+    {
+     "id": "CH-02",
+     "values": {
+      "ch.name": "リリパット皇帝",
+      "ch.desire": "ブレフスキュを属州にし、世界でただ一人の君主になる（本文）",
+      "ch.wound": "大きな客人を持ちながら、思いどおりには使えない（推定）",
+      "ch.voice": "儀礼的で尊大。宣告の文体（創作）",
+      "ch.relations": "ガリヴァーを重用し、後に処罰を決める",
+      "ch.first": "1話、運搬機の後",
+      "ch.look": "廷臣より爪の幅ほど背が高い。鷲鼻、オリーブ色の肌、金の兜と羽根の兜、剣（本文、色は創作）",
+      "ch.change": "艦隊の功でガリヴァーを重用するが、ブレフスキュを滅ぼすことを断られてから遠ざけ、弾劾で失明の刑を決める",
+      "rel.serve": null,
+      "rel.ally": null,
+      "rel.enemy": null,
+      "rel.grudge": null,
+      "rel.judge": "CH-01",
+      "rel.rescue": null,
+      "rel.spouse": null
+     }
+    },
+    {
+     "id": "CH-03",
+     "values": {
+      "ch.name": "皇后",
+      "ch.desire": "王宮と自分の居所を守る（推定）",
+      "ch.wound": "自分の居室の火事を尿で消された（本文）",
+      "ch.voice": "短く冷たい（創作）",
+      "ch.relations": "火事の後、ガリヴァーを恨む",
+      "ch.first": "2話、宮廷",
+      "ch.look": "小柄、重い衣装（創作）",
+      "ch.change": "火事の前は無関係。火事の後、居室を二度と使わないと誓い、ガリヴァーを恨む",
+      "rel.serve": null,
+      "rel.ally": null,
+      "rel.enemy": null,
+      "rel.grudge": "CH-01",
+      "rel.judge": null,
+      "rel.rescue": null,
+      "rel.spouse": null
+     }
+    },
+    {
+     "id": "CH-04",
+     "values": {
+      "ch.name": "フリムナップ（大蔵大臣）",
+      "ch.desire": "国庫と自分の地位を守る（本文）",
+      "ch.wound": "妻とガリヴァーの噂に嫉妬する（本文）",
+      "ch.voice": "冷ややかな勘定の言葉（創作）",
+      "ch.relations": "ガリヴァーの敵。弾劾に加わる",
+      "ch.first": "2話、綱渡り",
+      "ch.look": "綱渡りが一番上手（本文）。痩せた長身（創作）",
+      "ch.change": "最初から敵。噂への嫉妬で、弾劾に加わる",
+      "rel.serve": "CH-02",
+      "rel.ally": null,
+      "rel.enemy": "CH-01",
+      "rel.grudge": null,
+      "rel.judge": null,
+      "rel.rescue": null,
+      "rel.spouse": null
+     }
+    },
+    {
+     "id": "CH-05",
+     "values": {
+      "ch.name": "レルドレサル（内廷の首席秘書官）",
+      "ch.desire": "皇帝とガリヴァーの両方に忠実でいたい（推定）",
+      "ch.wound": "友の両目を潰す案を「慈悲」として出す（本文）",
+      "ch.voice": "穏やかで理屈を重ねる（創作）",
+      "ch.relations": "ガリヴァーの友。教会の対立と戦争を説く",
+      "ch.first": "3話、戦争の説明",
+      "ch.look": "細い目、穏やかな顔（創作）",
+      "ch.change": "友として戦争の事情を説くが、弾劾では死罪の代わりに失明を出す",
+      "rel.serve": "CH-02",
+      "rel.ally": "CH-01",
+      "rel.enemy": null,
+      "rel.grudge": null,
+      "rel.judge": null,
+      "rel.rescue": null,
+      "rel.spouse": null
+     }
+    },
+    {
+     "id": "CH-06",
+     "values": {
+      "ch.name": "スカイレッシュ・ボルゴラム（海軍大将）",
+      "ch.desire": "自分の武功を守る（推定）",
+      "ch.wound": "艦隊を引いた手柄を外国人に奪われた（推定）",
+      "ch.voice": "不機嫌で粗い（創作）",
+      "ch.relations": "ガリヴァーの一番の敵。弾劾を主導",
+      "ch.first": "2話、解放の条件",
+      "ch.look": "陰気な顔つき（本文）。太い体（創作）",
+      "ch.change": "解放の条件の時から敵意を持ち、艦隊の後に弾劾を主導する",
+      "rel.serve": "CH-02",
+      "rel.ally": null,
+      "rel.enemy": "CH-01",
+      "rel.grudge": null,
+      "rel.judge": null,
+      "rel.rescue": null,
+      "rel.spouse": null
+     }
+    },
+    {
+     "id": "CH-07",
+     "values": {
+      "ch.name": "ブレフスキュ皇帝",
+      "ch.desire": "和平と、ガリヴァーを自国に引き留めること（推定）",
+      "ch.wound": "艦隊を奪われた（本文）",
+      "ch.voice": "寛大で落ち着いている（創作）",
+      "ch.relations": "ガリヴァーを迎え、引き渡しを断る",
+      "ch.first": "4話、和平の使節",
+      "ch.look": "CH-02と見分けられるよう、丸い顔と銀の冠（創作）",
+      "ch.change": "艦隊を奪われた敵国の君主から、ガリヴァーを迎え入れて帰国を助ける人へ",
+      "rel.serve": null,
+      "rel.ally": null,
+      "rel.enemy": null,
+      "rel.grudge": null,
+      "rel.judge": null,
+      "rel.rescue": "CH-01",
+      "rel.spouse": null
+     }
+    },
+    {
+     "id": "CH-08",
+     "values": {
+      "ch.name": "宮廷の有力者（名は本文に無い）",
+      "ch.desire": "恩を返す（本文）",
+      "ch.wound": "密告が知れれば命が危ない（推定）",
+      "ch.voice": "小声で急ぐ（創作）",
+      "ch.relations": "夜に輿で来て、弾劾状を知らせる",
+      "ch.first": "5話、夜の訪問",
+      "ch.look": "頭巾で顔を隠す（創作）",
+      "ch.change": "恩人として、弾劾の内容を前もって知らせる",
+      "rel.serve": null,
+      "rel.ally": "CH-01",
+      "rel.enemy": null,
+      "rel.grudge": null,
+      "rel.judge": null,
+      "rel.rescue": null,
+      "rel.spouse": null
+     }
+    },
+    {
+     "id": "CH-09",
+     "values": {
+      "ch.name": "ジョン・ビドル船長",
+      "ch.desire": "航海を終える（推定）",
+      "ch.wound": "なし",
+      "ch.voice": "礼儀正しい（本文「a very civil man」）",
+      "ch.relations": "ガリヴァーを拾い、小さな牛を見て信じる",
+      "ch.first": "6話、帰りの船",
+      "ch.look": "中年の船乗り（創作）",
+      "ch.change": "漂流者を拾い、小さな牛と羊を見てガリヴァーの話を信じる",
+      "rel.serve": null,
+      "rel.ally": null,
+      "rel.enemy": null,
+      "rel.grudge": null,
+      "rel.judge": null,
+      "rel.rescue": "CH-01",
+      "rel.spouse": null
+     }
+    },
+    {
+     "id": "CH-10",
+     "values": {
+      "ch.name": "メアリー（妻、旧姓バートン）",
+      "ch.desire": "家族の暮らしを保つ（推定）",
+      "ch.wound": "夫が航海に出続ける（推定）",
+      "ch.voice": "短く実際的（創作）",
+      "ch.relations": "ガリヴァーの妻",
+      "ch.first": "1話、出航の前",
+      "ch.look": "地味な家着と前掛け（創作）",
+      "ch.change": "出航で別れ、帰国で再会する（第1部では変わらない）",
+      "rel.serve": null,
+      "rel.ally": null,
+      "rel.enemy": null,
+      "rel.grudge": null,
+      "rel.judge": null,
+      "rel.rescue": null,
+      "rel.spouse": "CH-01"
+     }
+    },
+    {
+     "id": "CH-11",
+     "values": {
+      "ch.name": "農夫（ガリヴァーを拾った主人）",
+      "ch.desire": "",
+      "ch.wound": "",
+      "ch.voice": "",
+      "ch.relations": "",
+      "ch.first": "7話、麦畑",
+      "ch.look": "",
+      "ch.change": "（仮）各部の人物の工程で埋める",
+      "rel.serve": null,
+      "rel.ally": null,
+      "rel.enemy": null,
+      "rel.grudge": null,
+      "rel.judge": null,
+      "rel.rescue": null,
+      "rel.spouse": null
+     }
+    },
+    {
+     "id": "CH-12",
+     "values": {
+      "ch.name": "グラムダルクリッチ（農夫の娘、9歳）",
+      "ch.desire": "",
+      "ch.wound": "",
+      "ch.voice": "",
+      "ch.relations": "",
+      "ch.first": "7話、農夫の家",
+      "ch.look": "",
+      "ch.change": "（仮）各部の人物の工程で埋める",
+      "rel.serve": null,
+      "rel.ally": null,
+      "rel.enemy": null,
+      "rel.grudge": null,
+      "rel.judge": null,
+      "rel.rescue": null,
+      "rel.spouse": null
+     }
+    },
+    {
+     "id": "CH-13",
+     "values": {
+      "ch.name": "ブロブディンナグの王妃",
+      "ch.desire": "",
+      "ch.wound": "",
+      "ch.voice": "",
+      "ch.relations": "",
+      "ch.first": "8話、買い取り",
+      "ch.look": "",
+      "ch.change": "（仮）各部の人物の工程で埋める",
+      "rel.serve": null,
+      "rel.ally": null,
+      "rel.enemy": null,
+      "rel.grudge": null,
+      "rel.judge": null,
+      "rel.rescue": null,
+      "rel.spouse": null
+     }
+    },
+    {
+     "id": "CH-14",
+     "values": {
+      "ch.name": "ブロブディンナグの王",
+      "ch.desire": "",
+      "ch.wound": "",
+      "ch.voice": "",
+      "ch.relations": "",
+      "ch.first": "10話、謁見",
+      "ch.look": "",
+      "ch.change": "（仮）各部の人物の工程で埋める",
+      "rel.serve": null,
+      "rel.ally": null,
+      "rel.enemy": null,
+      "rel.grudge": null,
+      "rel.judge": null,
+      "rel.rescue": null,
+      "rel.spouse": null
+     }
+    },
+    {
+     "id": "CH-15",
+     "values": {
+      "ch.name": "王妃の小人",
+      "ch.desire": "",
+      "ch.wound": "",
+      "ch.voice": "",
+      "ch.relations": "",
+      "ch.first": "9話、宮廷",
+      "ch.look": "",
+      "ch.change": "（仮）各部の人物の工程で埋める",
+      "rel.serve": null,
+      "rel.ally": null,
+      "rel.enemy": null,
+      "rel.grudge": null,
+      "rel.judge": null,
+      "rel.rescue": null,
+      "rel.spouse": null
+     }
+    },
+    {
+     "id": "CH-16",
+     "values": {
+      "ch.name": "トマス・ウィルコックス船長",
+      "ch.desire": "",
+      "ch.wound": "",
+      "ch.voice": "",
+      "ch.relations": "",
+      "ch.first": "12話、海上",
+      "ch.look": "",
+      "ch.change": "（仮）各部の人物の工程で埋める",
+      "rel.serve": null,
+      "rel.ally": null,
+      "rel.enemy": null,
+      "rel.grudge": null,
+      "rel.judge": null,
+      "rel.rescue": null,
+      "rel.spouse": null
+     }
+    },
+    {
+     "id": "CH-17",
+     "values": {
+      "ch.name": "ウィリアム・ロビンソン船長",
+      "ch.desire": "",
+      "ch.wound": "",
+      "ch.voice": "",
+      "ch.relations": "",
+      "ch.first": "13話、出航",
+      "ch.look": "",
+      "ch.change": "（仮）各部の人物の工程で埋める",
+      "rel.serve": null,
+      "rel.ally": null,
+      "rel.enemy": null,
+      "rel.grudge": null,
+      "rel.judge": null,
+      "rel.rescue": null,
+      "rel.spouse": null
+     }
+    },
+    {
+     "id": "CH-18",
+     "values": {
+      "ch.name": "オランダ人の海賊",
+      "ch.desire": "",
+      "ch.wound": "",
+      "ch.voice": "",
+      "ch.relations": "",
+      "ch.first": "13話、海賊",
+      "ch.look": "",
+      "ch.change": "（仮）各部の人物の工程で埋める",
+      "rel.serve": null,
+      "rel.ally": null,
+      "rel.enemy": null,
+      "rel.grudge": null,
+      "rel.judge": null,
+      "rel.rescue": null,
+      "rel.spouse": null
+     }
+    },
+    {
+     "id": "CH-19",
+     "values": {
+      "ch.name": "ラピュータ王",
+      "ch.desire": "",
+      "ch.wound": "",
+      "ch.voice": "",
+      "ch.relations": "",
+      "ch.first": "13話、空の島",
+      "ch.look": "",
+      "ch.change": "（仮）各部の人物の工程で埋める",
+      "rel.serve": null,
+      "rel.ally": null,
+      "rel.enemy": null,
+      "rel.grudge": null,
+      "rel.judge": null,
+      "rel.rescue": null,
+      "rel.spouse": null
+     }
+    },
+    {
+     "id": "CH-20",
+     "values": {
+      "ch.name": "ムノーディ卿",
+      "ch.desire": "",
+      "ch.wound": "",
+      "ch.voice": "",
+      "ch.relations": "",
+      "ch.first": "15話、荒れない領地",
+      "ch.look": "",
+      "ch.change": "（仮）各部の人物の工程で埋める",
+      "rel.serve": null,
+      "rel.ally": null,
+      "rel.enemy": null,
+      "rel.grudge": null,
+      "rel.judge": null,
+      "rel.rescue": null,
+      "rel.spouse": null
+     }
+    },
+    {
+     "id": "CH-21",
+     "values": {
+      "ch.name": "グラブダブドリッブの領主（魔術師）",
+      "ch.desire": "",
+      "ch.wound": "",
+      "ch.voice": "",
+      "ch.relations": "",
+      "ch.first": "16話、死者の晩餐",
+      "ch.look": "",
+      "ch.change": "（仮）各部の人物の工程で埋める",
+      "rel.serve": null,
+      "rel.ally": null,
+      "rel.enemy": null,
+      "rel.grudge": null,
+      "rel.judge": null,
+      "rel.rescue": null,
+      "rel.spouse": null
+     }
+    },
+    {
+     "id": "CH-22",
+     "values": {
+      "ch.name": "ラグナグ王",
+      "ch.desire": "",
+      "ch.wound": "",
+      "ch.voice": "",
+      "ch.relations": "",
+      "ch.first": "17話、床を舐める",
+      "ch.look": "",
+      "ch.change": "（仮）各部の人物の工程で埋める",
+      "rel.serve": null,
+      "rel.ally": null,
+      "rel.enemy": null,
+      "rel.grudge": null,
+      "rel.judge": null,
+      "rel.rescue": null,
+      "rel.spouse": null
+     }
+    },
+    {
+     "id": "CH-23",
+     "values": {
+      "ch.name": "ストラルドブラグ（死なない人々）",
+      "ch.desire": "",
+      "ch.wound": "",
+      "ch.voice": "",
+      "ch.relations": "",
+      "ch.first": "17話、老いの現実",
+      "ch.look": "",
+      "ch.change": "（仮）各部の人物の工程で埋める",
+      "rel.serve": null,
+      "rel.ally": null,
+      "rel.enemy": null,
+      "rel.grudge": null,
+      "rel.judge": null,
+      "rel.rescue": null,
+      "rel.spouse": null
+     }
+    },
+    {
+     "id": "CH-24",
+     "values": {
+      "ch.name": "ラガードの学士院の企画者たち",
+      "ch.desire": "",
+      "ch.wound": "",
+      "ch.voice": "",
+      "ch.relations": "",
+      "ch.first": "15話、学士院",
+      "ch.look": "",
+      "ch.change": "（仮）各部の人物の工程で埋める",
+      "rel.serve": null,
+      "rel.ally": null,
+      "rel.enemy": null,
+      "rel.grudge": null,
+      "rel.judge": null,
+      "rel.rescue": null,
+      "rel.spouse": null
+     }
+    },
+    {
+     "id": "CH-25",
+     "values": {
+      "ch.name": "主人の馬（灰色の馬）",
+      "ch.desire": "",
+      "ch.wound": "",
+      "ch.voice": "",
+      "ch.relations": "",
+      "ch.first": "19話、岸",
+      "ch.look": "",
+      "ch.change": "（仮）各部の人物の工程で埋める",
+      "rel.serve": null,
+      "rel.ally": null,
+      "rel.enemy": null,
+      "rel.grudge": null,
+      "rel.judge": null,
+      "rel.rescue": null,
+      "rel.spouse": null
+     }
+    },
+    {
+     "id": "CH-26",
+     "values": {
+      "ch.name": "栗毛の小馬（召使い）",
+      "ch.desire": "",
+      "ch.wound": "",
+      "ch.voice": "",
+      "ch.relations": "",
+      "ch.first": "20話、言葉",
+      "ch.look": "",
+      "ch.change": "（仮）各部の人物の工程で埋める",
+      "rel.serve": null,
+      "rel.ally": null,
+      "rel.enemy": null,
+      "rel.grudge": null,
+      "rel.judge": null,
+      "rel.rescue": null,
+      "rel.spouse": null
+     }
+    },
+    {
+     "id": "CH-27",
+     "values": {
+      "ch.name": "ヤフー",
+      "ch.desire": "",
+      "ch.wound": "",
+      "ch.voice": "",
+      "ch.relations": "",
+      "ch.first": "19話、岸",
+      "ch.look": "",
+      "ch.change": "（仮）各部の人物の工程で埋める",
+      "rel.serve": null,
+      "rel.ally": null,
+      "rel.enemy": null,
+      "rel.grudge": null,
+      "rel.judge": null,
+      "rel.rescue": null,
+      "rel.spouse": null
+     }
+    },
+    {
+     "id": "CH-28",
+     "values": {
+      "ch.name": "ペドロ・デ・メンデス船長",
+      "ch.desire": "",
+      "ch.wound": "",
+      "ch.voice": "",
+      "ch.relations": "",
+      "ch.first": "23話、ポルトガル船",
+      "ch.look": "",
+      "ch.change": "（仮）各部の人物の工程で埋める",
+      "rel.serve": null,
+      "rel.ally": null,
+      "rel.enemy": null,
+      "rel.grudge": null,
+      "rel.judge": null,
+      "rel.rescue": null,
+      "rel.spouse": null
+     }
+    },
+    {
+     "id": "CH-29",
+     "values": {
+      "ch.name": "反乱した船員たち",
+      "ch.desire": "",
+      "ch.wound": "",
+      "ch.voice": "",
+      "ch.relations": "",
+      "ch.first": "19話、反乱",
+      "ch.look": "",
+      "ch.change": "（仮）各部の人物の工程で埋める",
+      "rel.serve": null,
+      "rel.ally": null,
+      "rel.enemy": null,
+      "rel.grudge": null,
+      "rel.judge": null,
+      "rel.rescue": null,
+      "rel.spouse": null
+     }
+    }
+   ]
+  }
+ },
+ "versions": [
+  {
+   "artifactId": "gms-characters",
+   "versionId": "story-v1",
+   "parentVersionId": null,
+   "schemaVersion": 1,
+   "createdAt": "2026-11-14T00:00:00.000Z",
+   "createdBy": null,
+   "reason": "ガリヴァー旅行記 筋と構成（fiction-manga@1.1.0 筋と構成）",
+   "content": {
+    "schemaVersion": 2,
+    "columns": [
+     {
+      "id": "ch.name",
+      "name": "名前",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "ch.desire",
+      "name": "欲求",
+      "type": "text"
+     },
+     {
+      "id": "ch.wound",
+      "name": "傷",
+      "type": "text"
+     },
+     {
+      "id": "ch.voice",
+      "name": "口調",
+      "type": "text"
+     },
+     {
+      "id": "ch.relations",
+      "name": "他の人物との関係",
+      "type": "text"
+     },
+     {
+      "id": "ch.first",
+      "name": "初めて出る場面",
+      "type": "text"
+     },
+     {
+      "id": "ch.look",
+      "name": "変えない外見",
+      "type": "text"
+     },
+     {
+      "id": "ch.change",
+      "name": "関係の変わり方",
+      "type": "text"
+     },
+     {
+      "id": "rel.serve",
+      "name": "仕える",
+      "type": "relation"
+     },
+     {
+      "id": "rel.ally",
+      "name": "味方する",
+      "type": "relation"
+     },
+     {
+      "id": "rel.enemy",
+      "name": "敵対する",
+      "type": "relation"
+     },
+     {
+      "id": "rel.grudge",
+      "name": "恨む",
+      "type": "relation"
+     },
+     {
+      "id": "rel.judge",
+      "name": "処遇を決める",
+      "type": "relation"
+     },
+     {
+      "id": "rel.rescue",
+      "name": "救う",
+      "type": "relation"
+     },
+     {
+      "id": "rel.spouse",
+      "name": "夫婦",
+      "type": "relation"
+     }
+    ],
+    "rows": [
+     {
+      "id": "CH-01",
+      "values": {
+       "ch.name": "レミュエル・ガリヴァー",
+       "ch.desire": "世界を見たい。家族を養う稼ぎを得たい（本文）",
+       "ch.wound": "師匠ベイツの死後、医者の商売が傾き、やむなく航海に出た（本文）",
+       "ch.voice": "丁寧で几帳面な手記の語り。数字と寸法を必ず言う（創作）",
+       "ch.relations": "皇帝に仕える。レルドレサルと友。フリムナップとボルゴラムに憎まれる",
+       "ch.first": "1話、難破と浜",
+       "ch.look": "1,750 mm、青い上着（金の縁取りなし・真鍮のボタン）、茶の半ズボン、白い靴下、黒い靴（AR-06）",
+       "ch.change": "皇帝の重用から弾劾へ。最後はブレフスキュへ逃れ、英国の家族のもとへ帰る",
+       "rel.serve": "CH-02",
+       "rel.ally": null,
+       "rel.enemy": null,
+       "rel.grudge": null,
+       "rel.judge": null,
+       "rel.rescue": null,
+       "rel.spouse": "CH-10"
+      }
+     },
+     {
+      "id": "CH-02",
+      "values": {
+       "ch.name": "リリパット皇帝",
+       "ch.desire": "ブレフスキュを属州にし、世界でただ一人の君主になる（本文）",
+       "ch.wound": "大きな客人を持ちながら、思いどおりには使えない（推定）",
+       "ch.voice": "儀礼的で尊大。宣告の文体（創作）",
+       "ch.relations": "ガリヴァーを重用し、後に処罰を決める",
+       "ch.first": "1話、運搬機の後",
+       "ch.look": "廷臣より爪の幅ほど背が高い。鷲鼻、オリーブ色の肌、金の兜と羽根の兜、剣（本文、色は創作）",
+       "ch.change": "艦隊の功でガリヴァーを重用するが、ブレフスキュを滅ぼすことを断られてから遠ざけ、弾劾で失明の刑を決める",
+       "rel.serve": null,
+       "rel.ally": null,
+       "rel.enemy": null,
+       "rel.grudge": null,
+       "rel.judge": "CH-01",
+       "rel.rescue": null,
+       "rel.spouse": null
+      }
+     },
+     {
+      "id": "CH-03",
+      "values": {
+       "ch.name": "皇后",
+       "ch.desire": "王宮と自分の居所を守る（推定）",
+       "ch.wound": "自分の居室の火事を尿で消された（本文）",
+       "ch.voice": "短く冷たい（創作）",
+       "ch.relations": "火事の後、ガリヴァーを恨む",
+       "ch.first": "2話、宮廷",
+       "ch.look": "小柄、重い衣装（創作）",
+       "ch.change": "火事の前は無関係。火事の後、居室を二度と使わないと誓い、ガリヴァーを恨む",
+       "rel.serve": null,
+       "rel.ally": null,
+       "rel.enemy": null,
+       "rel.grudge": "CH-01",
+       "rel.judge": null,
+       "rel.rescue": null,
+       "rel.spouse": null
+      }
+     },
+     {
+      "id": "CH-04",
+      "values": {
+       "ch.name": "フリムナップ（大蔵大臣）",
+       "ch.desire": "国庫と自分の地位を守る（本文）",
+       "ch.wound": "妻とガリヴァーの噂に嫉妬する（本文）",
+       "ch.voice": "冷ややかな勘定の言葉（創作）",
+       "ch.relations": "ガリヴァーの敵。弾劾に加わる",
+       "ch.first": "2話、綱渡り",
+       "ch.look": "綱渡りが一番上手（本文）。痩せた長身（創作）",
+       "ch.change": "最初から敵。噂への嫉妬で、弾劾に加わる",
+       "rel.serve": "CH-02",
+       "rel.ally": null,
+       "rel.enemy": "CH-01",
+       "rel.grudge": null,
+       "rel.judge": null,
+       "rel.rescue": null,
+       "rel.spouse": null
+      }
+     },
+     {
+      "id": "CH-05",
+      "values": {
+       "ch.name": "レルドレサル（内廷の首席秘書官）",
+       "ch.desire": "皇帝とガリヴァーの両方に忠実でいたい（推定）",
+       "ch.wound": "友の両目を潰す案を「慈悲」として出す（本文）",
+       "ch.voice": "穏やかで理屈を重ねる（創作）",
+       "ch.relations": "ガリヴァーの友。教会の対立と戦争を説く",
+       "ch.first": "3話、戦争の説明",
+       "ch.look": "細い目、穏やかな顔（創作）",
+       "ch.change": "友として戦争の事情を説くが、弾劾では死罪の代わりに失明を出す",
+       "rel.serve": "CH-02",
+       "rel.ally": "CH-01",
+       "rel.enemy": null,
+       "rel.grudge": null,
+       "rel.judge": null,
+       "rel.rescue": null,
+       "rel.spouse": null
+      }
+     },
+     {
+      "id": "CH-06",
+      "values": {
+       "ch.name": "スカイレッシュ・ボルゴラム（海軍大将）",
+       "ch.desire": "自分の武功を守る（推定）",
+       "ch.wound": "艦隊を引いた手柄を外国人に奪われた（推定）",
+       "ch.voice": "不機嫌で粗い（創作）",
+       "ch.relations": "ガリヴァーの一番の敵。弾劾を主導",
+       "ch.first": "2話、解放の条件",
+       "ch.look": "陰気な顔つき（本文）。太い体（創作）",
+       "ch.change": "解放の条件の時から敵意を持ち、艦隊の後に弾劾を主導する",
+       "rel.serve": "CH-02",
+       "rel.ally": null,
+       "rel.enemy": "CH-01",
+       "rel.grudge": null,
+       "rel.judge": null,
+       "rel.rescue": null,
+       "rel.spouse": null
+      }
+     },
+     {
+      "id": "CH-07",
+      "values": {
+       "ch.name": "ブレフスキュ皇帝",
+       "ch.desire": "和平と、ガリヴァーを自国に引き留めること（推定）",
+       "ch.wound": "艦隊を奪われた（本文）",
+       "ch.voice": "寛大で落ち着いている（創作）",
+       "ch.relations": "ガリヴァーを迎え、引き渡しを断る",
+       "ch.first": "4話、和平の使節",
+       "ch.look": "CH-02と見分けられるよう、丸い顔と銀の冠（創作）",
+       "ch.change": "艦隊を奪われた敵国の君主から、ガリヴァーを迎え入れて帰国を助ける人へ",
+       "rel.serve": null,
+       "rel.ally": null,
+       "rel.enemy": null,
+       "rel.grudge": null,
+       "rel.judge": null,
+       "rel.rescue": "CH-01",
+       "rel.spouse": null
+      }
+     },
+     {
+      "id": "CH-08",
+      "values": {
+       "ch.name": "宮廷の有力者（名は本文に無い）",
+       "ch.desire": "恩を返す（本文）",
+       "ch.wound": "密告が知れれば命が危ない（推定）",
+       "ch.voice": "小声で急ぐ（創作）",
+       "ch.relations": "夜に輿で来て、弾劾状を知らせる",
+       "ch.first": "5話、夜の訪問",
+       "ch.look": "頭巾で顔を隠す（創作）",
+       "ch.change": "恩人として、弾劾の内容を前もって知らせる",
+       "rel.serve": null,
+       "rel.ally": "CH-01",
+       "rel.enemy": null,
+       "rel.grudge": null,
+       "rel.judge": null,
+       "rel.rescue": null,
+       "rel.spouse": null
+      }
+     },
+     {
+      "id": "CH-09",
+      "values": {
+       "ch.name": "ジョン・ビドル船長",
+       "ch.desire": "航海を終える（推定）",
+       "ch.wound": "なし",
+       "ch.voice": "礼儀正しい（本文「a very civil man」）",
+       "ch.relations": "ガリヴァーを拾い、小さな牛を見て信じる",
+       "ch.first": "6話、帰りの船",
+       "ch.look": "中年の船乗り（創作）",
+       "ch.change": "漂流者を拾い、小さな牛と羊を見てガリヴァーの話を信じる",
+       "rel.serve": null,
+       "rel.ally": null,
+       "rel.enemy": null,
+       "rel.grudge": null,
+       "rel.judge": null,
+       "rel.rescue": "CH-01",
+       "rel.spouse": null
+      }
+     },
+     {
+      "id": "CH-10",
+      "values": {
+       "ch.name": "メアリー（妻、旧姓バートン）",
+       "ch.desire": "家族の暮らしを保つ（推定）",
+       "ch.wound": "夫が航海に出続ける（推定）",
+       "ch.voice": "短く実際的（創作）",
+       "ch.relations": "ガリヴァーの妻",
+       "ch.first": "1話、出航の前",
+       "ch.look": "地味な家着と前掛け（創作）",
+       "ch.change": "出航で別れ、帰国で再会する（第1部では変わらない）",
+       "rel.serve": null,
+       "rel.ally": null,
+       "rel.enemy": null,
+       "rel.grudge": null,
+       "rel.judge": null,
+       "rel.rescue": null,
+       "rel.spouse": "CH-01"
+      }
+     },
+     {
+      "id": "CH-11",
+      "values": {
+       "ch.name": "農夫（ガリヴァーを拾った主人）",
+       "ch.desire": "",
+       "ch.wound": "",
+       "ch.voice": "",
+       "ch.relations": "",
+       "ch.first": "7話、麦畑",
+       "ch.look": "",
+       "ch.change": "（仮）各部の人物の工程で埋める",
+       "rel.serve": null,
+       "rel.ally": null,
+       "rel.enemy": null,
+       "rel.grudge": null,
+       "rel.judge": null,
+       "rel.rescue": null,
+       "rel.spouse": null
+      }
+     },
+     {
+      "id": "CH-12",
+      "values": {
+       "ch.name": "グラムダルクリッチ（農夫の娘、9歳）",
+       "ch.desire": "",
+       "ch.wound": "",
+       "ch.voice": "",
+       "ch.relations": "",
+       "ch.first": "7話、農夫の家",
+       "ch.look": "",
+       "ch.change": "（仮）各部の人物の工程で埋める",
+       "rel.serve": null,
+       "rel.ally": null,
+       "rel.enemy": null,
+       "rel.grudge": null,
+       "rel.judge": null,
+       "rel.rescue": null,
+       "rel.spouse": null
+      }
+     },
+     {
+      "id": "CH-13",
+      "values": {
+       "ch.name": "ブロブディンナグの王妃",
+       "ch.desire": "",
+       "ch.wound": "",
+       "ch.voice": "",
+       "ch.relations": "",
+       "ch.first": "8話、買い取り",
+       "ch.look": "",
+       "ch.change": "（仮）各部の人物の工程で埋める",
+       "rel.serve": null,
+       "rel.ally": null,
+       "rel.enemy": null,
+       "rel.grudge": null,
+       "rel.judge": null,
+       "rel.rescue": null,
+       "rel.spouse": null
+      }
+     },
+     {
+      "id": "CH-14",
+      "values": {
+       "ch.name": "ブロブディンナグの王",
+       "ch.desire": "",
+       "ch.wound": "",
+       "ch.voice": "",
+       "ch.relations": "",
+       "ch.first": "10話、謁見",
+       "ch.look": "",
+       "ch.change": "（仮）各部の人物の工程で埋める",
+       "rel.serve": null,
+       "rel.ally": null,
+       "rel.enemy": null,
+       "rel.grudge": null,
+       "rel.judge": null,
+       "rel.rescue": null,
+       "rel.spouse": null
+      }
+     },
+     {
+      "id": "CH-15",
+      "values": {
+       "ch.name": "王妃の小人",
+       "ch.desire": "",
+       "ch.wound": "",
+       "ch.voice": "",
+       "ch.relations": "",
+       "ch.first": "9話、宮廷",
+       "ch.look": "",
+       "ch.change": "（仮）各部の人物の工程で埋める",
+       "rel.serve": null,
+       "rel.ally": null,
+       "rel.enemy": null,
+       "rel.grudge": null,
+       "rel.judge": null,
+       "rel.rescue": null,
+       "rel.spouse": null
+      }
+     },
+     {
+      "id": "CH-16",
+      "values": {
+       "ch.name": "トマス・ウィルコックス船長",
+       "ch.desire": "",
+       "ch.wound": "",
+       "ch.voice": "",
+       "ch.relations": "",
+       "ch.first": "12話、海上",
+       "ch.look": "",
+       "ch.change": "（仮）各部の人物の工程で埋める",
+       "rel.serve": null,
+       "rel.ally": null,
+       "rel.enemy": null,
+       "rel.grudge": null,
+       "rel.judge": null,
+       "rel.rescue": null,
+       "rel.spouse": null
+      }
+     },
+     {
+      "id": "CH-17",
+      "values": {
+       "ch.name": "ウィリアム・ロビンソン船長",
+       "ch.desire": "",
+       "ch.wound": "",
+       "ch.voice": "",
+       "ch.relations": "",
+       "ch.first": "13話、出航",
+       "ch.look": "",
+       "ch.change": "（仮）各部の人物の工程で埋める",
+       "rel.serve": null,
+       "rel.ally": null,
+       "rel.enemy": null,
+       "rel.grudge": null,
+       "rel.judge": null,
+       "rel.rescue": null,
+       "rel.spouse": null
+      }
+     },
+     {
+      "id": "CH-18",
+      "values": {
+       "ch.name": "オランダ人の海賊",
+       "ch.desire": "",
+       "ch.wound": "",
+       "ch.voice": "",
+       "ch.relations": "",
+       "ch.first": "13話、海賊",
+       "ch.look": "",
+       "ch.change": "（仮）各部の人物の工程で埋める",
+       "rel.serve": null,
+       "rel.ally": null,
+       "rel.enemy": null,
+       "rel.grudge": null,
+       "rel.judge": null,
+       "rel.rescue": null,
+       "rel.spouse": null
+      }
+     },
+     {
+      "id": "CH-19",
+      "values": {
+       "ch.name": "ラピュータ王",
+       "ch.desire": "",
+       "ch.wound": "",
+       "ch.voice": "",
+       "ch.relations": "",
+       "ch.first": "13話、空の島",
+       "ch.look": "",
+       "ch.change": "（仮）各部の人物の工程で埋める",
+       "rel.serve": null,
+       "rel.ally": null,
+       "rel.enemy": null,
+       "rel.grudge": null,
+       "rel.judge": null,
+       "rel.rescue": null,
+       "rel.spouse": null
+      }
+     },
+     {
+      "id": "CH-20",
+      "values": {
+       "ch.name": "ムノーディ卿",
+       "ch.desire": "",
+       "ch.wound": "",
+       "ch.voice": "",
+       "ch.relations": "",
+       "ch.first": "15話、荒れない領地",
+       "ch.look": "",
+       "ch.change": "（仮）各部の人物の工程で埋める",
+       "rel.serve": null,
+       "rel.ally": null,
+       "rel.enemy": null,
+       "rel.grudge": null,
+       "rel.judge": null,
+       "rel.rescue": null,
+       "rel.spouse": null
+      }
+     },
+     {
+      "id": "CH-21",
+      "values": {
+       "ch.name": "グラブダブドリッブの領主（魔術師）",
+       "ch.desire": "",
+       "ch.wound": "",
+       "ch.voice": "",
+       "ch.relations": "",
+       "ch.first": "16話、死者の晩餐",
+       "ch.look": "",
+       "ch.change": "（仮）各部の人物の工程で埋める",
+       "rel.serve": null,
+       "rel.ally": null,
+       "rel.enemy": null,
+       "rel.grudge": null,
+       "rel.judge": null,
+       "rel.rescue": null,
+       "rel.spouse": null
+      }
+     },
+     {
+      "id": "CH-22",
+      "values": {
+       "ch.name": "ラグナグ王",
+       "ch.desire": "",
+       "ch.wound": "",
+       "ch.voice": "",
+       "ch.relations": "",
+       "ch.first": "17話、床を舐める",
+       "ch.look": "",
+       "ch.change": "（仮）各部の人物の工程で埋める",
+       "rel.serve": null,
+       "rel.ally": null,
+       "rel.enemy": null,
+       "rel.grudge": null,
+       "rel.judge": null,
+       "rel.rescue": null,
+       "rel.spouse": null
+      }
+     },
+     {
+      "id": "CH-23",
+      "values": {
+       "ch.name": "ストラルドブラグ（死なない人々）",
+       "ch.desire": "",
+       "ch.wound": "",
+       "ch.voice": "",
+       "ch.relations": "",
+       "ch.first": "17話、老いの現実",
+       "ch.look": "",
+       "ch.change": "（仮）各部の人物の工程で埋める",
+       "rel.serve": null,
+       "rel.ally": null,
+       "rel.enemy": null,
+       "rel.grudge": null,
+       "rel.judge": null,
+       "rel.rescue": null,
+       "rel.spouse": null
+      }
+     },
+     {
+      "id": "CH-24",
+      "values": {
+       "ch.name": "ラガードの学士院の企画者たち",
+       "ch.desire": "",
+       "ch.wound": "",
+       "ch.voice": "",
+       "ch.relations": "",
+       "ch.first": "15話、学士院",
+       "ch.look": "",
+       "ch.change": "（仮）各部の人物の工程で埋める",
+       "rel.serve": null,
+       "rel.ally": null,
+       "rel.enemy": null,
+       "rel.grudge": null,
+       "rel.judge": null,
+       "rel.rescue": null,
+       "rel.spouse": null
+      }
+     },
+     {
+      "id": "CH-25",
+      "values": {
+       "ch.name": "主人の馬（灰色の馬）",
+       "ch.desire": "",
+       "ch.wound": "",
+       "ch.voice": "",
+       "ch.relations": "",
+       "ch.first": "19話、岸",
+       "ch.look": "",
+       "ch.change": "（仮）各部の人物の工程で埋める",
+       "rel.serve": null,
+       "rel.ally": null,
+       "rel.enemy": null,
+       "rel.grudge": null,
+       "rel.judge": null,
+       "rel.rescue": null,
+       "rel.spouse": null
+      }
+     },
+     {
+      "id": "CH-26",
+      "values": {
+       "ch.name": "栗毛の小馬（召使い）",
+       "ch.desire": "",
+       "ch.wound": "",
+       "ch.voice": "",
+       "ch.relations": "",
+       "ch.first": "20話、言葉",
+       "ch.look": "",
+       "ch.change": "（仮）各部の人物の工程で埋める",
+       "rel.serve": null,
+       "rel.ally": null,
+       "rel.enemy": null,
+       "rel.grudge": null,
+       "rel.judge": null,
+       "rel.rescue": null,
+       "rel.spouse": null
+      }
+     },
+     {
+      "id": "CH-27",
+      "values": {
+       "ch.name": "ヤフー",
+       "ch.desire": "",
+       "ch.wound": "",
+       "ch.voice": "",
+       "ch.relations": "",
+       "ch.first": "19話、岸",
+       "ch.look": "",
+       "ch.change": "（仮）各部の人物の工程で埋める",
+       "rel.serve": null,
+       "rel.ally": null,
+       "rel.enemy": null,
+       "rel.grudge": null,
+       "rel.judge": null,
+       "rel.rescue": null,
+       "rel.spouse": null
+      }
+     },
+     {
+      "id": "CH-28",
+      "values": {
+       "ch.name": "ペドロ・デ・メンデス船長",
+       "ch.desire": "",
+       "ch.wound": "",
+       "ch.voice": "",
+       "ch.relations": "",
+       "ch.first": "23話、ポルトガル船",
+       "ch.look": "",
+       "ch.change": "（仮）各部の人物の工程で埋める",
+       "rel.serve": null,
+       "rel.ally": null,
+       "rel.enemy": null,
+       "rel.grudge": null,
+       "rel.judge": null,
+       "rel.rescue": null,
+       "rel.spouse": null
+      }
+     },
+     {
+      "id": "CH-29",
+      "values": {
+       "ch.name": "反乱した船員たち",
+       "ch.desire": "",
+       "ch.wound": "",
+       "ch.voice": "",
+       "ch.relations": "",
+       "ch.first": "19話、反乱",
+       "ch.look": "",
+       "ch.change": "（仮）各部の人物の工程で埋める",
+       "rel.serve": null,
+       "rel.ally": null,
+       "rel.enemy": null,
+       "rel.grudge": null,
+       "rel.judge": null,
+       "rel.rescue": null,
+       "rel.spouse": null
+      }
+     }
+    ]
+   },
+   "contentHash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73"
+  }
+ ]
+}

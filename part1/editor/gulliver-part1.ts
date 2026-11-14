@@ -84,7 +84,7 @@ const relationColumns = [
   { id: 'rel.rescue', name: '救う' },
   { id: 'rel.spouse', name: '夫婦' },
 ] as const;
-const people: Ch[] = [
+export const people: Ch[] = [
   {
     id: 'CH-01',
     name: 'レミュエル・ガリヴァー',
@@ -207,7 +207,7 @@ const people: Ch[] = [
   },
 ];
 
-function characterSheet(): StructuredData {
+export function characterSheet(): StructuredData {
   return {
     schemaVersion: 2,
     columns: [
@@ -458,9 +458,12 @@ type Ev = {
   time: { kind: 'day'; day: number } | { kind: 'range'; start: number; end: number };
   who?: string[];
   at?: { ch: string; loc: string; start: number; end: number; sure?: boolean }[];
+  /** Events this one follows from (ledger `cause` rows: subject = this event, ref = the cause). */
+  cause?: string[];
 };
+export type { Ev as LedgerEvent };
 const LEFT = { start: 472, end: 841 };
-const events: Ev[] = [
+export const PART1_EVENTS: Ev[] = [
   { id: 'EV-01', label: 'ブリストルから出航（1699-05-04）', time: { kind: 'day', day: 0 }, who: ['CH-01', 'CH-10'] },
   {
     id: 'EV-02',
@@ -490,6 +493,12 @@ const events: Ev[] = [
     time: { kind: 'range', start: 187, end: LEFT.start },
     who: ['CH-01'],
   },
+  {
+    id: 'EV-08',
+    label: '綱渡りと棒の跳び越しで官職と勲章を争う廷臣たちを見る',
+    time: { kind: 'range', start: 187, end: LEFT.start },
+    who: ['CH-01', 'CH-02', 'CH-04'],
+  },
   { id: 'EV-07', label: 'レルドレサルが訪ね、二つの党派と卵の戦争を説く', time: { kind: 'range', start: 187, end: LEFT.start }, who: ['CH-01', 'CH-05'] },
   {
     id: 'EV-10',
@@ -497,15 +506,49 @@ const events: Ev[] = [
     time: { kind: 'range', start: 187, end: LEFT.start },
     who: ['CH-01', 'CH-02'],
   },
-  { id: 'EV-11', label: 'ブレフスキュを属州にする命令を断る', time: { kind: 'range', start: 187, end: LEFT.start }, who: ['CH-01', 'CH-02'] },
+  {
+    id: 'EV-09',
+    label: '艦隊を引いて凱旋し、ナルダックの位を授かる',
+    time: { kind: 'range', start: 187, end: LEFT.start },
+    who: ['CH-01', 'CH-02', 'CH-06'],
+    cause: ['EV-10'],
+  },
+  {
+    id: 'EV-11',
+    label: 'ブレフスキュを属州にする命令を断る',
+    time: { kind: 'range', start: 187, end: LEFT.start },
+    who: ['CH-01', 'CH-02'],
+    cause: ['EV-10'],
+  },
+  {
+    id: 'EV-19',
+    label: 'ブレフスキュの和平の使節に会い、訪問を約束する',
+    time: { kind: 'range', start: 187, end: LEFT.start },
+    who: ['CH-01'],
+    cause: ['EV-10'],
+  },
   { id: 'EV-12', label: '皇后の居室の火事を消す', time: { kind: 'range', start: 187, end: LEFT.start }, who: ['CH-01', 'CH-03'] },
-  { id: 'EV-13', label: '夜の訪問者が弾劾状を知らせる', time: { kind: 'range', start: 187, end: LEFT.end }, who: ['CH-01', 'CH-08'] },
+  {
+    id: 'EV-20',
+    label: '秘密の会議で弾劾が決まり、レルドレサルの「慈悲」で両目を潰す刑になる',
+    time: { kind: 'range', start: 187, end: LEFT.end },
+    who: ['CH-02', 'CH-04', 'CH-05', 'CH-06'],
+    cause: ['EV-11', 'EV-12', 'EV-19'],
+  },
+  {
+    id: 'EV-13',
+    label: '夜の訪問者が弾劾状を知らせる',
+    time: { kind: 'range', start: 187, end: LEFT.end },
+    who: ['CH-01', 'CH-08'],
+    cause: ['EV-20'],
+  },
   {
     id: 'EV-14',
     label: 'ブレフスキュへ逃れる',
     time: { kind: 'range', start: LEFT.start, end: LEFT.end },
     who: ['CH-01', 'CH-07'],
     at: [{ ch: 'CH-01', loc: 'LO-10', start: LEFT.end, end: 874, sure: false }],
+    cause: ['EV-13'],
   },
   { id: 'EV-15', label: '流れ着いたボートを見つける（到着の3日後）', time: { kind: 'range', start: LEFT.start + 3, end: LEFT.end + 3 }, who: ['CH-01'] },
   { id: 'EV-16', label: 'ブレフスキュから出帆（1701-09-24）', time: { kind: 'day', day: 874 }, who: ['CH-01', 'CH-07'] },
@@ -513,7 +556,7 @@ const events: Ev[] = [
   { id: 'EV-18', label: 'ダウンズに着く（1702-04-13）', time: { kind: 'day', day: 1075 }, who: ['CH-01', 'CH-10'] },
 ];
 
-function ledgerRows() {
+export function ledgerRows(events: Ev[] = PART1_EVENTS) {
   const rows: { id: string; values: Record<string, unknown> }[] = [];
   for (const e of events) {
     rows.push({
@@ -526,6 +569,8 @@ function ledgerRows() {
         ...(e.time.kind === 'range' ? { 'tl1.time.end': e.time.end } : {}),
       },
     });
+    for (const c of e.cause ?? [])
+      rows.push({ id: `${e.id}.cause.${c}`, values: { 'tl1.row': 'cause', 'tl1.subject': e.id, 'tl1.ref.item': c } });
     for (const ch of e.who ?? [])
       rows.push({
         id: `${e.id}.who.${ch}`,

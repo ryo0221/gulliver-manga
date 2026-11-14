@@ -1,0 +1,431 @@
+{
+ "schemaVersion": 1,
+ "id": "gm1-terms",
+ "name": "第1部 固有名詞と表記の辞書",
+ "kind": "data",
+ "provenance": {
+  "source": "created"
+ },
+ "draft": {
+  "baseVersionId": "part1-v1",
+  "updatedAt": "2026-11-14T00:00:00.000Z",
+  "content": {
+   "schemaVersion": 2,
+   "columns": [
+    {
+     "id": "te.text",
+     "name": "表記",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "te.source",
+     "name": "原語",
+     "type": "text"
+    },
+    {
+     "id": "te.kind",
+     "name": "種類",
+     "type": "text"
+    },
+    {
+     "id": "te.ruby",
+     "name": "ルビ",
+     "type": "boolean"
+    },
+    {
+     "id": "te.avoid",
+     "name": "使わない表記",
+     "type": "text"
+    }
+   ],
+   "rows": [
+    {
+     "id": "TE-01",
+     "values": {
+      "te.text": "リリパット",
+      "te.source": "Lilliput",
+      "te.kind": "国",
+      "te.ruby": false,
+      "te.avoid": "リリパット国、小人国（国名として）"
+     }
+    },
+    {
+     "id": "TE-02",
+     "values": {
+      "te.text": "ブレフスキュ",
+      "te.source": "Blefuscu",
+      "te.kind": "国・首都",
+      "te.ruby": false,
+      "te.avoid": "ブレフスク"
+     }
+    },
+    {
+     "id": "TE-03",
+     "values": {
+      "te.text": "ミルデンドウ",
+      "te.source": "Mildendo",
+      "te.kind": "首都",
+      "te.ruby": false,
+      "te.avoid": "ミルデンド"
+     }
+    },
+    {
+     "id": "TE-04",
+     "values": {
+      "te.text": "レミュエル・ガリヴァー",
+      "te.source": "Lemuel Gulliver",
+      "te.kind": "人物",
+      "te.ruby": false,
+      "te.avoid": "ガリバー、ガリバーズ"
+     }
+    },
+    {
+     "id": "TE-05",
+     "values": {
+      "te.text": "クインバス・フレストリン（人の山）",
+      "te.source": "Quinbus Flestrin",
+      "te.kind": "ガリヴァーの呼び名",
+      "te.ruby": false,
+      "te.avoid": "—"
+     }
+    },
+    {
+     "id": "TE-06",
+     "values": {
+      "te.text": "ゴルバスト・モマレム・エブラメ・グルディロ・シェフィン・モリー・ウリー・グエ",
+      "te.source": "Golbasto Momarem Evlame Gurdilo Shefin Mully Ully Gue",
+      "te.kind": "CH-02の名",
+      "te.ruby": false,
+      "te.avoid": "台詞では「皇帝」。全名は宣告の場面だけ"
+     }
+    },
+    {
+     "id": "TE-07",
+     "values": {
+      "te.text": "フリムナップ",
+      "te.source": "Flimnap",
+      "te.kind": "CH-04",
+      "te.ruby": false,
+      "te.avoid": "フリンナップ"
+     }
+    },
+    {
+     "id": "TE-08",
+     "values": {
+      "te.text": "レルドレサル",
+      "te.source": "Reldresal",
+      "te.kind": "CH-05",
+      "te.ruby": false,
+      "te.avoid": "レドレサル"
+     }
+    },
+    {
+     "id": "TE-09",
+     "values": {
+      "te.text": "スカイレッシュ・ボルゴラム",
+      "te.source": "Skyresh Bolgolam",
+      "te.kind": "CH-06",
+      "te.ruby": false,
+      "te.avoid": "ボルゴラム大将（役職は「海軍大将」）"
+     }
+    },
+    {
+     "id": "TE-10",
+     "values": {
+      "te.text": "リムトク、ラルコン、バルマフ",
+      "te.source": "Limtoc, Lalcon, Balmuff",
+      "te.kind": "弾劾に加わる廷臣",
+      "te.ruby": false,
+      "te.avoid": "—"
+     }
+    },
+    {
+     "id": "TE-11",
+     "values": {
+      "te.text": "トラメックサン（高いかかとの党）",
+      "te.source": "Tramecksan",
+      "te.kind": "党派",
+      "te.ruby": false,
+      "te.avoid": "高踵党"
+     }
+    },
+    {
+     "id": "TE-12",
+     "values": {
+      "te.text": "スラメックサン（低いかかとの党）",
+      "te.source": "Slamecksan",
+      "te.kind": "党派",
+      "te.ruby": false,
+      "te.avoid": "低踵党"
+     }
+    },
+    {
+     "id": "TE-13",
+     "values": {
+      "te.text": "大端派、小端派",
+      "te.source": "Big-endians, Little-endians",
+      "te.kind": "卵の割り方の宗派",
+      "te.ruby": false,
+      "te.avoid": "ビッグエンディアン（台詞では使わない）"
+     }
+    },
+    {
+     "id": "TE-14",
+     "values": {
+      "te.text": "ハーゴ（大官）",
+      "te.source": "Hurgo",
+      "te.kind": "称号",
+      "te.ruby": false,
+      "te.avoid": "—"
+     }
+    },
+    {
+     "id": "TE-15",
+     "values": {
+      "te.text": "ベイツ",
+      "te.source": "Bates",
+      "te.kind": "師匠の外科医",
+      "te.ruby": false,
+      "te.avoid": "—"
+     }
+    },
+    {
+     "id": "TE-16",
+     "values": {
+      "te.text": "ブラストラグ（面積の単位）",
+      "te.source": "blustrug",
+      "te.kind": "単位",
+      "te.ruby": false,
+      "te.avoid": "—"
+     }
+    },
+    {
+     "id": "TE-17",
+     "values": {
+      "te.text": "グラムグラフ（長さの単位）",
+      "te.source": "glumgluff",
+      "te.kind": "単位",
+      "te.ruby": false,
+      "te.avoid": "—"
+     }
+    }
+   ]
+  }
+ },
+ "versions": [
+  {
+   "artifactId": "gm1-terms",
+   "versionId": "part1-v1",
+   "parentVersionId": null,
+   "schemaVersion": 1,
+   "createdAt": "2026-11-14T00:00:00.000Z",
+   "createdBy": null,
+   "reason": "ガリヴァー旅行記 第1部の設定（fiction-manga@1.1.0 人物・世界と舞台）",
+   "content": {
+    "schemaVersion": 2,
+    "columns": [
+     {
+      "id": "te.text",
+      "name": "表記",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "te.source",
+      "name": "原語",
+      "type": "text"
+     },
+     {
+      "id": "te.kind",
+      "name": "種類",
+      "type": "text"
+     },
+     {
+      "id": "te.ruby",
+      "name": "ルビ",
+      "type": "boolean"
+     },
+     {
+      "id": "te.avoid",
+      "name": "使わない表記",
+      "type": "text"
+     }
+    ],
+    "rows": [
+     {
+      "id": "TE-01",
+      "values": {
+       "te.text": "リリパット",
+       "te.source": "Lilliput",
+       "te.kind": "国",
+       "te.ruby": false,
+       "te.avoid": "リリパット国、小人国（国名として）"
+      }
+     },
+     {
+      "id": "TE-02",
+      "values": {
+       "te.text": "ブレフスキュ",
+       "te.source": "Blefuscu",
+       "te.kind": "国・首都",
+       "te.ruby": false,
+       "te.avoid": "ブレフスク"
+      }
+     },
+     {
+      "id": "TE-03",
+      "values": {
+       "te.text": "ミルデンドウ",
+       "te.source": "Mildendo",
+       "te.kind": "首都",
+       "te.ruby": false,
+       "te.avoid": "ミルデンド"
+      }
+     },
+     {
+      "id": "TE-04",
+      "values": {
+       "te.text": "レミュエル・ガリヴァー",
+       "te.source": "Lemuel Gulliver",
+       "te.kind": "人物",
+       "te.ruby": false,
+       "te.avoid": "ガリバー、ガリバーズ"
+      }
+     },
+     {
+      "id": "TE-05",
+      "values": {
+       "te.text": "クインバス・フレストリン（人の山）",
+       "te.source": "Quinbus Flestrin",
+       "te.kind": "ガリヴァーの呼び名",
+       "te.ruby": false,
+       "te.avoid": "—"
+      }
+     },
+     {
+      "id": "TE-06",
+      "values": {
+       "te.text": "ゴルバスト・モマレム・エブラメ・グルディロ・シェフィン・モリー・ウリー・グエ",
+       "te.source": "Golbasto Momarem Evlame Gurdilo Shefin Mully Ully Gue",
+       "te.kind": "CH-02の名",
+       "te.ruby": false,
+       "te.avoid": "台詞では「皇帝」。全名は宣告の場面だけ"
+      }
+     },
+     {
+      "id": "TE-07",
+      "values": {
+       "te.text": "フリムナップ",
+       "te.source": "Flimnap",
+       "te.kind": "CH-04",
+       "te.ruby": false,
+       "te.avoid": "フリンナップ"
+      }
+     },
+     {
+      "id": "TE-08",
+      "values": {
+       "te.text": "レルドレサル",
+       "te.source": "Reldresal",
+       "te.kind": "CH-05",
+       "te.ruby": false,
+       "te.avoid": "レドレサル"
+      }
+     },
+     {
+      "id": "TE-09",
+      "values": {
+       "te.text": "スカイレッシュ・ボルゴラム",
+       "te.source": "Skyresh Bolgolam",
+       "te.kind": "CH-06",
+       "te.ruby": false,
+       "te.avoid": "ボルゴラム大将（役職は「海軍大将」）"
+      }
+     },
+     {
+      "id": "TE-10",
+      "values": {
+       "te.text": "リムトク、ラルコン、バルマフ",
+       "te.source": "Limtoc, Lalcon, Balmuff",
+       "te.kind": "弾劾に加わる廷臣",
+       "te.ruby": false,
+       "te.avoid": "—"
+      }
+     },
+     {
+      "id": "TE-11",
+      "values": {
+       "te.text": "トラメックサン（高いかかとの党）",
+       "te.source": "Tramecksan",
+       "te.kind": "党派",
+       "te.ruby": false,
+       "te.avoid": "高踵党"
+      }
+     },
+     {
+      "id": "TE-12",
+      "values": {
+       "te.text": "スラメックサン（低いかかとの党）",
+       "te.source": "Slamecksan",
+       "te.kind": "党派",
+       "te.ruby": false,
+       "te.avoid": "低踵党"
+      }
+     },
+     {
+      "id": "TE-13",
+      "values": {
+       "te.text": "大端派、小端派",
+       "te.source": "Big-endians, Little-endians",
+       "te.kind": "卵の割り方の宗派",
+       "te.ruby": false,
+       "te.avoid": "ビッグエンディアン（台詞では使わない）"
+      }
+     },
+     {
+      "id": "TE-14",
+      "values": {
+       "te.text": "ハーゴ（大官）",
+       "te.source": "Hurgo",
+       "te.kind": "称号",
+       "te.ruby": false,
+       "te.avoid": "—"
+      }
+     },
+     {
+      "id": "TE-15",
+      "values": {
+       "te.text": "ベイツ",
+       "te.source": "Bates",
+       "te.kind": "師匠の外科医",
+       "te.ruby": false,
+       "te.avoid": "—"
+      }
+     },
+     {
+      "id": "TE-16",
+      "values": {
+       "te.text": "ブラストラグ（面積の単位）",
+       "te.source": "blustrug",
+       "te.kind": "単位",
+       "te.ruby": false,
+       "te.avoid": "—"
+      }
+     },
+     {
+      "id": "TE-17",
+      "values": {
+       "te.text": "グラムグラフ（長さの単位）",
+       "te.source": "glumgluff",
+       "te.kind": "単位",
+       "te.ruby": false,
+       "te.avoid": "—"
+      }
+     }
+    ]
+   },
+   "contentHash": "6102b6bd97f779747be7e7412b4dbc433e97ad163c55db921a4c9ecea059caad"
+  }
+ ]
+}

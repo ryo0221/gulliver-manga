@@ -1,0 +1,193 @@
+{
+ "schemaVersion": 1,
+ "id": "gm1-board",
+ "name": "ガリヴァー旅行記 第1部・物語ボード",
+ "kind": "whiteboard",
+ "provenance": {
+  "source": "created"
+ },
+ "draft": {
+  "baseVersionId": "part1-v1",
+  "updatedAt": "2026-11-14T00:00:00.000Z",
+  "content": {
+   "schemaVersion": 3,
+   "sections": [],
+   "nodes": [
+    {
+     "id": "timeline",
+     "kind": "shape",
+     "bounds": {
+      "x": 24,
+      "y": 24,
+      "width": 760,
+      "height": 460
+     },
+     "text": "連動表示は物語ボードで開いてください",
+     "color": "#fffdf7",
+     "shape": "rectangle"
+    },
+    {
+     "id": "map",
+     "kind": "shape",
+     "bounds": {
+      "x": 810,
+      "y": 24,
+      "width": 520,
+      "height": 460
+     },
+     "text": "連動表示は物語ボードで開いてください",
+     "color": "#fffdf7",
+     "shape": "rectangle"
+    },
+    {
+     "id": "event-0",
+     "kind": "shape",
+     "bounds": {
+      "x": 24,
+      "y": 510,
+      "width": 280,
+      "height": 240
+     },
+     "text": "連動表示は物語ボードで開いてください",
+     "color": "#fffdf7",
+     "shape": "rectangle"
+    },
+    {
+     "id": "event-1",
+     "kind": "shape",
+     "bounds": {
+      "x": 324,
+      "y": 510,
+      "width": 280,
+      "height": 240
+     },
+     "text": "連動表示は物語ボードで開いてください",
+     "color": "#fffdf7",
+     "shape": "rectangle"
+    },
+    {
+     "id": "event-2",
+     "kind": "shape",
+     "bounds": {
+      "x": 624,
+      "y": 510,
+      "width": 280,
+      "height": 240
+     },
+     "text": "連動表示は物語ボードで開いてください",
+     "color": "#fffdf7",
+     "shape": "rectangle"
+    },
+    {
+     "id": "author-note",
+     "kind": "sticky",
+     "bounds": {
+      "x": 940,
+      "y": 510,
+      "width": 390,
+      "height": 240
+     },
+     "text": "第1部の覚え書き\n時計 CL-1：1699-05-04 出航を0日（ユリウス暦）。\n日付が本文にある出来事だけ日を確定し、他は範囲で置く。\nリリパットを出た日は本文が矛盾する（472〜840日）。",
+     "color": "#fff0b6"
+    }
+   ],
+   "connectors": []
+  }
+ },
+ "versions": [
+  {
+   "artifactId": "gm1-board",
+   "versionId": "part1-v1",
+   "parentVersionId": null,
+   "schemaVersion": 1,
+   "createdAt": "2026-11-14T00:00:00.000Z",
+   "createdBy": null,
+   "reason": "ガリヴァー旅行記 第1部の設定（fiction-manga@1.1.0 人物・世界と舞台）",
+   "content": {
+    "schemaVersion": 3,
+    "sections": [],
+    "nodes": [
+     {
+      "id": "timeline",
+      "kind": "shape",
+      "bounds": {
+       "x": 24,
+       "y": 24,
+       "width": 760,
+       "height": 460
+      },
+      "text": "連動表示は物語ボードで開いてください",
+      "color": "#fffdf7",
+      "shape": "rectangle"
+     },
+     {
+      "id": "map",
+      "kind": "shape",
+      "bounds": {
+       "x": 810,
+       "y": 24,
+       "width": 520,
+       "height": 460
+      },
+      "text": "連動表示は物語ボードで開いてください",
+      "color": "#fffdf7",
+      "shape": "rectangle"
+     },
+     {
+      "id": "event-0",
+      "kind": "shape",
+      "bounds": {
+       "x": 24,
+       "y": 510,
+       "width": 280,
+       "height": 240
+      },
+      "text": "連動表示は物語ボードで開いてください",
+      "color": "#fffdf7",
+      "shape": "rectangle"
+     },
+     {
+      "id": "event-1",
+      "kind": "shape",
+      "bounds": {
+       "x": 324,
+       "y": 510,
+       "width": 280,
+       "height": 240
+      },
+      "text": "連動表示は物語ボードで開いてください",
+      "color": "#fffdf7",
+      "shape": "rectangle"
+     },
+     {
+      "id": "event-2",
+      "kind": "shape",
+      "bounds": {
+       "x": 624,
+       "y": 510,
+       "width": 280,
+       "height": 240
+      },
+      "text": "連動表示は物語ボードで開いてください",
+      "color": "#fffdf7",
+      "shape": "rectangle"
+     },
+     {
+      "id": "author-note",
+      "kind": "sticky",
+      "bounds": {
+       "x": 940,
+       "y": 510,
+       "width": 390,
+       "height": 240
+      },
+      "text": "第1部の覚え書き\n時計 CL-1：1699-05-04 出航を0日（ユリウス暦）。\n日付が本文にある出来事だけ日を確定し、他は範囲で置く。\nリリパットを出た日は本文が矛盾する（472〜840日）。",
+      "color": "#fff0b6"
+     }
+    ],
+    "connectors": []
+   },
+   "contentHash": "44ccc4a33b3a5bfb3f816d477407d0971c5922d00fc4fa7c9d3e00e4651702bd"
+  }
+ ]
+}

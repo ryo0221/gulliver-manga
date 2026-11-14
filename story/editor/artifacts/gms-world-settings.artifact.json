@@ -1,0 +1,437 @@
+{
+ "schemaVersion": 1,
+ "id": "gms-world-settings",
+ "name": "全4部 世界線と時計",
+ "kind": "data",
+ "provenance": {
+  "source": "created"
+ },
+ "draft": {
+  "baseVersionId": "story-v1",
+  "updatedAt": "2026-11-14T00:00:00.000Z",
+  "content": {
+   "schemaVersion": 2,
+   "columns": [
+    {
+     "id": "tl1.row",
+     "name": "行の種類",
+     "type": "select",
+     "options": [
+      "clock",
+      "worldline",
+      "clock-offset",
+      "inherits",
+      "transfer",
+      "transfer-info",
+      "location-exclusive",
+      "location-contains",
+      "exception",
+      "exception-target",
+      "exception-basis"
+     ],
+     "required": true
+    },
+    {
+     "id": "tl1.label",
+     "name": "名前",
+     "type": "text"
+    },
+    {
+     "id": "tl1.subject",
+     "name": "対象の行",
+     "type": "relation"
+    },
+    {
+     "id": "tl1.ref.artifact",
+     "name": "参照先Artifact",
+     "type": "text"
+    },
+    {
+     "id": "tl1.ref.version",
+     "name": "参照先の版",
+     "type": "text"
+    },
+    {
+     "id": "tl1.ref.hash",
+     "name": "参照先のhash",
+     "type": "text"
+    },
+    {
+     "id": "tl1.ref.item",
+     "name": "参照先の項目",
+     "type": "text"
+    },
+    {
+     "id": "tl1.ref.facet",
+     "name": "参照の範囲",
+     "type": "select",
+     "options": [
+      "whole",
+      "existence",
+      "participants",
+      "time",
+      "content",
+      "info",
+      "evaluation"
+     ]
+    },
+    {
+     "id": "tl1.ref2.artifact",
+     "name": "参照先2 Artifact",
+     "type": "text"
+    },
+    {
+     "id": "tl1.ref2.version",
+     "name": "参照先2の版",
+     "type": "text"
+    },
+    {
+     "id": "tl1.ref2.hash",
+     "name": "参照先2のhash",
+     "type": "text"
+    },
+    {
+     "id": "tl1.ref2.item",
+     "name": "参照先2の項目",
+     "type": "text"
+    },
+    {
+     "id": "tl1.time.kind",
+     "name": "時点の種類",
+     "type": "select",
+     "options": [
+      "unset",
+      "point",
+      "day",
+      "interval",
+      "range",
+      "derived"
+     ]
+    },
+    {
+     "id": "tl1.time.start",
+     "name": "開始日",
+     "type": "number"
+    },
+    {
+     "id": "tl1.clock",
+     "name": "時計",
+     "type": "text"
+    },
+    {
+     "id": "tl1.clock2",
+     "name": "換算先の時計",
+     "type": "text"
+    },
+    {
+     "id": "tl1.offset.min",
+     "name": "最小日数",
+     "type": "number"
+    },
+    {
+     "id": "tl1.offset.max",
+     "name": "最大日数",
+     "type": "number"
+    },
+    {
+     "id": "tl1.ind.ch",
+     "name": "人物",
+     "type": "text"
+    },
+    {
+     "id": "tl1.ind.origin",
+     "name": "個体の世界",
+     "type": "text"
+    },
+    {
+     "id": "tl1.info",
+     "name": "情報",
+     "type": "text"
+    },
+    {
+     "id": "tl1.loc",
+     "name": "場所",
+     "type": "text"
+    },
+    {
+     "id": "tl1.loc2",
+     "name": "場所2",
+     "type": "text"
+    },
+    {
+     "id": "tl1.world.parent",
+     "name": "親の世界線",
+     "type": "text"
+    },
+    {
+     "id": "tl1.diag",
+     "name": "診断の種類",
+     "type": "select",
+     "options": [
+      "single-event",
+      "disclosure",
+      "presence",
+      "multi-event",
+      "transfer",
+      "external-event"
+     ]
+    },
+    {
+     "id": "tl1.rule",
+     "name": "規則の版",
+     "type": "text"
+    },
+    {
+     "id": "tl1.reason",
+     "name": "理由",
+     "type": "text"
+    },
+    {
+     "id": "tl1.scope",
+     "name": "規則の範囲",
+     "type": "text"
+    },
+    {
+     "id": "tl1.hypothesis",
+     "name": "仮定の識別",
+     "type": "text"
+    }
+   ],
+   "rows": [
+    {
+     "id": "CL-1",
+     "values": {
+      "tl1.row": "clock",
+      "tl1.label": "ユリウス暦（旧暦）、1699-05-04 ブリストル出航を0日とする相対日"
+     }
+    },
+    {
+     "id": "WL-A",
+     "values": {
+      "tl1.row": "worldline",
+      "tl1.label": "本文の世界",
+      "tl1.clock": "CL-1"
+     }
+    }
+   ]
+  }
+ },
+ "versions": [
+  {
+   "artifactId": "gms-world-settings",
+   "versionId": "story-v1",
+   "parentVersionId": null,
+   "schemaVersion": 1,
+   "createdAt": "2026-11-14T00:00:00.000Z",
+   "createdBy": null,
+   "reason": "ガリヴァー旅行記 筋と構成（fiction-manga@1.1.0 筋と構成）",
+   "content": {
+    "schemaVersion": 2,
+    "columns": [
+     {
+      "id": "tl1.row",
+      "name": "行の種類",
+      "type": "select",
+      "options": [
+       "clock",
+       "worldline",
+       "clock-offset",
+       "inherits",
+       "transfer",
+       "transfer-info",
+       "location-exclusive",
+       "location-contains",
+       "exception",
+       "exception-target",
+       "exception-basis"
+      ],
+      "required": true
+     },
+     {
+      "id": "tl1.label",
+      "name": "名前",
+      "type": "text"
+     },
+     {
+      "id": "tl1.subject",
+      "name": "対象の行",
+      "type": "relation"
+     },
+     {
+      "id": "tl1.ref.artifact",
+      "name": "参照先Artifact",
+      "type": "text"
+     },
+     {
+      "id": "tl1.ref.version",
+      "name": "参照先の版",
+      "type": "text"
+     },
+     {
+      "id": "tl1.ref.hash",
+      "name": "参照先のhash",
+      "type": "text"
+     },
+     {
+      "id": "tl1.ref.item",
+      "name": "参照先の項目",
+      "type": "text"
+     },
+     {
+      "id": "tl1.ref.facet",
+      "name": "参照の範囲",
+      "type": "select",
+      "options": [
+       "whole",
+       "existence",
+       "participants",
+       "time",
+       "content",
+       "info",
+       "evaluation"
+      ]
+     },
+     {
+      "id": "tl1.ref2.artifact",
+      "name": "参照先2 Artifact",
+      "type": "text"
+     },
+     {
+      "id": "tl1.ref2.version",
+      "name": "参照先2の版",
+      "type": "text"
+     },
+     {
+      "id": "tl1.ref2.hash",
+      "name": "参照先2のhash",
+      "type": "text"
+     },
+     {
+      "id": "tl1.ref2.item",
+      "name": "参照先2の項目",
+      "type": "text"
+     },
+     {
+      "id": "tl1.time.kind",
+      "name": "時点の種類",
+      "type": "select",
+      "options": [
+       "unset",
+       "point",
+       "day",
+       "interval",
+       "range",
+       "derived"
+      ]
+     },
+     {
+      "id": "tl1.time.start",
+      "name": "開始日",
+      "type": "number"
+     },
+     {
+      "id": "tl1.clock",
+      "name": "時計",
+      "type": "text"
+     },
+     {
+      "id": "tl1.clock2",
+      "name": "換算先の時計",
+      "type": "text"
+     },
+     {
+      "id": "tl1.offset.min",
+      "name": "最小日数",
+      "type": "number"
+     },
+     {
+      "id": "tl1.offset.max",
+      "name": "最大日数",
+      "type": "number"
+     },
+     {
+      "id": "tl1.ind.ch",
+      "name": "人物",
+      "type": "text"
+     },
+     {
+      "id": "tl1.ind.origin",
+      "name": "個体の世界",
+      "type": "text"
+     },
+     {
+      "id": "tl1.info",
+      "name": "情報",
+      "type": "text"
+     },
+     {
+      "id": "tl1.loc",
+      "name": "場所",
+      "type": "text"
+     },
+     {
+      "id": "tl1.loc2",
+      "name": "場所2",
+      "type": "text"
+     },
+     {
+      "id": "tl1.world.parent",
+      "name": "親の世界線",
+      "type": "text"
+     },
+     {
+      "id": "tl1.diag",
+      "name": "診断の種類",
+      "type": "select",
+      "options": [
+       "single-event",
+       "disclosure",
+       "presence",
+       "multi-event",
+       "transfer",
+       "external-event"
+      ]
+     },
+     {
+      "id": "tl1.rule",
+      "name": "規則の版",
+      "type": "text"
+     },
+     {
+      "id": "tl1.reason",
+      "name": "理由",
+      "type": "text"
+     },
+     {
+      "id": "tl1.scope",
+      "name": "規則の範囲",
+      "type": "text"
+     },
+     {
+      "id": "tl1.hypothesis",
+      "name": "仮定の識別",
+      "type": "text"
+     }
+    ],
+    "rows": [
+     {
+      "id": "CL-1",
+      "values": {
+       "tl1.row": "clock",
+       "tl1.label": "ユリウス暦（旧暦）、1699-05-04 ブリストル出航を0日とする相対日"
+      }
+     },
+     {
+      "id": "WL-A",
+      "values": {
+       "tl1.row": "worldline",
+       "tl1.label": "本文の世界",
+       "tl1.clock": "CL-1"
+      }
+     }
+    ]
+   },
+   "contentHash": "78c08dacfcf208b3296bc5c0abd90fea5bdb16de464e07a83ab72fc37bd2f610"
+  }
+ ]
+}

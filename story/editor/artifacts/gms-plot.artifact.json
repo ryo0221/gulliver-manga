@@ -1,0 +1,443 @@
+{
+ "schemaVersion": 1,
+ "id": "gms-plot",
+ "name": "全4部 筋と伏線",
+ "kind": "data",
+ "provenance": {
+  "source": "created"
+ },
+ "draft": {
+  "baseVersionId": "story-v1",
+  "updatedAt": "2026-11-14T00:00:00.000Z",
+  "content": {
+   "schemaVersion": 2,
+   "columns": [
+    {
+     "id": "pl.kind",
+     "name": "種類",
+     "type": "select",
+     "options": [
+      "plotline",
+      "setup"
+     ],
+     "required": true
+    },
+    {
+     "id": "pl.label",
+     "name": "筋・伏線",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "pl.theme",
+     "name": "テーマ",
+     "type": "text"
+    },
+    {
+     "id": "pl.setup",
+     "name": "張るシーン",
+     "type": "text"
+    },
+    {
+     "id": "pl.setupEp",
+     "name": "張る話",
+     "type": "text"
+    },
+    {
+     "id": "pl.payoff",
+     "name": "回収するシーン",
+     "type": "text"
+    },
+    {
+     "id": "pl.payoffEp",
+     "name": "回収する話",
+     "type": "text"
+    },
+    {
+     "id": "pl.note",
+     "name": "覚え書き",
+     "type": "text"
+    }
+   ],
+   "rows": [
+    {
+     "id": "PL-01",
+     "values": {
+      "pl.kind": "plotline",
+      "pl.label": "大きさの物差し：巨人から虫へ、そして人と同じ大きさの国へ",
+      "pl.theme": "TH-01",
+      "pl.setup": "SC-004、SC-008",
+      "pl.setupEp": "1話、2話",
+      "pl.payoff": "SC-023、SC-038、SC-061",
+      "pl.payoffEp": "7話、12話、19話",
+      "pl.note": "各話の最初のページに両者が入る引きのコマ（AR-05）。帰郷のたびに目の物差しが狂う。"
+     }
+    },
+    {
+     "id": "PL-02",
+     "values": {
+      "pl.kind": "plotline",
+      "pl.label": "理性の自負と風刺：宮廷、学士院、英国",
+      "pl.theme": "TH-02",
+      "pl.setup": "SC-006、SC-009",
+      "pl.setupEp": "2話、3話",
+      "pl.payoff": "SC-030、SC-043、SC-048、SC-064",
+      "pl.payoffEp": "10話、14話、15話、21話",
+      "pl.note": "笑いとして描き、説教にしない。最初は他国を笑うガリヴァーが、最後は英国を笑われる側になる。"
+     }
+    },
+    {
+     "id": "PL-03",
+     "values": {
+      "pl.kind": "plotline",
+      "pl.label": "帰郷の苦さ：帰るたびに家族から遠くなる",
+      "pl.theme": "TH-03",
+      "pl.setup": "SC-021",
+      "pl.setupEp": "6話",
+      "pl.payoff": "SC-038、SC-057、SC-073",
+      "pl.payoffEp": "12話、18話、24話",
+      "pl.note": "2か月で海へ戻る（6話）→家族が小さく見える（12話）→5か月で海へ戻る（18話）→妻の口づけに気を失う（24話）。"
+     }
+    },
+    {
+     "id": "PL-04",
+     "values": {
+      "pl.kind": "plotline",
+      "pl.label": "傷んでいく青い上着",
+      "pl.theme": "AR-06",
+      "pl.setup": "SC-002",
+      "pl.setupEp": "1話",
+      "pl.payoff": "SC-024、SC-041、SC-063、SC-069",
+      "pl.payoffEp": "7話、13話、20話、23話",
+      "pl.note": "金の縁取りなし・真鍮のボタン。部ごとに傷み、第4部では服が「皮」として話の鍵になる。"
+     }
+    },
+    {
+     "id": "FS-01",
+     "values": {
+      "pl.kind": "setup",
+      "pl.label": "序の厩：馬に話しかける男は誰か",
+      "pl.theme": "TH-03",
+      "pl.setup": "SC-001",
+      "pl.setupEp": "1話",
+      "pl.payoff": "SC-074",
+      "pl.payoffEp": "24話",
+      "pl.note": "第1話の序を第24話で同じ構図のまま再び出す（構成図の OC-076）。"
+     }
+    },
+    {
+     "id": "FS-02",
+     "values": {
+      "pl.kind": "setup",
+      "pl.label": "戦争の理由はいつも愚かしい",
+      "pl.theme": "TH-02",
+      "pl.setup": "SC-009",
+      "pl.setupEp": "3話",
+      "pl.payoff": "SC-030、SC-064",
+      "pl.payoffEp": "10話、21話",
+      "pl.note": "卵の端（3話）を笑ったガリヴァーが、英国の戦争を誇り（10話）、馬に理由を語って恥じる（21話）。"
+     }
+    },
+    {
+     "id": "FS-03",
+     "values": {
+      "pl.kind": "setup",
+      "pl.label": "火薬：差し出した力を断られる",
+      "pl.theme": "TH-02",
+      "pl.setup": "SC-033",
+      "pl.setupEp": "11話",
+      "pl.payoff": "SC-064",
+      "pl.payoffEp": "21話",
+      "pl.note": "王が断った火薬（11話）を、21話で大砲の話として馬に語る。"
+     }
+    },
+    {
+     "id": "FS-04",
+     "values": {
+      "pl.kind": "setup",
+      "pl.label": "「地を這う小さな嫌らしい虫」",
+      "pl.theme": "TH-02",
+      "pl.setup": "SC-032",
+      "pl.setupEp": "10話",
+      "pl.payoff": "SC-066、SC-074",
+      "pl.payoffEp": "21話、24話",
+      "pl.note": "王の断定（10話）を、主人の馬が同じ結論で繰り返し（21話）、最後はガリヴァー自身の言葉になる（24話）。"
+     }
+    },
+    {
+     "id": "FS-05",
+     "values": {
+      "pl.kind": "setup",
+      "pl.label": "旅に使う箱の部屋",
+      "pl.theme": "TH-01",
+      "pl.setup": "SC-034",
+      "pl.setupEp": "11話",
+      "pl.payoff": "SC-036",
+      "pl.payoffEp": "12話",
+      "pl.note": "11話で作った箱が、12話で鷲にさらわれる器になる。"
+     }
+    },
+    {
+     "id": "FS-06",
+     "values": {
+      "pl.kind": "setup",
+      "pl.label": "持ち帰った証拠で話を信じてもらう",
+      "pl.theme": "TH-01",
+      "pl.setup": "SC-020",
+      "pl.setupEp": "6話",
+      "pl.payoff": "SC-037",
+      "pl.payoffEp": "12話",
+      "pl.note": "小さな牛（6話）と、巨人の国の品（12話）。第4部では証拠を持ち帰らない（帰ったこと自体が証になる）。"
+     }
+    },
+    {
+     "id": "FS-07",
+     "values": {
+      "pl.kind": "setup",
+      "pl.label": "同じ仲間の方が残酷",
+      "pl.theme": "TH-02",
+      "pl.setup": "SC-041",
+      "pl.setupEp": "13話",
+      "pl.payoff": "SC-059",
+      "pl.payoffEp": "19話",
+      "pl.note": "同じキリスト教徒のオランダ人に流され（13話）、自分が雇った英国の船員に裏切られる（19話）。"
+     }
+    },
+    {
+     "id": "FS-08",
+     "values": {
+      "pl.kind": "setup",
+      "pl.label": "ヤフーとの違いは服だけ",
+      "pl.theme": "TH-02",
+      "pl.setup": "SC-061、SC-063",
+      "pl.setupEp": "19話、20話",
+      "pl.payoff": "SC-067、SC-069",
+      "pl.payoffEp": "22話、23話",
+      "pl.note": "服を脱げばヤフーと同じ（20話）。水浴びで雌のヤフーに抱きつかれ（22話）、ヤフーの皮で舟を作る（23話）。"
+     }
+    }
+   ]
+  }
+ },
+ "versions": [
+  {
+   "artifactId": "gms-plot",
+   "versionId": "story-v1",
+   "parentVersionId": null,
+   "schemaVersion": 1,
+   "createdAt": "2026-11-14T00:00:00.000Z",
+   "createdBy": null,
+   "reason": "ガリヴァー旅行記 筋と構成（fiction-manga@1.1.0 筋と構成）",
+   "content": {
+    "schemaVersion": 2,
+    "columns": [
+     {
+      "id": "pl.kind",
+      "name": "種類",
+      "type": "select",
+      "options": [
+       "plotline",
+       "setup"
+      ],
+      "required": true
+     },
+     {
+      "id": "pl.label",
+      "name": "筋・伏線",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "pl.theme",
+      "name": "テーマ",
+      "type": "text"
+     },
+     {
+      "id": "pl.setup",
+      "name": "張るシーン",
+      "type": "text"
+     },
+     {
+      "id": "pl.setupEp",
+      "name": "張る話",
+      "type": "text"
+     },
+     {
+      "id": "pl.payoff",
+      "name": "回収するシーン",
+      "type": "text"
+     },
+     {
+      "id": "pl.payoffEp",
+      "name": "回収する話",
+      "type": "text"
+     },
+     {
+      "id": "pl.note",
+      "name": "覚え書き",
+      "type": "text"
+     }
+    ],
+    "rows": [
+     {
+      "id": "PL-01",
+      "values": {
+       "pl.kind": "plotline",
+       "pl.label": "大きさの物差し：巨人から虫へ、そして人と同じ大きさの国へ",
+       "pl.theme": "TH-01",
+       "pl.setup": "SC-004、SC-008",
+       "pl.setupEp": "1話、2話",
+       "pl.payoff": "SC-023、SC-038、SC-061",
+       "pl.payoffEp": "7話、12話、19話",
+       "pl.note": "各話の最初のページに両者が入る引きのコマ（AR-05）。帰郷のたびに目の物差しが狂う。"
+      }
+     },
+     {
+      "id": "PL-02",
+      "values": {
+       "pl.kind": "plotline",
+       "pl.label": "理性の自負と風刺：宮廷、学士院、英国",
+       "pl.theme": "TH-02",
+       "pl.setup": "SC-006、SC-009",
+       "pl.setupEp": "2話、3話",
+       "pl.payoff": "SC-030、SC-043、SC-048、SC-064",
+       "pl.payoffEp": "10話、14話、15話、21話",
+       "pl.note": "笑いとして描き、説教にしない。最初は他国を笑うガリヴァーが、最後は英国を笑われる側になる。"
+      }
+     },
+     {
+      "id": "PL-03",
+      "values": {
+       "pl.kind": "plotline",
+       "pl.label": "帰郷の苦さ：帰るたびに家族から遠くなる",
+       "pl.theme": "TH-03",
+       "pl.setup": "SC-021",
+       "pl.setupEp": "6話",
+       "pl.payoff": "SC-038、SC-057、SC-073",
+       "pl.payoffEp": "12話、18話、24話",
+       "pl.note": "2か月で海へ戻る（6話）→家族が小さく見える（12話）→5か月で海へ戻る（18話）→妻の口づけに気を失う（24話）。"
+      }
+     },
+     {
+      "id": "PL-04",
+      "values": {
+       "pl.kind": "plotline",
+       "pl.label": "傷んでいく青い上着",
+       "pl.theme": "AR-06",
+       "pl.setup": "SC-002",
+       "pl.setupEp": "1話",
+       "pl.payoff": "SC-024、SC-041、SC-063、SC-069",
+       "pl.payoffEp": "7話、13話、20話、23話",
+       "pl.note": "金の縁取りなし・真鍮のボタン。部ごとに傷み、第4部では服が「皮」として話の鍵になる。"
+      }
+     },
+     {
+      "id": "FS-01",
+      "values": {
+       "pl.kind": "setup",
+       "pl.label": "序の厩：馬に話しかける男は誰か",
+       "pl.theme": "TH-03",
+       "pl.setup": "SC-001",
+       "pl.setupEp": "1話",
+       "pl.payoff": "SC-074",
+       "pl.payoffEp": "24話",
+       "pl.note": "第1話の序を第24話で同じ構図のまま再び出す（構成図の OC-076）。"
+      }
+     },
+     {
+      "id": "FS-02",
+      "values": {
+       "pl.kind": "setup",
+       "pl.label": "戦争の理由はいつも愚かしい",
+       "pl.theme": "TH-02",
+       "pl.setup": "SC-009",
+       "pl.setupEp": "3話",
+       "pl.payoff": "SC-030、SC-064",
+       "pl.payoffEp": "10話、21話",
+       "pl.note": "卵の端（3話）を笑ったガリヴァーが、英国の戦争を誇り（10話）、馬に理由を語って恥じる（21話）。"
+      }
+     },
+     {
+      "id": "FS-03",
+      "values": {
+       "pl.kind": "setup",
+       "pl.label": "火薬：差し出した力を断られる",
+       "pl.theme": "TH-02",
+       "pl.setup": "SC-033",
+       "pl.setupEp": "11話",
+       "pl.payoff": "SC-064",
+       "pl.payoffEp": "21話",
+       "pl.note": "王が断った火薬（11話）を、21話で大砲の話として馬に語る。"
+      }
+     },
+     {
+      "id": "FS-04",
+      "values": {
+       "pl.kind": "setup",
+       "pl.label": "「地を這う小さな嫌らしい虫」",
+       "pl.theme": "TH-02",
+       "pl.setup": "SC-032",
+       "pl.setupEp": "10話",
+       "pl.payoff": "SC-066、SC-074",
+       "pl.payoffEp": "21話、24話",
+       "pl.note": "王の断定（10話）を、主人の馬が同じ結論で繰り返し（21話）、最後はガリヴァー自身の言葉になる（24話）。"
+      }
+     },
+     {
+      "id": "FS-05",
+      "values": {
+       "pl.kind": "setup",
+       "pl.label": "旅に使う箱の部屋",
+       "pl.theme": "TH-01",
+       "pl.setup": "SC-034",
+       "pl.setupEp": "11話",
+       "pl.payoff": "SC-036",
+       "pl.payoffEp": "12話",
+       "pl.note": "11話で作った箱が、12話で鷲にさらわれる器になる。"
+      }
+     },
+     {
+      "id": "FS-06",
+      "values": {
+       "pl.kind": "setup",
+       "pl.label": "持ち帰った証拠で話を信じてもらう",
+       "pl.theme": "TH-01",
+       "pl.setup": "SC-020",
+       "pl.setupEp": "6話",
+       "pl.payoff": "SC-037",
+       "pl.payoffEp": "12話",
+       "pl.note": "小さな牛（6話）と、巨人の国の品（12話）。第4部では証拠を持ち帰らない（帰ったこと自体が証になる）。"
+      }
+     },
+     {
+      "id": "FS-07",
+      "values": {
+       "pl.kind": "setup",
+       "pl.label": "同じ仲間の方が残酷",
+       "pl.theme": "TH-02",
+       "pl.setup": "SC-041",
+       "pl.setupEp": "13話",
+       "pl.payoff": "SC-059",
+       "pl.payoffEp": "19話",
+       "pl.note": "同じキリスト教徒のオランダ人に流され（13話）、自分が雇った英国の船員に裏切られる（19話）。"
+      }
+     },
+     {
+      "id": "FS-08",
+      "values": {
+       "pl.kind": "setup",
+       "pl.label": "ヤフーとの違いは服だけ",
+       "pl.theme": "TH-02",
+       "pl.setup": "SC-061、SC-063",
+       "pl.setupEp": "19話、20話",
+       "pl.payoff": "SC-067、SC-069",
+       "pl.payoffEp": "22話、23話",
+       "pl.note": "服を脱げばヤフーと同じ（20話）。水浴びで雌のヤフーに抱きつかれ（22話）、ヤフーの皮で舟を作る（23話）。"
+      }
+     }
+    ]
+   },
+   "contentHash": "a62db18541c69a5c627a959e2792145a114ff4a5d6d97a4c2a24588812cdf9a8"
+  }
+ ]
+}

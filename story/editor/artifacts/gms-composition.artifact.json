@@ -1,0 +1,2249 @@
+{
+ "schemaVersion": 1,
+ "id": "gms-composition",
+ "name": "全4部 構成図（24話の提示順）",
+ "kind": "data",
+ "provenance": {
+  "source": "created"
+ },
+ "draft": {
+  "baseVersionId": "story-v1",
+  "updatedAt": "2026-11-14T00:00:00.000Z",
+  "content": {
+   "schemaVersion": 2,
+   "columns": [
+    {
+     "id": "tl1.row",
+     "name": "行の種類",
+     "type": "select",
+     "options": [
+      "occurrence",
+      "experience",
+      "exception",
+      "exception-target",
+      "exception-basis"
+     ],
+     "required": true
+    },
+    {
+     "id": "tl1.label",
+     "name": "名前",
+     "type": "text"
+    },
+    {
+     "id": "tl1.subject",
+     "name": "対象の行",
+     "type": "relation"
+    },
+    {
+     "id": "tl1.ref.artifact",
+     "name": "参照先Artifact",
+     "type": "text"
+    },
+    {
+     "id": "tl1.ref.version",
+     "name": "参照先の版",
+     "type": "text"
+    },
+    {
+     "id": "tl1.ref.hash",
+     "name": "参照先のhash",
+     "type": "text"
+    },
+    {
+     "id": "tl1.ref.item",
+     "name": "参照先の項目",
+     "type": "text"
+    },
+    {
+     "id": "tl1.ref.facet",
+     "name": "参照の範囲",
+     "type": "select",
+     "options": [
+      "whole",
+      "existence",
+      "participants",
+      "time",
+      "content",
+      "info",
+      "evaluation"
+     ]
+    },
+    {
+     "id": "tl1.ref2.artifact",
+     "name": "参照先2 Artifact",
+     "type": "text"
+    },
+    {
+     "id": "tl1.ref2.version",
+     "name": "参照先2の版",
+     "type": "text"
+    },
+    {
+     "id": "tl1.ref2.hash",
+     "name": "参照先2のhash",
+     "type": "text"
+    },
+    {
+     "id": "tl1.ref2.item",
+     "name": "参照先2の項目",
+     "type": "text"
+    },
+    {
+     "id": "tl1.ind.ch",
+     "name": "人物",
+     "type": "text"
+    },
+    {
+     "id": "tl1.ind.origin",
+     "name": "個体の世界",
+     "type": "text"
+    },
+    {
+     "id": "tl1.order",
+     "name": "提示の並び",
+     "type": "number"
+    },
+    {
+     "id": "tl1.part",
+     "name": "話",
+     "type": "text"
+    },
+    {
+     "id": "tl1.diag",
+     "name": "診断の種類",
+     "type": "select",
+     "options": [
+      "single-event",
+      "disclosure",
+      "presence",
+      "multi-event",
+      "transfer",
+      "external-event"
+     ]
+    },
+    {
+     "id": "tl1.rule",
+     "name": "規則の版",
+     "type": "text"
+    },
+    {
+     "id": "tl1.reason",
+     "name": "理由",
+     "type": "text"
+    },
+    {
+     "id": "tl1.scope",
+     "name": "規則の範囲",
+     "type": "text"
+    },
+    {
+     "id": "tl1.hypothesis",
+     "name": "仮定の識別",
+     "type": "text"
+    }
+   ],
+   "rows": [
+    {
+     "id": "OC-001",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「人の山」SC-001",
+      "tl1.order": 110,
+      "tl1.part": "第1話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-001"
+     }
+    },
+    {
+     "id": "OC-002",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「人の山」SC-002",
+      "tl1.order": 120,
+      "tl1.part": "第1話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-002"
+     }
+    },
+    {
+     "id": "OC-003",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「人の山」SC-003",
+      "tl1.order": 130,
+      "tl1.part": "第1話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-003"
+     }
+    },
+    {
+     "id": "OC-004",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「人の山」SC-004",
+      "tl1.order": 140,
+      "tl1.part": "第1話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-004"
+     }
+    },
+    {
+     "id": "OC-005",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「人の山」SC-005",
+      "tl1.order": 150,
+      "tl1.part": "第1話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-005"
+     }
+    },
+    {
+     "id": "OC-006",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「綱渡りの宮廷」SC-006",
+      "tl1.order": 210,
+      "tl1.part": "第2話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-006"
+     }
+    },
+    {
+     "id": "OC-007",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「綱渡りの宮廷」SC-007",
+      "tl1.order": 220,
+      "tl1.part": "第2話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-007"
+     }
+    },
+    {
+     "id": "OC-008",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「綱渡りの宮廷」SC-008",
+      "tl1.order": 230,
+      "tl1.part": "第2話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-008"
+     }
+    },
+    {
+     "id": "OC-009",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「卵の端」SC-009",
+      "tl1.order": 310,
+      "tl1.part": "第3話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-009"
+     }
+    },
+    {
+     "id": "OC-010",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「卵の端」SC-010",
+      "tl1.order": 320,
+      "tl1.part": "第3話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-010"
+     }
+    },
+    {
+     "id": "OC-011",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「卵の端」SC-011",
+      "tl1.order": 330,
+      "tl1.part": "第3話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-011"
+     }
+    },
+    {
+     "id": "OC-012",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「火事」SC-012",
+      "tl1.order": 410,
+      "tl1.part": "第4話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-012"
+     }
+    },
+    {
+     "id": "OC-013",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「火事」SC-013",
+      "tl1.order": 420,
+      "tl1.part": "第4話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-013"
+     }
+    },
+    {
+     "id": "OC-014",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「火事」SC-014",
+      "tl1.order": 430,
+      "tl1.part": "第4話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-014"
+     }
+    },
+    {
+     "id": "OC-015",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「慈悲の刑」SC-015",
+      "tl1.order": 510,
+      "tl1.part": "第5話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-015"
+     }
+    },
+    {
+     "id": "OC-016",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「慈悲の刑」SC-016",
+      "tl1.order": 520,
+      "tl1.part": "第5話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-016"
+     }
+    },
+    {
+     "id": "OC-017",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「慈悲の刑」SC-017",
+      "tl1.order": 530,
+      "tl1.part": "第5話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-017"
+     }
+    },
+    {
+     "id": "OC-018",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「小さな牛」SC-018",
+      "tl1.order": 610,
+      "tl1.part": "第6話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-018"
+     }
+    },
+    {
+     "id": "OC-019",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「小さな牛」SC-019",
+      "tl1.order": 620,
+      "tl1.part": "第6話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-019"
+     }
+    },
+    {
+     "id": "OC-020",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「小さな牛」SC-020",
+      "tl1.order": 630,
+      "tl1.part": "第6話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-020"
+     }
+    },
+    {
+     "id": "OC-021",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「小さな牛」SC-021",
+      "tl1.order": 640,
+      "tl1.part": "第6話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-021"
+     }
+    },
+    {
+     "id": "OC-022",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「麦畑の巨人」SC-022",
+      "tl1.order": 710,
+      "tl1.part": "第7話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-022"
+     }
+    },
+    {
+     "id": "OC-023",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「麦畑の巨人」SC-023",
+      "tl1.order": 720,
+      "tl1.part": "第7話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-023"
+     }
+    },
+    {
+     "id": "OC-024",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「麦畑の巨人」SC-024",
+      "tl1.order": 730,
+      "tl1.part": "第7話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-024"
+     }
+    },
+    {
+     "id": "OC-025",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「見世物」SC-025",
+      "tl1.order": 810,
+      "tl1.part": "第8話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-025"
+     }
+    },
+    {
+     "id": "OC-026",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「見世物」SC-026",
+      "tl1.order": 820,
+      "tl1.part": "第8話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-026"
+     }
+    },
+    {
+     "id": "OC-027",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「見世物」SC-027",
+      "tl1.order": 830,
+      "tl1.part": "第8話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-027"
+     }
+    },
+    {
+     "id": "OC-028",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「宮廷の虫」SC-028",
+      "tl1.order": 910,
+      "tl1.part": "第9話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-028"
+     }
+    },
+    {
+     "id": "OC-029",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「宮廷の虫」SC-029",
+      "tl1.order": 920,
+      "tl1.part": "第9話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-029"
+     }
+    },
+    {
+     "id": "OC-030",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「王の問い」SC-030",
+      "tl1.order": 1010,
+      "tl1.part": "第10話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-030"
+     }
+    },
+    {
+     "id": "OC-031",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「王の問い」SC-031",
+      "tl1.order": 1020,
+      "tl1.part": "第10話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-031"
+     }
+    },
+    {
+     "id": "OC-032",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「王の問い」SC-032",
+      "tl1.order": 1030,
+      "tl1.part": "第10話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-032"
+     }
+    },
+    {
+     "id": "OC-033",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「火薬」SC-033",
+      "tl1.order": 1110,
+      "tl1.part": "第11話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-033"
+     }
+    },
+    {
+     "id": "OC-034",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「火薬」SC-034",
+      "tl1.order": 1120,
+      "tl1.part": "第11話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-034"
+     }
+    },
+    {
+     "id": "OC-035",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「火薬」SC-035",
+      "tl1.order": 1130,
+      "tl1.part": "第11話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-035"
+     }
+    },
+    {
+     "id": "OC-036",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「鷲の箱」SC-036",
+      "tl1.order": 1210,
+      "tl1.part": "第12話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-036"
+     }
+    },
+    {
+     "id": "OC-037",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「鷲の箱」SC-037",
+      "tl1.order": 1220,
+      "tl1.part": "第12話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-037"
+     }
+    },
+    {
+     "id": "OC-038",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「鷲の箱」SC-038",
+      "tl1.order": 1230,
+      "tl1.part": "第12話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-038"
+     }
+    },
+    {
+     "id": "OC-039",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「空の島」SC-039",
+      "tl1.order": 1310,
+      "tl1.part": "第13話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-039"
+     }
+    },
+    {
+     "id": "OC-040",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「空の島」SC-040",
+      "tl1.order": 1320,
+      "tl1.part": "第13話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-040"
+     }
+    },
+    {
+     "id": "OC-041",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「空の島」SC-041",
+      "tl1.order": 1330,
+      "tl1.part": "第13話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-041"
+     }
+    },
+    {
+     "id": "OC-042",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「空の島」SC-042",
+      "tl1.order": 1340,
+      "tl1.part": "第13話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-042"
+     }
+    },
+    {
+     "id": "OC-043",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「叩き役」SC-043",
+      "tl1.order": 1410,
+      "tl1.part": "第14話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-043"
+     }
+    },
+    {
+     "id": "OC-044",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「叩き役」SC-044",
+      "tl1.order": 1420,
+      "tl1.part": "第14話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-044"
+     }
+    },
+    {
+     "id": "OC-045",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「叩き役」SC-045",
+      "tl1.order": 1430,
+      "tl1.part": "第14話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-045"
+     }
+    },
+    {
+     "id": "OC-046",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「学士院」SC-046",
+      "tl1.order": 1510,
+      "tl1.part": "第15話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-046"
+     }
+    },
+    {
+     "id": "OC-047",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「学士院」SC-047",
+      "tl1.order": 1520,
+      "tl1.part": "第15話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-047"
+     }
+    },
+    {
+     "id": "OC-048",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「学士院」SC-048",
+      "tl1.order": 1530,
+      "tl1.part": "第15話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-048"
+     }
+    },
+    {
+     "id": "OC-049",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「死者の晩餐」SC-049",
+      "tl1.order": 1610,
+      "tl1.part": "第16話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-049"
+     }
+    },
+    {
+     "id": "OC-050",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「死者の晩餐」SC-050",
+      "tl1.order": 1620,
+      "tl1.part": "第16話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-050"
+     }
+    },
+    {
+     "id": "OC-051",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「死なない人」SC-051",
+      "tl1.order": 1710,
+      "tl1.part": "第17話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-051"
+     }
+    },
+    {
+     "id": "OC-052",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「死なない人」SC-052",
+      "tl1.order": 1720,
+      "tl1.part": "第17話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-052"
+     }
+    },
+    {
+     "id": "OC-053",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「死なない人」SC-053",
+      "tl1.order": 1730,
+      "tl1.part": "第17話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-053"
+     }
+    },
+    {
+     "id": "OC-054",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「死なない人」SC-054",
+      "tl1.order": 1740,
+      "tl1.part": "第17話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-054"
+     }
+    },
+    {
+     "id": "OC-055",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「長崎」SC-055",
+      "tl1.order": 1810,
+      "tl1.part": "第18話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-055"
+     }
+    },
+    {
+     "id": "OC-056",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「長崎」SC-056",
+      "tl1.order": 1820,
+      "tl1.part": "第18話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-056"
+     }
+    },
+    {
+     "id": "OC-057",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「長崎」SC-057",
+      "tl1.order": 1830,
+      "tl1.part": "第18話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-057"
+     }
+    },
+    {
+     "id": "OC-058",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「反乱」SC-058",
+      "tl1.order": 1910,
+      "tl1.part": "第19話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-058"
+     }
+    },
+    {
+     "id": "OC-059",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「反乱」SC-059",
+      "tl1.order": 1920,
+      "tl1.part": "第19話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-059"
+     }
+    },
+    {
+     "id": "OC-060",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「反乱」SC-060",
+      "tl1.order": 1930,
+      "tl1.part": "第19話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-060"
+     }
+    },
+    {
+     "id": "OC-061",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「反乱」SC-061",
+      "tl1.order": 1940,
+      "tl1.part": "第19話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-061"
+     }
+    },
+    {
+     "id": "OC-062",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「服という皮」SC-062",
+      "tl1.order": 2010,
+      "tl1.part": "第20話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-062"
+     }
+    },
+    {
+     "id": "OC-063",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「服という皮」SC-063",
+      "tl1.order": 2020,
+      "tl1.part": "第20話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-063"
+     }
+    },
+    {
+     "id": "OC-064",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「戦争の理由」SC-064",
+      "tl1.order": 2110,
+      "tl1.part": "第21話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-064"
+     }
+    },
+    {
+     "id": "OC-065",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「戦争の理由」SC-065",
+      "tl1.order": 2120,
+      "tl1.part": "第21話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-065"
+     }
+    },
+    {
+     "id": "OC-066",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「戦争の理由」SC-066",
+      "tl1.order": 2130,
+      "tl1.part": "第21話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-066"
+     }
+    },
+    {
+     "id": "OC-067",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「ヤフーの証」SC-067",
+      "tl1.order": 2210,
+      "tl1.part": "第22話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-067"
+     }
+    },
+    {
+     "id": "OC-068",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「ヤフーの証」SC-068",
+      "tl1.order": 2220,
+      "tl1.part": "第22話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-068"
+     }
+    },
+    {
+     "id": "OC-069",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「皮の舟」SC-069",
+      "tl1.order": 2310,
+      "tl1.part": "第23話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-069"
+     }
+    },
+    {
+     "id": "OC-070",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「皮の舟」SC-070",
+      "tl1.order": 2320,
+      "tl1.part": "第23話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-070"
+     }
+    },
+    {
+     "id": "OC-071",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「皮の舟」SC-071",
+      "tl1.order": 2330,
+      "tl1.part": "第23話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-071"
+     }
+    },
+    {
+     "id": "OC-072",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「皮の舟」SC-072",
+      "tl1.order": 2340,
+      "tl1.part": "第23話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-072"
+     }
+    },
+    {
+     "id": "OC-073",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「厩」SC-073",
+      "tl1.order": 2410,
+      "tl1.part": "第24話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-073"
+     }
+    },
+    {
+     "id": "OC-001-R",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「厩」SC-001（再び）",
+      "tl1.order": 2420,
+      "tl1.part": "第24話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-001"
+     }
+    },
+    {
+     "id": "OC-074",
+     "values": {
+      "tl1.row": "occurrence",
+      "tl1.label": "「厩」SC-074",
+      "tl1.order": 2430,
+      "tl1.part": "第24話",
+      "tl1.ref.artifact": "gms-scenes",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+      "tl1.ref.item": "SC-074"
+     }
+    }
+   ]
+  }
+ },
+ "versions": [
+  {
+   "artifactId": "gms-composition",
+   "versionId": "story-v1",
+   "parentVersionId": null,
+   "schemaVersion": 1,
+   "createdAt": "2026-11-14T00:00:00.000Z",
+   "createdBy": null,
+   "reason": "ガリヴァー旅行記 筋と構成（fiction-manga@1.1.0 筋と構成）",
+   "content": {
+    "schemaVersion": 2,
+    "columns": [
+     {
+      "id": "tl1.row",
+      "name": "行の種類",
+      "type": "select",
+      "options": [
+       "occurrence",
+       "experience",
+       "exception",
+       "exception-target",
+       "exception-basis"
+      ],
+      "required": true
+     },
+     {
+      "id": "tl1.label",
+      "name": "名前",
+      "type": "text"
+     },
+     {
+      "id": "tl1.subject",
+      "name": "対象の行",
+      "type": "relation"
+     },
+     {
+      "id": "tl1.ref.artifact",
+      "name": "参照先Artifact",
+      "type": "text"
+     },
+     {
+      "id": "tl1.ref.version",
+      "name": "参照先の版",
+      "type": "text"
+     },
+     {
+      "id": "tl1.ref.hash",
+      "name": "参照先のhash",
+      "type": "text"
+     },
+     {
+      "id": "tl1.ref.item",
+      "name": "参照先の項目",
+      "type": "text"
+     },
+     {
+      "id": "tl1.ref.facet",
+      "name": "参照の範囲",
+      "type": "select",
+      "options": [
+       "whole",
+       "existence",
+       "participants",
+       "time",
+       "content",
+       "info",
+       "evaluation"
+      ]
+     },
+     {
+      "id": "tl1.ref2.artifact",
+      "name": "参照先2 Artifact",
+      "type": "text"
+     },
+     {
+      "id": "tl1.ref2.version",
+      "name": "参照先2の版",
+      "type": "text"
+     },
+     {
+      "id": "tl1.ref2.hash",
+      "name": "参照先2のhash",
+      "type": "text"
+     },
+     {
+      "id": "tl1.ref2.item",
+      "name": "参照先2の項目",
+      "type": "text"
+     },
+     {
+      "id": "tl1.ind.ch",
+      "name": "人物",
+      "type": "text"
+     },
+     {
+      "id": "tl1.ind.origin",
+      "name": "個体の世界",
+      "type": "text"
+     },
+     {
+      "id": "tl1.order",
+      "name": "提示の並び",
+      "type": "number"
+     },
+     {
+      "id": "tl1.part",
+      "name": "話",
+      "type": "text"
+     },
+     {
+      "id": "tl1.diag",
+      "name": "診断の種類",
+      "type": "select",
+      "options": [
+       "single-event",
+       "disclosure",
+       "presence",
+       "multi-event",
+       "transfer",
+       "external-event"
+      ]
+     },
+     {
+      "id": "tl1.rule",
+      "name": "規則の版",
+      "type": "text"
+     },
+     {
+      "id": "tl1.reason",
+      "name": "理由",
+      "type": "text"
+     },
+     {
+      "id": "tl1.scope",
+      "name": "規則の範囲",
+      "type": "text"
+     },
+     {
+      "id": "tl1.hypothesis",
+      "name": "仮定の識別",
+      "type": "text"
+     }
+    ],
+    "rows": [
+     {
+      "id": "OC-001",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「人の山」SC-001",
+       "tl1.order": 110,
+       "tl1.part": "第1話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-001"
+      }
+     },
+     {
+      "id": "OC-002",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「人の山」SC-002",
+       "tl1.order": 120,
+       "tl1.part": "第1話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-002"
+      }
+     },
+     {
+      "id": "OC-003",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「人の山」SC-003",
+       "tl1.order": 130,
+       "tl1.part": "第1話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-003"
+      }
+     },
+     {
+      "id": "OC-004",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「人の山」SC-004",
+       "tl1.order": 140,
+       "tl1.part": "第1話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-004"
+      }
+     },
+     {
+      "id": "OC-005",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「人の山」SC-005",
+       "tl1.order": 150,
+       "tl1.part": "第1話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-005"
+      }
+     },
+     {
+      "id": "OC-006",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「綱渡りの宮廷」SC-006",
+       "tl1.order": 210,
+       "tl1.part": "第2話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-006"
+      }
+     },
+     {
+      "id": "OC-007",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「綱渡りの宮廷」SC-007",
+       "tl1.order": 220,
+       "tl1.part": "第2話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-007"
+      }
+     },
+     {
+      "id": "OC-008",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「綱渡りの宮廷」SC-008",
+       "tl1.order": 230,
+       "tl1.part": "第2話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-008"
+      }
+     },
+     {
+      "id": "OC-009",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「卵の端」SC-009",
+       "tl1.order": 310,
+       "tl1.part": "第3話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-009"
+      }
+     },
+     {
+      "id": "OC-010",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「卵の端」SC-010",
+       "tl1.order": 320,
+       "tl1.part": "第3話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-010"
+      }
+     },
+     {
+      "id": "OC-011",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「卵の端」SC-011",
+       "tl1.order": 330,
+       "tl1.part": "第3話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-011"
+      }
+     },
+     {
+      "id": "OC-012",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「火事」SC-012",
+       "tl1.order": 410,
+       "tl1.part": "第4話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-012"
+      }
+     },
+     {
+      "id": "OC-013",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「火事」SC-013",
+       "tl1.order": 420,
+       "tl1.part": "第4話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-013"
+      }
+     },
+     {
+      "id": "OC-014",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「火事」SC-014",
+       "tl1.order": 430,
+       "tl1.part": "第4話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-014"
+      }
+     },
+     {
+      "id": "OC-015",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「慈悲の刑」SC-015",
+       "tl1.order": 510,
+       "tl1.part": "第5話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-015"
+      }
+     },
+     {
+      "id": "OC-016",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「慈悲の刑」SC-016",
+       "tl1.order": 520,
+       "tl1.part": "第5話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-016"
+      }
+     },
+     {
+      "id": "OC-017",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「慈悲の刑」SC-017",
+       "tl1.order": 530,
+       "tl1.part": "第5話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-017"
+      }
+     },
+     {
+      "id": "OC-018",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「小さな牛」SC-018",
+       "tl1.order": 610,
+       "tl1.part": "第6話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-018"
+      }
+     },
+     {
+      "id": "OC-019",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「小さな牛」SC-019",
+       "tl1.order": 620,
+       "tl1.part": "第6話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-019"
+      }
+     },
+     {
+      "id": "OC-020",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「小さな牛」SC-020",
+       "tl1.order": 630,
+       "tl1.part": "第6話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-020"
+      }
+     },
+     {
+      "id": "OC-021",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「小さな牛」SC-021",
+       "tl1.order": 640,
+       "tl1.part": "第6話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-021"
+      }
+     },
+     {
+      "id": "OC-022",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「麦畑の巨人」SC-022",
+       "tl1.order": 710,
+       "tl1.part": "第7話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-022"
+      }
+     },
+     {
+      "id": "OC-023",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「麦畑の巨人」SC-023",
+       "tl1.order": 720,
+       "tl1.part": "第7話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-023"
+      }
+     },
+     {
+      "id": "OC-024",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「麦畑の巨人」SC-024",
+       "tl1.order": 730,
+       "tl1.part": "第7話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-024"
+      }
+     },
+     {
+      "id": "OC-025",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「見世物」SC-025",
+       "tl1.order": 810,
+       "tl1.part": "第8話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-025"
+      }
+     },
+     {
+      "id": "OC-026",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「見世物」SC-026",
+       "tl1.order": 820,
+       "tl1.part": "第8話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-026"
+      }
+     },
+     {
+      "id": "OC-027",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「見世物」SC-027",
+       "tl1.order": 830,
+       "tl1.part": "第8話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-027"
+      }
+     },
+     {
+      "id": "OC-028",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「宮廷の虫」SC-028",
+       "tl1.order": 910,
+       "tl1.part": "第9話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-028"
+      }
+     },
+     {
+      "id": "OC-029",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「宮廷の虫」SC-029",
+       "tl1.order": 920,
+       "tl1.part": "第9話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-029"
+      }
+     },
+     {
+      "id": "OC-030",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「王の問い」SC-030",
+       "tl1.order": 1010,
+       "tl1.part": "第10話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-030"
+      }
+     },
+     {
+      "id": "OC-031",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「王の問い」SC-031",
+       "tl1.order": 1020,
+       "tl1.part": "第10話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-031"
+      }
+     },
+     {
+      "id": "OC-032",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「王の問い」SC-032",
+       "tl1.order": 1030,
+       "tl1.part": "第10話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-032"
+      }
+     },
+     {
+      "id": "OC-033",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「火薬」SC-033",
+       "tl1.order": 1110,
+       "tl1.part": "第11話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-033"
+      }
+     },
+     {
+      "id": "OC-034",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「火薬」SC-034",
+       "tl1.order": 1120,
+       "tl1.part": "第11話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-034"
+      }
+     },
+     {
+      "id": "OC-035",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「火薬」SC-035",
+       "tl1.order": 1130,
+       "tl1.part": "第11話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-035"
+      }
+     },
+     {
+      "id": "OC-036",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「鷲の箱」SC-036",
+       "tl1.order": 1210,
+       "tl1.part": "第12話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-036"
+      }
+     },
+     {
+      "id": "OC-037",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「鷲の箱」SC-037",
+       "tl1.order": 1220,
+       "tl1.part": "第12話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-037"
+      }
+     },
+     {
+      "id": "OC-038",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「鷲の箱」SC-038",
+       "tl1.order": 1230,
+       "tl1.part": "第12話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-038"
+      }
+     },
+     {
+      "id": "OC-039",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「空の島」SC-039",
+       "tl1.order": 1310,
+       "tl1.part": "第13話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-039"
+      }
+     },
+     {
+      "id": "OC-040",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「空の島」SC-040",
+       "tl1.order": 1320,
+       "tl1.part": "第13話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-040"
+      }
+     },
+     {
+      "id": "OC-041",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「空の島」SC-041",
+       "tl1.order": 1330,
+       "tl1.part": "第13話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-041"
+      }
+     },
+     {
+      "id": "OC-042",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「空の島」SC-042",
+       "tl1.order": 1340,
+       "tl1.part": "第13話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-042"
+      }
+     },
+     {
+      "id": "OC-043",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「叩き役」SC-043",
+       "tl1.order": 1410,
+       "tl1.part": "第14話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-043"
+      }
+     },
+     {
+      "id": "OC-044",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「叩き役」SC-044",
+       "tl1.order": 1420,
+       "tl1.part": "第14話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-044"
+      }
+     },
+     {
+      "id": "OC-045",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「叩き役」SC-045",
+       "tl1.order": 1430,
+       "tl1.part": "第14話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-045"
+      }
+     },
+     {
+      "id": "OC-046",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「学士院」SC-046",
+       "tl1.order": 1510,
+       "tl1.part": "第15話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-046"
+      }
+     },
+     {
+      "id": "OC-047",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「学士院」SC-047",
+       "tl1.order": 1520,
+       "tl1.part": "第15話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-047"
+      }
+     },
+     {
+      "id": "OC-048",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「学士院」SC-048",
+       "tl1.order": 1530,
+       "tl1.part": "第15話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-048"
+      }
+     },
+     {
+      "id": "OC-049",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「死者の晩餐」SC-049",
+       "tl1.order": 1610,
+       "tl1.part": "第16話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-049"
+      }
+     },
+     {
+      "id": "OC-050",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「死者の晩餐」SC-050",
+       "tl1.order": 1620,
+       "tl1.part": "第16話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-050"
+      }
+     },
+     {
+      "id": "OC-051",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「死なない人」SC-051",
+       "tl1.order": 1710,
+       "tl1.part": "第17話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-051"
+      }
+     },
+     {
+      "id": "OC-052",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「死なない人」SC-052",
+       "tl1.order": 1720,
+       "tl1.part": "第17話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-052"
+      }
+     },
+     {
+      "id": "OC-053",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「死なない人」SC-053",
+       "tl1.order": 1730,
+       "tl1.part": "第17話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-053"
+      }
+     },
+     {
+      "id": "OC-054",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「死なない人」SC-054",
+       "tl1.order": 1740,
+       "tl1.part": "第17話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-054"
+      }
+     },
+     {
+      "id": "OC-055",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「長崎」SC-055",
+       "tl1.order": 1810,
+       "tl1.part": "第18話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-055"
+      }
+     },
+     {
+      "id": "OC-056",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「長崎」SC-056",
+       "tl1.order": 1820,
+       "tl1.part": "第18話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-056"
+      }
+     },
+     {
+      "id": "OC-057",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「長崎」SC-057",
+       "tl1.order": 1830,
+       "tl1.part": "第18話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-057"
+      }
+     },
+     {
+      "id": "OC-058",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「反乱」SC-058",
+       "tl1.order": 1910,
+       "tl1.part": "第19話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-058"
+      }
+     },
+     {
+      "id": "OC-059",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「反乱」SC-059",
+       "tl1.order": 1920,
+       "tl1.part": "第19話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-059"
+      }
+     },
+     {
+      "id": "OC-060",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「反乱」SC-060",
+       "tl1.order": 1930,
+       "tl1.part": "第19話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-060"
+      }
+     },
+     {
+      "id": "OC-061",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「反乱」SC-061",
+       "tl1.order": 1940,
+       "tl1.part": "第19話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-061"
+      }
+     },
+     {
+      "id": "OC-062",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「服という皮」SC-062",
+       "tl1.order": 2010,
+       "tl1.part": "第20話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-062"
+      }
+     },
+     {
+      "id": "OC-063",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「服という皮」SC-063",
+       "tl1.order": 2020,
+       "tl1.part": "第20話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-063"
+      }
+     },
+     {
+      "id": "OC-064",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「戦争の理由」SC-064",
+       "tl1.order": 2110,
+       "tl1.part": "第21話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-064"
+      }
+     },
+     {
+      "id": "OC-065",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「戦争の理由」SC-065",
+       "tl1.order": 2120,
+       "tl1.part": "第21話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-065"
+      }
+     },
+     {
+      "id": "OC-066",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「戦争の理由」SC-066",
+       "tl1.order": 2130,
+       "tl1.part": "第21話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-066"
+      }
+     },
+     {
+      "id": "OC-067",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「ヤフーの証」SC-067",
+       "tl1.order": 2210,
+       "tl1.part": "第22話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-067"
+      }
+     },
+     {
+      "id": "OC-068",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「ヤフーの証」SC-068",
+       "tl1.order": 2220,
+       "tl1.part": "第22話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-068"
+      }
+     },
+     {
+      "id": "OC-069",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「皮の舟」SC-069",
+       "tl1.order": 2310,
+       "tl1.part": "第23話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-069"
+      }
+     },
+     {
+      "id": "OC-070",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「皮の舟」SC-070",
+       "tl1.order": 2320,
+       "tl1.part": "第23話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-070"
+      }
+     },
+     {
+      "id": "OC-071",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「皮の舟」SC-071",
+       "tl1.order": 2330,
+       "tl1.part": "第23話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-071"
+      }
+     },
+     {
+      "id": "OC-072",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「皮の舟」SC-072",
+       "tl1.order": 2340,
+       "tl1.part": "第23話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-072"
+      }
+     },
+     {
+      "id": "OC-073",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「厩」SC-073",
+       "tl1.order": 2410,
+       "tl1.part": "第24話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-073"
+      }
+     },
+     {
+      "id": "OC-001-R",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「厩」SC-001（再び）",
+       "tl1.order": 2420,
+       "tl1.part": "第24話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-001"
+      }
+     },
+     {
+      "id": "OC-074",
+      "values": {
+       "tl1.row": "occurrence",
+       "tl1.label": "「厩」SC-074",
+       "tl1.order": 2430,
+       "tl1.part": "第24話",
+       "tl1.ref.artifact": "gms-scenes",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd",
+       "tl1.ref.item": "SC-074"
+      }
+     }
+    ]
+   },
+   "contentHash": "ace2c3a2bbe7a54005b0d9575e59a9cd9e891d7cceb69dc3c91408ea4001446c"
+  }
+ ]
+}
