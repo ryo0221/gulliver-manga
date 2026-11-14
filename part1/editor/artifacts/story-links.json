@@ -1,0 +1,19 @@
+{
+ "schemaVersion": 2,
+ "scenes": [],
+ "story": {
+  "id": "gm1-story",
+  "namespace": "ns:gm1-story",
+  "composition": "gm1-composition",
+  "worldSettings": "gm1-world-settings",
+  "characters": "gm1-characters",
+  "ledgers": [
+   {
+    "world": "WL-A",
+    "artifactId": "gm1-ledger"
+   }
+  ],
+  "sceneCards": []
+ },
+ "occurrenceLinks": []
+}

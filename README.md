@@ -8,6 +8,7 @@
 | --- | --- |
 | `docs/plan.md` | 企画（進め方・企画書・画作りガイド）。2026-11-14 に作者が承認済み。正本は [Claude Doc](https://claude.ai/artifact/4TLyrtjaJKNPSBfEtT2nZ3)。 |
 | `docs/part1-setting.md` | 第1部リリパットの人物・世界・地図・辞書。正本は [Claude Doc](https://claude.ai/artifact/Mt255P7TVnCGZvJMdQGVXh)。 |
+| `part1/editor/` | 第1部の人物表と相関図・世界の覚え書き・世界線と時計・出来事・地図・辞書・物語ボード。Editor Platform のネイティブ資料（`artifacts/`）と画面（`screens/`）。詳しくは `part1/editor/README.md`。 |
 | `part1/underlay/` | Editor Platform の Playground で書き出した 3D 下絵（LY-01）。 |
 | `part1/src/` | 下絵を書き出すテストとその設定。editor-platform の作業ツリーで実行する。 |
 | `part1/codex-prompts.md` | Codex への依頼書（共通ルールと項目ごとの指示）。 |
