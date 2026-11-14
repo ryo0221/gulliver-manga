@@ -1,0 +1,44 @@
+# 第1話「人の山」ネーム（Editor Platform）
+
+工程定義 `fiction-manga@1.1.0` の「ネーム」（話ごと）の成果物です。AI の提案で、構図・間・めくりの採否は作者です。正本は `artifacts/` の JSON、文章版は `docs/part1-ep01-name.md` です。
+
+## 成果物
+
+| 資料（`artifacts/`） | Editor | 中身 | 画面 |
+| --- | --- | --- | --- |
+| `gm1-ep01-name` 第1話ネーム（16ページ） | Design（漫画ワークスペース） | 連動コマ割り（分割木）のページ16枚、56コマ。台詞は楕円の仮の吹き出し、ナレーションは明朝体の枠、擬音は灰色の仮の文字。各コマにタグ（大きさ・カメラ）と絵のメモ | `screens/01〜05-*.png`、`pages/page-01〜16.png` |
+| `gm1-ep01-name-panels` ネームのコマ表 | Structured Data | 1コマ1行：ページ、コマ、シーン、大きさ、カメラの目と高さ（実寸 mm）、向き、大きさの違いを見せるか、絵、脚本の行、文字にする行、ページの頭（めくり） | `screens/06-panel-table.png` |
+
+`pages/` は確定版の書き出し（`captureDesignPages` の vector、SVG と manifest）と、それを PNG にしたものです。
+
+## 決めたこと（提案）
+
+- 読む方向は左から右（`ltr`）。コマの読み順は、上の段から、段の中は左から右です。見開きは 1–2、3–4… の組で、めくりは奇数ページの頭に来ます。小人の初めての姿（9ページ）と、立ち上がる大ゴマ（15ページ）をめくりの頭に置きました。
+- 1ページのコマは2〜6です（スマートフォンで読むため6以内）。台詞の多いシーン（SC-004）は5ページに広げ、ト書きだけのコマ（4ページの出航）も1つ足しました。
+- カメラは実寸の目の高さで書きます。小人の目 136 mm（ガリヴァーの目 1,630 mm の 1/12）、英国の人 1,600 mm。大きさの違いを見せるコマ（★、15コマ）はすべて小人の目の高さから撮ります（AR-05）。脚本で「俯瞰」と書いた扉と運搬機のコマ（1ページ1コマ目、13ページ2コマ目）も、AR-05 に合わせて小人の目の高さ（運搬機は柱の上の見張り、1,200 mm）に変えました。
+- 吹き出しの形と尻尾、擬音の字形は仮です。吹き出しは写植（LY-09）、擬音は線画で手描き（LY-08）にします。台詞の文は脚本のままで、変えていません。
+- 漫画ワークスペースの「変更提案」（JSON）は、作者の編集中の版と revision に結び付き、吹き出しを新しく足せないため、今回は使いませんでした。ネームは読み込める Design 原稿として渡し、作者が直接直します。
+- 3D のカメラから下絵（LY-01）を書き出すのは、次のラフの工程です。コマ表の目の高さと向きをそのまま使います。
+
+## 確かめていること（`gulliver-ep01-name.build.test.ts`）
+
+- 16ページで、シーンごとのページ数と順が脚本と同じ。
+- 脚本の行がすべて、脚本の順に、ちょうど一つのコマに入る（シーンの網羅）。ナレーション・台詞・擬音は、すべて原稿の文字になっている。
+- 読む方向が左から右で、コマの読み順が上の段から左から右。1ページのコマは6以内。
+- 1ページ目の最初のコマが、大きさの違いを見せる大引き。大きさの違いを見せるコマのカメラはすべて小人の目の高さ（AR-05）。
+- 文字の枠と吹き出しが、コマの多角形の内側に（境から 6 以上離れて）入り、同じコマの中で重ならない。文字はどれも、描画と同じ組版で枠に収まる（はみ出す行が無い）。
+- 16ページを vector で書き出せて、エラーの診断が無い。
+
+## 作り直し方
+
+`story/editor/README.md` と同じ手順です。`gulliver-part1.ts`、`gulliver-story.ts`、`gulliver-part1-script.ts` と一緒に、このフォルダの `.ts` を editor-platform の `apps/artifact-host/src/creative/story-board/` へコピーして実行します。
+
+```sh
+cp part1/editor/gulliver-part1.ts story/editor/gulliver-story.ts part1/script/gulliver-part1-script.ts part1/name/*.ts $SB/
+GM_OUT=/tmp/name npx vitest run apps/artifact-host/src/creative/story-board/gulliver-ep01-name.build.test.ts
+npx vite --host 127.0.0.1 --port 4231 --strictPort &
+cp <gm>/part1/name/gulliver-ep01-name-screens.mjs ./gm-name-screens.tmp.mjs   # playwright を解決するため ep の中で実行する
+node gm-name-screens.tmp.mjs /tmp/name/name-editor.json /tmp/name/screens
+```
+
+画面は、漫画ワークスペースのページ（1・9・15）、見開き（8–9）、通読、コマ表です。2026-11-14 に実行し、ネームと脚本のテストが通り、画面を 6 枚書き出しました。

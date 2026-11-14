@@ -1,0 +1,2105 @@
+{
+ "schemaVersion": 1,
+ "id": "gm1-ep01-name-panels",
+ "name": "第1話 ネームのコマ表",
+ "kind": "data",
+ "provenance": {
+  "source": "created"
+ },
+ "draft": {
+  "baseVersionId": "name-ep01-v1",
+  "updatedAt": "2026-11-14T00:00:00.000Z",
+  "content": {
+   "schemaVersion": 2,
+   "columns": [
+    {
+     "id": "nm.page",
+     "name": "ページ",
+     "type": "number",
+     "required": true
+    },
+    {
+     "id": "nm.order",
+     "name": "コマ",
+     "type": "number",
+     "required": true
+    },
+    {
+     "id": "nm.scene",
+     "name": "シーン",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "nm.shot",
+     "name": "大きさ",
+     "type": "select",
+     "options": [
+      "大引き",
+      "引き",
+      "中",
+      "寄り",
+      "大寄り"
+     ],
+     "required": true
+    },
+    {
+     "id": "nm.eye",
+     "name": "カメラの目",
+     "type": "select",
+     "options": [
+      "小人の目の高さ",
+      "ガリヴァーの目の高さ",
+      "英国の人の目の高さ",
+      "俯瞰",
+      "水面すれすれ"
+     ],
+     "required": true
+    },
+    {
+     "id": "nm.mm",
+     "name": "目の高さ（mm、実寸）",
+     "type": "number",
+     "required": true
+    },
+    {
+     "id": "nm.look",
+     "name": "カメラの向き",
+     "type": "text"
+    },
+    {
+     "id": "nm.size",
+     "name": "大きさの違いを見せる",
+     "type": "boolean"
+    },
+    {
+     "id": "nm.art",
+     "name": "絵",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "nm.lines",
+     "name": "脚本の行",
+     "type": "text"
+    },
+    {
+     "id": "nm.text",
+     "name": "文字にする行",
+     "type": "text"
+    },
+    {
+     "id": "nm.turn",
+     "name": "めくり",
+     "type": "text"
+    }
+   ],
+   "rows": [
+    {
+     "id": "e01-p01-k1",
+     "values": {
+      "nm.page": 1,
+      "nm.order": 1,
+      "nm.scene": "SC-001",
+      "nm.shot": "大引き",
+      "nm.eye": "小人の目の高さ",
+      "nm.mm": 136,
+      "nm.look": "胸の上の小人の後ろから、横たわるガリヴァーの顎と顔を見上げる。手前に小人の背中と弓",
+      "nm.size": true,
+      "nm.art": "扉。浜に縛られて横たわるガリヴァーと、胸の上に立つ小人たち。",
+      "nm.lines": "SC-001.L01",
+      "nm.text": "",
+      "nm.turn": "扉。題と、大きさの違う両者を最初に見せる（AR-05）。"
+     }
+    },
+    {
+     "id": "e01-p01-k2",
+     "values": {
+      "nm.page": 1,
+      "nm.order": 2,
+      "nm.scene": "SC-001",
+      "nm.shot": "引き",
+      "nm.eye": "英国の人の目の高さ",
+      "nm.mm": 1600,
+      "nm.look": "夕方の田舎家と厩を、道から見る",
+      "nm.size": false,
+      "nm.art": "約5年後。英国の田舎家と厩。",
+      "nm.lines": "SC-001.L02",
+      "nm.text": "",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p02-k1",
+     "values": {
+      "nm.page": 2,
+      "nm.order": 1,
+      "nm.scene": "SC-001",
+      "nm.shot": "中",
+      "nm.eye": "英国の人の目の高さ",
+      "nm.mm": 1600,
+      "nm.look": "厩の戸口の内側から、馬と男を横から",
+      "nm.size": false,
+      "nm.art": "厩の中。二頭の若い馬に低い声で語りかける痩せた中年の男。戸口に妻メアリー。",
+      "nm.lines": "SC-001.L03 SC-001.L04 SC-001.L05",
+      "nm.text": "台詞（ガリヴァー）：……今日も、あの家の連中の臭いがひどくてな。 / 台詞（ガリヴァー）：おまえたちと話している時だけだ、息ができるのは。",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p02-k2",
+     "values": {
+      "nm.page": 2,
+      "nm.order": 2,
+      "nm.scene": "SC-001",
+      "nm.shot": "寄り",
+      "nm.eye": "英国の人の目の高さ",
+      "nm.mm": 1500,
+      "nm.look": "馬の鼻先",
+      "nm.size": false,
+      "nm.art": "馬が鼻を鳴らす。男が嬉しそうに頷く。",
+      "nm.lines": "SC-001.L06 SC-001.L07",
+      "nm.text": "擬音：ブルル",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p02-k3",
+     "values": {
+      "nm.page": 2,
+      "nm.order": 3,
+      "nm.scene": "SC-001",
+      "nm.shot": "中",
+      "nm.eye": "英国の人の目の高さ",
+      "nm.mm": 1600,
+      "nm.look": "厩の中から戸口を",
+      "nm.size": false,
+      "nm.art": "戸口に立つメアリー。中へは入らない。",
+      "nm.lines": "SC-001.L08",
+      "nm.text": "台詞（メアリー）：……あなた、夕食は。",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p02-k4",
+     "values": {
+      "nm.page": 2,
+      "nm.order": 4,
+      "nm.scene": "SC-001",
+      "nm.shot": "寄り",
+      "nm.eye": "英国の人の目の高さ",
+      "nm.mm": 1600,
+      "nm.look": "男の肩越しに馬を",
+      "nm.size": false,
+      "nm.art": "戸口に背を向けたままの男。",
+      "nm.lines": "SC-001.L09",
+      "nm.text": "台詞（ガリヴァー）：後でいい。",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p02-k5",
+     "values": {
+      "nm.page": 2,
+      "nm.order": 5,
+      "nm.scene": "SC-001",
+      "nm.shot": "中",
+      "nm.eye": "英国の人の目の高さ",
+      "nm.mm": 1600,
+      "nm.look": "戸口の外から",
+      "nm.size": false,
+      "nm.art": "目を伏せて去るメアリー。",
+      "nm.lines": "SC-001.L10",
+      "nm.text": "",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p02-k6",
+     "values": {
+      "nm.page": 2,
+      "nm.order": 6,
+      "nm.scene": "SC-001",
+      "nm.shot": "引き",
+      "nm.eye": "英国の人の目の高さ",
+      "nm.mm": 1600,
+      "nm.look": "厩の奥から、夕日の差す戸口を背に",
+      "nm.size": false,
+      "nm.art": "男と馬の後ろ姿。手記の語りが始まる。",
+      "nm.lines": "SC-001.L11 SC-001.L12",
+      "nm.text": "ナレーション（ガリヴァー）：この手記を、私は旅から帰って5年目に書いている。 / ナレーション（ガリヴァー）：どうしてこうなったのか。初めから記しておく。",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p03-k1",
+     "values": {
+      "nm.page": 3,
+      "nm.order": 1,
+      "nm.scene": "SC-002",
+      "nm.shot": "大引き",
+      "nm.eye": "俯瞰",
+      "nm.mm": 12000,
+      "nm.look": "ブリストルの港と停泊するアンテロープ号を、帆柱の高さから",
+      "nm.size": false,
+      "nm.art": "1699年5月4日、ブリストルの港。アンテロープ号。",
+      "nm.lines": "SC-002.L01 SC-002.L02",
+      "nm.text": "ナレーション（ガリヴァー）：1699年5月4日。私はブリストルからアンテロープ号で南の海へ出た。船医としてである。",
+      "nm.turn": "めくると時が戻る（1699年）。"
+     }
+    },
+    {
+     "id": "e01-p03-k2",
+     "values": {
+      "nm.page": 3,
+      "nm.order": 2,
+      "nm.scene": "SC-002",
+      "nm.shot": "中",
+      "nm.eye": "英国の人の目の高さ",
+      "nm.mm": 1600,
+      "nm.look": "岸壁から",
+      "nm.size": false,
+      "nm.art": "若いガリヴァー（青い上着、真鍮のボタン、金の縁取りなし）が荷を担ぐ。",
+      "nm.lines": "SC-002.L03",
+      "nm.text": "ナレーション（ガリヴァー）：師のベイツ先生が亡くなってから、ロンドンでの医者の商いは傾く一方だった。",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p03-k3",
+     "values": {
+      "nm.page": 3,
+      "nm.order": 3,
+      "nm.scene": "SC-002",
+      "nm.shot": "寄り",
+      "nm.eye": "英国の人の目の高さ",
+      "nm.mm": 1600,
+      "nm.look": "ガリヴァーの肩越しに",
+      "nm.size": false,
+      "nm.art": "メアリー。",
+      "nm.lines": "SC-002.L04",
+      "nm.text": "台詞（メアリー）：今度はどのくらい？",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p03-k4",
+     "values": {
+      "nm.page": 3,
+      "nm.order": 4,
+      "nm.scene": "SC-002",
+      "nm.shot": "寄り",
+      "nm.eye": "英国の人の目の高さ",
+      "nm.mm": 1600,
+      "nm.look": "メアリーの肩越しに",
+      "nm.size": false,
+      "nm.art": "ガリヴァー。",
+      "nm.lines": "SC-002.L05",
+      "nm.text": "台詞（ガリヴァー）：長くて2年。帰ったら、もう海には出ない。",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p04-k1",
+     "values": {
+      "nm.page": 4,
+      "nm.order": 1,
+      "nm.scene": "SC-002",
+      "nm.shot": "寄り",
+      "nm.eye": "英国の人の目の高さ",
+      "nm.mm": 1600,
+      "nm.look": "正面",
+      "nm.size": false,
+      "nm.art": "メアリーの顔。口元だけ笑っている。",
+      "nm.lines": "SC-002.L06",
+      "nm.text": "台詞（メアリー）：前もそう言いました。",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p04-k2",
+     "values": {
+      "nm.page": 4,
+      "nm.order": 2,
+      "nm.scene": "SC-002",
+      "nm.shot": "中",
+      "nm.eye": "英国の人の目の高さ",
+      "nm.mm": 1600,
+      "nm.look": "岸壁の人垣の後ろから",
+      "nm.size": false,
+      "nm.art": "メアリーは笑うが目は笑っていない。ガリヴァーは帽子を振って船に乗る。",
+      "nm.lines": "SC-002.L07",
+      "nm.text": "",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p04-k3",
+     "values": {
+      "nm.page": 4,
+      "nm.order": 3,
+      "nm.scene": "SC-002",
+      "nm.shot": "大引き",
+      "nm.eye": "俯瞰",
+      "nm.mm": 30000,
+      "nm.look": "港の外の丘から、出ていく船を",
+      "nm.size": false,
+      "nm.art": "台詞の無いコマ。港を出ていくアンテロープ号。",
+      "nm.lines": "",
+      "nm.text": "",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p05-k1",
+     "values": {
+      "nm.page": 5,
+      "nm.order": 1,
+      "nm.scene": "SC-003",
+      "nm.shot": "大引き",
+      "nm.eye": "水面すれすれ",
+      "nm.mm": 2000,
+      "nm.look": "波頭の高さから、岩に乗り上げる船を",
+      "nm.size": false,
+      "nm.art": "嵐の海。船が岩に乗り上げる。",
+      "nm.lines": "SC-003.L01 SC-003.L02",
+      "nm.text": "擬音：ゴォォォ",
+      "nm.turn": "めくると嵐。"
+     }
+    },
+    {
+     "id": "e01-p05-k2",
+     "values": {
+      "nm.page": 5,
+      "nm.order": 2,
+      "nm.scene": "SC-003",
+      "nm.shot": "寄り",
+      "nm.eye": "水面すれすれ",
+      "nm.mm": 3000,
+      "nm.look": "甲板の高さ",
+      "nm.size": false,
+      "nm.art": "船首が砕ける。",
+      "nm.lines": "SC-003.L03",
+      "nm.text": "擬音：バキィ",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p05-k3",
+     "values": {
+      "nm.page": 5,
+      "nm.order": 3,
+      "nm.scene": "SC-003",
+      "nm.shot": "中",
+      "nm.eye": "水面すれすれ",
+      "nm.mm": 300,
+      "nm.look": "波間から",
+      "nm.size": false,
+      "nm.art": "6人の乗った小舟が転覆する。",
+      "nm.lines": "SC-003.L04",
+      "nm.text": "ナレーション（ガリヴァー）：11月5日、ヴァン・ディーメンの地の北西で、船は嵐に遭い、岩に砕けた。",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p06-k1",
+     "values": {
+      "nm.page": 6,
+      "nm.order": 1,
+      "nm.scene": "SC-003",
+      "nm.shot": "中",
+      "nm.eye": "水面すれすれ",
+      "nm.mm": 300,
+      "nm.look": "波間から、ひとり浮かぶ頭を",
+      "nm.size": false,
+      "nm.art": "波間にひとり浮かぶガリヴァー。",
+      "nm.lines": "SC-003.L05",
+      "nm.text": "ナレーション（ガリヴァー）：小舟で逃れた6人のうち、助かったのは私一人だったと思う。",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p06-k2",
+     "values": {
+      "nm.page": 6,
+      "nm.order": 2,
+      "nm.scene": "SC-003",
+      "nm.shot": "中",
+      "nm.eye": "水面すれすれ",
+      "nm.mm": 300,
+      "nm.look": "水中から",
+      "nm.size": false,
+      "nm.art": "泳ぐ。やがて足が底に着く。",
+      "nm.lines": "SC-003.L06",
+      "nm.text": "",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p06-k3",
+     "values": {
+      "nm.page": 6,
+      "nm.order": 3,
+      "nm.scene": "SC-003",
+      "nm.shot": "引き",
+      "nm.eye": "水面すれすれ",
+      "nm.mm": 600,
+      "nm.look": "浅瀬の先から、陸へ歩く背中を",
+      "nm.size": false,
+      "nm.art": "夕暮れの浅瀬を、1マイル近く歩く。",
+      "nm.lines": "SC-003.L07",
+      "nm.text": "ナレーション（ガリヴァー）：足が着いてから、1マイル近く歩いてようやく陸に上がった。夜の8時ごろだったろう。",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p07-k1",
+     "values": {
+      "nm.page": 7,
+      "nm.order": 1,
+      "nm.scene": "SC-003",
+      "nm.shot": "引き",
+      "nm.eye": "ガリヴァーの目の高さ",
+      "nm.mm": 400,
+      "nm.look": "浜の高さから、草地に倒れ込む姿を",
+      "nm.size": false,
+      "nm.art": "夜の浜。人家も人影もない。草の上に倒れ込む。",
+      "nm.lines": "SC-003.L08",
+      "nm.text": "ナレーション（ガリヴァー）：人家も人影もなかった。疲れと暑さと、船で飲んだ半パイントのブランデーで、私は短い柔らかな草の上に倒れ込んだ。",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p07-k2",
+     "values": {
+      "nm.page": 7,
+      "nm.order": 2,
+      "nm.scene": "SC-003",
+      "nm.shot": "大寄り",
+      "nm.eye": "小人の目の高さ",
+      "nm.mm": 30,
+      "nm.look": "草の根元から、眠る頬を",
+      "nm.size": false,
+      "nm.art": "頬のそばの短い柔らかな草。草の丈が低い。眠るガリヴァー。",
+      "nm.lines": "SC-003.L09",
+      "nm.text": "",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p08-k1",
+     "values": {
+      "nm.page": 8,
+      "nm.order": 1,
+      "nm.scene": "SC-004",
+      "nm.shot": "大寄り",
+      "nm.eye": "ガリヴァーの目の高さ",
+      "nm.mm": 1630,
+      "nm.look": "目の真上から",
+      "nm.size": false,
+      "nm.art": "仰向けのガリヴァーの目が開く。空。",
+      "nm.lines": "SC-004.L01",
+      "nm.text": "",
+      "nm.turn": "朝。動けない（見開きの右）。"
+     }
+    },
+    {
+     "id": "e01-p08-k2",
+     "values": {
+      "nm.page": 8,
+      "nm.order": 2,
+      "nm.scene": "SC-004",
+      "nm.shot": "中",
+      "nm.eye": "ガリヴァーの目の高さ",
+      "nm.mm": 300,
+      "nm.look": "胸の高さから顔へ",
+      "nm.size": false,
+      "nm.art": "起き上がろうとして、身動き一つできない。",
+      "nm.lines": "SC-004.L02",
+      "nm.text": "ナレーション（ガリヴァー）：目が覚めたのは日が昇ってからだった。起き上がろうとして、身動き一つできないことに気づいた。",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p08-k3",
+     "values": {
+      "nm.page": 8,
+      "nm.order": 3,
+      "nm.scene": "SC-004",
+      "nm.shot": "寄り",
+      "nm.eye": "小人の目の高さ",
+      "nm.mm": 136,
+      "nm.look": "地面から、杭と糸を",
+      "nm.size": false,
+      "nm.art": "細い糸で地面に縫い止められた腕と脚、髪。",
+      "nm.lines": "SC-004.L03 SC-004.L04",
+      "nm.text": "ナレーション（ガリヴァー）：腕も脚も、長い髪までも、細い紐で地面に留められていた。",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p08-k4",
+     "values": {
+      "nm.page": 8,
+      "nm.order": 4,
+      "nm.scene": "SC-004",
+      "nm.shot": "寄り",
+      "nm.eye": "小人の目の高さ",
+      "nm.mm": 136,
+      "nm.look": "脚の脇の地面から",
+      "nm.size": false,
+      "nm.art": "左脚の上で、何かが動く。",
+      "nm.lines": "SC-004.L05",
+      "nm.text": "擬音：ガサッ",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p09-k1",
+     "values": {
+      "nm.page": 9,
+      "nm.order": 1,
+      "nm.scene": "SC-004",
+      "nm.shot": "寄り",
+      "nm.eye": "ガリヴァーの目の高さ",
+      "nm.mm": 250,
+      "nm.look": "顎の下から目へ",
+      "nm.size": false,
+      "nm.art": "何かが胸の上まで来る。目だけで見下ろすガリヴァー。",
+      "nm.lines": "SC-004.L06",
+      "nm.text": "",
+      "nm.turn": "小人の初めての姿。ページの大ゴマ。"
+     }
+    },
+    {
+     "id": "e01-p09-k2",
+     "values": {
+      "nm.page": 9,
+      "nm.order": 2,
+      "nm.scene": "SC-004",
+      "nm.shot": "大引き",
+      "nm.eye": "小人の目の高さ",
+      "nm.mm": 136,
+      "nm.look": "胸の上の小人の後ろ、その目の高さから、山のような顎を見上げる",
+      "nm.size": true,
+      "nm.art": "身長6インチに満たない人間。弓矢と矢筒。後ろに40人ほど（AR-05）。",
+      "nm.lines": "SC-004.L07",
+      "nm.text": "",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p09-k3",
+     "values": {
+      "nm.page": 9,
+      "nm.order": 3,
+      "nm.scene": "SC-004",
+      "nm.shot": "寄り",
+      "nm.eye": "ガリヴァーの目の高さ",
+      "nm.mm": 1630,
+      "nm.look": "正面",
+      "nm.size": false,
+      "nm.art": "叫ぶガリヴァーの口。",
+      "nm.lines": "SC-004.L08",
+      "nm.text": "台詞（ガリヴァー）：うおっ！",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p10-k1",
+     "values": {
+      "nm.page": 10,
+      "nm.order": 1,
+      "nm.scene": "SC-004",
+      "nm.shot": "中",
+      "nm.eye": "小人の目の高さ",
+      "nm.mm": 136,
+      "nm.look": "脇腹の横の地面から",
+      "nm.size": true,
+      "nm.art": "驚いて胸から転げ落ちる小人たち。",
+      "nm.lines": "SC-004.L09 SC-004.L10",
+      "nm.text": "台詞（小人たち）：ヘキナ・デグル！",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p10-k2",
+     "values": {
+      "nm.page": 10,
+      "nm.order": 2,
+      "nm.scene": "SC-004",
+      "nm.shot": "寄り",
+      "nm.eye": "ガリヴァーの目の高さ",
+      "nm.mm": 200,
+      "nm.look": "左腕の脇から",
+      "nm.size": false,
+      "nm.art": "もがいて、左腕の紐を引きちぎる。",
+      "nm.lines": "SC-004.L11 SC-004.L12",
+      "nm.text": "擬音：ブチブチッ",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p10-k3",
+     "values": {
+      "nm.page": 10,
+      "nm.order": 3,
+      "nm.scene": "SC-004",
+      "nm.shot": "中",
+      "nm.eye": "小人の目の高さ",
+      "nm.mm": 136,
+      "nm.look": "隊の後ろから、指揮する小人を",
+      "nm.size": false,
+      "nm.art": "剣を振り上げて号令する小人の隊長。",
+      "nm.lines": "SC-004.L13",
+      "nm.text": "台詞（小人たち）：トルゴ・フォナク！",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p10-k4",
+     "values": {
+      "nm.page": 10,
+      "nm.order": 4,
+      "nm.scene": "SC-004",
+      "nm.shot": "大引き",
+      "nm.eye": "小人の目の高さ",
+      "nm.mm": 136,
+      "nm.look": "弓隊の列の中から、巨大な左手を",
+      "nm.size": true,
+      "nm.art": "百本を超える矢が、自由になった左手へ放たれる。",
+      "nm.lines": "SC-004.L14 SC-004.L15",
+      "nm.text": "擬音：ヒュンヒュン",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p11-k1",
+     "values": {
+      "nm.page": 11,
+      "nm.order": 1,
+      "nm.scene": "SC-004",
+      "nm.shot": "寄り",
+      "nm.eye": "ガリヴァーの目の高さ",
+      "nm.mm": 300,
+      "nm.look": "手の甲の上から",
+      "nm.size": false,
+      "nm.art": "針のような矢の刺さった左手。",
+      "nm.lines": "SC-004.L16",
+      "nm.text": "ナレーション（ガリヴァー）：百本を超える矢が、針のように左手に刺さった。私はじっとしていることにした。",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p11-k2",
+     "values": {
+      "nm.page": 11,
+      "nm.order": 2,
+      "nm.scene": "SC-004",
+      "nm.shot": "中",
+      "nm.eye": "ガリヴァーの目の高さ",
+      "nm.mm": 300,
+      "nm.look": "顔の横から",
+      "nm.size": false,
+      "nm.art": "じっと横たわり、夜を待つと決めるガリヴァー。",
+      "nm.lines": "SC-004.L17",
+      "nm.text": "ナレーション（ガリヴァー）：夜になれば、自由になった左手で逃げられる。相手がこの大きさならば、どんな軍勢でも敵ではない、と。",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p11-k3",
+     "values": {
+      "nm.page": 11,
+      "nm.order": 3,
+      "nm.scene": "SC-004",
+      "nm.shot": "引き",
+      "nm.eye": "小人の目の高さ",
+      "nm.mm": 136,
+      "nm.look": "足場の下の群衆の中から、演説する貴人と、その奥の耳を",
+      "nm.size": true,
+      "nm.art": "耳の脇に足場が組まれ、身分の高そうな小人が長い演説をする。",
+      "nm.lines": "SC-004.L18",
+      "nm.text": "",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p11-k4",
+     "values": {
+      "nm.page": 11,
+      "nm.order": 4,
+      "nm.scene": "SC-004",
+      "nm.shot": "寄り",
+      "nm.eye": "ガリヴァーの目の高さ",
+      "nm.mm": 200,
+      "nm.look": "口元",
+      "nm.size": false,
+      "nm.art": "指で口を差すガリヴァー。",
+      "nm.lines": "SC-004.L19",
+      "nm.text": "台詞（ガリヴァー）：（指で口を差す）……腹が、減っているのです。",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p11-k5",
+     "values": {
+      "nm.page": 11,
+      "nm.order": 5,
+      "nm.scene": "SC-004",
+      "nm.shot": "引き",
+      "nm.eye": "小人の目の高さ",
+      "nm.mm": 136,
+      "nm.look": "梯子の下から、胸へ上る運び手の列を",
+      "nm.size": true,
+      "nm.art": "胸に掛けた梯子。肉とパンの籠が運ばれる。",
+      "nm.lines": "SC-004.L20",
+      "nm.text": "",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p12-k1",
+     "values": {
+      "nm.page": 12,
+      "nm.order": 1,
+      "nm.scene": "SC-004",
+      "nm.shot": "寄り",
+      "nm.eye": "ガリヴァーの目の高さ",
+      "nm.mm": 200,
+      "nm.look": "口の前",
+      "nm.size": false,
+      "nm.art": "雲雀の翼より小さな肉を、二つ三つずつ摘む指。",
+      "nm.lines": "SC-004.L21",
+      "nm.text": "ナレーション（ガリヴァー）：肉はどれも、雲雀の翼より小さかった。私はそれを二つ三つずつ口に入れ、小銃の弾ほどのパンを一度に三つ食べた。",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p12-k2",
+     "values": {
+      "nm.page": 12,
+      "nm.order": 2,
+      "nm.scene": "SC-004",
+      "nm.shot": "中",
+      "nm.eye": "小人の目の高さ",
+      "nm.mm": 136,
+      "nm.look": "胸の上から、傾く樽と喉を",
+      "nm.size": true,
+      "nm.art": "樽を一息で飲み干す。",
+      "nm.lines": "SC-004.L22 SC-004.L23",
+      "nm.text": "台詞（小人たち）：ボラク・ミヴォラ！",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p12-k3",
+     "values": {
+      "nm.page": 12,
+      "nm.order": 3,
+      "nm.scene": "SC-004",
+      "nm.shot": "引き",
+      "nm.eye": "小人の目の高さ",
+      "nm.mm": 136,
+      "nm.look": "胸の上で踊る群れの中から",
+      "nm.size": true,
+      "nm.art": "放り投げた樽。胸の上で踊る小人たち。",
+      "nm.lines": "SC-004.L24 SC-004.L25",
+      "nm.text": "台詞（小人たち）：ヘキナ・デグル！",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p12-k4",
+     "values": {
+      "nm.page": 12,
+      "nm.order": 4,
+      "nm.scene": "SC-004",
+      "nm.shot": "中",
+      "nm.eye": "ガリヴァーの目の高さ",
+      "nm.mm": 400,
+      "nm.look": "胸の上の群れを、浮いた右手越しに",
+      "nm.size": false,
+      "nm.art": "群れの上で止まるガリヴァーの手。",
+      "nm.lines": "SC-004.L26 SC-004.L27",
+      "nm.text": "ナレーション（ガリヴァー）：胸の上を行き来する彼らを、四、五十人つかんで地面に叩きつけてやろうか、と何度も思った。 / ナレーション（ガリヴァー）：だが私は、もてなしを受けた客として約束を守る、と心に決めていた。",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p12-k5",
+     "values": {
+      "nm.page": 12,
+      "nm.order": 5,
+      "nm.scene": "SC-004",
+      "nm.shot": "大寄り",
+      "nm.eye": "ガリヴァーの目の高さ",
+      "nm.mm": 1630,
+      "nm.look": "目の真上から",
+      "nm.size": false,
+      "nm.art": "薬入りの酒で、目が重くなる。",
+      "nm.lines": "SC-004.L28",
+      "nm.text": "",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p13-k1",
+     "values": {
+      "nm.page": 13,
+      "nm.order": 1,
+      "nm.scene": "SC-005",
+      "nm.shot": "引き",
+      "nm.eye": "小人の目の高さ",
+      "nm.mm": 136,
+      "nm.look": "道の脇から",
+      "nm.size": true,
+      "nm.art": "夜。長さ7フィート、車輪22の木の運搬機が引かれてくる。",
+      "nm.lines": "SC-005.L01 SC-005.L02",
+      "nm.text": "ナレーション（ガリヴァー）：眠っている間に、彼らは私を運ぶ機械を作った。長さ7フィート、幅4フィート、車輪が22。",
+      "nm.turn": "めくると夜。眠ったまま運ばれる。"
+     }
+    },
+    {
+     "id": "e01-p13-k2",
+     "values": {
+      "nm.page": 13,
+      "nm.order": 2,
+      "nm.scene": "SC-005",
+      "nm.shot": "大引き",
+      "nm.eye": "小人の目の高さ",
+      "nm.mm": 1200,
+      "nm.look": "柱の上の見張りの目から、900人の滑車と1,500頭の馬を",
+      "nm.size": true,
+      "nm.art": "900人が滑車で持ち上げ、1,500頭の馬が引く。",
+      "nm.lines": "SC-005.L03 SC-005.L04",
+      "nm.text": "ナレーション（ガリヴァー）：私を載せるのに、強い男900人が3時間かかった。引いたのは、高さ4インチ半の王の馬1,500頭である。",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p13-k3",
+     "values": {
+      "nm.page": 13,
+      "nm.order": 3,
+      "nm.scene": "SC-005",
+      "nm.shot": "寄り",
+      "nm.eye": "小人の目の高さ",
+      "nm.mm": 40,
+      "nm.look": "車輪の脇から",
+      "nm.size": false,
+      "nm.art": "軋む22の車輪。",
+      "nm.lines": "SC-005.L05",
+      "nm.text": "擬音：ギシギシ",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p14-k1",
+     "values": {
+      "nm.page": 14,
+      "nm.order": 1,
+      "nm.scene": "SC-005",
+      "nm.shot": "引き",
+      "nm.eye": "小人の目の高さ",
+      "nm.mm": 136,
+      "nm.look": "神殿の前の広場から",
+      "nm.size": true,
+      "nm.art": "都の外の古い神殿。門は高さ4フィート、幅2フィート。中に横たわるガリヴァー。",
+      "nm.lines": "SC-005.L06 SC-005.L07",
+      "nm.text": "ナレーション（ガリヴァー）：都から200ヤード離れた古い神殿が、私の宿と定められた。この国でいちばん大きな建物だという。",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p14-k2",
+     "values": {
+      "nm.page": 14,
+      "nm.order": 2,
+      "nm.scene": "SC-005",
+      "nm.shot": "中",
+      "nm.eye": "小人の目の高さ",
+      "nm.mm": 136,
+      "nm.look": "鍛冶の足場から",
+      "nm.size": true,
+      "nm.art": "左脚に91本の鎖、36個の錠。",
+      "nm.lines": "SC-005.L08",
+      "nm.text": "",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p14-k3",
+     "values": {
+      "nm.page": 14,
+      "nm.order": 3,
+      "nm.scene": "SC-005",
+      "nm.shot": "大寄り",
+      "nm.eye": "小人の目の高さ",
+      "nm.mm": 60,
+      "nm.look": "錠の前から",
+      "nm.size": false,
+      "nm.art": "錠が閉まる。",
+      "nm.lines": "SC-005.L09",
+      "nm.text": "擬音：ガチャン",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p15-k1",
+     "values": {
+      "nm.page": 15,
+      "nm.order": 1,
+      "nm.scene": "SC-005",
+      "nm.shot": "大引き",
+      "nm.eye": "小人の目の高さ",
+      "nm.mm": 136,
+      "nm.look": "足元の群衆の中から、立ち上がる人の山を見上げる",
+      "nm.size": true,
+      "nm.art": "神殿の前で立ち上がるガリヴァー。足元の群衆（AR-05）。",
+      "nm.lines": "SC-005.L10",
+      "nm.text": "",
+      "nm.turn": "めくると立ち上がる。この話の大ゴマ。"
+     }
+    },
+    {
+     "id": "e01-p15-k2",
+     "values": {
+      "nm.page": 15,
+      "nm.order": 2,
+      "nm.scene": "SC-005",
+      "nm.shot": "中",
+      "nm.eye": "小人の目の高さ",
+      "nm.mm": 136,
+      "nm.look": "群衆の中から",
+      "nm.size": false,
+      "nm.art": "どよめく群衆。",
+      "nm.lines": "SC-005.L11",
+      "nm.text": "台詞（小人たち）：ヘキナ・デグル！",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p16-k1",
+     "values": {
+      "nm.page": 16,
+      "nm.order": 1,
+      "nm.scene": "SC-005",
+      "nm.shot": "引き",
+      "nm.eye": "小人の目の高さ",
+      "nm.mm": 136,
+      "nm.look": "塔の上の貴人たちの後ろから、ガリヴァーを",
+      "nm.size": true,
+      "nm.art": "塔の上の一団の貴人。中央に、ほかより爪の幅ほど背の高い皇帝。",
+      "nm.lines": "SC-005.L12",
+      "nm.text": "",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p16-k2",
+     "values": {
+      "nm.page": 16,
+      "nm.order": 2,
+      "nm.scene": "SC-005",
+      "nm.shot": "寄り",
+      "nm.eye": "小人の目の高さ",
+      "nm.mm": 136,
+      "nm.look": "皇帝の正面",
+      "nm.size": false,
+      "nm.art": "皇帝。",
+      "nm.lines": "SC-005.L13",
+      "nm.text": "台詞（皇帝）：人の山だ。",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p16-k3",
+     "values": {
+      "nm.page": 16,
+      "nm.order": 3,
+      "nm.scene": "SC-005",
+      "nm.shot": "寄り",
+      "nm.eye": "小人の目の高さ",
+      "nm.mm": 136,
+      "nm.look": "皇帝の横顔を",
+      "nm.size": false,
+      "nm.art": "名を与える皇帝。",
+      "nm.lines": "SC-005.L14",
+      "nm.text": "台詞（皇帝）：……あれに、名を与えよ。クインバス・フレストリン。",
+      "nm.turn": ""
+     }
+    },
+    {
+     "id": "e01-p16-k4",
+     "values": {
+      "nm.page": 16,
+      "nm.order": 4,
+      "nm.scene": "SC-005",
+      "nm.shot": "大引き",
+      "nm.eye": "小人の目の高さ",
+      "nm.mm": 6000,
+      "nm.look": "都の城壁の上から、200ヤード先の神殿を",
+      "nm.size": true,
+      "nm.art": "神殿の門に鎖で繋がれて座るガリヴァー。リリパットの囚人になる。",
+      "nm.lines": "SC-005.L15",
+      "nm.text": "ナレーション（ガリヴァー）：こうして私は、リリパットという国の囚人になった。",
+      "nm.turn": ""
+     }
+    }
+   ]
+  }
+ },
+ "versions": [
+  {
+   "artifactId": "gm1-ep01-name-panels",
+   "versionId": "name-ep01-v1",
+   "parentVersionId": null,
+   "schemaVersion": 1,
+   "createdAt": "2026-11-14T00:00:00.000Z",
+   "createdBy": null,
+   "reason": "ガリヴァー旅行記 第1話のネーム（fiction-manga@1.1.0 ネーム、AI の提案）",
+   "content": {
+    "schemaVersion": 2,
+    "columns": [
+     {
+      "id": "nm.page",
+      "name": "ページ",
+      "type": "number",
+      "required": true
+     },
+     {
+      "id": "nm.order",
+      "name": "コマ",
+      "type": "number",
+      "required": true
+     },
+     {
+      "id": "nm.scene",
+      "name": "シーン",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "nm.shot",
+      "name": "大きさ",
+      "type": "select",
+      "options": [
+       "大引き",
+       "引き",
+       "中",
+       "寄り",
+       "大寄り"
+      ],
+      "required": true
+     },
+     {
+      "id": "nm.eye",
+      "name": "カメラの目",
+      "type": "select",
+      "options": [
+       "小人の目の高さ",
+       "ガリヴァーの目の高さ",
+       "英国の人の目の高さ",
+       "俯瞰",
+       "水面すれすれ"
+      ],
+      "required": true
+     },
+     {
+      "id": "nm.mm",
+      "name": "目の高さ（mm、実寸）",
+      "type": "number",
+      "required": true
+     },
+     {
+      "id": "nm.look",
+      "name": "カメラの向き",
+      "type": "text"
+     },
+     {
+      "id": "nm.size",
+      "name": "大きさの違いを見せる",
+      "type": "boolean"
+     },
+     {
+      "id": "nm.art",
+      "name": "絵",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "nm.lines",
+      "name": "脚本の行",
+      "type": "text"
+     },
+     {
+      "id": "nm.text",
+      "name": "文字にする行",
+      "type": "text"
+     },
+     {
+      "id": "nm.turn",
+      "name": "めくり",
+      "type": "text"
+     }
+    ],
+    "rows": [
+     {
+      "id": "e01-p01-k1",
+      "values": {
+       "nm.page": 1,
+       "nm.order": 1,
+       "nm.scene": "SC-001",
+       "nm.shot": "大引き",
+       "nm.eye": "小人の目の高さ",
+       "nm.mm": 136,
+       "nm.look": "胸の上の小人の後ろから、横たわるガリヴァーの顎と顔を見上げる。手前に小人の背中と弓",
+       "nm.size": true,
+       "nm.art": "扉。浜に縛られて横たわるガリヴァーと、胸の上に立つ小人たち。",
+       "nm.lines": "SC-001.L01",
+       "nm.text": "",
+       "nm.turn": "扉。題と、大きさの違う両者を最初に見せる（AR-05）。"
+      }
+     },
+     {
+      "id": "e01-p01-k2",
+      "values": {
+       "nm.page": 1,
+       "nm.order": 2,
+       "nm.scene": "SC-001",
+       "nm.shot": "引き",
+       "nm.eye": "英国の人の目の高さ",
+       "nm.mm": 1600,
+       "nm.look": "夕方の田舎家と厩を、道から見る",
+       "nm.size": false,
+       "nm.art": "約5年後。英国の田舎家と厩。",
+       "nm.lines": "SC-001.L02",
+       "nm.text": "",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p02-k1",
+      "values": {
+       "nm.page": 2,
+       "nm.order": 1,
+       "nm.scene": "SC-001",
+       "nm.shot": "中",
+       "nm.eye": "英国の人の目の高さ",
+       "nm.mm": 1600,
+       "nm.look": "厩の戸口の内側から、馬と男を横から",
+       "nm.size": false,
+       "nm.art": "厩の中。二頭の若い馬に低い声で語りかける痩せた中年の男。戸口に妻メアリー。",
+       "nm.lines": "SC-001.L03 SC-001.L04 SC-001.L05",
+       "nm.text": "台詞（ガリヴァー）：……今日も、あの家の連中の臭いがひどくてな。 / 台詞（ガリヴァー）：おまえたちと話している時だけだ、息ができるのは。",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p02-k2",
+      "values": {
+       "nm.page": 2,
+       "nm.order": 2,
+       "nm.scene": "SC-001",
+       "nm.shot": "寄り",
+       "nm.eye": "英国の人の目の高さ",
+       "nm.mm": 1500,
+       "nm.look": "馬の鼻先",
+       "nm.size": false,
+       "nm.art": "馬が鼻を鳴らす。男が嬉しそうに頷く。",
+       "nm.lines": "SC-001.L06 SC-001.L07",
+       "nm.text": "擬音：ブルル",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p02-k3",
+      "values": {
+       "nm.page": 2,
+       "nm.order": 3,
+       "nm.scene": "SC-001",
+       "nm.shot": "中",
+       "nm.eye": "英国の人の目の高さ",
+       "nm.mm": 1600,
+       "nm.look": "厩の中から戸口を",
+       "nm.size": false,
+       "nm.art": "戸口に立つメアリー。中へは入らない。",
+       "nm.lines": "SC-001.L08",
+       "nm.text": "台詞（メアリー）：……あなた、夕食は。",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p02-k4",
+      "values": {
+       "nm.page": 2,
+       "nm.order": 4,
+       "nm.scene": "SC-001",
+       "nm.shot": "寄り",
+       "nm.eye": "英国の人の目の高さ",
+       "nm.mm": 1600,
+       "nm.look": "男の肩越しに馬を",
+       "nm.size": false,
+       "nm.art": "戸口に背を向けたままの男。",
+       "nm.lines": "SC-001.L09",
+       "nm.text": "台詞（ガリヴァー）：後でいい。",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p02-k5",
+      "values": {
+       "nm.page": 2,
+       "nm.order": 5,
+       "nm.scene": "SC-001",
+       "nm.shot": "中",
+       "nm.eye": "英国の人の目の高さ",
+       "nm.mm": 1600,
+       "nm.look": "戸口の外から",
+       "nm.size": false,
+       "nm.art": "目を伏せて去るメアリー。",
+       "nm.lines": "SC-001.L10",
+       "nm.text": "",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p02-k6",
+      "values": {
+       "nm.page": 2,
+       "nm.order": 6,
+       "nm.scene": "SC-001",
+       "nm.shot": "引き",
+       "nm.eye": "英国の人の目の高さ",
+       "nm.mm": 1600,
+       "nm.look": "厩の奥から、夕日の差す戸口を背に",
+       "nm.size": false,
+       "nm.art": "男と馬の後ろ姿。手記の語りが始まる。",
+       "nm.lines": "SC-001.L11 SC-001.L12",
+       "nm.text": "ナレーション（ガリヴァー）：この手記を、私は旅から帰って5年目に書いている。 / ナレーション（ガリヴァー）：どうしてこうなったのか。初めから記しておく。",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p03-k1",
+      "values": {
+       "nm.page": 3,
+       "nm.order": 1,
+       "nm.scene": "SC-002",
+       "nm.shot": "大引き",
+       "nm.eye": "俯瞰",
+       "nm.mm": 12000,
+       "nm.look": "ブリストルの港と停泊するアンテロープ号を、帆柱の高さから",
+       "nm.size": false,
+       "nm.art": "1699年5月4日、ブリストルの港。アンテロープ号。",
+       "nm.lines": "SC-002.L01 SC-002.L02",
+       "nm.text": "ナレーション（ガリヴァー）：1699年5月4日。私はブリストルからアンテロープ号で南の海へ出た。船医としてである。",
+       "nm.turn": "めくると時が戻る（1699年）。"
+      }
+     },
+     {
+      "id": "e01-p03-k2",
+      "values": {
+       "nm.page": 3,
+       "nm.order": 2,
+       "nm.scene": "SC-002",
+       "nm.shot": "中",
+       "nm.eye": "英国の人の目の高さ",
+       "nm.mm": 1600,
+       "nm.look": "岸壁から",
+       "nm.size": false,
+       "nm.art": "若いガリヴァー（青い上着、真鍮のボタン、金の縁取りなし）が荷を担ぐ。",
+       "nm.lines": "SC-002.L03",
+       "nm.text": "ナレーション（ガリヴァー）：師のベイツ先生が亡くなってから、ロンドンでの医者の商いは傾く一方だった。",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p03-k3",
+      "values": {
+       "nm.page": 3,
+       "nm.order": 3,
+       "nm.scene": "SC-002",
+       "nm.shot": "寄り",
+       "nm.eye": "英国の人の目の高さ",
+       "nm.mm": 1600,
+       "nm.look": "ガリヴァーの肩越しに",
+       "nm.size": false,
+       "nm.art": "メアリー。",
+       "nm.lines": "SC-002.L04",
+       "nm.text": "台詞（メアリー）：今度はどのくらい？",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p03-k4",
+      "values": {
+       "nm.page": 3,
+       "nm.order": 4,
+       "nm.scene": "SC-002",
+       "nm.shot": "寄り",
+       "nm.eye": "英国の人の目の高さ",
+       "nm.mm": 1600,
+       "nm.look": "メアリーの肩越しに",
+       "nm.size": false,
+       "nm.art": "ガリヴァー。",
+       "nm.lines": "SC-002.L05",
+       "nm.text": "台詞（ガリヴァー）：長くて2年。帰ったら、もう海には出ない。",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p04-k1",
+      "values": {
+       "nm.page": 4,
+       "nm.order": 1,
+       "nm.scene": "SC-002",
+       "nm.shot": "寄り",
+       "nm.eye": "英国の人の目の高さ",
+       "nm.mm": 1600,
+       "nm.look": "正面",
+       "nm.size": false,
+       "nm.art": "メアリーの顔。口元だけ笑っている。",
+       "nm.lines": "SC-002.L06",
+       "nm.text": "台詞（メアリー）：前もそう言いました。",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p04-k2",
+      "values": {
+       "nm.page": 4,
+       "nm.order": 2,
+       "nm.scene": "SC-002",
+       "nm.shot": "中",
+       "nm.eye": "英国の人の目の高さ",
+       "nm.mm": 1600,
+       "nm.look": "岸壁の人垣の後ろから",
+       "nm.size": false,
+       "nm.art": "メアリーは笑うが目は笑っていない。ガリヴァーは帽子を振って船に乗る。",
+       "nm.lines": "SC-002.L07",
+       "nm.text": "",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p04-k3",
+      "values": {
+       "nm.page": 4,
+       "nm.order": 3,
+       "nm.scene": "SC-002",
+       "nm.shot": "大引き",
+       "nm.eye": "俯瞰",
+       "nm.mm": 30000,
+       "nm.look": "港の外の丘から、出ていく船を",
+       "nm.size": false,
+       "nm.art": "台詞の無いコマ。港を出ていくアンテロープ号。",
+       "nm.lines": "",
+       "nm.text": "",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p05-k1",
+      "values": {
+       "nm.page": 5,
+       "nm.order": 1,
+       "nm.scene": "SC-003",
+       "nm.shot": "大引き",
+       "nm.eye": "水面すれすれ",
+       "nm.mm": 2000,
+       "nm.look": "波頭の高さから、岩に乗り上げる船を",
+       "nm.size": false,
+       "nm.art": "嵐の海。船が岩に乗り上げる。",
+       "nm.lines": "SC-003.L01 SC-003.L02",
+       "nm.text": "擬音：ゴォォォ",
+       "nm.turn": "めくると嵐。"
+      }
+     },
+     {
+      "id": "e01-p05-k2",
+      "values": {
+       "nm.page": 5,
+       "nm.order": 2,
+       "nm.scene": "SC-003",
+       "nm.shot": "寄り",
+       "nm.eye": "水面すれすれ",
+       "nm.mm": 3000,
+       "nm.look": "甲板の高さ",
+       "nm.size": false,
+       "nm.art": "船首が砕ける。",
+       "nm.lines": "SC-003.L03",
+       "nm.text": "擬音：バキィ",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p05-k3",
+      "values": {
+       "nm.page": 5,
+       "nm.order": 3,
+       "nm.scene": "SC-003",
+       "nm.shot": "中",
+       "nm.eye": "水面すれすれ",
+       "nm.mm": 300,
+       "nm.look": "波間から",
+       "nm.size": false,
+       "nm.art": "6人の乗った小舟が転覆する。",
+       "nm.lines": "SC-003.L04",
+       "nm.text": "ナレーション（ガリヴァー）：11月5日、ヴァン・ディーメンの地の北西で、船は嵐に遭い、岩に砕けた。",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p06-k1",
+      "values": {
+       "nm.page": 6,
+       "nm.order": 1,
+       "nm.scene": "SC-003",
+       "nm.shot": "中",
+       "nm.eye": "水面すれすれ",
+       "nm.mm": 300,
+       "nm.look": "波間から、ひとり浮かぶ頭を",
+       "nm.size": false,
+       "nm.art": "波間にひとり浮かぶガリヴァー。",
+       "nm.lines": "SC-003.L05",
+       "nm.text": "ナレーション（ガリヴァー）：小舟で逃れた6人のうち、助かったのは私一人だったと思う。",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p06-k2",
+      "values": {
+       "nm.page": 6,
+       "nm.order": 2,
+       "nm.scene": "SC-003",
+       "nm.shot": "中",
+       "nm.eye": "水面すれすれ",
+       "nm.mm": 300,
+       "nm.look": "水中から",
+       "nm.size": false,
+       "nm.art": "泳ぐ。やがて足が底に着く。",
+       "nm.lines": "SC-003.L06",
+       "nm.text": "",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p06-k3",
+      "values": {
+       "nm.page": 6,
+       "nm.order": 3,
+       "nm.scene": "SC-003",
+       "nm.shot": "引き",
+       "nm.eye": "水面すれすれ",
+       "nm.mm": 600,
+       "nm.look": "浅瀬の先から、陸へ歩く背中を",
+       "nm.size": false,
+       "nm.art": "夕暮れの浅瀬を、1マイル近く歩く。",
+       "nm.lines": "SC-003.L07",
+       "nm.text": "ナレーション（ガリヴァー）：足が着いてから、1マイル近く歩いてようやく陸に上がった。夜の8時ごろだったろう。",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p07-k1",
+      "values": {
+       "nm.page": 7,
+       "nm.order": 1,
+       "nm.scene": "SC-003",
+       "nm.shot": "引き",
+       "nm.eye": "ガリヴァーの目の高さ",
+       "nm.mm": 400,
+       "nm.look": "浜の高さから、草地に倒れ込む姿を",
+       "nm.size": false,
+       "nm.art": "夜の浜。人家も人影もない。草の上に倒れ込む。",
+       "nm.lines": "SC-003.L08",
+       "nm.text": "ナレーション（ガリヴァー）：人家も人影もなかった。疲れと暑さと、船で飲んだ半パイントのブランデーで、私は短い柔らかな草の上に倒れ込んだ。",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p07-k2",
+      "values": {
+       "nm.page": 7,
+       "nm.order": 2,
+       "nm.scene": "SC-003",
+       "nm.shot": "大寄り",
+       "nm.eye": "小人の目の高さ",
+       "nm.mm": 30,
+       "nm.look": "草の根元から、眠る頬を",
+       "nm.size": false,
+       "nm.art": "頬のそばの短い柔らかな草。草の丈が低い。眠るガリヴァー。",
+       "nm.lines": "SC-003.L09",
+       "nm.text": "",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p08-k1",
+      "values": {
+       "nm.page": 8,
+       "nm.order": 1,
+       "nm.scene": "SC-004",
+       "nm.shot": "大寄り",
+       "nm.eye": "ガリヴァーの目の高さ",
+       "nm.mm": 1630,
+       "nm.look": "目の真上から",
+       "nm.size": false,
+       "nm.art": "仰向けのガリヴァーの目が開く。空。",
+       "nm.lines": "SC-004.L01",
+       "nm.text": "",
+       "nm.turn": "朝。動けない（見開きの右）。"
+      }
+     },
+     {
+      "id": "e01-p08-k2",
+      "values": {
+       "nm.page": 8,
+       "nm.order": 2,
+       "nm.scene": "SC-004",
+       "nm.shot": "中",
+       "nm.eye": "ガリヴァーの目の高さ",
+       "nm.mm": 300,
+       "nm.look": "胸の高さから顔へ",
+       "nm.size": false,
+       "nm.art": "起き上がろうとして、身動き一つできない。",
+       "nm.lines": "SC-004.L02",
+       "nm.text": "ナレーション（ガリヴァー）：目が覚めたのは日が昇ってからだった。起き上がろうとして、身動き一つできないことに気づいた。",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p08-k3",
+      "values": {
+       "nm.page": 8,
+       "nm.order": 3,
+       "nm.scene": "SC-004",
+       "nm.shot": "寄り",
+       "nm.eye": "小人の目の高さ",
+       "nm.mm": 136,
+       "nm.look": "地面から、杭と糸を",
+       "nm.size": false,
+       "nm.art": "細い糸で地面に縫い止められた腕と脚、髪。",
+       "nm.lines": "SC-004.L03 SC-004.L04",
+       "nm.text": "ナレーション（ガリヴァー）：腕も脚も、長い髪までも、細い紐で地面に留められていた。",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p08-k4",
+      "values": {
+       "nm.page": 8,
+       "nm.order": 4,
+       "nm.scene": "SC-004",
+       "nm.shot": "寄り",
+       "nm.eye": "小人の目の高さ",
+       "nm.mm": 136,
+       "nm.look": "脚の脇の地面から",
+       "nm.size": false,
+       "nm.art": "左脚の上で、何かが動く。",
+       "nm.lines": "SC-004.L05",
+       "nm.text": "擬音：ガサッ",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p09-k1",
+      "values": {
+       "nm.page": 9,
+       "nm.order": 1,
+       "nm.scene": "SC-004",
+       "nm.shot": "寄り",
+       "nm.eye": "ガリヴァーの目の高さ",
+       "nm.mm": 250,
+       "nm.look": "顎の下から目へ",
+       "nm.size": false,
+       "nm.art": "何かが胸の上まで来る。目だけで見下ろすガリヴァー。",
+       "nm.lines": "SC-004.L06",
+       "nm.text": "",
+       "nm.turn": "小人の初めての姿。ページの大ゴマ。"
+      }
+     },
+     {
+      "id": "e01-p09-k2",
+      "values": {
+       "nm.page": 9,
+       "nm.order": 2,
+       "nm.scene": "SC-004",
+       "nm.shot": "大引き",
+       "nm.eye": "小人の目の高さ",
+       "nm.mm": 136,
+       "nm.look": "胸の上の小人の後ろ、その目の高さから、山のような顎を見上げる",
+       "nm.size": true,
+       "nm.art": "身長6インチに満たない人間。弓矢と矢筒。後ろに40人ほど（AR-05）。",
+       "nm.lines": "SC-004.L07",
+       "nm.text": "",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p09-k3",
+      "values": {
+       "nm.page": 9,
+       "nm.order": 3,
+       "nm.scene": "SC-004",
+       "nm.shot": "寄り",
+       "nm.eye": "ガリヴァーの目の高さ",
+       "nm.mm": 1630,
+       "nm.look": "正面",
+       "nm.size": false,
+       "nm.art": "叫ぶガリヴァーの口。",
+       "nm.lines": "SC-004.L08",
+       "nm.text": "台詞（ガリヴァー）：うおっ！",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p10-k1",
+      "values": {
+       "nm.page": 10,
+       "nm.order": 1,
+       "nm.scene": "SC-004",
+       "nm.shot": "中",
+       "nm.eye": "小人の目の高さ",
+       "nm.mm": 136,
+       "nm.look": "脇腹の横の地面から",
+       "nm.size": true,
+       "nm.art": "驚いて胸から転げ落ちる小人たち。",
+       "nm.lines": "SC-004.L09 SC-004.L10",
+       "nm.text": "台詞（小人たち）：ヘキナ・デグル！",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p10-k2",
+      "values": {
+       "nm.page": 10,
+       "nm.order": 2,
+       "nm.scene": "SC-004",
+       "nm.shot": "寄り",
+       "nm.eye": "ガリヴァーの目の高さ",
+       "nm.mm": 200,
+       "nm.look": "左腕の脇から",
+       "nm.size": false,
+       "nm.art": "もがいて、左腕の紐を引きちぎる。",
+       "nm.lines": "SC-004.L11 SC-004.L12",
+       "nm.text": "擬音：ブチブチッ",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p10-k3",
+      "values": {
+       "nm.page": 10,
+       "nm.order": 3,
+       "nm.scene": "SC-004",
+       "nm.shot": "中",
+       "nm.eye": "小人の目の高さ",
+       "nm.mm": 136,
+       "nm.look": "隊の後ろから、指揮する小人を",
+       "nm.size": false,
+       "nm.art": "剣を振り上げて号令する小人の隊長。",
+       "nm.lines": "SC-004.L13",
+       "nm.text": "台詞（小人たち）：トルゴ・フォナク！",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p10-k4",
+      "values": {
+       "nm.page": 10,
+       "nm.order": 4,
+       "nm.scene": "SC-004",
+       "nm.shot": "大引き",
+       "nm.eye": "小人の目の高さ",
+       "nm.mm": 136,
+       "nm.look": "弓隊の列の中から、巨大な左手を",
+       "nm.size": true,
+       "nm.art": "百本を超える矢が、自由になった左手へ放たれる。",
+       "nm.lines": "SC-004.L14 SC-004.L15",
+       "nm.text": "擬音：ヒュンヒュン",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p11-k1",
+      "values": {
+       "nm.page": 11,
+       "nm.order": 1,
+       "nm.scene": "SC-004",
+       "nm.shot": "寄り",
+       "nm.eye": "ガリヴァーの目の高さ",
+       "nm.mm": 300,
+       "nm.look": "手の甲の上から",
+       "nm.size": false,
+       "nm.art": "針のような矢の刺さった左手。",
+       "nm.lines": "SC-004.L16",
+       "nm.text": "ナレーション（ガリヴァー）：百本を超える矢が、針のように左手に刺さった。私はじっとしていることにした。",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p11-k2",
+      "values": {
+       "nm.page": 11,
+       "nm.order": 2,
+       "nm.scene": "SC-004",
+       "nm.shot": "中",
+       "nm.eye": "ガリヴァーの目の高さ",
+       "nm.mm": 300,
+       "nm.look": "顔の横から",
+       "nm.size": false,
+       "nm.art": "じっと横たわり、夜を待つと決めるガリヴァー。",
+       "nm.lines": "SC-004.L17",
+       "nm.text": "ナレーション（ガリヴァー）：夜になれば、自由になった左手で逃げられる。相手がこの大きさならば、どんな軍勢でも敵ではない、と。",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p11-k3",
+      "values": {
+       "nm.page": 11,
+       "nm.order": 3,
+       "nm.scene": "SC-004",
+       "nm.shot": "引き",
+       "nm.eye": "小人の目の高さ",
+       "nm.mm": 136,
+       "nm.look": "足場の下の群衆の中から、演説する貴人と、その奥の耳を",
+       "nm.size": true,
+       "nm.art": "耳の脇に足場が組まれ、身分の高そうな小人が長い演説をする。",
+       "nm.lines": "SC-004.L18",
+       "nm.text": "",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p11-k4",
+      "values": {
+       "nm.page": 11,
+       "nm.order": 4,
+       "nm.scene": "SC-004",
+       "nm.shot": "寄り",
+       "nm.eye": "ガリヴァーの目の高さ",
+       "nm.mm": 200,
+       "nm.look": "口元",
+       "nm.size": false,
+       "nm.art": "指で口を差すガリヴァー。",
+       "nm.lines": "SC-004.L19",
+       "nm.text": "台詞（ガリヴァー）：（指で口を差す）……腹が、減っているのです。",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p11-k5",
+      "values": {
+       "nm.page": 11,
+       "nm.order": 5,
+       "nm.scene": "SC-004",
+       "nm.shot": "引き",
+       "nm.eye": "小人の目の高さ",
+       "nm.mm": 136,
+       "nm.look": "梯子の下から、胸へ上る運び手の列を",
+       "nm.size": true,
+       "nm.art": "胸に掛けた梯子。肉とパンの籠が運ばれる。",
+       "nm.lines": "SC-004.L20",
+       "nm.text": "",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p12-k1",
+      "values": {
+       "nm.page": 12,
+       "nm.order": 1,
+       "nm.scene": "SC-004",
+       "nm.shot": "寄り",
+       "nm.eye": "ガリヴァーの目の高さ",
+       "nm.mm": 200,
+       "nm.look": "口の前",
+       "nm.size": false,
+       "nm.art": "雲雀の翼より小さな肉を、二つ三つずつ摘む指。",
+       "nm.lines": "SC-004.L21",
+       "nm.text": "ナレーション（ガリヴァー）：肉はどれも、雲雀の翼より小さかった。私はそれを二つ三つずつ口に入れ、小銃の弾ほどのパンを一度に三つ食べた。",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p12-k2",
+      "values": {
+       "nm.page": 12,
+       "nm.order": 2,
+       "nm.scene": "SC-004",
+       "nm.shot": "中",
+       "nm.eye": "小人の目の高さ",
+       "nm.mm": 136,
+       "nm.look": "胸の上から、傾く樽と喉を",
+       "nm.size": true,
+       "nm.art": "樽を一息で飲み干す。",
+       "nm.lines": "SC-004.L22 SC-004.L23",
+       "nm.text": "台詞（小人たち）：ボラク・ミヴォラ！",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p12-k3",
+      "values": {
+       "nm.page": 12,
+       "nm.order": 3,
+       "nm.scene": "SC-004",
+       "nm.shot": "引き",
+       "nm.eye": "小人の目の高さ",
+       "nm.mm": 136,
+       "nm.look": "胸の上で踊る群れの中から",
+       "nm.size": true,
+       "nm.art": "放り投げた樽。胸の上で踊る小人たち。",
+       "nm.lines": "SC-004.L24 SC-004.L25",
+       "nm.text": "台詞（小人たち）：ヘキナ・デグル！",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p12-k4",
+      "values": {
+       "nm.page": 12,
+       "nm.order": 4,
+       "nm.scene": "SC-004",
+       "nm.shot": "中",
+       "nm.eye": "ガリヴァーの目の高さ",
+       "nm.mm": 400,
+       "nm.look": "胸の上の群れを、浮いた右手越しに",
+       "nm.size": false,
+       "nm.art": "群れの上で止まるガリヴァーの手。",
+       "nm.lines": "SC-004.L26 SC-004.L27",
+       "nm.text": "ナレーション（ガリヴァー）：胸の上を行き来する彼らを、四、五十人つかんで地面に叩きつけてやろうか、と何度も思った。 / ナレーション（ガリヴァー）：だが私は、もてなしを受けた客として約束を守る、と心に決めていた。",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p12-k5",
+      "values": {
+       "nm.page": 12,
+       "nm.order": 5,
+       "nm.scene": "SC-004",
+       "nm.shot": "大寄り",
+       "nm.eye": "ガリヴァーの目の高さ",
+       "nm.mm": 1630,
+       "nm.look": "目の真上から",
+       "nm.size": false,
+       "nm.art": "薬入りの酒で、目が重くなる。",
+       "nm.lines": "SC-004.L28",
+       "nm.text": "",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p13-k1",
+      "values": {
+       "nm.page": 13,
+       "nm.order": 1,
+       "nm.scene": "SC-005",
+       "nm.shot": "引き",
+       "nm.eye": "小人の目の高さ",
+       "nm.mm": 136,
+       "nm.look": "道の脇から",
+       "nm.size": true,
+       "nm.art": "夜。長さ7フィート、車輪22の木の運搬機が引かれてくる。",
+       "nm.lines": "SC-005.L01 SC-005.L02",
+       "nm.text": "ナレーション（ガリヴァー）：眠っている間に、彼らは私を運ぶ機械を作った。長さ7フィート、幅4フィート、車輪が22。",
+       "nm.turn": "めくると夜。眠ったまま運ばれる。"
+      }
+     },
+     {
+      "id": "e01-p13-k2",
+      "values": {
+       "nm.page": 13,
+       "nm.order": 2,
+       "nm.scene": "SC-005",
+       "nm.shot": "大引き",
+       "nm.eye": "小人の目の高さ",
+       "nm.mm": 1200,
+       "nm.look": "柱の上の見張りの目から、900人の滑車と1,500頭の馬を",
+       "nm.size": true,
+       "nm.art": "900人が滑車で持ち上げ、1,500頭の馬が引く。",
+       "nm.lines": "SC-005.L03 SC-005.L04",
+       "nm.text": "ナレーション（ガリヴァー）：私を載せるのに、強い男900人が3時間かかった。引いたのは、高さ4インチ半の王の馬1,500頭である。",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p13-k3",
+      "values": {
+       "nm.page": 13,
+       "nm.order": 3,
+       "nm.scene": "SC-005",
+       "nm.shot": "寄り",
+       "nm.eye": "小人の目の高さ",
+       "nm.mm": 40,
+       "nm.look": "車輪の脇から",
+       "nm.size": false,
+       "nm.art": "軋む22の車輪。",
+       "nm.lines": "SC-005.L05",
+       "nm.text": "擬音：ギシギシ",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p14-k1",
+      "values": {
+       "nm.page": 14,
+       "nm.order": 1,
+       "nm.scene": "SC-005",
+       "nm.shot": "引き",
+       "nm.eye": "小人の目の高さ",
+       "nm.mm": 136,
+       "nm.look": "神殿の前の広場から",
+       "nm.size": true,
+       "nm.art": "都の外の古い神殿。門は高さ4フィート、幅2フィート。中に横たわるガリヴァー。",
+       "nm.lines": "SC-005.L06 SC-005.L07",
+       "nm.text": "ナレーション（ガリヴァー）：都から200ヤード離れた古い神殿が、私の宿と定められた。この国でいちばん大きな建物だという。",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p14-k2",
+      "values": {
+       "nm.page": 14,
+       "nm.order": 2,
+       "nm.scene": "SC-005",
+       "nm.shot": "中",
+       "nm.eye": "小人の目の高さ",
+       "nm.mm": 136,
+       "nm.look": "鍛冶の足場から",
+       "nm.size": true,
+       "nm.art": "左脚に91本の鎖、36個の錠。",
+       "nm.lines": "SC-005.L08",
+       "nm.text": "",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p14-k3",
+      "values": {
+       "nm.page": 14,
+       "nm.order": 3,
+       "nm.scene": "SC-005",
+       "nm.shot": "大寄り",
+       "nm.eye": "小人の目の高さ",
+       "nm.mm": 60,
+       "nm.look": "錠の前から",
+       "nm.size": false,
+       "nm.art": "錠が閉まる。",
+       "nm.lines": "SC-005.L09",
+       "nm.text": "擬音：ガチャン",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p15-k1",
+      "values": {
+       "nm.page": 15,
+       "nm.order": 1,
+       "nm.scene": "SC-005",
+       "nm.shot": "大引き",
+       "nm.eye": "小人の目の高さ",
+       "nm.mm": 136,
+       "nm.look": "足元の群衆の中から、立ち上がる人の山を見上げる",
+       "nm.size": true,
+       "nm.art": "神殿の前で立ち上がるガリヴァー。足元の群衆（AR-05）。",
+       "nm.lines": "SC-005.L10",
+       "nm.text": "",
+       "nm.turn": "めくると立ち上がる。この話の大ゴマ。"
+      }
+     },
+     {
+      "id": "e01-p15-k2",
+      "values": {
+       "nm.page": 15,
+       "nm.order": 2,
+       "nm.scene": "SC-005",
+       "nm.shot": "中",
+       "nm.eye": "小人の目の高さ",
+       "nm.mm": 136,
+       "nm.look": "群衆の中から",
+       "nm.size": false,
+       "nm.art": "どよめく群衆。",
+       "nm.lines": "SC-005.L11",
+       "nm.text": "台詞（小人たち）：ヘキナ・デグル！",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p16-k1",
+      "values": {
+       "nm.page": 16,
+       "nm.order": 1,
+       "nm.scene": "SC-005",
+       "nm.shot": "引き",
+       "nm.eye": "小人の目の高さ",
+       "nm.mm": 136,
+       "nm.look": "塔の上の貴人たちの後ろから、ガリヴァーを",
+       "nm.size": true,
+       "nm.art": "塔の上の一団の貴人。中央に、ほかより爪の幅ほど背の高い皇帝。",
+       "nm.lines": "SC-005.L12",
+       "nm.text": "",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p16-k2",
+      "values": {
+       "nm.page": 16,
+       "nm.order": 2,
+       "nm.scene": "SC-005",
+       "nm.shot": "寄り",
+       "nm.eye": "小人の目の高さ",
+       "nm.mm": 136,
+       "nm.look": "皇帝の正面",
+       "nm.size": false,
+       "nm.art": "皇帝。",
+       "nm.lines": "SC-005.L13",
+       "nm.text": "台詞（皇帝）：人の山だ。",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p16-k3",
+      "values": {
+       "nm.page": 16,
+       "nm.order": 3,
+       "nm.scene": "SC-005",
+       "nm.shot": "寄り",
+       "nm.eye": "小人の目の高さ",
+       "nm.mm": 136,
+       "nm.look": "皇帝の横顔を",
+       "nm.size": false,
+       "nm.art": "名を与える皇帝。",
+       "nm.lines": "SC-005.L14",
+       "nm.text": "台詞（皇帝）：……あれに、名を与えよ。クインバス・フレストリン。",
+       "nm.turn": ""
+      }
+     },
+     {
+      "id": "e01-p16-k4",
+      "values": {
+       "nm.page": 16,
+       "nm.order": 4,
+       "nm.scene": "SC-005",
+       "nm.shot": "大引き",
+       "nm.eye": "小人の目の高さ",
+       "nm.mm": 6000,
+       "nm.look": "都の城壁の上から、200ヤード先の神殿を",
+       "nm.size": true,
+       "nm.art": "神殿の門に鎖で繋がれて座るガリヴァー。リリパットの囚人になる。",
+       "nm.lines": "SC-005.L15",
+       "nm.text": "ナレーション（ガリヴァー）：こうして私は、リリパットという国の囚人になった。",
+       "nm.turn": ""
+      }
+     }
+    ]
+   },
+   "contentHash": "0e982acf6b8f79bb2290e35ad8783b7bae72b7276bc55c3976bc6db617c3dcdf"
+  }
+ ]
+}
