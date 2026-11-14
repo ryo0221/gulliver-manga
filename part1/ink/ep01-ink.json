@@ -7,13 +7,13 @@
    "layers": {
     "LY-07": {
      "image": "layers/e01-p01-k1-LY-07.png",
-     "share": 0.879,
-     "bytes": 56549
+     "share": 0.784,
+     "bytes": 65345
     },
     "LY-04": {
      "image": "layers/e01-p01-k1-LY-04.png",
-     "share": 0.121,
-     "bytes": 9231
+     "share": 0.216,
+     "bytes": 20405
     },
     "LY-08": {
      "image": "layers/e01-p01-k1-LY-08.png",
@@ -26,8 +26,8 @@
    "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
    "codexModel": "gpt-6.1-sol",
    "imageModel": "not exposed by the Codex image tool",
-   "codexSession": "01a1da5c-cefa-7a92-b7de-8cd4cb0447e2",
-   "rawSha256": "920806103f3327ebb37c4c7a6adcfd3064ace69e89047e60ee17deba67158c24",
+   "codexSession": "01a1dada-e0fa-7be1-ba6c-b3857b70c3e0",
+   "rawSha256": "5bbf446e6ea885767583dacac6b19ca27db5c425b777e7c9d8c39285de253a2d",
    "rawSize": [
     1254,
     1254
@@ -51,25 +51,30 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p01-k1.jpg",
-     "commit": "233e5633651ec883ede788376a1e094b966be843",
-     "sha256": "b9feddda38104475ac96994d537a6b4e4535e322df1189cf10466f77c1216c82"
+     "commit": "7ef7bae3de93f94b5f79405b6a7fee89b12d1eb7",
+     "sha256": "e9b2ecdc2adcbceb9bb1e2ca04e8d99c7704ec0c903bfa616ee3a245afae4b36"
     },
     {
      "path": "part1/name/stage/underlay/e01-p01-k1.jpg",
-     "commit": "233e5633651ec883ede788376a1e094b966be843",
-     "sha256": "d911cc74f3b22768c96cdf512533f7e011816784857e75311461612f28a4e6dd"
+     "commit": "7ef7bae3de93f94b5f79405b6a7fee89b12d1eb7",
+     "sha256": "58ba28271db6e3e09fd1a9dac10a425b16680013e336c3cde978841fed851823"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "233e5633651ec883ede788376a1e094b966be843",
+     "commit": "7ef7bae3de93f94b5f79405b6a7fee89b12d1eb7",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     },
     {
      "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
-     "commit": "233e5633651ec883ede788376a1e094b966be843",
+     "commit": "7ef7bae3de93f94b5f79405b6a7fee89b12d1eb7",
      "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
     }
-   ]
+   ],
+   "revision": {
+    "finding": "RV-e01-03",
+    "date": "2026-11-14",
+    "previousRawSha256": "920806103f3327ebb37c4c7a6adcfd3064ace69e89047e60ee17deba67158c24"
+   }
   },
   "e01-p01-k2": {
    "layers": {
@@ -1431,13 +1436,13 @@
    "layers": {
     "LY-07": {
      "image": "layers/e01-p07-k2-LY-07.png",
-     "share": 0.885,
+     "share": 0.886,
      "bytes": 62530
     },
     "LY-04": {
      "image": "layers/e01-p07-k2-LY-04.png",
-     "share": 0.115,
-     "bytes": 10676
+     "share": 0.114,
+     "bytes": 11434
     },
     "LY-08": {
      "image": "layers/e01-p07-k2-LY-08.png",
@@ -1488,7 +1493,23 @@
      "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
-   ]
+   ],
+   "background": {
+    "why": "read-through 2026-11-14 (RV-e01-09, the author chose the proposed fix): the top right was left white",
+    "prompt": "prompts/e01-p07-k2-background.txt",
+    "codexModel": "gpt-6.1-sol",
+    "codexSession": "01a1dad7-cbc0-7890-ab86-eb6a1c96489c",
+    "rawSha256": "62b572ff9462c3f12e1b215a9166e51f68d4d32af4ca11b084d7e52eb83ef481",
+    "rawSize": [
+     1254,
+     1254
+    ],
+    "input": {
+     "path": "part1/ink/layers/e01-p07-k2-LY-04/07/08.png (before this change)",
+     "commit": "7ef7bae3de93f94b5f79405b6a7fee89b12d1eb7"
+    },
+    "kept": "LY-04 を新しい背景の線に置き換えた"
+   }
   },
   "e01-p08-k1": {
    "layers": {
@@ -2710,13 +2731,13 @@
    "layers": {
     "LY-07": {
      "image": "layers/e01-p12-k3-LY-07.png",
-     "share": 0.976,
-     "bytes": 46265
+     "share": 0.925,
+     "bytes": 45910
     },
     "LY-04": {
      "image": "layers/e01-p12-k3-LY-04.png",
-     "share": 0.024,
-     "bytes": 2439
+     "share": 0.075,
+     "bytes": 6597
     },
     "LY-08": {
      "image": "layers/e01-p12-k3-LY-08.png",
@@ -2729,8 +2750,8 @@
    "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
    "codexModel": "gpt-6.1-sol",
    "imageModel": "not exposed by the Codex image tool",
-   "codexSession": "01a1da65-1da2-70c2-b5ed-5f4087bcd607",
-   "rawSha256": "2cfd4e0393063bc849726bcd6c93f5f23fef1b1361114e6d22b98f28dfc09ec5",
+   "codexSession": "01a1dad7-cba3-7f01-a185-99d6b05a9c6a",
+   "rawSha256": "cbabd813382f57a686f5cd84b1fa8f6c2ed0be289ab429abeff8564220ee99a0",
    "rawSize": [
     1536,
     1024
@@ -2754,25 +2775,30 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p12-k3.jpg",
-     "commit": "233e5633651ec883ede788376a1e094b966be843",
+     "commit": "7ef7bae3de93f94b5f79405b6a7fee89b12d1eb7",
      "sha256": "3265b2c15ba18884fd357c4a72bcb53dc0a35885d9bfccbf58c84b513a3648db"
     },
     {
      "path": "part1/name/stage/underlay/e01-p12-k3.jpg",
-     "commit": "233e5633651ec883ede788376a1e094b966be843",
+     "commit": "7ef7bae3de93f94b5f79405b6a7fee89b12d1eb7",
      "sha256": "d890f378771d379be7294faf3e036182b2655b9baa2beafc38a81b613bda0a85"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "233e5633651ec883ede788376a1e094b966be843",
+     "commit": "7ef7bae3de93f94b5f79405b6a7fee89b12d1eb7",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     },
     {
      "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
-     "commit": "233e5633651ec883ede788376a1e094b966be843",
+     "commit": "7ef7bae3de93f94b5f79405b6a7fee89b12d1eb7",
      "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
     }
-   ]
+   ],
+   "revision": {
+    "finding": "RV-e01-04",
+    "date": "2026-11-14",
+    "previousRawSha256": "2cfd4e0393063bc849726bcd6c93f5f23fef1b1361114e6d22b98f28dfc09ec5"
+   }
   },
   "e01-p12-k4": {
    "layers": {
@@ -3400,13 +3426,13 @@
    "layers": {
     "LY-07": {
      "image": "layers/e01-p15-k2-LY-07.png",
-     "share": 0.872,
-     "bytes": 47376
+     "share": 0.885,
+     "bytes": 46490
     },
     "LY-04": {
      "image": "layers/e01-p15-k2-LY-04.png",
-     "share": 0.128,
-     "bytes": 13483
+     "share": 0.115,
+     "bytes": 11299
     },
     "LY-08": {
      "image": "layers/e01-p15-k2-LY-08.png",
@@ -3419,8 +3445,8 @@
    "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
    "codexModel": "gpt-6.1-sol",
    "imageModel": "not exposed by the Codex image tool",
-   "codexSession": "01a1da67-7198-7b63-805f-7cdfb81021e4",
-   "rawSha256": "650be12b4e9432cb21a42c146d48154c7504fff0e549f56ee186b248c4c7ebc8",
+   "codexSession": "01a1dad7-cbbf-7392-be8f-a964197a79b6",
+   "rawSha256": "98507f665b583962d25d0a6c3622494fbefbf372139b708a1b067b85ecf2c5fc",
    "rawSize": [
     1536,
     1024
@@ -3444,25 +3470,30 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p15-k2.jpg",
-     "commit": "233e5633651ec883ede788376a1e094b966be843",
+     "commit": "7ef7bae3de93f94b5f79405b6a7fee89b12d1eb7",
      "sha256": "5f762e440ea743657d7a810357faa7bc86a3714f0c6c914b0c4ed2de2e9afba3"
     },
     {
      "path": "part1/name/stage/underlay/e01-p15-k2.jpg",
-     "commit": "233e5633651ec883ede788376a1e094b966be843",
+     "commit": "7ef7bae3de93f94b5f79405b6a7fee89b12d1eb7",
      "sha256": "76c6d1ce9b1e3833d8efd0c645627a5454377d2a33c2633c6ca049034bb86912"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "233e5633651ec883ede788376a1e094b966be843",
+     "commit": "7ef7bae3de93f94b5f79405b6a7fee89b12d1eb7",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     },
     {
      "path": "part1/codex/lo03-temple/lo03-temple-raw.png",
-     "commit": "233e5633651ec883ede788376a1e094b966be843",
+     "commit": "7ef7bae3de93f94b5f79405b6a7fee89b12d1eb7",
      "sha256": "417c8a947fb6c716efd31d15973ef7a95ec07f34c0fc869509807347259f7735"
     }
-   ]
+   ],
+   "revision": {
+    "finding": "RV-e01-07",
+    "date": "2026-11-14",
+    "previousRawSha256": "650be12b4e9432cb21a42c146d48154c7504fff0e549f56ee186b248c4c7ebc8"
+   }
   },
   "e01-p16-k1": {
    "layers": {

@@ -1044,13 +1044,13 @@
    "set": "beach",
    "cam": [
     -30,
-    -170,
-    381
+    250,
+    545
    ],
    "look": [
     0,
-    -700,
-    230
+    -650,
+    290
    ],
    "stand": "chest",
    "hfovDeg": 34.1,
@@ -1148,7 +1148,34 @@
    "noModel": null,
    "vessels": {},
    "underlay": "underlay/e01-p01-k1.jpg",
-   "plan": "plans/e01-p01-k1.svg"
+   "plan": "plans/e01-p01-k1.svg",
+   "revised": {
+    "finding": "RV-e01-03",
+    "date": "2026-11-14",
+    "why": "通読の直し：小人の目の高さのカメラでは胸の上の小人が枠の外だった。小人の後ろの少し上（胸から 300 mm）へ引いた。",
+    "before": {
+     "cam": [
+      -30,
+      -170,
+      381
+     ],
+     "look": [
+      0,
+      -700,
+      230
+     ]
+    },
+    "models": "models/beach-cover/",
+    "props": [
+     {
+      "name": "舞台 beach",
+      "kind": "cad",
+      "artifactId": "artifact_af6f1c9c-f0da-4df4-91aa-4c2a651508a0",
+      "versionId": "version_fb3185cc-9310-480f-9898-15538e0c45ff",
+      "contentHash": "7b512e91f0bd9cf510623c9a198b7102b4214d226607f841313c6dab322e4f51"
+     }
+    ]
+   }
   },
   {
    "panel": "e01-p01-k2",
