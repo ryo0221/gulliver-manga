@@ -1,0 +1,27 @@
+Use your image generation tool. Make ONE image: the manga LINE ART (線画, inks) for one comic panel, inked cleanly over the attached pencil rough the way a manga artist inks a page.
+The FIRST attached image is the author's approved pencil rough of this panel: trace its composition faithfully — same camera angle, horizon, figure places, sizes, poses, facings, gestures and expressions. Clean up and finish the drawing: confident pen lines, varied line weight (thicker outlines, thin inner detail), correct anatomy and hands, readable faces, clothing folds, and the details of buildings, ships, ropes and ground. Do not add or remove figures.
+The SECOND attached image is the 3D layout render of the same camera: use it to keep proportions, perspective and the true sizes of things.
+The THIRD attached image is the approved design of the Emperor of Lilliput (CH-02): keep that costume and face design.
+The FOURTH attached image is the approved design of a Lilliputian (CH-30, the tiny people): keep that costume and face design.
+The FIFTH attached image is the approved setting art of the old temple (LO-03), where Gulliver is chained: keep that costume and face design.
+ Gulliver's coat: plain, with buttons and NO trim or edging.
+Lilliput is a country of people 1/12 of Gulliver's size: keep their true size against him (AR-01, no exaggeration). Keep every face whole inside the frame unless the rough itself crops it.
+
+INK COLOURS (the colours mark the layers; they are separated afterwards):
+- PURE BLACK lines (#000000) for every person and animal: outlines, faces, hair, clothes, hands, and whatever they hold or wear (bows, swords, hats, chains and ropes tied on a body).
+- PURE BLUE lines (#0000FF) for everything that is not a person or animal: buildings, walls, ground, sand, grass, sea and waves, sky and clouds, ships, boats, carts, barrels, ladders, loose ropes and stakes.
+- PURE RED lines (#FF0000) only for manga effect lines (speed lines, focus lines, impact or shock marks) where the panel's action calls for them; if the panel needs none, use no red at all.
+Lines only on pure white paper: no grey, no screentone, no solid fills, no colour other than these three, no shading except fine line hatching in the same colour as the thing it shades. Where a figure overlaps the background, the background line stops at the figure's outline.
+No likeness to any film, game or existing illustration. No text, no letters, no sound effects lettering, no speech balloons, no panel border, no signature, no watermark.
+Square 1024x1024.
+
+Panel e01-p16-k2, page 16 panel 2, scene SC-005.
+Shot: 寄り. Camera: 小人の目の高さ, 1660 mm above the ground (standing on: 神殿の向かいの塔の見晴らし台（本文：5フィート以上、1,524 mm）); 塔の上で、皇帝の正面.
+What the panel shows (storyboard memo): 皇帝。
+Words in this panel (for the mood and the faces only, do NOT draw any text): 台詞（皇帝）：人の山だ。
+Figures, placed by the 3D layout (as placed in the rough and the 3D layout: keep these places, facings and poses; draw each with a readable face direction, pose and expression):
+- FG-e01-p16-k2-01 皇帝 — the Emperor of Lilliput (CH-02); standing; head at middle-centre of the frame (x 50%, y 40%), facing the camera; 500 mm from the camera.
+- FG-e01-p16-k2-02 貴人1 — a Lilliputian (CH-30): 146 mm tall, 1/12 of Gulliver; standing; outside the frame (at most a cut-off sliver at the frame edge), facing the camera; 608 mm from the camera.
+The SECOND image is the 3D layout render from this camera: figures there are blocky stand-ins, ground/sea/walls are flat placeholders. The flat grey bands at the edges of the FIRST and SECOND images are padding outside the panel: continue the scene into them, nothing important there.
+
+After generating, copy the generated PNG to ./ink-raw.png in the current directory. Do not generate more than one image.

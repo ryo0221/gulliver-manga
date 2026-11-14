@@ -1,0 +1,97 @@
+#!/usr/bin/env python3
+"""Turns the Codex line-art runs into the ep1 line-art layers (fiction-manga 線画).
+
+usage: ink-assets.py BRIEFS_ROOT GM_COMMIT OUT_DIR
+BRIEFS_ROOT: rough-briefs.py + ink-briefs.py output with each panel's ink-raw.png, ink-prompt.txt and ink-codex.log.
+GM_COMMIT: the gulliver-manga commit that holds the references passed to Codex (rough, setting art: their fixed version).
+The raw image is inked in three colours that mark the layers (gen-ink.sh): black = figures (LY-07), blue = background (LY-04),
+red = effect lines (LY-08). It is cut back to the panel frame and split by hue into three black-line PNGs with transparent
+background, at most MAX px on the long side (OUT_DIR/layers/<panel>-LY-0n.png), with a composite for review
+(OUT_DIR/panels/<panel>.jpg). Writes OUT_DIR/prompts/<panel>.txt and OUT_DIR/ep01-ink.json.
+"""
+import hashlib, json, os, re, sys
+from PIL import Image, ImageOps
+
+root, commit, out = sys.argv[1:4]
+MAX = int(os.environ.get('INK_MAX', '900'))
+GM = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../..'))
+briefs = json.load(open(f'{root}/briefs.json'))
+for sub in ('layers', 'panels', 'prompts'): os.makedirs(f'{out}/{sub}', exist_ok=True)
+sha = lambda p: hashlib.sha256(open(p, 'rb').read()).hexdigest()
+LAYER = {'fig': 'LY-07', 'bg': 'LY-04', 'fx': 'LY-08'}
+
+
+def split(rgb):
+    """Per pixel: ink amount (0..255) and which layer it belongs to, from the hue of the ink."""
+    W, H = rgb.size
+    px = rgb.load()
+    alpha = {k: Image.new('L', (W, H), 0) for k in LAYER}
+    ap = {k: a.load() for k, a in alpha.items()}
+    count = {k: 0 for k in LAYER}
+    for y in range(H):
+        for x in range(W):
+            r, g, b = px[x, y]
+            ink = 255 - min(r, g, b)
+            if ink < 24: continue
+            if b - max(r, g) > 40: k = 'bg'
+            elif r - max(g, b) > 50: k = 'fx'
+            else: k = 'fig'
+            # Antialiased grey edges of black lines are ink too; a coloured line's ink is how far it is from white.
+            ap[k][x, y] = ink; count[k] += 1
+    return alpha, count
+
+
+def to_png(a, path):
+    # Black line with the ink as alpha, quantised to 4 levels so the PNG stays small (the episode's Design must stay
+    # under the Playground's 16 MB import limit).
+    q = a.point(lambda v: 0 if v < 40 else 85 if v < 110 else 170 if v < 180 else 255)
+    im = Image.new('LA', a.size, 0); im.putalpha(q)
+    im.save(path, optimize=True)
+    return os.path.getsize(path)
+
+
+panels = {}
+for pid, b in briefs.items():
+    d = f'{root}/{pid}'
+    if not os.path.exists(f'{d}/ink-raw.png'): continue
+    raw = Image.open(f'{d}/ink-raw.png').convert('RGB')
+    cw, ch = b['frame']['canvas']; ox, oy, pw, ph = b['frame']['panel']; W, H = b['frame']['underlay']
+    sx, sy = raw.width / cw, raw.height / ch
+    k = min(1, MAX / max(W, H))
+    size = (round(W * k), round(H * k))
+    cut = raw.crop((round(ox * sx), round(oy * sy), round((ox + pw) * sx), round((oy + ph) * sy))).resize(size, Image.LANCZOS)
+    alpha, count = split(cut)
+    total = sum(count.values()) or 1
+    layers = {}
+    comp = Image.new('RGB', size, (255, 255, 255))
+    tint = {'fig': (0, 0, 0), 'bg': (40, 80, 220), 'fx': (220, 30, 30)}
+    for key, ly in LAYER.items():
+        path = f'{out}/layers/{pid}-{ly}.png'
+        layers[ly] = {'image': f'layers/{pid}-{ly}.png', 'share': round(count[key] / total, 3), 'bytes': to_png(alpha[key], path)}
+        comp.paste(Image.new('RGB', size, tint[key]), (0, 0), alpha[key])
+    comp.save(f'{out}/panels/{pid}.jpg', quality=80)
+    prompt = open(f'{d}/ink-prompt.txt').read()
+    open(f'{out}/prompts/{pid}.txt', 'w').write(prompt)
+    log = open(f'{d}/ink-codex.log', errors='replace').read()
+    model = re.search(r'^model: (.+)$', log, re.M)
+    ver = re.search(r'OpenAI Codex v([\d.]+)', log)
+    session = re.search(r'^session id: (.+)$', log, re.M)
+    refs = [{'path': f'part1/rough/panels/{pid}.jpg', 'commit': commit, 'sha256': sha(f'{GM}/part1/rough/panels/{pid}.jpg')},
+            {'path': f'part1/name/stage/underlay/{pid}.jpg', 'commit': commit, 'sha256': sha(f'{GM}/part1/name/stage/underlay/{pid}.jpg')}]
+    refs += [{'path': os.path.relpath(p, GM), 'commit': commit, 'sha256': sha(p)} for p in b['refs']]
+    panels[pid] = {
+        'layers': layers,
+        'review': f'panels/{pid}.jpg',
+        'prompt': f'prompts/{pid}.txt',
+        'tool': f"Codex CLI {ver.group(1) if ver else '?'} (codex exec), built-in image generation tool, ChatGPT sign-in",
+        'codexModel': model.group(1) if model else None,
+        'imageModel': 'not exposed by the Codex image tool',
+        'codexSession': session.group(1) if session else None,
+        'rawSha256': sha(f'{d}/ink-raw.png'),
+        'rawSize': [raw.width, raw.height],
+        'frame': b['frame'],
+        'refs': refs,
+    }
+    print(pid, {ly: v['share'] for ly, v in layers.items()}, sum(v['bytes'] for v in layers.values()) // 1024, 'KB')
+json.dump({'schemaVersion': 1, 'episode': 1, 'generatedAt': '2026-11-14', 'panels': panels}, open(f'{out}/ep01-ink.json', 'w'), ensure_ascii=False, indent=1)
+print(len(panels), 'panels')
