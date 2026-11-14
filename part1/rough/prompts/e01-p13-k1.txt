@@ -15,5 +15,6 @@ Words in this panel (for the mood and the faces only, do NOT draw any text): ナ
 Figures, placed by the 3D layout (keep these places, facings and poses; draw each with a readable face direction, pose and expression):
 - FG-e01-p13-k1-01 ガリヴァー — Gulliver (CH-01): 1,750 mm, plain blue coat with brass buttons and NO gold trim, tan breeches, white stockings, black shoes, brown hair tied back; lying flat on his back; head at middle-centre of the frame (x 34%, y 44%), feet at outside the frame; 2150 mm from the camera.
 The FIRST image is the 3D layout render from this camera: figures there are blocky stand-ins, ground/sea/walls are flat placeholders. The flat grey bands at the edges of the FIRST image are padding outside the panel: continue the scene into them, nothing important there.
+Correction after the author's review (the first rough drew 12 wheels on one side): the carriage follows the text exactly — a low wooden frame 7 feet long and 4 feet wide (2,134 × 1,219 mm), raised 3 inches, on EXACTLY 22 wheels: 11 small solid wooden wheels evenly spaced along EACH long side. Wherever a whole side is visible, count exactly 11 wheels on it; never more. Where the side is cut by the frame or hidden, draw only the part that shows.
 
 After generating, copy the generated PNG to ./raw.png in the current directory. Do not generate more than one image.
