@@ -1,0 +1,1771 @@
+{
+ "schemaVersion": 1,
+ "id": "gm1-map",
+ "name": "第1部の地図（リリパットとブレフスキュ）",
+ "kind": "fiction-map",
+ "provenance": {
+  "source": "created"
+ },
+ "draft": {
+  "baseVersionId": "part1-v1",
+  "updatedAt": "2026-11-14T00:00:00.000Z",
+  "content": {
+   "kind": "fiction-map",
+   "schemaVersion": 1,
+   "coordinateSpace": {
+    "kind": "local-plane",
+    "bounds": {
+     "minX": 0,
+     "minY": 0,
+     "maxX": 16000,
+     "maxY": 15000
+    },
+    "unit": {
+     "name": "m",
+     "distancePerUnit": {
+      "value": 1,
+      "unit": "m"
+     }
+    },
+    "yAxis": "up"
+   },
+   "precision": {
+    "minEdgeLength": 0,
+    "minPolygonArea": 0
+   },
+   "layers": [
+    {
+     "id": "land",
+     "name": "島",
+     "purpose": "terrain",
+     "visibleByDefault": true
+    },
+    {
+     "id": "political",
+     "name": "国",
+     "purpose": "political",
+     "visibleByDefault": true
+    },
+    {
+     "id": "routes",
+     "name": "道・航跡",
+     "purpose": "route",
+     "visibleByDefault": true
+    },
+    {
+     "id": "places",
+     "name": "町・場所",
+     "purpose": "settlement",
+     "visibleByDefault": true
+    }
+   ],
+   "features": [
+    {
+     "id": "sea",
+     "layerId": "land",
+     "featureKind": "region",
+     "geometry": {
+      "type": "polygon",
+      "outer": [
+       [
+        0,
+        0
+       ],
+       [
+        16000,
+        0
+       ],
+       [
+        16000,
+        15000
+       ],
+       [
+        0,
+        15000
+       ],
+       [
+        0,
+        0
+       ]
+      ]
+     },
+     "name": "海",
+     "description": "表示のための背景の海（本文に無い）。",
+     "category": "創作",
+     "style": {
+      "color": "#9cc3d5",
+      "lineWidth": 1,
+      "label": false
+     }
+    },
+    {
+     "id": "lilliput-island",
+     "layerId": "land",
+     "featureKind": "region",
+     "geometry": {
+      "type": "polygon",
+      "outer": [
+       [
+        8573.6,
+        5000
+       ],
+       [
+        8254.5,
+        6140.9
+       ],
+       [
+        7673.4,
+        7173.4
+       ],
+       [
+        6711.5,
+        7924.8
+       ],
+       [
+        5500,
+        7950.7
+       ],
+       [
+        4276.7,
+        7953.3
+       ],
+       [
+        3370.1,
+        7129.9
+       ],
+       [
+        2603.5,
+        6199.8
+       ],
+       [
+        2426.4,
+        5000
+       ],
+       [
+        2745.5,
+        3859.1
+       ],
+       [
+        3261.4,
+        2761.4
+       ],
+       [
+        4323.8,
+        2160.4
+       ],
+       [
+        5500,
+        1987.9
+       ],
+       [
+        6699.8,
+        2103.5
+       ],
+       [
+        7608.2,
+        2891.8
+       ],
+       [
+        8424.8,
+        3788.5
+       ],
+       [
+        8573.6,
+        5000
+       ]
+      ]
+     },
+     "name": "リリパット",
+     "description": "第1篇第3章「領土は5,000 blustrugs（周囲約12 miles）」。周囲19316 m。形は作者の創作。",
+     "category": "本文",
+     "style": {
+      "color": "#d9cfa9",
+      "lineWidth": 1,
+      "label": true
+     }
+    },
+    {
+     "id": "blefuscu-island",
+     "layerId": "land",
+     "featureKind": "region",
+     "geometry": {
+      "type": "polygon",
+      "outer": [
+       [
+        12666.1,
+        10235.7
+       ],
+       [
+        11775.7,
+        11275.7
+       ],
+       [
+        10735.7,
+        12166.1
+       ],
+       [
+        9389.8,
+        11914.9
+       ],
+       [
+        8098.7,
+        11459.5
+       ],
+       [
+        7643.3,
+        10168.4
+       ],
+       [
+        7392.1,
+        8822.5
+       ],
+       [
+        8190.6,
+        7690.6
+       ],
+       [
+        9322.5,
+        6892.1
+       ],
+       [
+        10668.4,
+        7143.3
+       ],
+       [
+        11959.5,
+        7598.7
+       ],
+       [
+        12414.9,
+        8889.8
+       ],
+       [
+        12666.1,
+        10235.7
+       ]
+      ]
+     },
+     "name": "ブレフスキュ",
+     "description": "第1篇第5章「リリパットの北東、幅800 yardsの海峡で隔てられた島」。大きさは本文に無く、作者の創作（半径2.6 km）。",
+     "category": "本文",
+     "style": {
+      "color": "#cdd7a6",
+      "lineWidth": 1,
+      "label": true
+     }
+    },
+    {
+     "id": "channel",
+     "layerId": "routes",
+     "featureKind": "path",
+     "geometry": {
+      "type": "polyline",
+      "coordinates": [
+       [
+        7673.4,
+        7173.4
+       ],
+       [
+        8190.6,
+        7690.6
+       ]
+      ]
+     },
+     "name": "海峡（幅800 yards）",
+     "description": "第1篇第5章：幅800 yards（731.5 m）、中央の深さは満潮で70 glumgluffs（約6 feet）。",
+     "category": "本文",
+     "style": {
+      "color": "#9cc3d5",
+      "lineWidth": 6,
+      "label": true
+     }
+    },
+    {
+     "id": "shore",
+     "layerId": "places",
+     "featureKind": "place",
+     "geometry": {
+      "type": "point",
+      "coordinates": [
+       3370.1,
+       2870.1
+      ]
+     },
+     "name": "LO-01 泳ぎ着いた浜",
+     "description": "第1篇第1章：浜から内陸へ約半mile歩いて眠った。浜の位置は作者の選択（南西岸）。",
+     "category": "推定",
+     "style": {
+      "color": "#7a3b2e",
+      "lineWidth": 1,
+      "label": true
+     }
+    },
+    {
+     "id": "woke",
+     "layerId": "places",
+     "featureKind": "place",
+     "geometry": {
+      "type": "point",
+      "coordinates": [
+       3939.1,
+       3439.1
+      ]
+     },
+     "name": "LO-02 縛られて目覚めた草地",
+     "description": "第1篇第1章：首都から約半mile。",
+     "category": "本文",
+     "style": {
+      "color": "#7a3b2e",
+      "lineWidth": 1,
+      "label": true
+     }
+    },
+    {
+     "id": "mildendo",
+     "layerId": "places",
+     "featureKind": "region",
+     "geometry": {
+      "type": "polygon",
+      "outer": [
+       [
+        4431.900000000001,
+        3931.9
+       ],
+       [
+        4584.3,
+        3931.9
+       ],
+       [
+        4584.3,
+        4084.2999999999997
+       ],
+       [
+        4431.900000000001,
+        4084.2999999999997
+       ],
+       [
+        4431.900000000001,
+        3931.9
+       ]
+      ]
+     },
+     "name": "LO-04 ミルデンドウ（首都）",
+     "description": "第1篇第4章：一辺500 feet（152.4 m）の正方形の城壁。詳しくは「ミルデンドウ」の地図。",
+     "category": "本文",
+     "style": {
+      "color": "#6b5040",
+      "lineWidth": 1,
+      "label": false
+     }
+    },
+    {
+     "id": "temple",
+     "layerId": "places",
+     "featureKind": "place",
+     "geometry": {
+      "type": "point",
+      "coordinates": [
+       4249,
+       4008.1
+      ]
+     },
+     "name": "LO-03 古い神殿（ガリヴァーの宿）",
+     "description": "第1篇第1章：城門から200 yardsの所で運搬機が止まり、そこに古い神殿があった。どの門かは本文に無く、西門の外に作者が置いた。",
+     "category": "本文",
+     "style": {
+      "color": "#7a3b2e",
+      "lineWidth": 1,
+      "label": true
+     }
+    },
+    {
+     "id": "hillock",
+     "layerId": "places",
+     "featureKind": "place",
+     "geometry": {
+      "type": "point",
+      "coordinates": [
+       7894.9,
+       6676.9
+      ]
+     },
+     "name": "LO-06 北東岸の小山",
+     "description": "第1篇第5章：ここに伏せて望遠鏡で敵の艦隊（軍艦約50隻）を見た。",
+     "category": "本文",
+     "style": {
+      "color": "#7a3b2e",
+      "lineWidth": 1,
+      "label": true
+     }
+    },
+    {
+     "id": "fleet",
+     "layerId": "places",
+     "featureKind": "place",
+     "geometry": {
+      "type": "point",
+      "coordinates": [
+       8084.5,
+       7584.5
+      ]
+     },
+     "name": "LO-08 ブレフスキュの艦隊の停泊地",
+     "description": "第1篇第5章：軍艦約50隻と輸送船多数。50本の綱と鉤で引いた。",
+     "category": "本文",
+     "style": {
+      "color": "#3b6fb5",
+      "lineWidth": 1,
+      "label": true
+     }
+    },
+    {
+     "id": "lilliput-port",
+     "layerId": "places",
+     "featureKind": "place",
+     "geometry": {
+      "type": "point",
+      "coordinates": [
+       7036.8,
+       7661.8
+      ]
+     },
+     "name": "LO-09 リリパットの王の港",
+     "description": "第1篇第5章：艦隊を引いて歩いて渡り、王の港に着いた。北東岸のどこかは本文に無い（作者の選択）。",
+     "category": "本文",
+     "style": {
+      "color": "#7a3b2e",
+      "lineWidth": 1,
+      "label": true
+     }
+    },
+    {
+     "id": "blefuscu-port",
+     "layerId": "places",
+     "featureKind": "place",
+     "geometry": {
+      "type": "point",
+      "coordinates": [
+       7864,
+       8279.1
+      ]
+     },
+     "name": "ブレフスキュの王の港",
+     "description": "第1篇第7章：歩きと泳ぎで渡り着いた。",
+     "category": "本文",
+     "style": {
+      "color": "#7a3b2e",
+      "lineWidth": 1,
+      "label": true
+     }
+    },
+    {
+     "id": "blefuscu-city",
+     "layerId": "places",
+     "featureKind": "place",
+     "geometry": {
+      "type": "point",
+      "coordinates": [
+       10029.1,
+       9529.1
+      ]
+     },
+     "name": "LO-10 ブレフスキュ（首都）",
+     "description": "第1篇第7章：首都は国と同じ名。位置は作者の選択。",
+     "category": "本文",
+     "style": {
+      "color": "#7a3b2e",
+      "lineWidth": 1,
+      "label": true
+     }
+    },
+    {
+     "id": "boat",
+     "layerId": "places",
+     "featureKind": "place",
+     "geometry": {
+      "type": "point",
+      "coordinates": [
+       13574.5,
+       13074.5
+      ]
+     },
+     "name": "LO-11 流れ着いたボート",
+     "description": "第1篇第8章：ブレフスキュの北東岸の沖約半league（3 milesのleagueで約2.4 km）に見えた。",
+     "category": "本文",
+     "style": {
+      "color": "#7a3b2e",
+      "lineWidth": 1,
+      "label": true
+     }
+    },
+    {
+     "id": "lilliput-state",
+     "layerId": "political",
+     "featureKind": "region",
+     "geometry": {
+      "type": "polygon",
+      "outer": [
+       [
+        8542.9,
+        5000
+       ],
+       [
+        8227,
+        6129.5
+       ],
+       [
+        7651.7,
+        7151.7
+       ],
+       [
+        6699.4,
+        7895.6
+       ],
+       [
+        5500,
+        7921.2
+       ],
+       [
+        4288.9,
+        7923.8
+       ],
+       [
+        3391.4,
+        7108.6
+       ],
+       [
+        2632.5,
+        6187.8
+       ],
+       [
+        2457.1,
+        5000
+       ],
+       [
+        2773,
+        3870.5
+       ],
+       [
+        3283.8,
+        2783.8
+       ],
+       [
+        4335.6,
+        2188.8
+       ],
+       [
+        5500,
+        2018
+       ],
+       [
+        6687.8,
+        2132.5
+       ],
+       [
+        7587.1,
+        2912.9
+       ],
+       [
+        8395.6,
+        3800.6
+       ],
+       [
+        8542.9,
+        5000
+       ]
+      ]
+     },
+     "name": "リリパット帝国",
+     "description": "島全体（第1篇第3章）。",
+     "category": "推定",
+     "style": {
+      "color": "#e6b0a0",
+      "lineWidth": 1,
+      "label": false
+     }
+    },
+    {
+     "id": "palace",
+     "layerId": "places",
+     "featureKind": "place",
+     "geometry": {
+      "type": "point",
+      "coordinates": [
+       4508.1,
+       4008.1
+      ]
+     },
+     "name": "LO-05 王宮",
+     "description": "第1篇第4章：二本の大通りが交わる都の中心。",
+     "category": "創作",
+     "style": {
+      "color": "#7a3b2e",
+      "lineWidth": 1,
+      "label": true
+     }
+    },
+    {
+     "id": "channel-mid",
+     "layerId": "places",
+     "featureKind": "place",
+     "geometry": {
+      "type": "point",
+      "coordinates": [
+       7932,
+       7432
+      ]
+     },
+     "name": "LO-07 海峡",
+     "description": "第1篇第5章：幅 800 yards。艦隊を引いて渡った所の目印（点の位置は作者の選択）。",
+     "category": "創作",
+     "style": {
+      "color": "#7a3b2e",
+      "lineWidth": 1,
+      "label": true
+     }
+    },
+    {
+     "id": "rt-01",
+     "layerId": "routes",
+     "featureKind": "path",
+     "geometry": {
+      "type": "polyline",
+      "coordinates": [
+       [
+        3370.1,
+        2870.1
+       ],
+       [
+        3939.1,
+        3439.1
+       ]
+      ]
+     },
+     "name": "RT-01 浜から草地へ歩いた道",
+     "description": "LO-01 → LO-02。内陸へ約半 mile、ガリヴァーの足で約 10 分（創作）。",
+     "category": "本文",
+     "style": {
+      "color": "#b5523b",
+      "lineWidth": 2,
+      "label": false
+     }
+    },
+    {
+     "id": "rt-02",
+     "layerId": "routes",
+     "featureKind": "path",
+     "geometry": {
+      "type": "polyline",
+      "coordinates": [
+       [
+        3939.1,
+        3439.1
+       ],
+       [
+        4285.5,
+        3639.1
+       ],
+       [
+        4249,
+        4008.1
+       ]
+      ]
+     },
+     "name": "RT-02 運搬機の道",
+     "description": "LO-02 → LO-03。約半 mile。馬 1,500 頭が引く。寝ている間に運ばれた（本文）。一晩野営して翌日の昼に着く。",
+     "category": "本文",
+     "style": {
+      "color": "#b5523b",
+      "lineWidth": 2,
+      "label": false
+     }
+    },
+    {
+     "id": "rt-03",
+     "layerId": "routes",
+     "featureKind": "path",
+     "geometry": {
+      "type": "polyline",
+      "coordinates": [
+       [
+        4249,
+        4008.1
+       ],
+       [
+        4431.9,
+        4008.1
+       ]
+      ]
+     },
+     "name": "RT-03 神殿から都へ",
+     "description": "LO-03 → LO-04。200 yards（本文）。",
+     "category": "本文",
+     "style": {
+      "color": "#b5523b",
+      "lineWidth": 2,
+      "label": false
+     }
+    },
+    {
+     "id": "rt-04",
+     "layerId": "routes",
+     "featureKind": "path",
+     "geometry": {
+      "type": "polyline",
+      "coordinates": [
+       [
+        7894.9,
+        6676.9
+       ],
+       [
+        7932,
+        7432
+       ],
+       [
+        8084.5,
+        7584.5
+       ]
+      ]
+     },
+     "name": "RT-04 小山から艦隊へ",
+     "description": "LO-06 → LO-07 → LO-08。満潮の半時間前に海へ入り、歩きと泳ぎで渡る（本文）。",
+     "category": "本文",
+     "style": {
+      "color": "#3b6fb5",
+      "lineWidth": 2,
+      "label": false
+     }
+    },
+    {
+     "id": "rt-05",
+     "layerId": "routes",
+     "featureKind": "path",
+     "geometry": {
+      "type": "polyline",
+      "coordinates": [
+       [
+        8084.5,
+        7584.5
+       ],
+       [
+        7036.8,
+        7661.8
+       ]
+      ]
+     },
+     "name": "RT-05 艦隊を引いた道",
+     "description": "LO-08 → LO-09。50 本の綱と鉤で引いて渡る（本文）。約 1 時間（創作）。",
+     "category": "本文",
+     "style": {
+      "color": "#3b6fb5",
+      "lineWidth": 2,
+      "label": false
+     }
+    },
+    {
+     "id": "rt-06",
+     "layerId": "routes",
+     "featureKind": "path",
+     "geometry": {
+      "type": "polyline",
+      "coordinates": [
+       [
+        4249,
+        4008.1
+       ],
+       [
+        7036.8,
+        7661.8
+       ],
+       [
+        7932,
+        7432
+       ],
+       [
+        7864,
+        8279.1
+       ],
+       [
+        10029.1,
+        9529.1
+       ]
+      ]
+     },
+     "name": "RT-06 亡命の道",
+     "description": "LO-03 → LO-07 → LO-10。歩きと泳ぎで海峡を渡る（本文）。",
+     "category": "本文",
+     "style": {
+      "color": "#b5523b",
+      "lineWidth": 2,
+      "label": false
+     }
+    },
+    {
+     "id": "rt-07",
+     "layerId": "routes",
+     "featureKind": "path",
+     "geometry": {
+      "type": "polyline",
+      "coordinates": [
+       [
+        13574.5,
+        13074.5
+       ],
+       [
+        11800,
+        11300
+       ],
+       [
+        10029.1,
+        9529.1
+       ]
+      ]
+     },
+     "name": "RT-07 ボートを港へ曳いた道",
+     "description": "LO-11 → LO-10。船で曳いて港へ（本文）。",
+     "category": "本文",
+     "style": {
+      "color": "#b5523b",
+      "lineWidth": 2,
+      "label": false
+     }
+    }
+   ],
+   "namedViews": [
+    {
+     "id": "overview",
+     "name": "全体図",
+     "extent": {
+      "minX": 0,
+      "minY": 0,
+      "maxX": 16000,
+      "maxY": 15000
+     },
+     "visibleLayerIds": [
+      "land",
+      "political",
+      "routes",
+      "places"
+     ]
+    },
+    {
+     "id": "landing",
+     "name": "上陸から首都まで",
+     "extent": {
+      "minX": 3000,
+      "minY": 2500,
+      "maxX": 5200,
+      "maxY": 4500
+     },
+     "visibleLayerIds": [
+      "land",
+      "political",
+      "routes",
+      "places"
+     ]
+    },
+    {
+     "id": "northeast",
+     "name": "北東岸と海峡",
+     "extent": {
+      "minX": 6700,
+      "minY": 6300,
+      "maxX": 8700,
+      "maxY": 8500
+     },
+     "visibleLayerIds": [
+      "land",
+      "political",
+      "routes",
+      "places"
+     ]
+    }
+   ]
+  }
+ },
+ "versions": [
+  {
+   "artifactId": "gm1-map",
+   "versionId": "part1-v1",
+   "parentVersionId": null,
+   "schemaVersion": 1,
+   "createdAt": "2026-11-14T00:00:00.000Z",
+   "createdBy": null,
+   "reason": "ガリヴァー旅行記 第1部の設定（fiction-manga@1.1.0 人物・世界と舞台）",
+   "content": {
+    "kind": "fiction-map",
+    "schemaVersion": 1,
+    "coordinateSpace": {
+     "kind": "local-plane",
+     "bounds": {
+      "minX": 0,
+      "minY": 0,
+      "maxX": 16000,
+      "maxY": 15000
+     },
+     "unit": {
+      "name": "m",
+      "distancePerUnit": {
+       "value": 1,
+       "unit": "m"
+      }
+     },
+     "yAxis": "up"
+    },
+    "precision": {
+     "minEdgeLength": 0,
+     "minPolygonArea": 0
+    },
+    "layers": [
+     {
+      "id": "land",
+      "name": "島",
+      "purpose": "terrain",
+      "visibleByDefault": true
+     },
+     {
+      "id": "political",
+      "name": "国",
+      "purpose": "political",
+      "visibleByDefault": true
+     },
+     {
+      "id": "routes",
+      "name": "道・航跡",
+      "purpose": "route",
+      "visibleByDefault": true
+     },
+     {
+      "id": "places",
+      "name": "町・場所",
+      "purpose": "settlement",
+      "visibleByDefault": true
+     }
+    ],
+    "features": [
+     {
+      "id": "sea",
+      "layerId": "land",
+      "featureKind": "region",
+      "geometry": {
+       "type": "polygon",
+       "outer": [
+        [
+         0,
+         0
+        ],
+        [
+         16000,
+         0
+        ],
+        [
+         16000,
+         15000
+        ],
+        [
+         0,
+         15000
+        ],
+        [
+         0,
+         0
+        ]
+       ]
+      },
+      "name": "海",
+      "description": "表示のための背景の海（本文に無い）。",
+      "category": "創作",
+      "style": {
+       "color": "#9cc3d5",
+       "lineWidth": 1,
+       "label": false
+      }
+     },
+     {
+      "id": "lilliput-island",
+      "layerId": "land",
+      "featureKind": "region",
+      "geometry": {
+       "type": "polygon",
+       "outer": [
+        [
+         8573.6,
+         5000
+        ],
+        [
+         8254.5,
+         6140.9
+        ],
+        [
+         7673.4,
+         7173.4
+        ],
+        [
+         6711.5,
+         7924.8
+        ],
+        [
+         5500,
+         7950.7
+        ],
+        [
+         4276.7,
+         7953.3
+        ],
+        [
+         3370.1,
+         7129.9
+        ],
+        [
+         2603.5,
+         6199.8
+        ],
+        [
+         2426.4,
+         5000
+        ],
+        [
+         2745.5,
+         3859.1
+        ],
+        [
+         3261.4,
+         2761.4
+        ],
+        [
+         4323.8,
+         2160.4
+        ],
+        [
+         5500,
+         1987.9
+        ],
+        [
+         6699.8,
+         2103.5
+        ],
+        [
+         7608.2,
+         2891.8
+        ],
+        [
+         8424.8,
+         3788.5
+        ],
+        [
+         8573.6,
+         5000
+        ]
+       ]
+      },
+      "name": "リリパット",
+      "description": "第1篇第3章「領土は5,000 blustrugs（周囲約12 miles）」。周囲19316 m。形は作者の創作。",
+      "category": "本文",
+      "style": {
+       "color": "#d9cfa9",
+       "lineWidth": 1,
+       "label": true
+      }
+     },
+     {
+      "id": "blefuscu-island",
+      "layerId": "land",
+      "featureKind": "region",
+      "geometry": {
+       "type": "polygon",
+       "outer": [
+        [
+         12666.1,
+         10235.7
+        ],
+        [
+         11775.7,
+         11275.7
+        ],
+        [
+         10735.7,
+         12166.1
+        ],
+        [
+         9389.8,
+         11914.9
+        ],
+        [
+         8098.7,
+         11459.5
+        ],
+        [
+         7643.3,
+         10168.4
+        ],
+        [
+         7392.1,
+         8822.5
+        ],
+        [
+         8190.6,
+         7690.6
+        ],
+        [
+         9322.5,
+         6892.1
+        ],
+        [
+         10668.4,
+         7143.3
+        ],
+        [
+         11959.5,
+         7598.7
+        ],
+        [
+         12414.9,
+         8889.8
+        ],
+        [
+         12666.1,
+         10235.7
+        ]
+       ]
+      },
+      "name": "ブレフスキュ",
+      "description": "第1篇第5章「リリパットの北東、幅800 yardsの海峡で隔てられた島」。大きさは本文に無く、作者の創作（半径2.6 km）。",
+      "category": "本文",
+      "style": {
+       "color": "#cdd7a6",
+       "lineWidth": 1,
+       "label": true
+      }
+     },
+     {
+      "id": "channel",
+      "layerId": "routes",
+      "featureKind": "path",
+      "geometry": {
+       "type": "polyline",
+       "coordinates": [
+        [
+         7673.4,
+         7173.4
+        ],
+        [
+         8190.6,
+         7690.6
+        ]
+       ]
+      },
+      "name": "海峡（幅800 yards）",
+      "description": "第1篇第5章：幅800 yards（731.5 m）、中央の深さは満潮で70 glumgluffs（約6 feet）。",
+      "category": "本文",
+      "style": {
+       "color": "#9cc3d5",
+       "lineWidth": 6,
+       "label": true
+      }
+     },
+     {
+      "id": "shore",
+      "layerId": "places",
+      "featureKind": "place",
+      "geometry": {
+       "type": "point",
+       "coordinates": [
+        3370.1,
+        2870.1
+       ]
+      },
+      "name": "LO-01 泳ぎ着いた浜",
+      "description": "第1篇第1章：浜から内陸へ約半mile歩いて眠った。浜の位置は作者の選択（南西岸）。",
+      "category": "推定",
+      "style": {
+       "color": "#7a3b2e",
+       "lineWidth": 1,
+       "label": true
+      }
+     },
+     {
+      "id": "woke",
+      "layerId": "places",
+      "featureKind": "place",
+      "geometry": {
+       "type": "point",
+       "coordinates": [
+        3939.1,
+        3439.1
+       ]
+      },
+      "name": "LO-02 縛られて目覚めた草地",
+      "description": "第1篇第1章：首都から約半mile。",
+      "category": "本文",
+      "style": {
+       "color": "#7a3b2e",
+       "lineWidth": 1,
+       "label": true
+      }
+     },
+     {
+      "id": "mildendo",
+      "layerId": "places",
+      "featureKind": "region",
+      "geometry": {
+       "type": "polygon",
+       "outer": [
+        [
+         4431.900000000001,
+         3931.9
+        ],
+        [
+         4584.3,
+         3931.9
+        ],
+        [
+         4584.3,
+         4084.2999999999997
+        ],
+        [
+         4431.900000000001,
+         4084.2999999999997
+        ],
+        [
+         4431.900000000001,
+         3931.9
+        ]
+       ]
+      },
+      "name": "LO-04 ミルデンドウ（首都）",
+      "description": "第1篇第4章：一辺500 feet（152.4 m）の正方形の城壁。詳しくは「ミルデンドウ」の地図。",
+      "category": "本文",
+      "style": {
+       "color": "#6b5040",
+       "lineWidth": 1,
+       "label": false
+      }
+     },
+     {
+      "id": "temple",
+      "layerId": "places",
+      "featureKind": "place",
+      "geometry": {
+       "type": "point",
+       "coordinates": [
+        4249,
+        4008.1
+       ]
+      },
+      "name": "LO-03 古い神殿（ガリヴァーの宿）",
+      "description": "第1篇第1章：城門から200 yardsの所で運搬機が止まり、そこに古い神殿があった。どの門かは本文に無く、西門の外に作者が置いた。",
+      "category": "本文",
+      "style": {
+       "color": "#7a3b2e",
+       "lineWidth": 1,
+       "label": true
+      }
+     },
+     {
+      "id": "hillock",
+      "layerId": "places",
+      "featureKind": "place",
+      "geometry": {
+       "type": "point",
+       "coordinates": [
+        7894.9,
+        6676.9
+       ]
+      },
+      "name": "LO-06 北東岸の小山",
+      "description": "第1篇第5章：ここに伏せて望遠鏡で敵の艦隊（軍艦約50隻）を見た。",
+      "category": "本文",
+      "style": {
+       "color": "#7a3b2e",
+       "lineWidth": 1,
+       "label": true
+      }
+     },
+     {
+      "id": "fleet",
+      "layerId": "places",
+      "featureKind": "place",
+      "geometry": {
+       "type": "point",
+       "coordinates": [
+        8084.5,
+        7584.5
+       ]
+      },
+      "name": "LO-08 ブレフスキュの艦隊の停泊地",
+      "description": "第1篇第5章：軍艦約50隻と輸送船多数。50本の綱と鉤で引いた。",
+      "category": "本文",
+      "style": {
+       "color": "#3b6fb5",
+       "lineWidth": 1,
+       "label": true
+      }
+     },
+     {
+      "id": "lilliput-port",
+      "layerId": "places",
+      "featureKind": "place",
+      "geometry": {
+       "type": "point",
+       "coordinates": [
+        7036.8,
+        7661.8
+       ]
+      },
+      "name": "LO-09 リリパットの王の港",
+      "description": "第1篇第5章：艦隊を引いて歩いて渡り、王の港に着いた。北東岸のどこかは本文に無い（作者の選択）。",
+      "category": "本文",
+      "style": {
+       "color": "#7a3b2e",
+       "lineWidth": 1,
+       "label": true
+      }
+     },
+     {
+      "id": "blefuscu-port",
+      "layerId": "places",
+      "featureKind": "place",
+      "geometry": {
+       "type": "point",
+       "coordinates": [
+        7864,
+        8279.1
+       ]
+      },
+      "name": "ブレフスキュの王の港",
+      "description": "第1篇第7章：歩きと泳ぎで渡り着いた。",
+      "category": "本文",
+      "style": {
+       "color": "#7a3b2e",
+       "lineWidth": 1,
+       "label": true
+      }
+     },
+     {
+      "id": "blefuscu-city",
+      "layerId": "places",
+      "featureKind": "place",
+      "geometry": {
+       "type": "point",
+       "coordinates": [
+        10029.1,
+        9529.1
+       ]
+      },
+      "name": "LO-10 ブレフスキュ（首都）",
+      "description": "第1篇第7章：首都は国と同じ名。位置は作者の選択。",
+      "category": "本文",
+      "style": {
+       "color": "#7a3b2e",
+       "lineWidth": 1,
+       "label": true
+      }
+     },
+     {
+      "id": "boat",
+      "layerId": "places",
+      "featureKind": "place",
+      "geometry": {
+       "type": "point",
+       "coordinates": [
+        13574.5,
+        13074.5
+       ]
+      },
+      "name": "LO-11 流れ着いたボート",
+      "description": "第1篇第8章：ブレフスキュの北東岸の沖約半league（3 milesのleagueで約2.4 km）に見えた。",
+      "category": "本文",
+      "style": {
+       "color": "#7a3b2e",
+       "lineWidth": 1,
+       "label": true
+      }
+     },
+     {
+      "id": "lilliput-state",
+      "layerId": "political",
+      "featureKind": "region",
+      "geometry": {
+       "type": "polygon",
+       "outer": [
+        [
+         8542.9,
+         5000
+        ],
+        [
+         8227,
+         6129.5
+        ],
+        [
+         7651.7,
+         7151.7
+        ],
+        [
+         6699.4,
+         7895.6
+        ],
+        [
+         5500,
+         7921.2
+        ],
+        [
+         4288.9,
+         7923.8
+        ],
+        [
+         3391.4,
+         7108.6
+        ],
+        [
+         2632.5,
+         6187.8
+        ],
+        [
+         2457.1,
+         5000
+        ],
+        [
+         2773,
+         3870.5
+        ],
+        [
+         3283.8,
+         2783.8
+        ],
+        [
+         4335.6,
+         2188.8
+        ],
+        [
+         5500,
+         2018
+        ],
+        [
+         6687.8,
+         2132.5
+        ],
+        [
+         7587.1,
+         2912.9
+        ],
+        [
+         8395.6,
+         3800.6
+        ],
+        [
+         8542.9,
+         5000
+        ]
+       ]
+      },
+      "name": "リリパット帝国",
+      "description": "島全体（第1篇第3章）。",
+      "category": "推定",
+      "style": {
+       "color": "#e6b0a0",
+       "lineWidth": 1,
+       "label": false
+      }
+     },
+     {
+      "id": "palace",
+      "layerId": "places",
+      "featureKind": "place",
+      "geometry": {
+       "type": "point",
+       "coordinates": [
+        4508.1,
+        4008.1
+       ]
+      },
+      "name": "LO-05 王宮",
+      "description": "第1篇第4章：二本の大通りが交わる都の中心。",
+      "category": "創作",
+      "style": {
+       "color": "#7a3b2e",
+       "lineWidth": 1,
+       "label": true
+      }
+     },
+     {
+      "id": "channel-mid",
+      "layerId": "places",
+      "featureKind": "place",
+      "geometry": {
+       "type": "point",
+       "coordinates": [
+        7932,
+        7432
+       ]
+      },
+      "name": "LO-07 海峡",
+      "description": "第1篇第5章：幅 800 yards。艦隊を引いて渡った所の目印（点の位置は作者の選択）。",
+      "category": "創作",
+      "style": {
+       "color": "#7a3b2e",
+       "lineWidth": 1,
+       "label": true
+      }
+     },
+     {
+      "id": "rt-01",
+      "layerId": "routes",
+      "featureKind": "path",
+      "geometry": {
+       "type": "polyline",
+       "coordinates": [
+        [
+         3370.1,
+         2870.1
+        ],
+        [
+         3939.1,
+         3439.1
+        ]
+       ]
+      },
+      "name": "RT-01 浜から草地へ歩いた道",
+      "description": "LO-01 → LO-02。内陸へ約半 mile、ガリヴァーの足で約 10 分（創作）。",
+      "category": "本文",
+      "style": {
+       "color": "#b5523b",
+       "lineWidth": 2,
+       "label": false
+      }
+     },
+     {
+      "id": "rt-02",
+      "layerId": "routes",
+      "featureKind": "path",
+      "geometry": {
+       "type": "polyline",
+       "coordinates": [
+        [
+         3939.1,
+         3439.1
+        ],
+        [
+         4285.5,
+         3639.1
+        ],
+        [
+         4249,
+         4008.1
+        ]
+       ]
+      },
+      "name": "RT-02 運搬機の道",
+      "description": "LO-02 → LO-03。約半 mile。馬 1,500 頭が引く。寝ている間に運ばれた（本文）。一晩野営して翌日の昼に着く。",
+      "category": "本文",
+      "style": {
+       "color": "#b5523b",
+       "lineWidth": 2,
+       "label": false
+      }
+     },
+     {
+      "id": "rt-03",
+      "layerId": "routes",
+      "featureKind": "path",
+      "geometry": {
+       "type": "polyline",
+       "coordinates": [
+        [
+         4249,
+         4008.1
+        ],
+        [
+         4431.9,
+         4008.1
+        ]
+       ]
+      },
+      "name": "RT-03 神殿から都へ",
+      "description": "LO-03 → LO-04。200 yards（本文）。",
+      "category": "本文",
+      "style": {
+       "color": "#b5523b",
+       "lineWidth": 2,
+       "label": false
+      }
+     },
+     {
+      "id": "rt-04",
+      "layerId": "routes",
+      "featureKind": "path",
+      "geometry": {
+       "type": "polyline",
+       "coordinates": [
+        [
+         7894.9,
+         6676.9
+        ],
+        [
+         7932,
+         7432
+        ],
+        [
+         8084.5,
+         7584.5
+        ]
+       ]
+      },
+      "name": "RT-04 小山から艦隊へ",
+      "description": "LO-06 → LO-07 → LO-08。満潮の半時間前に海へ入り、歩きと泳ぎで渡る（本文）。",
+      "category": "本文",
+      "style": {
+       "color": "#3b6fb5",
+       "lineWidth": 2,
+       "label": false
+      }
+     },
+     {
+      "id": "rt-05",
+      "layerId": "routes",
+      "featureKind": "path",
+      "geometry": {
+       "type": "polyline",
+       "coordinates": [
+        [
+         8084.5,
+         7584.5
+        ],
+        [
+         7036.8,
+         7661.8
+        ]
+       ]
+      },
+      "name": "RT-05 艦隊を引いた道",
+      "description": "LO-08 → LO-09。50 本の綱と鉤で引いて渡る（本文）。約 1 時間（創作）。",
+      "category": "本文",
+      "style": {
+       "color": "#3b6fb5",
+       "lineWidth": 2,
+       "label": false
+      }
+     },
+     {
+      "id": "rt-06",
+      "layerId": "routes",
+      "featureKind": "path",
+      "geometry": {
+       "type": "polyline",
+       "coordinates": [
+        [
+         4249,
+         4008.1
+        ],
+        [
+         7036.8,
+         7661.8
+        ],
+        [
+         7932,
+         7432
+        ],
+        [
+         7864,
+         8279.1
+        ],
+        [
+         10029.1,
+         9529.1
+        ]
+       ]
+      },
+      "name": "RT-06 亡命の道",
+      "description": "LO-03 → LO-07 → LO-10。歩きと泳ぎで海峡を渡る（本文）。",
+      "category": "本文",
+      "style": {
+       "color": "#b5523b",
+       "lineWidth": 2,
+       "label": false
+      }
+     },
+     {
+      "id": "rt-07",
+      "layerId": "routes",
+      "featureKind": "path",
+      "geometry": {
+       "type": "polyline",
+       "coordinates": [
+        [
+         13574.5,
+         13074.5
+        ],
+        [
+         11800,
+         11300
+        ],
+        [
+         10029.1,
+         9529.1
+        ]
+       ]
+      },
+      "name": "RT-07 ボートを港へ曳いた道",
+      "description": "LO-11 → LO-10。船で曳いて港へ（本文）。",
+      "category": "本文",
+      "style": {
+       "color": "#b5523b",
+       "lineWidth": 2,
+       "label": false
+      }
+     }
+    ],
+    "namedViews": [
+     {
+      "id": "overview",
+      "name": "全体図",
+      "extent": {
+       "minX": 0,
+       "minY": 0,
+       "maxX": 16000,
+       "maxY": 15000
+      },
+      "visibleLayerIds": [
+       "land",
+       "political",
+       "routes",
+       "places"
+      ]
+     },
+     {
+      "id": "landing",
+      "name": "上陸から首都まで",
+      "extent": {
+       "minX": 3000,
+       "minY": 2500,
+       "maxX": 5200,
+       "maxY": 4500
+      },
+      "visibleLayerIds": [
+       "land",
+       "political",
+       "routes",
+       "places"
+      ]
+     },
+     {
+      "id": "northeast",
+      "name": "北東岸と海峡",
+      "extent": {
+       "minX": 6700,
+       "minY": 6300,
+       "maxX": 8700,
+       "maxY": 8500
+      },
+      "visibleLayerIds": [
+       "land",
+       "political",
+       "routes",
+       "places"
+      ]
+     }
+    ]
+   },
+   "contentHash": "44babeba6866defd5b55dbbe084234e9a0fbdaaf04a1a0ce4691cd85c1a95ccf"
+  }
+ ]
+}

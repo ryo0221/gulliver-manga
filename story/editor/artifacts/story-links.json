@@ -1,0 +1,21 @@
+{
+ "schemaVersion": 2,
+ "scenes": [],
+ "story": {
+  "id": "gms-story",
+  "namespace": "ns:gms-story",
+  "composition": "gms-composition",
+  "worldSettings": "gms-world-settings",
+  "characters": "gms-characters",
+  "ledgers": [
+   {
+    "world": "WL-A",
+    "artifactId": "gms-ledger"
+   }
+  ],
+  "sceneCards": [
+   "gms-scenes"
+  ]
+ },
+ "occurrenceLinks": []
+}

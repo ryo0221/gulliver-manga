@@ -10,12 +10,14 @@
 | 相関図 relationship-map | 同じ `gm1-characters` の関係の列（relation 型） | Structured Data の Graph 表示 | `screens/06-relationship-graph*.png` |
 | 世界の覚え書き stage-notes | `gm1-world-notes`（世界の決まり・世界線と時計・世界間の移送・場所） | Document | `screens/07-world-notes.png` |
 | 世界線と時計 | `gm1-world-settings`（時計 CL-1、世界線 WL-A） | Story Timeline の世界設定 | `screens/08-world-lines-clock.png`、`screens/04-story-timeline-worldline.png` |
-| 出来事と在場 | `gm1-ledger`（EV-01〜EV-18、参加・在場） | Story Timeline の筋の台帳 | `screens/04-story-timeline.png`、`screens/09-ledger.png` |
+| 出来事と在場 | `gm1-ledger`（EV-01〜EV-20、参加・在場・因果） | Story Timeline の筋の台帳 | `screens/04-story-timeline.png`、`screens/09-ledger.png` |
 | 地図 stage-map | `gm1-map`（場所 LO-01〜LO-11、道 RT-01〜RT-07） | Fiction Map | `screens/11-map.png` |
 | 固有名詞と表記の辞書 term-dictionary | `gm1-terms`（TE-01〜TE-17） | Structured Data | `screens/10-dictionary.png` |
 | まとめて見る | `gm1-board`、`gm1-board-settings` | 物語ボード（Whiteboard） | `screens/01〜03-story-board*.png` |
 
-`gm1-composition`（構成図）は Story Timeline が要求する空の資料です。提示位置は脚本の工程で入れます。`story-links.json` は Story の結び付け（どの資料が台帳・世界設定・人物表か）です。
+`gm1-composition`（構成図）は Story Timeline が要求する空の資料です。全24話の提示順は `story/editor/`（筋と構成）にあります。
+
+2026-11-14 の筋と構成で、綱渡り（EV-08）、凱旋とナルダック（EV-09）、和平の使節（EV-19）、弾劾の会議（EV-20）と因果の行を足しました。`screens/09-ledger.png` はその前の画面です。`story-links.json` は Story の結び付け（どの資料が台帳・世界設定・人物表か）です。
 
 ## 決めたこと
 

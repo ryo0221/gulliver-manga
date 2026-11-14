@@ -398,6 +398,43 @@
      }
     },
     {
+     "id": "EV-08",
+     "values": {
+      "tl1.row": "event",
+      "tl1.label": "綱渡りと棒の跳び越しで官職と勲章を争う廷臣たちを見る",
+      "tl1.time.kind": "range",
+      "tl1.time.start": 187,
+      "tl1.time.end": 472
+     }
+    },
+    {
+     "id": "EV-08.who.CH-01",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-08",
+      "tl1.ind.ch": "CH-01",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
+     "id": "EV-08.who.CH-02",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-08",
+      "tl1.ind.ch": "CH-02",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
+     "id": "EV-08.who.CH-04",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-08",
+      "tl1.ind.ch": "CH-04",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
      "id": "EV-07",
      "values": {
       "tl1.row": "event",
@@ -454,6 +491,51 @@
      }
     },
     {
+     "id": "EV-09",
+     "values": {
+      "tl1.row": "event",
+      "tl1.label": "艦隊を引いて凱旋し、ナルダックの位を授かる",
+      "tl1.time.kind": "range",
+      "tl1.time.start": 187,
+      "tl1.time.end": 472
+     }
+    },
+    {
+     "id": "EV-09.cause.EV-10",
+     "values": {
+      "tl1.row": "cause",
+      "tl1.subject": "EV-09",
+      "tl1.ref.item": "EV-10"
+     }
+    },
+    {
+     "id": "EV-09.who.CH-01",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-09",
+      "tl1.ind.ch": "CH-01",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
+     "id": "EV-09.who.CH-02",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-09",
+      "tl1.ind.ch": "CH-02",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
+     "id": "EV-09.who.CH-06",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-09",
+      "tl1.ind.ch": "CH-06",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
      "id": "EV-11",
      "values": {
       "tl1.row": "event",
@@ -461,6 +543,14 @@
       "tl1.time.kind": "range",
       "tl1.time.start": 187,
       "tl1.time.end": 472
+     }
+    },
+    {
+     "id": "EV-11.cause.EV-10",
+     "values": {
+      "tl1.row": "cause",
+      "tl1.subject": "EV-11",
+      "tl1.ref.item": "EV-10"
      }
     },
     {
@@ -478,6 +568,33 @@
       "tl1.row": "participant",
       "tl1.subject": "EV-11",
       "tl1.ind.ch": "CH-02",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
+     "id": "EV-19",
+     "values": {
+      "tl1.row": "event",
+      "tl1.label": "ブレフスキュの和平の使節に会い、訪問を約束する",
+      "tl1.time.kind": "range",
+      "tl1.time.start": 187,
+      "tl1.time.end": 472
+     }
+    },
+    {
+     "id": "EV-19.cause.EV-10",
+     "values": {
+      "tl1.row": "cause",
+      "tl1.subject": "EV-19",
+      "tl1.ref.item": "EV-10"
+     }
+    },
+    {
+     "id": "EV-19.who.CH-01",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-19",
+      "tl1.ind.ch": "CH-01",
       "tl1.ind.origin": "WL-A"
      }
     },
@@ -510,6 +627,76 @@
      }
     },
     {
+     "id": "EV-20",
+     "values": {
+      "tl1.row": "event",
+      "tl1.label": "秘密の会議で弾劾が決まり、レルドレサルの「慈悲」で両目を潰す刑になる",
+      "tl1.time.kind": "range",
+      "tl1.time.start": 187,
+      "tl1.time.end": 841
+     }
+    },
+    {
+     "id": "EV-20.cause.EV-11",
+     "values": {
+      "tl1.row": "cause",
+      "tl1.subject": "EV-20",
+      "tl1.ref.item": "EV-11"
+     }
+    },
+    {
+     "id": "EV-20.cause.EV-12",
+     "values": {
+      "tl1.row": "cause",
+      "tl1.subject": "EV-20",
+      "tl1.ref.item": "EV-12"
+     }
+    },
+    {
+     "id": "EV-20.cause.EV-19",
+     "values": {
+      "tl1.row": "cause",
+      "tl1.subject": "EV-20",
+      "tl1.ref.item": "EV-19"
+     }
+    },
+    {
+     "id": "EV-20.who.CH-02",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-20",
+      "tl1.ind.ch": "CH-02",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
+     "id": "EV-20.who.CH-04",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-20",
+      "tl1.ind.ch": "CH-04",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
+     "id": "EV-20.who.CH-05",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-20",
+      "tl1.ind.ch": "CH-05",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
+     "id": "EV-20.who.CH-06",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-20",
+      "tl1.ind.ch": "CH-06",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
      "id": "EV-13",
      "values": {
       "tl1.row": "event",
@@ -517,6 +704,14 @@
       "tl1.time.kind": "range",
       "tl1.time.start": 187,
       "tl1.time.end": 841
+     }
+    },
+    {
+     "id": "EV-13.cause.EV-20",
+     "values": {
+      "tl1.row": "cause",
+      "tl1.subject": "EV-13",
+      "tl1.ref.item": "EV-20"
      }
     },
     {
@@ -545,6 +740,14 @@
       "tl1.time.kind": "range",
       "tl1.time.start": 472,
       "tl1.time.end": 841
+     }
+    },
+    {
+     "id": "EV-14.cause.EV-13",
+     "values": {
+      "tl1.row": "cause",
+      "tl1.subject": "EV-14",
+      "tl1.ref.item": "EV-13"
      }
     },
     {
@@ -1080,6 +1283,43 @@
       }
      },
      {
+      "id": "EV-08",
+      "values": {
+       "tl1.row": "event",
+       "tl1.label": "綱渡りと棒の跳び越しで官職と勲章を争う廷臣たちを見る",
+       "tl1.time.kind": "range",
+       "tl1.time.start": 187,
+       "tl1.time.end": 472
+      }
+     },
+     {
+      "id": "EV-08.who.CH-01",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-08",
+       "tl1.ind.ch": "CH-01",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
+      "id": "EV-08.who.CH-02",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-08",
+       "tl1.ind.ch": "CH-02",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
+      "id": "EV-08.who.CH-04",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-08",
+       "tl1.ind.ch": "CH-04",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
       "id": "EV-07",
       "values": {
        "tl1.row": "event",
@@ -1136,6 +1376,51 @@
       }
      },
      {
+      "id": "EV-09",
+      "values": {
+       "tl1.row": "event",
+       "tl1.label": "艦隊を引いて凱旋し、ナルダックの位を授かる",
+       "tl1.time.kind": "range",
+       "tl1.time.start": 187,
+       "tl1.time.end": 472
+      }
+     },
+     {
+      "id": "EV-09.cause.EV-10",
+      "values": {
+       "tl1.row": "cause",
+       "tl1.subject": "EV-09",
+       "tl1.ref.item": "EV-10"
+      }
+     },
+     {
+      "id": "EV-09.who.CH-01",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-09",
+       "tl1.ind.ch": "CH-01",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
+      "id": "EV-09.who.CH-02",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-09",
+       "tl1.ind.ch": "CH-02",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
+      "id": "EV-09.who.CH-06",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-09",
+       "tl1.ind.ch": "CH-06",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
       "id": "EV-11",
       "values": {
        "tl1.row": "event",
@@ -1143,6 +1428,14 @@
        "tl1.time.kind": "range",
        "tl1.time.start": 187,
        "tl1.time.end": 472
+      }
+     },
+     {
+      "id": "EV-11.cause.EV-10",
+      "values": {
+       "tl1.row": "cause",
+       "tl1.subject": "EV-11",
+       "tl1.ref.item": "EV-10"
       }
      },
      {
@@ -1160,6 +1453,33 @@
        "tl1.row": "participant",
        "tl1.subject": "EV-11",
        "tl1.ind.ch": "CH-02",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
+      "id": "EV-19",
+      "values": {
+       "tl1.row": "event",
+       "tl1.label": "ブレフスキュの和平の使節に会い、訪問を約束する",
+       "tl1.time.kind": "range",
+       "tl1.time.start": 187,
+       "tl1.time.end": 472
+      }
+     },
+     {
+      "id": "EV-19.cause.EV-10",
+      "values": {
+       "tl1.row": "cause",
+       "tl1.subject": "EV-19",
+       "tl1.ref.item": "EV-10"
+      }
+     },
+     {
+      "id": "EV-19.who.CH-01",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-19",
+       "tl1.ind.ch": "CH-01",
        "tl1.ind.origin": "WL-A"
       }
      },
@@ -1192,6 +1512,76 @@
       }
      },
      {
+      "id": "EV-20",
+      "values": {
+       "tl1.row": "event",
+       "tl1.label": "秘密の会議で弾劾が決まり、レルドレサルの「慈悲」で両目を潰す刑になる",
+       "tl1.time.kind": "range",
+       "tl1.time.start": 187,
+       "tl1.time.end": 841
+      }
+     },
+     {
+      "id": "EV-20.cause.EV-11",
+      "values": {
+       "tl1.row": "cause",
+       "tl1.subject": "EV-20",
+       "tl1.ref.item": "EV-11"
+      }
+     },
+     {
+      "id": "EV-20.cause.EV-12",
+      "values": {
+       "tl1.row": "cause",
+       "tl1.subject": "EV-20",
+       "tl1.ref.item": "EV-12"
+      }
+     },
+     {
+      "id": "EV-20.cause.EV-19",
+      "values": {
+       "tl1.row": "cause",
+       "tl1.subject": "EV-20",
+       "tl1.ref.item": "EV-19"
+      }
+     },
+     {
+      "id": "EV-20.who.CH-02",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-20",
+       "tl1.ind.ch": "CH-02",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
+      "id": "EV-20.who.CH-04",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-20",
+       "tl1.ind.ch": "CH-04",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
+      "id": "EV-20.who.CH-05",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-20",
+       "tl1.ind.ch": "CH-05",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
+      "id": "EV-20.who.CH-06",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-20",
+       "tl1.ind.ch": "CH-06",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
       "id": "EV-13",
       "values": {
        "tl1.row": "event",
@@ -1199,6 +1589,14 @@
        "tl1.time.kind": "range",
        "tl1.time.start": 187,
        "tl1.time.end": 841
+      }
+     },
+     {
+      "id": "EV-13.cause.EV-20",
+      "values": {
+       "tl1.row": "cause",
+       "tl1.subject": "EV-13",
+       "tl1.ref.item": "EV-20"
       }
      },
      {
@@ -1227,6 +1625,14 @@
        "tl1.time.kind": "range",
        "tl1.time.start": 472,
        "tl1.time.end": 841
+      }
+     },
+     {
+      "id": "EV-14.cause.EV-13",
+      "values": {
+       "tl1.row": "cause",
+       "tl1.subject": "EV-14",
+       "tl1.ref.item": "EV-13"
       }
      },
      {
@@ -1363,7 +1769,7 @@
      }
     ]
    },
-   "contentHash": "a9463f53e267d6985541db9664857fc0ced6154ff3aecdb29cc4dbbac129e590"
+   "contentHash": "1766e91df21239ff929610045697048c67c7a6c43488e63d51ae346c283c1bc7"
   }
  ]
 }

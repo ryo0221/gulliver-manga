@@ -1,0 +1,297 @@
+{
+ "schemaVersion": 1,
+ "id": "gm1-composition",
+ "name": "第1部 構成図（提示位置はまだ無い）",
+ "kind": "data",
+ "provenance": {
+  "source": "created"
+ },
+ "draft": {
+  "baseVersionId": "part1-v1",
+  "updatedAt": "2026-11-14T00:00:00.000Z",
+  "content": {
+   "schemaVersion": 2,
+   "columns": [
+    {
+     "id": "tl1.row",
+     "name": "行の種類",
+     "type": "select",
+     "options": [
+      "occurrence",
+      "experience",
+      "exception",
+      "exception-target",
+      "exception-basis"
+     ],
+     "required": true
+    },
+    {
+     "id": "tl1.label",
+     "name": "名前",
+     "type": "text"
+    },
+    {
+     "id": "tl1.subject",
+     "name": "対象の行",
+     "type": "relation"
+    },
+    {
+     "id": "tl1.ref.artifact",
+     "name": "参照先Artifact",
+     "type": "text"
+    },
+    {
+     "id": "tl1.ref.version",
+     "name": "参照先の版",
+     "type": "text"
+    },
+    {
+     "id": "tl1.ref.hash",
+     "name": "参照先のhash",
+     "type": "text"
+    },
+    {
+     "id": "tl1.ref.item",
+     "name": "参照先の項目",
+     "type": "text"
+    },
+    {
+     "id": "tl1.ref.facet",
+     "name": "参照の範囲",
+     "type": "select",
+     "options": [
+      "whole",
+      "existence",
+      "participants",
+      "time",
+      "content",
+      "info",
+      "evaluation"
+     ]
+    },
+    {
+     "id": "tl1.ref2.artifact",
+     "name": "参照先2 Artifact",
+     "type": "text"
+    },
+    {
+     "id": "tl1.ref2.version",
+     "name": "参照先2の版",
+     "type": "text"
+    },
+    {
+     "id": "tl1.ref2.hash",
+     "name": "参照先2のhash",
+     "type": "text"
+    },
+    {
+     "id": "tl1.ref2.item",
+     "name": "参照先2の項目",
+     "type": "text"
+    },
+    {
+     "id": "tl1.ind.ch",
+     "name": "人物",
+     "type": "text"
+    },
+    {
+     "id": "tl1.ind.origin",
+     "name": "個体の世界",
+     "type": "text"
+    },
+    {
+     "id": "tl1.order",
+     "name": "提示の並び",
+     "type": "number"
+    },
+    {
+     "id": "tl1.part",
+     "name": "話",
+     "type": "text"
+    },
+    {
+     "id": "tl1.diag",
+     "name": "診断の種類",
+     "type": "select",
+     "options": [
+      "single-event",
+      "disclosure",
+      "presence",
+      "multi-event",
+      "transfer",
+      "external-event"
+     ]
+    },
+    {
+     "id": "tl1.rule",
+     "name": "規則の版",
+     "type": "text"
+    },
+    {
+     "id": "tl1.reason",
+     "name": "理由",
+     "type": "text"
+    },
+    {
+     "id": "tl1.scope",
+     "name": "規則の範囲",
+     "type": "text"
+    },
+    {
+     "id": "tl1.hypothesis",
+     "name": "仮定の識別",
+     "type": "text"
+    }
+   ],
+   "rows": []
+  }
+ },
+ "versions": [
+  {
+   "artifactId": "gm1-composition",
+   "versionId": "part1-v1",
+   "parentVersionId": null,
+   "schemaVersion": 1,
+   "createdAt": "2026-11-14T00:00:00.000Z",
+   "createdBy": null,
+   "reason": "ガリヴァー旅行記 第1部の設定（fiction-manga@1.1.0 人物・世界と舞台）",
+   "content": {
+    "schemaVersion": 2,
+    "columns": [
+     {
+      "id": "tl1.row",
+      "name": "行の種類",
+      "type": "select",
+      "options": [
+       "occurrence",
+       "experience",
+       "exception",
+       "exception-target",
+       "exception-basis"
+      ],
+      "required": true
+     },
+     {
+      "id": "tl1.label",
+      "name": "名前",
+      "type": "text"
+     },
+     {
+      "id": "tl1.subject",
+      "name": "対象の行",
+      "type": "relation"
+     },
+     {
+      "id": "tl1.ref.artifact",
+      "name": "参照先Artifact",
+      "type": "text"
+     },
+     {
+      "id": "tl1.ref.version",
+      "name": "参照先の版",
+      "type": "text"
+     },
+     {
+      "id": "tl1.ref.hash",
+      "name": "参照先のhash",
+      "type": "text"
+     },
+     {
+      "id": "tl1.ref.item",
+      "name": "参照先の項目",
+      "type": "text"
+     },
+     {
+      "id": "tl1.ref.facet",
+      "name": "参照の範囲",
+      "type": "select",
+      "options": [
+       "whole",
+       "existence",
+       "participants",
+       "time",
+       "content",
+       "info",
+       "evaluation"
+      ]
+     },
+     {
+      "id": "tl1.ref2.artifact",
+      "name": "参照先2 Artifact",
+      "type": "text"
+     },
+     {
+      "id": "tl1.ref2.version",
+      "name": "参照先2の版",
+      "type": "text"
+     },
+     {
+      "id": "tl1.ref2.hash",
+      "name": "参照先2のhash",
+      "type": "text"
+     },
+     {
+      "id": "tl1.ref2.item",
+      "name": "参照先2の項目",
+      "type": "text"
+     },
+     {
+      "id": "tl1.ind.ch",
+      "name": "人物",
+      "type": "text"
+     },
+     {
+      "id": "tl1.ind.origin",
+      "name": "個体の世界",
+      "type": "text"
+     },
+     {
+      "id": "tl1.order",
+      "name": "提示の並び",
+      "type": "number"
+     },
+     {
+      "id": "tl1.part",
+      "name": "話",
+      "type": "text"
+     },
+     {
+      "id": "tl1.diag",
+      "name": "診断の種類",
+      "type": "select",
+      "options": [
+       "single-event",
+       "disclosure",
+       "presence",
+       "multi-event",
+       "transfer",
+       "external-event"
+      ]
+     },
+     {
+      "id": "tl1.rule",
+      "name": "規則の版",
+      "type": "text"
+     },
+     {
+      "id": "tl1.reason",
+      "name": "理由",
+      "type": "text"
+     },
+     {
+      "id": "tl1.scope",
+      "name": "規則の範囲",
+      "type": "text"
+     },
+     {
+      "id": "tl1.hypothesis",
+      "name": "仮定の識別",
+      "type": "text"
+     }
+    ],
+    "rows": []
+   },
+   "contentHash": "b20aa771a3ef2f0b47e7e78e8e23f293b9a28fa3f38ed8eb11c81bab7e7b8d1c"
+  }
+ ]
+}

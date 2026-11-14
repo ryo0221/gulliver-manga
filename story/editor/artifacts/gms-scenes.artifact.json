@@ -1,0 +1,6689 @@
+{
+ "schemaVersion": 1,
+ "id": "gms-scenes",
+ "name": "全4部 シーンカード",
+ "kind": "data",
+ "provenance": {
+  "source": "created"
+ },
+ "draft": {
+  "baseVersionId": "story-v1",
+  "updatedAt": "2026-11-14T00:00:00.000Z",
+  "content": {
+   "schemaVersion": 2,
+   "columns": [
+    {
+     "id": "tl1.row",
+     "name": "行の種類",
+     "type": "select",
+     "options": [
+      "scene",
+      "cite"
+     ],
+     "required": true
+    },
+    {
+     "id": "tl1.label",
+     "name": "名前",
+     "type": "text"
+    },
+    {
+     "id": "tl1.subject",
+     "name": "対象の行",
+     "type": "relation"
+    },
+    {
+     "id": "tl1.ref.artifact",
+     "name": "参照先Artifact",
+     "type": "text"
+    },
+    {
+     "id": "tl1.ref.version",
+     "name": "参照先の版",
+     "type": "text"
+    },
+    {
+     "id": "tl1.ref.hash",
+     "name": "参照先のhash",
+     "type": "text"
+    },
+    {
+     "id": "tl1.ref.item",
+     "name": "参照先の項目",
+     "type": "text"
+    },
+    {
+     "id": "tl1.ref.facet",
+     "name": "参照の範囲",
+     "type": "select",
+     "options": [
+      "whole",
+      "existence",
+      "participants",
+      "time",
+      "content",
+      "info",
+      "evaluation"
+     ]
+    },
+    {
+     "id": "tl1.info",
+     "name": "情報",
+     "type": "text"
+    }
+   ],
+   "rows": [
+    {
+     "id": "SC-001",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "序：厩で二頭の馬に話しかける男"
+     }
+    },
+    {
+     "id": "SC-001.cite.EV-67",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-001",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-67",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-001.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-001",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-001.cast.CH-10",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-001",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-10",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-002",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "妻に見送られてブリストルを出る"
+     }
+    },
+    {
+     "id": "SC-002.cite.EV-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-002",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-002.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-002",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-002.cast.CH-10",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-002",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-10",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-003",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "嵐で難破し、ひとり浜へ泳ぎ着く"
+     }
+    },
+    {
+     "id": "SC-003.cite.EV-02",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-003",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-02",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-003.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-003",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-004",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "目覚めると全身を縛られ、胸の上を小人が歩く"
+     }
+    },
+    {
+     "id": "SC-004.cite.EV-03",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-004",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-03",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-004.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-004",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-005",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "運搬機で都の外の神殿へ運ばれ、鎖につながれる"
+     }
+    },
+    {
+     "id": "SC-005.cite.EV-04",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-005",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-04",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-005.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-005",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-005.cast.CH-02",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-005",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-02",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-006",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "綱渡りと棒の跳び越しで官職を争う廷臣たち"
+     }
+    },
+    {
+     "id": "SC-006.cite.EV-08",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-006",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-08",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-006.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-006",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-006.cast.CH-02",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-006",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-02",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-006.cast.CH-04",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-006",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-04",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-007",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "ボルゴラムが渋る解放の条件に署名する"
+     }
+    },
+    {
+     "id": "SC-007.cite.EV-05",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-007",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-05",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-007.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-007",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-007.cast.CH-02",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-007",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-02",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-007.cast.CH-06",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-007",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-06",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-008",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "城壁をまたぎ、王宮の内庭を覗き込む"
+     }
+    },
+    {
+     "id": "SC-008.cite.EV-06",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-008",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-06",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-008.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-008",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-009",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "レルドレサルが二つの党派と卵の戦争を説く"
+     }
+    },
+    {
+     "id": "SC-009.cite.EV-07",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-009",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-07",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-009.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-009",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-009.cast.CH-05",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-009",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-05",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-010",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "海峡を歩いて渡り、50本の綱で艦隊を引く"
+     }
+    },
+    {
+     "id": "SC-010.cite.EV-10",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-010",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-10",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-010.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-010",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-011",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "凱旋し、ナルダックの位を授かる"
+     }
+    },
+    {
+     "id": "SC-011.cite.EV-09",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-011",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-09",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-011.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-011",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-011.cast.CH-02",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-011",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-02",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-011.cast.CH-06",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-011",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-06",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-012",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "自由な民を奴隷にする道具にはならない、と断る"
+     }
+    },
+    {
+     "id": "SC-012.cite.EV-11",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-012",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-11",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-012.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-012",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-012.cast.CH-02",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-012",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-02",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-013",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "ブレフスキュの使節に会い、訪問を約束する"
+     }
+    },
+    {
+     "id": "SC-013.cite.EV-19",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-013",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-19",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-013.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-013",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-014",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "夜の王宮の火事を尿で消す"
+     }
+    },
+    {
+     "id": "SC-014.cite.EV-12",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-014",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-12",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-014.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-014",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-014.cast.CH-03",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-014",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-03",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-015",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "秘密の会議：死罪の代わりに両目を潰す「慈悲」"
+     }
+    },
+    {
+     "id": "SC-015.cite.EV-20",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-015",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-20",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-015.cast.CH-02",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-015",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-02",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-015.cast.CH-04",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-015",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-04",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-015.cast.CH-05",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-015",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-05",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-015.cast.CH-06",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-015",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-06",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-016",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "夜、輿で来た有力者が弾劾状を読み上げる"
+     }
+    },
+    {
+     "id": "SC-016.cite.EV-13",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-016",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-13",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-016.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-016",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-016.cast.CH-08",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-016",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-08",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-017",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "海峡を渡ってブレフスキュへ逃れる"
+     }
+    },
+    {
+     "id": "SC-017.cite.EV-14",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-017",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-14",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-017.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-017",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-017.cast.CH-07",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-017",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-07",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-018",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "沖に流れ着いたボートを見つける"
+     }
+    },
+    {
+     "id": "SC-018.cite.EV-15",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-018",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-15",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-018.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-018",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-019",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "寛大な皇帝に見送られて出帆する"
+     }
+    },
+    {
+     "id": "SC-019.cite.EV-16",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-019",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-16",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-019.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-019",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-019.cast.CH-07",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-019",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-07",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-020",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "ビドル船長がポケットの小さな牛を見て信じる"
+     }
+    },
+    {
+     "id": "SC-020.cite.EV-17",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-020",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-17",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-020.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-020",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-020.cast.CH-09",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-020",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-09",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-021",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "家に着くが、2か月でまた海へ出たくなる"
+     }
+    },
+    {
+     "id": "SC-021.cite.EV-18",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-021",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-18",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-021.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-021",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-021.cast.CH-10",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-021",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-10",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-022",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "ダウンズからまた海へ出る"
+     }
+    },
+    {
+     "id": "SC-022.cite.EV-21",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-022",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-21",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-022.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-022",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-022.cast.CH-10",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-022",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-10",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-023",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "仲間に置き去りにされ、麦畑で巨人の農夫に摘まみ上げられる"
+     }
+    },
+    {
+     "id": "SC-023.cite.EV-22",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-023",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-22",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-023.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-023",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-023.cast.CH-11",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-023",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-11",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-024",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "食卓の上を歩き、寝台で犬ほどの鼠と戦う"
+     }
+    },
+    {
+     "id": "SC-024.cite.EV-23",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-024",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-23",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-024.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-024",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-024.cast.CH-11",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-024",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-11",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-024.cast.CH-12",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-024",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-12",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-025",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "グラムダルクリッチが人形の寝台を作り、言葉を教える"
+     }
+    },
+    {
+     "id": "SC-025.cite.EV-24",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-025",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-24",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-025.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-025",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-025.cast.CH-12",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-025",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-12",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-026",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "都への旅、毎日の見世物で痩せていく"
+     }
+    },
+    {
+     "id": "SC-026.cite.EV-25",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-026",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-25",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-026.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-026",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-026.cast.CH-11",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-026",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-11",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-026.cast.CH-12",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-026",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-12",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-027",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "王妃に買い取られ、グラムダルクリッチを残してもらう"
+     }
+    },
+    {
+     "id": "SC-027.cite.EV-26",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-027",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-26",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-027.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-027",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-027.cast.CH-11",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-027",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-11",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-027.cast.CH-12",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-027",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-12",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-027.cast.CH-13",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-027",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-13",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-028",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "王妃の小人に骨の髄へ押し込まれ、蜂と剣で戦う"
+     }
+    },
+    {
+     "id": "SC-028.cite.EV-27",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-028",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-27",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-028.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-028",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-028.cast.CH-13",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-028",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-13",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-028.cast.CH-15",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-028",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-15",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-029",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "猿に赤子のように抱かれて屋根へ"
+     }
+    },
+    {
+     "id": "SC-029.cite.EV-31",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-029",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-31",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-029.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-029",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-029.cast.CH-12",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-029",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-12",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-030",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "王の手の上で、英国の議会と法と戦争を誇らしげに語る"
+     }
+    },
+    {
+     "id": "SC-030.cite.EV-28",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-030",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-28",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-030.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-030",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-030.cast.CH-14",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-030",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-14",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-031",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "王が書き留めた質問を一つずつ返す"
+     }
+    },
+    {
+     "id": "SC-031.cite.EV-28",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-031",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-28",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-031.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-031",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-031.cast.CH-14",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-031",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-14",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-032",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "「地を這う小さな嫌らしい虫」"
+     }
+    },
+    {
+     "id": "SC-032.cite.EV-29",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-032",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-29",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-032.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-032",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-032.cast.CH-14",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-032",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-14",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-033",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "火薬の作り方を差し出し、王に断られる"
+     }
+    },
+    {
+     "id": "SC-033.cite.EV-30",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-033",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-30",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-033.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-033",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-033.cast.CH-14",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-033",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-14",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-034",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "旅に使う箱の部屋を作ってもらう"
+     }
+    },
+    {
+     "id": "SC-034.cite.EV-32",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-034",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-32",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-034.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-034",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-034.cast.CH-13",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-034",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-13",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-035",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "グラムダルクリッチと海辺の旅へ"
+     }
+    },
+    {
+     "id": "SC-035.cite.EV-33",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-035",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-33",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-035.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-035",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-035.cast.CH-12",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-035",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-12",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-036",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "鷲に箱ごとさらわれ、海へ落ちる"
+     }
+    },
+    {
+     "id": "SC-036.cite.EV-33",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-036",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-33",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-036.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-036",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-037",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "持ち帰った品で、ウィルコックス船長が話を信じる"
+     }
+    },
+    {
+     "id": "SC-037.cite.EV-34",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-037",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-34",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-037.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-037",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-037.cast.CH-16",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-037",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-16",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-038",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "家に着くと、妻も娘も家も小さく見える"
+     }
+    },
+    {
+     "id": "SC-038.cite.EV-35",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-038",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-35",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-038.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-038",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-038.cast.CH-10",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-038",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-10",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-039",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "ホープウェル号で出航する"
+     }
+    },
+    {
+     "id": "SC-039.cite.EV-36",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-039",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-36",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-039.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-039",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-039.cast.CH-10",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-039",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-10",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-039.cast.CH-17",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-039",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-17",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-040",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "フォート・セント・ジョージから商いの船へ"
+     }
+    },
+    {
+     "id": "SC-040.cite.EV-37",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-040",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-37",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-040.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-040",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-040.cast.CH-17",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-040",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-17",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-041",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "オランダ人の海賊の進言で、小舟で流される"
+     }
+    },
+    {
+     "id": "SC-041.cite.EV-38",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-041",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-38",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-041.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-041",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-041.cast.CH-18",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-041",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-18",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-042",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "空に浮かぶ島から鎖が下りてくる"
+     }
+    },
+    {
+     "id": "SC-042.cite.EV-39",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-042",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-39",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-042.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-042",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-042.cast.CH-19",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-042",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-19",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-043",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "叩き役に口と耳を叩かれて話す人々"
+     }
+    },
+    {
+     "id": "SC-043.cite.EV-40",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-043",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-40",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-043.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-043",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-043.cast.CH-19",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-043",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-19",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-044",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "島が反乱の町の上に止まる"
+     }
+    },
+    {
+     "id": "SC-044.cite.EV-41",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-044",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-41",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-044.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-044",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-044.cast.CH-19",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-044",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-19",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-045",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "島を降り、下の国へ"
+     }
+    },
+    {
+     "id": "SC-045.cite.EV-42",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-045",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-42",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-045.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-045",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-045.cast.CH-19",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-045",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-19",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-046",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "荒れた国で、ムノーディ卿の領地だけが実る"
+     }
+    },
+    {
+     "id": "SC-046.cite.EV-43",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-046",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-43",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-046.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-046",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-046.cast.CH-20",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-046",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-20",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-047",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "胡瓜から日光を取る研究"
+     }
+    },
+    {
+     "id": "SC-047.cite.EV-44",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-047",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-44",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-047.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-047",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-047.cast.CH-24",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-047",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-24",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-048",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "言葉を作る枠を回す学生たち"
+     }
+    },
+    {
+     "id": "SC-048.cite.EV-44",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-048",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-44",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-048.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-048",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-048.cast.CH-24",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-048",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-24",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-049",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "魔術師の館で、死者が給仕する晩餐"
+     }
+    },
+    {
+     "id": "SC-049.cite.EV-45",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-049",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-45",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-049.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-049",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-049.cast.CH-21",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-049",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-21",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-050",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "呼び出した死者たちが語る、書き換えられた歴史"
+     }
+    },
+    {
+     "id": "SC-050.cite.EV-45",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-050",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-45",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-050.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-050",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-050.cast.CH-21",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-050",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-21",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-051",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "ラグナグに着く"
+     }
+    },
+    {
+     "id": "SC-051.cite.EV-46",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-051",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-46",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-051.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-051",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-052",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "王の前へ床を舐めて這い進む"
+     }
+    },
+    {
+     "id": "SC-052.cite.EV-47",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-052",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-47",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-052.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-052",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-052.cast.CH-22",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-052",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-22",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-053",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "死なずに生きるなら、と夢を語る"
+     }
+    },
+    {
+     "id": "SC-053.cite.EV-48",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-053",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-48",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-053.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-053",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-053.cast.CH-22",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-053",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-22",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-054",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "ストラルドブラグの老いの現実"
+     }
+    },
+    {
+     "id": "SC-054.cite.EV-48",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-054",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-48",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-054.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-054",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-054.cast.CH-23",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-054",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-23",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-055",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "ラグナグを発つ"
+     }
+    },
+    {
+     "id": "SC-055.cite.EV-49",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-055",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-49",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-055.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-055",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-055.cast.CH-22",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-055",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-22",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-056",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "長崎で、オランダ人として踏絵を免れる"
+     }
+    },
+    {
+     "id": "SC-056.cite.EV-50",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-056",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-50",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-056.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-056",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-057",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "家族のもとへ帰る"
+     }
+    },
+    {
+     "id": "SC-057.cite.EV-51",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-057",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-51",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-057.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-057",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-057.cast.CH-10",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-057",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-10",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-058",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "船長として出航する"
+     }
+    },
+    {
+     "id": "SC-058.cite.EV-52",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-058",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-52",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-058.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-058",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-058.cast.CH-10",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-058",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-10",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-058.cast.CH-29",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-058",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-29",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-059",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "雇った船員が反乱を起こす"
+     }
+    },
+    {
+     "id": "SC-059.cite.EV-53",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-059",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-53",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-059.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-059",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-059.cast.CH-29",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-059",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-29",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-060",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "見知らぬ岸に置き去りにされる"
+     }
+    },
+    {
+     "id": "SC-060.cite.EV-54",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-060",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-54",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-060.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-060",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-060.cast.CH-29",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-060",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-29",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-061",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "ヤフーの群れと、助けに来た灰色の馬"
+     }
+    },
+    {
+     "id": "SC-061.cite.EV-55",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-061",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-55",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-061.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-061",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-061.cast.CH-25",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-061",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-25",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-061.cast.CH-27",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-061",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-27",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-062",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "主人の家で言葉を学ぶ"
+     }
+    },
+    {
+     "id": "SC-062.cite.EV-56",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-062",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-56",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-062.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-062",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-062.cast.CH-25",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-062",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-25",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-062.cast.CH-26",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-062",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-26",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-063",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "寝姿を見られ、服が体の一部でないと打ち明ける"
+     }
+    },
+    {
+     "id": "SC-063.cite.EV-57",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-063",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-57",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-063.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-063",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-063.cast.CH-25",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-063",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-25",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-063.cast.CH-26",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-063",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-26",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-064",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "戦争の理由を語る（パンが肉か、肉がパンか）"
+     }
+    },
+    {
+     "id": "SC-064.cite.EV-58",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-064",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-58",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-064.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-064",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-064.cast.CH-25",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-064",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-25",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-065",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "法律家と金を語る"
+     }
+    },
+    {
+     "id": "SC-065.cite.EV-58",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-065",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-58",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-065.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-065",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-065.cast.CH-25",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-065",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-25",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-066",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "主人が英国人とヤフーを比べる"
+     }
+    },
+    {
+     "id": "SC-066.cite.EV-59",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-066",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-59",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-066.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-066",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-066.cast.CH-25",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-066",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-25",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-067",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "水浴びの最中に雌のヤフーに抱きつかれる"
+     }
+    },
+    {
+     "id": "SC-067.cite.EV-60",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-067",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-60",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-067.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-067",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-067.cast.CH-26",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-067",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-26",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-067.cast.CH-27",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-067",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-27",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-068",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "会議の決定を主人が告げる"
+     }
+    },
+    {
+     "id": "SC-068.cite.EV-61",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-068",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-61",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-068.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-068",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-068.cast.CH-25",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-068",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-25",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-069",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "ヤフーの皮で小舟を作る"
+     }
+    },
+    {
+     "id": "SC-069.cite.EV-62",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-069",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-62",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-069.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-069",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-069.cast.CH-26",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-069",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-26",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-070",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "主人の蹄に口づけし、国を発つ"
+     }
+    },
+    {
+     "id": "SC-070.cite.EV-63",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-070",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-63",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-070.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-070",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-070.cast.CH-25",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-070",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-25",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-070.cast.CH-26",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-070",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-26",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-071",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "ポルトガル船に連れ戻される"
+     }
+    },
+    {
+     "id": "SC-071.cite.EV-64",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-071",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-64",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-071.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-071",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-071.cast.CH-28",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-071",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-28",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-072",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "リスボン、ペドロ船長の家"
+     }
+    },
+    {
+     "id": "SC-072.cite.EV-65",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-072",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-65",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-072.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-072",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-072.cast.CH-28",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-072",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-28",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-073",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "妻の口づけに気を失う"
+     }
+    },
+    {
+     "id": "SC-073.cite.EV-66",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-073",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-66",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-073.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-073",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-073.cast.CH-10",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-073",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-10",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-074",
+     "values": {
+      "tl1.row": "scene",
+      "tl1.label": "結び：高慢なヤフーだけは我慢できない"
+     }
+    },
+    {
+     "id": "SC-074.cite.EV-67",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-074",
+      "tl1.ref.artifact": "gms-ledger",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+      "tl1.ref.item": "EV-67",
+      "tl1.ref.facet": "whole"
+     }
+    },
+    {
+     "id": "SC-074.cast.CH-01",
+     "values": {
+      "tl1.row": "cite",
+      "tl1.subject": "SC-074",
+      "tl1.ref.artifact": "gms-characters",
+      "tl1.ref.version": "story-v1",
+      "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+      "tl1.ref.item": "CH-01",
+      "tl1.ref.facet": "whole"
+     }
+    }
+   ]
+  }
+ },
+ "versions": [
+  {
+   "artifactId": "gms-scenes",
+   "versionId": "story-v1",
+   "parentVersionId": null,
+   "schemaVersion": 1,
+   "createdAt": "2026-11-14T00:00:00.000Z",
+   "createdBy": null,
+   "reason": "ガリヴァー旅行記 筋と構成（fiction-manga@1.1.0 筋と構成）",
+   "content": {
+    "schemaVersion": 2,
+    "columns": [
+     {
+      "id": "tl1.row",
+      "name": "行の種類",
+      "type": "select",
+      "options": [
+       "scene",
+       "cite"
+      ],
+      "required": true
+     },
+     {
+      "id": "tl1.label",
+      "name": "名前",
+      "type": "text"
+     },
+     {
+      "id": "tl1.subject",
+      "name": "対象の行",
+      "type": "relation"
+     },
+     {
+      "id": "tl1.ref.artifact",
+      "name": "参照先Artifact",
+      "type": "text"
+     },
+     {
+      "id": "tl1.ref.version",
+      "name": "参照先の版",
+      "type": "text"
+     },
+     {
+      "id": "tl1.ref.hash",
+      "name": "参照先のhash",
+      "type": "text"
+     },
+     {
+      "id": "tl1.ref.item",
+      "name": "参照先の項目",
+      "type": "text"
+     },
+     {
+      "id": "tl1.ref.facet",
+      "name": "参照の範囲",
+      "type": "select",
+      "options": [
+       "whole",
+       "existence",
+       "participants",
+       "time",
+       "content",
+       "info",
+       "evaluation"
+      ]
+     },
+     {
+      "id": "tl1.info",
+      "name": "情報",
+      "type": "text"
+     }
+    ],
+    "rows": [
+     {
+      "id": "SC-001",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "序：厩で二頭の馬に話しかける男"
+      }
+     },
+     {
+      "id": "SC-001.cite.EV-67",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-001",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-67",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-001.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-001",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-001.cast.CH-10",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-001",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-10",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-002",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "妻に見送られてブリストルを出る"
+      }
+     },
+     {
+      "id": "SC-002.cite.EV-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-002",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-002.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-002",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-002.cast.CH-10",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-002",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-10",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-003",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "嵐で難破し、ひとり浜へ泳ぎ着く"
+      }
+     },
+     {
+      "id": "SC-003.cite.EV-02",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-003",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-02",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-003.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-003",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-004",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "目覚めると全身を縛られ、胸の上を小人が歩く"
+      }
+     },
+     {
+      "id": "SC-004.cite.EV-03",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-004",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-03",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-004.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-004",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-005",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "運搬機で都の外の神殿へ運ばれ、鎖につながれる"
+      }
+     },
+     {
+      "id": "SC-005.cite.EV-04",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-005",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-04",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-005.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-005",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-005.cast.CH-02",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-005",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-02",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-006",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "綱渡りと棒の跳び越しで官職を争う廷臣たち"
+      }
+     },
+     {
+      "id": "SC-006.cite.EV-08",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-006",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-08",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-006.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-006",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-006.cast.CH-02",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-006",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-02",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-006.cast.CH-04",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-006",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-04",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-007",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "ボルゴラムが渋る解放の条件に署名する"
+      }
+     },
+     {
+      "id": "SC-007.cite.EV-05",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-007",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-05",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-007.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-007",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-007.cast.CH-02",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-007",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-02",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-007.cast.CH-06",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-007",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-06",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-008",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "城壁をまたぎ、王宮の内庭を覗き込む"
+      }
+     },
+     {
+      "id": "SC-008.cite.EV-06",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-008",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-06",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-008.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-008",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-009",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "レルドレサルが二つの党派と卵の戦争を説く"
+      }
+     },
+     {
+      "id": "SC-009.cite.EV-07",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-009",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-07",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-009.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-009",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-009.cast.CH-05",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-009",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-05",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-010",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "海峡を歩いて渡り、50本の綱で艦隊を引く"
+      }
+     },
+     {
+      "id": "SC-010.cite.EV-10",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-010",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-10",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-010.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-010",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-011",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "凱旋し、ナルダックの位を授かる"
+      }
+     },
+     {
+      "id": "SC-011.cite.EV-09",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-011",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-09",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-011.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-011",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-011.cast.CH-02",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-011",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-02",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-011.cast.CH-06",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-011",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-06",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-012",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "自由な民を奴隷にする道具にはならない、と断る"
+      }
+     },
+     {
+      "id": "SC-012.cite.EV-11",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-012",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-11",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-012.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-012",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-012.cast.CH-02",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-012",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-02",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-013",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "ブレフスキュの使節に会い、訪問を約束する"
+      }
+     },
+     {
+      "id": "SC-013.cite.EV-19",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-013",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-19",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-013.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-013",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-014",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "夜の王宮の火事を尿で消す"
+      }
+     },
+     {
+      "id": "SC-014.cite.EV-12",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-014",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-12",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-014.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-014",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-014.cast.CH-03",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-014",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-03",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-015",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "秘密の会議：死罪の代わりに両目を潰す「慈悲」"
+      }
+     },
+     {
+      "id": "SC-015.cite.EV-20",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-015",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-20",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-015.cast.CH-02",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-015",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-02",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-015.cast.CH-04",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-015",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-04",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-015.cast.CH-05",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-015",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-05",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-015.cast.CH-06",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-015",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-06",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-016",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "夜、輿で来た有力者が弾劾状を読み上げる"
+      }
+     },
+     {
+      "id": "SC-016.cite.EV-13",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-016",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-13",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-016.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-016",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-016.cast.CH-08",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-016",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-08",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-017",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "海峡を渡ってブレフスキュへ逃れる"
+      }
+     },
+     {
+      "id": "SC-017.cite.EV-14",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-017",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-14",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-017.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-017",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-017.cast.CH-07",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-017",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-07",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-018",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "沖に流れ着いたボートを見つける"
+      }
+     },
+     {
+      "id": "SC-018.cite.EV-15",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-018",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-15",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-018.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-018",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-019",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "寛大な皇帝に見送られて出帆する"
+      }
+     },
+     {
+      "id": "SC-019.cite.EV-16",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-019",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-16",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-019.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-019",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-019.cast.CH-07",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-019",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-07",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-020",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "ビドル船長がポケットの小さな牛を見て信じる"
+      }
+     },
+     {
+      "id": "SC-020.cite.EV-17",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-020",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-17",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-020.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-020",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-020.cast.CH-09",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-020",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-09",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-021",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "家に着くが、2か月でまた海へ出たくなる"
+      }
+     },
+     {
+      "id": "SC-021.cite.EV-18",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-021",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-18",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-021.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-021",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-021.cast.CH-10",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-021",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-10",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-022",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "ダウンズからまた海へ出る"
+      }
+     },
+     {
+      "id": "SC-022.cite.EV-21",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-022",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-21",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-022.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-022",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-022.cast.CH-10",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-022",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-10",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-023",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "仲間に置き去りにされ、麦畑で巨人の農夫に摘まみ上げられる"
+      }
+     },
+     {
+      "id": "SC-023.cite.EV-22",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-023",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-22",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-023.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-023",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-023.cast.CH-11",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-023",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-11",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-024",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "食卓の上を歩き、寝台で犬ほどの鼠と戦う"
+      }
+     },
+     {
+      "id": "SC-024.cite.EV-23",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-024",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-23",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-024.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-024",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-024.cast.CH-11",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-024",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-11",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-024.cast.CH-12",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-024",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-12",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-025",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "グラムダルクリッチが人形の寝台を作り、言葉を教える"
+      }
+     },
+     {
+      "id": "SC-025.cite.EV-24",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-025",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-24",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-025.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-025",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-025.cast.CH-12",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-025",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-12",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-026",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "都への旅、毎日の見世物で痩せていく"
+      }
+     },
+     {
+      "id": "SC-026.cite.EV-25",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-026",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-25",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-026.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-026",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-026.cast.CH-11",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-026",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-11",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-026.cast.CH-12",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-026",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-12",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-027",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "王妃に買い取られ、グラムダルクリッチを残してもらう"
+      }
+     },
+     {
+      "id": "SC-027.cite.EV-26",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-027",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-26",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-027.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-027",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-027.cast.CH-11",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-027",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-11",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-027.cast.CH-12",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-027",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-12",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-027.cast.CH-13",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-027",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-13",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-028",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "王妃の小人に骨の髄へ押し込まれ、蜂と剣で戦う"
+      }
+     },
+     {
+      "id": "SC-028.cite.EV-27",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-028",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-27",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-028.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-028",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-028.cast.CH-13",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-028",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-13",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-028.cast.CH-15",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-028",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-15",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-029",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "猿に赤子のように抱かれて屋根へ"
+      }
+     },
+     {
+      "id": "SC-029.cite.EV-31",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-029",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-31",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-029.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-029",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-029.cast.CH-12",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-029",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-12",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-030",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "王の手の上で、英国の議会と法と戦争を誇らしげに語る"
+      }
+     },
+     {
+      "id": "SC-030.cite.EV-28",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-030",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-28",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-030.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-030",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-030.cast.CH-14",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-030",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-14",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-031",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "王が書き留めた質問を一つずつ返す"
+      }
+     },
+     {
+      "id": "SC-031.cite.EV-28",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-031",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-28",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-031.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-031",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-031.cast.CH-14",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-031",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-14",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-032",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "「地を這う小さな嫌らしい虫」"
+      }
+     },
+     {
+      "id": "SC-032.cite.EV-29",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-032",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-29",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-032.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-032",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-032.cast.CH-14",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-032",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-14",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-033",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "火薬の作り方を差し出し、王に断られる"
+      }
+     },
+     {
+      "id": "SC-033.cite.EV-30",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-033",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-30",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-033.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-033",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-033.cast.CH-14",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-033",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-14",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-034",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "旅に使う箱の部屋を作ってもらう"
+      }
+     },
+     {
+      "id": "SC-034.cite.EV-32",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-034",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-32",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-034.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-034",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-034.cast.CH-13",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-034",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-13",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-035",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "グラムダルクリッチと海辺の旅へ"
+      }
+     },
+     {
+      "id": "SC-035.cite.EV-33",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-035",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-33",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-035.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-035",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-035.cast.CH-12",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-035",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-12",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-036",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "鷲に箱ごとさらわれ、海へ落ちる"
+      }
+     },
+     {
+      "id": "SC-036.cite.EV-33",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-036",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-33",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-036.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-036",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-037",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "持ち帰った品で、ウィルコックス船長が話を信じる"
+      }
+     },
+     {
+      "id": "SC-037.cite.EV-34",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-037",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-34",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-037.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-037",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-037.cast.CH-16",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-037",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-16",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-038",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "家に着くと、妻も娘も家も小さく見える"
+      }
+     },
+     {
+      "id": "SC-038.cite.EV-35",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-038",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-35",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-038.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-038",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-038.cast.CH-10",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-038",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-10",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-039",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "ホープウェル号で出航する"
+      }
+     },
+     {
+      "id": "SC-039.cite.EV-36",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-039",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-36",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-039.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-039",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-039.cast.CH-10",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-039",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-10",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-039.cast.CH-17",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-039",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-17",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-040",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "フォート・セント・ジョージから商いの船へ"
+      }
+     },
+     {
+      "id": "SC-040.cite.EV-37",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-040",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-37",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-040.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-040",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-040.cast.CH-17",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-040",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-17",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-041",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "オランダ人の海賊の進言で、小舟で流される"
+      }
+     },
+     {
+      "id": "SC-041.cite.EV-38",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-041",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-38",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-041.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-041",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-041.cast.CH-18",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-041",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-18",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-042",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "空に浮かぶ島から鎖が下りてくる"
+      }
+     },
+     {
+      "id": "SC-042.cite.EV-39",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-042",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-39",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-042.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-042",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-042.cast.CH-19",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-042",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-19",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-043",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "叩き役に口と耳を叩かれて話す人々"
+      }
+     },
+     {
+      "id": "SC-043.cite.EV-40",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-043",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-40",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-043.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-043",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-043.cast.CH-19",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-043",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-19",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-044",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "島が反乱の町の上に止まる"
+      }
+     },
+     {
+      "id": "SC-044.cite.EV-41",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-044",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-41",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-044.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-044",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-044.cast.CH-19",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-044",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-19",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-045",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "島を降り、下の国へ"
+      }
+     },
+     {
+      "id": "SC-045.cite.EV-42",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-045",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-42",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-045.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-045",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-045.cast.CH-19",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-045",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-19",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-046",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "荒れた国で、ムノーディ卿の領地だけが実る"
+      }
+     },
+     {
+      "id": "SC-046.cite.EV-43",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-046",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-43",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-046.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-046",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-046.cast.CH-20",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-046",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-20",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-047",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "胡瓜から日光を取る研究"
+      }
+     },
+     {
+      "id": "SC-047.cite.EV-44",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-047",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-44",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-047.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-047",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-047.cast.CH-24",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-047",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-24",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-048",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "言葉を作る枠を回す学生たち"
+      }
+     },
+     {
+      "id": "SC-048.cite.EV-44",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-048",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-44",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-048.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-048",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-048.cast.CH-24",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-048",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-24",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-049",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "魔術師の館で、死者が給仕する晩餐"
+      }
+     },
+     {
+      "id": "SC-049.cite.EV-45",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-049",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-45",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-049.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-049",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-049.cast.CH-21",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-049",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-21",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-050",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "呼び出した死者たちが語る、書き換えられた歴史"
+      }
+     },
+     {
+      "id": "SC-050.cite.EV-45",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-050",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-45",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-050.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-050",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-050.cast.CH-21",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-050",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-21",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-051",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "ラグナグに着く"
+      }
+     },
+     {
+      "id": "SC-051.cite.EV-46",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-051",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-46",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-051.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-051",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-052",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "王の前へ床を舐めて這い進む"
+      }
+     },
+     {
+      "id": "SC-052.cite.EV-47",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-052",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-47",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-052.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-052",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-052.cast.CH-22",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-052",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-22",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-053",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "死なずに生きるなら、と夢を語る"
+      }
+     },
+     {
+      "id": "SC-053.cite.EV-48",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-053",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-48",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-053.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-053",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-053.cast.CH-22",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-053",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-22",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-054",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "ストラルドブラグの老いの現実"
+      }
+     },
+     {
+      "id": "SC-054.cite.EV-48",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-054",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-48",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-054.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-054",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-054.cast.CH-23",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-054",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-23",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-055",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "ラグナグを発つ"
+      }
+     },
+     {
+      "id": "SC-055.cite.EV-49",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-055",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-49",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-055.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-055",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-055.cast.CH-22",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-055",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-22",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-056",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "長崎で、オランダ人として踏絵を免れる"
+      }
+     },
+     {
+      "id": "SC-056.cite.EV-50",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-056",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-50",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-056.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-056",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-057",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "家族のもとへ帰る"
+      }
+     },
+     {
+      "id": "SC-057.cite.EV-51",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-057",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-51",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-057.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-057",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-057.cast.CH-10",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-057",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-10",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-058",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "船長として出航する"
+      }
+     },
+     {
+      "id": "SC-058.cite.EV-52",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-058",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-52",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-058.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-058",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-058.cast.CH-10",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-058",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-10",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-058.cast.CH-29",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-058",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-29",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-059",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "雇った船員が反乱を起こす"
+      }
+     },
+     {
+      "id": "SC-059.cite.EV-53",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-059",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-53",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-059.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-059",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-059.cast.CH-29",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-059",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-29",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-060",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "見知らぬ岸に置き去りにされる"
+      }
+     },
+     {
+      "id": "SC-060.cite.EV-54",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-060",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-54",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-060.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-060",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-060.cast.CH-29",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-060",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-29",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-061",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "ヤフーの群れと、助けに来た灰色の馬"
+      }
+     },
+     {
+      "id": "SC-061.cite.EV-55",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-061",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-55",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-061.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-061",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-061.cast.CH-25",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-061",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-25",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-061.cast.CH-27",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-061",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-27",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-062",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "主人の家で言葉を学ぶ"
+      }
+     },
+     {
+      "id": "SC-062.cite.EV-56",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-062",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-56",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-062.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-062",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-062.cast.CH-25",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-062",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-25",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-062.cast.CH-26",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-062",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-26",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-063",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "寝姿を見られ、服が体の一部でないと打ち明ける"
+      }
+     },
+     {
+      "id": "SC-063.cite.EV-57",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-063",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-57",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-063.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-063",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-063.cast.CH-25",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-063",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-25",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-063.cast.CH-26",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-063",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-26",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-064",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "戦争の理由を語る（パンが肉か、肉がパンか）"
+      }
+     },
+     {
+      "id": "SC-064.cite.EV-58",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-064",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-58",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-064.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-064",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-064.cast.CH-25",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-064",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-25",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-065",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "法律家と金を語る"
+      }
+     },
+     {
+      "id": "SC-065.cite.EV-58",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-065",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-58",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-065.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-065",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-065.cast.CH-25",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-065",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-25",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-066",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "主人が英国人とヤフーを比べる"
+      }
+     },
+     {
+      "id": "SC-066.cite.EV-59",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-066",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-59",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-066.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-066",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-066.cast.CH-25",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-066",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-25",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-067",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "水浴びの最中に雌のヤフーに抱きつかれる"
+      }
+     },
+     {
+      "id": "SC-067.cite.EV-60",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-067",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-60",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-067.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-067",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-067.cast.CH-26",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-067",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-26",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-067.cast.CH-27",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-067",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-27",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-068",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "会議の決定を主人が告げる"
+      }
+     },
+     {
+      "id": "SC-068.cite.EV-61",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-068",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-61",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-068.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-068",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-068.cast.CH-25",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-068",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-25",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-069",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "ヤフーの皮で小舟を作る"
+      }
+     },
+     {
+      "id": "SC-069.cite.EV-62",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-069",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-62",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-069.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-069",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-069.cast.CH-26",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-069",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-26",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-070",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "主人の蹄に口づけし、国を発つ"
+      }
+     },
+     {
+      "id": "SC-070.cite.EV-63",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-070",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-63",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-070.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-070",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-070.cast.CH-25",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-070",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-25",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-070.cast.CH-26",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-070",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-26",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-071",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "ポルトガル船に連れ戻される"
+      }
+     },
+     {
+      "id": "SC-071.cite.EV-64",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-071",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-64",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-071.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-071",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-071.cast.CH-28",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-071",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-28",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-072",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "リスボン、ペドロ船長の家"
+      }
+     },
+     {
+      "id": "SC-072.cite.EV-65",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-072",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-65",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-072.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-072",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-072.cast.CH-28",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-072",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-28",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-073",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "妻の口づけに気を失う"
+      }
+     },
+     {
+      "id": "SC-073.cite.EV-66",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-073",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-66",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-073.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-073",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-073.cast.CH-10",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-073",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-10",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-074",
+      "values": {
+       "tl1.row": "scene",
+       "tl1.label": "結び：高慢なヤフーだけは我慢できない"
+      }
+     },
+     {
+      "id": "SC-074.cite.EV-67",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-074",
+       "tl1.ref.artifact": "gms-ledger",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "4b352fbdc58dfd48d67a208cc485f550237e1e7e5e9d3c9e60c93076f652ede0",
+       "tl1.ref.item": "EV-67",
+       "tl1.ref.facet": "whole"
+      }
+     },
+     {
+      "id": "SC-074.cast.CH-01",
+      "values": {
+       "tl1.row": "cite",
+       "tl1.subject": "SC-074",
+       "tl1.ref.artifact": "gms-characters",
+       "tl1.ref.version": "story-v1",
+       "tl1.ref.hash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73",
+       "tl1.ref.item": "CH-01",
+       "tl1.ref.facet": "whole"
+      }
+     }
+    ]
+   },
+   "contentHash": "d5ed4340b66c7d54675daf37134170cab24749a823e8a34e4f4b208df02821fd"
+  }
+ ]
+}
