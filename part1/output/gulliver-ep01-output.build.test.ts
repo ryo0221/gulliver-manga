@@ -7,7 +7,7 @@ import type { Artifact } from '@editor-platform/artifact-core';
 import { captureDesignPages } from '@editor-platform/design/pagination';
 import type { DesignContent } from '@editor-platform/design/model';
 import { READ_VERSIONS } from './gulliver-ep01-read';
-import { buildGulliverEp01Output, type Outputs } from './gulliver-ep01-output';
+import { buildGulliverEp01Output, colophonHtml, type Outputs } from './gulliver-ep01-output';
 
 const FINISH = process.env.GM_FINISH ?? new URL('./gulliver-ep01-finish/', import.meta.url).pathname;
 
@@ -26,6 +26,8 @@ test('episode 1 output comes from the fixed version the read-through read', asyn
     mkdirSync(`${out}/pages`, { recursive: true });
     capture.pages.forEach((p, i) => writeFileSync(`${out}/pages/page-${String(i + 1).padStart(2, '0')}.svg`, p.svg));
     writeFileSync(`${out}/pages/manifest.json`, JSON.stringify(capture.manifest, null, 1));
+    // The 奥付 with the AI disclosure goes at the end of the episode (export-ep.mjs renders it last).
+    writeFileSync(`${out}/pages/colophon.html`, colophonHtml());
   }
   const outputsPath = process.env.GM_OUTPUTS;
   if (outputsPath && existsSync(`${outputsPath}/outputs.json`)) {
@@ -33,7 +35,9 @@ test('episode 1 output comes from the fixed version the read-through read', asyn
     // Every output names the fixed version as its source.
     expect(outputs.source.artifactId).toBe('gm1-ep01-finish');
     expect(outputs.source.versionId).toBe(fixed.version);
-    expect(outputs.files.filter((f) => f.format === 'PNG').length).toBe(16);
+    expect(outputs.files.filter((f) => f.format === 'PNG' && typeof f.page === 'number').length).toBe(16);
+    expect(outputs.files.filter((f) => f.page === 'colophon').length).toBe(1);
+    expect(outputs.files.find((f) => f.format === 'PDF')!.pages).toBe(17);
     expect(outputs.files.filter((f) => f.format === 'PDF').length).toBe(1);
     const artifacts = await buildGulliverEp01Output(outputs);
     if (out) {

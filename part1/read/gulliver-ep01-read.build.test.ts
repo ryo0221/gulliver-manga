@@ -32,9 +32,12 @@ test('episode 1 編集の記録 records the fixed version and ties every finding
     expect(f.text.length, f.id).toBeGreaterThan(5);
     expect(f.reason.length, f.id).toBeGreaterThan(5);
     // A finding that was fixed names the version it was fixed in (and that version was read again).
-    if (f.decision === '直す' && f.by === '作者') expect(f.fixedIn, f.id).toBeTruthy();
-    // The AI does not decide: its findings wait for the author unless they only record an intent.
-    if (f.by === 'AI') expect(['作者の判断待ち', '意図として残す'], f.id).toContain(f.decision);
+    if (f.decision === '直す') expect(f.fixedIn, f.id).toBeTruthy();
+    // The AI does not decide: an AI finding is fixed or left only by the author's decision (its reason says so);
+    // otherwise it waits for the author or only records an intent.
+    if (f.by === 'AI' && (f.decision === '直す' || f.decision === '直さない')) expect(f.reason, f.id).toMatch(/^作者の判断/);
+    // The fixed version is the one this record reads.
+    if (f.fixedIn && f.by === 'AI') expect(f.fixedIn, f.id).toContain(READ_VERSIONS[0].version);
   }
   expect(VERDICT.status.length).toBeGreaterThan(0);
 

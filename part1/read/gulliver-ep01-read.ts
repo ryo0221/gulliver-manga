@@ -12,12 +12,14 @@ import type { StructuredData } from '@editor-platform/structured-data/model';
 
 /** 通読した固定した版（read.fixed-version）。仕上げと写植の版を、そのまま通して読んだ。 */
 export const READ_VERSIONS = [
-  { artifact: 'gm1-ep01-finish', version: 'finish-ep01-v2', what: '第1話「人の山」仕上げ（16ページ、Design）' },
-  { artifact: 'gm1-ep01-lettering', version: 'finish-ep01-v2', what: '第1話 写植の記録' },
+  { artifact: 'gm1-ep01-finish', version: 'finish-ep01-v3', what: '第1話「人の山」仕上げ（16ページ、Design）' },
+  { artifact: 'gm1-ep01-lettering', version: 'finish-ep01-v3', what: '第1話 写植の記録' },
   { artifact: 'gm1-script-lines', version: 'script-v1', what: '第1部 脚本の行（台詞の全文の照合）' },
 ] as const;
-/** その版が入っている gulliver-manga のコミット（PR #9 のマージ）。 */
-export const READ_COMMIT = 'b520265b2e3d8c14353cb364eb3daefdd81fd921';
+/** その版が入っている gulliver-manga のコミット（通読の指摘を直したコミット）。 */
+export const READ_COMMIT = 'e0136eec628b83a5b8d53785347e6246efe6e12d';
+/** はじめに通読した版（直す前）。 */
+export const FIRST_READ = { finish: 'gm1-ep01-finish@finish-ep01-v2', commit: 'b520265b2e3d8c14353cb364eb3daefdd81fd921' };
 
 export type Decision = '直す' | '直さない' | '意図として残す' | '作者の判断待ち';
 export type Finding = {
@@ -64,17 +66,19 @@ export const FINDINGS: Finding[] = [
     by: 'AI',
     when: '2026-11-14 通読',
     text: '扉：胸の上の小人が弓の先しか見えず、題のコマで大きさの違い（AR-05）が伝わらない。',
-    decision: '作者の判断待ち',
-    reason: '提案：直す。ネームの舞台のカメラを胸の上の小人の後ろへ引き、小人の背中と弓を手前に入れて、ラフから描き直す（ラフ・線画・仕上げのやり直し）。',
+    decision: '直す',
+    reason: '作者の判断（2026-11-14「おすすめです直して」、提案どおり）：直す。舞台のカメラを胸の上の小人の後ろの少し上（胸から 300 mm）へ引き、ラフ・線画・仕上げを描き直した。手前に弓を引く小人たちの背中、奥にガリヴァーの顔。',
+    fixedIn: 'gm1-ep01-finish@finish-ep01-v3（線画 ink-ep01-v3、ラフ rough-ep01-v2）',
   },
   {
     id: 'RV-e01-04',
-    target: 'e01-p09-k2 e01-p12-k2',
+    target: 'e01-p09-k2 e01-p12-k3',
     by: 'AI',
     when: '2026-11-14 通読',
-    text: '小人が大きすぎる：9-2 の弓を引く小人と、12-2 で顔の周りに集まる小人が、ガリヴァーの顔とほぼ同じ大きさに見える（AR-01：1/12）。',
-    decision: '作者の判断待ち',
-    reason: '提案：直す。12-2 は手前の小人の足もとがコマの外で、近さの見当がつかない。3D のカメラの絵（小人 146 mm）に合わせ、小人を顔の幅の 1/4 ほどまで小さく描き直す。9-2 は手前の近さで説明できるので、直さなくてもよい。',
+    text: '小人が大きすぎる：9-2 の弓を引く小人と、12-3 で顔の周りに集まる小人が、ガリヴァーの顔とほぼ同じ大きさに見える（AR-01：1/12）。',
+    decision: '直す',
+    reason: '作者の判断（2026-11-14「おすすめです直して」、提案どおり）：12ページ3コマ（胸の上で踊る小人たち）を直す。小人を実寸（1/12）で線画から描き直し、塗り直した。9-2 は手前の近さで説明できるので直していない。',
+    fixedIn: 'gm1-ep01-finish@finish-ep01-v3（線画 ink-ep01-v3、ラフ rough-ep01-v2）',
   },
   {
     id: 'RV-e01-05',
@@ -82,8 +86,9 @@ export const FINDINGS: Finding[] = [
     by: 'AI',
     when: '2026-11-14 通読',
     text: '髪を留める杭が木の色でなく草の緑になっている。',
-    decision: '作者の判断待ち',
-    reason: '提案：直す。仕上げの塗り（LY-05）で杭の色だけを木の茶色に塗り直す（線画はそのまま）。',
+    decision: '直す',
+    reason: '作者の判断（2026-11-14「おすすめです直して」、提案どおり）：直す。仕上げの塗りで、杭の中の小さな領域だけを木の茶色に塗り直した（finish-assets.py の REGION_FIX、線画はそのまま）。',
+    fixedIn: 'gm1-ep01-finish@finish-ep01-v3（線画 ink-ep01-v3、ラフ rough-ep01-v2）',
   },
   {
     id: 'RV-e01-06',
@@ -91,8 +96,8 @@ export const FINDINGS: Finding[] = [
     by: 'AI',
     when: '2026-11-14 仕上げ',
     text: '影がほとんど無いコマがある（仕上げのページ表の「影の無いコマ」）。',
-    decision: '作者の判断待ち',
-    reason: '提案：直さない。昼の外の引きで、影が無くても読める。影は塗りに残っている。',
+    decision: '直さない',
+    reason: '作者の判断（2026-11-14「おすすめです直して」、提案どおり）：直さない。昼の外の引きで、影が無くても読める。',
   },
   {
     id: 'RV-e01-07',
@@ -100,8 +105,9 @@ export const FINDINGS: Finding[] = [
     by: 'AI',
     when: '2026-11-14 線画',
     text: '15-1 は左脚だけが鎖につながれているのに、15-2 では両脚に鎖がある。',
-    decision: '作者の判断待ち',
-    reason: '提案：直す。本文は左脚に鎖（36の南京錠）。15-2 の右脚の鎖を線画（LY-07）から消し、仕上げの塗りも合わせる。',
+    decision: '直す',
+    reason: '作者の判断（2026-11-14「おすすめです直して」、提案どおり）：直す。15-2 を線画から描き直し、鎖を左脚だけにして（南京錠つき）、塗り直した。',
+    fixedIn: 'gm1-ep01-finish@finish-ep01-v3（線画 ink-ep01-v3、ラフ rough-ep01-v2）',
   },
   {
     id: 'RV-e01-08',
@@ -109,8 +115,8 @@ export const FINDINGS: Finding[] = [
     by: 'AI',
     when: '2026-11-14 通読',
     text: '神殿の門の前に立つガリヴァーが、門と同じくらいの背に見える。門は本文で高さ4フィート（1,219 mm）、ガリヴァーは 1,750 mm。',
-    decision: '作者の判断待ち',
-    reason: '提案：直さない。カメラが塔の上で遠く、門はガリヴァーの胸ほどに見えている。気になるなら線画で門を少し低く描き直す。',
+    decision: '直さない',
+    reason: '作者の判断（2026-11-14「おすすめです直して」、提案どおり）：直さない。カメラが塔の上で遠く、門はガリヴァーの胸ほどに見えている。',
   },
   {
     id: 'RV-e01-09',
@@ -118,8 +124,9 @@ export const FINDINGS: Finding[] = [
     by: 'AI',
     when: '2026-11-14 通読',
     text: '寝顔の大写しで、コマの右上が白い地のまま（背景を描き足した5コマと同じ様子）。',
-    decision: '作者の判断待ち',
-    reason: '提案：直す。夜の草地と星空を線画（LY-04）に描き足し、塗りを作り直す（RV-e01-02 と同じ手順）。',
+    decision: '直す',
+    reason: '作者の判断（2026-11-14「おすすめです直して」、提案どおり）：直す。夜空と星、草を線画（LY-04）に描き足し、夜の色で塗り直した。',
+    fixedIn: 'gm1-ep01-finish@finish-ep01-v3（線画 ink-ep01-v3、ラフ rough-ep01-v2）',
   },
   {
     id: 'RV-e01-10',
@@ -139,19 +146,29 @@ export const FINDINGS: Finding[] = [
     decision: '意図として残す',
     reason: '脚本どおりの語りの仕掛け（構成図 FS-01、第24話で同じシーンを再び出して閉じる）。めくりの頭（3ページ）で年号のナレーションが入る。',
   },
+  // ---- 直した版（finish-ep01-v3）の見直し
+  {
+    id: 'RV-e01-12',
+    target: 'e01-p12-k3',
+    by: 'AI',
+    when: '2026-11-14 直した版の見直し',
+    text: '描き直した 12-3 で、ネームの覚え書きの「放り投げた樽」がコマの上の外に出て見えない。',
+    decision: '作者の判断待ち',
+    reason: '提案：直さない。台詞とナレーションは樽に触れておらず、前のコマ（12-2）で樽から飲んでいる。',
+  },
 ];
 
 /** 完成とするかの判断（作者）。作者が決めるまでは AI の見立てを書いておく。 */
 export const VERDICT = {
   status: '作者の判断待ち',
   proposal:
-    '提案：RV-e01-03・04・05・07・09 を直してから完成とする。直すのはどれも線画か仕上げのコマ単位の直しで、ページ割りと台詞は変わらない。直した後の版を見直して、この記録の「通読した版」を新しい版にする。',
+    '提案：完成とする。RV-e01-03・04・05・07・09 を直した版（finish-ep01-v3）を1ページ目から読み直し、直した5コマで新しく気になったのは RV-e01-12 だけ（提案は直さない）。完成と決めるのは作者。',
 };
 
 // ---------------------------------------------------------------- 資料
 
 const stamp = '2026-11-14T00:00:00.000Z';
-const VERSION = 'read-ep01-v1';
+const VERSION = 'read-ep01-v2';
 async function native(kind: string, id: string, name: string, content: unknown) {
   const artifact: Artifact<unknown> = {
     schemaVersion: 1,
@@ -214,7 +231,7 @@ function readDocument() {
   p('工程定義 fiction-manga@1.3.0 の「通読」の成果物。指摘の判断と、完成とするかの判断は作者。AI の指摘は提案で、作者が決めるまで「作者の判断待ち」。');
   h(2, '通読した版');
   for (const v of READ_VERSIONS) p(`${v.what}：${v.artifact}@${v.version}`);
-  p(`gulliver-manga のコミット ${READ_COMMIT.slice(0, 8)}（PR #9 のマージ）。ページは part1/finish/pages/page-01〜16.jpg。`);
+  p(`gulliver-manga のコミット ${READ_COMMIT.slice(0, 8)}（通読の指摘を直したコミット）。ページは part1/finish/pages/page-01〜16.jpg。はじめの通読は ${FIRST_READ.finish}（コミット ${FIRST_READ.commit.slice(0, 8)}）を読み、指摘を直した版を読み直した。`);
   h(2, '指摘');
   p('指摘ごとの表は gm1-ep01-read-findings（1指摘1行）。');
   for (const f of FINDINGS) {

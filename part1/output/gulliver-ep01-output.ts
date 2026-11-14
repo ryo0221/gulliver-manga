@@ -9,14 +9,14 @@ import { contentHash, type Artifact } from '@editor-platform/artifact-core';
 import type { StructuredData } from '@editor-platform/structured-data/model';
 import { READ_COMMIT, READ_VERSIONS } from './gulliver-ep01-read';
 
-export type OutputFile = { file: string; format: 'PNG' | 'PDF'; page?: number; pages?: number; width?: number; height?: number; pointSize?: [number, number]; bytes: number; sha256: string };
+export type OutputFile = { file: string; format: 'PNG' | 'PDF'; page?: number | 'colophon'; pages?: number; colophon?: boolean; width?: number; height?: number; pointSize?: [number, number]; bytes: number; sha256: string };
 export type Outputs = { name: string; scale: number; source: { artifactId: string; versionId: string; contentHash: string }; files: OutputFile[] };
 
-/** 書誌情報と紹介文（AI の草案。題・著者名・紹介文は作者が決める）。 */
+/** 書誌情報と紹介文（AI の草案。著者名は作者が決めた（2026-11-14）。題・紹介文は作者の確認待ち）。 */
 export const BIBLIO = {
   title: 'ガリヴァー旅行記　第1話「人の山」',
   series: 'ガリヴァー旅行記（全4部・24話）第1部 リリパット 第1話',
-  author: '作者の確認待ち（作者名）',
+  author: 'ナナシ　アイ',
   original: 'ジョナサン・スウィフト『ガリヴァー旅行記』（1726年）。本文は Project Gutenberg #829 の英語の原文から新しく訳した。',
   synopsis:
     '1699年、船医ガリヴァーはブリストルを出て南の海へ向かう。嵐で船は砕け、ひとり泳ぎ着いた浜で眠り込む。目を覚ますと、全身が細い紐で地面に留められ、胸の上を身の丈6インチの小人たちが歩いていた。矢の雨、食べ物の籠、そして運搬機で都の外の古い神殿へ。鎖につながれた「人の山」を、塔の上から皇帝が見下ろす。',
@@ -33,6 +33,28 @@ export const AI_ROLES: { phase: string; asked: string; adopted: string }[] = [
   { phase: '仕上げと写植', asked: '色の見本（Codex）を線画に合わせ、塗りと影に分けた。脚本の行を吹き出しと枠に置いた', adopted: 'LY-03 背景の塗り、LY-05 人物の塗り、LY-06 影、LY-09 吹き出し、LY-10 文字' },
   { phase: '通読', asked: '固定した版の通読と指摘の草案', adopted: '指摘の判断と完成の判断は作者（gm1-ep01-read）' },
 ];
+
+const esc = (t: string) => t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+/** 奥付（話の最後のページ）：書誌情報と AI の関わり。出口の規定「各話の最後に AI の関わりを記す」。 */
+export function colophonHtml() {
+  const rows = AI_ROLES.map((r) => `<tr><th>${esc(r.phase)}</th><td>${esc(r.asked)}。<br><span>採ったもの：${esc(r.adopted)}</span></td></tr>`).join('');
+  return `<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>
+body{margin:0;width:800px;height:1180px;background:#fff;color:#1d1d1f;font-family:"Noto Sans CJK JP","Noto Sans JP",sans-serif}
+.w{box-sizing:border-box;width:800px;height:1180px;padding:70px 64px;display:flex;flex-direction:column;gap:18px}
+h1{font-size:30px;margin:0}h2{font-size:17px;margin:14px 0 4px;border-bottom:1px solid #999;padding-bottom:4px}
+p{font-size:14px;line-height:1.7;margin:0}table{border-collapse:collapse;font-size:12.5px;line-height:1.55}
+th{text-align:left;vertical-align:top;white-space:nowrap;padding:5px 14px 5px 0;font-weight:600}td{padding:5px 0}td span{color:#555}
+.f{margin-top:auto;font-size:12px;color:#555}
+</style></head><body><div class="w">
+<h1>${esc(BIBLIO.title)}</h1>
+<p>${esc(BIBLIO.series)}<br>著者：${esc(BIBLIO.author)}</p>
+<p>原作：${esc(BIBLIO.original)}</p>
+<h2>AI の関わり</h2>
+<p>この話は、作者が決めた筋・コマ割り・判断のもとで、絵の多くを AI の画像生成で作りました。工程ごとに AI に頼んだことと、採ったものは次のとおりです。</p>
+<table>${rows}</table>
+<p class="f">人物の大きさと配置は、実寸の 3D の舞台（デジタルツイン）で確かめています。</p>
+</div></body></html>`;
+}
 
 const stamp = '2026-11-14T00:00:00.000Z';
 const VERSION = 'output-ep01-v1';
@@ -69,10 +91,12 @@ function outputTable(outputs: Outputs): StructuredData {
     rows.push({ id, values: { 'or.section': section, 'or.item': item, 'or.value': value, 'or.source': source } });
   // 出力物：レイヤーを残した元の原稿と、まとめた出力物を分ける。
   row('OR-e01-01', '出力物', '元の原稿（レイヤーを残す）', `${fixed.what}。Design（漫画ワークスペース）、コマごとに LY-03〜LY-10 のレイヤーのグループ。part1/finish/artifacts/gm1-ep01-finish.artifact.json`, `${fixed.artifact}@${fixed.version}`);
-  const pngs = outputs.files.filter((f) => f.format === 'PNG');
+  const pngs = outputs.files.filter((f) => f.format === 'PNG' && typeof f.page === 'number');
+  const colophon = outputs.files.find((f) => f.page === 'colophon');
   row('OR-e01-02', '出力物', 'PNG（ページごと）', `${pngs.length}枚、${pngs[0]!.width}×${pngs[0]!.height} px（原稿の枠 800×1180 の ${outputs.scale} 倍）。${pngs.map((f) => `${f.file} sha256:${f.sha256.slice(0, 12)}`).join('、')}`, src);
+  if (colophon) row('OR-e01-03b', '出力物', '奥付（話の最後のページ）', `${colophon.file}、${colophon.width}×${colophon.height} px。書誌情報と AI の関わり（この表の「AI の関わり」と同じ中身）。sha256:${colophon.sha256.slice(0, 12)}`, src);
   for (const f of outputs.files.filter((x) => x.format === 'PDF'))
-    row('OR-e01-03', '出力物', 'PDF（話ごと）', `${f.file}、${f.pages}ページ、${f.pointSize!.join('×')} pt。書き出しの元の版（references.json）を添付。sha256:${f.sha256.slice(0, 12)}、${Math.round(f.bytes / 1024)} KB`, src);
+    row('OR-e01-03', '出力物', 'PDF（話ごと）', `${f.file}、${f.pages}ページ（漫画16ページ${f.colophon ? '＋奥付' : ''}）、${f.pointSize!.join('×')} pt。書き出しの元の版（references.json）を添付。sha256:${f.sha256.slice(0, 12)}、${Math.round(f.bytes / 1024)} KB`, src);
   row('OR-e01-04', '出力物', '判型', '原稿の枠は 800×1180（縦横比 1:1.475）。企画の「A4縦」（1:1.414）より縦長で、PDF のページは 600×885 pt（A4 は 595×842 pt）。A4 に合わせるかは作者が決める。');
   // 書誌情報と紹介文
   row('OR-e01-05', '書誌情報と紹介文', '題', BIBLIO.title);
