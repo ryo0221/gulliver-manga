@@ -1,0 +1,16 @@
+Use your image generation tool. Make ONE image: the same manga line art as the FIRST attached image, with its background drawn in.
+The FIRST attached image is the approved line art of one comic panel. Its background was left empty (plain white). Keep EVERY existing line exactly where it is and as it is: the same composition, camera, figures, poses, faces, sizes and positions; do not move, redraw, restyle, add or remove any person or animal. Only draw the background into the white areas behind the figures.
+The SECOND attached image is the 3D layout render of the same camera: use it for the horizon and the perspective of the background.
+
+THE BACKGROUND TO DRAW:
+Inside an English country stable, a quiet morning (scene SC-001, the same stable as the panels before and after). Behind the horse's head and the man: the stable's vertical wooden plank wall, a thick upright post and a beam, a wooden hay rack with hay, and the floor covered with loose straw (the floor is straw on packed earth, not a meadow: redraw the old ground hatching as straw). This is INDOORS: no sky and no clouds anywhere; above the plank wall draw the roof's sloping rafters and the boards of the roof's underside, in shade (fine hatching).
+
+INK COLOURS (the colours mark the layers; they are separated afterwards):
+- keep the PURE BLACK lines (#000000) of the people and animals as they are;
+- draw the whole background in PURE BLUE lines (#0000FF): clean manga pen lines with varied weight, fine line hatching for shade, more detail near the camera and simpler far away;
+- keep any PURE RED lines (#FF0000) as they are and add no new red.
+Lines only on pure white paper: no grey, no screentone, no solid fills, no colour other than these three. Where a figure overlaps the background, the background line stops at the figure's outline. The top of the panel may stay as open sky with only a few cloud outlines; do not fill the sky with lines.
+No likeness to any film, game or existing illustration. No text, no letters, no speech balloons, no panel border, no signature, no watermark. The white bands at the edges of the FIRST image are padding outside the panel: continue the background into them.
+Portrait 1024x1536.
+
+After generating, copy the generated PNG to ./bg-raw.png in the current directory. Do not generate more than one image.

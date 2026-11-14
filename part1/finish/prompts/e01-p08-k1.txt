@@ -1,0 +1,18 @@
+Use your image generation tool. Make ONE image: the full-colour FINISH (仕上げ) of one manga panel, coloured over the attached line art.
+The FIRST attached image is the author's approved black line art of this panel. Keep every line exactly where it is, with the same shapes, sizes and composition: do not redraw, move, add or remove anything; only colour it in, like colouring the inked page. The white bands at the edges (if any) are outside the panel: leave them plain white.
+The SECOND attached image is the approved design of Gulliver (CH-01), in its approved colours: use those colours for that person or place.
+ Colouring style: clean anime-style cel colouring. Flat base colours inside the lines, plus ONE hard-edged darker shadow tone per colour (cel shadow) on the side away from the light; light from the upper left unless the scene says otherwise (night scenes: cool moonlight, warm lantern light). No gradients except in the sky and the sea, no texture, no screentone, no glow, no added lines, no text.
+Palette (art guide AR-04, AR-06): part 1 (Lilliput) is built on warm brick and grass greens; England and the sea in muted 18th-century colours. Gulliver: plain blue coat with BRASS buttons and NO gold trim or edging, tan breeches, white stockings, black shoes, brown hair tied back. Lilliputians: early-18th-century clothes in muted colours. Skin tones natural.
+No likeness to any film, game or existing illustration. No text, no letters, no speech balloons, no signature, no watermark.
+Landscape 1536x1024.
+
+Panel e01-p08-k1, page 8 panel 1, scene SC-004.
+Shot: 大寄り. Camera: ガリヴァーの側（顔や手の近く）, 520 mm above the ground; 目の真上から.
+What the panel shows (storyboard memo): 仰向けのガリヴァーの目が開く。空。
+Words in this panel (for the mood and the faces only, do NOT draw any text): (no words)
+Figures, placed by the 3D layout (as placed in the rough and the 3D layout: keep these places, facings and poses; draw each with a readable face direction, pose and expression):
+- FG-e01-p08-k1-01 ガリヴァー — Gulliver (CH-01): 1,750 mm, plain blue coat with brass buttons and NO gold trim, tan breeches, white stockings, black shoes, brown hair tied back; lying flat on his back; head at outside the frame, feet at outside the frame; 366 mm from the camera.
+Correction after the author's review (the first rough cut the face in half): the camera hangs about 35 cm straight above Gulliver's face. Draw his WHOLE face, complete and not cut, filling the central ~45% of the frame width: chin and coat collar at the TOP edge, forehead and hair at the BOTTOM edge (the face is seen upside-down from above, as in the 3D layout). Both eyes visible, the eyelids just opening, a little dazed. Short grass on both sides of the head, a few thin ropes over the hair pegged into the ground.
+Only the man's lines are given (the grass is left out on purpose): colour the man's face, hair, ears and collar, and fill everything around him with a plain grass green. He is lying calmly on his back on a meadow, seen from straight above, his head toward the bottom of the frame; it is a sunny morning and he has just woken up.
+
+After generating, copy the generated PNG to ./color-raw.png in the current directory. Do not generate more than one image.

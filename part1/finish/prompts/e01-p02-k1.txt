@@ -1,0 +1,20 @@
+Use your image generation tool. Make ONE image: the full-colour FINISH (仕上げ) of one manga panel, coloured over the attached line art.
+The FIRST attached image is the author's approved black line art of this panel. Keep every line exactly where it is, with the same shapes, sizes and composition: do not redraw, move, add or remove anything; only colour it in, like colouring the inked page. The white bands at the edges (if any) are outside the panel: leave them plain white.
+The SECOND attached image is the approved design of Gulliver (CH-01), in its approved colours: use those colours for that person or place.
+ Colouring style: clean anime-style cel colouring. Flat base colours inside the lines, plus ONE hard-edged darker shadow tone per colour (cel shadow) on the side away from the light; light from the upper left unless the scene says otherwise (night scenes: cool moonlight, warm lantern light). No gradients except in the sky and the sea, no texture, no screentone, no glow, no added lines, no text.
+Palette (art guide AR-04, AR-06): part 1 (Lilliput) is built on warm brick and grass greens; England and the sea in muted 18th-century colours. Gulliver: plain blue coat with BRASS buttons and NO gold trim or edging, tan breeches, white stockings, black shoes, brown hair tied back. Lilliputians: early-18th-century clothes in muted colours. Skin tones natural.
+No likeness to any film, game or existing illustration. No text, no letters, no speech balloons, no signature, no watermark.
+Square 1024x1024.
+
+Panel e01-p02-k1, page 2 panel 1, scene SC-001.
+Shot: 中. Camera: 英国の人の目の高さ, 1600 mm above the ground; 厩の戸口の内側から、馬と男を横から.
+What the panel shows (storyboard memo): 厩の中。二頭の若い馬に低い声で語りかける痩せた中年の男。戸口に妻メアリー。
+Words in this panel (for the mood and the faces only, do NOT draw any text): 台詞（ガリヴァー）：……今日も、あの家の連中の臭いがひどくてな。
+  台詞（ガリヴァー）：おまえたちと話している時だけだ、息ができるのは。
+Figures, placed by the 3D layout (as placed in the rough and the 3D layout: keep these places, facings and poses; draw each with a readable face direction, pose and expression):
+- FG-e01-p02-k1-01 ガリヴァー — Gulliver (CH-01): 1,750 mm, plain blue coat with brass buttons and NO gold trim, tan breeches, white stockings, black shoes, brown hair tied back; standing with hands clasped in front; head at middle-right of the frame (x 80%, y 35%), three-quarter back view, turned to frame left; 3413 mm from the camera.
+- FG-e01-p02-k1-02 馬（灰） — a young horse; standing; head at middle-left of the frame (x -1%, y 45%), facing the camera; 4680 mm from the camera.
+- FG-e01-p02-k1-03 馬（栗毛） — a young horse; standing; head at middle-centre of the frame (x 37%, y 44%), facing the camera; 5609 mm from the camera.
+- FG-e01-p02-k1-04 メアリー — Mary, Gulliver's wife (CH-10): plain dark early-18th-century house dress, white apron and cap, practical; standing with hands clasped in front; outside the frame (at most a cut-off sliver at the frame edge), three-quarter view toward the camera, turned to frame left; 3043 mm from the camera.
+
+After generating, copy the generated PNG to ./color-raw.png in the current directory. Do not generate more than one image.

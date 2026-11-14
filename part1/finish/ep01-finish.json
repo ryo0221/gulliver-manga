@@ -1,0 +1,3960 @@
+{
+ "schemaVersion": 1,
+ "episode": 1,
+ "generatedAt": "2026-11-14",
+ "panels": {
+  "e01-p01-k1": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p01-k1-LY-03.webp",
+     "bytes": 13824
+    },
+    "LY-05": {
+     "image": "layers/e01-p01-k1-LY-05.webp",
+     "bytes": 37560,
+     "share": 0.81
+    },
+    "LY-06": {
+     "image": "layers/e01-p01-k1-LY-06.webp",
+     "bytes": 6888,
+     "share": 0.018
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p01-k1-LY-04.webp",
+     "from": "part1/ink/layers/e01-p01-k1-LY-04.png",
+     "bytes": 5136
+    },
+    "LY-07": {
+     "image": "lines/e01-p01-k1-LY-07.webp",
+     "from": "part1/ink/layers/e01-p01-k1-LY-07.png",
+     "bytes": 40802
+    },
+    "LY-08": {
+     "image": "lines/e01-p01-k1-LY-08.webp",
+     "from": "part1/ink/layers/e01-p01-k1-LY-08.png",
+     "bytes": 62
+    }
+   },
+   "review": "panels/e01-p01-k1.jpg",
+   "prompt": "prompts/e01-p01-k1.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da82-1e57-7a41-8d7a-7513a3e7f8ab",
+   "rawSha256": "710110a3880ef28d196a2e1156aa3e2b2b163a55f1582c6bba31686f38c09c04",
+   "rawSize": [
+    1254,
+    1254
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p01-k1-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "73bbe395b854fd739e1d30f5f03cfe5d6ac4ebea2517df0b1aa75e4e47b898dd"
+    },
+    {
+     "path": "part1/ink/layers/e01-p01-k1-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "36b98dff731c34cbba510d168df6e20b042664b75ee7d07da7cad6168e7d0b9f"
+    },
+    {
+     "path": "part1/ink/layers/e01-p01-k1-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "6e271fcfd3018c8bbd5fdfb0abc47b2d2cf1500399babae71ce99b4a8fa82f7c"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
+    }
+   ]
+  },
+  "e01-p01-k2": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p01-k2-LY-03.webp",
+     "bytes": 24256
+    },
+    "LY-05": {
+     "image": "layers/e01-p01-k2-LY-05.webp",
+     "bytes": 4996,
+     "share": 0.021
+    },
+    "LY-06": {
+     "image": "layers/e01-p01-k2-LY-06.webp",
+     "bytes": 2022,
+     "share": 0.003
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p01-k2-LY-04.webp",
+     "from": "part1/ink/layers/e01-p01-k2-LY-04.png",
+     "bytes": 34036
+    },
+    "LY-07": {
+     "image": "lines/e01-p01-k2-LY-07.webp",
+     "from": "part1/ink/layers/e01-p01-k2-LY-07.png",
+     "bytes": 9392
+    },
+    "LY-08": {
+     "image": "lines/e01-p01-k2-LY-08.webp",
+     "from": "part1/ink/layers/e01-p01-k2-LY-08.png",
+     "bytes": 54
+    }
+   },
+   "review": "panels/e01-p01-k2.jpg",
+   "prompt": "prompts/e01-p01-k2.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da82-1e3b-7020-9807-1f57110c069d",
+   "rawSha256": "923d2fe3872db43dffc5379f74c1e5759ef3f253cff792e56c6087805bd2dc3c",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p01-k2-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "bb7770623b22c8ce0129258039a2504c5fae48fe668d536c3a73c1be68c30d8f"
+    },
+    {
+     "path": "part1/ink/layers/e01-p01-k2-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "9fb0932554f21644684296afd67a92231a91b61d7d19aead44259cd86721e4de"
+    },
+    {
+     "path": "part1/ink/layers/e01-p01-k2-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "19726432e55930b738aaebec9d2945d5677e2f5bafc5d59c7dd75206e378a065"
+    }
+   ]
+  },
+  "e01-p02-k1": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p02-k1-LY-03.webp",
+     "bytes": 31418
+    },
+    "LY-05": {
+     "image": "layers/e01-p02-k1-LY-05.webp",
+     "bytes": 24996,
+     "share": 0.393
+    },
+    "LY-06": {
+     "image": "layers/e01-p02-k1-LY-06.webp",
+     "bytes": 9556,
+     "share": 0.021
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p02-k1-LY-04.webp",
+     "from": "part1/ink/layers/e01-p02-k1-LY-04.png",
+     "bytes": 18454
+    },
+    "LY-07": {
+     "image": "lines/e01-p02-k1-LY-07.webp",
+     "from": "part1/ink/layers/e01-p02-k1-LY-07.png",
+     "bytes": 39144
+    },
+    "LY-08": {
+     "image": "lines/e01-p02-k1-LY-08.webp",
+     "from": "part1/ink/layers/e01-p02-k1-LY-08.png",
+     "bytes": 66
+    }
+   },
+   "review": "panels/e01-p02-k1.jpg",
+   "prompt": "prompts/e01-p02-k1.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da82-1e20-7e53-abc2-cfa56d64524d",
+   "rawSha256": "4af10ba2cc756d82ba2ca49c8f736ef7375642e92b6cad9b0d853fba6d2f223c",
+   "rawSize": [
+    1024,
+    1024
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p02-k1-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "3e039468194d19abafc6eb20f3c82e0e64ab37b152e16fb616378f6979928c81"
+    },
+    {
+     "path": "part1/ink/layers/e01-p02-k1-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "3251b9919e754185096115c6f8790ec9728bfe31e0dc635144cb4405b9c10c0d"
+    },
+    {
+     "path": "part1/ink/layers/e01-p02-k1-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "b35bf78de8c5b1c302a6b1d935f8a055891417327091b9752fe6902ce5d99ee6"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ]
+  },
+  "e01-p02-k2": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p02-k2-LY-03.webp",
+     "bytes": 22388
+    },
+    "LY-05": {
+     "image": "layers/e01-p02-k2-LY-05.webp",
+     "bytes": 5976,
+     "share": 0.117
+    },
+    "LY-06": {
+     "image": "layers/e01-p02-k2-LY-06.webp",
+     "bytes": 6090,
+     "share": 0.087
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p02-k2-LY-04.webp",
+     "from": "part1/ink/layers/e01-p02-k2-LY-04.png",
+     "bytes": 25130
+    },
+    "LY-07": {
+     "image": "lines/e01-p02-k2-LY-07.webp",
+     "from": "part1/ink/layers/e01-p02-k2-LY-07.png",
+     "bytes": 5554
+    },
+    "LY-08": {
+     "image": "lines/e01-p02-k2-LY-08.webp",
+     "from": "part1/ink/layers/e01-p02-k2-LY-08.png",
+     "bytes": 280
+    }
+   },
+   "review": "panels/e01-p02-k2.jpg",
+   "prompt": "prompts/e01-p02-k2.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1daac-5eb9-7801-8216-4e940e73bab2",
+   "rawSha256": "88bdaf29dbaa5fc8c14211ae7cb81bbe56289a3af153637e0341f6be466f7682",
+   "rawSize": [
+    1024,
+    1536
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p02-k2-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "e121607c3db465ad0ac65f8fb11d1036b8773a6bd770daa81116c4d8e66912fb"
+    },
+    {
+     "path": "part1/ink/layers/e01-p02-k2-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "84546df8be89a9569128cec8a9395ce2ab7d8bedb79944ba3cd55e1c2191c8d6"
+    },
+    {
+     "path": "part1/ink/layers/e01-p02-k2-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "3ab79cbe5d9eeb5b0fbec6654873ae966dcfd53bd0166292c40081bf92fc03a3"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ]
+  },
+  "e01-p02-k3": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p02-k3-LY-03.webp",
+     "bytes": 12654
+    },
+    "LY-05": {
+     "image": "layers/e01-p02-k3-LY-05.webp",
+     "bytes": 18166,
+     "share": 0.432
+    },
+    "LY-06": {
+     "image": "layers/e01-p02-k3-LY-06.webp",
+     "bytes": 5078,
+     "share": 0.015
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p02-k3-LY-04.webp",
+     "from": "part1/ink/layers/e01-p02-k3-LY-04.png",
+     "bytes": 19714
+    },
+    "LY-07": {
+     "image": "lines/e01-p02-k3-LY-07.webp",
+     "from": "part1/ink/layers/e01-p02-k3-LY-07.png",
+     "bytes": 25168
+    },
+    "LY-08": {
+     "image": "lines/e01-p02-k3-LY-08.webp",
+     "from": "part1/ink/layers/e01-p02-k3-LY-08.png",
+     "bytes": 58
+    }
+   },
+   "review": "panels/e01-p02-k3.jpg",
+   "prompt": "prompts/e01-p02-k3.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da82-1df9-7bd1-bb79-81ef80a1a389",
+   "rawSha256": "285c21707db2c0b7378b4f9550a39c80b4393a4931c5c0ded8854fe82c63052e",
+   "rawSize": [
+    1254,
+    1254
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p02-k3-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "326b4a999ef57e8af024fbc7c7082491f4bc965b527cc7b899a68741a0390778"
+    },
+    {
+     "path": "part1/ink/layers/e01-p02-k3-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "bc4d61b10f4298733477543055489eb2e1b2227406475bc7b3e24d5b525a4e2a"
+    },
+    {
+     "path": "part1/ink/layers/e01-p02-k3-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "8308d61419d4ee645deb99d19cb97f09cc11f8d148a0f663984545c61000caa1"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ]
+  },
+  "e01-p02-k4": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p02-k4-LY-03.webp",
+     "bytes": 10736
+    },
+    "LY-05": {
+     "image": "layers/e01-p02-k4-LY-05.webp",
+     "bytes": 15556,
+     "share": 0.527
+    },
+    "LY-06": {
+     "image": "layers/e01-p02-k4-LY-06.webp",
+     "bytes": 7714,
+     "share": 0.038
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p02-k4-LY-04.webp",
+     "from": "part1/ink/layers/e01-p02-k4-LY-04.png",
+     "bytes": 7744
+    },
+    "LY-07": {
+     "image": "lines/e01-p02-k4-LY-07.webp",
+     "from": "part1/ink/layers/e01-p02-k4-LY-07.png",
+     "bytes": 21250
+    },
+    "LY-08": {
+     "image": "lines/e01-p02-k4-LY-08.webp",
+     "from": "part1/ink/layers/e01-p02-k4-LY-08.png",
+     "bytes": 58
+    }
+   },
+   "review": "panels/e01-p02-k4.jpg",
+   "prompt": "prompts/e01-p02-k4.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da82-ebfb-7142-b54a-5ebfdb4c3dbf",
+   "rawSha256": "6ee63f062f4d840b711821ba4d77ac253c0a243849472e09953e66618491b393",
+   "rawSize": [
+    1254,
+    1254
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p02-k4-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "e4284828b6ce39966d65371ccb0dee2d9fa8d7e026c7841a4e6c543cbe66f453"
+    },
+    {
+     "path": "part1/ink/layers/e01-p02-k4-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "1a92bea4ff4e85f8df34d170c43b2cde0842741487a5bbcdc8ec54e20ec95a81"
+    },
+    {
+     "path": "part1/ink/layers/e01-p02-k4-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "8308d61419d4ee645deb99d19cb97f09cc11f8d148a0f663984545c61000caa1"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ]
+  },
+  "e01-p02-k5": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p02-k5-LY-03.webp",
+     "bytes": 10884
+    },
+    "LY-05": {
+     "image": "layers/e01-p02-k5-LY-05.webp",
+     "bytes": 6296,
+     "share": 0.089
+    },
+    "LY-06": {
+     "image": "layers/e01-p02-k5-LY-06.webp",
+     "bytes": 2200,
+     "share": 0.002
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p02-k5-LY-04.webp",
+     "from": "part1/ink/layers/e01-p02-k5-LY-04.png",
+     "bytes": 9668
+    },
+    "LY-07": {
+     "image": "lines/e01-p02-k5-LY-07.webp",
+     "from": "part1/ink/layers/e01-p02-k5-LY-07.png",
+     "bytes": 10052
+    },
+    "LY-08": {
+     "image": "lines/e01-p02-k5-LY-08.webp",
+     "from": "part1/ink/layers/e01-p02-k5-LY-08.png",
+     "bytes": 54
+    }
+   },
+   "review": "panels/e01-p02-k5.jpg",
+   "prompt": "prompts/e01-p02-k5.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da83-095a-7e82-9c77-fa05bd353dad",
+   "rawSha256": "aada78c82bb544126e9025ae7e3c781bcdc1026352405a90566368b9a54462f6",
+   "rawSize": [
+    1254,
+    1254
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p02-k5-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "93cdf747cd8c71afcf8296f97a507e56fa60d66083fcfb6af6277b355e943839"
+    },
+    {
+     "path": "part1/ink/layers/e01-p02-k5-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "50041f33d8e4d14c68509b4de82409134b0e6190b83577ddff3bef3facb67a54"
+    },
+    {
+     "path": "part1/ink/layers/e01-p02-k5-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "e67201e680c150e05482a7fc694300f4661ccb79c1ba48780fa4a8b7e25412c8"
+    }
+   ]
+  },
+  "e01-p02-k6": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p02-k6-LY-03.webp",
+     "bytes": 22890
+    },
+    "LY-05": {
+     "image": "layers/e01-p02-k6-LY-05.webp",
+     "bytes": 11366,
+     "share": 0.198
+    },
+    "LY-06": {
+     "image": "layers/e01-p02-k6-LY-06.webp",
+     "bytes": 4932,
+     "share": 0.024
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p02-k6-LY-04.webp",
+     "from": "part1/ink/layers/e01-p02-k6-LY-04.png",
+     "bytes": 29426
+    },
+    "LY-07": {
+     "image": "lines/e01-p02-k6-LY-07.webp",
+     "from": "part1/ink/layers/e01-p02-k6-LY-07.png",
+     "bytes": 21154
+    },
+    "LY-08": {
+     "image": "lines/e01-p02-k6-LY-08.webp",
+     "from": "part1/ink/layers/e01-p02-k6-LY-08.png",
+     "bytes": 66
+    }
+   },
+   "review": "panels/e01-p02-k6.jpg",
+   "prompt": "prompts/e01-p02-k6.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da83-10c8-75d0-b20c-703a86d49758",
+   "rawSha256": "a01c75a4fd9be23cf93de017255a8b6fb875afc9af6a303b9e60edb353859d17",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p02-k6-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "65cbf7a05a8bfb2faca665605c85e05c10bd581b8188f2008fa5df3ae74c3015"
+    },
+    {
+     "path": "part1/ink/layers/e01-p02-k6-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "2b127fd2c04c8a014832b3bbc9a245014420eca21152205a1690fbde82a8ce96"
+    },
+    {
+     "path": "part1/ink/layers/e01-p02-k6-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "7093092c1a4ad98e213edfe94221da6a263c5174d52c79f04ae0e3dc17d753e8"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ]
+  },
+  "e01-p03-k1": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p03-k1-LY-03.webp",
+     "bytes": 49858
+    },
+    "LY-05": {
+     "image": "layers/e01-p03-k1-LY-05.webp",
+     "bytes": 24772,
+     "share": 0.208
+    },
+    "LY-06": {
+     "image": "layers/e01-p03-k1-LY-06.webp",
+     "bytes": 2014,
+     "share": 0.001
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p03-k1-LY-04.webp",
+     "from": "part1/ink/layers/e01-p03-k1-LY-04.png",
+     "bytes": 70524
+    },
+    "LY-07": {
+     "image": "lines/e01-p03-k1-LY-07.webp",
+     "from": "part1/ink/layers/e01-p03-k1-LY-07.png",
+     "bytes": 40304
+    },
+    "LY-08": {
+     "image": "lines/e01-p03-k1-LY-08.webp",
+     "from": "part1/ink/layers/e01-p03-k1-LY-08.png",
+     "bytes": 68
+    }
+   },
+   "review": "panels/e01-p03-k1.jpg",
+   "prompt": "prompts/e01-p03-k1.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da7e-52ed-7e41-b09b-098c5444118e",
+   "rawSha256": "303025acfa4e11b221ae55ffd57aeafa96e39634433041575a86c23176884367",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p03-k1-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "3dce4fa57768438a6ea5f42966515d49c34ac5652aa0b3e96c57ae5427a51448"
+    },
+    {
+     "path": "part1/ink/layers/e01-p03-k1-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "3566094f35cdaa4da50848fc3b9faf9a92ce5f5c15c28a40131aa46c239c3272"
+    },
+    {
+     "path": "part1/ink/layers/e01-p03-k1-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0b60524335cd4bfa0b033a19693ce20851f6007616c825e1ec8bff5a1dbddf4b"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ]
+  },
+  "e01-p03-k2": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p03-k2-LY-03.webp",
+     "bytes": 11734
+    },
+    "LY-05": {
+     "image": "layers/e01-p03-k2-LY-05.webp",
+     "bytes": 11840,
+     "share": 0.573
+    },
+    "LY-06": {
+     "image": "layers/e01-p03-k2-LY-06.webp",
+     "bytes": 3348,
+     "share": 0.02
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p03-k2-LY-04.webp",
+     "from": "part1/ink/layers/e01-p03-k2-LY-04.png",
+     "bytes": 9428
+    },
+    "LY-07": {
+     "image": "lines/e01-p03-k2-LY-07.webp",
+     "from": "part1/ink/layers/e01-p03-k2-LY-07.png",
+     "bytes": 13130
+    },
+    "LY-08": {
+     "image": "lines/e01-p03-k2-LY-08.webp",
+     "from": "part1/ink/layers/e01-p03-k2-LY-08.png",
+     "bytes": 50
+    }
+   },
+   "review": "panels/e01-p03-k2.jpg",
+   "prompt": "prompts/e01-p03-k2.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da83-2ba4-76f1-bffe-56f49bc6f617",
+   "rawSha256": "15d43d2cf9a97b34571b247814d5fc0e1f583c1c38530caec9b4303eaf5b1062",
+   "rawSize": [
+    1024,
+    1536
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p03-k2-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "be4f93d101581c223f2e963245ced32043ee67ba2f889193b71a3e4f6f8c7799"
+    },
+    {
+     "path": "part1/ink/layers/e01-p03-k2-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "aab513c5378c8bdf8c993fb2ed1742239046f4295af9734944704c7e59b35694"
+    },
+    {
+     "path": "part1/ink/layers/e01-p03-k2-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "4d7754d547cb7cf21db75814ecad6eacd091c46c01914a111ef9a8b9c8a46b5b"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ]
+  },
+  "e01-p03-k3": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p03-k3-LY-03.webp",
+     "bytes": 8014
+    },
+    "LY-05": {
+     "image": "layers/e01-p03-k3-LY-05.webp",
+     "bytes": 12596,
+     "share": 0.556
+    },
+    "LY-06": {
+     "image": "layers/e01-p03-k3-LY-06.webp",
+     "bytes": 3682,
+     "share": 0.039
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p03-k3-LY-04.webp",
+     "from": "part1/ink/layers/e01-p03-k3-LY-04.png",
+     "bytes": 3270
+    },
+    "LY-07": {
+     "image": "lines/e01-p03-k3-LY-07.webp",
+     "from": "part1/ink/layers/e01-p03-k3-LY-07.png",
+     "bytes": 16124
+    },
+    "LY-08": {
+     "image": "lines/e01-p03-k3-LY-08.webp",
+     "from": "part1/ink/layers/e01-p03-k3-LY-08.png",
+     "bytes": 50
+    }
+   },
+   "review": "panels/e01-p03-k3.jpg",
+   "prompt": "prompts/e01-p03-k3.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da83-31ca-79d3-95e2-59380588b704",
+   "rawSha256": "94112c269638f6ca341b47b2c5ca9d2f8b033040fab49773ab823e95aee5e3c4",
+   "rawSize": [
+    1024,
+    1536
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p03-k3-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "a536c6c3c02f4a9752fe883f9e4525f2d0523ba922db5af0502e195119afd148"
+    },
+    {
+     "path": "part1/ink/layers/e01-p03-k3-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "79cbee08e387ad263f922dbf7533f44a17efdfb9a378bf4f44767ad427d15b7e"
+    },
+    {
+     "path": "part1/ink/layers/e01-p03-k3-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "d6db50ef3a911b6687c0dcf9da75c39ef1c01e0a8e3da97fd918cbf2ff7e359a"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ]
+  },
+  "e01-p03-k4": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p03-k4-LY-03.webp",
+     "bytes": 10488
+    },
+    "LY-05": {
+     "image": "layers/e01-p03-k4-LY-05.webp",
+     "bytes": 13150,
+     "share": 0.539
+    },
+    "LY-06": {
+     "image": "layers/e01-p03-k4-LY-06.webp",
+     "bytes": 3392,
+     "share": 0.016
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p03-k4-LY-04.webp",
+     "from": "part1/ink/layers/e01-p03-k4-LY-04.png",
+     "bytes": 8388
+    },
+    "LY-07": {
+     "image": "lines/e01-p03-k4-LY-07.webp",
+     "from": "part1/ink/layers/e01-p03-k4-LY-07.png",
+     "bytes": 14334
+    },
+    "LY-08": {
+     "image": "lines/e01-p03-k4-LY-08.webp",
+     "from": "part1/ink/layers/e01-p03-k4-LY-08.png",
+     "bytes": 50
+    }
+   },
+   "review": "panels/e01-p03-k4.jpg",
+   "prompt": "prompts/e01-p03-k4.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1dab1-8740-7f71-bf98-c35f74ca264f",
+   "rawSha256": "839e0be400d3f1b0dd4e5ccbb054309e609a26e26b7a1afe194f6f021e41e9b6",
+   "rawSize": [
+    1024,
+    1536
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p03-k4-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "68e31a7e5d9d1dd1de92bf5020c317efc75cf7893b1805cb1ab613e8bbf0f583"
+    },
+    {
+     "path": "part1/ink/layers/e01-p03-k4-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "08d18f4a5d7bf2e09cdce90741b7b09a5ea1c42e4cc3acb8ad7466794303e312"
+    },
+    {
+     "path": "part1/ink/layers/e01-p03-k4-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "4d7754d547cb7cf21db75814ecad6eacd091c46c01914a111ef9a8b9c8a46b5b"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ]
+  },
+  "e01-p04-k1": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p04-k1-LY-03.webp",
+     "bytes": 3940
+    },
+    "LY-05": {
+     "image": "layers/e01-p04-k1-LY-05.webp",
+     "bytes": 13172,
+     "share": 0.867
+    },
+    "LY-06": {
+     "image": "layers/e01-p04-k1-LY-06.webp",
+     "bytes": 2702,
+     "share": 0.015
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p04-k1-LY-04.webp",
+     "from": "part1/ink/layers/e01-p04-k1-LY-04.png",
+     "bytes": 314
+    },
+    "LY-07": {
+     "image": "lines/e01-p04-k1-LY-07.webp",
+     "from": "part1/ink/layers/e01-p04-k1-LY-07.png",
+     "bytes": 25192
+    },
+    "LY-08": {
+     "image": "lines/e01-p04-k1-LY-08.webp",
+     "from": "part1/ink/layers/e01-p04-k1-LY-08.png",
+     "bytes": 56
+    }
+   },
+   "review": "panels/e01-p04-k1.jpg",
+   "prompt": "prompts/e01-p04-k1.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da83-edde-7440-8d13-f03e0b695896",
+   "rawSha256": "ae58c1f3fd6141802513595357d3d8d22cc3055c679f65bd9150d0198adf5b7f",
+   "rawSize": [
+    1024,
+    1536
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p04-k1-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "3233bdccad3c28f0b17cb1b8996ad9f38852b6200b62c819f2e8bc1192f97cac"
+    },
+    {
+     "path": "part1/ink/layers/e01-p04-k1-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "73cb5ebe78beb488feeb3f4931a1c83b06e01d2c57572e78203455e204dfdd3f"
+    },
+    {
+     "path": "part1/ink/layers/e01-p04-k1-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "d4643f151a11e06d1b76376348baad1fb25f86d3b928090083152c51bdcefca1"
+    }
+   ]
+  },
+  "e01-p04-k2": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p04-k2-LY-03.webp",
+     "bytes": 30786
+    },
+    "LY-05": {
+     "image": "layers/e01-p04-k2-LY-05.webp",
+     "bytes": 32858,
+     "share": 0.557
+    },
+    "LY-06": {
+     "image": "layers/e01-p04-k2-LY-06.webp",
+     "bytes": 9852,
+     "share": 0.029
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p04-k2-LY-04.webp",
+     "from": "part1/ink/layers/e01-p04-k2-LY-04.png",
+     "bytes": 26168
+    },
+    "LY-07": {
+     "image": "lines/e01-p04-k2-LY-07.webp",
+     "from": "part1/ink/layers/e01-p04-k2-LY-07.png",
+     "bytes": 47326
+    },
+    "LY-08": {
+     "image": "lines/e01-p04-k2-LY-08.webp",
+     "from": "part1/ink/layers/e01-p04-k2-LY-08.png",
+     "bytes": 64
+    }
+   },
+   "review": "panels/e01-p04-k2.jpg",
+   "prompt": "prompts/e01-p04-k2.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da84-0b86-7270-a458-b067bca870ab",
+   "rawSha256": "ccf8655db3d4f292ef378b0ab844b0ce8104b262bceb2ff78c1828125dee9e07",
+   "rawSize": [
+    1254,
+    1254
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p04-k2-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "bd37f8784489b03ecd5abd1eeb1f8aa8c828ef6f2e241376838a8f5219d2e56e"
+    },
+    {
+     "path": "part1/ink/layers/e01-p04-k2-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "7989d264621918eade6c4c6f46ea269c4a63ea1185413a4870d2e1cd6357388f"
+    },
+    {
+     "path": "part1/ink/layers/e01-p04-k2-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "df40a4ae77d7ffefb230b358c468314afd55f535c0bd2ab8f4a0d94fd7185f9a"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ]
+  },
+  "e01-p04-k3": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p04-k3-LY-03.webp",
+     "bytes": 18772
+    },
+    "LY-05": {
+     "image": "layers/e01-p04-k3-LY-05.webp",
+     "bytes": 4182,
+     "share": 0.003
+    },
+    "LY-06": {
+     "image": "layers/e01-p04-k3-LY-06.webp",
+     "bytes": 4802,
+     "share": 0.004
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p04-k3-LY-04.webp",
+     "from": "part1/ink/layers/e01-p04-k3-LY-04.png",
+     "bytes": 15354
+    },
+    "LY-07": {
+     "image": "lines/e01-p04-k3-LY-07.webp",
+     "from": "part1/ink/layers/e01-p04-k3-LY-07.png",
+     "bytes": 9976
+    },
+    "LY-08": {
+     "image": "lines/e01-p04-k3-LY-08.webp",
+     "from": "part1/ink/layers/e01-p04-k3-LY-08.png",
+     "bytes": 68
+    }
+   },
+   "review": "panels/e01-p04-k3.jpg",
+   "prompt": "prompts/e01-p04-k3.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da84-0e1e-7c90-88cc-5d8b1020e65d",
+   "rawSha256": "92a8e44e3f6c69c38714d2515043128103663e231f4f6f40722ba90654b8228c",
+   "rawSize": [
+    1254,
+    1254
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p04-k3-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "828a7385df3b7c21f836b4b745b4a5d0bf1b10d56d3c47aa1bee1af1b900e2aa"
+    },
+    {
+     "path": "part1/ink/layers/e01-p04-k3-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "5cbc7fd7812a9aa518ac02f72ef079b42d59f550b6bc7b54e85405b8792cf069"
+    },
+    {
+     "path": "part1/ink/layers/e01-p04-k3-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "47aa5a41eb1239285580122de30512ade55bd1c394eb9dac75dae84fd4240f1d"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ]
+  },
+  "e01-p05-k1": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p05-k1-LY-03.webp",
+     "bytes": 69448
+    },
+    "LY-05": {
+     "image": "layers/e01-p05-k1-LY-05.webp",
+     "bytes": 11708,
+     "share": 0.036
+    },
+    "LY-06": {
+     "image": "layers/e01-p05-k1-LY-06.webp",
+     "bytes": 11926,
+     "share": 0.036
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p05-k1-LY-04.webp",
+     "from": "part1/ink/layers/e01-p05-k1-LY-04.png",
+     "bytes": 82698
+    },
+    "LY-07": {
+     "image": "lines/e01-p05-k1-LY-07.webp",
+     "from": "part1/ink/layers/e01-p05-k1-LY-07.png",
+     "bytes": 20256
+    },
+    "LY-08": {
+     "image": "lines/e01-p05-k1-LY-08.webp",
+     "from": "part1/ink/layers/e01-p05-k1-LY-08.png",
+     "bytes": 70
+    }
+   },
+   "review": "panels/e01-p05-k1.jpg",
+   "prompt": "prompts/e01-p05-k1.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da84-2246-71e3-b4e5-bb1f2159335f",
+   "rawSha256": "a9e684a831a453bde9f1eabbe6698acc31a18f6b2a77deae5b201b7e081f7eae",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p05-k1-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "c8d535f8b7bfcbac76f89e6b9505f642320d590f9ac3fe12f97af5c016f2e2bd"
+    },
+    {
+     "path": "part1/ink/layers/e01-p05-k1-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "655f368050cbd2f53bfae22e14338a6802e2a9610c75488460ea76d4dd476ae7"
+    },
+    {
+     "path": "part1/ink/layers/e01-p05-k1-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "29f08c0300bb0325817c7fd6f42cbcca889ac76877c5165b33aa9c6fa109f242"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ]
+  },
+  "e01-p05-k2": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p05-k2-LY-03.webp",
+     "bytes": 17650
+    },
+    "LY-05": {
+     "image": "layers/e01-p05-k2-LY-05.webp",
+     "bytes": 19878,
+     "share": 0.447
+    },
+    "LY-06": {
+     "image": "layers/e01-p05-k2-LY-06.webp",
+     "bytes": 4844,
+     "share": 0.009
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p05-k2-LY-04.webp",
+     "from": "part1/ink/layers/e01-p05-k2-LY-04.png",
+     "bytes": 24628
+    },
+    "LY-07": {
+     "image": "lines/e01-p05-k2-LY-07.webp",
+     "from": "part1/ink/layers/e01-p05-k2-LY-07.png",
+     "bytes": 28252
+    },
+    "LY-08": {
+     "image": "lines/e01-p05-k2-LY-08.webp",
+     "from": "part1/ink/layers/e01-p05-k2-LY-08.png",
+     "bytes": 1176
+    }
+   },
+   "review": "panels/e01-p05-k2.jpg",
+   "prompt": "prompts/e01-p05-k2.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da84-c70d-79c1-baa6-8989195b259c",
+   "rawSha256": "b1ccc1cafbeb1a96c480e0261d02a1688efa43d5e7d46ac8fed8bf6105f49759",
+   "rawSize": [
+    1024,
+    1536
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p05-k2-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "9181c2309e6bafee9b30924d525205b16b24dd3d1570719184890762a6d925ae"
+    },
+    {
+     "path": "part1/ink/layers/e01-p05-k2-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "68d935cd20e2c33d447f894ae0f91e7e22a27c1eb9d16fdaa183427f28b3ff3c"
+    },
+    {
+     "path": "part1/ink/layers/e01-p05-k2-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0b85386b35e67dcd6b7dfdc265ffe0584249bc7370e1f0359e3d07e0d358aab0"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ]
+  },
+  "e01-p05-k3": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p05-k3-LY-03.webp",
+     "bytes": 23490
+    },
+    "LY-05": {
+     "image": "layers/e01-p05-k3-LY-05.webp",
+     "bytes": 11428,
+     "share": 0.127
+    },
+    "LY-06": {
+     "image": "layers/e01-p05-k3-LY-06.webp",
+     "bytes": 6062,
+     "share": 0.133
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p05-k3-LY-04.webp",
+     "from": "part1/ink/layers/e01-p05-k3-LY-04.png",
+     "bytes": 16486
+    },
+    "LY-07": {
+     "image": "lines/e01-p05-k3-LY-07.webp",
+     "from": "part1/ink/layers/e01-p05-k3-LY-07.png",
+     "bytes": 15526
+    },
+    "LY-08": {
+     "image": "lines/e01-p05-k3-LY-08.webp",
+     "from": "part1/ink/layers/e01-p05-k3-LY-08.png",
+     "bytes": 54
+    }
+   },
+   "review": "panels/e01-p05-k3.jpg",
+   "prompt": "prompts/e01-p05-k3.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da84-cff2-7900-b1b6-a8a4469571f8",
+   "rawSha256": "b3da57f6ab1558a8cf0e62b229a76630ea04ba99d21cc15bdf57edb499af6fb5",
+   "rawSize": [
+    1024,
+    1536
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p05-k3-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "c9eed6f562f7fd003e06852fef4ed1464254689a8ebcfd55200629e544572560"
+    },
+    {
+     "path": "part1/ink/layers/e01-p05-k3-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "11cd7fa56c67c1ff3c1a356b670a2986ba52d34a9c9dbe15484b0bbbe43fd72e"
+    },
+    {
+     "path": "part1/ink/layers/e01-p05-k3-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "5fccbd2d1a3835d8197662d5b676db7bd915756547451b34a47a9b19108b3a50"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ]
+  },
+  "e01-p06-k1": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p06-k1-LY-03.webp",
+     "bytes": 48760
+    },
+    "LY-05": {
+     "image": "layers/e01-p06-k1-LY-05.webp",
+     "bytes": 11316,
+     "share": 0.067
+    },
+    "LY-06": {
+     "image": "layers/e01-p06-k1-LY-06.webp",
+     "bytes": 11828,
+     "share": 0.135
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p06-k1-LY-04.webp",
+     "from": "part1/ink/layers/e01-p06-k1-LY-04.png",
+     "bytes": 52888
+    },
+    "LY-07": {
+     "image": "lines/e01-p06-k1-LY-07.webp",
+     "from": "part1/ink/layers/e01-p06-k1-LY-07.png",
+     "bytes": 19412
+    },
+    "LY-08": {
+     "image": "lines/e01-p06-k1-LY-08.webp",
+     "from": "part1/ink/layers/e01-p06-k1-LY-08.png",
+     "bytes": 68
+    }
+   },
+   "review": "panels/e01-p06-k1.jpg",
+   "prompt": "prompts/e01-p06-k1.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1daac-5ead-7de0-b5d1-1cfdd0772d43",
+   "rawSha256": "3511dd50ecc9340ad6d5bb9321656326fc7479fd291b67102a39234b546373bc",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p06-k1-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "53d0e7e34e6e66527264bf2c9bb847c7937fbc092c77d58eeffd2baab37ac7b7"
+    },
+    {
+     "path": "part1/ink/layers/e01-p06-k1-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "95bc15268bf2ff97c4ba6b3e6f45fa7e977fb476bb3b9b2c15f183762c56b83e"
+    },
+    {
+     "path": "part1/ink/layers/e01-p06-k1-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0b60524335cd4bfa0b033a19693ce20851f6007616c825e1ec8bff5a1dbddf4b"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ]
+  },
+  "e01-p06-k2": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p06-k2-LY-03.webp",
+     "bytes": 13110
+    },
+    "LY-05": {
+     "image": "layers/e01-p06-k2-LY-05.webp",
+     "bytes": 9722,
+     "share": 0.2
+    },
+    "LY-06": {
+     "image": "layers/e01-p06-k2-LY-06.webp",
+     "bytes": 2418,
+     "share": 0.007
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p06-k2-LY-04.webp",
+     "from": "part1/ink/layers/e01-p06-k2-LY-04.png",
+     "bytes": 13166
+    },
+    "LY-07": {
+     "image": "lines/e01-p06-k2-LY-07.webp",
+     "from": "part1/ink/layers/e01-p06-k2-LY-07.png",
+     "bytes": 13526
+    },
+    "LY-08": {
+     "image": "lines/e01-p06-k2-LY-08.webp",
+     "from": "part1/ink/layers/e01-p06-k2-LY-08.png",
+     "bytes": 56
+    }
+   },
+   "review": "panels/e01-p06-k2.jpg",
+   "prompt": "prompts/e01-p06-k2.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da85-4714-7ea2-962d-ace8edc685cd",
+   "rawSha256": "d70977e210d9f3bf24571fa5ade2db2855a9c96896f83d4bb6e45b72f2aa7d40",
+   "rawSize": [
+    1024,
+    1536
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p06-k2-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "48ead7a80f02f5923a297cccffda080c59a904fde5833fff03f49a681da9f6a0"
+    },
+    {
+     "path": "part1/ink/layers/e01-p06-k2-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "49d5cb046b0f9694eacb4c5ce2ff7798285f4da23352e9ed45d07ca3c6107e51"
+    },
+    {
+     "path": "part1/ink/layers/e01-p06-k2-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "d4643f151a11e06d1b76376348baad1fb25f86d3b928090083152c51bdcefca1"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ]
+  },
+  "e01-p06-k3": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p06-k3-LY-03.webp",
+     "bytes": 9066
+    },
+    "LY-05": {
+     "image": "layers/e01-p06-k3-LY-05.webp",
+     "bytes": 6614,
+     "share": 0.107
+    },
+    "LY-06": {
+     "image": "layers/e01-p06-k3-LY-06.webp",
+     "bytes": 3002,
+     "share": 0.01
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p06-k3-LY-04.webp",
+     "from": "part1/ink/layers/e01-p06-k3-LY-04.png",
+     "bytes": 5310
+    },
+    "LY-07": {
+     "image": "lines/e01-p06-k3-LY-07.webp",
+     "from": "part1/ink/layers/e01-p06-k3-LY-07.png",
+     "bytes": 8054
+    },
+    "LY-08": {
+     "image": "lines/e01-p06-k3-LY-08.webp",
+     "from": "part1/ink/layers/e01-p06-k3-LY-08.png",
+     "bytes": 56
+    }
+   },
+   "review": "panels/e01-p06-k3.jpg",
+   "prompt": "prompts/e01-p06-k3.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da85-b696-7110-aeab-043e22eb7bf2",
+   "rawSha256": "eb3418e9ed8f6ceb42bec35dab67ad289397b70128253cf0eff45bc4e73432c1",
+   "rawSize": [
+    1024,
+    1536
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p06-k3-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "190e6976687be3fdd1f70a35a0e85fdbb9db12814e2d89df57df31ca7f1e43af"
+    },
+    {
+     "path": "part1/ink/layers/e01-p06-k3-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "84639eb6d63484390846b0c9fd3946f3a78b35fce2d648faececad203afda268"
+    },
+    {
+     "path": "part1/ink/layers/e01-p06-k3-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "d4643f151a11e06d1b76376348baad1fb25f86d3b928090083152c51bdcefca1"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ]
+  },
+  "e01-p07-k1": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p07-k1-LY-03.webp",
+     "bytes": 19104
+    },
+    "LY-05": {
+     "image": "layers/e01-p07-k1-LY-05.webp",
+     "bytes": 4490,
+     "share": 0.019
+    },
+    "LY-06": {
+     "image": "layers/e01-p07-k1-LY-06.webp",
+     "bytes": 9126,
+     "share": 0.185
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p07-k1-LY-04.webp",
+     "from": "part1/ink/layers/e01-p07-k1-LY-04.png",
+     "bytes": 16830
+    },
+    "LY-07": {
+     "image": "lines/e01-p07-k1-LY-07.webp",
+     "from": "part1/ink/layers/e01-p07-k1-LY-07.png",
+     "bytes": 4588
+    },
+    "LY-08": {
+     "image": "lines/e01-p07-k1-LY-08.webp",
+     "from": "part1/ink/layers/e01-p07-k1-LY-08.png",
+     "bytes": 60
+    }
+   },
+   "review": "panels/e01-p07-k1.jpg",
+   "prompt": "prompts/e01-p07-k1.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da85-bcee-7681-b2cd-f6df04b15ee4",
+   "rawSha256": "a1503505a8635ed288c1867ffecc2b2073fc4a2f1080995acc207c398dc9be9f",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p07-k1-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "8d80269cb8d8291828ef38df92f9be1ce67038e226fbba447f426664a17abfb7"
+    },
+    {
+     "path": "part1/ink/layers/e01-p07-k1-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "6c4b4ecf2b16e77cb29dbe475283d247237f75c1ea0ea2bb8641851be92b9dea"
+    },
+    {
+     "path": "part1/ink/layers/e01-p07-k1-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "9bb28396272bd785d64970fb5d87c50a55d73397a7e237e5a19b743464334652"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ]
+  },
+  "e01-p07-k2": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p07-k2-LY-03.webp",
+     "bytes": 8480
+    },
+    "LY-05": {
+     "image": "layers/e01-p07-k2-LY-05.webp",
+     "bytes": 30014,
+     "share": 0.937
+    },
+    "LY-06": {
+     "image": "layers/e01-p07-k2-LY-06.webp",
+     "bytes": 9768,
+     "share": 0.045
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p07-k2-LY-04.webp",
+     "from": "part1/ink/layers/e01-p07-k2-LY-04.png",
+     "bytes": 6508
+    },
+    "LY-07": {
+     "image": "lines/e01-p07-k2-LY-07.webp",
+     "from": "part1/ink/layers/e01-p07-k2-LY-07.png",
+     "bytes": 44770
+    },
+    "LY-08": {
+     "image": "lines/e01-p07-k2-LY-08.webp",
+     "from": "part1/ink/layers/e01-p07-k2-LY-08.png",
+     "bytes": 68
+    }
+   },
+   "review": "panels/e01-p07-k2.jpg",
+   "prompt": "prompts/e01-p07-k2.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da85-c83a-7ae1-a685-70480e49c32c",
+   "rawSha256": "90f4d4f03c42eb7a299182447a42fd7ce7efa0dd0bcf3a5938fd082880757219",
+   "rawSize": [
+    1254,
+    1254
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p07-k2-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "12a8f7388461aac8db1d113b297c3a61375ad9030042132ab5cba0e0d78f128f"
+    },
+    {
+     "path": "part1/ink/layers/e01-p07-k2-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "771c0f4668c0f6c11a9887697fb775d43aba9696599fbc4a5445dc039d8ddc9a"
+    },
+    {
+     "path": "part1/ink/layers/e01-p07-k2-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "47aa5a41eb1239285580122de30512ade55bd1c394eb9dac75dae84fd4240f1d"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ]
+  },
+  "e01-p08-k1": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p08-k1-LY-03.webp",
+     "bytes": 8192
+    },
+    "LY-05": {
+     "image": "layers/e01-p08-k1-LY-05.webp",
+     "bytes": 19542,
+     "share": 0.435
+    },
+    "LY-06": {
+     "image": "layers/e01-p08-k1-LY-06.webp",
+     "bytes": 5896,
+     "share": 0.023
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p08-k1-LY-04.webp",
+     "from": "part1/ink/layers/e01-p08-k1-LY-04.png",
+     "bytes": 18308
+    },
+    "LY-07": {
+     "image": "lines/e01-p08-k1-LY-07.webp",
+     "from": "part1/ink/layers/e01-p08-k1-LY-07.png",
+     "bytes": 30428
+    },
+    "LY-08": {
+     "image": "lines/e01-p08-k1-LY-08.webp",
+     "from": "part1/ink/layers/e01-p08-k1-LY-08.png",
+     "bytes": 60
+    }
+   },
+   "review": "panels/e01-p08-k1.jpg",
+   "prompt": "prompts/e01-p08-k1.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da91-9827-78f2-88cf-523fa67a9cc6",
+   "rawSha256": "d09d76b1a47cabd6f5fbee2dfe7dd39d87762ce9cf06e524eeba0b3357f908ba",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p08-k1-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "3b46bfe997fec32c416e7496ded6e1f495804ef4fb5d377d66890c4dfa0141a9"
+    },
+    {
+     "path": "part1/ink/layers/e01-p08-k1-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "c1289d9e6b6517986b7ca383977d3825d248af7062937a33d936faaedf177eaa"
+    },
+    {
+     "path": "part1/ink/layers/e01-p08-k1-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "9bb28396272bd785d64970fb5d87c50a55d73397a7e237e5a19b743464334652"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ]
+  },
+  "e01-p08-k2": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p08-k2-LY-03.webp",
+     "bytes": 9040
+    },
+    "LY-05": {
+     "image": "layers/e01-p08-k2-LY-05.webp",
+     "bytes": 21584,
+     "share": 0.535
+    },
+    "LY-06": {
+     "image": "layers/e01-p08-k2-LY-06.webp",
+     "bytes": 3636,
+     "share": 0.005
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p08-k2-LY-04.webp",
+     "from": "part1/ink/layers/e01-p08-k2-LY-04.png",
+     "bytes": 7680
+    },
+    "LY-07": {
+     "image": "lines/e01-p08-k2-LY-07.webp",
+     "from": "part1/ink/layers/e01-p08-k2-LY-07.png",
+     "bytes": 25310
+    },
+    "LY-08": {
+     "image": "lines/e01-p08-k2-LY-08.webp",
+     "from": "part1/ink/layers/e01-p08-k2-LY-08.png",
+     "bytes": 58
+    }
+   },
+   "review": "panels/e01-p08-k2.jpg",
+   "prompt": "prompts/e01-p08-k2.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da86-078d-7712-a44a-cae30b45dfd6",
+   "rawSha256": "ac47e838458a980991f4010a8bb56527b36e067cfea47cfb1d091427f7995f87",
+   "rawSize": [
+    1254,
+    1254
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p08-k2-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "4cc1c238d14fcb74dc62f07487eac214a70f2cefe3f516f90e542b6cc70a79b1"
+    },
+    {
+     "path": "part1/ink/layers/e01-p08-k2-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "dcb6f22dc02b7e1c98b6b21b2e0b7176277455e803798ac2dfb6a99bba254ac2"
+    },
+    {
+     "path": "part1/ink/layers/e01-p08-k2-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "8308d61419d4ee645deb99d19cb97f09cc11f8d148a0f663984545c61000caa1"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ]
+  },
+  "e01-p08-k3": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p08-k3-LY-03.webp",
+     "bytes": 11526
+    },
+    "LY-05": {
+     "image": "layers/e01-p08-k3-LY-05.webp",
+     "bytes": 20836,
+     "share": 0.658
+    },
+    "LY-06": {
+     "image": "layers/e01-p08-k3-LY-06.webp",
+     "bytes": 6896,
+     "share": 0.01
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p08-k3-LY-04.webp",
+     "from": "part1/ink/layers/e01-p08-k3-LY-04.png",
+     "bytes": 11144
+    },
+    "LY-07": {
+     "image": "lines/e01-p08-k3-LY-07.webp",
+     "from": "part1/ink/layers/e01-p08-k3-LY-07.png",
+     "bytes": 25802
+    },
+    "LY-08": {
+     "image": "lines/e01-p08-k3-LY-08.webp",
+     "from": "part1/ink/layers/e01-p08-k3-LY-08.png",
+     "bytes": 58
+    }
+   },
+   "review": "panels/e01-p08-k3.jpg",
+   "prompt": "prompts/e01-p08-k3.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da86-a3b9-7371-a005-1333e17209a0",
+   "rawSha256": "6d42ceb7d78f5860fa0f1db2c5198cab7822ecd90e6baf3717df680597c5d5c4",
+   "rawSize": [
+    1254,
+    1254
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p08-k3-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "3d2e7aa449df999a234ec7e5afa86417404244dbdc8de8602ae8ca681cc7651f"
+    },
+    {
+     "path": "part1/ink/layers/e01-p08-k3-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "dc4ffdba452465613f2240167f580a72141852fbb79011b0c14af4380bf13b00"
+    },
+    {
+     "path": "part1/ink/layers/e01-p08-k3-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "8308d61419d4ee645deb99d19cb97f09cc11f8d148a0f663984545c61000caa1"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ]
+  },
+  "e01-p08-k4": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p08-k4-LY-03.webp",
+     "bytes": 15490
+    },
+    "LY-05": {
+     "image": "layers/e01-p08-k4-LY-05.webp",
+     "bytes": 10846,
+     "share": 0.323
+    },
+    "LY-06": {
+     "image": "layers/e01-p08-k4-LY-06.webp",
+     "bytes": 2740,
+     "share": 0.018
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p08-k4-LY-04.webp",
+     "from": "part1/ink/layers/e01-p08-k4-LY-04.png",
+     "bytes": 13902
+    },
+    "LY-07": {
+     "image": "lines/e01-p08-k4-LY-07.webp",
+     "from": "part1/ink/layers/e01-p08-k4-LY-07.png",
+     "bytes": 10868
+    },
+    "LY-08": {
+     "image": "lines/e01-p08-k4-LY-08.webp",
+     "from": "part1/ink/layers/e01-p08-k4-LY-08.png",
+     "bytes": 54
+    }
+   },
+   "review": "panels/e01-p08-k4.jpg",
+   "prompt": "prompts/e01-p08-k4.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1daac-5e57-7031-9fc5-e90edd2d0c6b",
+   "rawSha256": "bf4329d71cc89681d60dbe8021d569432fdc2671af874c48378aeadd94ee333c",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p08-k4-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "5c5d879b79a1cf41c954552915459b6f5f76952a77a9c995789a170c4340ce1a"
+    },
+    {
+     "path": "part1/ink/layers/e01-p08-k4-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "ea274f6f5da5874bf115dad956585e7a53d3c263e4fe0a9d07d9098d2333a64e"
+    },
+    {
+     "path": "part1/ink/layers/e01-p08-k4-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "19726432e55930b738aaebec9d2945d5677e2f5bafc5d59c7dd75206e378a065"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
+    }
+   ]
+  },
+  "e01-p09-k1": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p09-k1-LY-03.webp",
+     "bytes": 7130
+    },
+    "LY-05": {
+     "image": "layers/e01-p09-k1-LY-05.webp",
+     "bytes": 15712,
+     "share": 0.699
+    },
+    "LY-06": {
+     "image": "layers/e01-p09-k1-LY-06.webp",
+     "bytes": 4078,
+     "share": 0.08
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p09-k1-LY-04.webp",
+     "from": "part1/ink/layers/e01-p09-k1-LY-04.png",
+     "bytes": 3686
+    },
+    "LY-07": {
+     "image": "lines/e01-p09-k1-LY-07.webp",
+     "from": "part1/ink/layers/e01-p09-k1-LY-07.png",
+     "bytes": 20334
+    },
+    "LY-08": {
+     "image": "lines/e01-p09-k1-LY-08.webp",
+     "from": "part1/ink/layers/e01-p09-k1-LY-08.png",
+     "bytes": 50
+    }
+   },
+   "review": "panels/e01-p09-k1.jpg",
+   "prompt": "prompts/e01-p09-k1.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da86-db9e-73e3-bd94-8ec702083e86",
+   "rawSha256": "9e4cfd3f6d00ba7f21c7bcb59eb0b3032632eafcfad772e5494d0382b904f48c",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p09-k1-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "77d7960ea0d6da70128738bc181635f59bc25a8a77273c3a60ea2a0d5eb1c7b3"
+    },
+    {
+     "path": "part1/ink/layers/e01-p09-k1-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "235b846f9889abb46ac56e4f4ecbe51f0244ec462de223d80166454f0cde4a46"
+    },
+    {
+     "path": "part1/ink/layers/e01-p09-k1-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "7318aca5f2ecd7219355ba8a5cbd546be21a24630580c8d13c318b10db1f2aa8"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
+    }
+   ]
+  },
+  "e01-p09-k2": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p09-k2-LY-03.webp",
+     "bytes": 9298
+    },
+    "LY-05": {
+     "image": "layers/e01-p09-k2-LY-05.webp",
+     "bytes": 34288,
+     "share": 0.771
+    },
+    "LY-06": {
+     "image": "layers/e01-p09-k2-LY-06.webp",
+     "bytes": 9358,
+     "share": 0.029
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p09-k2-LY-04.webp",
+     "from": "part1/ink/layers/e01-p09-k2-LY-04.png",
+     "bytes": 4050
+    },
+    "LY-07": {
+     "image": "lines/e01-p09-k2-LY-07.webp",
+     "from": "part1/ink/layers/e01-p09-k2-LY-07.png",
+     "bytes": 41624
+    },
+    "LY-08": {
+     "image": "lines/e01-p09-k2-LY-08.webp",
+     "from": "part1/ink/layers/e01-p09-k2-LY-08.png",
+     "bytes": 66
+    }
+   },
+   "review": "panels/e01-p09-k2.jpg",
+   "prompt": "prompts/e01-p09-k2.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da7e-5305-7932-9aeb-994640c99bbd",
+   "rawSha256": "93fa01220573768e62442b00332b05aca8452b54ba499cbef0e2e6f20dee06b5",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p09-k2-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "d563855ef5d5ca1f344351d3cc2f5c1c13589878d1a6671cd0a546bdb256ed7b"
+    },
+    {
+     "path": "part1/ink/layers/e01-p09-k2-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "32876dc467933fe7a77f5a960d22e6714098cfb5718e1788a90d51353966cf06"
+    },
+    {
+     "path": "part1/ink/layers/e01-p09-k2-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "8b6485baddc0d64724d4d3a450d174a827a3e0f28b3db85827795ca898325824"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
+    }
+   ]
+  },
+  "e01-p09-k3": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p09-k3-LY-03.webp",
+     "bytes": 6008
+    },
+    "LY-05": {
+     "image": "layers/e01-p09-k3-LY-05.webp",
+     "bytes": 10704,
+     "share": 0.605
+    },
+    "LY-06": {
+     "image": "layers/e01-p09-k3-LY-06.webp",
+     "bytes": 2120,
+     "share": 0.006
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p09-k3-LY-04.webp",
+     "from": "part1/ink/layers/e01-p09-k3-LY-04.png",
+     "bytes": 7072
+    },
+    "LY-07": {
+     "image": "lines/e01-p09-k3-LY-07.webp",
+     "from": "part1/ink/layers/e01-p09-k3-LY-07.png",
+     "bytes": 15474
+    },
+    "LY-08": {
+     "image": "lines/e01-p09-k3-LY-08.webp",
+     "from": "part1/ink/layers/e01-p09-k3-LY-08.png",
+     "bytes": 50
+    }
+   },
+   "review": "panels/e01-p09-k3.jpg",
+   "prompt": "prompts/e01-p09-k3.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da87-0480-7071-a6f8-136a57dca595",
+   "rawSha256": "caf174ad846c4543bcc7f89e5e814a3e3be8dfd456b9701ccece79d3113b3d1a",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p09-k3-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "f6193389a70e9fb9ee418a173a5994092089105e8bc87debeacdfe8d46d32f47"
+    },
+    {
+     "path": "part1/ink/layers/e01-p09-k3-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "1b69710714d026e170fd3bd6c54c03676f74941da8f64a1c977ec6d61a91b888"
+    },
+    {
+     "path": "part1/ink/layers/e01-p09-k3-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "467a412ba8ecfa605b2e628f37d89b5065dc605142006bb17967b96c97fdeb47"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
+    }
+   ]
+  },
+  "e01-p10-k1": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p10-k1-LY-03.webp",
+     "bytes": 2124
+    },
+    "LY-05": {
+     "image": "layers/e01-p10-k1-LY-05.webp",
+     "bytes": 22398,
+     "share": 1.0
+    },
+    "LY-06": {
+     "image": "layers/e01-p10-k1-LY-06.webp",
+     "bytes": 4788,
+     "share": 0.008
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p10-k1-LY-04.webp",
+     "from": "part1/ink/layers/e01-p10-k1-LY-04.png",
+     "bytes": 56
+    },
+    "LY-07": {
+     "image": "lines/e01-p10-k1-LY-07.webp",
+     "from": "part1/ink/layers/e01-p10-k1-LY-07.png",
+     "bytes": 28480
+    },
+    "LY-08": {
+     "image": "lines/e01-p10-k1-LY-08.webp",
+     "from": "part1/ink/layers/e01-p10-k1-LY-08.png",
+     "bytes": 56
+    }
+   },
+   "review": "panels/e01-p10-k1.jpg",
+   "prompt": "prompts/e01-p10-k1.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da87-22cc-75f2-ad95-3c722a910bcf",
+   "rawSha256": "5288d4ff10c63b991514066113de1a0797280b018a3769aa18b7d6e1fc3f5251",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p10-k1-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "a2973d717811c4ae31b50f4399bdc34c48a1f4c76d2967cc30a084dfa1f0f270"
+    },
+    {
+     "path": "part1/ink/layers/e01-p10-k1-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "513df4952e1938eb2cf547791abf7f2ef36b2cb0079e623632a966e20bba0c20"
+    },
+    {
+     "path": "part1/ink/layers/e01-p10-k1-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "a2973d717811c4ae31b50f4399bdc34c48a1f4c76d2967cc30a084dfa1f0f270"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
+    }
+   ]
+  },
+  "e01-p10-k2": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p10-k2-LY-03.webp",
+     "bytes": 2004
+    },
+    "LY-05": {
+     "image": "layers/e01-p10-k2-LY-05.webp",
+     "bytes": 15706,
+     "share": 1.0
+    },
+    "LY-06": {
+     "image": "layers/e01-p10-k2-LY-06.webp",
+     "bytes": 5102,
+     "share": 0.021
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p10-k2-LY-04.webp",
+     "from": "part1/ink/layers/e01-p10-k2-LY-04.png",
+     "bytes": 58
+    },
+    "LY-07": {
+     "image": "lines/e01-p10-k2-LY-07.webp",
+     "from": "part1/ink/layers/e01-p10-k2-LY-07.png",
+     "bytes": 17496
+    },
+    "LY-08": {
+     "image": "lines/e01-p10-k2-LY-08.webp",
+     "from": "part1/ink/layers/e01-p10-k2-LY-08.png",
+     "bytes": 1180
+    }
+   },
+   "review": "panels/e01-p10-k2.jpg",
+   "prompt": "prompts/e01-p10-k2.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da87-a761-7d23-b28d-0561ca14adca",
+   "rawSha256": "3f3ddce741db397dba181bafdcdf716c028dc75c6889c9d4342a8d075674fcec",
+   "rawSize": [
+    1254,
+    1254
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p10-k2-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "7013ab77010fd22520c3064ea44e3bc80a10c88167be54ae60f56273f80f62f7"
+    },
+    {
+     "path": "part1/ink/layers/e01-p10-k2-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "032cc791d9f71491696e1233204b016308fe1297723508d24f175197d38eb525"
+    },
+    {
+     "path": "part1/ink/layers/e01-p10-k2-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "a62ef3306fd6733803933e388c444873731dfe0b23d7e394290da48aa34aca9c"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ]
+  },
+  "e01-p10-k3": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p10-k3-LY-03.webp",
+     "bytes": 4012
+    },
+    "LY-05": {
+     "image": "layers/e01-p10-k3-LY-05.webp",
+     "bytes": 30358,
+     "share": 0.99
+    },
+    "LY-06": {
+     "image": "layers/e01-p10-k3-LY-06.webp",
+     "bytes": 7862,
+     "share": 0.02
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p10-k3-LY-04.webp",
+     "from": "part1/ink/layers/e01-p10-k3-LY-04.png",
+     "bytes": 806
+    },
+    "LY-07": {
+     "image": "lines/e01-p10-k3-LY-07.webp",
+     "from": "part1/ink/layers/e01-p10-k3-LY-07.png",
+     "bytes": 34246
+    },
+    "LY-08": {
+     "image": "lines/e01-p10-k3-LY-08.webp",
+     "from": "part1/ink/layers/e01-p10-k3-LY-08.png",
+     "bytes": 62
+    }
+   },
+   "review": "panels/e01-p10-k3.jpg",
+   "prompt": "prompts/e01-p10-k3.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da87-ad20-7013-8919-6c55d4949d74",
+   "rawSha256": "f6034b2e0019d994fa0310fd3c59e28d6d756b937ae4680a29e57def7dd21928",
+   "rawSize": [
+    1254,
+    1254
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p10-k3-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "1930dc4ae7575a9b8faf98f802dea01e0b984b97dbf588db49bfc78fb8b9796d"
+    },
+    {
+     "path": "part1/ink/layers/e01-p10-k3-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "732c2ad988d657d09ad844d2108c06509dec32288eda27a248f992a572004589"
+    },
+    {
+     "path": "part1/ink/layers/e01-p10-k3-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "96489c2183f2a288956017deba32d58e8e58ec4963d2ebaf7f8eeabeb3a4db34"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
+    }
+   ]
+  },
+  "e01-p10-k4": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p10-k4-LY-03.webp",
+     "bytes": 3650
+    },
+    "LY-05": {
+     "image": "layers/e01-p10-k4-LY-05.webp",
+     "bytes": 19560,
+     "share": 1.0
+    },
+    "LY-06": {
+     "image": "layers/e01-p10-k4-LY-06.webp",
+     "bytes": 4568,
+     "share": 0.009
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p10-k4-LY-04.webp",
+     "from": "part1/ink/layers/e01-p10-k4-LY-04.png",
+     "bytes": 60
+    },
+    "LY-07": {
+     "image": "lines/e01-p10-k4-LY-07.webp",
+     "from": "part1/ink/layers/e01-p10-k4-LY-07.png",
+     "bytes": 24180
+    },
+    "LY-08": {
+     "image": "lines/e01-p10-k4-LY-08.webp",
+     "from": "part1/ink/layers/e01-p10-k4-LY-08.png",
+     "bytes": 9756
+    }
+   },
+   "review": "panels/e01-p10-k4.jpg",
+   "prompt": "prompts/e01-p10-k4.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da87-c5b8-7e32-a011-7ae522f99d67",
+   "rawSha256": "d3a9052df3eaac3030b3926504f6da3735720fd0c57cb8ba89b91f8a0a35fc68",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p10-k4-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "9bb28396272bd785d64970fb5d87c50a55d73397a7e237e5a19b743464334652"
+    },
+    {
+     "path": "part1/ink/layers/e01-p10-k4-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "54b952e39cfc4cfd28c8ae32a86468a48ea66011eab34d19206ec4667fca2171"
+    },
+    {
+     "path": "part1/ink/layers/e01-p10-k4-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "ba92d151634e059baa08e3fc882923ae20037bf262dfd17ae0305fe7d016d781"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
+    }
+   ]
+  },
+  "e01-p11-k1": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p11-k1-LY-03.webp",
+     "bytes": 10024
+    },
+    "LY-05": {
+     "image": "layers/e01-p11-k1-LY-05.webp",
+     "bytes": 15282,
+     "share": 0.611
+    },
+    "LY-06": {
+     "image": "layers/e01-p11-k1-LY-06.webp",
+     "bytes": 4774,
+     "share": 0.022
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p11-k1-LY-04.webp",
+     "from": "part1/ink/layers/e01-p11-k1-LY-04.png",
+     "bytes": 12548
+    },
+    "LY-07": {
+     "image": "lines/e01-p11-k1-LY-07.webp",
+     "from": "part1/ink/layers/e01-p11-k1-LY-07.png",
+     "bytes": 20438
+    },
+    "LY-08": {
+     "image": "lines/e01-p11-k1-LY-08.webp",
+     "from": "part1/ink/layers/e01-p11-k1-LY-08.png",
+     "bytes": 58
+    }
+   },
+   "review": "panels/e01-p11-k1.jpg",
+   "prompt": "prompts/e01-p11-k1.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da87-efc4-75f2-bfa3-5e63c9a2ba95",
+   "rawSha256": "cfa12e4664efe8aa8c6b3a937157024c1b18ff02e378db86314cd209775d0d8f",
+   "rawSize": [
+    1254,
+    1254
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p11-k1-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "1b2cea6ee5466e03cdffdf143e97d89e2efdbec5c949568b61c743972488671d"
+    },
+    {
+     "path": "part1/ink/layers/e01-p11-k1-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "8837d4f96f7453286c938271b320fbc29b1a78687131e438e85678de09e0ac81"
+    },
+    {
+     "path": "part1/ink/layers/e01-p11-k1-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "2868e7de9d909567448434d6b3757d0b94a0a22b70cad7b7748d7632d3f1749e"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ]
+  },
+  "e01-p11-k2": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p11-k2-LY-03.webp",
+     "bytes": 6214
+    },
+    "LY-05": {
+     "image": "layers/e01-p11-k2-LY-05.webp",
+     "bytes": 22702,
+     "share": 0.92
+    },
+    "LY-06": {
+     "image": "layers/e01-p11-k2-LY-06.webp",
+     "bytes": 6198,
+     "share": 0.035
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p11-k2-LY-04.webp",
+     "from": "part1/ink/layers/e01-p11-k2-LY-04.png",
+     "bytes": 3288
+    },
+    "LY-07": {
+     "image": "lines/e01-p11-k2-LY-07.webp",
+     "from": "part1/ink/layers/e01-p11-k2-LY-07.png",
+     "bytes": 31536
+    },
+    "LY-08": {
+     "image": "lines/e01-p11-k2-LY-08.webp",
+     "from": "part1/ink/layers/e01-p11-k2-LY-08.png",
+     "bytes": 58
+    }
+   },
+   "review": "panels/e01-p11-k2.jpg",
+   "prompt": "prompts/e01-p11-k2.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da88-10d3-71f1-b476-45792f6856f9",
+   "rawSha256": "c2dcdcd4fc8f59f2154e9bfb37423b625d977909cb4eb64bae5c6f6ff3516bcc",
+   "rawSize": [
+    1254,
+    1254
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p11-k2-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "8686db7a4c6752b05abca700a7419e44669f6d9faef799ab38bb216bcf385b10"
+    },
+    {
+     "path": "part1/ink/layers/e01-p11-k2-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "30e165cb932c847bef7ab45d7fbb391d27f4a1d16c749b75e6c0ab3ed0c2520f"
+    },
+    {
+     "path": "part1/ink/layers/e01-p11-k2-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "2868e7de9d909567448434d6b3757d0b94a0a22b70cad7b7748d7632d3f1749e"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ]
+  },
+  "e01-p11-k3": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p11-k3-LY-03.webp",
+     "bytes": 10040
+    },
+    "LY-05": {
+     "image": "layers/e01-p11-k3-LY-05.webp",
+     "bytes": 5042,
+     "share": 0.015
+    },
+    "LY-06": {
+     "image": "layers/e01-p11-k3-LY-06.webp",
+     "bytes": 1536,
+     "share": 0.001
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p11-k3-LY-04.webp",
+     "from": "part1/ink/layers/e01-p11-k3-LY-04.png",
+     "bytes": 9212
+    },
+    "LY-07": {
+     "image": "lines/e01-p11-k3-LY-07.webp",
+     "from": "part1/ink/layers/e01-p11-k3-LY-07.png",
+     "bytes": 5168
+    },
+    "LY-08": {
+     "image": "lines/e01-p11-k3-LY-08.webp",
+     "from": "part1/ink/layers/e01-p11-k3-LY-08.png",
+     "bytes": 62
+    }
+   },
+   "review": "panels/e01-p11-k3.jpg",
+   "prompt": "prompts/e01-p11-k3.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da88-5fdb-7282-a8a4-2f03e62b378a",
+   "rawSha256": "18ba5fd3272e385eac7d6c3e3f326700dcbd65e9a72d469951e625bf2c0cfe84",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p11-k3-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "19afe81ce8443740184d2365c4d0e13c5150d26e2786901bc919f3c6cbdc4213"
+    },
+    {
+     "path": "part1/ink/layers/e01-p11-k3-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "b66786fece628aed82b8b8cbc47f28e75ce92953c59947470c2f8cb8bfee3022"
+    },
+    {
+     "path": "part1/ink/layers/e01-p11-k3-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "86b2e40c414492edac683067dc40cf242640926ca4cf0902facc9a7417f97a41"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
+    }
+   ]
+  },
+  "e01-p11-k4": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p11-k4-LY-03.webp",
+     "bytes": 2054
+    },
+    "LY-05": {
+     "image": "layers/e01-p11-k4-LY-05.webp",
+     "bytes": 16718,
+     "share": 1.0
+    },
+    "LY-06": {
+     "image": "layers/e01-p11-k4-LY-06.webp",
+     "bytes": 4774,
+     "share": 0.036
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p11-k4-LY-04.webp",
+     "from": "part1/ink/layers/e01-p11-k4-LY-04.png",
+     "bytes": 54
+    },
+    "LY-07": {
+     "image": "lines/e01-p11-k4-LY-07.webp",
+     "from": "part1/ink/layers/e01-p11-k4-LY-07.png",
+     "bytes": 20638
+    },
+    "LY-08": {
+     "image": "lines/e01-p11-k4-LY-08.webp",
+     "from": "part1/ink/layers/e01-p11-k4-LY-08.png",
+     "bytes": 54
+    }
+   },
+   "review": "panels/e01-p11-k4.jpg",
+   "prompt": "prompts/e01-p11-k4.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da88-a8b8-7020-b8d3-91880def5c56",
+   "rawSha256": "5da941ca73ec8ae20af07db5976285a2a9f53215de999f496f87a11a2d8e0239",
+   "rawSize": [
+    1254,
+    1254
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p11-k4-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "e67201e680c150e05482a7fc694300f4661ccb79c1ba48780fa4a8b7e25412c8"
+    },
+    {
+     "path": "part1/ink/layers/e01-p11-k4-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "dc59aa6c813db38256ad5c276268fe15164c767d71d65c034cb6cf937f1e38b8"
+    },
+    {
+     "path": "part1/ink/layers/e01-p11-k4-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "e67201e680c150e05482a7fc694300f4661ccb79c1ba48780fa4a8b7e25412c8"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ]
+  },
+  "e01-p11-k5": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p11-k5-LY-03.webp",
+     "bytes": 17062
+    },
+    "LY-05": {
+     "image": "layers/e01-p11-k5-LY-05.webp",
+     "bytes": 21114,
+     "share": 0.524
+    },
+    "LY-06": {
+     "image": "layers/e01-p11-k5-LY-06.webp",
+     "bytes": 4510,
+     "share": 0.009
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p11-k5-LY-04.webp",
+     "from": "part1/ink/layers/e01-p11-k5-LY-04.png",
+     "bytes": 10286
+    },
+    "LY-07": {
+     "image": "lines/e01-p11-k5-LY-07.webp",
+     "from": "part1/ink/layers/e01-p11-k5-LY-07.png",
+     "bytes": 25936
+    },
+    "LY-08": {
+     "image": "lines/e01-p11-k5-LY-08.webp",
+     "from": "part1/ink/layers/e01-p11-k5-LY-08.png",
+     "bytes": 66
+    }
+   },
+   "review": "panels/e01-p11-k5.jpg",
+   "prompt": "prompts/e01-p11-k5.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1daac-5e60-7c92-a0e2-fcee9656d720",
+   "rawSha256": "e2693acfef95e624360d6fddffaa49a48557308b8a9d3209eab3337f40f3b8d1",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p11-k5-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "6db36bc66211af826629ea817448491af03cb661254695596b86466357f9ee3a"
+    },
+    {
+     "path": "part1/ink/layers/e01-p11-k5-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "51c781552d9f908b56dd7c1cd95614cfb55a1fe746fb8b511a519bc6264c809d"
+    },
+    {
+     "path": "part1/ink/layers/e01-p11-k5-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "7093092c1a4ad98e213edfe94221da6a263c5174d52c79f04ae0e3dc17d753e8"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
+    }
+   ]
+  },
+  "e01-p12-k1": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p12-k1-LY-03.webp",
+     "bytes": 5614
+    },
+    "LY-05": {
+     "image": "layers/e01-p12-k1-LY-05.webp",
+     "bytes": 15016,
+     "share": 0.766
+    },
+    "LY-06": {
+     "image": "layers/e01-p12-k1-LY-06.webp",
+     "bytes": 4694,
+     "share": 0.057
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p12-k1-LY-04.webp",
+     "from": "part1/ink/layers/e01-p12-k1-LY-04.png",
+     "bytes": 890
+    },
+    "LY-07": {
+     "image": "lines/e01-p12-k1-LY-07.webp",
+     "from": "part1/ink/layers/e01-p12-k1-LY-07.png",
+     "bytes": 17322
+    },
+    "LY-08": {
+     "image": "lines/e01-p12-k1-LY-08.webp",
+     "from": "part1/ink/layers/e01-p12-k1-LY-08.png",
+     "bytes": 58
+    }
+   },
+   "review": "panels/e01-p12-k1.jpg",
+   "prompt": "prompts/e01-p12-k1.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da88-e8cb-7973-a8ea-77bcfbe24d1a",
+   "rawSha256": "e69b7dc54acc03540b699ef28dd25b3d79e71e3a7e1c187983bd17573d6c2d4d",
+   "rawSize": [
+    1024,
+    1024
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p12-k1-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "94db0eb7134305faaebf3abbaafe37b03d53b8cc604b17933bc2eb227668ca94"
+    },
+    {
+     "path": "part1/ink/layers/e01-p12-k1-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "44b66ab4642fd7d29bd907d3bedc766bfaf994c93e2c58f316e8ac43e72b4bd9"
+    },
+    {
+     "path": "part1/ink/layers/e01-p12-k1-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "2868e7de9d909567448434d6b3757d0b94a0a22b70cad7b7748d7632d3f1749e"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ]
+  },
+  "e01-p12-k2": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p12-k2-LY-03.webp",
+     "bytes": 9642
+    },
+    "LY-05": {
+     "image": "layers/e01-p12-k2-LY-05.webp",
+     "bytes": 24476,
+     "share": 0.763
+    },
+    "LY-06": {
+     "image": "layers/e01-p12-k2-LY-06.webp",
+     "bytes": 5038,
+     "share": 0.015
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p12-k2-LY-04.webp",
+     "from": "part1/ink/layers/e01-p12-k2-LY-04.png",
+     "bytes": 4440
+    },
+    "LY-07": {
+     "image": "lines/e01-p12-k2-LY-07.webp",
+     "from": "part1/ink/layers/e01-p12-k2-LY-07.png",
+     "bytes": 32316
+    },
+    "LY-08": {
+     "image": "lines/e01-p12-k2-LY-08.webp",
+     "from": "part1/ink/layers/e01-p12-k2-LY-08.png",
+     "bytes": 58
+    }
+   },
+   "review": "panels/e01-p12-k2.jpg",
+   "prompt": "prompts/e01-p12-k2.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da88-fcc6-7cc3-b3c9-ebee41a535fe",
+   "rawSha256": "cfb3d1f684d025a640f3ef82af5ac2b25096a909f61160f7abd102d83e82af23",
+   "rawSize": [
+    1024,
+    1024
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p12-k2-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "87113439350e079e48dfb4a332ec59d1abf6b00dd02a69da01e53af153d2c0cd"
+    },
+    {
+     "path": "part1/ink/layers/e01-p12-k2-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "17ee859a58680bb96836e0791e4b258a60a42df9fec11605b032d48f6c52bbd9"
+    },
+    {
+     "path": "part1/ink/layers/e01-p12-k2-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "2868e7de9d909567448434d6b3757d0b94a0a22b70cad7b7748d7632d3f1749e"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
+    }
+   ]
+  },
+  "e01-p12-k3": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p12-k3-LY-03.webp",
+     "bytes": 5288
+    },
+    "LY-05": {
+     "image": "layers/e01-p12-k3-LY-05.webp",
+     "bytes": 39422,
+     "share": 0.983
+    },
+    "LY-06": {
+     "image": "layers/e01-p12-k3-LY-06.webp",
+     "bytes": 12108,
+     "share": 0.05
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p12-k3-LY-04.webp",
+     "from": "part1/ink/layers/e01-p12-k3-LY-04.png",
+     "bytes": 1120
+    },
+    "LY-07": {
+     "image": "lines/e01-p12-k3-LY-07.webp",
+     "from": "part1/ink/layers/e01-p12-k3-LY-07.png",
+     "bytes": 33268
+    },
+    "LY-08": {
+     "image": "lines/e01-p12-k3-LY-08.webp",
+     "from": "part1/ink/layers/e01-p12-k3-LY-08.png",
+     "bytes": 52
+    }
+   },
+   "review": "panels/e01-p12-k3.jpg",
+   "prompt": "prompts/e01-p12-k3.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da89-3714-7b62-8358-2cf4c8952174",
+   "rawSha256": "a9a8880169d1f436f030493e5c6d99e9e0384fedc4ac73a113a13a87800600d9",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p12-k3-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "d50d9a174ed2db82e7d1756f08d55c16337eba797b6ebbd5e5814ea89bf7f5f6"
+    },
+    {
+     "path": "part1/ink/layers/e01-p12-k3-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "f1363f85a75feb0e272795a3c7b70d5eb875aebecdb966de890f9218bf7742f6"
+    },
+    {
+     "path": "part1/ink/layers/e01-p12-k3-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "a5d4515f3e073a3fe966fd25ab88a89205eeadcb5c526caa57f3802dcf26e480"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
+    }
+   ]
+  },
+  "e01-p12-k4": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p12-k4-LY-03.webp",
+     "bytes": 8772
+    },
+    "LY-05": {
+     "image": "layers/e01-p12-k4-LY-05.webp",
+     "bytes": 28572,
+     "share": 0.804
+    },
+    "LY-06": {
+     "image": "layers/e01-p12-k4-LY-06.webp",
+     "bytes": 6368,
+     "share": 0.039
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p12-k4-LY-04.webp",
+     "from": "part1/ink/layers/e01-p12-k4-LY-04.png",
+     "bytes": 2784
+    },
+    "LY-07": {
+     "image": "lines/e01-p12-k4-LY-07.webp",
+     "from": "part1/ink/layers/e01-p12-k4-LY-07.png",
+     "bytes": 32178
+    },
+    "LY-08": {
+     "image": "lines/e01-p12-k4-LY-08.webp",
+     "from": "part1/ink/layers/e01-p12-k4-LY-08.png",
+     "bytes": 52
+    }
+   },
+   "review": "panels/e01-p12-k4.jpg",
+   "prompt": "prompts/e01-p12-k4.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da89-8ac0-71e1-bb60-cab2abc7d829",
+   "rawSha256": "8ac4543ab448eee0565311cf1ce893a3365aeb285925a0ace4c137b202f569a6",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p12-k4-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "155cdf792c78b04fef230682b952f8a4fb477fc90f3e8748f1e9d5999d86c116"
+    },
+    {
+     "path": "part1/ink/layers/e01-p12-k4-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "9cd26db398c96d19b9781abee01859b86e1b2f4f375e752d279eea0e0dc5159c"
+    },
+    {
+     "path": "part1/ink/layers/e01-p12-k4-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "a5d4515f3e073a3fe966fd25ab88a89205eeadcb5c526caa57f3802dcf26e480"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
+    }
+   ]
+  },
+  "e01-p12-k5": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p12-k5-LY-03.webp",
+     "bytes": 4738
+    },
+    "LY-05": {
+     "image": "layers/e01-p12-k5-LY-05.webp",
+     "bytes": 14372,
+     "share": 0.917
+    },
+    "LY-06": {
+     "image": "layers/e01-p12-k5-LY-06.webp",
+     "bytes": 4736,
+     "share": 0.087
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p12-k5-LY-04.webp",
+     "from": "part1/ink/layers/e01-p12-k5-LY-04.png",
+     "bytes": 2364
+    },
+    "LY-07": {
+     "image": "lines/e01-p12-k5-LY-07.webp",
+     "from": "part1/ink/layers/e01-p12-k5-LY-07.png",
+     "bytes": 18564
+    },
+    "LY-08": {
+     "image": "lines/e01-p12-k5-LY-08.webp",
+     "from": "part1/ink/layers/e01-p12-k5-LY-08.png",
+     "bytes": 50
+    }
+   },
+   "review": "panels/e01-p12-k5.jpg",
+   "prompt": "prompts/e01-p12-k5.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da89-b4de-7dd1-8788-a1a8cf0fdf29",
+   "rawSha256": "f6f5069c7e0303790821d918417829f30fa437caaf173392369ef2ed031fd6dc",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p12-k5-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0962095dc5bce5cd62111f86c3f7f9ffec413230e2b95bd5bce338e9c8ae80b8"
+    },
+    {
+     "path": "part1/ink/layers/e01-p12-k5-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "a51bf93b38dda5c14afa095226f65bf9545b1ba9fec1744d817c2e0d0407b1ce"
+    },
+    {
+     "path": "part1/ink/layers/e01-p12-k5-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "f492a266fe7d9c527dc9f32e9835809545360cbcde6bbf23dd64ec181d806f84"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    }
+   ]
+  },
+  "e01-p13-k1": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p13-k1-LY-03.webp",
+     "bytes": 19610
+    },
+    "LY-05": {
+     "image": "layers/e01-p13-k1-LY-05.webp",
+     "bytes": 11540,
+     "share": 0.236
+    },
+    "LY-06": {
+     "image": "layers/e01-p13-k1-LY-06.webp",
+     "bytes": 9858,
+     "share": 0.152
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p13-k1-LY-04.webp",
+     "from": "part1/ink/layers/e01-p13-k1-LY-04.png",
+     "bytes": 16506
+    },
+    "LY-07": {
+     "image": "lines/e01-p13-k1-LY-07.webp",
+     "from": "part1/ink/layers/e01-p13-k1-LY-07.png",
+     "bytes": 14108
+    },
+    "LY-08": {
+     "image": "lines/e01-p13-k1-LY-08.webp",
+     "from": "part1/ink/layers/e01-p13-k1-LY-08.png",
+     "bytes": 54
+    }
+   },
+   "review": "panels/e01-p13-k1.jpg",
+   "prompt": "prompts/e01-p13-k1.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da8a-235d-7d40-9235-8778d375e18d",
+   "rawSha256": "fedd54fcc04b481034e930108758be7738a7849a67d9375ef2423fd86957d129",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p13-k1-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "fcc3f9b332c3fc654eeafe06409f2cebb157f61b50117ec92b9f58c1723a40c0"
+    },
+    {
+     "path": "part1/ink/layers/e01-p13-k1-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "18d2efe3ab4e04ad0ac4a356895fa36f6d63c5c4f3e788c0888a32c985b315f6"
+    },
+    {
+     "path": "part1/ink/layers/e01-p13-k1-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "19726432e55930b738aaebec9d2945d5677e2f5bafc5d59c7dd75206e378a065"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lo03-temple/lo03-temple-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "417c8a947fb6c716efd31d15973ef7a95ec07f34c0fc869509807347259f7735"
+    }
+   ]
+  },
+  "e01-p13-k2": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p13-k2-LY-03.webp",
+     "bytes": 31874
+    },
+    "LY-05": {
+     "image": "layers/e01-p13-k2-LY-05.webp",
+     "bytes": 27864,
+     "share": 0.237
+    },
+    "LY-06": {
+     "image": "layers/e01-p13-k2-LY-06.webp",
+     "bytes": 5802,
+     "share": 0.006
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p13-k2-LY-04.webp",
+     "from": "part1/ink/layers/e01-p13-k2-LY-04.png",
+     "bytes": 28128
+    },
+    "LY-07": {
+     "image": "lines/e01-p13-k2-LY-07.webp",
+     "from": "part1/ink/layers/e01-p13-k2-LY-07.png",
+     "bytes": 35732
+    },
+    "LY-08": {
+     "image": "lines/e01-p13-k2-LY-08.webp",
+     "from": "part1/ink/layers/e01-p13-k2-LY-08.png",
+     "bytes": 64
+    }
+   },
+   "review": "panels/e01-p13-k2.jpg",
+   "prompt": "prompts/e01-p13-k2.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da8a-3e49-7252-a56d-3b1bcd42561a",
+   "rawSha256": "0eae39a6ec5ed131f067c0e465ecb77af5bfb4d61e0f1292745dc432fdb77e42",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p13-k2-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "68db6f2240a209c581c237f93eb3c6c97192eec0eea7be972a4e04b14328deec"
+    },
+    {
+     "path": "part1/ink/layers/e01-p13-k2-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "61ddac7b2b64031cab211c267b63e1cd67aa8cac2d46c916e506ade649f96220"
+    },
+    {
+     "path": "part1/ink/layers/e01-p13-k2-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "5eb687ac52639c4910fb3bf2d0f7843ed8a11b70f5abfe3d8c972e321ab4a168"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
+    },
+    {
+     "path": "part1/codex/lo03-temple/lo03-temple-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "417c8a947fb6c716efd31d15973ef7a95ec07f34c0fc869509807347259f7735"
+    }
+   ]
+  },
+  "e01-p13-k3": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p13-k3-LY-03.webp",
+     "bytes": 19614
+    },
+    "LY-05": {
+     "image": "layers/e01-p13-k3-LY-05.webp",
+     "bytes": 7436,
+     "share": 0.072
+    },
+    "LY-06": {
+     "image": "layers/e01-p13-k3-LY-06.webp",
+     "bytes": 2748,
+     "share": 0.013
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p13-k3-LY-04.webp",
+     "from": "part1/ink/layers/e01-p13-k3-LY-04.png",
+     "bytes": 27484
+    },
+    "LY-07": {
+     "image": "lines/e01-p13-k3-LY-07.webp",
+     "from": "part1/ink/layers/e01-p13-k3-LY-07.png",
+     "bytes": 8080
+    },
+    "LY-08": {
+     "image": "lines/e01-p13-k3-LY-08.webp",
+     "from": "part1/ink/layers/e01-p13-k3-LY-08.png",
+     "bytes": 960
+    }
+   },
+   "review": "panels/e01-p13-k3.jpg",
+   "prompt": "prompts/e01-p13-k3.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da8a-6fe1-7a40-ba30-88029c57520c",
+   "rawSha256": "0528cb18cfcdb3587f8d409beb32f98d5c99007a3982d53c0e36a6baeb6644b5",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p13-k3-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "66431e649c5923deb370cd0bd9ee6783c49b7efd2513c1711164e64c9e3f2b62"
+    },
+    {
+     "path": "part1/ink/layers/e01-p13-k3-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "089d12e1e6d0f2e7fa3c35fb375b4b05eb1c92c86a96942dcdc8530e48c9a941"
+    },
+    {
+     "path": "part1/ink/layers/e01-p13-k3-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "8fbc8b6992956bc9556e7e09bae57aa5af3ececeb251e8f57903cd50e8f74957"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lo03-temple/lo03-temple-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "417c8a947fb6c716efd31d15973ef7a95ec07f34c0fc869509807347259f7735"
+    }
+   ]
+  },
+  "e01-p14-k1": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p14-k1-LY-03.webp",
+     "bytes": 37032
+    },
+    "LY-05": {
+     "image": "layers/e01-p14-k1-LY-05.webp",
+     "bytes": 26782,
+     "share": 0.25
+    },
+    "LY-06": {
+     "image": "layers/e01-p14-k1-LY-06.webp",
+     "bytes": 6334,
+     "share": 0.008
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p14-k1-LY-04.webp",
+     "from": "part1/ink/layers/e01-p14-k1-LY-04.png",
+     "bytes": 42628
+    },
+    "LY-07": {
+     "image": "lines/e01-p14-k1-LY-07.webp",
+     "from": "part1/ink/layers/e01-p14-k1-LY-07.png",
+     "bytes": 35724
+    },
+    "LY-08": {
+     "image": "lines/e01-p14-k1-LY-08.webp",
+     "from": "part1/ink/layers/e01-p14-k1-LY-08.png",
+     "bytes": 68
+    }
+   },
+   "review": "panels/e01-p14-k1.jpg",
+   "prompt": "prompts/e01-p14-k1.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da7e-52db-72e2-ad91-0001ccd93c97",
+   "rawSha256": "b13010c36ac378ccf6f22224ce989ad9ba9f5ba7f4e104679b13aefec3d84980",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p14-k1-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "f085e198c32a44254b13e76f13879ed3259d54522d54b3b63877fe798bcdbdba"
+    },
+    {
+     "path": "part1/ink/layers/e01-p14-k1-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "ed8dba016c4437aa428893a62fddb4421b309ce517ab79800d8d250dcaefc9fa"
+    },
+    {
+     "path": "part1/ink/layers/e01-p14-k1-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0b60524335cd4bfa0b033a19693ce20851f6007616c825e1ec8bff5a1dbddf4b"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lo03-temple/lo03-temple-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "417c8a947fb6c716efd31d15973ef7a95ec07f34c0fc869509807347259f7735"
+    },
+    {
+     "path": "part1/codex/lo04-mildendo/lo04-mildendo-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "5a161ac8ecd7ccb15ce83b4142cb80397962cdc66e9c4a672f59c9092c94a86b"
+    }
+   ]
+  },
+  "e01-p14-k2": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p14-k2-LY-03.webp",
+     "bytes": 10968
+    },
+    "LY-05": {
+     "image": "layers/e01-p14-k2-LY-05.webp",
+     "bytes": 23614,
+     "share": 0.829
+    },
+    "LY-06": {
+     "image": "layers/e01-p14-k2-LY-06.webp",
+     "bytes": 8142,
+     "share": 0.032
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p14-k2-LY-04.webp",
+     "from": "part1/ink/layers/e01-p14-k2-LY-04.png",
+     "bytes": 8210
+    },
+    "LY-07": {
+     "image": "lines/e01-p14-k2-LY-07.webp",
+     "from": "part1/ink/layers/e01-p14-k2-LY-07.png",
+     "bytes": 31786
+    },
+    "LY-08": {
+     "image": "lines/e01-p14-k2-LY-08.webp",
+     "from": "part1/ink/layers/e01-p14-k2-LY-08.png",
+     "bytes": 56
+    }
+   },
+   "review": "panels/e01-p14-k2.jpg",
+   "prompt": "prompts/e01-p14-k2.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da8a-7b57-7060-ba48-13de99825650",
+   "rawSha256": "e109b5fdb91d729e6891b9bac91255df23e5eb6bbcb9c2b0f2db3b1b6f60b6c9",
+   "rawSize": [
+    1024,
+    1536
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p14-k2-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "af5f38989ffd930c8b23dcbbf2dc325f3485f791add8773d14f8fa51ba5cba79"
+    },
+    {
+     "path": "part1/ink/layers/e01-p14-k2-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "2b5ab6f6d4c38decd3a1667ae9632eb21364816baee77018a4925b9e4c4f98a4"
+    },
+    {
+     "path": "part1/ink/layers/e01-p14-k2-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "d4643f151a11e06d1b76376348baad1fb25f86d3b928090083152c51bdcefca1"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
+    },
+    {
+     "path": "part1/codex/lo03-temple/lo03-temple-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "417c8a947fb6c716efd31d15973ef7a95ec07f34c0fc869509807347259f7735"
+    }
+   ]
+  },
+  "e01-p14-k3": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p14-k3-LY-03.webp",
+     "bytes": 8908
+    },
+    "LY-05": {
+     "image": "layers/e01-p14-k3-LY-05.webp",
+     "bytes": 11848,
+     "share": 0.745
+    },
+    "LY-06": {
+     "image": "layers/e01-p14-k3-LY-06.webp",
+     "bytes": 3660,
+     "share": 0.046
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p14-k3-LY-04.webp",
+     "from": "part1/ink/layers/e01-p14-k3-LY-04.png",
+     "bytes": 7210
+    },
+    "LY-07": {
+     "image": "lines/e01-p14-k3-LY-07.webp",
+     "from": "part1/ink/layers/e01-p14-k3-LY-07.png",
+     "bytes": 14898
+    },
+    "LY-08": {
+     "image": "lines/e01-p14-k3-LY-08.webp",
+     "from": "part1/ink/layers/e01-p14-k3-LY-08.png",
+     "bytes": 406
+    }
+   },
+   "review": "panels/e01-p14-k3.jpg",
+   "prompt": "prompts/e01-p14-k3.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da8a-81a1-7242-b835-daddc49d7368",
+   "rawSha256": "2e083b982603c2088cfe9cf9b1931ccd3ce816324d34c4f5900a3325d936ddd6",
+   "rawSize": [
+    1024,
+    1536
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p14-k3-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "f492b8690e47fef5d6439ff932967802a454c7fb16a8876fb05de8af8ac85c4d"
+    },
+    {
+     "path": "part1/ink/layers/e01-p14-k3-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "491cb81ac42d2cea1f495c0d378cffa0286dec997395a84a39d7e2ca9c0b7e73"
+    },
+    {
+     "path": "part1/ink/layers/e01-p14-k3-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "411b3decebd6b0285432ec3c19383d6784ffe0edd3a2f0426c3413a6ad4c48c6"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lo03-temple/lo03-temple-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "417c8a947fb6c716efd31d15973ef7a95ec07f34c0fc869509807347259f7735"
+    }
+   ]
+  },
+  "e01-p15-k1": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p15-k1-LY-03.webp",
+     "bytes": 16344
+    },
+    "LY-05": {
+     "image": "layers/e01-p15-k1-LY-05.webp",
+     "bytes": 21582,
+     "share": 0.375
+    },
+    "LY-06": {
+     "image": "layers/e01-p15-k1-LY-06.webp",
+     "bytes": 7860,
+     "share": 0.034
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p15-k1-LY-04.webp",
+     "from": "part1/ink/layers/e01-p15-k1-LY-04.png",
+     "bytes": 14578
+    },
+    "LY-07": {
+     "image": "lines/e01-p15-k1-LY-07.webp",
+     "from": "part1/ink/layers/e01-p15-k1-LY-07.png",
+     "bytes": 25876
+    },
+    "LY-08": {
+     "image": "lines/e01-p15-k1-LY-08.webp",
+     "from": "part1/ink/layers/e01-p15-k1-LY-08.png",
+     "bytes": 62
+    }
+   },
+   "review": "panels/e01-p15-k1.jpg",
+   "prompt": "prompts/e01-p15-k1.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da8b-2e12-7cd2-8c03-638e05d0fde5",
+   "rawSha256": "b7ce6b04d5e8a05632ec96f7fa6cb7dfc08cb6dd7f4496517d40e0edfae036fa",
+   "rawSize": [
+    1254,
+    1254
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p15-k1-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "4c0547bd2772d27b709569b8a8e5ec54496c8456991811ea87491b3a090a8670"
+    },
+    {
+     "path": "part1/ink/layers/e01-p15-k1-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "5625cbaf75154c709d545dae99c323d6d5fe315185b7bdc3fc1d341b2854ce47"
+    },
+    {
+     "path": "part1/ink/layers/e01-p15-k1-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "6e271fcfd3018c8bbd5fdfb0abc47b2d2cf1500399babae71ce99b4a8fa82f7c"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lo03-temple/lo03-temple-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "417c8a947fb6c716efd31d15973ef7a95ec07f34c0fc869509807347259f7735"
+    }
+   ]
+  },
+  "e01-p15-k2": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p15-k2-LY-03.webp",
+     "bytes": 10390
+    },
+    "LY-05": {
+     "image": "layers/e01-p15-k2-LY-05.webp",
+     "bytes": 27034,
+     "share": 0.85
+    },
+    "LY-06": {
+     "image": "layers/e01-p15-k2-LY-06.webp",
+     "bytes": 2312,
+     "share": 0.005
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p15-k2-LY-04.webp",
+     "from": "part1/ink/layers/e01-p15-k2-LY-04.png",
+     "bytes": 7230
+    },
+    "LY-07": {
+     "image": "lines/e01-p15-k2-LY-07.webp",
+     "from": "part1/ink/layers/e01-p15-k2-LY-07.png",
+     "bytes": 33126
+    },
+    "LY-08": {
+     "image": "lines/e01-p15-k2-LY-08.webp",
+     "from": "part1/ink/layers/e01-p15-k2-LY-08.png",
+     "bytes": 54
+    }
+   },
+   "review": "panels/e01-p15-k2.jpg",
+   "prompt": "prompts/e01-p15-k2.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da8b-3bd2-76a1-b9db-3b7bfed5b89e",
+   "rawSha256": "88053e6640136ca6d9b4a0a49bda1e7035bbe0ddb803cd1efb34f69ce49305d5",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p15-k2-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "4dbd76f147ce55f0cd633a6be11edf3d6782a17d035c8edfeb3426e57e0c0753"
+    },
+    {
+     "path": "part1/ink/layers/e01-p15-k2-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "d3a4e29785e8b23f89e5cbfa33ba69ee7fb70dbc65d9eca9b5513a72f3486f10"
+    },
+    {
+     "path": "part1/ink/layers/e01-p15-k2-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "19726432e55930b738aaebec9d2945d5677e2f5bafc5d59c7dd75206e378a065"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lo03-temple/lo03-temple-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "417c8a947fb6c716efd31d15973ef7a95ec07f34c0fc869509807347259f7735"
+    }
+   ]
+  },
+  "e01-p16-k1": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p16-k1-LY-03.webp",
+     "bytes": 44582
+    },
+    "LY-05": {
+     "image": "layers/e01-p16-k1-LY-05.webp",
+     "bytes": 13048,
+     "share": 0.186
+    },
+    "LY-06": {
+     "image": "layers/e01-p16-k1-LY-06.webp",
+     "bytes": 12598,
+     "share": 0.02
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p16-k1-LY-04.webp",
+     "from": "part1/ink/layers/e01-p16-k1-LY-04.png",
+     "bytes": 36310
+    },
+    "LY-07": {
+     "image": "lines/e01-p16-k1-LY-07.webp",
+     "from": "part1/ink/layers/e01-p16-k1-LY-07.png",
+     "bytes": 23132
+    },
+    "LY-08": {
+     "image": "lines/e01-p16-k1-LY-08.webp",
+     "from": "part1/ink/layers/e01-p16-k1-LY-08.png",
+     "bytes": 66
+    }
+   },
+   "review": "panels/e01-p16-k1.jpg",
+   "prompt": "prompts/e01-p16-k1.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da8b-7488-7cb3-a787-2549e55237a8",
+   "rawSha256": "ae811a5347779fc790732aaa95f2688c3b5be2f31e6d485b2434e8e49044ff92",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p16-k1-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "6d0cef78733742c3b08639f17c8002411b2c6a9ff96c4d5ece8a31ab003f24fa"
+    },
+    {
+     "path": "part1/ink/layers/e01-p16-k1-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "8b4bdea0c5db892d05addccd13cb4248d8144940ed1fb766b3ab4b80f466f7df"
+    },
+    {
+     "path": "part1/ink/layers/e01-p16-k1-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "7093092c1a4ad98e213edfe94221da6a263c5174d52c79f04ae0e3dc17d753e8"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/ch02-emperor/ch02-emperor-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "50970136e0807db55316ebf15536ae2c7a6be805090603292d80d7094815f14a"
+    },
+    {
+     "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
+    },
+    {
+     "path": "part1/codex/lo03-temple/lo03-temple-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "417c8a947fb6c716efd31d15973ef7a95ec07f34c0fc869509807347259f7735"
+    }
+   ]
+  },
+  "e01-p16-k2": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p16-k2-LY-03.webp",
+     "bytes": 9742
+    },
+    "LY-05": {
+     "image": "layers/e01-p16-k2-LY-05.webp",
+     "bytes": 12866,
+     "share": 0.56
+    },
+    "LY-06": {
+     "image": "layers/e01-p16-k2-LY-06.webp",
+     "bytes": 1770,
+     "share": 0.002
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p16-k2-LY-04.webp",
+     "from": "part1/ink/layers/e01-p16-k2-LY-04.png",
+     "bytes": 10030
+    },
+    "LY-07": {
+     "image": "lines/e01-p16-k2-LY-07.webp",
+     "from": "part1/ink/layers/e01-p16-k2-LY-07.png",
+     "bytes": 11666
+    },
+    "LY-08": {
+     "image": "lines/e01-p16-k2-LY-08.webp",
+     "from": "part1/ink/layers/e01-p16-k2-LY-08.png",
+     "bytes": 54
+    }
+   },
+   "review": "panels/e01-p16-k2.jpg",
+   "prompt": "prompts/e01-p16-k2.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da8b-7660-7a90-b6f9-fdb7c28ecb2c",
+   "rawSha256": "f5643d953105c00dbe8fe9f8cb2d55e35d5e1bc4c71b194cafc06f8d78470435",
+   "rawSize": [
+    1254,
+    1254
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p16-k2-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "c9064eb94e5eb5cd3cb68af12d3b452b9db1eed145faf1cc346e61e238e62ccb"
+    },
+    {
+     "path": "part1/ink/layers/e01-p16-k2-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "a14d8e0a12b5b6ee367c5cd68164e22bca18e556301ba720d98de4e7125768c8"
+    },
+    {
+     "path": "part1/ink/layers/e01-p16-k2-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "e67201e680c150e05482a7fc694300f4661ccb79c1ba48780fa4a8b7e25412c8"
+    },
+    {
+     "path": "part1/codex/ch02-emperor/ch02-emperor-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "50970136e0807db55316ebf15536ae2c7a6be805090603292d80d7094815f14a"
+    },
+    {
+     "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
+    },
+    {
+     "path": "part1/codex/lo03-temple/lo03-temple-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "417c8a947fb6c716efd31d15973ef7a95ec07f34c0fc869509807347259f7735"
+    }
+   ]
+  },
+  "e01-p16-k3": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p16-k3-LY-03.webp",
+     "bytes": 20028
+    },
+    "LY-05": {
+     "image": "layers/e01-p16-k3-LY-05.webp",
+     "bytes": 9580,
+     "share": 0.1
+    },
+    "LY-06": {
+     "image": "layers/e01-p16-k3-LY-06.webp",
+     "bytes": 2502,
+     "share": 0.003
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p16-k3-LY-04.webp",
+     "from": "part1/ink/layers/e01-p16-k3-LY-04.png",
+     "bytes": 22232
+    },
+    "LY-07": {
+     "image": "lines/e01-p16-k3-LY-07.webp",
+     "from": "part1/ink/layers/e01-p16-k3-LY-07.png",
+     "bytes": 11522
+    },
+    "LY-08": {
+     "image": "lines/e01-p16-k3-LY-08.webp",
+     "from": "part1/ink/layers/e01-p16-k3-LY-08.png",
+     "bytes": 54
+    }
+   },
+   "review": "panels/e01-p16-k3.jpg",
+   "prompt": "prompts/e01-p16-k3.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da8c-256a-7ee1-8cce-6724db20b4c5",
+   "rawSha256": "1fb3e351911ed1dbbc524bb5c19dff28769075f64783a22d8c3ec29bf51ba46d",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p16-k3-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "262f3229c16cc7f2de1175dde2f806f8d0dc2dcb02e4c6e87f94b2662184f1c1"
+    },
+    {
+     "path": "part1/ink/layers/e01-p16-k3-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "df9431022d0aa8fbd8179637e8ba61821a4d7aa4873a502ec8109eb8d4bcd155"
+    },
+    {
+     "path": "part1/ink/layers/e01-p16-k3-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "1c45c2733a5fc56dc0de80592b5d7db585512e5705271a12dc04194b1bd3e2c2"
+    },
+    {
+     "path": "part1/codex/ch02-emperor/ch02-emperor-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "50970136e0807db55316ebf15536ae2c7a6be805090603292d80d7094815f14a"
+    },
+    {
+     "path": "part1/codex/lo03-temple/lo03-temple-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "417c8a947fb6c716efd31d15973ef7a95ec07f34c0fc869509807347259f7735"
+    }
+   ]
+  },
+  "e01-p16-k4": {
+   "layers": {
+    "LY-03": {
+     "image": "layers/e01-p16-k4-LY-03.webp",
+     "bytes": 8344
+    },
+    "LY-05": {
+     "image": "layers/e01-p16-k4-LY-05.webp",
+     "bytes": 2990,
+     "share": 0.001
+    },
+    "LY-06": {
+     "image": "layers/e01-p16-k4-LY-06.webp",
+     "bytes": 3522,
+     "share": 0.004
+    }
+   },
+   "lines": {
+    "LY-04": {
+     "image": "lines/e01-p16-k4-LY-04.webp",
+     "from": "part1/ink/layers/e01-p16-k4-LY-04.png",
+     "bytes": 6004
+    },
+    "LY-07": {
+     "image": "lines/e01-p16-k4-LY-07.webp",
+     "from": "part1/ink/layers/e01-p16-k4-LY-07.png",
+     "bytes": 2208
+    },
+    "LY-08": {
+     "image": "lines/e01-p16-k4-LY-08.webp",
+     "from": "part1/ink/layers/e01-p16-k4-LY-08.png",
+     "bytes": 60
+    }
+   },
+   "review": "panels/e01-p16-k4.jpg",
+   "prompt": "prompts/e01-p16-k4.txt",
+   "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
+   "codexModel": "gpt-6.1-sol",
+   "imageModel": "not exposed by the Codex image tool",
+   "codexSession": "01a1da8c-3fdf-7483-9628-2075305f496b",
+   "rawSha256": "707f11e9180e55495c851f04d8694a94ac9a988a7013e9492f7636e6dcda3445",
+   "rawSize": [
+    1536,
+    1024
+   ],
+   "refs": [
+    {
+     "path": "part1/ink/layers/e01-p16-k4-LY-04.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "750958077f416c53d14465cda470fa4338813f23ed898249165123f0c7158c48"
+    },
+    {
+     "path": "part1/ink/layers/e01-p16-k4-LY-07.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "77c396acf5a9f37af9ef82c6ba096ea724ba7c26b330a312869a73d56dd99430"
+    },
+    {
+     "path": "part1/ink/layers/e01-p16-k4-LY-08.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "9bb28396272bd785d64970fb5d87c50a55d73397a7e237e5a19b743464334652"
+    },
+    {
+     "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
+    },
+    {
+     "path": "part1/codex/lo03-temple/lo03-temple-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "417c8a947fb6c716efd31d15973ef7a95ec07f34c0fc869509807347259f7735"
+    },
+    {
+     "path": "part1/codex/lo04-mildendo/lo04-mildendo-raw.png",
+     "commit": "9018ed128398c4d2dad8428de70f6a884db09586",
+     "sha256": "5a161ac8ecd7ccb15ce83b4142cb80397962cdc66e9c4a672f59c9092c94a86b"
+    }
+   ]
+  }
+ }
+}

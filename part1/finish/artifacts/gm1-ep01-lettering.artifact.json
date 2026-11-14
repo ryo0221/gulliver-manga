@@ -1,0 +1,1477 @@
+{
+ "schemaVersion": 1,
+ "id": "gm1-ep01-lettering",
+ "name": "第1話 写植の記録（吹き出しと文字ごと）",
+ "kind": "data",
+ "provenance": {
+  "source": "created"
+ },
+ "draft": {
+  "baseVersionId": "finish-ep01-v2",
+  "updatedAt": "2026-11-14T00:00:00.000Z",
+  "content": {
+   "schemaVersion": 2,
+   "columns": [
+    {
+     "id": "lt.panel",
+     "name": "コマ",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "lt.line",
+     "name": "入れる台詞（固定した版）",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "lt.kind",
+     "name": "種類",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "lt.speaker",
+     "name": "話す人",
+     "type": "text"
+    },
+    {
+     "id": "lt.text",
+     "name": "文字",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "lt.shape",
+     "name": "吹き出しの形",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "lt.font",
+     "name": "書体",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "lt.direction",
+     "name": "縦書きか横書きか",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "lt.where",
+     "name": "位置",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "lt.clear",
+     "name": "顔と要所を避けたか・被せる意図",
+     "type": "text",
+     "required": true
+    }
+   ],
+   "rows": [
+    {
+     "id": "LT-e01-001",
+     "values": {
+      "lt.panel": "e01-p01-k1",
+      "lt.line": "gm1-script-lines@script-v1（題：SC-001.L01 のト書き）",
+      "lt.kind": "題",
+      "lt.speaker": "",
+      "lt.text": "ガリヴァー旅行記　第1話「人の山」",
+      "lt.shape": "枠なしの文字に白い縁取り（題）",
+      "lt.font": "明朝（Noto Serif CJK JP）、太字、30 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 52、y 84、幅 696、高さ 35（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-002",
+     "values": {
+      "lt.panel": "e01-p02-k1",
+      "lt.line": "gm1-script-lines@script-v1 SC-001.L04",
+      "lt.kind": "台詞",
+      "lt.speaker": "ガリヴァー（CH-01）",
+      "lt.text": "……今日も、あの家の連中の臭いがひどくてな。",
+      "lt.shape": "楕円の吹き出し、尾は話す人（ガリヴァー）へ",
+      "lt.font": "ゴシック（Noto Sans CJK JP）、19 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 960、y 86、幅 281、高さ 108（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-003",
+     "values": {
+      "lt.panel": "e01-p02-k1",
+      "lt.line": "gm1-script-lines@script-v1 SC-001.L05",
+      "lt.kind": "台詞",
+      "lt.speaker": "ガリヴァー（CH-01）",
+      "lt.text": "おまえたちと話している時だけだ、息ができるのは。",
+      "lt.shape": "楕円の吹き出し、尾は話す人（ガリヴァー）へ",
+      "lt.font": "ゴシック（Noto Sans CJK JP）、19 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 960、y 302、幅 281、高さ 108（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-004",
+     "values": {
+      "lt.panel": "e01-p02-k2",
+      "lt.line": "gm1-script-lines@script-v1 SC-001.L07",
+      "lt.kind": "擬音",
+      "lt.speaker": "",
+      "lt.text": "ブルル",
+      "lt.shape": "枠なしの文字に白い縁取り（仮。手書きは LY-08）",
+      "lt.font": "ゴシック（Noto Sans CJK JP）、太字、30 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 1490、y 99、幅 120、高さ 35（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-005",
+     "values": {
+      "lt.panel": "e01-p02-k3",
+      "lt.line": "gm1-script-lines@script-v1 SC-001.L08",
+      "lt.kind": "台詞",
+      "lt.speaker": "メアリー（CH-10）",
+      "lt.text": "……あなた、夕食は。",
+      "lt.shape": "楕円の吹き出し、尾は話す人（メアリー）へ",
+      "lt.font": "ゴシック（Noto Sans CJK JP）、19 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 912、y 664、幅 206、高さ 72（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-006",
+     "values": {
+      "lt.panel": "e01-p02-k4",
+      "lt.line": "gm1-script-lines@script-v1 SC-001.L09",
+      "lt.kind": "台詞",
+      "lt.speaker": "ガリヴァー（CH-01）",
+      "lt.text": "後でいい。",
+      "lt.shape": "楕円の吹き出し、尾は話す人（ガリヴァー）へ",
+      "lt.font": "ゴシック（Noto Sans CJK JP）、19 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 1448、y 520、幅 161、高さ 46（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-007",
+     "values": {
+      "lt.panel": "e01-p02-k6",
+      "lt.line": "gm1-script-lines@script-v1 SC-001.L11",
+      "lt.kind": "ナレーション",
+      "lt.speaker": "ガリヴァー（CH-01）",
+      "lt.text": "この手記を、私は旅から帰って5年目に書いている。",
+      "lt.shape": "四角の枠（ナレーション）",
+      "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 1208、y 864、幅 330、高さ 62（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-008",
+     "values": {
+      "lt.panel": "e01-p02-k6",
+      "lt.line": "gm1-script-lines@script-v1 SC-001.L12",
+      "lt.kind": "ナレーション",
+      "lt.speaker": "ガリヴァー（CH-01）",
+      "lt.text": "どうしてこうなったのか。初めから記しておく。",
+      "lt.shape": "四角の枠（ナレーション）",
+      "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 1208、y 1032、幅 330、高さ 62（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-009",
+     "values": {
+      "lt.panel": "e01-p03-k1",
+      "lt.line": "gm1-script-lines@script-v1 SC-002.L02",
+      "lt.kind": "ナレーション",
+      "lt.speaker": "ガリヴァー（CH-01）",
+      "lt.text": "1699年5月4日。私はブリストルからアンテロープ号で南の海へ出た。船医としてである。",
+      "lt.shape": "四角の枠（ナレーション）",
+      "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 2138、y 84、幅 330、高さ 85（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-010",
+     "values": {
+      "lt.panel": "e01-p03-k2",
+      "lt.line": "gm1-script-lines@script-v1 SC-002.L03",
+      "lt.kind": "ナレーション",
+      "lt.speaker": "ガリヴァー（CH-01）",
+      "lt.text": "師のベイツ先生が亡くなってから、ロンドンでの医者の商いは傾く一方だった。",
+      "lt.shape": "四角の枠（ナレーション）",
+      "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 1772、y 626、幅 212、高さ 108（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-011",
+     "values": {
+      "lt.panel": "e01-p03-k3",
+      "lt.line": "gm1-script-lines@script-v1 SC-002.L04",
+      "lt.kind": "台詞",
+      "lt.speaker": "メアリー（CH-10）",
+      "lt.text": "今度はどのくらい？",
+      "lt.shape": "楕円の吹き出し、尾は話す人（メアリー）へ",
+      "lt.font": "ゴシック（Noto Sans CJK JP）、19 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 2092、y 971、幅 126、高さ 108（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-012",
+     "values": {
+      "lt.panel": "e01-p03-k4",
+      "lt.line": "gm1-script-lines@script-v1 SC-002.L05",
+      "lt.kind": "台詞",
+      "lt.speaker": "ガリヴァー（CH-01）",
+      "lt.text": "長くて2年。帰ったら、もう海には出ない。",
+      "lt.shape": "楕円の吹き出し、尾は話す人（ガリヴァー）へ",
+      "lt.font": "ゴシック（Noto Sans CJK JP）、19 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 2338、y 641、幅 131、高さ 180（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-013",
+     "values": {
+      "lt.panel": "e01-p04-k1",
+      "lt.line": "gm1-script-lines@script-v1 SC-002.L06",
+      "lt.kind": "台詞",
+      "lt.speaker": "メアリー（CH-10）",
+      "lt.text": "前もそう言いました。",
+      "lt.shape": "楕円の吹き出し、尾は話す人（メアリー）へ",
+      "lt.font": "ゴシック（Noto Sans CJK JP）、19 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 2632、y 86、幅 159、高さ 72（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-014",
+     "values": {
+      "lt.panel": "e01-p05-k1",
+      "lt.line": "gm1-script-lines@script-v1 SC-003.L02",
+      "lt.kind": "擬音",
+      "lt.speaker": "",
+      "lt.text": "ゴォォォ",
+      "lt.shape": "枠なしの文字に白い縁取り（仮。手書きは LY-08）",
+      "lt.font": "ゴシック（Noto Sans CJK JP）、太字、30 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 3990、y 84、幅 150、高さ 35（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-015",
+     "values": {
+      "lt.panel": "e01-p05-k2",
+      "lt.line": "gm1-script-lines@script-v1 SC-003.L03",
+      "lt.kind": "擬音",
+      "lt.speaker": "",
+      "lt.text": "バキィ",
+      "lt.shape": "枠なしの文字に白い縁取り（仮。手書きは LY-08）",
+      "lt.font": "ゴシック（Noto Sans CJK JP）、太字、30 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 3498、y 767、幅 120、高さ 35（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-016",
+     "values": {
+      "lt.panel": "e01-p05-k3",
+      "lt.line": "gm1-script-lines@script-v1 SC-003.L04",
+      "lt.kind": "ナレーション",
+      "lt.speaker": "ガリヴァー（CH-01）",
+      "lt.text": "11月5日、ヴァン・ディーメンの地の北西で、船は嵐に遭い、岩に砕けた。",
+      "lt.shape": "四角の枠（ナレーション）",
+      "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 3860、y 624、幅 304、高さ 85（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-017",
+     "values": {
+      "lt.panel": "e01-p06-k1",
+      "lt.line": "gm1-script-lines@script-v1 SC-003.L05",
+      "lt.kind": "ナレーション",
+      "lt.speaker": "ガリヴァー（CH-01）",
+      "lt.text": "小舟で逃れた6人のうち、助かったのは私一人だったと思う。",
+      "lt.shape": "四角の枠（ナレーション）",
+      "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 4352、y 84、幅 330、高さ 62（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-018",
+     "values": {
+      "lt.panel": "e01-p06-k3",
+      "lt.line": "gm1-script-lines@script-v1 SC-003.L07",
+      "lt.kind": "ナレーション",
+      "lt.speaker": "ガリヴァー（CH-01）",
+      "lt.text": "足が着いてから、1マイル近く歩いてようやく陸に上がった。夜の8時ごろだったろう。",
+      "lt.shape": "四角の枠（ナレーション）",
+      "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 4720、y 626、幅 330、高さ 85（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-019",
+     "values": {
+      "lt.panel": "e01-p07-k1",
+      "lt.line": "gm1-script-lines@script-v1 SC-003.L08",
+      "lt.kind": "ナレーション",
+      "lt.speaker": "ガリヴァー（CH-01）",
+      "lt.text": "人家も人影もなかった。疲れと暑さと、船で飲んだ半パイントのブランデーで、私は短い柔らかな草の上に倒れ込んだ。",
+      "lt.shape": "四角の枠（ナレーション）",
+      "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 5380、y 146、幅 330、高さ 85（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-020",
+     "values": {
+      "lt.panel": "e01-p08-k2",
+      "lt.line": "gm1-script-lines@script-v1 SC-004.L02",
+      "lt.kind": "ナレーション",
+      "lt.speaker": "ガリヴァー（CH-01）",
+      "lt.text": "目が覚めたのは日が昇ってからだった。起き上がろうとして、身動き一つできないことに気づいた。",
+      "lt.shape": "四角の枠（ナレーション）",
+      "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 6072、y 520、幅 330、高さ 85（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-021",
+     "values": {
+      "lt.panel": "e01-p08-k3",
+      "lt.line": "gm1-script-lines@script-v1 SC-004.L04",
+      "lt.kind": "ナレーション",
+      "lt.speaker": "ガリヴァー（CH-01）",
+      "lt.text": "腕も脚も、長い髪までも、細い紐で地面に留められていた。",
+      "lt.shape": "四角の枠（ナレーション）",
+      "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 6440、y 700、幅 330、高さ 62（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-022",
+     "values": {
+      "lt.panel": "e01-p08-k4",
+      "lt.line": "gm1-script-lines@script-v1 SC-004.L05",
+      "lt.kind": "擬音",
+      "lt.speaker": "",
+      "lt.text": "ガサッ",
+      "lt.shape": "枠なしの文字に白い縁取り（仮。手書きは LY-08）",
+      "lt.font": "ゴシック（Noto Sans CJK JP）、太字、30 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 6648、y 840、幅 120、高さ 35（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-023",
+     "values": {
+      "lt.panel": "e01-p09-k3",
+      "lt.line": "gm1-script-lines@script-v1 SC-004.L08",
+      "lt.kind": "台詞",
+      "lt.speaker": "ガリヴァー（CH-01）",
+      "lt.text": "うおっ！",
+      "lt.shape": "楕円の吹き出し、尾は話す人（ガリヴァー）へ",
+      "lt.font": "ゴシック（Noto Sans CJK JP）、太字、26 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 6932、y 949、幅 181、高さ 62（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-024",
+     "values": {
+      "lt.panel": "e01-p10-k1",
+      "lt.line": "gm1-script-lines@script-v1 SC-004.L10",
+      "lt.kind": "台詞",
+      "lt.speaker": "小人たち（CH-30）",
+      "lt.text": "ヘキナ・デグル！",
+      "lt.shape": "楕円の吹き出し、尾は話す人（小人たち）へ",
+      "lt.font": "ゴシック（Noto Sans CJK JP）、太字、26 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 7792、y 114、幅 320、高さ 62（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-025",
+     "values": {
+      "lt.panel": "e01-p10-k2",
+      "lt.line": "gm1-script-lines@script-v1 SC-004.L12",
+      "lt.kind": "擬音",
+      "lt.speaker": "",
+      "lt.text": "ブチブチッ",
+      "lt.shape": "枠なしの文字に白い縁取り（仮。手書きは LY-08）",
+      "lt.font": "ゴシック（Noto Sans CJK JP）、太字、30 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 7792、y 437、幅 180、高さ 35（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-026",
+     "values": {
+      "lt.panel": "e01-p10-k3",
+      "lt.line": "gm1-script-lines@script-v1 SC-004.L13",
+      "lt.kind": "台詞",
+      "lt.speaker": "小人たち（CH-30）",
+      "lt.text": "トルゴ・フォナク！",
+      "lt.shape": "楕円の吹き出し、尾は話す人（小人たち）へ",
+      "lt.font": "ゴシック（Noto Sans CJK JP）、太字、26 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 8280、y 544、幅 190、高さ 98（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-027",
+     "values": {
+      "lt.panel": "e01-p10-k4",
+      "lt.line": "gm1-script-lines@script-v1 SC-004.L14",
+      "lt.kind": "擬音",
+      "lt.speaker": "",
+      "lt.text": "ヒュンヒュン",
+      "lt.shape": "枠なしの文字に白い縁取り（仮。手書きは LY-08）",
+      "lt.font": "ゴシック（Noto Sans CJK JP）、太字、30 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 8278、y 735、幅 210、高さ 35（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-028",
+     "values": {
+      "lt.panel": "e01-p11-k1",
+      "lt.line": "gm1-script-lines@script-v1 SC-004.L16",
+      "lt.kind": "ナレーション",
+      "lt.speaker": "ガリヴァー（CH-01）",
+      "lt.text": "百本を超える矢が、針のように左手に刺さった。私はじっとしていることにした。",
+      "lt.shape": "四角の枠（ナレーション）",
+      "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 8652、y 84、幅 330、高さ 85（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-029",
+     "values": {
+      "lt.panel": "e01-p11-k2",
+      "lt.line": "gm1-script-lines@script-v1 SC-004.L17",
+      "lt.kind": "ナレーション",
+      "lt.speaker": "ガリヴァー（CH-01）",
+      "lt.text": "夜になれば、自由になった左手で逃げられる。相手がこの大きさならば、どんな軍勢でも敵ではない、と。",
+      "lt.shape": "四角の枠（ナレーション）",
+      "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 9020、y 204、幅 330、高さ 85（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-030",
+     "values": {
+      "lt.panel": "e01-p11-k4",
+      "lt.line": "gm1-script-lines@script-v1 SC-004.L19",
+      "lt.kind": "台詞",
+      "lt.speaker": "ガリヴァー（CH-01）",
+      "lt.text": "（指で口を差す）……腹が、減っているのです。",
+      "lt.shape": "楕円の吹き出し、尾は話す人（ガリヴァー）へ",
+      "lt.font": "ゴシック（Noto Sans CJK JP）、19 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 8652、y 854、幅 161、高さ 144（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-031",
+     "values": {
+      "lt.panel": "e01-p12-k1",
+      "lt.line": "gm1-script-lines@script-v1 SC-004.L21",
+      "lt.kind": "ナレーション",
+      "lt.speaker": "ガリヴァー（CH-01）",
+      "lt.text": "肉はどれも、雲雀の翼より小さかった。私はそれを二つ三つずつ口に入れ、小銃の弾ほどのパンを一度に三つ食べた。",
+      "lt.shape": "四角の枠（ナレーション）",
+      "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 9512、y 84、幅 330、高さ 85（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-032",
+     "values": {
+      "lt.panel": "e01-p12-k2",
+      "lt.line": "gm1-script-lines@script-v1 SC-004.L23",
+      "lt.kind": "台詞",
+      "lt.speaker": "小人たち（CH-30）",
+      "lt.text": "ボラク・ミヴォラ！",
+      "lt.shape": "楕円の吹き出し、尾は話す人（小人たち）へ",
+      "lt.font": "ゴシック（Noto Sans CJK JP）、太字、26 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 10006、y 222、幅 206、高さ 98（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-033",
+     "values": {
+      "lt.panel": "e01-p12-k3",
+      "lt.line": "gm1-script-lines@script-v1 SC-004.L25",
+      "lt.kind": "台詞",
+      "lt.speaker": "小人たち（CH-30）",
+      "lt.text": "ヘキナ・デグル！",
+      "lt.shape": "楕円の吹き出し、尾は話す人（小人たち）へ",
+      "lt.font": "ゴシック（Noto Sans CJK JP）、太字、26 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 9890、y 439、幅 320、高さ 62（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-034",
+     "values": {
+      "lt.panel": "e01-p12-k4",
+      "lt.line": "gm1-script-lines@script-v1 SC-004.L26",
+      "lt.kind": "ナレーション",
+      "lt.speaker": "ガリヴァー（CH-01）",
+      "lt.text": "胸の上を行き来する彼らを、四、五十人つかんで地面に叩きつけてやろうか、と何度も思った。",
+      "lt.shape": "四角の枠（ナレーション）",
+      "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 9620、y 690、幅 330、高さ 85（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-035",
+     "values": {
+      "lt.panel": "e01-p12-k4",
+      "lt.line": "gm1-script-lines@script-v1 SC-004.L27",
+      "lt.kind": "ナレーション",
+      "lt.speaker": "ガリヴァー（CH-01）",
+      "lt.text": "だが私は、もてなしを受けた客として約束を守る、と心に決めていた。",
+      "lt.shape": "四角の枠（ナレーション）",
+      "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 9620、y 828、幅 330、高さ 62（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-036",
+     "values": {
+      "lt.panel": "e01-p13-k1",
+      "lt.line": "gm1-script-lines@script-v1 SC-005.L02",
+      "lt.kind": "ナレーション",
+      "lt.speaker": "ガリヴァー（CH-01）",
+      "lt.text": "眠っている間に、彼らは私を運ぶ機械を作った。長さ7フィート、幅4フィート、車輪が22。",
+      "lt.shape": "四角の枠（ナレーション）",
+      "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 10660、y 84、幅 330、高さ 85（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-037",
+     "values": {
+      "lt.panel": "e01-p13-k2",
+      "lt.line": "gm1-script-lines@script-v1 SC-005.L04",
+      "lt.kind": "ナレーション",
+      "lt.speaker": "ガリヴァー（CH-01）",
+      "lt.text": "私を載せるのに、強い男900人が3時間かかった。引いたのは、高さ4インチ半の王の馬1,500頭である。",
+      "lt.shape": "四角の枠（ナレーション）",
+      "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 10372、y 415、幅 330、高さ 85（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-038",
+     "values": {
+      "lt.panel": "e01-p13-k3",
+      "lt.line": "gm1-script-lines@script-v1 SC-005.L05",
+      "lt.kind": "擬音",
+      "lt.speaker": "",
+      "lt.text": "ギシギシ",
+      "lt.shape": "枠なしの文字に白い縁取り（仮。手書きは LY-08）",
+      "lt.font": "ゴシック（Noto Sans CJK JP）、太字、30 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 10372、y 949、幅 150、高さ 35（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-039",
+     "values": {
+      "lt.panel": "e01-p14-k1",
+      "lt.line": "gm1-script-lines@script-v1 SC-005.L07",
+      "lt.kind": "ナレーション",
+      "lt.speaker": "ガリヴァー（CH-01）",
+      "lt.text": "都から200ヤード離れた古い神殿が、私の宿と定められた。この国でいちばん大きな建物だという。",
+      "lt.shape": "四角の枠（ナレーション）",
+      "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 11490、y 84、幅 330、高さ 85（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-040",
+     "values": {
+      "lt.panel": "e01-p14-k3",
+      "lt.line": "gm1-script-lines@script-v1 SC-005.L09",
+      "lt.kind": "擬音",
+      "lt.speaker": "",
+      "lt.text": "ガチャン",
+      "lt.shape": "枠なしの文字に白い縁取り（仮。手書きは LY-08）",
+      "lt.font": "ゴシック（Noto Sans CJK JP）、太字、30 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 11690、y 626、幅 150、高さ 35（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-041",
+     "values": {
+      "lt.panel": "e01-p15-k2",
+      "lt.line": "gm1-script-lines@script-v1 SC-005.L11",
+      "lt.kind": "台詞",
+      "lt.speaker": "小人たち（CH-30）",
+      "lt.text": "ヘキナ・デグル！",
+      "lt.shape": "楕円の吹き出し、尾は話す人（小人たち）へ",
+      "lt.font": "ゴシック（Noto Sans CJK JP）、太字、26 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 12350、y 840、幅 320、高さ 62（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-042",
+     "values": {
+      "lt.panel": "e01-p16-k2",
+      "lt.line": "gm1-script-lines@script-v1 SC-005.L13",
+      "lt.kind": "台詞",
+      "lt.speaker": "皇帝（CH-02）",
+      "lt.text": "人の山だ。",
+      "lt.shape": "楕円の吹き出し、尾は話す人（皇帝）へ",
+      "lt.font": "ゴシック（Noto Sans CJK JP）、19 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 13392、y 84、幅 161、高さ 46（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-043",
+     "values": {
+      "lt.panel": "e01-p16-k3",
+      "lt.line": "gm1-script-lines@script-v1 SC-005.L14",
+      "lt.kind": "台詞",
+      "lt.speaker": "皇帝（CH-02）",
+      "lt.text": "……あれに、名を与えよ。クインバス・フレストリン。",
+      "lt.shape": "楕円の吹き出し、尾は話す人（皇帝）へ",
+      "lt.font": "ゴシック（Noto Sans CJK JP）、19 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 12952、y 415、幅 303、高さ 108（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    },
+    {
+     "id": "LT-e01-044",
+     "values": {
+      "lt.panel": "e01-p16-k4",
+      "lt.line": "gm1-script-lines@script-v1 SC-005.L15",
+      "lt.kind": "ナレーション",
+      "lt.speaker": "ガリヴァー（CH-01）",
+      "lt.text": "こうして私は、リリパットという国の囚人になった。",
+      "lt.shape": "四角の枠（ナレーション）",
+      "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+      "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+      "lt.where": "x 12952、y 735、幅 330、高さ 62（原稿の座標。エディタで動かせる）",
+      "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+     }
+    }
+   ]
+  }
+ },
+ "versions": [
+  {
+   "artifactId": "gm1-ep01-lettering",
+   "versionId": "finish-ep01-v2",
+   "parentVersionId": null,
+   "schemaVersion": 1,
+   "createdAt": "2026-11-14T00:00:00.000Z",
+   "createdBy": null,
+   "reason": "ガリヴァー旅行記 第1話の仕上げと写植（fiction-manga@1.3.0 仕上げと写植、gm1-ep01-ink@ink-ep01-v2 から。AI の提案）",
+   "content": {
+    "schemaVersion": 2,
+    "columns": [
+     {
+      "id": "lt.panel",
+      "name": "コマ",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "lt.line",
+      "name": "入れる台詞（固定した版）",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "lt.kind",
+      "name": "種類",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "lt.speaker",
+      "name": "話す人",
+      "type": "text"
+     },
+     {
+      "id": "lt.text",
+      "name": "文字",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "lt.shape",
+      "name": "吹き出しの形",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "lt.font",
+      "name": "書体",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "lt.direction",
+      "name": "縦書きか横書きか",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "lt.where",
+      "name": "位置",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "lt.clear",
+      "name": "顔と要所を避けたか・被せる意図",
+      "type": "text",
+      "required": true
+     }
+    ],
+    "rows": [
+     {
+      "id": "LT-e01-001",
+      "values": {
+       "lt.panel": "e01-p01-k1",
+       "lt.line": "gm1-script-lines@script-v1（題：SC-001.L01 のト書き）",
+       "lt.kind": "題",
+       "lt.speaker": "",
+       "lt.text": "ガリヴァー旅行記　第1話「人の山」",
+       "lt.shape": "枠なしの文字に白い縁取り（題）",
+       "lt.font": "明朝（Noto Serif CJK JP）、太字、30 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 52、y 84、幅 696、高さ 35（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-002",
+      "values": {
+       "lt.panel": "e01-p02-k1",
+       "lt.line": "gm1-script-lines@script-v1 SC-001.L04",
+       "lt.kind": "台詞",
+       "lt.speaker": "ガリヴァー（CH-01）",
+       "lt.text": "……今日も、あの家の連中の臭いがひどくてな。",
+       "lt.shape": "楕円の吹き出し、尾は話す人（ガリヴァー）へ",
+       "lt.font": "ゴシック（Noto Sans CJK JP）、19 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 960、y 86、幅 281、高さ 108（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-003",
+      "values": {
+       "lt.panel": "e01-p02-k1",
+       "lt.line": "gm1-script-lines@script-v1 SC-001.L05",
+       "lt.kind": "台詞",
+       "lt.speaker": "ガリヴァー（CH-01）",
+       "lt.text": "おまえたちと話している時だけだ、息ができるのは。",
+       "lt.shape": "楕円の吹き出し、尾は話す人（ガリヴァー）へ",
+       "lt.font": "ゴシック（Noto Sans CJK JP）、19 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 960、y 302、幅 281、高さ 108（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-004",
+      "values": {
+       "lt.panel": "e01-p02-k2",
+       "lt.line": "gm1-script-lines@script-v1 SC-001.L07",
+       "lt.kind": "擬音",
+       "lt.speaker": "",
+       "lt.text": "ブルル",
+       "lt.shape": "枠なしの文字に白い縁取り（仮。手書きは LY-08）",
+       "lt.font": "ゴシック（Noto Sans CJK JP）、太字、30 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 1490、y 99、幅 120、高さ 35（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-005",
+      "values": {
+       "lt.panel": "e01-p02-k3",
+       "lt.line": "gm1-script-lines@script-v1 SC-001.L08",
+       "lt.kind": "台詞",
+       "lt.speaker": "メアリー（CH-10）",
+       "lt.text": "……あなた、夕食は。",
+       "lt.shape": "楕円の吹き出し、尾は話す人（メアリー）へ",
+       "lt.font": "ゴシック（Noto Sans CJK JP）、19 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 912、y 664、幅 206、高さ 72（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-006",
+      "values": {
+       "lt.panel": "e01-p02-k4",
+       "lt.line": "gm1-script-lines@script-v1 SC-001.L09",
+       "lt.kind": "台詞",
+       "lt.speaker": "ガリヴァー（CH-01）",
+       "lt.text": "後でいい。",
+       "lt.shape": "楕円の吹き出し、尾は話す人（ガリヴァー）へ",
+       "lt.font": "ゴシック（Noto Sans CJK JP）、19 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 1448、y 520、幅 161、高さ 46（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-007",
+      "values": {
+       "lt.panel": "e01-p02-k6",
+       "lt.line": "gm1-script-lines@script-v1 SC-001.L11",
+       "lt.kind": "ナレーション",
+       "lt.speaker": "ガリヴァー（CH-01）",
+       "lt.text": "この手記を、私は旅から帰って5年目に書いている。",
+       "lt.shape": "四角の枠（ナレーション）",
+       "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 1208、y 864、幅 330、高さ 62（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-008",
+      "values": {
+       "lt.panel": "e01-p02-k6",
+       "lt.line": "gm1-script-lines@script-v1 SC-001.L12",
+       "lt.kind": "ナレーション",
+       "lt.speaker": "ガリヴァー（CH-01）",
+       "lt.text": "どうしてこうなったのか。初めから記しておく。",
+       "lt.shape": "四角の枠（ナレーション）",
+       "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 1208、y 1032、幅 330、高さ 62（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-009",
+      "values": {
+       "lt.panel": "e01-p03-k1",
+       "lt.line": "gm1-script-lines@script-v1 SC-002.L02",
+       "lt.kind": "ナレーション",
+       "lt.speaker": "ガリヴァー（CH-01）",
+       "lt.text": "1699年5月4日。私はブリストルからアンテロープ号で南の海へ出た。船医としてである。",
+       "lt.shape": "四角の枠（ナレーション）",
+       "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 2138、y 84、幅 330、高さ 85（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-010",
+      "values": {
+       "lt.panel": "e01-p03-k2",
+       "lt.line": "gm1-script-lines@script-v1 SC-002.L03",
+       "lt.kind": "ナレーション",
+       "lt.speaker": "ガリヴァー（CH-01）",
+       "lt.text": "師のベイツ先生が亡くなってから、ロンドンでの医者の商いは傾く一方だった。",
+       "lt.shape": "四角の枠（ナレーション）",
+       "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 1772、y 626、幅 212、高さ 108（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-011",
+      "values": {
+       "lt.panel": "e01-p03-k3",
+       "lt.line": "gm1-script-lines@script-v1 SC-002.L04",
+       "lt.kind": "台詞",
+       "lt.speaker": "メアリー（CH-10）",
+       "lt.text": "今度はどのくらい？",
+       "lt.shape": "楕円の吹き出し、尾は話す人（メアリー）へ",
+       "lt.font": "ゴシック（Noto Sans CJK JP）、19 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 2092、y 971、幅 126、高さ 108（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-012",
+      "values": {
+       "lt.panel": "e01-p03-k4",
+       "lt.line": "gm1-script-lines@script-v1 SC-002.L05",
+       "lt.kind": "台詞",
+       "lt.speaker": "ガリヴァー（CH-01）",
+       "lt.text": "長くて2年。帰ったら、もう海には出ない。",
+       "lt.shape": "楕円の吹き出し、尾は話す人（ガリヴァー）へ",
+       "lt.font": "ゴシック（Noto Sans CJK JP）、19 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 2338、y 641、幅 131、高さ 180（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-013",
+      "values": {
+       "lt.panel": "e01-p04-k1",
+       "lt.line": "gm1-script-lines@script-v1 SC-002.L06",
+       "lt.kind": "台詞",
+       "lt.speaker": "メアリー（CH-10）",
+       "lt.text": "前もそう言いました。",
+       "lt.shape": "楕円の吹き出し、尾は話す人（メアリー）へ",
+       "lt.font": "ゴシック（Noto Sans CJK JP）、19 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 2632、y 86、幅 159、高さ 72（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-014",
+      "values": {
+       "lt.panel": "e01-p05-k1",
+       "lt.line": "gm1-script-lines@script-v1 SC-003.L02",
+       "lt.kind": "擬音",
+       "lt.speaker": "",
+       "lt.text": "ゴォォォ",
+       "lt.shape": "枠なしの文字に白い縁取り（仮。手書きは LY-08）",
+       "lt.font": "ゴシック（Noto Sans CJK JP）、太字、30 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 3990、y 84、幅 150、高さ 35（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-015",
+      "values": {
+       "lt.panel": "e01-p05-k2",
+       "lt.line": "gm1-script-lines@script-v1 SC-003.L03",
+       "lt.kind": "擬音",
+       "lt.speaker": "",
+       "lt.text": "バキィ",
+       "lt.shape": "枠なしの文字に白い縁取り（仮。手書きは LY-08）",
+       "lt.font": "ゴシック（Noto Sans CJK JP）、太字、30 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 3498、y 767、幅 120、高さ 35（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-016",
+      "values": {
+       "lt.panel": "e01-p05-k3",
+       "lt.line": "gm1-script-lines@script-v1 SC-003.L04",
+       "lt.kind": "ナレーション",
+       "lt.speaker": "ガリヴァー（CH-01）",
+       "lt.text": "11月5日、ヴァン・ディーメンの地の北西で、船は嵐に遭い、岩に砕けた。",
+       "lt.shape": "四角の枠（ナレーション）",
+       "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 3860、y 624、幅 304、高さ 85（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-017",
+      "values": {
+       "lt.panel": "e01-p06-k1",
+       "lt.line": "gm1-script-lines@script-v1 SC-003.L05",
+       "lt.kind": "ナレーション",
+       "lt.speaker": "ガリヴァー（CH-01）",
+       "lt.text": "小舟で逃れた6人のうち、助かったのは私一人だったと思う。",
+       "lt.shape": "四角の枠（ナレーション）",
+       "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 4352、y 84、幅 330、高さ 62（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-018",
+      "values": {
+       "lt.panel": "e01-p06-k3",
+       "lt.line": "gm1-script-lines@script-v1 SC-003.L07",
+       "lt.kind": "ナレーション",
+       "lt.speaker": "ガリヴァー（CH-01）",
+       "lt.text": "足が着いてから、1マイル近く歩いてようやく陸に上がった。夜の8時ごろだったろう。",
+       "lt.shape": "四角の枠（ナレーション）",
+       "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 4720、y 626、幅 330、高さ 85（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-019",
+      "values": {
+       "lt.panel": "e01-p07-k1",
+       "lt.line": "gm1-script-lines@script-v1 SC-003.L08",
+       "lt.kind": "ナレーション",
+       "lt.speaker": "ガリヴァー（CH-01）",
+       "lt.text": "人家も人影もなかった。疲れと暑さと、船で飲んだ半パイントのブランデーで、私は短い柔らかな草の上に倒れ込んだ。",
+       "lt.shape": "四角の枠（ナレーション）",
+       "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 5380、y 146、幅 330、高さ 85（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-020",
+      "values": {
+       "lt.panel": "e01-p08-k2",
+       "lt.line": "gm1-script-lines@script-v1 SC-004.L02",
+       "lt.kind": "ナレーション",
+       "lt.speaker": "ガリヴァー（CH-01）",
+       "lt.text": "目が覚めたのは日が昇ってからだった。起き上がろうとして、身動き一つできないことに気づいた。",
+       "lt.shape": "四角の枠（ナレーション）",
+       "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 6072、y 520、幅 330、高さ 85（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-021",
+      "values": {
+       "lt.panel": "e01-p08-k3",
+       "lt.line": "gm1-script-lines@script-v1 SC-004.L04",
+       "lt.kind": "ナレーション",
+       "lt.speaker": "ガリヴァー（CH-01）",
+       "lt.text": "腕も脚も、長い髪までも、細い紐で地面に留められていた。",
+       "lt.shape": "四角の枠（ナレーション）",
+       "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 6440、y 700、幅 330、高さ 62（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-022",
+      "values": {
+       "lt.panel": "e01-p08-k4",
+       "lt.line": "gm1-script-lines@script-v1 SC-004.L05",
+       "lt.kind": "擬音",
+       "lt.speaker": "",
+       "lt.text": "ガサッ",
+       "lt.shape": "枠なしの文字に白い縁取り（仮。手書きは LY-08）",
+       "lt.font": "ゴシック（Noto Sans CJK JP）、太字、30 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 6648、y 840、幅 120、高さ 35（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-023",
+      "values": {
+       "lt.panel": "e01-p09-k3",
+       "lt.line": "gm1-script-lines@script-v1 SC-004.L08",
+       "lt.kind": "台詞",
+       "lt.speaker": "ガリヴァー（CH-01）",
+       "lt.text": "うおっ！",
+       "lt.shape": "楕円の吹き出し、尾は話す人（ガリヴァー）へ",
+       "lt.font": "ゴシック（Noto Sans CJK JP）、太字、26 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 6932、y 949、幅 181、高さ 62（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-024",
+      "values": {
+       "lt.panel": "e01-p10-k1",
+       "lt.line": "gm1-script-lines@script-v1 SC-004.L10",
+       "lt.kind": "台詞",
+       "lt.speaker": "小人たち（CH-30）",
+       "lt.text": "ヘキナ・デグル！",
+       "lt.shape": "楕円の吹き出し、尾は話す人（小人たち）へ",
+       "lt.font": "ゴシック（Noto Sans CJK JP）、太字、26 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 7792、y 114、幅 320、高さ 62（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-025",
+      "values": {
+       "lt.panel": "e01-p10-k2",
+       "lt.line": "gm1-script-lines@script-v1 SC-004.L12",
+       "lt.kind": "擬音",
+       "lt.speaker": "",
+       "lt.text": "ブチブチッ",
+       "lt.shape": "枠なしの文字に白い縁取り（仮。手書きは LY-08）",
+       "lt.font": "ゴシック（Noto Sans CJK JP）、太字、30 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 7792、y 437、幅 180、高さ 35（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-026",
+      "values": {
+       "lt.panel": "e01-p10-k3",
+       "lt.line": "gm1-script-lines@script-v1 SC-004.L13",
+       "lt.kind": "台詞",
+       "lt.speaker": "小人たち（CH-30）",
+       "lt.text": "トルゴ・フォナク！",
+       "lt.shape": "楕円の吹き出し、尾は話す人（小人たち）へ",
+       "lt.font": "ゴシック（Noto Sans CJK JP）、太字、26 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 8280、y 544、幅 190、高さ 98（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-027",
+      "values": {
+       "lt.panel": "e01-p10-k4",
+       "lt.line": "gm1-script-lines@script-v1 SC-004.L14",
+       "lt.kind": "擬音",
+       "lt.speaker": "",
+       "lt.text": "ヒュンヒュン",
+       "lt.shape": "枠なしの文字に白い縁取り（仮。手書きは LY-08）",
+       "lt.font": "ゴシック（Noto Sans CJK JP）、太字、30 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 8278、y 735、幅 210、高さ 35（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-028",
+      "values": {
+       "lt.panel": "e01-p11-k1",
+       "lt.line": "gm1-script-lines@script-v1 SC-004.L16",
+       "lt.kind": "ナレーション",
+       "lt.speaker": "ガリヴァー（CH-01）",
+       "lt.text": "百本を超える矢が、針のように左手に刺さった。私はじっとしていることにした。",
+       "lt.shape": "四角の枠（ナレーション）",
+       "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 8652、y 84、幅 330、高さ 85（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-029",
+      "values": {
+       "lt.panel": "e01-p11-k2",
+       "lt.line": "gm1-script-lines@script-v1 SC-004.L17",
+       "lt.kind": "ナレーション",
+       "lt.speaker": "ガリヴァー（CH-01）",
+       "lt.text": "夜になれば、自由になった左手で逃げられる。相手がこの大きさならば、どんな軍勢でも敵ではない、と。",
+       "lt.shape": "四角の枠（ナレーション）",
+       "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 9020、y 204、幅 330、高さ 85（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-030",
+      "values": {
+       "lt.panel": "e01-p11-k4",
+       "lt.line": "gm1-script-lines@script-v1 SC-004.L19",
+       "lt.kind": "台詞",
+       "lt.speaker": "ガリヴァー（CH-01）",
+       "lt.text": "（指で口を差す）……腹が、減っているのです。",
+       "lt.shape": "楕円の吹き出し、尾は話す人（ガリヴァー）へ",
+       "lt.font": "ゴシック（Noto Sans CJK JP）、19 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 8652、y 854、幅 161、高さ 144（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-031",
+      "values": {
+       "lt.panel": "e01-p12-k1",
+       "lt.line": "gm1-script-lines@script-v1 SC-004.L21",
+       "lt.kind": "ナレーション",
+       "lt.speaker": "ガリヴァー（CH-01）",
+       "lt.text": "肉はどれも、雲雀の翼より小さかった。私はそれを二つ三つずつ口に入れ、小銃の弾ほどのパンを一度に三つ食べた。",
+       "lt.shape": "四角の枠（ナレーション）",
+       "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 9512、y 84、幅 330、高さ 85（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-032",
+      "values": {
+       "lt.panel": "e01-p12-k2",
+       "lt.line": "gm1-script-lines@script-v1 SC-004.L23",
+       "lt.kind": "台詞",
+       "lt.speaker": "小人たち（CH-30）",
+       "lt.text": "ボラク・ミヴォラ！",
+       "lt.shape": "楕円の吹き出し、尾は話す人（小人たち）へ",
+       "lt.font": "ゴシック（Noto Sans CJK JP）、太字、26 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 10006、y 222、幅 206、高さ 98（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-033",
+      "values": {
+       "lt.panel": "e01-p12-k3",
+       "lt.line": "gm1-script-lines@script-v1 SC-004.L25",
+       "lt.kind": "台詞",
+       "lt.speaker": "小人たち（CH-30）",
+       "lt.text": "ヘキナ・デグル！",
+       "lt.shape": "楕円の吹き出し、尾は話す人（小人たち）へ",
+       "lt.font": "ゴシック（Noto Sans CJK JP）、太字、26 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 9890、y 439、幅 320、高さ 62（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-034",
+      "values": {
+       "lt.panel": "e01-p12-k4",
+       "lt.line": "gm1-script-lines@script-v1 SC-004.L26",
+       "lt.kind": "ナレーション",
+       "lt.speaker": "ガリヴァー（CH-01）",
+       "lt.text": "胸の上を行き来する彼らを、四、五十人つかんで地面に叩きつけてやろうか、と何度も思った。",
+       "lt.shape": "四角の枠（ナレーション）",
+       "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 9620、y 690、幅 330、高さ 85（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-035",
+      "values": {
+       "lt.panel": "e01-p12-k4",
+       "lt.line": "gm1-script-lines@script-v1 SC-004.L27",
+       "lt.kind": "ナレーション",
+       "lt.speaker": "ガリヴァー（CH-01）",
+       "lt.text": "だが私は、もてなしを受けた客として約束を守る、と心に決めていた。",
+       "lt.shape": "四角の枠（ナレーション）",
+       "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 9620、y 828、幅 330、高さ 62（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-036",
+      "values": {
+       "lt.panel": "e01-p13-k1",
+       "lt.line": "gm1-script-lines@script-v1 SC-005.L02",
+       "lt.kind": "ナレーション",
+       "lt.speaker": "ガリヴァー（CH-01）",
+       "lt.text": "眠っている間に、彼らは私を運ぶ機械を作った。長さ7フィート、幅4フィート、車輪が22。",
+       "lt.shape": "四角の枠（ナレーション）",
+       "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 10660、y 84、幅 330、高さ 85（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-037",
+      "values": {
+       "lt.panel": "e01-p13-k2",
+       "lt.line": "gm1-script-lines@script-v1 SC-005.L04",
+       "lt.kind": "ナレーション",
+       "lt.speaker": "ガリヴァー（CH-01）",
+       "lt.text": "私を載せるのに、強い男900人が3時間かかった。引いたのは、高さ4インチ半の王の馬1,500頭である。",
+       "lt.shape": "四角の枠（ナレーション）",
+       "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 10372、y 415、幅 330、高さ 85（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-038",
+      "values": {
+       "lt.panel": "e01-p13-k3",
+       "lt.line": "gm1-script-lines@script-v1 SC-005.L05",
+       "lt.kind": "擬音",
+       "lt.speaker": "",
+       "lt.text": "ギシギシ",
+       "lt.shape": "枠なしの文字に白い縁取り（仮。手書きは LY-08）",
+       "lt.font": "ゴシック（Noto Sans CJK JP）、太字、30 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 10372、y 949、幅 150、高さ 35（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-039",
+      "values": {
+       "lt.panel": "e01-p14-k1",
+       "lt.line": "gm1-script-lines@script-v1 SC-005.L07",
+       "lt.kind": "ナレーション",
+       "lt.speaker": "ガリヴァー（CH-01）",
+       "lt.text": "都から200ヤード離れた古い神殿が、私の宿と定められた。この国でいちばん大きな建物だという。",
+       "lt.shape": "四角の枠（ナレーション）",
+       "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 11490、y 84、幅 330、高さ 85（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-040",
+      "values": {
+       "lt.panel": "e01-p14-k3",
+       "lt.line": "gm1-script-lines@script-v1 SC-005.L09",
+       "lt.kind": "擬音",
+       "lt.speaker": "",
+       "lt.text": "ガチャン",
+       "lt.shape": "枠なしの文字に白い縁取り（仮。手書きは LY-08）",
+       "lt.font": "ゴシック（Noto Sans CJK JP）、太字、30 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 11690、y 626、幅 150、高さ 35（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-041",
+      "values": {
+       "lt.panel": "e01-p15-k2",
+       "lt.line": "gm1-script-lines@script-v1 SC-005.L11",
+       "lt.kind": "台詞",
+       "lt.speaker": "小人たち（CH-30）",
+       "lt.text": "ヘキナ・デグル！",
+       "lt.shape": "楕円の吹き出し、尾は話す人（小人たち）へ",
+       "lt.font": "ゴシック（Noto Sans CJK JP）、太字、26 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 12350、y 840、幅 320、高さ 62（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-042",
+      "values": {
+       "lt.panel": "e01-p16-k2",
+       "lt.line": "gm1-script-lines@script-v1 SC-005.L13",
+       "lt.kind": "台詞",
+       "lt.speaker": "皇帝（CH-02）",
+       "lt.text": "人の山だ。",
+       "lt.shape": "楕円の吹き出し、尾は話す人（皇帝）へ",
+       "lt.font": "ゴシック（Noto Sans CJK JP）、19 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 13392、y 84、幅 161、高さ 46（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-043",
+      "values": {
+       "lt.panel": "e01-p16-k3",
+       "lt.line": "gm1-script-lines@script-v1 SC-005.L14",
+       "lt.kind": "台詞",
+       "lt.speaker": "皇帝（CH-02）",
+       "lt.text": "……あれに、名を与えよ。クインバス・フレストリン。",
+       "lt.shape": "楕円の吹き出し、尾は話す人（皇帝）へ",
+       "lt.font": "ゴシック（Noto Sans CJK JP）、19 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 12952、y 415、幅 303、高さ 108（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     },
+     {
+      "id": "LT-e01-044",
+      "values": {
+       "lt.panel": "e01-p16-k4",
+       "lt.line": "gm1-script-lines@script-v1 SC-005.L15",
+       "lt.kind": "ナレーション",
+       "lt.speaker": "ガリヴァー（CH-01）",
+       "lt.text": "こうして私は、リリパットという国の囚人になった。",
+       "lt.shape": "四角の枠（ナレーション）",
+       "lt.font": "明朝（Noto Serif CJK JP）、17 px",
+       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
+       "lt.where": "x 12952、y 735、幅 330、高さ 62（原稿の座標。エディタで動かせる）",
+       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
+      }
+     }
+    ]
+   },
+   "contentHash": "b360cb0e07ecace422151b4d6a4d717159c7ef3cf1071f67758e0594be699344"
+  }
+ ]
+}

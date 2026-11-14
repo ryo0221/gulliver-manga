@@ -1,0 +1,721 @@
+{
+ "schemaVersion": 1,
+ "id": "gm1-ep01-finish-pages",
+ "name": "第1話 仕上げのページ表（資料・レイヤー・生成の記録）",
+ "kind": "data",
+ "provenance": {
+  "source": "created"
+ },
+ "draft": {
+  "baseVersionId": "finish-ep01-v2",
+  "updatedAt": "2026-11-14T00:00:00.000Z",
+  "content": {
+   "schemaVersion": 2,
+   "columns": [
+    {
+     "id": "fn.page",
+     "name": "ページ",
+     "type": "number",
+     "required": true
+    },
+    {
+     "id": "fn.scene",
+     "name": "シーン",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "fn.panels",
+     "name": "コマ（ネームと同じ ID）",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "fn.method",
+     "name": "仕上げの方法",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "fn.ink",
+     "name": "もとにした線画（固定した版）",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "fn.art",
+     "name": "渡した設定画（固定した版）",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "fn.layers",
+     "name": "レイヤー",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "fn.layerNotes",
+     "name": "決まりに無いレイヤー・まとめたレイヤーの理由",
+     "type": "text"
+    },
+    {
+     "id": "fn.byHuman",
+     "name": "人が描いた・直したレイヤー",
+     "type": "text"
+    },
+    {
+     "id": "fn.byAi",
+     "name": "AI の提案を採ったレイヤー",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "fn.generated",
+     "name": "AI の生成：道具と版・渡した参照・出典と利用条件",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "fn.noShadow",
+     "name": "影の無いコマ",
+     "type": "text"
+    }
+   ],
+   "rows": [
+    {
+     "id": "PG-e01-01",
+     "values": {
+      "fn.page": 1,
+      "fn.scene": "SC-001",
+      "fn.panels": "e01-p01-k1 e01-p01-k2",
+      "fn.method": "採った線画を Codex に塗らせて色の見本を作り、見本を線画の位置へ合わせて（線の画像どうしのオプティカルフロー）、線の間の領域ごとに塗り（人物と背景）と影に分けた。線は線画のまま",
+      "fn.ink": "gm1-ep01-ink@ink-ep01-v2：6 枚の線のレイヤー（part1/ink/layers/、sha256 は ep01-finish.json）",
+      "fn.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@9018ed12 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-30 小人の設定画（正面）（gulliver-manga@9018ed12 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
+      "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
+      "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影は色の見本で同じ色のうち暗いところを取り出したもので、半透明の影の色を塗りの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
+      "fn.byHuman": "まだ無い（作者が確かめて直す）",
+      "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（画像生成）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
+      "fn.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-ink@ink-ep01-v2 の線（3枚を黒で重ねた絵）と上の設定画を渡した。プロンプトは part1/finish/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+      "fn.noShadow": ""
+     }
+    },
+    {
+     "id": "PG-e01-02",
+     "values": {
+      "fn.page": 2,
+      "fn.scene": "SC-001",
+      "fn.panels": "e01-p02-k1 e01-p02-k2 e01-p02-k3 e01-p02-k4 e01-p02-k5 e01-p02-k6",
+      "fn.method": "採った線画を Codex に塗らせて色の見本を作り、見本を線画の位置へ合わせて（線の画像どうしのオプティカルフロー）、線の間の領域ごとに塗り（人物と背景）と影に分けた。線は線画のまま",
+      "fn.ink": "gm1-ep01-ink@ink-ep01-v2：18 枚の線のレイヤー（part1/ink/layers/、sha256 は ep01-finish.json）",
+      "fn.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@9018ed12 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
+      "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
+      "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影は色の見本で同じ色のうち暗いところを取り出したもので、半透明の影の色を塗りの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
+      "fn.byHuman": "まだ無い（作者が確かめて直す）",
+      "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（画像生成）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
+      "fn.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-ink@ink-ep01-v2 の線（3枚を黒で重ねた絵）と上の設定画を渡した。プロンプトは part1/finish/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+      "fn.noShadow": ""
+     }
+    },
+    {
+     "id": "PG-e01-03",
+     "values": {
+      "fn.page": 3,
+      "fn.scene": "SC-002",
+      "fn.panels": "e01-p03-k1 e01-p03-k2 e01-p03-k3 e01-p03-k4",
+      "fn.method": "採った線画を Codex に塗らせて色の見本を作り、見本を線画の位置へ合わせて（線の画像どうしのオプティカルフロー）、線の間の領域ごとに塗り（人物と背景）と影に分けた。線は線画のまま",
+      "fn.ink": "gm1-ep01-ink@ink-ep01-v2：12 枚の線のレイヤー（part1/ink/layers/、sha256 は ep01-finish.json）",
+      "fn.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@9018ed12 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
+      "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
+      "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影は色の見本で同じ色のうち暗いところを取り出したもので、半透明の影の色を塗りの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
+      "fn.byHuman": "まだ無い（作者が確かめて直す）",
+      "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（画像生成）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
+      "fn.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-ink@ink-ep01-v2 の線（3枚を黒で重ねた絵）と上の設定画を渡した。プロンプトは part1/finish/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+      "fn.noShadow": "e01-p03-k1：色の見本の影が、同じ色の暗いところとして取り出せなかった（影の色が別の色になっている）。影は塗りに残っている"
+     }
+    },
+    {
+     "id": "PG-e01-04",
+     "values": {
+      "fn.page": 4,
+      "fn.scene": "SC-002",
+      "fn.panels": "e01-p04-k1 e01-p04-k2 e01-p04-k3",
+      "fn.method": "採った線画を Codex に塗らせて色の見本を作り、見本を線画の位置へ合わせて（線の画像どうしのオプティカルフロー）、線の間の領域ごとに塗り（人物と背景）と影に分けた。線は線画のまま",
+      "fn.ink": "gm1-ep01-ink@ink-ep01-v2：9 枚の線のレイヤー（part1/ink/layers/、sha256 は ep01-finish.json）",
+      "fn.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@9018ed12 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
+      "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
+      "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影は色の見本で同じ色のうち暗いところを取り出したもので、半透明の影の色を塗りの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
+      "fn.byHuman": "まだ無い（作者が確かめて直す）",
+      "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（画像生成）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
+      "fn.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-ink@ink-ep01-v2 の線（3枚を黒で重ねた絵）と上の設定画を渡した。プロンプトは part1/finish/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+      "fn.noShadow": ""
+     }
+    },
+    {
+     "id": "PG-e01-05",
+     "values": {
+      "fn.page": 5,
+      "fn.scene": "SC-003",
+      "fn.panels": "e01-p05-k1 e01-p05-k2 e01-p05-k3",
+      "fn.method": "採った線画を Codex に塗らせて色の見本を作り、見本を線画の位置へ合わせて（線の画像どうしのオプティカルフロー）、線の間の領域ごとに塗り（人物と背景）と影に分けた。線は線画のまま",
+      "fn.ink": "gm1-ep01-ink@ink-ep01-v2：9 枚の線のレイヤー（part1/ink/layers/、sha256 は ep01-finish.json）",
+      "fn.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@9018ed12 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
+      "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
+      "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影は色の見本で同じ色のうち暗いところを取り出したもので、半透明の影の色を塗りの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
+      "fn.byHuman": "まだ無い（作者が確かめて直す）",
+      "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（画像生成）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
+      "fn.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-ink@ink-ep01-v2 の線（3枚を黒で重ねた絵）と上の設定画を渡した。プロンプトは part1/finish/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+      "fn.noShadow": ""
+     }
+    },
+    {
+     "id": "PG-e01-06",
+     "values": {
+      "fn.page": 6,
+      "fn.scene": "SC-003",
+      "fn.panels": "e01-p06-k1 e01-p06-k2 e01-p06-k3",
+      "fn.method": "採った線画を Codex に塗らせて色の見本を作り、見本を線画の位置へ合わせて（線の画像どうしのオプティカルフロー）、線の間の領域ごとに塗り（人物と背景）と影に分けた。線は線画のまま",
+      "fn.ink": "gm1-ep01-ink@ink-ep01-v2：9 枚の線のレイヤー（part1/ink/layers/、sha256 は ep01-finish.json）",
+      "fn.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@9018ed12 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
+      "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
+      "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影は色の見本で同じ色のうち暗いところを取り出したもので、半透明の影の色を塗りの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
+      "fn.byHuman": "まだ無い（作者が確かめて直す）",
+      "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（画像生成）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
+      "fn.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-ink@ink-ep01-v2 の線（3枚を黒で重ねた絵）と上の設定画を渡した。プロンプトは part1/finish/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+      "fn.noShadow": ""
+     }
+    },
+    {
+     "id": "PG-e01-07",
+     "values": {
+      "fn.page": 7,
+      "fn.scene": "SC-003",
+      "fn.panels": "e01-p07-k1 e01-p07-k2",
+      "fn.method": "採った線画を Codex に塗らせて色の見本を作り、見本を線画の位置へ合わせて（線の画像どうしのオプティカルフロー）、線の間の領域ごとに塗り（人物と背景）と影に分けた。線は線画のまま",
+      "fn.ink": "gm1-ep01-ink@ink-ep01-v2：6 枚の線のレイヤー（part1/ink/layers/、sha256 は ep01-finish.json）",
+      "fn.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@9018ed12 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
+      "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
+      "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影は色の見本で同じ色のうち暗いところを取り出したもので、半透明の影の色を塗りの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
+      "fn.byHuman": "まだ無い（作者が確かめて直す）",
+      "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（画像生成）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
+      "fn.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-ink@ink-ep01-v2 の線（3枚を黒で重ねた絵）と上の設定画を渡した。プロンプトは part1/finish/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+      "fn.noShadow": ""
+     }
+    },
+    {
+     "id": "PG-e01-08",
+     "values": {
+      "fn.page": 8,
+      "fn.scene": "SC-004",
+      "fn.panels": "e01-p08-k1 e01-p08-k2 e01-p08-k3 e01-p08-k4",
+      "fn.method": "採った線画を Codex に塗らせて色の見本を作り、見本を線画の位置へ合わせて（線の画像どうしのオプティカルフロー）、線の間の領域ごとに塗り（人物と背景）と影に分けた。線は線画のまま",
+      "fn.ink": "gm1-ep01-ink@ink-ep01-v2：12 枚の線のレイヤー（part1/ink/layers/、sha256 は ep01-finish.json）",
+      "fn.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@9018ed12 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-30 小人の設定画（正面）（gulliver-manga@9018ed12 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
+      "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
+      "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影は色の見本で同じ色のうち暗いところを取り出したもので、半透明の影の色を塗りの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
+      "fn.byHuman": "まだ無い（作者が確かめて直す）",
+      "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（画像生成）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
+      "fn.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-ink@ink-ep01-v2 の線（3枚を黒で重ねた絵）と上の設定画を渡した。プロンプトは part1/finish/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+      "fn.noShadow": ""
+     }
+    },
+    {
+     "id": "PG-e01-09",
+     "values": {
+      "fn.page": 9,
+      "fn.scene": "SC-004",
+      "fn.panels": "e01-p09-k1 e01-p09-k2 e01-p09-k3",
+      "fn.method": "採った線画を Codex に塗らせて色の見本を作り、見本を線画の位置へ合わせて（線の画像どうしのオプティカルフロー）、線の間の領域ごとに塗り（人物と背景）と影に分けた。線は線画のまま",
+      "fn.ink": "gm1-ep01-ink@ink-ep01-v2：9 枚の線のレイヤー（part1/ink/layers/、sha256 は ep01-finish.json）",
+      "fn.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@9018ed12 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-30 小人の設定画（正面）（gulliver-manga@9018ed12 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
+      "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
+      "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影は色の見本で同じ色のうち暗いところを取り出したもので、半透明の影の色を塗りの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
+      "fn.byHuman": "まだ無い（作者が確かめて直す）",
+      "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（画像生成）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
+      "fn.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-ink@ink-ep01-v2 の線（3枚を黒で重ねた絵）と上の設定画を渡した。プロンプトは part1/finish/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+      "fn.noShadow": ""
+     }
+    },
+    {
+     "id": "PG-e01-10",
+     "values": {
+      "fn.page": 10,
+      "fn.scene": "SC-004",
+      "fn.panels": "e01-p10-k1 e01-p10-k2 e01-p10-k3 e01-p10-k4",
+      "fn.method": "採った線画を Codex に塗らせて色の見本を作り、見本を線画の位置へ合わせて（線の画像どうしのオプティカルフロー）、線の間の領域ごとに塗り（人物と背景）と影に分けた。線は線画のまま",
+      "fn.ink": "gm1-ep01-ink@ink-ep01-v2：12 枚の線のレイヤー（part1/ink/layers/、sha256 は ep01-finish.json）",
+      "fn.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@9018ed12 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-30 小人の設定画（正面）（gulliver-manga@9018ed12 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
+      "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
+      "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影は色の見本で同じ色のうち暗いところを取り出したもので、半透明の影の色を塗りの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
+      "fn.byHuman": "まだ無い（作者が確かめて直す）",
+      "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（画像生成）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
+      "fn.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-ink@ink-ep01-v2 の線（3枚を黒で重ねた絵）と上の設定画を渡した。プロンプトは part1/finish/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+      "fn.noShadow": ""
+     }
+    },
+    {
+     "id": "PG-e01-11",
+     "values": {
+      "fn.page": 11,
+      "fn.scene": "SC-004",
+      "fn.panels": "e01-p11-k1 e01-p11-k2 e01-p11-k3 e01-p11-k4 e01-p11-k5",
+      "fn.method": "採った線画を Codex に塗らせて色の見本を作り、見本を線画の位置へ合わせて（線の画像どうしのオプティカルフロー）、線の間の領域ごとに塗り（人物と背景）と影に分けた。線は線画のまま",
+      "fn.ink": "gm1-ep01-ink@ink-ep01-v2：15 枚の線のレイヤー（part1/ink/layers/、sha256 は ep01-finish.json）",
+      "fn.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@9018ed12 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-30 小人の設定画（正面）（gulliver-manga@9018ed12 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
+      "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
+      "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影は色の見本で同じ色のうち暗いところを取り出したもので、半透明の影の色を塗りの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
+      "fn.byHuman": "まだ無い（作者が確かめて直す）",
+      "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（画像生成）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
+      "fn.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-ink@ink-ep01-v2 の線（3枚を黒で重ねた絵）と上の設定画を渡した。プロンプトは part1/finish/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+      "fn.noShadow": "e01-p11-k3：色の見本の影が、同じ色の暗いところとして取り出せなかった（影の色が別の色になっている）。影は塗りに残っている"
+     }
+    },
+    {
+     "id": "PG-e01-12",
+     "values": {
+      "fn.page": 12,
+      "fn.scene": "SC-004",
+      "fn.panels": "e01-p12-k1 e01-p12-k2 e01-p12-k3 e01-p12-k4 e01-p12-k5",
+      "fn.method": "採った線画を Codex に塗らせて色の見本を作り、見本を線画の位置へ合わせて（線の画像どうしのオプティカルフロー）、線の間の領域ごとに塗り（人物と背景）と影に分けた。線は線画のまま",
+      "fn.ink": "gm1-ep01-ink@ink-ep01-v2：15 枚の線のレイヤー（part1/ink/layers/、sha256 は ep01-finish.json）",
+      "fn.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@9018ed12 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-30 小人の設定画（正面）（gulliver-manga@9018ed12 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
+      "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
+      "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影は色の見本で同じ色のうち暗いところを取り出したもので、半透明の影の色を塗りの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
+      "fn.byHuman": "まだ無い（作者が確かめて直す）",
+      "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（画像生成）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
+      "fn.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-ink@ink-ep01-v2 の線（3枚を黒で重ねた絵）と上の設定画を渡した。プロンプトは part1/finish/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+      "fn.noShadow": ""
+     }
+    },
+    {
+     "id": "PG-e01-13",
+     "values": {
+      "fn.page": 13,
+      "fn.scene": "SC-005",
+      "fn.panels": "e01-p13-k1 e01-p13-k2 e01-p13-k3",
+      "fn.method": "採った線画を Codex に塗らせて色の見本を作り、見本を線画の位置へ合わせて（線の画像どうしのオプティカルフロー）、線の間の領域ごとに塗り（人物と背景）と影に分けた。線は線画のまま",
+      "fn.ink": "gm1-ep01-ink@ink-ep01-v2：9 枚の線のレイヤー（part1/ink/layers/、sha256 は ep01-finish.json）",
+      "fn.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@9018ed12 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / LO-03 古い神殿の舞台の設定画（gulliver-manga@9018ed12 part1/codex/lo03-temple/lo03-temple-raw.png sha256:417c8a947fb6） / CH-30 小人の設定画（正面）（gulliver-manga@9018ed12 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
+      "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
+      "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影は色の見本で同じ色のうち暗いところを取り出したもので、半透明の影の色を塗りの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
+      "fn.byHuman": "まだ無い（作者が確かめて直す）",
+      "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（画像生成）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
+      "fn.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-ink@ink-ep01-v2 の線（3枚を黒で重ねた絵）と上の設定画を渡した。プロンプトは part1/finish/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+      "fn.noShadow": ""
+     }
+    },
+    {
+     "id": "PG-e01-14",
+     "values": {
+      "fn.page": 14,
+      "fn.scene": "SC-005",
+      "fn.panels": "e01-p14-k1 e01-p14-k2 e01-p14-k3",
+      "fn.method": "採った線画を Codex に塗らせて色の見本を作り、見本を線画の位置へ合わせて（線の画像どうしのオプティカルフロー）、線の間の領域ごとに塗り（人物と背景）と影に分けた。線は線画のまま",
+      "fn.ink": "gm1-ep01-ink@ink-ep01-v2：9 枚の線のレイヤー（part1/ink/layers/、sha256 は ep01-finish.json）",
+      "fn.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@9018ed12 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / LO-03 古い神殿の舞台の設定画（gulliver-manga@9018ed12 part1/codex/lo03-temple/lo03-temple-raw.png sha256:417c8a947fb6） / LO-04 都ミルドゥンドの舞台の設定画（gulliver-manga@9018ed12 part1/codex/lo04-mildendo/lo04-mildendo-raw.png sha256:5a161ac8ecd7） / CH-30 小人の設定画（正面）（gulliver-manga@9018ed12 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
+      "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
+      "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影は色の見本で同じ色のうち暗いところを取り出したもので、半透明の影の色を塗りの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
+      "fn.byHuman": "まだ無い（作者が確かめて直す）",
+      "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（画像生成）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
+      "fn.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-ink@ink-ep01-v2 の線（3枚を黒で重ねた絵）と上の設定画を渡した。プロンプトは part1/finish/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+      "fn.noShadow": ""
+     }
+    },
+    {
+     "id": "PG-e01-15",
+     "values": {
+      "fn.page": 15,
+      "fn.scene": "SC-005",
+      "fn.panels": "e01-p15-k1 e01-p15-k2",
+      "fn.method": "採った線画を Codex に塗らせて色の見本を作り、見本を線画の位置へ合わせて（線の画像どうしのオプティカルフロー）、線の間の領域ごとに塗り（人物と背景）と影に分けた。線は線画のまま",
+      "fn.ink": "gm1-ep01-ink@ink-ep01-v2：6 枚の線のレイヤー（part1/ink/layers/、sha256 は ep01-finish.json）",
+      "fn.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@9018ed12 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / LO-03 古い神殿の舞台の設定画（gulliver-manga@9018ed12 part1/codex/lo03-temple/lo03-temple-raw.png sha256:417c8a947fb6）",
+      "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
+      "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影は色の見本で同じ色のうち暗いところを取り出したもので、半透明の影の色を塗りの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
+      "fn.byHuman": "まだ無い（作者が確かめて直す）",
+      "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（画像生成）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
+      "fn.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-ink@ink-ep01-v2 の線（3枚を黒で重ねた絵）と上の設定画を渡した。プロンプトは part1/finish/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+      "fn.noShadow": ""
+     }
+    },
+    {
+     "id": "PG-e01-16",
+     "values": {
+      "fn.page": 16,
+      "fn.scene": "SC-005",
+      "fn.panels": "e01-p16-k1 e01-p16-k2 e01-p16-k3 e01-p16-k4",
+      "fn.method": "採った線画を Codex に塗らせて色の見本を作り、見本を線画の位置へ合わせて（線の画像どうしのオプティカルフロー）、線の間の領域ごとに塗り（人物と背景）と影に分けた。線は線画のまま",
+      "fn.ink": "gm1-ep01-ink@ink-ep01-v2：12 枚の線のレイヤー（part1/ink/layers/、sha256 は ep01-finish.json）",
+      "fn.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@9018ed12 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-02 皇帝の設定画（gulliver-manga@9018ed12 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080） / CH-30 小人の設定画（正面）（gulliver-manga@9018ed12 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5） / LO-03 古い神殿の舞台の設定画（gulliver-manga@9018ed12 part1/codex/lo03-temple/lo03-temple-raw.png sha256:417c8a947fb6） / LO-04 都ミルドゥンドの舞台の設定画（gulliver-manga@9018ed12 part1/codex/lo04-mildendo/lo04-mildendo-raw.png sha256:5a161ac8ecd7）",
+      "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
+      "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影は色の見本で同じ色のうち暗いところを取り出したもので、半透明の影の色を塗りの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
+      "fn.byHuman": "まだ無い（作者が確かめて直す）",
+      "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（画像生成）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
+      "fn.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-ink@ink-ep01-v2 の線（3枚を黒で重ねた絵）と上の設定画を渡した。プロンプトは part1/finish/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+      "fn.noShadow": ""
+     }
+    }
+   ]
+  }
+ },
+ "versions": [
+  {
+   "artifactId": "gm1-ep01-finish-pages",
+   "versionId": "finish-ep01-v2",
+   "parentVersionId": null,
+   "schemaVersion": 1,
+   "createdAt": "2026-11-14T00:00:00.000Z",
+   "createdBy": null,
+   "reason": "ガリヴァー旅行記 第1話の仕上げと写植（fiction-manga@1.3.0 仕上げと写植、gm1-ep01-ink@ink-ep01-v2 から。AI の提案）",
+   "content": {
+    "schemaVersion": 2,
+    "columns": [
+     {
+      "id": "fn.page",
+      "name": "ページ",
+      "type": "number",
+      "required": true
+     },
+     {
+      "id": "fn.scene",
+      "name": "シーン",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "fn.panels",
+      "name": "コマ（ネームと同じ ID）",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "fn.method",
+      "name": "仕上げの方法",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "fn.ink",
+      "name": "もとにした線画（固定した版）",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "fn.art",
+      "name": "渡した設定画（固定した版）",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "fn.layers",
+      "name": "レイヤー",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "fn.layerNotes",
+      "name": "決まりに無いレイヤー・まとめたレイヤーの理由",
+      "type": "text"
+     },
+     {
+      "id": "fn.byHuman",
+      "name": "人が描いた・直したレイヤー",
+      "type": "text"
+     },
+     {
+      "id": "fn.byAi",
+      "name": "AI の提案を採ったレイヤー",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "fn.generated",
+      "name": "AI の生成：道具と版・渡した参照・出典と利用条件",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "fn.noShadow",
+      "name": "影の無いコマ",
+      "type": "text"
+     }
+    ],
+    "rows": [
+     {
+      "id": "PG-e01-01",
+      "values": {
+       "fn.page": 1,
+       "fn.scene": "SC-001",
+       "fn.panels": "e01-p01-k1 e01-p01-k2",
+       "fn.method": "採った線画を Codex に塗らせて色の見本を作り、見本を線画の位置へ合わせて（線の画像どうしのオプティカルフロー）、線の間の領域ごとに塗り（人物と背景）と影に分けた。線は線画のまま",
+       "fn.ink": "gm1-ep01-ink@ink-ep01-v2：6 枚の線のレイヤー（part1/ink/layers/、sha256 は ep01-finish.json）",
+       "fn.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@9018ed12 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-30 小人の設定画（正面）（gulliver-manga@9018ed12 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
+       "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
+       "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影は色の見本で同じ色のうち暗いところを取り出したもので、半透明の影の色を塗りの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
+       "fn.byHuman": "まだ無い（作者が確かめて直す）",
+       "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（画像生成）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
+       "fn.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-ink@ink-ep01-v2 の線（3枚を黒で重ねた絵）と上の設定画を渡した。プロンプトは part1/finish/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+       "fn.noShadow": ""
+      }
+     },
+     {
+      "id": "PG-e01-02",
+      "values": {
+       "fn.page": 2,
+       "fn.scene": "SC-001",
+       "fn.panels": "e01-p02-k1 e01-p02-k2 e01-p02-k3 e01-p02-k4 e01-p02-k5 e01-p02-k6",
+       "fn.method": "採った線画を Codex に塗らせて色の見本を作り、見本を線画の位置へ合わせて（線の画像どうしのオプティカルフロー）、線の間の領域ごとに塗り（人物と背景）と影に分けた。線は線画のまま",
+       "fn.ink": "gm1-ep01-ink@ink-ep01-v2：18 枚の線のレイヤー（part1/ink/layers/、sha256 は ep01-finish.json）",
+       "fn.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@9018ed12 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
+       "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
+       "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影は色の見本で同じ色のうち暗いところを取り出したもので、半透明の影の色を塗りの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
+       "fn.byHuman": "まだ無い（作者が確かめて直す）",
+       "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（画像生成）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
+       "fn.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-ink@ink-ep01-v2 の線（3枚を黒で重ねた絵）と上の設定画を渡した。プロンプトは part1/finish/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+       "fn.noShadow": ""
+      }
+     },
+     {
+      "id": "PG-e01-03",
+      "values": {
+       "fn.page": 3,
+       "fn.scene": "SC-002",
+       "fn.panels": "e01-p03-k1 e01-p03-k2 e01-p03-k3 e01-p03-k4",
+       "fn.method": "採った線画を Codex に塗らせて色の見本を作り、見本を線画の位置へ合わせて（線の画像どうしのオプティカルフロー）、線の間の領域ごとに塗り（人物と背景）と影に分けた。線は線画のまま",
+       "fn.ink": "gm1-ep01-ink@ink-ep01-v2：12 枚の線のレイヤー（part1/ink/layers/、sha256 は ep01-finish.json）",
+       "fn.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@9018ed12 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
+       "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
+       "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影は色の見本で同じ色のうち暗いところを取り出したもので、半透明の影の色を塗りの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
+       "fn.byHuman": "まだ無い（作者が確かめて直す）",
+       "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（画像生成）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
+       "fn.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-ink@ink-ep01-v2 の線（3枚を黒で重ねた絵）と上の設定画を渡した。プロンプトは part1/finish/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+       "fn.noShadow": "e01-p03-k1：色の見本の影が、同じ色の暗いところとして取り出せなかった（影の色が別の色になっている）。影は塗りに残っている"
+      }
+     },
+     {
+      "id": "PG-e01-04",
+      "values": {
+       "fn.page": 4,
+       "fn.scene": "SC-002",
+       "fn.panels": "e01-p04-k1 e01-p04-k2 e01-p04-k3",
+       "fn.method": "採った線画を Codex に塗らせて色の見本を作り、見本を線画の位置へ合わせて（線の画像どうしのオプティカルフロー）、線の間の領域ごとに塗り（人物と背景）と影に分けた。線は線画のまま",
+       "fn.ink": "gm1-ep01-ink@ink-ep01-v2：9 枚の線のレイヤー（part1/ink/layers/、sha256 は ep01-finish.json）",
+       "fn.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@9018ed12 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
+       "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
+       "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影は色の見本で同じ色のうち暗いところを取り出したもので、半透明の影の色を塗りの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
+       "fn.byHuman": "まだ無い（作者が確かめて直す）",
+       "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（画像生成）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
+       "fn.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-ink@ink-ep01-v2 の線（3枚を黒で重ねた絵）と上の設定画を渡した。プロンプトは part1/finish/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+       "fn.noShadow": ""
+      }
+     },
+     {
+      "id": "PG-e01-05",
+      "values": {
+       "fn.page": 5,
+       "fn.scene": "SC-003",
+       "fn.panels": "e01-p05-k1 e01-p05-k2 e01-p05-k3",
+       "fn.method": "採った線画を Codex に塗らせて色の見本を作り、見本を線画の位置へ合わせて（線の画像どうしのオプティカルフロー）、線の間の領域ごとに塗り（人物と背景）と影に分けた。線は線画のまま",
+       "fn.ink": "gm1-ep01-ink@ink-ep01-v2：9 枚の線のレイヤー（part1/ink/layers/、sha256 は ep01-finish.json）",
+       "fn.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@9018ed12 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
+       "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
+       "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影は色の見本で同じ色のうち暗いところを取り出したもので、半透明の影の色を塗りの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
+       "fn.byHuman": "まだ無い（作者が確かめて直す）",
+       "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（画像生成）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
+       "fn.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-ink@ink-ep01-v2 の線（3枚を黒で重ねた絵）と上の設定画を渡した。プロンプトは part1/finish/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+       "fn.noShadow": ""
+      }
+     },
+     {
+      "id": "PG-e01-06",
+      "values": {
+       "fn.page": 6,
+       "fn.scene": "SC-003",
+       "fn.panels": "e01-p06-k1 e01-p06-k2 e01-p06-k3",
+       "fn.method": "採った線画を Codex に塗らせて色の見本を作り、見本を線画の位置へ合わせて（線の画像どうしのオプティカルフロー）、線の間の領域ごとに塗り（人物と背景）と影に分けた。線は線画のまま",
+       "fn.ink": "gm1-ep01-ink@ink-ep01-v2：9 枚の線のレイヤー（part1/ink/layers/、sha256 は ep01-finish.json）",
+       "fn.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@9018ed12 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
+       "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
+       "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影は色の見本で同じ色のうち暗いところを取り出したもので、半透明の影の色を塗りの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
+       "fn.byHuman": "まだ無い（作者が確かめて直す）",
+       "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（画像生成）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
+       "fn.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-ink@ink-ep01-v2 の線（3枚を黒で重ねた絵）と上の設定画を渡した。プロンプトは part1/finish/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+       "fn.noShadow": ""
+      }
+     },
+     {
+      "id": "PG-e01-07",
+      "values": {
+       "fn.page": 7,
+       "fn.scene": "SC-003",
+       "fn.panels": "e01-p07-k1 e01-p07-k2",
+       "fn.method": "採った線画を Codex に塗らせて色の見本を作り、見本を線画の位置へ合わせて（線の画像どうしのオプティカルフロー）、線の間の領域ごとに塗り（人物と背景）と影に分けた。線は線画のまま",
+       "fn.ink": "gm1-ep01-ink@ink-ep01-v2：6 枚の線のレイヤー（part1/ink/layers/、sha256 は ep01-finish.json）",
+       "fn.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@9018ed12 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
+       "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
+       "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影は色の見本で同じ色のうち暗いところを取り出したもので、半透明の影の色を塗りの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
+       "fn.byHuman": "まだ無い（作者が確かめて直す）",
+       "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（画像生成）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
+       "fn.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-ink@ink-ep01-v2 の線（3枚を黒で重ねた絵）と上の設定画を渡した。プロンプトは part1/finish/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+       "fn.noShadow": ""
+      }
+     },
+     {
+      "id": "PG-e01-08",
+      "values": {
+       "fn.page": 8,
+       "fn.scene": "SC-004",
+       "fn.panels": "e01-p08-k1 e01-p08-k2 e01-p08-k3 e01-p08-k4",
+       "fn.method": "採った線画を Codex に塗らせて色の見本を作り、見本を線画の位置へ合わせて（線の画像どうしのオプティカルフロー）、線の間の領域ごとに塗り（人物と背景）と影に分けた。線は線画のまま",
+       "fn.ink": "gm1-ep01-ink@ink-ep01-v2：12 枚の線のレイヤー（part1/ink/layers/、sha256 は ep01-finish.json）",
+       "fn.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@9018ed12 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-30 小人の設定画（正面）（gulliver-manga@9018ed12 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
+       "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
+       "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影は色の見本で同じ色のうち暗いところを取り出したもので、半透明の影の色を塗りの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
+       "fn.byHuman": "まだ無い（作者が確かめて直す）",
+       "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（画像生成）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
+       "fn.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-ink@ink-ep01-v2 の線（3枚を黒で重ねた絵）と上の設定画を渡した。プロンプトは part1/finish/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+       "fn.noShadow": ""
+      }
+     },
+     {
+      "id": "PG-e01-09",
+      "values": {
+       "fn.page": 9,
+       "fn.scene": "SC-004",
+       "fn.panels": "e01-p09-k1 e01-p09-k2 e01-p09-k3",
+       "fn.method": "採った線画を Codex に塗らせて色の見本を作り、見本を線画の位置へ合わせて（線の画像どうしのオプティカルフロー）、線の間の領域ごとに塗り（人物と背景）と影に分けた。線は線画のまま",
+       "fn.ink": "gm1-ep01-ink@ink-ep01-v2：9 枚の線のレイヤー（part1/ink/layers/、sha256 は ep01-finish.json）",
+       "fn.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@9018ed12 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-30 小人の設定画（正面）（gulliver-manga@9018ed12 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
+       "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
+       "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影は色の見本で同じ色のうち暗いところを取り出したもので、半透明の影の色を塗りの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
+       "fn.byHuman": "まだ無い（作者が確かめて直す）",
+       "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（画像生成）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
+       "fn.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-ink@ink-ep01-v2 の線（3枚を黒で重ねた絵）と上の設定画を渡した。プロンプトは part1/finish/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+       "fn.noShadow": ""
+      }
+     },
+     {
+      "id": "PG-e01-10",
+      "values": {
+       "fn.page": 10,
+       "fn.scene": "SC-004",
+       "fn.panels": "e01-p10-k1 e01-p10-k2 e01-p10-k3 e01-p10-k4",
+       "fn.method": "採った線画を Codex に塗らせて色の見本を作り、見本を線画の位置へ合わせて（線の画像どうしのオプティカルフロー）、線の間の領域ごとに塗り（人物と背景）と影に分けた。線は線画のまま",
+       "fn.ink": "gm1-ep01-ink@ink-ep01-v2：12 枚の線のレイヤー（part1/ink/layers/、sha256 は ep01-finish.json）",
+       "fn.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@9018ed12 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-30 小人の設定画（正面）（gulliver-manga@9018ed12 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
+       "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
+       "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影は色の見本で同じ色のうち暗いところを取り出したもので、半透明の影の色を塗りの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
+       "fn.byHuman": "まだ無い（作者が確かめて直す）",
+       "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（画像生成）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
+       "fn.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-ink@ink-ep01-v2 の線（3枚を黒で重ねた絵）と上の設定画を渡した。プロンプトは part1/finish/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+       "fn.noShadow": ""
+      }
+     },
+     {
+      "id": "PG-e01-11",
+      "values": {
+       "fn.page": 11,
+       "fn.scene": "SC-004",
+       "fn.panels": "e01-p11-k1 e01-p11-k2 e01-p11-k3 e01-p11-k4 e01-p11-k5",
+       "fn.method": "採った線画を Codex に塗らせて色の見本を作り、見本を線画の位置へ合わせて（線の画像どうしのオプティカルフロー）、線の間の領域ごとに塗り（人物と背景）と影に分けた。線は線画のまま",
+       "fn.ink": "gm1-ep01-ink@ink-ep01-v2：15 枚の線のレイヤー（part1/ink/layers/、sha256 は ep01-finish.json）",
+       "fn.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@9018ed12 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-30 小人の設定画（正面）（gulliver-manga@9018ed12 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
+       "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
+       "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影は色の見本で同じ色のうち暗いところを取り出したもので、半透明の影の色を塗りの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
+       "fn.byHuman": "まだ無い（作者が確かめて直す）",
+       "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（画像生成）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
+       "fn.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-ink@ink-ep01-v2 の線（3枚を黒で重ねた絵）と上の設定画を渡した。プロンプトは part1/finish/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+       "fn.noShadow": "e01-p11-k3：色の見本の影が、同じ色の暗いところとして取り出せなかった（影の色が別の色になっている）。影は塗りに残っている"
+      }
+     },
+     {
+      "id": "PG-e01-12",
+      "values": {
+       "fn.page": 12,
+       "fn.scene": "SC-004",
+       "fn.panels": "e01-p12-k1 e01-p12-k2 e01-p12-k3 e01-p12-k4 e01-p12-k5",
+       "fn.method": "採った線画を Codex に塗らせて色の見本を作り、見本を線画の位置へ合わせて（線の画像どうしのオプティカルフロー）、線の間の領域ごとに塗り（人物と背景）と影に分けた。線は線画のまま",
+       "fn.ink": "gm1-ep01-ink@ink-ep01-v2：15 枚の線のレイヤー（part1/ink/layers/、sha256 は ep01-finish.json）",
+       "fn.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@9018ed12 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-30 小人の設定画（正面）（gulliver-manga@9018ed12 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
+       "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
+       "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影は色の見本で同じ色のうち暗いところを取り出したもので、半透明の影の色を塗りの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
+       "fn.byHuman": "まだ無い（作者が確かめて直す）",
+       "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（画像生成）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
+       "fn.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-ink@ink-ep01-v2 の線（3枚を黒で重ねた絵）と上の設定画を渡した。プロンプトは part1/finish/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+       "fn.noShadow": ""
+      }
+     },
+     {
+      "id": "PG-e01-13",
+      "values": {
+       "fn.page": 13,
+       "fn.scene": "SC-005",
+       "fn.panels": "e01-p13-k1 e01-p13-k2 e01-p13-k3",
+       "fn.method": "採った線画を Codex に塗らせて色の見本を作り、見本を線画の位置へ合わせて（線の画像どうしのオプティカルフロー）、線の間の領域ごとに塗り（人物と背景）と影に分けた。線は線画のまま",
+       "fn.ink": "gm1-ep01-ink@ink-ep01-v2：9 枚の線のレイヤー（part1/ink/layers/、sha256 は ep01-finish.json）",
+       "fn.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@9018ed12 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / LO-03 古い神殿の舞台の設定画（gulliver-manga@9018ed12 part1/codex/lo03-temple/lo03-temple-raw.png sha256:417c8a947fb6） / CH-30 小人の設定画（正面）（gulliver-manga@9018ed12 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
+       "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
+       "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影は色の見本で同じ色のうち暗いところを取り出したもので、半透明の影の色を塗りの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
+       "fn.byHuman": "まだ無い（作者が確かめて直す）",
+       "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（画像生成）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
+       "fn.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-ink@ink-ep01-v2 の線（3枚を黒で重ねた絵）と上の設定画を渡した。プロンプトは part1/finish/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+       "fn.noShadow": ""
+      }
+     },
+     {
+      "id": "PG-e01-14",
+      "values": {
+       "fn.page": 14,
+       "fn.scene": "SC-005",
+       "fn.panels": "e01-p14-k1 e01-p14-k2 e01-p14-k3",
+       "fn.method": "採った線画を Codex に塗らせて色の見本を作り、見本を線画の位置へ合わせて（線の画像どうしのオプティカルフロー）、線の間の領域ごとに塗り（人物と背景）と影に分けた。線は線画のまま",
+       "fn.ink": "gm1-ep01-ink@ink-ep01-v2：9 枚の線のレイヤー（part1/ink/layers/、sha256 は ep01-finish.json）",
+       "fn.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@9018ed12 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / LO-03 古い神殿の舞台の設定画（gulliver-manga@9018ed12 part1/codex/lo03-temple/lo03-temple-raw.png sha256:417c8a947fb6） / LO-04 都ミルドゥンドの舞台の設定画（gulliver-manga@9018ed12 part1/codex/lo04-mildendo/lo04-mildendo-raw.png sha256:5a161ac8ecd7） / CH-30 小人の設定画（正面）（gulliver-manga@9018ed12 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
+       "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
+       "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影は色の見本で同じ色のうち暗いところを取り出したもので、半透明の影の色を塗りの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
+       "fn.byHuman": "まだ無い（作者が確かめて直す）",
+       "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（画像生成）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
+       "fn.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-ink@ink-ep01-v2 の線（3枚を黒で重ねた絵）と上の設定画を渡した。プロンプトは part1/finish/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+       "fn.noShadow": ""
+      }
+     },
+     {
+      "id": "PG-e01-15",
+      "values": {
+       "fn.page": 15,
+       "fn.scene": "SC-005",
+       "fn.panels": "e01-p15-k1 e01-p15-k2",
+       "fn.method": "採った線画を Codex に塗らせて色の見本を作り、見本を線画の位置へ合わせて（線の画像どうしのオプティカルフロー）、線の間の領域ごとに塗り（人物と背景）と影に分けた。線は線画のまま",
+       "fn.ink": "gm1-ep01-ink@ink-ep01-v2：6 枚の線のレイヤー（part1/ink/layers/、sha256 は ep01-finish.json）",
+       "fn.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@9018ed12 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / LO-03 古い神殿の舞台の設定画（gulliver-manga@9018ed12 part1/codex/lo03-temple/lo03-temple-raw.png sha256:417c8a947fb6）",
+       "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
+       "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影は色の見本で同じ色のうち暗いところを取り出したもので、半透明の影の色を塗りの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
+       "fn.byHuman": "まだ無い（作者が確かめて直す）",
+       "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（画像生成）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
+       "fn.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-ink@ink-ep01-v2 の線（3枚を黒で重ねた絵）と上の設定画を渡した。プロンプトは part1/finish/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+       "fn.noShadow": ""
+      }
+     },
+     {
+      "id": "PG-e01-16",
+      "values": {
+       "fn.page": 16,
+       "fn.scene": "SC-005",
+       "fn.panels": "e01-p16-k1 e01-p16-k2 e01-p16-k3 e01-p16-k4",
+       "fn.method": "採った線画を Codex に塗らせて色の見本を作り、見本を線画の位置へ合わせて（線の画像どうしのオプティカルフロー）、線の間の領域ごとに塗り（人物と背景）と影に分けた。線は線画のまま",
+       "fn.ink": "gm1-ep01-ink@ink-ep01-v2：12 枚の線のレイヤー（part1/ink/layers/、sha256 は ep01-finish.json）",
+       "fn.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@9018ed12 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-02 皇帝の設定画（gulliver-manga@9018ed12 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080） / CH-30 小人の設定画（正面）（gulliver-manga@9018ed12 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5） / LO-03 古い神殿の舞台の設定画（gulliver-manga@9018ed12 part1/codex/lo03-temple/lo03-temple-raw.png sha256:417c8a947fb6） / LO-04 都ミルドゥンドの舞台の設定画（gulliver-manga@9018ed12 part1/codex/lo04-mildendo/lo04-mildendo-raw.png sha256:5a161ac8ecd7）",
+       "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
+       "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影は色の見本で同じ色のうち暗いところを取り出したもので、半透明の影の色を塗りの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
+       "fn.byHuman": "まだ無い（作者が確かめて直す）",
+       "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（画像生成）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
+       "fn.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep01-ink@ink-ep01-v2 の線（3枚を黒で重ねた絵）と上の設定画を渡した。プロンプトは part1/finish/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+       "fn.noShadow": ""
+      }
+     }
+    ]
+   },
+   "contentHash": "b2eeddb93b8eda820818f9edc0a6743d0cf979c3443199f7677f88b4f30e2224"
+  }
+ ]
+}
