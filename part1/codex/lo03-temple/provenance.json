@@ -1,0 +1,20 @@
+{
+  "item": "lo03-temple",
+  "generated_at": "2026-11-14",
+  "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool image_gen.imagegen, ChatGPT sign-in",
+  "codex_model": "gpt-6.1-sol",
+  "image_model": "not exposed by the Codex image tool",
+  "prompt": "Use your image generation tool, with the attached image as the reference to edit/trace (keep its composition).\nMake ONE image: full colour manga setting art (character/setting sheet), clean even thin black main line, flat cel colours (no gradients, no painterly texture, minimal shading).\nEarly-18th-century English clothes and ships. No likeness to any film, game or existing illustration.\nKeep the reference's proportions, pose, camera angle and framing exactly; same position and size in the frame. Landscape orientation 1536x1024.\n\nFill the whole frame, including sky.\nNo text, no speech balloons, no signature, no watermark.\nSubject: The ancient temple outside the west gate of Mildendo, the tiny Lilliputian capital, where Gulliver lodges: abandoned weathered stone temple, its gate only 4 ft high and 2 ft wide, early-morning light, grass and trees of Lilliputian scale around it. The buildings are small in the frame: keep the composition but add detail mainly around the buildings.\nAfter generating, copy the generated PNG to ./raw.png in the current directory. Do not generate more than one image.\n",
+  "inputs": [
+    "gulliver-manga/part1/underlay/lo03-temple.png"
+  ],
+  "raw_output": "lo03-temple-raw.png",
+  "post_processing": "_tools/split.py: cover-fit and centre-cropped to the underlay size; line layer = thin dark strokes (morphological close minus luminance), fill layer = image with strokes inpainted. Composite = un-split image at underlay size.",
+  "outputs": [
+    "lo03-temple-LY-03.png",
+    "lo03-temple-LY-04.png",
+    "lo03-temple-composite.png",
+    "lo03-temple-raw.png"
+  ],
+  "status": "proposal - author (Ryo) accepts or rejects"
+}

@@ -1,0 +1,22 @@
+{
+  "item": "scale-gulliver-lilliputian",
+  "version": 2,
+  "generated_at": "2026-11-14",
+  "reason": "Ryo 2026-11-14: unify gold trim -> Gulliver's blue coat has no gold trim, brass buttons (AR-06). v1 kept in v1-gold-trim/.",
+  "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool image_gen.imagegen, ChatGPT sign-in",
+  "codex_model": "gpt-6.1-sol",
+  "image_model": "not exposed by the Codex image tool",
+  "prompt": "Use your image generation tool. The FIRST attached image is the layout reference to trace (keep its composition). The SECOND attached image is the approved character design of Gulliver: copy his costume exactly, including a plain blue coat with plain brass buttons and NO gold trim or gold edging anywhere on the coat, cuffs or pocket flaps.\nMake ONE image: full colour manga setting art (character/setting sheet), clean even thin black main line, flat cel colours (no gradients, no painterly texture, minimal shading).\nEarly-18th-century English clothes and ships. No likeness to any film, game or existing illustration.\nKeep the reference's proportions, pose, camera angle and framing exactly; same position and size in the frame. Landscape orientation 1536x1024.\nIgnore and do not draw the orange bone lines and dots in the reference, and do not draw the grey floor grid.\nBackground must be pure flat white (#FFFFFF) everywhere outside the figure: no floor, no grid, no shadow.\nNo text, no speech balloons, no signature, no watermark.\nSubject: Two figures together at true scale, exactly as placed in the first reference: the big man is Gulliver (ship's surgeon, about 30, plain blue coat without any gold trim, tan breeches, white stockings, black shoes, brown hair tied back, clean-shaven, tired but curious face) and the tiny one standing by his foot is a Lilliputian courtier in a dark red coat, grey breeches and small sword, a normal adult man only 146 mm tall: the top of his head is level with Gulliver's ankle bone, no higher. Keep the tiny figure's exact size and position.\nAfter generating, copy the generated PNG to ./raw.png in the current directory. Do not generate more than one image.\n",
+  "inputs": [
+    "gulliver-manga/part1/underlay/scale-gulliver-lilliputian.png",
+    "gulliver-manga/part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png (costume reference)"
+  ],
+  "raw_output": "scale-gulliver-lilliputian-raw.png",
+  "post_processing": "Lilliputian came out 1.7x too tall; cut out and scaled about his feet to 146/1750 of Gulliver's height (raw-scaled.png). Then _tools/split.py as the other figures.",
+  "outputs": [
+    "scale-gulliver-lilliputian-LY-05.png",
+    "scale-gulliver-lilliputian-LY-07.png",
+    "scale-gulliver-lilliputian-composite.png"
+  ],
+  "status": "proposal - author (Ryo) accepts or rejects"
+}
