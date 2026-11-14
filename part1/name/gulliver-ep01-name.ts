@@ -50,13 +50,28 @@ export type Shot = '大引き' | '引き' | '中' | '寄り' | '大寄り';
 export type Eye = 'L' | 'G' | 'E' | 'H' | 'W';
 export const EYE_NAMES: Record<Eye, string> = {
   L: '小人の目の高さ',
-  G: 'ガリヴァーの目の高さ',
+  G: 'ガリヴァーの側（顔や手の近く）',
   E: '英国の人の目の高さ',
   H: '俯瞰',
   W: '水面すれすれ',
 };
-export type Camera = { eye: Eye; mm: number; look: string };
-const L = (look: string, mm = 136): Camera => ({ eye: 'L', mm, look });
+/** カメラの立つ台（地面より高いところ）。mm は台の上面の地面からの高さ。 */
+export type Stand = { on: string; mm: number };
+export type Camera = { eye: Eye; mm: number; look: string; stand?: Stand };
+/** 小人の目の高さ（実寸）。ガリヴァーの目 1,630 mm の 1/12。 */
+export const LILLIPUT_EYE = 136;
+/** 小人の目。台の上に立つときは、台の高さに目の高さを足す。数を渡すと、地面すれすれの低いカメラ。 */
+const L = (look: string, at?: number | Stand): Camera =>
+  typeof at === 'number'
+    ? { eye: 'L', mm: at, look }
+    : at
+      ? { eye: 'L', mm: at.mm + LILLIPUT_EYE, look, stand: at }
+      : { eye: 'L', mm: LILLIPUT_EYE, look };
+const CHEST: Stand = { on: '仰向けのガリヴァーの胸（創作：地面から 250 mm）', mm: 250 };
+const TURRET: Stand = { on: '神殿の向かいの塔（本文：5フィート以上、1,524 mm）', mm: 1524 };
+const CITY_WALL: Stand = { on: '都の城壁（本文：2フィート半、762 mm）', mm: 762 };
+const LOOKOUT: Stand = { on: '見張りの柱（創作：1,064 mm）', mm: 1064 };
+const SMITH: Stand = { on: '鍛冶の足場（創作：100 mm）', mm: 100 };
 const G = (look: string, mm = 1630): Camera => ({ eye: 'G', mm, look });
 const E = (look: string, mm = 1600): Camera => ({ eye: 'E', mm, look });
 const H = (look: string, mm: number): Camera => ({ eye: 'H', mm, look });
@@ -93,7 +108,7 @@ export const EP01_NAME: NamePage[] = [
           {
             take: 1,
             shot: '大引き',
-            cam: L('胸の上の小人の後ろから、横たわるガリヴァーの顎と顔を見上げる。手前に小人の背中と弓'),
+            cam: L('胸の上の小人の後ろから、横たわるガリヴァーの顎と顔を見上げる。手前に小人の背中と弓', CHEST),
             art: '扉。浜に縛られて横たわるガリヴァーと、胸の上に立つ小人たち。',
             size: true,
             title: 'ガリヴァー旅行記　第1話「人の山」',
@@ -287,7 +302,7 @@ export const EP01_NAME: NamePage[] = [
           {
             take: 1,
             shot: '大引き',
-            cam: L('胸の上の小人の後ろ、その目の高さから、山のような顎を見上げる'),
+            cam: L('胸の上の小人の後ろ、その目の高さから、山のような顎を見上げる', CHEST),
             art: '身長6インチに満たない人間。弓矢と矢筒。後ろに40人ほど（AR-05）。',
             size: true,
           },
@@ -370,16 +385,16 @@ export const EP01_NAME: NamePage[] = [
         h: 3,
         panels: [
           { take: 1, shot: '寄り', cam: G('口の前', 200), art: '雲雀の翼より小さな肉を、二つ三つずつ摘む指。' },
-          { take: 2, shot: '中', cam: L('胸の上から、傾く樽と喉を'), art: '樽を一息で飲み干す。', size: true },
+          { take: 2, shot: '中', cam: L('胸の上から、傾く樽と喉を', CHEST), art: '樽を一息で飲み干す。', size: true },
         ],
       },
       {
         h: 2.6,
-        panels: [{ take: 2, shot: '引き', cam: L('胸の上で踊る群れの中から'), art: '放り投げた樽。胸の上で踊る小人たち。', size: true }],
+        panels: [{ take: 2, shot: '引き', cam: L('胸の上で踊る群れの中から', CHEST), art: '放り投げた樽。胸の上で踊る小人たち。', size: true }],
       },
       {
         h: 2.6,
-        panels: [{ take: 2, shot: '中', cam: G('胸の上の群れを、浮いた右手越しに', 400), art: '群れの上で止まるガリヴァーの手。' }],
+        panels: [{ take: 2, shot: '中', cam: G('胸の上の群れを、自由になった左手越しに', 400), art: '群れの上で止まるガリヴァーの手。' }],
       },
       { h: 1.8, panels: [{ take: 1, shot: '大寄り', cam: G('目の真上から'), art: '薬入りの酒で、目が重くなる。' }] },
     ],
@@ -396,7 +411,7 @@ export const EP01_NAME: NamePage[] = [
           {
             take: 2,
             shot: '大引き',
-            cam: L('柱の上の見張りの目から、900人の滑車と1,500頭の馬を', 1200),
+            cam: L('柱の上の見張りの目から、900人の滑車と1,500頭の馬を', LOOKOUT),
             art: '900人が滑車で持ち上げ、1,500頭の馬が引く。',
             size: true,
           },
@@ -423,7 +438,7 @@ export const EP01_NAME: NamePage[] = [
       {
         h: 5,
         panels: [
-          { take: 1, shot: '中', cam: L('鍛冶の足場から'), art: '左脚に91本の鎖、36個の錠。', size: true },
+          { take: 1, shot: '中', cam: L('鍛冶の足場から、鎖と錠を', SMITH), art: '左脚に91本の鎖、36個の錠。', size: true },
           { take: 1, shot: '大寄り', cam: L('錠の前から', 60), art: '錠が閉まる。' },
         ],
       },
@@ -457,22 +472,22 @@ export const EP01_NAME: NamePage[] = [
           {
             take: 1,
             shot: '引き',
-            cam: L('塔の上の貴人たちの後ろから、ガリヴァーを'),
+            cam: L('塔の上の貴人たちの後ろから、20フィート先のガリヴァーを', TURRET),
             art: '塔の上の一団の貴人。中央に、ほかより爪の幅ほど背の高い皇帝。',
             size: true,
             w: 1.2,
           },
-          { take: 1, shot: '寄り', cam: L('皇帝の正面'), art: '皇帝。', w: 0.8 },
+          { take: 1, shot: '寄り', cam: L('塔の上で、皇帝の正面', TURRET), art: '皇帝。', w: 0.8 },
         ],
       },
-      { h: 3, panels: [{ take: 1, shot: '寄り', cam: L('皇帝の横顔を'), art: '名を与える皇帝。' }] },
+      { h: 3, panels: [{ take: 1, shot: '寄り', cam: L('塔の上で、皇帝の横顔を', TURRET), art: '名を与える皇帝。' }] },
       {
         h: 4,
         panels: [
           {
             take: 1,
             shot: '大引き',
-            cam: L('都の城壁の上から、200ヤード先の神殿を', 6000),
+            cam: L('都の城壁の上から、200ヤード先の神殿を', CITY_WALL),
             art: '神殿の門に鎖で繋がれて座るガリヴァー。リリパットの囚人になる。',
             size: true,
           },
@@ -835,7 +850,8 @@ function panelTable(records: PanelRecord[], pages: NamePage[]): StructuredData {
       { id: 'nm.scene', name: 'シーン', type: 'text', required: true },
       { id: 'nm.shot', name: '大きさ', type: 'select', options: ['大引き', '引き', '中', '寄り', '大寄り'], required: true },
       { id: 'nm.eye', name: 'カメラの目', type: 'select', options: Object.values(EYE_NAMES), required: true },
-      { id: 'nm.mm', name: '目の高さ（mm、実寸）', type: 'number', required: true },
+      { id: 'nm.mm', name: '目の高さ（地面から、mm、実寸）', type: 'number', required: true },
+      { id: 'nm.stand', name: 'カメラの立つ台', type: 'text' },
       { id: 'nm.look', name: 'カメラの向き', type: 'text' },
       { id: 'nm.size', name: '大きさの違いを見せる', type: 'boolean' },
       { id: 'nm.art', name: '絵', type: 'text', required: true },
@@ -852,6 +868,7 @@ function panelTable(records: PanelRecord[], pages: NamePage[]): StructuredData {
         'nm.shot': r.panel.shot,
         'nm.eye': EYE_NAMES[r.panel.cam.eye],
         'nm.mm': r.panel.cam.mm,
+        'nm.stand': r.panel.cam.stand?.on ?? '',
         'nm.look': r.panel.cam.look,
         'nm.size': !!r.panel.size,
         'nm.art': r.panel.art,

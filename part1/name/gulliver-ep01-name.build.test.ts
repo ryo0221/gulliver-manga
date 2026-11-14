@@ -14,6 +14,7 @@ import {
   EP01_NAME,
   corners,
   insidePolygon,
+  LILLIPUT_EYE,
   panelPolygon,
 } from './gulliver-ep01-name';
 
@@ -67,6 +68,19 @@ test('episode 1 ネーム covers every script line, reads left to right and fits
   expect(first.panel.size).toBe(true);
   expect(first.panel.shot).toBe('大引き');
   for (const r of records.filter((r) => r.panel.size)) expect(r.panel.cam.eye, r.id).toBe('L');
+  // Heights are measured from the ground: a camera on a raised surface (Gulliver's chest, the
+  // turret, the city wall, a lookout or scaffold) adds the surface height to the eye height.
+  for (const r of records) {
+    const c = r.panel.cam;
+    if (c.eye === 'L' && /^(胸の上|塔の上|都の城壁の上|柱の上|鍛冶の足場)/.test(c.look)) {
+      expect(c.stand, `${r.id} ${c.look}`).toBeDefined();
+      expect(c.mm, r.id).toBe(c.stand!.mm + LILLIPUT_EYE);
+    }
+    if (c.stand) expect(c.mm, r.id).toBeGreaterThan(c.stand.mm);
+  }
+  // Continuity: only Gulliver's left arm is free in SC-004 (the script tears the left cords).
+  for (const r of records.filter((r) => r.scene === 'SC-004'))
+    expect(`${r.panel.cam.look}${r.panel.art}`, r.id).not.toMatch(/右手|右腕/);
 
   // Every text box sits inside its panel's polygon, clear of the border, and nothing overflows.
   expect(build.overflow).toEqual([]);
