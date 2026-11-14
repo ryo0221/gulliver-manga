@@ -209,6 +209,46 @@
       "te.ruby": false,
       "te.avoid": "—"
      }
+    },
+    {
+     "id": "TE-18",
+     "values": {
+      "te.text": "ヘキナ・デグル",
+      "te.source": "Hekinah degul",
+      "te.kind": "リリパットの言葉（意味は本文に無い）",
+      "te.ruby": false,
+      "te.avoid": "訳さない。驚きの叫びとして使う"
+     }
+    },
+    {
+     "id": "TE-19",
+     "values": {
+      "te.text": "トルゴ・フォナク",
+      "te.source": "Tolgo phonac",
+      "te.kind": "リリパットの言葉（矢を放つ号令）",
+      "te.ruby": false,
+      "te.avoid": "—"
+     }
+    },
+    {
+     "id": "TE-20",
+     "values": {
+      "te.text": "ボラク・ミヴォラ",
+      "te.source": "Borach mevolah",
+      "te.kind": "リリパットの言葉（「離れろ」の意、本文の推測）",
+      "te.ruby": false,
+      "te.avoid": "ボラック・ミボラ"
+     }
+    },
+    {
+     "id": "TE-21",
+     "values": {
+      "te.text": "ナルダック",
+      "te.source": "nardac",
+      "te.kind": "称号（最高の位）",
+      "te.ruby": false,
+      "te.avoid": "ナーダック"
+     }
     }
    ]
   }
@@ -422,10 +462,50 @@
        "te.ruby": false,
        "te.avoid": "—"
       }
+     },
+     {
+      "id": "TE-18",
+      "values": {
+       "te.text": "ヘキナ・デグル",
+       "te.source": "Hekinah degul",
+       "te.kind": "リリパットの言葉（意味は本文に無い）",
+       "te.ruby": false,
+       "te.avoid": "訳さない。驚きの叫びとして使う"
+      }
+     },
+     {
+      "id": "TE-19",
+      "values": {
+       "te.text": "トルゴ・フォナク",
+       "te.source": "Tolgo phonac",
+       "te.kind": "リリパットの言葉（矢を放つ号令）",
+       "te.ruby": false,
+       "te.avoid": "—"
+      }
+     },
+     {
+      "id": "TE-20",
+      "values": {
+       "te.text": "ボラク・ミヴォラ",
+       "te.source": "Borach mevolah",
+       "te.kind": "リリパットの言葉（「離れろ」の意、本文の推測）",
+       "te.ruby": false,
+       "te.avoid": "ボラック・ミボラ"
+      }
+     },
+     {
+      "id": "TE-21",
+      "values": {
+       "te.text": "ナルダック",
+       "te.source": "nardac",
+       "te.kind": "称号（最高の位）",
+       "te.ruby": false,
+       "te.avoid": "ナーダック"
+      }
      }
     ]
    },
-   "contentHash": "6102b6bd97f779747be7e7412b4dbc433e97ad163c55db921a4c9ecea059caad"
+   "contentHash": "a0c5cee2656a29a22d1af5e27bffd07cb0974cd958ec3b6eb4faf4ca7b0994c2"
   }
  ]
 }

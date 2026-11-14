@@ -669,6 +669,46 @@
       "rel.rescue": null,
       "rel.spouse": null
      }
+    },
+    {
+     "id": "CH-30",
+     "values": {
+      "ch.name": "リリパットの群衆と役人（群）",
+      "ch.desire": "",
+      "ch.wound": "",
+      "ch.voice": "",
+      "ch.relations": "",
+      "ch.first": "1話、縛られた目覚め",
+      "ch.look": "",
+      "ch.change": "（仮）各部の人物の工程で埋める",
+      "rel.serve": null,
+      "rel.ally": null,
+      "rel.enemy": null,
+      "rel.grudge": null,
+      "rel.judge": null,
+      "rel.rescue": null,
+      "rel.spouse": null
+     }
+    },
+    {
+     "id": "CH-31",
+     "values": {
+      "ch.name": "ブレフスキュの使節（群）",
+      "ch.desire": "",
+      "ch.wound": "",
+      "ch.voice": "",
+      "ch.relations": "",
+      "ch.first": "4話、和平の使節",
+      "ch.look": "",
+      "ch.change": "（仮）各部の人物の工程で埋める",
+      "rel.serve": null,
+      "rel.ally": null,
+      "rel.enemy": null,
+      "rel.grudge": null,
+      "rel.judge": null,
+      "rel.rescue": null,
+      "rel.spouse": null
+     }
     }
    ]
   }
@@ -1342,10 +1382,50 @@
        "rel.rescue": null,
        "rel.spouse": null
       }
+     },
+     {
+      "id": "CH-30",
+      "values": {
+       "ch.name": "リリパットの群衆と役人（群）",
+       "ch.desire": "",
+       "ch.wound": "",
+       "ch.voice": "",
+       "ch.relations": "",
+       "ch.first": "1話、縛られた目覚め",
+       "ch.look": "",
+       "ch.change": "（仮）各部の人物の工程で埋める",
+       "rel.serve": null,
+       "rel.ally": null,
+       "rel.enemy": null,
+       "rel.grudge": null,
+       "rel.judge": null,
+       "rel.rescue": null,
+       "rel.spouse": null
+      }
+     },
+     {
+      "id": "CH-31",
+      "values": {
+       "ch.name": "ブレフスキュの使節（群）",
+       "ch.desire": "",
+       "ch.wound": "",
+       "ch.voice": "",
+       "ch.relations": "",
+       "ch.first": "4話、和平の使節",
+       "ch.look": "",
+       "ch.change": "（仮）各部の人物の工程で埋める",
+       "rel.serve": null,
+       "rel.ally": null,
+       "rel.enemy": null,
+       "rel.grudge": null,
+       "rel.judge": null,
+       "rel.rescue": null,
+       "rel.spouse": null
+      }
      }
     ]
    },
-   "contentHash": "18454ac9019fb04548a0a34db99b1f044903375c3a51d6d2bbb95faef1745a73"
+   "contentHash": "3e6340f48ea42f2a2714e2ad671b5c73ff7e92221edc1e4ab1208e51ce02fe90"
   }
  ]
 }

@@ -11,7 +11,7 @@
 | （構成図が引くシーン） | `gms-scenes` シーンカード SC-001〜SC-074。出来事と人物を引用する | Structured Data | `screens/05-scenes.png` |
 | 筋と伏線 | `gms-plot` 筋 PL-01〜PL-04、伏線 FS-01〜FS-08（張るシーンと回収するシーン） | Structured Data | `screens/04-plot.png` |
 | 24話の筋立て | `gms-outline` 話ごとの題、本文の章、あらすじ、シーン | Document | `screens/03-outline.png` |
-| （台帳が引く人物） | `gms-characters` 第1部の CH-01〜CH-10 と、第2〜4部の仮の人物 CH-11〜CH-29 | Structured Data | `screens/08-characters.png` |
+| （台帳が引く人物） | `gms-characters` 第1部の CH-01〜CH-10 と、第2〜4部の仮の人物 CH-11〜CH-29、群の話し手 CH-30〜CH-31 | Structured Data | `screens/08-characters.png` |
 | 世界線と時計 | `gms-world-settings` 時計 CL-1、世界線 WL-A（第1部と同じ） | Story Timeline の世界設定 | — |
 
 `story-links.json` は Story の結び付け（どの資料が台帳・シーンカード・構成図・世界設定・人物表か）です。
@@ -23,6 +23,7 @@
 - 時計は第1部と同じ CL-1（ユリウス暦、1699-05-04 = 0 日）です。本文の日付はすべて相対日に直しました（例：1703-06-17 巨人の国に上陸 = 1,505 日、1715-12-05 帰宅 = 6,059 日）。日付の無い出来事は、前後の日付の間の範囲に置いています。第2部の脱出は、本文の「逃げてから約9か月で帰国」から 2,290〜2,340 日としました。
 - 第1部の出来事は `part1/editor/gulliver-part1.ts` のものをそのまま使い、そちらに綱渡り（EV-08）、凱旋とナルダック（EV-09）、和平の使節（EV-19）、弾劾の会議（EV-20）と因果の行を足しました。
 - 第2〜4部の人物（CH-11〜CH-29）は名前と初めて出る話だけの仮の行です。欄は各部の「人物」の工程で埋めます。
+- CH-30（リリパットの群衆と役人）と CH-31（ブレフスキュの使節）は、脚本で台詞を言う群の話し手です。第1部の脚本で、SC-007・SC-008・SC-012・SC-013 の出る人物を台詞に合わせて足しました。
 
 ## 確かめていること（`gulliver-story.build.test.ts`）
 

@@ -9,7 +9,7 @@
  * - 筋の台帳（Structured Data, Story Timeline tl1）: 第1部の出来事 EV と、人物の参加・在場。
  * - 構成図（Structured Data, Story Timeline tl1）: 提示位置はまだ無い（脚本の工程で作る）。
  * - 第1部の地図（Fiction Map）: GV1 の「リリパットとブレフスキュ」版 1 に、場所 LO と道 RT を付けたもの。
- * - 固有名詞と表記の辞書（Structured Data）: TE-01..TE-17。
+ * - 固有名詞と表記の辞書（Structured Data）: TE-01..TE-21。
  * - 物語ボード（Whiteboard）と表示条件（Structured Data）: 人物の時系列・地図・出来事カードを一枚に並べる。
  *
  * editor-platform の作業ツリーで apps/artifact-host/src/creative/story-board/ に置いて使う（demo 用、commit しない）。
@@ -615,6 +615,10 @@ const terms: [string, string, string, string, string][] = [
   ['TE-15', 'ベイツ', 'Bates', '師匠の外科医', '—'],
   ['TE-16', 'ブラストラグ（面積の単位）', 'blustrug', '単位', '—'],
   ['TE-17', 'グラムグラフ（長さの単位）', 'glumgluff', '単位', '—'],
+  ['TE-18', 'ヘキナ・デグル', 'Hekinah degul', 'リリパットの言葉（意味は本文に無い）', '訳さない。驚きの叫びとして使う'],
+  ['TE-19', 'トルゴ・フォナク', 'Tolgo phonac', 'リリパットの言葉（矢を放つ号令）', '—'],
+  ['TE-20', 'ボラク・ミヴォラ', 'Borach mevolah', 'リリパットの言葉（「離れろ」の意、本文の推測）', 'ボラック・ミボラ'],
+  ['TE-21', 'ナルダック', 'nardac', '称号（最高の位）', 'ナーダック'],
 ];
 function dictionary(): StructuredData {
   return {

@@ -1,0 +1,5609 @@
+{
+ "schemaVersion": 1,
+ "id": "gm1-script-lines",
+ "name": "第1部 台詞とナレーションの表",
+ "kind": "data",
+ "provenance": {
+  "source": "created"
+ },
+ "draft": {
+  "baseVersionId": "script-v1",
+  "updatedAt": "2026-11-14T00:00:00.000Z",
+  "content": {
+   "schemaVersion": 2,
+   "columns": [
+    {
+     "id": "ln.episode",
+     "name": "話",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "ln.scene",
+     "name": "シーン",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "ln.kind",
+     "name": "種類",
+     "type": "select",
+     "options": [
+      "ナレーション",
+      "台詞",
+      "ト書き",
+      "擬音"
+     ],
+     "required": true
+    },
+    {
+     "id": "ln.speaker",
+     "name": "話す人物",
+     "type": "text"
+    },
+    {
+     "id": "ln.text",
+     "name": "文",
+     "type": "text",
+     "required": true
+    }
+   ],
+   "rows": [
+    {
+     "id": "SC-001.L01",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-001",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "1ページ目、引きのコマ（扉）：浜に縛られて横たわるガリヴァーと、その胸の上に立つ小人たち。大きさの比が分かる俯瞰（AR-05）。題「人の山」。"
+     }
+    },
+    {
+     "id": "SC-001.L02",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-001",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "次のコマから序：英国の田舎家の厩。二頭の若い馬と、その前に立つ痩せた中年の男（ガリヴァー、約5年後）。"
+     }
+    },
+    {
+     "id": "SC-001.L03",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-001",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "男は馬に向かって、低い声で何かを語りかけている。戸口に妻メアリーが立ち、入ってこない。"
+     }
+    },
+    {
+     "id": "SC-001.L04",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-001",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-01",
+      "ln.text": "……今日も、あの家の連中の臭いがひどくてな。"
+     }
+    },
+    {
+     "id": "SC-001.L05",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-001",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-01",
+      "ln.text": "おまえたちと話している時だけだ、息ができるのは。"
+     }
+    },
+    {
+     "id": "SC-001.L06",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-001",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "馬が鼻を鳴らす。男は嬉しそうに頷く。"
+     }
+    },
+    {
+     "id": "SC-001.L07",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-001",
+      "ln.kind": "擬音",
+      "ln.speaker": "",
+      "ln.text": "ブルル"
+     }
+    },
+    {
+     "id": "SC-001.L08",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-001",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-10",
+      "ln.text": "……あなた、夕食は。"
+     }
+    },
+    {
+     "id": "SC-001.L09",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-001",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-01",
+      "ln.text": "後でいい。"
+     }
+    },
+    {
+     "id": "SC-001.L10",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-001",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "メアリーは目を伏せて去る。男は戸口に背を向けたまま。"
+     }
+    },
+    {
+     "id": "SC-001.L11",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-001",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "この手記を、私は旅から帰って5年目に書いている。"
+     }
+    },
+    {
+     "id": "SC-001.L12",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-001",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "どうしてこうなったのか。初めから記しておく。"
+     }
+    },
+    {
+     "id": "SC-002.L01",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-002",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "時が戻る。1699年5月4日、ブリストルの港。若いガリヴァー（青い上着、真鍮のボタン、金の縁取りなし）。"
+     }
+    },
+    {
+     "id": "SC-002.L02",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-002",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "1699年5月4日。私はブリストルからアンテロープ号で南の海へ出た。船医としてである。"
+     }
+    },
+    {
+     "id": "SC-002.L03",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-002",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "師のベイツ先生が亡くなってから、ロンドンでの医者の商いは傾く一方だった。"
+     }
+    },
+    {
+     "id": "SC-002.L04",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-002",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-10",
+      "ln.text": "今度はどのくらい？"
+     }
+    },
+    {
+     "id": "SC-002.L05",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-002",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-01",
+      "ln.text": "長くて2年。帰ったら、もう海には出ない。"
+     }
+    },
+    {
+     "id": "SC-002.L06",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-002",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-10",
+      "ln.text": "前もそう言いました。"
+     }
+    },
+    {
+     "id": "SC-002.L07",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-002",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "メアリーは笑うが、目は笑っていない。ガリヴァーは帽子を振って船に乗る。"
+     }
+    },
+    {
+     "id": "SC-003.L01",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-003",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "嵐の海。船が岩に乗り上げる。"
+     }
+    },
+    {
+     "id": "SC-003.L02",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-003",
+      "ln.kind": "擬音",
+      "ln.speaker": "",
+      "ln.text": "ゴォォォ"
+     }
+    },
+    {
+     "id": "SC-003.L03",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-003",
+      "ln.kind": "擬音",
+      "ln.speaker": "",
+      "ln.text": "バキィ"
+     }
+    },
+    {
+     "id": "SC-003.L04",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-003",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "11月5日、ヴァン・ディーメンの地の北西で、船は嵐に遭い、岩に砕けた。"
+     }
+    },
+    {
+     "id": "SC-003.L05",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-003",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "小舟で逃れた6人のうち、助かったのは私一人だったと思う。"
+     }
+    },
+    {
+     "id": "SC-003.L06",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-003",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "ガリヴァーが波間を泳ぐ。やがて足が底に着く。"
+     }
+    },
+    {
+     "id": "SC-003.L07",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-003",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "足が着いてから、1マイル近く歩いてようやく陸に上がった。夜の8時ごろだったろう。"
+     }
+    },
+    {
+     "id": "SC-003.L08",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-003",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "人家も人影もなかった。疲れと暑さと、船で飲んだ半パイントのブランデーで、私は短い柔らかな草の上に倒れ込んだ。"
+     }
+    },
+    {
+     "id": "SC-003.L09",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-003",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "草の上で眠るガリヴァー。草の丈が低いことを見せる。"
+     }
+    },
+    {
+     "id": "SC-004.L01",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-004",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "朝。仰向けのガリヴァーの目のアップ。空。"
+     }
+    },
+    {
+     "id": "SC-004.L02",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-004",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "目が覚めたのは日が昇ってからだった。起き上がろうとして、身動き一つできないことに気づいた。"
+     }
+    },
+    {
+     "id": "SC-004.L03",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-004",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "細い糸で地面に縫い止められた腕と脚、髪。"
+     }
+    },
+    {
+     "id": "SC-004.L04",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-004",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "腕も脚も、長い髪までも、細い紐で地面に留められていた。"
+     }
+    },
+    {
+     "id": "SC-004.L05",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-004",
+      "ln.kind": "擬音",
+      "ln.speaker": "",
+      "ln.text": "ガサッ"
+     }
+    },
+    {
+     "id": "SC-004.L06",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-004",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "左脚の上を何かが進み、胸の上まで来る。ガリヴァーが目だけで見下ろす。"
+     }
+    },
+    {
+     "id": "SC-004.L07",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-004",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "身長6インチに満たない人間。弓矢を持ち、矢筒を背負っている。その後ろに40人ほど。小人の目の高さから、山のようなガリヴァーの顎を見上げるコマ（AR-05）。"
+     }
+    },
+    {
+     "id": "SC-004.L08",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-004",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-01",
+      "ln.text": "うおっ！"
+     }
+    },
+    {
+     "id": "SC-004.L09",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-004",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "小人たちが驚いて転げ落ちる。"
+     }
+    },
+    {
+     "id": "SC-004.L10",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-004",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-30",
+      "ln.text": "ヘキナ・デグル！"
+     }
+    },
+    {
+     "id": "SC-004.L11",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-004",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "ガリヴァーがもがき、左腕の紐を引きちぎる。"
+     }
+    },
+    {
+     "id": "SC-004.L12",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-004",
+      "ln.kind": "擬音",
+      "ln.speaker": "",
+      "ln.text": "ブチブチッ"
+     }
+    },
+    {
+     "id": "SC-004.L13",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-004",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-30",
+      "ln.text": "トルゴ・フォナク！"
+     }
+    },
+    {
+     "id": "SC-004.L14",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-004",
+      "ln.kind": "擬音",
+      "ln.speaker": "",
+      "ln.text": "ヒュンヒュン"
+     }
+    },
+    {
+     "id": "SC-004.L15",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-004",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "百本を超える矢が左手に刺さる。針のような痛み。"
+     }
+    },
+    {
+     "id": "SC-004.L16",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-004",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "百本を超える矢が、針のように左手に刺さった。私はじっとしていることにした。"
+     }
+    },
+    {
+     "id": "SC-004.L17",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-004",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "夜になれば、自由になった左手で逃げられる。相手がこの大きさならば、どんな軍勢でも敵ではない、と。"
+     }
+    },
+    {
+     "id": "SC-004.L18",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-004",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "足場が組まれ、身分の高そうな小人が上って長い演説をする。ガリヴァーには一語も分からない。"
+     }
+    },
+    {
+     "id": "SC-004.L19",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-004",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-01",
+      "ln.text": "（指で口を差す）……腹が、減っているのです。"
+     }
+    },
+    {
+     "id": "SC-004.L20",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-004",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "梯子が胸に掛けられ、肉とパンの籠が運ばれる。羊の肩肉が雲雀の翼ほどしかない。"
+     }
+    },
+    {
+     "id": "SC-004.L21",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-004",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "肉はどれも、雲雀の翼より小さかった。私はそれを二つ三つずつ口に入れ、小銃の弾ほどのパンを一度に三つ食べた。"
+     }
+    },
+    {
+     "id": "SC-004.L22",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-004",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "樽を二つ持ち上げさせ、一息で飲み干す。"
+     }
+    },
+    {
+     "id": "SC-004.L23",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-004",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-30",
+      "ln.text": "ボラク・ミヴォラ！"
+     }
+    },
+    {
+     "id": "SC-004.L24",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-004",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "飲み干した樽を放り投げる。小人たちが胸の上で踊る。"
+     }
+    },
+    {
+     "id": "SC-004.L25",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-004",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-30",
+      "ln.text": "ヘキナ・デグル！"
+     }
+    },
+    {
+     "id": "SC-004.L26",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-004",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "胸の上を行き来する彼らを、四、五十人つかんで地面に叩きつけてやろうか、と何度も思った。"
+     }
+    },
+    {
+     "id": "SC-004.L27",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-004",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "だが私は、もてなしを受けた客として約束を守る、と心に決めていた。"
+     }
+    },
+    {
+     "id": "SC-004.L28",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-004",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "薬入りの酒で、ガリヴァーの目が重くなる。"
+     }
+    },
+    {
+     "id": "SC-005.L01",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-005",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "夜。木の運搬機（長さ7フィート、車輪22）が引かれてくる。"
+     }
+    },
+    {
+     "id": "SC-005.L02",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-005",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "眠っている間に、彼らは私を運ぶ機械を作った。長さ7フィート、幅4フィート、車輪が22。"
+     }
+    },
+    {
+     "id": "SC-005.L03",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-005",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "900人が滑車で持ち上げ、1,500頭の馬が引く。大きさの比が分かる俯瞰のコマ。"
+     }
+    },
+    {
+     "id": "SC-005.L04",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-005",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "私を載せるのに、強い男900人が3時間かかった。引いたのは、高さ4インチ半の王の馬1,500頭である。"
+     }
+    },
+    {
+     "id": "SC-005.L05",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-005",
+      "ln.kind": "擬音",
+      "ln.speaker": "",
+      "ln.text": "ギシギシ"
+     }
+    },
+    {
+     "id": "SC-005.L06",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-005",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "都の外の古い神殿。門は高さ4フィート、幅2フィート。"
+     }
+    },
+    {
+     "id": "SC-005.L07",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-005",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "都から200ヤード離れた古い神殿が、私の宿と定められた。この国でいちばん大きな建物だという。"
+     }
+    },
+    {
+     "id": "SC-005.L08",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-005",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "91本の鎖が左脚に36個の錠で留められる。"
+     }
+    },
+    {
+     "id": "SC-005.L09",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-005",
+      "ln.kind": "擬音",
+      "ln.speaker": "",
+      "ln.text": "ガチャン"
+     }
+    },
+    {
+     "id": "SC-005.L10",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-005",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "ガリヴァーが立ち上がる。周りの群衆がどよめく。"
+     }
+    },
+    {
+     "id": "SC-005.L11",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-005",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-30",
+      "ln.text": "ヘキナ・デグル！"
+     }
+    },
+    {
+     "id": "SC-005.L12",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-005",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "塔の上から一団の貴人が見ている。中央に、ほかより爪の幅ほど背の高い男（皇帝）。"
+     }
+    },
+    {
+     "id": "SC-005.L13",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-005",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-02",
+      "ln.text": "人の山だ。"
+     }
+    },
+    {
+     "id": "SC-005.L14",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-005",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-02",
+      "ln.text": "……あれに、名を与えよ。クインバス・フレストリン。"
+     }
+    },
+    {
+     "id": "SC-005.L15",
+     "values": {
+      "ln.episode": "第1話",
+      "ln.scene": "SC-005",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "こうして私は、リリパットという国の囚人になった。"
+     }
+    },
+    {
+     "id": "SC-006.L01",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-006",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "1ページ目、引きのコマ：神殿の前に座るガリヴァーの手のひらの上で、小人たちが芸を見せている（AR-05）。"
+     }
+    },
+    {
+     "id": "SC-006.L02",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-006",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "鎖につながれて半年近く、私は言葉を覚え、皇帝の宮廷の芸を見せてもらうようになった。"
+     }
+    },
+    {
+     "id": "SC-006.L03",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-006",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "地上12インチに張られた細い糸。その上で廷臣たちが跳ねる。"
+     }
+    },
+    {
+     "id": "SC-006.L04",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-006",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "この国では、高い官職に空きが出ると、望む者が皇帝の前で綱渡りをする。"
+     }
+    },
+    {
+     "id": "SC-006.L05",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-006",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "いちばん高く跳び、落ちなかった者が、その官職を得るのだ。"
+     }
+    },
+    {
+     "id": "SC-006.L06",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-006",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "痩せた長身の男が、誰よりも高く跳ぶ。"
+     }
+    },
+    {
+     "id": "SC-006.L07",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-006",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-30",
+      "ln.text": "さすがは大蔵大臣フリムナップ様！"
+     }
+    },
+    {
+     "id": "SC-006.L08",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-006",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-04",
+      "ln.text": "……落ちる者は、勘定が甘いのです。"
+     }
+    },
+    {
+     "id": "SC-006.L09",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-006",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "跳び損ねた男が落ちて、首を折りそうになる。ガリヴァーの指がとっさに受け止める。"
+     }
+    },
+    {
+     "id": "SC-006.L10",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-006",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-01",
+      "ln.text": "危ない！"
+     }
+    },
+    {
+     "id": "SC-006.L11",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-006",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "皇帝が棒を水平に持ち、廷臣たちが跳び越し、くぐる。勝った者は色の付いた絹糸を腰に巻く。"
+     }
+    },
+    {
+     "id": "SC-006.L12",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-006",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-02",
+      "ln.text": "青は第一、赤は第二、緑は第三。励め。"
+     }
+    },
+    {
+     "id": "SC-006.L13",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-006",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "私はこの芸ほど、まじめに行われる遊びを見たことがない。"
+     }
+    },
+    {
+     "id": "SC-007.L01",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-007",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "宮廷の評議。陰気な顔の太った男が、腕を組んで座る。"
+     }
+    },
+    {
+     "id": "SC-007.L02",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-007",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-02",
+      "ln.text": "クインバス・フレストリンを鎖から放つかどうか、決を採る。"
+     }
+    },
+    {
+     "id": "SC-007.L03",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-007",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-06",
+      "ln.text": "反対です。あれが一歩動けば、都は踏み潰される。"
+     }
+    },
+    {
+     "id": "SC-007.L04",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-007",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-04",
+      "ln.text": "一日の食い扶持は、民1,724人分。国庫がもちません。"
+     }
+    },
+    {
+     "id": "SC-007.L05",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-007",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-02",
+      "ln.text": "だが、役には立つ。……条件を付けて放せ。"
+     }
+    },
+    {
+     "id": "SC-007.L06",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-007",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "ボルゴラムが、長い羊皮紙を持ってガリヴァーの前に来る。"
+     }
+    },
+    {
+     "id": "SC-007.L07",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-007",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-06",
+      "ln.text": "自分で読み上げる。よく聞け。"
+     }
+    },
+    {
+     "id": "SC-007.L08",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-007",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-06",
+      "ln.text": "一、許しなく国を出ないこと。二、許しなく都に入らないこと。"
+     }
+    },
+    {
+     "id": "SC-007.L09",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-007",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-06",
+      "ln.text": "三、大通りだけを歩き、草地に寝転ばないこと。四、民と馬と車を踏まぬよう気をつけること。"
+     }
+    },
+    {
+     "id": "SC-007.L10",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-007",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-06",
+      "ln.text": "そして……敵国ブレフスキュの艦隊を滅ぼすため、力を尽くすこと。"
+     }
+    },
+    {
+     "id": "SC-007.L11",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-007",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "条文は八つあった。私はリリパットの作法どおり、右足を左手で持ち、右手の中指を頭の頂に、親指を右耳の先に当てて誓った。"
+     }
+    },
+    {
+     "id": "SC-007.L12",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-007",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "奇妙な誓いの姿勢をとるガリヴァー。真剣な顔。"
+     }
+    },
+    {
+     "id": "SC-007.L13",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-007",
+      "ln.kind": "擬音",
+      "ln.speaker": "",
+      "ln.text": "ガチャン"
+     }
+    },
+    {
+     "id": "SC-007.L14",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-007",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "鎖が外れる。ボルゴラムが面白くなさそうに背を向ける。"
+     }
+    },
+    {
+     "id": "SC-007.L15",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-007",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-06",
+      "ln.text": "……外国人め。"
+     }
+    },
+    {
+     "id": "SC-008.L01",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-008",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "都ミルデンドウ。一辺500フィートの正方形の城壁。高さ2フィート半。"
+     }
+    },
+    {
+     "id": "SC-008.L02",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-008",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "自由になって最初に願ったのは、都を見ることだった。"
+     }
+    },
+    {
+     "id": "SC-008.L03",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-008",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-30",
+      "ln.text": "巨人が通るぞ！家に入れ！"
+     }
+    },
+    {
+     "id": "SC-008.L04",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-008",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "ガリヴァーが上着の裾を押さえ、大通りを横向きに慎重に歩く。屋根の上や窓から見物する民。"
+     }
+    },
+    {
+     "id": "SC-008.L05",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-008",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "私は裾が屋根や軒に触れぬよう、短い胴着だけになって歩いた。"
+     }
+    },
+    {
+     "id": "SC-008.L06",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-008",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "城壁をまたぐ。"
+     }
+    },
+    {
+     "id": "SC-008.L07",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-008",
+      "ln.kind": "擬音",
+      "ln.speaker": "",
+      "ln.text": "ズシン"
+     }
+    },
+    {
+     "id": "SC-008.L08",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-008",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "都の真ん中に王宮がある。外庭は40フィート四方で、その内にまた二つの庭がある。"
+     }
+    },
+    {
+     "id": "SC-008.L09",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-008",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "建物を壊さぬよう、ガリヴァーは高さ5フィートの腰掛けを二つ作って運び、それを足場に内庭をまたぐ。"
+     }
+    },
+    {
+     "id": "SC-008.L10",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-008",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "寝そべって、王宮の最上階の窓を覗き込む。中で皇后と若い王子たちが驚き、皇后が笑って手を差し出す。"
+     }
+    },
+    {
+     "id": "SC-008.L11",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-008",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-03",
+      "ln.text": "……ようこそ、クインバス・フレストリン。"
+     }
+    },
+    {
+     "id": "SC-008.L12",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-008",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "皇后の小さな手に、ガリヴァーがそっと口づけする。"
+     }
+    },
+    {
+     "id": "SC-008.L13",
+     "values": {
+      "ln.episode": "第2話",
+      "ln.scene": "SC-008",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "これほど美しい宮殿を、私は見たことがない。そう思った。そのときは。"
+     }
+    },
+    {
+     "id": "SC-009.L01",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-009",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "1ページ目、引きのコマ：ガリヴァーの家の前で、寝そべった彼の耳もとへ小人のレルドレサルが話しかけている（AR-05）。"
+     }
+    },
+    {
+     "id": "SC-009.L02",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-009",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "細い目の穏やかな男、レルドレサルが従者一人で訪ねてくる。ガリヴァーは寝そべり、彼を手のひらに載せる。"
+     }
+    },
+    {
+     "id": "SC-009.L03",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-009",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-05",
+      "ln.text": "外の者には、この国はさぞ栄えて見えるでしょう。ですが、二つの災いを抱えております。"
+     }
+    },
+    {
+     "id": "SC-009.L04",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-009",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-05",
+      "ln.text": "一つは内の党派。靴のかかとの高い者と、低い者です。"
+     }
+    },
+    {
+     "id": "SC-009.L05",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-009",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "かかとの高い靴と低い靴を履いた廷臣たちが、にらみ合うコマ。"
+     }
+    },
+    {
+     "id": "SC-009.L06",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-009",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-05",
+      "ln.text": "陛下は低いかかとの者しか重く用いません。ところが皇太子殿下は、片方のかかとだけ高いのです。"
+     }
+    },
+    {
+     "id": "SC-009.L07",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-009",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "片足を引きずって歩く皇太子。"
+     }
+    },
+    {
+     "id": "SC-009.L08",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-009",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-01",
+      "ln.text": "……それで、もう一つは？"
+     }
+    },
+    {
+     "id": "SC-009.L09",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-009",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-05",
+      "ln.text": "外の敵、ブレフスキュです。戦はもう36か月も続いています。"
+     }
+    },
+    {
+     "id": "SC-009.L10",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-009",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-05",
+      "ln.text": "始まりは卵です。"
+     }
+    },
+    {
+     "id": "SC-009.L11",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-009",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-01",
+      "ln.text": "卵？"
+     }
+    },
+    {
+     "id": "SC-009.L12",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-009",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-05",
+      "ln.text": "昔はみな、卵を大きい端から割っていました。ところが今の陛下の祖父君が子どものころ、それで指を切った。"
+     }
+    },
+    {
+     "id": "SC-009.L13",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-009",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-05",
+      "ln.text": "そこで御父君は、小さい端から割れという法を出されたのです。"
+     }
+    },
+    {
+     "id": "SC-009.L14",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-009",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "割られた卵のコマ。大きい端と小さい端。"
+     }
+    },
+    {
+     "id": "SC-009.L15",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-009",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-05",
+      "ln.text": "民はこれを嫌い、反乱は六度。死を選んだ者は一万一千人。大端派の書物は禁じられ、逃げた者はブレフスキュがかくまっております。"
+     }
+    },
+    {
+     "id": "SC-009.L16",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-009",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-05",
+      "ln.text": "経典には「まことの信者は、都合のよい端から卵を割るべし」とある。どちらが都合のよい端かは……"
+     }
+    },
+    {
+     "id": "SC-009.L17",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-009",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-01",
+      "ln.text": "各人の良心に任されている、と。"
+     }
+    },
+    {
+     "id": "SC-009.L18",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-009",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-05",
+      "ln.text": "……ご賢察です。"
+     }
+    },
+    {
+     "id": "SC-009.L19",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-009",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "私は笑わなかった。英国にも、似た話はいくらでもあったからだ。"
+     }
+    },
+    {
+     "id": "SC-010.L01",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-010",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "北東岸の小山。望遠鏡で海峡の向こうを覗くガリヴァー。"
+     }
+    },
+    {
+     "id": "SC-010.L02",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-010",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "ブレフスキュは海峡を隔てて北東にある。幅は800ヤード。"
+     }
+    },
+    {
+     "id": "SC-010.L03",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-010",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "潮が満ちても中ほどの深さは70グラムグラフ、およそ6フィートだと、水夫たちから聞き出した。"
+     }
+    },
+    {
+     "id": "SC-010.L04",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-010",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "停泊中の敵艦隊、軍艦約50隻。"
+     }
+    },
+    {
+     "id": "SC-010.L05",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-010",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "私は太い綱を50本、鉄の棒を曲げた鉤を50個用意させた。"
+     }
+    },
+    {
+     "id": "SC-010.L06",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-010",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "ガリヴァーが上着と靴と靴下を脱ぎ、革の胴着一つで海に入る。眼鏡を胸の内ポケットへ。"
+     }
+    },
+    {
+     "id": "SC-010.L07",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-010",
+      "ln.kind": "擬音",
+      "ln.speaker": "",
+      "ln.text": "ザブッ"
+     }
+    },
+    {
+     "id": "SC-010.L08",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-010",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "海峡を歩いて渡る。中ほど30ヤードだけ泳ぐ。"
+     }
+    },
+    {
+     "id": "SC-010.L09",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-010",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "敵艦隊が気づき、兵が海へ飛び込んで逃げる。千本を超える矢が手と顔に刺さる。"
+     }
+    },
+    {
+     "id": "SC-010.L10",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-010",
+      "ln.kind": "擬音",
+      "ln.speaker": "",
+      "ln.text": "ヒュンヒュンヒュン"
+     }
+    },
+    {
+     "id": "SC-010.L11",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-010",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "私がいちばん恐れたのは目だった。眼鏡をかけていなければ、私は目を失っていただろう。"
+     }
+    },
+    {
+     "id": "SC-010.L12",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-010",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "眼鏡をかける。矢が眼鏡に当たって弾かれる。"
+     }
+    },
+    {
+     "id": "SC-010.L13",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-010",
+      "ln.kind": "擬音",
+      "ln.speaker": "",
+      "ln.text": "カンッ カンッ"
+     }
+    },
+    {
+     "id": "SC-010.L14",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-010",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "鉤を一隻ずつ舳先に掛け、綱を一つにまとめる。錨綱をナイフで切る。"
+     }
+    },
+    {
+     "id": "SC-010.L15",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-010",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "50隻の艦隊を引いて、海峡を戻っていく。"
+     }
+    },
+    {
+     "id": "SC-010.L16",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-010",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-30",
+      "ln.text": "巨人が艦隊を……！"
+     }
+    },
+    {
+     "id": "SC-010.L17",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-010",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "リリパットの浜で、皇帝と廷臣たちが待つ。海から首だけが見え、艦隊だけが進んでくるので、溺れたと思われている。"
+     }
+    },
+    {
+     "id": "SC-010.L18",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-010",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-01",
+      "ln.text": "リリパットのいと強き皇帝、万歳！"
+     }
+    },
+    {
+     "id": "SC-011.L01",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-011",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "王の港。凱旋。皇帝が手ずから位を授ける。"
+     }
+    },
+    {
+     "id": "SC-011.L02",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-011",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-02",
+      "ln.text": "クインバス・フレストリンを、ナルダックとする。"
+     }
+    },
+    {
+     "id": "SC-011.L03",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-011",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "ナルダックは、この国でいちばん高い位である。"
+     }
+    },
+    {
+     "id": "SC-011.L04",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-011",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "喝采する群衆。その端で、ボルゴラムが陰気な顔で拍手もせずに立つ。"
+     }
+    },
+    {
+     "id": "SC-011.L05",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-011",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-06",
+      "ln.text": "……海の戦は、海軍のものだ。"
+     }
+    },
+    {
+     "id": "SC-011.L06",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-011",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "皇帝の目が、まだ港の外の海、ブレフスキュの方を見ている。"
+     }
+    },
+    {
+     "id": "SC-011.L07",
+     "values": {
+      "ln.episode": "第3話",
+      "ln.scene": "SC-011",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-02",
+      "ln.text": "残りの船も、すべて連れてまいれ。"
+     }
+    },
+    {
+     "id": "SC-012.L01",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-012",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "1ページ目、引きのコマ：玉座の間の外に膝をつくガリヴァーと、窓辺に立つ小人の皇帝（AR-05）。"
+     }
+    },
+    {
+     "id": "SC-012.L02",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-012",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-02",
+      "ln.text": "ブレフスキュを属州とし、総督を置く。大端派は根絶やしにし、残る民には小さい端から卵を割らせる。"
+     }
+    },
+    {
+     "id": "SC-012.L03",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-012",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-02",
+      "ln.text": "そうすれば、余は世界でただ一人の君主となる。"
+     }
+    },
+    {
+     "id": "SC-012.L04",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-012",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "君主の野心というものには、際限がない。"
+     }
+    },
+    {
+     "id": "SC-012.L05",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-012",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-01",
+      "ln.text": "陛下。それはできません。"
+     }
+    },
+    {
+     "id": "SC-012.L06",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-012",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "評議の間が凍る。"
+     }
+    },
+    {
+     "id": "SC-012.L07",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-012",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-01",
+      "ln.text": "自由で勇敢な民を奴隷にする道具には、私は決してなりません。"
+     }
+    },
+    {
+     "id": "SC-012.L08",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-012",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "皇帝の顔。何も言わない。"
+     }
+    },
+    {
+     "id": "SC-012.L09",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-012",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "評議では、賢い大臣たちの多くが私の意見に付いた。"
+     }
+    },
+    {
+     "id": "SC-012.L10",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-012",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "だが皇帝は、このことを決してお許しにならなかった。"
+     }
+    },
+    {
+     "id": "SC-012.L11",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-012",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "フリムナップとボルゴラムが目を見交わす。"
+     }
+    },
+    {
+     "id": "SC-012.L12",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-012",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-04",
+      "ln.text": "……陛下のご恩を、仇で返す者がおりますな。"
+     }
+    },
+    {
+     "id": "SC-013.L01",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-013",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "3週間後。ブレフスキュから和平の使節が着く。六人の使節と、五百人ほどの従者。"
+     }
+    },
+    {
+     "id": "SC-013.L02",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-013",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "私の艦隊奪取から3週間ほどして、ブレフスキュから使節が和を求めて来た。"
+     }
+    },
+    {
+     "id": "SC-013.L03",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-013",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "和平は成る。使節たちが、内々にガリヴァーを訪ねる。"
+     }
+    },
+    {
+     "id": "SC-013.L04",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-013",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-31",
+      "ln.text": "わが皇帝は、あなたの寛大さを聞き及んでおります。"
+     }
+    },
+    {
+     "id": "SC-013.L05",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-013",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-31",
+      "ln.text": "どうか一度、わが国へお越しくださいますように。"
+     }
+    },
+    {
+     "id": "SC-013.L06",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-013",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-01",
+      "ln.text": "陛下のお許しが出れば、喜んで。"
+     }
+    },
+    {
+     "id": "SC-013.L07",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-013",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "私はリリパットの皇帝に、ブレフスキュを訪ねる許しを願った。"
+     }
+    },
+    {
+     "id": "SC-013.L08",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-013",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "皇帝はうなずくが、冷ややかな目。背後でフリムナップが帳面に何かを書きつける。"
+     }
+    },
+    {
+     "id": "SC-013.L09",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-013",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-02",
+      "ln.text": "……許す。"
+     }
+    },
+    {
+     "id": "SC-013.L10",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-013",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "許しは下りた。だが、その声は冷たかった。後で知ったことだが、フリムナップとボルゴラムは、使節と私の話を「不忠のしるし」として皇帝に告げていた。"
+     }
+    },
+    {
+     "id": "SC-014.L01",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-014",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "真夜中。ガリヴァーの家の戸口に、数百人の群衆が押し寄せる。"
+     }
+    },
+    {
+     "id": "SC-014.L02",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-014",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-30",
+      "ln.text": "バーグラム！バーグラム！"
+     }
+    },
+    {
+     "id": "SC-014.L03",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-014",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "真夜中、戸口で大勢が叫んでいた。皇后の居室が、侍女の不注意で燃えているという。"
+     }
+    },
+    {
+     "id": "SC-014.L04",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-014",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "ガリヴァーが走る。民を踏まぬよう気をつけながら。"
+     }
+    },
+    {
+     "id": "SC-014.L05",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-014",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "王宮。炎。小人たちが指ぬきほどの桶で水を運ぶが、まるで届かない。"
+     }
+    },
+    {
+     "id": "SC-014.L06",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-014",
+      "ln.kind": "擬音",
+      "ln.speaker": "",
+      "ln.text": "ゴォォ"
+     }
+    },
+    {
+     "id": "SC-014.L07",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-014",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "桶は指ぬきほどの大きさしかなかった。私は慌てて家を出たため、上着さえ置いてきていた。"
+     }
+    },
+    {
+     "id": "SC-014.L08",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-014",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "ガリヴァーが周りを見回す。打つ手がない。"
+     }
+    },
+    {
+     "id": "SC-014.L09",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-014",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "その晩、私はグリミグリムというたいへん美味な酒を、たくさん飲んでいた。"
+     }
+    },
+    {
+     "id": "SC-014.L10",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-014",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "ガリヴァーが炎に背を向け……（直接は描かず、群衆の驚いた顔と、湯気で表す）"
+     }
+    },
+    {
+     "id": "SC-014.L11",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-014",
+      "ln.kind": "擬音",
+      "ln.speaker": "",
+      "ln.text": "ジュウウウ"
+     }
+    },
+    {
+     "id": "SC-014.L12",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-014",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "3分で火が消える。朝。焼け残った皇后の居室。"
+     }
+    },
+    {
+     "id": "SC-014.L13",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-014",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-03",
+      "ln.text": "……二度と、あの部屋は使わない。"
+     }
+    },
+    {
+     "id": "SC-014.L14",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-014",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "皇后が、ガリヴァーの方を見ずに去る。侍女たちが顔を覆う。"
+     }
+    },
+    {
+     "id": "SC-014.L15",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-014",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "王宮の中で用を足した者は、身分にかかわらず死罪。それがこの国の法だった。"
+     }
+    },
+    {
+     "id": "SC-014.L16",
+     "values": {
+      "ln.episode": "第4話",
+      "ln.scene": "SC-014",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "私はその法を、あとで知った。"
+     }
+    },
+    {
+     "id": "SC-015.L01",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-015",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "1ページ目、引きのコマ：夜の王宮。城壁の外に座って眠るガリヴァーの膝ほどの高さに、評議の間の小さな窓が一つだけ灯り、中に小人の廷臣たちの影が見える（AR-05）。"
+     }
+    },
+    {
+     "id": "SC-015.L02",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-015",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "次のコマから室内。"
+     }
+    },
+    {
+     "id": "SC-015.L03",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-015",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "秘密の会議。皇帝、フリムナップ、ボルゴラム、レルドレサル、ほかの廷臣（リムトク、ラルコン、バルマフ）。"
+     }
+    },
+    {
+     "id": "SC-015.L04",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-015",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-06",
+      "ln.text": "クインバス・フレストリンの罪。一、王宮の内で放尿し、皇后の居室を汚した。"
+     }
+    },
+    {
+     "id": "SC-015.L05",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-015",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-06",
+      "ln.text": "二、ブレフスキュを滅ぼす命令に背いた。三、敵の使節と通じた。四、許しを得てブレフスキュへ渡ろうとしている。"
+     }
+    },
+    {
+     "id": "SC-015.L06",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-015",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-04",
+      "ln.text": "死罪です。夜に家へ火を放ち、二万の兵で顔と手に毒矢を射ればよい。"
+     }
+    },
+    {
+     "id": "SC-015.L07",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-015",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-06",
+      "ln.text": "同意する。"
+     }
+    },
+    {
+     "id": "SC-015.L08",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-015",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "皇帝はしばらく黙る。レルドレサルが立ち上がる。"
+     }
+    },
+    {
+     "id": "SC-015.L09",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-015",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-05",
+      "ln.text": "罪は重い。ですが、慈悲こそ君主のいちばんの徳です。"
+     }
+    },
+    {
+     "id": "SC-015.L10",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-015",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-05",
+      "ln.text": "命は助け、両目だけを潰されてはいかがでしょう。"
+     }
+    },
+    {
+     "id": "SC-015.L11",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-015",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-05",
+      "ln.text": "目がなくても力は残ります。盲目は勇気を増すとも申します。危険が見えなくなりますから。"
+     }
+    },
+    {
+     "id": "SC-015.L12",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-015",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-05",
+      "ln.text": "彼は大臣たちの目で見ればよい。偉大な君主も、それ以上のことはなさいません。"
+     }
+    },
+    {
+     "id": "SC-015.L13",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-015",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "会議がどよめく。ボルゴラムが怒って立つ。"
+     }
+    },
+    {
+     "id": "SC-015.L14",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-015",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-06",
+      "ln.text": "裏切り者の命を助けるだと？"
+     }
+    },
+    {
+     "id": "SC-015.L15",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-015",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-04",
+      "ln.text": "……では、食い扶持を少しずつ減らしましょう。痩せ衰えて死ねば、骨を残して片付けられる。"
+     }
+    },
+    {
+     "id": "SC-015.L16",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-015",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-02",
+      "ln.text": "慈悲をもって、両目を潰す。食は少しずつ減らす。"
+     }
+    },
+    {
+     "id": "SC-015.L17",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-015",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "皇帝の顔は穏やか。レルドレサルの顔に影。"
+     }
+    },
+    {
+     "id": "SC-016.L01",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-016",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "夜。閉じた輿が、従者もなくガリヴァーの家に来る。中から頭巾で顔を隠した男。"
+     }
+    },
+    {
+     "id": "SC-016.L02",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-016",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-08",
+      "ln.text": "名は聞かないでください。かつて、あなたに救われた者です。"
+     }
+    },
+    {
+     "id": "SC-016.L03",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-016",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "ガリヴァーは輿ごと上着のポケットに入れ、家の戸を閉める。"
+     }
+    },
+    {
+     "id": "SC-016.L04",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-016",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-08",
+      "ln.text": "あなたについて、秘密の会議が開かれました。これが弾劾状の写しです。"
+     }
+    },
+    {
+     "id": "SC-016.L05",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-016",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "男が小さな紙を読み上げる。ガリヴァーの顔。"
+     }
+    },
+    {
+     "id": "SC-016.L06",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-016",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-08",
+      "ln.text": "……陛下はご慈悲を示され、命は取らぬ、と。"
+     }
+    },
+    {
+     "id": "SC-016.L07",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-016",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-01",
+      "ln.text": "では、何を。"
+     }
+    },
+    {
+     "id": "SC-016.L08",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-016",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-08",
+      "ln.text": "両目です。3日のうちに、レルドレサル殿があなたに刑を告げに来ます。"
+     }
+    },
+    {
+     "id": "SC-016.L09",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-016",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-08",
+      "ln.text": "あなたは横になったまま、目に矢を射られる。陛下の慈悲に、感謝を示すように、と。"
+     }
+    },
+    {
+     "id": "SC-016.L10",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-016",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "間。ガリヴァーは窓の外の都を見る。"
+     }
+    },
+    {
+     "id": "SC-016.L11",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-016",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "私は宮廷というものを知らなかった。だから、この刑のどこが「慈悲」なのか、どうしても分からなかった。"
+     }
+    },
+    {
+     "id": "SC-016.L12",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-016",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-08",
+      "ln.text": "どうか、ご自分で道をお選びください。私は、これで。"
+     }
+    },
+    {
+     "id": "SC-017.L01",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-017",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "夜明け前。ガリヴァーは友レルドレサルに、ブレフスキュへ発つと手紙を送り、返事を待たずに北東岸へ向かう。"
+     }
+    },
+    {
+     "id": "SC-017.L02",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-017",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "私は、許しの出ていたブレフスキュ訪問を口実にすることにした。返事を待たずに。"
+     }
+    },
+    {
+     "id": "SC-017.L03",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-017",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "港の大きな軍艦を一隻つかみ、舳先に綱を結ぶ。上着と毛布を船に積む。"
+     }
+    },
+    {
+     "id": "SC-017.L04",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-017",
+      "ln.kind": "擬音",
+      "ln.speaker": "",
+      "ln.text": "ザブザブ"
+     }
+    },
+    {
+     "id": "SC-017.L05",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-017",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "ガリヴァーが軍艦を引いて海峡を渡る。半ばは泳ぐ。"
+     }
+    },
+    {
+     "id": "SC-017.L06",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-017",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "ブレフスキュの港。驚いて集まる民。"
+     }
+    },
+    {
+     "id": "SC-017.L07",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-017",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-31",
+      "ln.text": "巨人が来た！"
+     }
+    },
+    {
+     "id": "SC-017.L08",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-017",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "ブレフスキュ皇帝（丸い顔、銀の冠）が、家族と大臣を連れて迎えに出る。"
+     }
+    },
+    {
+     "id": "SC-017.L09",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-017",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-07",
+      "ln.text": "ようこそ、ナルダック殿。わが国は、あなたを客として迎えます。"
+     }
+    },
+    {
+     "id": "SC-017.L10",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-017",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-01",
+      "ln.text": "リリパットの皇帝のお許しを得て、参りました。"
+     }
+    },
+    {
+     "id": "SC-017.L11",
+     "values": {
+      "ln.episode": "第5話",
+      "ln.scene": "SC-017",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "嘘ではない。だが、本当のすべてでもなかった。"
+     }
+    },
+    {
+     "id": "SC-018.L01",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-018",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "1ページ目、引きのコマ：ブレフスキュの北東岸、浜に立つガリヴァーと、足もとの小人の見張り。沖に黒い点（AR-05）。"
+     }
+    },
+    {
+     "id": "SC-018.L02",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-018",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "ブレフスキュに着いて3日目。北東の海岸を歩いていると、沖に何かが浮いていた。"
+     }
+    },
+    {
+     "id": "SC-018.L03",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-018",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "ガリヴァーが靴と靴下を脱いで海に入る。黒い点が近づくにつれ、ひっくり返ったボートだと分かる。"
+     }
+    },
+    {
+     "id": "SC-018.L04",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-018",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-01",
+      "ln.text": "……ボートだ。人間の大きさの。"
+     }
+    },
+    {
+     "id": "SC-018.L05",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-018",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "嵐で船から流されたのだろう。私の国の大きさのボートだった。"
+     }
+    },
+    {
+     "id": "SC-018.L06",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-018",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "20隻の船と3,000人の水夫が綱で引き、ガリヴァーが押す。浜で起こす。"
+     }
+    },
+    {
+     "id": "SC-018.L07",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-018",
+      "ln.kind": "擬音",
+      "ln.speaker": "",
+      "ln.text": "ザザァ"
+     }
+    },
+    {
+     "id": "SC-018.L08",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-018",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "二千人の力を借りて、私はボートを起こした。底はほとんど傷んでいなかった。"
+     }
+    },
+    {
+     "id": "SC-018.L09",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-018",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "ガリヴァーがボートの縁に手を置く。遠くの水平線を見る。"
+     }
+    },
+    {
+     "id": "SC-019.L01",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-019",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "リリパットからの使者が、ブレフスキュの宮廷に来ている。"
+     }
+    },
+    {
+     "id": "SC-019.L02",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-019",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-30",
+      "ln.text": "わが主君は寛大にも、両目を失うだけで許すとおおせです。2時間のうちに戻らねば、反逆者とします。"
+     }
+    },
+    {
+     "id": "SC-019.L03",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-019",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-30",
+      "ln.text": "ブレフスキュの皇帝は、彼を手足を縛って送り返されたい。"
+     }
+    },
+    {
+     "id": "SC-019.L04",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-019",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "ブレフスキュ皇帝が、3日考えてから答える。"
+     }
+    },
+    {
+     "id": "SC-019.L05",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-019",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-07",
+      "ln.text": "縛って送れ、と言われても、あれを縛れる縄はこの国にはない。"
+     }
+    },
+    {
+     "id": "SC-019.L06",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-019",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-07",
+      "ln.text": "それに彼は、ボートを見つけた。じきに、われわれ両国の前からいなくなる。"
+     }
+    },
+    {
+     "id": "SC-019.L07",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-019",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "出帆の日。1701年9月24日。ボートに、牛6頭、雄牛2頭、羊も同じだけ、生きたまま積む。"
+     }
+    },
+    {
+     "id": "SC-019.L08",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-019",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-07",
+      "ln.text": "道中、気をつけて。……あなたが本当に帰る場所は、海の向こうにあるのでしょう。"
+     }
+    },
+    {
+     "id": "SC-019.L09",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-019",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "1701年9月24日、朝6時。私はブレフスキュを発った。"
+     }
+    },
+    {
+     "id": "SC-020.L01",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-020",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "9月26日。海の上。英国の商船が見える。"
+     }
+    },
+    {
+     "id": "SC-020.L02",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-020",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "2日後、日本の海から戻る英国の商船が、私を拾い上げた。"
+     }
+    },
+    {
+     "id": "SC-020.L03",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-020",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "甲板。ビドル船長（中年の船乗り）が、ガリヴァーの話を聞いて、首をかしげる。"
+     }
+    },
+    {
+     "id": "SC-020.L04",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-020",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-09",
+      "ln.text": "小人の国？ 6インチの皇帝？ ……熱でうなされていたんじゃないのかね。"
+     }
+    },
+    {
+     "id": "SC-020.L05",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-020",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-01",
+      "ln.text": "では、これを。"
+     }
+    },
+    {
+     "id": "SC-020.L06",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-020",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "ガリヴァーがポケットから、小さな牛と羊を取り出す。手のひらの上で、生きて動く。"
+     }
+    },
+    {
+     "id": "SC-020.L07",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-020",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-09",
+      "ln.text": "…………！"
+     }
+    },
+    {
+     "id": "SC-020.L08",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-020",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-09",
+      "ln.text": "神よ。"
+     }
+    },
+    {
+     "id": "SC-020.L09",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-020",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "船員たちが集まって覗き込む。"
+     }
+    },
+    {
+     "id": "SC-020.L10",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-020",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "ビドル船長は礼儀正しい人だった。この牛を見てからは、私の話を少しも疑わなかった。"
+     }
+    },
+    {
+     "id": "SC-020.L11",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-020",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "船の鼠が一頭の羊をさらって消える。"
+     }
+    },
+    {
+     "id": "SC-020.L12",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-020",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "残念なことに、羊の一頭は船の鼠に食われてしまった。骨だけが、穴の中に残っていた。"
+     }
+    },
+    {
+     "id": "SC-021.L01",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-021",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "1702年4月13日、ダウンズ。そしてロンドンの家。"
+     }
+    },
+    {
+     "id": "SC-021.L02",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-021",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "1702年4月13日、船はダウンズに着いた。"
+     }
+    },
+    {
+     "id": "SC-021.L03",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-021",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "妻メアリーと子どもたちが、ガリヴァーを抱きしめる。"
+     }
+    },
+    {
+     "id": "SC-021.L04",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-021",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-10",
+      "ln.text": "おかえりなさい。"
+     }
+    },
+    {
+     "id": "SC-021.L05",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-021",
+      "ln.kind": "台詞",
+      "ln.speaker": "CH-01",
+      "ln.text": "ただいま。……今度こそ、もう海には出ない。"
+     }
+    },
+    {
+     "id": "SC-021.L06",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-021",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "ガリヴァーが、小さな牛を庭の芝に放す。子どもたちが歓声を上げる。"
+     }
+    },
+    {
+     "id": "SC-021.L07",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-021",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "小さな牛と羊は、グリニッジの芝生で草を食んだ。見物料で、私はかなりの金を得た。"
+     }
+    },
+    {
+     "id": "SC-021.L08",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-021",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "夜。ガリヴァーが窓から港の方を見ている。メアリーが後ろから見ている。"
+     }
+    },
+    {
+     "id": "SC-021.L09",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-021",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "私が家族と暮らしたのは、2か月だけだった。"
+     }
+    },
+    {
+     "id": "SC-021.L10",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-021",
+      "ln.kind": "ナレーション",
+      "ln.speaker": "CH-01",
+      "ln.text": "世界を見たいという私の欲は、少しも満たされていなかったのである。"
+     }
+    },
+    {
+     "id": "SC-021.L11",
+     "values": {
+      "ln.episode": "第6話",
+      "ln.scene": "SC-021",
+      "ln.kind": "ト書き",
+      "ln.speaker": "",
+      "ln.text": "最後のコマ：港に向かって歩くガリヴァーの背中。家の窓にメアリー。"
+     }
+    }
+   ]
+  }
+ },
+ "versions": [
+  {
+   "artifactId": "gm1-script-lines",
+   "versionId": "script-v1",
+   "parentVersionId": null,
+   "schemaVersion": 1,
+   "createdAt": "2026-11-14T00:00:00.000Z",
+   "createdBy": null,
+   "reason": "ガリヴァー旅行記 第1部の脚本（fiction-manga@1.1.0 脚本、草案）",
+   "content": {
+    "schemaVersion": 2,
+    "columns": [
+     {
+      "id": "ln.episode",
+      "name": "話",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "ln.scene",
+      "name": "シーン",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "ln.kind",
+      "name": "種類",
+      "type": "select",
+      "options": [
+       "ナレーション",
+       "台詞",
+       "ト書き",
+       "擬音"
+      ],
+      "required": true
+     },
+     {
+      "id": "ln.speaker",
+      "name": "話す人物",
+      "type": "text"
+     },
+     {
+      "id": "ln.text",
+      "name": "文",
+      "type": "text",
+      "required": true
+     }
+    ],
+    "rows": [
+     {
+      "id": "SC-001.L01",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-001",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "1ページ目、引きのコマ（扉）：浜に縛られて横たわるガリヴァーと、その胸の上に立つ小人たち。大きさの比が分かる俯瞰（AR-05）。題「人の山」。"
+      }
+     },
+     {
+      "id": "SC-001.L02",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-001",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "次のコマから序：英国の田舎家の厩。二頭の若い馬と、その前に立つ痩せた中年の男（ガリヴァー、約5年後）。"
+      }
+     },
+     {
+      "id": "SC-001.L03",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-001",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "男は馬に向かって、低い声で何かを語りかけている。戸口に妻メアリーが立ち、入ってこない。"
+      }
+     },
+     {
+      "id": "SC-001.L04",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-001",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-01",
+       "ln.text": "……今日も、あの家の連中の臭いがひどくてな。"
+      }
+     },
+     {
+      "id": "SC-001.L05",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-001",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-01",
+       "ln.text": "おまえたちと話している時だけだ、息ができるのは。"
+      }
+     },
+     {
+      "id": "SC-001.L06",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-001",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "馬が鼻を鳴らす。男は嬉しそうに頷く。"
+      }
+     },
+     {
+      "id": "SC-001.L07",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-001",
+       "ln.kind": "擬音",
+       "ln.speaker": "",
+       "ln.text": "ブルル"
+      }
+     },
+     {
+      "id": "SC-001.L08",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-001",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-10",
+       "ln.text": "……あなた、夕食は。"
+      }
+     },
+     {
+      "id": "SC-001.L09",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-001",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-01",
+       "ln.text": "後でいい。"
+      }
+     },
+     {
+      "id": "SC-001.L10",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-001",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "メアリーは目を伏せて去る。男は戸口に背を向けたまま。"
+      }
+     },
+     {
+      "id": "SC-001.L11",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-001",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "この手記を、私は旅から帰って5年目に書いている。"
+      }
+     },
+     {
+      "id": "SC-001.L12",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-001",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "どうしてこうなったのか。初めから記しておく。"
+      }
+     },
+     {
+      "id": "SC-002.L01",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-002",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "時が戻る。1699年5月4日、ブリストルの港。若いガリヴァー（青い上着、真鍮のボタン、金の縁取りなし）。"
+      }
+     },
+     {
+      "id": "SC-002.L02",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-002",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "1699年5月4日。私はブリストルからアンテロープ号で南の海へ出た。船医としてである。"
+      }
+     },
+     {
+      "id": "SC-002.L03",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-002",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "師のベイツ先生が亡くなってから、ロンドンでの医者の商いは傾く一方だった。"
+      }
+     },
+     {
+      "id": "SC-002.L04",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-002",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-10",
+       "ln.text": "今度はどのくらい？"
+      }
+     },
+     {
+      "id": "SC-002.L05",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-002",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-01",
+       "ln.text": "長くて2年。帰ったら、もう海には出ない。"
+      }
+     },
+     {
+      "id": "SC-002.L06",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-002",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-10",
+       "ln.text": "前もそう言いました。"
+      }
+     },
+     {
+      "id": "SC-002.L07",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-002",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "メアリーは笑うが、目は笑っていない。ガリヴァーは帽子を振って船に乗る。"
+      }
+     },
+     {
+      "id": "SC-003.L01",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-003",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "嵐の海。船が岩に乗り上げる。"
+      }
+     },
+     {
+      "id": "SC-003.L02",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-003",
+       "ln.kind": "擬音",
+       "ln.speaker": "",
+       "ln.text": "ゴォォォ"
+      }
+     },
+     {
+      "id": "SC-003.L03",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-003",
+       "ln.kind": "擬音",
+       "ln.speaker": "",
+       "ln.text": "バキィ"
+      }
+     },
+     {
+      "id": "SC-003.L04",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-003",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "11月5日、ヴァン・ディーメンの地の北西で、船は嵐に遭い、岩に砕けた。"
+      }
+     },
+     {
+      "id": "SC-003.L05",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-003",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "小舟で逃れた6人のうち、助かったのは私一人だったと思う。"
+      }
+     },
+     {
+      "id": "SC-003.L06",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-003",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "ガリヴァーが波間を泳ぐ。やがて足が底に着く。"
+      }
+     },
+     {
+      "id": "SC-003.L07",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-003",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "足が着いてから、1マイル近く歩いてようやく陸に上がった。夜の8時ごろだったろう。"
+      }
+     },
+     {
+      "id": "SC-003.L08",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-003",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "人家も人影もなかった。疲れと暑さと、船で飲んだ半パイントのブランデーで、私は短い柔らかな草の上に倒れ込んだ。"
+      }
+     },
+     {
+      "id": "SC-003.L09",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-003",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "草の上で眠るガリヴァー。草の丈が低いことを見せる。"
+      }
+     },
+     {
+      "id": "SC-004.L01",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-004",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "朝。仰向けのガリヴァーの目のアップ。空。"
+      }
+     },
+     {
+      "id": "SC-004.L02",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-004",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "目が覚めたのは日が昇ってからだった。起き上がろうとして、身動き一つできないことに気づいた。"
+      }
+     },
+     {
+      "id": "SC-004.L03",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-004",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "細い糸で地面に縫い止められた腕と脚、髪。"
+      }
+     },
+     {
+      "id": "SC-004.L04",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-004",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "腕も脚も、長い髪までも、細い紐で地面に留められていた。"
+      }
+     },
+     {
+      "id": "SC-004.L05",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-004",
+       "ln.kind": "擬音",
+       "ln.speaker": "",
+       "ln.text": "ガサッ"
+      }
+     },
+     {
+      "id": "SC-004.L06",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-004",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "左脚の上を何かが進み、胸の上まで来る。ガリヴァーが目だけで見下ろす。"
+      }
+     },
+     {
+      "id": "SC-004.L07",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-004",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "身長6インチに満たない人間。弓矢を持ち、矢筒を背負っている。その後ろに40人ほど。小人の目の高さから、山のようなガリヴァーの顎を見上げるコマ（AR-05）。"
+      }
+     },
+     {
+      "id": "SC-004.L08",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-004",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-01",
+       "ln.text": "うおっ！"
+      }
+     },
+     {
+      "id": "SC-004.L09",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-004",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "小人たちが驚いて転げ落ちる。"
+      }
+     },
+     {
+      "id": "SC-004.L10",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-004",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-30",
+       "ln.text": "ヘキナ・デグル！"
+      }
+     },
+     {
+      "id": "SC-004.L11",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-004",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "ガリヴァーがもがき、左腕の紐を引きちぎる。"
+      }
+     },
+     {
+      "id": "SC-004.L12",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-004",
+       "ln.kind": "擬音",
+       "ln.speaker": "",
+       "ln.text": "ブチブチッ"
+      }
+     },
+     {
+      "id": "SC-004.L13",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-004",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-30",
+       "ln.text": "トルゴ・フォナク！"
+      }
+     },
+     {
+      "id": "SC-004.L14",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-004",
+       "ln.kind": "擬音",
+       "ln.speaker": "",
+       "ln.text": "ヒュンヒュン"
+      }
+     },
+     {
+      "id": "SC-004.L15",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-004",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "百本を超える矢が左手に刺さる。針のような痛み。"
+      }
+     },
+     {
+      "id": "SC-004.L16",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-004",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "百本を超える矢が、針のように左手に刺さった。私はじっとしていることにした。"
+      }
+     },
+     {
+      "id": "SC-004.L17",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-004",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "夜になれば、自由になった左手で逃げられる。相手がこの大きさならば、どんな軍勢でも敵ではない、と。"
+      }
+     },
+     {
+      "id": "SC-004.L18",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-004",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "足場が組まれ、身分の高そうな小人が上って長い演説をする。ガリヴァーには一語も分からない。"
+      }
+     },
+     {
+      "id": "SC-004.L19",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-004",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-01",
+       "ln.text": "（指で口を差す）……腹が、減っているのです。"
+      }
+     },
+     {
+      "id": "SC-004.L20",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-004",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "梯子が胸に掛けられ、肉とパンの籠が運ばれる。羊の肩肉が雲雀の翼ほどしかない。"
+      }
+     },
+     {
+      "id": "SC-004.L21",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-004",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "肉はどれも、雲雀の翼より小さかった。私はそれを二つ三つずつ口に入れ、小銃の弾ほどのパンを一度に三つ食べた。"
+      }
+     },
+     {
+      "id": "SC-004.L22",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-004",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "樽を二つ持ち上げさせ、一息で飲み干す。"
+      }
+     },
+     {
+      "id": "SC-004.L23",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-004",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-30",
+       "ln.text": "ボラク・ミヴォラ！"
+      }
+     },
+     {
+      "id": "SC-004.L24",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-004",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "飲み干した樽を放り投げる。小人たちが胸の上で踊る。"
+      }
+     },
+     {
+      "id": "SC-004.L25",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-004",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-30",
+       "ln.text": "ヘキナ・デグル！"
+      }
+     },
+     {
+      "id": "SC-004.L26",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-004",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "胸の上を行き来する彼らを、四、五十人つかんで地面に叩きつけてやろうか、と何度も思った。"
+      }
+     },
+     {
+      "id": "SC-004.L27",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-004",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "だが私は、もてなしを受けた客として約束を守る、と心に決めていた。"
+      }
+     },
+     {
+      "id": "SC-004.L28",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-004",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "薬入りの酒で、ガリヴァーの目が重くなる。"
+      }
+     },
+     {
+      "id": "SC-005.L01",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-005",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "夜。木の運搬機（長さ7フィート、車輪22）が引かれてくる。"
+      }
+     },
+     {
+      "id": "SC-005.L02",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-005",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "眠っている間に、彼らは私を運ぶ機械を作った。長さ7フィート、幅4フィート、車輪が22。"
+      }
+     },
+     {
+      "id": "SC-005.L03",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-005",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "900人が滑車で持ち上げ、1,500頭の馬が引く。大きさの比が分かる俯瞰のコマ。"
+      }
+     },
+     {
+      "id": "SC-005.L04",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-005",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "私を載せるのに、強い男900人が3時間かかった。引いたのは、高さ4インチ半の王の馬1,500頭である。"
+      }
+     },
+     {
+      "id": "SC-005.L05",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-005",
+       "ln.kind": "擬音",
+       "ln.speaker": "",
+       "ln.text": "ギシギシ"
+      }
+     },
+     {
+      "id": "SC-005.L06",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-005",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "都の外の古い神殿。門は高さ4フィート、幅2フィート。"
+      }
+     },
+     {
+      "id": "SC-005.L07",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-005",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "都から200ヤード離れた古い神殿が、私の宿と定められた。この国でいちばん大きな建物だという。"
+      }
+     },
+     {
+      "id": "SC-005.L08",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-005",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "91本の鎖が左脚に36個の錠で留められる。"
+      }
+     },
+     {
+      "id": "SC-005.L09",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-005",
+       "ln.kind": "擬音",
+       "ln.speaker": "",
+       "ln.text": "ガチャン"
+      }
+     },
+     {
+      "id": "SC-005.L10",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-005",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "ガリヴァーが立ち上がる。周りの群衆がどよめく。"
+      }
+     },
+     {
+      "id": "SC-005.L11",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-005",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-30",
+       "ln.text": "ヘキナ・デグル！"
+      }
+     },
+     {
+      "id": "SC-005.L12",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-005",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "塔の上から一団の貴人が見ている。中央に、ほかより爪の幅ほど背の高い男（皇帝）。"
+      }
+     },
+     {
+      "id": "SC-005.L13",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-005",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-02",
+       "ln.text": "人の山だ。"
+      }
+     },
+     {
+      "id": "SC-005.L14",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-005",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-02",
+       "ln.text": "……あれに、名を与えよ。クインバス・フレストリン。"
+      }
+     },
+     {
+      "id": "SC-005.L15",
+      "values": {
+       "ln.episode": "第1話",
+       "ln.scene": "SC-005",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "こうして私は、リリパットという国の囚人になった。"
+      }
+     },
+     {
+      "id": "SC-006.L01",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-006",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "1ページ目、引きのコマ：神殿の前に座るガリヴァーの手のひらの上で、小人たちが芸を見せている（AR-05）。"
+      }
+     },
+     {
+      "id": "SC-006.L02",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-006",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "鎖につながれて半年近く、私は言葉を覚え、皇帝の宮廷の芸を見せてもらうようになった。"
+      }
+     },
+     {
+      "id": "SC-006.L03",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-006",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "地上12インチに張られた細い糸。その上で廷臣たちが跳ねる。"
+      }
+     },
+     {
+      "id": "SC-006.L04",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-006",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "この国では、高い官職に空きが出ると、望む者が皇帝の前で綱渡りをする。"
+      }
+     },
+     {
+      "id": "SC-006.L05",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-006",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "いちばん高く跳び、落ちなかった者が、その官職を得るのだ。"
+      }
+     },
+     {
+      "id": "SC-006.L06",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-006",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "痩せた長身の男が、誰よりも高く跳ぶ。"
+      }
+     },
+     {
+      "id": "SC-006.L07",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-006",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-30",
+       "ln.text": "さすがは大蔵大臣フリムナップ様！"
+      }
+     },
+     {
+      "id": "SC-006.L08",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-006",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-04",
+       "ln.text": "……落ちる者は、勘定が甘いのです。"
+      }
+     },
+     {
+      "id": "SC-006.L09",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-006",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "跳び損ねた男が落ちて、首を折りそうになる。ガリヴァーの指がとっさに受け止める。"
+      }
+     },
+     {
+      "id": "SC-006.L10",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-006",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-01",
+       "ln.text": "危ない！"
+      }
+     },
+     {
+      "id": "SC-006.L11",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-006",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "皇帝が棒を水平に持ち、廷臣たちが跳び越し、くぐる。勝った者は色の付いた絹糸を腰に巻く。"
+      }
+     },
+     {
+      "id": "SC-006.L12",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-006",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-02",
+       "ln.text": "青は第一、赤は第二、緑は第三。励め。"
+      }
+     },
+     {
+      "id": "SC-006.L13",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-006",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "私はこの芸ほど、まじめに行われる遊びを見たことがない。"
+      }
+     },
+     {
+      "id": "SC-007.L01",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-007",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "宮廷の評議。陰気な顔の太った男が、腕を組んで座る。"
+      }
+     },
+     {
+      "id": "SC-007.L02",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-007",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-02",
+       "ln.text": "クインバス・フレストリンを鎖から放つかどうか、決を採る。"
+      }
+     },
+     {
+      "id": "SC-007.L03",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-007",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-06",
+       "ln.text": "反対です。あれが一歩動けば、都は踏み潰される。"
+      }
+     },
+     {
+      "id": "SC-007.L04",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-007",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-04",
+       "ln.text": "一日の食い扶持は、民1,724人分。国庫がもちません。"
+      }
+     },
+     {
+      "id": "SC-007.L05",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-007",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-02",
+       "ln.text": "だが、役には立つ。……条件を付けて放せ。"
+      }
+     },
+     {
+      "id": "SC-007.L06",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-007",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "ボルゴラムが、長い羊皮紙を持ってガリヴァーの前に来る。"
+      }
+     },
+     {
+      "id": "SC-007.L07",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-007",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-06",
+       "ln.text": "自分で読み上げる。よく聞け。"
+      }
+     },
+     {
+      "id": "SC-007.L08",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-007",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-06",
+       "ln.text": "一、許しなく国を出ないこと。二、許しなく都に入らないこと。"
+      }
+     },
+     {
+      "id": "SC-007.L09",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-007",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-06",
+       "ln.text": "三、大通りだけを歩き、草地に寝転ばないこと。四、民と馬と車を踏まぬよう気をつけること。"
+      }
+     },
+     {
+      "id": "SC-007.L10",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-007",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-06",
+       "ln.text": "そして……敵国ブレフスキュの艦隊を滅ぼすため、力を尽くすこと。"
+      }
+     },
+     {
+      "id": "SC-007.L11",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-007",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "条文は八つあった。私はリリパットの作法どおり、右足を左手で持ち、右手の中指を頭の頂に、親指を右耳の先に当てて誓った。"
+      }
+     },
+     {
+      "id": "SC-007.L12",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-007",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "奇妙な誓いの姿勢をとるガリヴァー。真剣な顔。"
+      }
+     },
+     {
+      "id": "SC-007.L13",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-007",
+       "ln.kind": "擬音",
+       "ln.speaker": "",
+       "ln.text": "ガチャン"
+      }
+     },
+     {
+      "id": "SC-007.L14",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-007",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "鎖が外れる。ボルゴラムが面白くなさそうに背を向ける。"
+      }
+     },
+     {
+      "id": "SC-007.L15",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-007",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-06",
+       "ln.text": "……外国人め。"
+      }
+     },
+     {
+      "id": "SC-008.L01",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-008",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "都ミルデンドウ。一辺500フィートの正方形の城壁。高さ2フィート半。"
+      }
+     },
+     {
+      "id": "SC-008.L02",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-008",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "自由になって最初に願ったのは、都を見ることだった。"
+      }
+     },
+     {
+      "id": "SC-008.L03",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-008",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-30",
+       "ln.text": "巨人が通るぞ！家に入れ！"
+      }
+     },
+     {
+      "id": "SC-008.L04",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-008",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "ガリヴァーが上着の裾を押さえ、大通りを横向きに慎重に歩く。屋根の上や窓から見物する民。"
+      }
+     },
+     {
+      "id": "SC-008.L05",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-008",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "私は裾が屋根や軒に触れぬよう、短い胴着だけになって歩いた。"
+      }
+     },
+     {
+      "id": "SC-008.L06",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-008",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "城壁をまたぐ。"
+      }
+     },
+     {
+      "id": "SC-008.L07",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-008",
+       "ln.kind": "擬音",
+       "ln.speaker": "",
+       "ln.text": "ズシン"
+      }
+     },
+     {
+      "id": "SC-008.L08",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-008",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "都の真ん中に王宮がある。外庭は40フィート四方で、その内にまた二つの庭がある。"
+      }
+     },
+     {
+      "id": "SC-008.L09",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-008",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "建物を壊さぬよう、ガリヴァーは高さ5フィートの腰掛けを二つ作って運び、それを足場に内庭をまたぐ。"
+      }
+     },
+     {
+      "id": "SC-008.L10",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-008",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "寝そべって、王宮の最上階の窓を覗き込む。中で皇后と若い王子たちが驚き、皇后が笑って手を差し出す。"
+      }
+     },
+     {
+      "id": "SC-008.L11",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-008",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-03",
+       "ln.text": "……ようこそ、クインバス・フレストリン。"
+      }
+     },
+     {
+      "id": "SC-008.L12",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-008",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "皇后の小さな手に、ガリヴァーがそっと口づけする。"
+      }
+     },
+     {
+      "id": "SC-008.L13",
+      "values": {
+       "ln.episode": "第2話",
+       "ln.scene": "SC-008",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "これほど美しい宮殿を、私は見たことがない。そう思った。そのときは。"
+      }
+     },
+     {
+      "id": "SC-009.L01",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-009",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "1ページ目、引きのコマ：ガリヴァーの家の前で、寝そべった彼の耳もとへ小人のレルドレサルが話しかけている（AR-05）。"
+      }
+     },
+     {
+      "id": "SC-009.L02",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-009",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "細い目の穏やかな男、レルドレサルが従者一人で訪ねてくる。ガリヴァーは寝そべり、彼を手のひらに載せる。"
+      }
+     },
+     {
+      "id": "SC-009.L03",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-009",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-05",
+       "ln.text": "外の者には、この国はさぞ栄えて見えるでしょう。ですが、二つの災いを抱えております。"
+      }
+     },
+     {
+      "id": "SC-009.L04",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-009",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-05",
+       "ln.text": "一つは内の党派。靴のかかとの高い者と、低い者です。"
+      }
+     },
+     {
+      "id": "SC-009.L05",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-009",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "かかとの高い靴と低い靴を履いた廷臣たちが、にらみ合うコマ。"
+      }
+     },
+     {
+      "id": "SC-009.L06",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-009",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-05",
+       "ln.text": "陛下は低いかかとの者しか重く用いません。ところが皇太子殿下は、片方のかかとだけ高いのです。"
+      }
+     },
+     {
+      "id": "SC-009.L07",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-009",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "片足を引きずって歩く皇太子。"
+      }
+     },
+     {
+      "id": "SC-009.L08",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-009",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-01",
+       "ln.text": "……それで、もう一つは？"
+      }
+     },
+     {
+      "id": "SC-009.L09",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-009",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-05",
+       "ln.text": "外の敵、ブレフスキュです。戦はもう36か月も続いています。"
+      }
+     },
+     {
+      "id": "SC-009.L10",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-009",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-05",
+       "ln.text": "始まりは卵です。"
+      }
+     },
+     {
+      "id": "SC-009.L11",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-009",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-01",
+       "ln.text": "卵？"
+      }
+     },
+     {
+      "id": "SC-009.L12",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-009",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-05",
+       "ln.text": "昔はみな、卵を大きい端から割っていました。ところが今の陛下の祖父君が子どものころ、それで指を切った。"
+      }
+     },
+     {
+      "id": "SC-009.L13",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-009",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-05",
+       "ln.text": "そこで御父君は、小さい端から割れという法を出されたのです。"
+      }
+     },
+     {
+      "id": "SC-009.L14",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-009",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "割られた卵のコマ。大きい端と小さい端。"
+      }
+     },
+     {
+      "id": "SC-009.L15",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-009",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-05",
+       "ln.text": "民はこれを嫌い、反乱は六度。死を選んだ者は一万一千人。大端派の書物は禁じられ、逃げた者はブレフスキュがかくまっております。"
+      }
+     },
+     {
+      "id": "SC-009.L16",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-009",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-05",
+       "ln.text": "経典には「まことの信者は、都合のよい端から卵を割るべし」とある。どちらが都合のよい端かは……"
+      }
+     },
+     {
+      "id": "SC-009.L17",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-009",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-01",
+       "ln.text": "各人の良心に任されている、と。"
+      }
+     },
+     {
+      "id": "SC-009.L18",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-009",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-05",
+       "ln.text": "……ご賢察です。"
+      }
+     },
+     {
+      "id": "SC-009.L19",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-009",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "私は笑わなかった。英国にも、似た話はいくらでもあったからだ。"
+      }
+     },
+     {
+      "id": "SC-010.L01",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-010",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "北東岸の小山。望遠鏡で海峡の向こうを覗くガリヴァー。"
+      }
+     },
+     {
+      "id": "SC-010.L02",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-010",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "ブレフスキュは海峡を隔てて北東にある。幅は800ヤード。"
+      }
+     },
+     {
+      "id": "SC-010.L03",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-010",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "潮が満ちても中ほどの深さは70グラムグラフ、およそ6フィートだと、水夫たちから聞き出した。"
+      }
+     },
+     {
+      "id": "SC-010.L04",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-010",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "停泊中の敵艦隊、軍艦約50隻。"
+      }
+     },
+     {
+      "id": "SC-010.L05",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-010",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "私は太い綱を50本、鉄の棒を曲げた鉤を50個用意させた。"
+      }
+     },
+     {
+      "id": "SC-010.L06",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-010",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "ガリヴァーが上着と靴と靴下を脱ぎ、革の胴着一つで海に入る。眼鏡を胸の内ポケットへ。"
+      }
+     },
+     {
+      "id": "SC-010.L07",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-010",
+       "ln.kind": "擬音",
+       "ln.speaker": "",
+       "ln.text": "ザブッ"
+      }
+     },
+     {
+      "id": "SC-010.L08",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-010",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "海峡を歩いて渡る。中ほど30ヤードだけ泳ぐ。"
+      }
+     },
+     {
+      "id": "SC-010.L09",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-010",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "敵艦隊が気づき、兵が海へ飛び込んで逃げる。千本を超える矢が手と顔に刺さる。"
+      }
+     },
+     {
+      "id": "SC-010.L10",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-010",
+       "ln.kind": "擬音",
+       "ln.speaker": "",
+       "ln.text": "ヒュンヒュンヒュン"
+      }
+     },
+     {
+      "id": "SC-010.L11",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-010",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "私がいちばん恐れたのは目だった。眼鏡をかけていなければ、私は目を失っていただろう。"
+      }
+     },
+     {
+      "id": "SC-010.L12",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-010",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "眼鏡をかける。矢が眼鏡に当たって弾かれる。"
+      }
+     },
+     {
+      "id": "SC-010.L13",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-010",
+       "ln.kind": "擬音",
+       "ln.speaker": "",
+       "ln.text": "カンッ カンッ"
+      }
+     },
+     {
+      "id": "SC-010.L14",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-010",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "鉤を一隻ずつ舳先に掛け、綱を一つにまとめる。錨綱をナイフで切る。"
+      }
+     },
+     {
+      "id": "SC-010.L15",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-010",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "50隻の艦隊を引いて、海峡を戻っていく。"
+      }
+     },
+     {
+      "id": "SC-010.L16",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-010",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-30",
+       "ln.text": "巨人が艦隊を……！"
+      }
+     },
+     {
+      "id": "SC-010.L17",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-010",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "リリパットの浜で、皇帝と廷臣たちが待つ。海から首だけが見え、艦隊だけが進んでくるので、溺れたと思われている。"
+      }
+     },
+     {
+      "id": "SC-010.L18",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-010",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-01",
+       "ln.text": "リリパットのいと強き皇帝、万歳！"
+      }
+     },
+     {
+      "id": "SC-011.L01",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-011",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "王の港。凱旋。皇帝が手ずから位を授ける。"
+      }
+     },
+     {
+      "id": "SC-011.L02",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-011",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-02",
+       "ln.text": "クインバス・フレストリンを、ナルダックとする。"
+      }
+     },
+     {
+      "id": "SC-011.L03",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-011",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "ナルダックは、この国でいちばん高い位である。"
+      }
+     },
+     {
+      "id": "SC-011.L04",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-011",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "喝采する群衆。その端で、ボルゴラムが陰気な顔で拍手もせずに立つ。"
+      }
+     },
+     {
+      "id": "SC-011.L05",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-011",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-06",
+       "ln.text": "……海の戦は、海軍のものだ。"
+      }
+     },
+     {
+      "id": "SC-011.L06",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-011",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "皇帝の目が、まだ港の外の海、ブレフスキュの方を見ている。"
+      }
+     },
+     {
+      "id": "SC-011.L07",
+      "values": {
+       "ln.episode": "第3話",
+       "ln.scene": "SC-011",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-02",
+       "ln.text": "残りの船も、すべて連れてまいれ。"
+      }
+     },
+     {
+      "id": "SC-012.L01",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-012",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "1ページ目、引きのコマ：玉座の間の外に膝をつくガリヴァーと、窓辺に立つ小人の皇帝（AR-05）。"
+      }
+     },
+     {
+      "id": "SC-012.L02",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-012",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-02",
+       "ln.text": "ブレフスキュを属州とし、総督を置く。大端派は根絶やしにし、残る民には小さい端から卵を割らせる。"
+      }
+     },
+     {
+      "id": "SC-012.L03",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-012",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-02",
+       "ln.text": "そうすれば、余は世界でただ一人の君主となる。"
+      }
+     },
+     {
+      "id": "SC-012.L04",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-012",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "君主の野心というものには、際限がない。"
+      }
+     },
+     {
+      "id": "SC-012.L05",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-012",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-01",
+       "ln.text": "陛下。それはできません。"
+      }
+     },
+     {
+      "id": "SC-012.L06",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-012",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "評議の間が凍る。"
+      }
+     },
+     {
+      "id": "SC-012.L07",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-012",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-01",
+       "ln.text": "自由で勇敢な民を奴隷にする道具には、私は決してなりません。"
+      }
+     },
+     {
+      "id": "SC-012.L08",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-012",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "皇帝の顔。何も言わない。"
+      }
+     },
+     {
+      "id": "SC-012.L09",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-012",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "評議では、賢い大臣たちの多くが私の意見に付いた。"
+      }
+     },
+     {
+      "id": "SC-012.L10",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-012",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "だが皇帝は、このことを決してお許しにならなかった。"
+      }
+     },
+     {
+      "id": "SC-012.L11",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-012",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "フリムナップとボルゴラムが目を見交わす。"
+      }
+     },
+     {
+      "id": "SC-012.L12",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-012",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-04",
+       "ln.text": "……陛下のご恩を、仇で返す者がおりますな。"
+      }
+     },
+     {
+      "id": "SC-013.L01",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-013",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "3週間後。ブレフスキュから和平の使節が着く。六人の使節と、五百人ほどの従者。"
+      }
+     },
+     {
+      "id": "SC-013.L02",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-013",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "私の艦隊奪取から3週間ほどして、ブレフスキュから使節が和を求めて来た。"
+      }
+     },
+     {
+      "id": "SC-013.L03",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-013",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "和平は成る。使節たちが、内々にガリヴァーを訪ねる。"
+      }
+     },
+     {
+      "id": "SC-013.L04",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-013",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-31",
+       "ln.text": "わが皇帝は、あなたの寛大さを聞き及んでおります。"
+      }
+     },
+     {
+      "id": "SC-013.L05",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-013",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-31",
+       "ln.text": "どうか一度、わが国へお越しくださいますように。"
+      }
+     },
+     {
+      "id": "SC-013.L06",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-013",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-01",
+       "ln.text": "陛下のお許しが出れば、喜んで。"
+      }
+     },
+     {
+      "id": "SC-013.L07",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-013",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "私はリリパットの皇帝に、ブレフスキュを訪ねる許しを願った。"
+      }
+     },
+     {
+      "id": "SC-013.L08",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-013",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "皇帝はうなずくが、冷ややかな目。背後でフリムナップが帳面に何かを書きつける。"
+      }
+     },
+     {
+      "id": "SC-013.L09",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-013",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-02",
+       "ln.text": "……許す。"
+      }
+     },
+     {
+      "id": "SC-013.L10",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-013",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "許しは下りた。だが、その声は冷たかった。後で知ったことだが、フリムナップとボルゴラムは、使節と私の話を「不忠のしるし」として皇帝に告げていた。"
+      }
+     },
+     {
+      "id": "SC-014.L01",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-014",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "真夜中。ガリヴァーの家の戸口に、数百人の群衆が押し寄せる。"
+      }
+     },
+     {
+      "id": "SC-014.L02",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-014",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-30",
+       "ln.text": "バーグラム！バーグラム！"
+      }
+     },
+     {
+      "id": "SC-014.L03",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-014",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "真夜中、戸口で大勢が叫んでいた。皇后の居室が、侍女の不注意で燃えているという。"
+      }
+     },
+     {
+      "id": "SC-014.L04",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-014",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "ガリヴァーが走る。民を踏まぬよう気をつけながら。"
+      }
+     },
+     {
+      "id": "SC-014.L05",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-014",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "王宮。炎。小人たちが指ぬきほどの桶で水を運ぶが、まるで届かない。"
+      }
+     },
+     {
+      "id": "SC-014.L06",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-014",
+       "ln.kind": "擬音",
+       "ln.speaker": "",
+       "ln.text": "ゴォォ"
+      }
+     },
+     {
+      "id": "SC-014.L07",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-014",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "桶は指ぬきほどの大きさしかなかった。私は慌てて家を出たため、上着さえ置いてきていた。"
+      }
+     },
+     {
+      "id": "SC-014.L08",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-014",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "ガリヴァーが周りを見回す。打つ手がない。"
+      }
+     },
+     {
+      "id": "SC-014.L09",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-014",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "その晩、私はグリミグリムというたいへん美味な酒を、たくさん飲んでいた。"
+      }
+     },
+     {
+      "id": "SC-014.L10",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-014",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "ガリヴァーが炎に背を向け……（直接は描かず、群衆の驚いた顔と、湯気で表す）"
+      }
+     },
+     {
+      "id": "SC-014.L11",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-014",
+       "ln.kind": "擬音",
+       "ln.speaker": "",
+       "ln.text": "ジュウウウ"
+      }
+     },
+     {
+      "id": "SC-014.L12",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-014",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "3分で火が消える。朝。焼け残った皇后の居室。"
+      }
+     },
+     {
+      "id": "SC-014.L13",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-014",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-03",
+       "ln.text": "……二度と、あの部屋は使わない。"
+      }
+     },
+     {
+      "id": "SC-014.L14",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-014",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "皇后が、ガリヴァーの方を見ずに去る。侍女たちが顔を覆う。"
+      }
+     },
+     {
+      "id": "SC-014.L15",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-014",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "王宮の中で用を足した者は、身分にかかわらず死罪。それがこの国の法だった。"
+      }
+     },
+     {
+      "id": "SC-014.L16",
+      "values": {
+       "ln.episode": "第4話",
+       "ln.scene": "SC-014",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "私はその法を、あとで知った。"
+      }
+     },
+     {
+      "id": "SC-015.L01",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-015",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "1ページ目、引きのコマ：夜の王宮。城壁の外に座って眠るガリヴァーの膝ほどの高さに、評議の間の小さな窓が一つだけ灯り、中に小人の廷臣たちの影が見える（AR-05）。"
+      }
+     },
+     {
+      "id": "SC-015.L02",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-015",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "次のコマから室内。"
+      }
+     },
+     {
+      "id": "SC-015.L03",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-015",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "秘密の会議。皇帝、フリムナップ、ボルゴラム、レルドレサル、ほかの廷臣（リムトク、ラルコン、バルマフ）。"
+      }
+     },
+     {
+      "id": "SC-015.L04",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-015",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-06",
+       "ln.text": "クインバス・フレストリンの罪。一、王宮の内で放尿し、皇后の居室を汚した。"
+      }
+     },
+     {
+      "id": "SC-015.L05",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-015",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-06",
+       "ln.text": "二、ブレフスキュを滅ぼす命令に背いた。三、敵の使節と通じた。四、許しを得てブレフスキュへ渡ろうとしている。"
+      }
+     },
+     {
+      "id": "SC-015.L06",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-015",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-04",
+       "ln.text": "死罪です。夜に家へ火を放ち、二万の兵で顔と手に毒矢を射ればよい。"
+      }
+     },
+     {
+      "id": "SC-015.L07",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-015",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-06",
+       "ln.text": "同意する。"
+      }
+     },
+     {
+      "id": "SC-015.L08",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-015",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "皇帝はしばらく黙る。レルドレサルが立ち上がる。"
+      }
+     },
+     {
+      "id": "SC-015.L09",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-015",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-05",
+       "ln.text": "罪は重い。ですが、慈悲こそ君主のいちばんの徳です。"
+      }
+     },
+     {
+      "id": "SC-015.L10",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-015",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-05",
+       "ln.text": "命は助け、両目だけを潰されてはいかがでしょう。"
+      }
+     },
+     {
+      "id": "SC-015.L11",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-015",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-05",
+       "ln.text": "目がなくても力は残ります。盲目は勇気を増すとも申します。危険が見えなくなりますから。"
+      }
+     },
+     {
+      "id": "SC-015.L12",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-015",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-05",
+       "ln.text": "彼は大臣たちの目で見ればよい。偉大な君主も、それ以上のことはなさいません。"
+      }
+     },
+     {
+      "id": "SC-015.L13",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-015",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "会議がどよめく。ボルゴラムが怒って立つ。"
+      }
+     },
+     {
+      "id": "SC-015.L14",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-015",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-06",
+       "ln.text": "裏切り者の命を助けるだと？"
+      }
+     },
+     {
+      "id": "SC-015.L15",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-015",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-04",
+       "ln.text": "……では、食い扶持を少しずつ減らしましょう。痩せ衰えて死ねば、骨を残して片付けられる。"
+      }
+     },
+     {
+      "id": "SC-015.L16",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-015",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-02",
+       "ln.text": "慈悲をもって、両目を潰す。食は少しずつ減らす。"
+      }
+     },
+     {
+      "id": "SC-015.L17",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-015",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "皇帝の顔は穏やか。レルドレサルの顔に影。"
+      }
+     },
+     {
+      "id": "SC-016.L01",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-016",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "夜。閉じた輿が、従者もなくガリヴァーの家に来る。中から頭巾で顔を隠した男。"
+      }
+     },
+     {
+      "id": "SC-016.L02",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-016",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-08",
+       "ln.text": "名は聞かないでください。かつて、あなたに救われた者です。"
+      }
+     },
+     {
+      "id": "SC-016.L03",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-016",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "ガリヴァーは輿ごと上着のポケットに入れ、家の戸を閉める。"
+      }
+     },
+     {
+      "id": "SC-016.L04",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-016",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-08",
+       "ln.text": "あなたについて、秘密の会議が開かれました。これが弾劾状の写しです。"
+      }
+     },
+     {
+      "id": "SC-016.L05",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-016",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "男が小さな紙を読み上げる。ガリヴァーの顔。"
+      }
+     },
+     {
+      "id": "SC-016.L06",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-016",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-08",
+       "ln.text": "……陛下はご慈悲を示され、命は取らぬ、と。"
+      }
+     },
+     {
+      "id": "SC-016.L07",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-016",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-01",
+       "ln.text": "では、何を。"
+      }
+     },
+     {
+      "id": "SC-016.L08",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-016",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-08",
+       "ln.text": "両目です。3日のうちに、レルドレサル殿があなたに刑を告げに来ます。"
+      }
+     },
+     {
+      "id": "SC-016.L09",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-016",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-08",
+       "ln.text": "あなたは横になったまま、目に矢を射られる。陛下の慈悲に、感謝を示すように、と。"
+      }
+     },
+     {
+      "id": "SC-016.L10",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-016",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "間。ガリヴァーは窓の外の都を見る。"
+      }
+     },
+     {
+      "id": "SC-016.L11",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-016",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "私は宮廷というものを知らなかった。だから、この刑のどこが「慈悲」なのか、どうしても分からなかった。"
+      }
+     },
+     {
+      "id": "SC-016.L12",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-016",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-08",
+       "ln.text": "どうか、ご自分で道をお選びください。私は、これで。"
+      }
+     },
+     {
+      "id": "SC-017.L01",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-017",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "夜明け前。ガリヴァーは友レルドレサルに、ブレフスキュへ発つと手紙を送り、返事を待たずに北東岸へ向かう。"
+      }
+     },
+     {
+      "id": "SC-017.L02",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-017",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "私は、許しの出ていたブレフスキュ訪問を口実にすることにした。返事を待たずに。"
+      }
+     },
+     {
+      "id": "SC-017.L03",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-017",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "港の大きな軍艦を一隻つかみ、舳先に綱を結ぶ。上着と毛布を船に積む。"
+      }
+     },
+     {
+      "id": "SC-017.L04",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-017",
+       "ln.kind": "擬音",
+       "ln.speaker": "",
+       "ln.text": "ザブザブ"
+      }
+     },
+     {
+      "id": "SC-017.L05",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-017",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "ガリヴァーが軍艦を引いて海峡を渡る。半ばは泳ぐ。"
+      }
+     },
+     {
+      "id": "SC-017.L06",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-017",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "ブレフスキュの港。驚いて集まる民。"
+      }
+     },
+     {
+      "id": "SC-017.L07",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-017",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-31",
+       "ln.text": "巨人が来た！"
+      }
+     },
+     {
+      "id": "SC-017.L08",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-017",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "ブレフスキュ皇帝（丸い顔、銀の冠）が、家族と大臣を連れて迎えに出る。"
+      }
+     },
+     {
+      "id": "SC-017.L09",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-017",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-07",
+       "ln.text": "ようこそ、ナルダック殿。わが国は、あなたを客として迎えます。"
+      }
+     },
+     {
+      "id": "SC-017.L10",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-017",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-01",
+       "ln.text": "リリパットの皇帝のお許しを得て、参りました。"
+      }
+     },
+     {
+      "id": "SC-017.L11",
+      "values": {
+       "ln.episode": "第5話",
+       "ln.scene": "SC-017",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "嘘ではない。だが、本当のすべてでもなかった。"
+      }
+     },
+     {
+      "id": "SC-018.L01",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-018",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "1ページ目、引きのコマ：ブレフスキュの北東岸、浜に立つガリヴァーと、足もとの小人の見張り。沖に黒い点（AR-05）。"
+      }
+     },
+     {
+      "id": "SC-018.L02",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-018",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "ブレフスキュに着いて3日目。北東の海岸を歩いていると、沖に何かが浮いていた。"
+      }
+     },
+     {
+      "id": "SC-018.L03",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-018",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "ガリヴァーが靴と靴下を脱いで海に入る。黒い点が近づくにつれ、ひっくり返ったボートだと分かる。"
+      }
+     },
+     {
+      "id": "SC-018.L04",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-018",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-01",
+       "ln.text": "……ボートだ。人間の大きさの。"
+      }
+     },
+     {
+      "id": "SC-018.L05",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-018",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "嵐で船から流されたのだろう。私の国の大きさのボートだった。"
+      }
+     },
+     {
+      "id": "SC-018.L06",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-018",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "20隻の船と3,000人の水夫が綱で引き、ガリヴァーが押す。浜で起こす。"
+      }
+     },
+     {
+      "id": "SC-018.L07",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-018",
+       "ln.kind": "擬音",
+       "ln.speaker": "",
+       "ln.text": "ザザァ"
+      }
+     },
+     {
+      "id": "SC-018.L08",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-018",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "二千人の力を借りて、私はボートを起こした。底はほとんど傷んでいなかった。"
+      }
+     },
+     {
+      "id": "SC-018.L09",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-018",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "ガリヴァーがボートの縁に手を置く。遠くの水平線を見る。"
+      }
+     },
+     {
+      "id": "SC-019.L01",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-019",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "リリパットからの使者が、ブレフスキュの宮廷に来ている。"
+      }
+     },
+     {
+      "id": "SC-019.L02",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-019",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-30",
+       "ln.text": "わが主君は寛大にも、両目を失うだけで許すとおおせです。2時間のうちに戻らねば、反逆者とします。"
+      }
+     },
+     {
+      "id": "SC-019.L03",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-019",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-30",
+       "ln.text": "ブレフスキュの皇帝は、彼を手足を縛って送り返されたい。"
+      }
+     },
+     {
+      "id": "SC-019.L04",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-019",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "ブレフスキュ皇帝が、3日考えてから答える。"
+      }
+     },
+     {
+      "id": "SC-019.L05",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-019",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-07",
+       "ln.text": "縛って送れ、と言われても、あれを縛れる縄はこの国にはない。"
+      }
+     },
+     {
+      "id": "SC-019.L06",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-019",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-07",
+       "ln.text": "それに彼は、ボートを見つけた。じきに、われわれ両国の前からいなくなる。"
+      }
+     },
+     {
+      "id": "SC-019.L07",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-019",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "出帆の日。1701年9月24日。ボートに、牛6頭、雄牛2頭、羊も同じだけ、生きたまま積む。"
+      }
+     },
+     {
+      "id": "SC-019.L08",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-019",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-07",
+       "ln.text": "道中、気をつけて。……あなたが本当に帰る場所は、海の向こうにあるのでしょう。"
+      }
+     },
+     {
+      "id": "SC-019.L09",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-019",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "1701年9月24日、朝6時。私はブレフスキュを発った。"
+      }
+     },
+     {
+      "id": "SC-020.L01",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-020",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "9月26日。海の上。英国の商船が見える。"
+      }
+     },
+     {
+      "id": "SC-020.L02",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-020",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "2日後、日本の海から戻る英国の商船が、私を拾い上げた。"
+      }
+     },
+     {
+      "id": "SC-020.L03",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-020",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "甲板。ビドル船長（中年の船乗り）が、ガリヴァーの話を聞いて、首をかしげる。"
+      }
+     },
+     {
+      "id": "SC-020.L04",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-020",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-09",
+       "ln.text": "小人の国？ 6インチの皇帝？ ……熱でうなされていたんじゃないのかね。"
+      }
+     },
+     {
+      "id": "SC-020.L05",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-020",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-01",
+       "ln.text": "では、これを。"
+      }
+     },
+     {
+      "id": "SC-020.L06",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-020",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "ガリヴァーがポケットから、小さな牛と羊を取り出す。手のひらの上で、生きて動く。"
+      }
+     },
+     {
+      "id": "SC-020.L07",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-020",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-09",
+       "ln.text": "…………！"
+      }
+     },
+     {
+      "id": "SC-020.L08",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-020",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-09",
+       "ln.text": "神よ。"
+      }
+     },
+     {
+      "id": "SC-020.L09",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-020",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "船員たちが集まって覗き込む。"
+      }
+     },
+     {
+      "id": "SC-020.L10",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-020",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "ビドル船長は礼儀正しい人だった。この牛を見てからは、私の話を少しも疑わなかった。"
+      }
+     },
+     {
+      "id": "SC-020.L11",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-020",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "船の鼠が一頭の羊をさらって消える。"
+      }
+     },
+     {
+      "id": "SC-020.L12",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-020",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "残念なことに、羊の一頭は船の鼠に食われてしまった。骨だけが、穴の中に残っていた。"
+      }
+     },
+     {
+      "id": "SC-021.L01",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-021",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "1702年4月13日、ダウンズ。そしてロンドンの家。"
+      }
+     },
+     {
+      "id": "SC-021.L02",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-021",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "1702年4月13日、船はダウンズに着いた。"
+      }
+     },
+     {
+      "id": "SC-021.L03",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-021",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "妻メアリーと子どもたちが、ガリヴァーを抱きしめる。"
+      }
+     },
+     {
+      "id": "SC-021.L04",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-021",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-10",
+       "ln.text": "おかえりなさい。"
+      }
+     },
+     {
+      "id": "SC-021.L05",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-021",
+       "ln.kind": "台詞",
+       "ln.speaker": "CH-01",
+       "ln.text": "ただいま。……今度こそ、もう海には出ない。"
+      }
+     },
+     {
+      "id": "SC-021.L06",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-021",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "ガリヴァーが、小さな牛を庭の芝に放す。子どもたちが歓声を上げる。"
+      }
+     },
+     {
+      "id": "SC-021.L07",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-021",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "小さな牛と羊は、グリニッジの芝生で草を食んだ。見物料で、私はかなりの金を得た。"
+      }
+     },
+     {
+      "id": "SC-021.L08",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-021",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "夜。ガリヴァーが窓から港の方を見ている。メアリーが後ろから見ている。"
+      }
+     },
+     {
+      "id": "SC-021.L09",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-021",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "私が家族と暮らしたのは、2か月だけだった。"
+      }
+     },
+     {
+      "id": "SC-021.L10",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-021",
+       "ln.kind": "ナレーション",
+       "ln.speaker": "CH-01",
+       "ln.text": "世界を見たいという私の欲は、少しも満たされていなかったのである。"
+      }
+     },
+     {
+      "id": "SC-021.L11",
+      "values": {
+       "ln.episode": "第6話",
+       "ln.scene": "SC-021",
+       "ln.kind": "ト書き",
+       "ln.speaker": "",
+       "ln.text": "最後のコマ：港に向かって歩くガリヴァーの背中。家の窓にメアリー。"
+      }
+     }
+    ]
+   },
+   "contentHash": "0a467a5db9344da481c3e7c74a97830c8f03a1e82dbb07c13f3c0f1e2e00a78a"
+  }
+ ]
+}

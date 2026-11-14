@@ -12,7 +12,7 @@
 | 世界線と時計 | `gm1-world-settings`（時計 CL-1、世界線 WL-A） | Story Timeline の世界設定 | `screens/08-world-lines-clock.png`、`screens/04-story-timeline-worldline.png` |
 | 出来事と在場 | `gm1-ledger`（EV-01〜EV-20、参加・在場・因果） | Story Timeline の筋の台帳 | `screens/04-story-timeline.png`、`screens/09-ledger.png` |
 | 地図 stage-map | `gm1-map`（場所 LO-01〜LO-11、道 RT-01〜RT-07） | Fiction Map | `screens/11-map.png` |
-| 固有名詞と表記の辞書 term-dictionary | `gm1-terms`（TE-01〜TE-17） | Structured Data | `screens/10-dictionary.png` |
+| 固有名詞と表記の辞書 term-dictionary | `gm1-terms`（TE-01〜TE-21） | Structured Data | `screens/10-dictionary.png` |
 | まとめて見る | `gm1-board`、`gm1-board-settings` | 物語ボード（Whiteboard） | `screens/01〜03-story-board*.png` |
 
 `gm1-composition`（構成図）は Story Timeline が要求する空の資料です。全24話の提示順は `story/editor/`（筋と構成）にあります。
