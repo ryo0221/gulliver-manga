@@ -152,6 +152,7 @@
     }
    ],
    "bim": null,
+   "vessels": [],
    "crowds": []
   },
   "port": {
@@ -159,14 +160,21 @@
    "scenes": [
     "SC-002"
    ],
-   "reason": "再現（GV1〜GV7）にブリストルの港とアンテロープ号の3Dモデルは無い。岸壁と海面だけの仮の3D（創作）で人物の配置とカメラを決めた。船を描くコマは地図と本文で決める。",
+   "reason": "再現（GV1〜GV7）にブリストルの港とアンテロープ号の3Dモデルは無い。岸壁と海面と倉庫、三本マストの船の形だけの仮の3D（創作：本文に船の図は無い）で人物の配置とカメラを決めた。",
    "props": [
     {
      "name": "舞台 port",
      "kind": "cad",
-     "artifactId": "artifact_f0fd5bcd-665c-4ec6-b319-63cd47b55466",
-     "versionId": "version_7b74ba41-5ee9-4d71-a692-b2b8f4cc5376",
+     "artifactId": "artifact_3970a892-60d3-404e-819a-d55f8f7486c2",
+     "versionId": "version_3284fd80-511e-4108-9361-a18285c3973f",
      "contentHash": "01b195d3a69eaec7bc220fb39b977cddfb123a74bea83a405b9f1d29eb9012db"
+    },
+    {
+     "name": "舞台 port ship",
+     "kind": "cad",
+     "artifactId": "artifact_6d6f8262-69fd-41dd-9b4c-eca39a201051",
+     "versionId": "version_4e4da562-86ed-4a26-b90c-48e8bba996be",
+     "contentHash": "569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3"
     }
    ],
    "canvas": {
@@ -233,26 +241,57 @@
     }
    ],
    "bim": null,
-   "crowds": []
+   "vessels": [
+    {
+     "id": "ship",
+     "name": "アンテロープ号（仮の3D、創作）",
+     "home": [
+      0,
+      7500,
+      -1500
+     ]
+    }
+   ],
+   "crowds": [
+    {
+     "id": "quayfolk",
+     "name": "岸壁の見送りの人々",
+     "count": 84
+    }
+   ]
   },
   "sea": {
    "name": "難破の海と浜（仮の3D、創作）",
    "scenes": [
     "SC-003"
    ],
-   "reason": "再現（GV1〜GV7）に難破の海とアンテロープ号・小舟の3Dモデルは無い。海面・海底・浜・草地だけの仮の3D（創作）で人物の配置とカメラを決めた。船を描くコマは本文で決める。",
+   "reason": "再現（GV1〜GV7）に難破の海とアンテロープ号・小舟の3Dモデルは無い。海面・海底・岩・浜・草地と、船と小舟の形だけの仮の3D（創作）で人物の配置とカメラを決めた。",
    "props": [
     {
      "name": "舞台 sea",
      "kind": "cad",
-     "artifactId": "artifact_4dae6abe-f15a-44d8-9e3e-b91d066d54f2",
-     "versionId": "version_9582e799-f7dc-45a4-9c63-99b0a75cbb85",
-     "contentHash": "7870ef54c05e9a9fb15948d616113dbb6ed0bad427852b5c97505e1e32b23cb4"
+     "artifactId": "artifact_8e7c4c5b-26f3-41e4-a18b-d26778e92dad",
+     "versionId": "version_85669d05-2f08-49c7-801e-5e5f84e74af2",
+     "contentHash": "7e15d343212ee6038852976790e8fea3391532a9d5061cb795c4f5696eee1a3e"
+    },
+    {
+     "name": "舞台 sea ship",
+     "kind": "cad",
+     "artifactId": "artifact_d1959588-71c9-44a0-9338-34eb35d53385",
+     "versionId": "version_9bd66ad8-c67b-4247-9e61-59d64c8abaa7",
+     "contentHash": "569a0046c72b8320e71b7fca5f05b8c8402688da47893a0507f3661b0e9cc7b3"
+    },
+    {
+     "name": "舞台 sea boat",
+     "kind": "cad",
+     "artifactId": "artifact_231ae001-acd0-4711-b689-2596a522656b",
+     "versionId": "version_ae676796-d5da-47b3-b074-276facc9b3d1",
+     "contentHash": "2d924bcf4b692ec2c71da1dda2f71843f4644ce09232fc799b5dc36060dc6c52"
     }
    ],
    "canvas": {
     "width": 1440,
-    "height": 800,
+    "height": 745,
     "verticalFovDeg": 35
    },
    "cad": [
@@ -282,6 +321,34 @@
       200000,
       14000,
       20
+     ]
+    },
+    {
+     "id": "rock",
+     "name": "岩（創作）",
+     "at": [
+      11500,
+      -43500,
+      -1450
+     ],
+     "size": [
+      6000,
+      5000,
+      3200
+     ]
+    },
+    {
+     "id": "rock-2",
+     "name": "岩（創作）2",
+     "at": [
+      16000,
+      -45500,
+      -1450
+     ],
+     "size": [
+      4000,
+      3500,
+      1800
      ]
     },
     {
@@ -328,6 +395,18 @@
     }
    ],
    "bim": null,
+   "vessels": [
+    {
+     "id": "ship",
+     "name": "アンテロープ号（仮の3D、創作）",
+     "home": null
+    },
+    {
+     "id": "boat",
+     "name": "小舟（仮の3D、創作）",
+     "home": null
+    }
+   ],
    "crowds": []
   },
   "beach": {
@@ -410,6 +489,7 @@
     }
    ],
    "bim": null,
+   "vessels": [],
    "crowds": [
     {
      "id": "body40",
@@ -938,6 +1018,7 @@
     }
    ],
    "bim": "temple",
+   "vessels": [],
    "crowds": [
     {
      "id": "pullers",
@@ -1065,6 +1146,7 @@
     "ring"
    ],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p01-k1.jpg",
    "plan": "plans/e01-p01-k1.svg"
   },
@@ -1102,6 +1184,7 @@
    ],
    "crowds": [],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p01-k2.jpg",
    "plan": "plans/e01-p01-k2.svg"
   },
@@ -1181,6 +1264,7 @@
    ],
    "crowds": [],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p02-k1.jpg",
    "plan": "plans/e01-p02-k1.svg"
   },
@@ -1246,6 +1330,7 @@
    ],
    "crowds": [],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p02-k2.jpg",
    "plan": "plans/e01-p02-k2.svg"
   },
@@ -1325,6 +1410,7 @@
    ],
    "crowds": [],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p02-k3.jpg",
    "plan": "plans/e01-p02-k3.svg"
   },
@@ -1390,6 +1476,7 @@
    ],
    "crowds": [],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p02-k4.jpg",
    "plan": "plans/e01-p02-k4.svg"
   },
@@ -1427,6 +1514,7 @@
    ],
    "crowds": [],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p02-k5.jpg",
    "plan": "plans/e01-p02-k5.svg"
   },
@@ -1492,6 +1580,7 @@
    ],
    "crowds": [],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p02-k6.jpg",
    "plan": "plans/e01-p02-k6.svg"
   },
@@ -1499,21 +1588,96 @@
    "panel": "e01-p03-k1",
    "set": "port",
    "cam": [
-    0,
-    0,
+    -34000,
+    -14000,
     12000
    ],
    "look": [
     0,
-    30000,
-    0
+    4000,
+    2500
    ],
    "stand": null,
    "hfovDeg": 46.7,
    "vfovDeg": 35.0,
-   "figures": [],
-   "crowds": [],
-   "noModel": "アンテロープ号と港の3Dモデルが無い（地図 SM-02 と本文で描く）。",
+   "figures": [
+    {
+     "fg": "FG-e01-p03-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      -1500,
+      -1500,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "carry-bag",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e01-p03-k1-02",
+     "ch": "CH-10",
+     "name": "メアリー",
+     "fig": "mary",
+     "at": [
+      -600,
+      -1700,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "hands-together",
+     "heightMm": 1600
+    },
+    {
+     "fg": "FG-e01-p03-k1-03",
+     "ch": "EX",
+     "name": "船員1",
+     "fig": "s1",
+     "at": [
+      -3000,
+      6000,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "carry-up",
+     "heightMm": 1680
+    },
+    {
+     "fg": "FG-e01-p03-k1-04",
+     "ch": "EX",
+     "name": "船員2",
+     "fig": "s2",
+     "at": [
+      3000,
+      8500,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "walk",
+     "heightMm": 1680
+    },
+    {
+     "fg": "FG-e01-p03-k1-05",
+     "ch": "EX",
+     "name": "船員3",
+     "fig": "s3",
+     "at": [
+      9500,
+      7000,
+      1500
+     ],
+     "facingDeg": 90.0,
+     "pose": "point",
+     "heightMm": 1680
+    }
+   ],
+   "crowds": [
+    "quayfolk"
+   ],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e01-p03-k1.jpg",
    "plan": "plans/e01-p03-k1.svg"
   },
   {
@@ -1564,6 +1728,7 @@
    ],
    "crowds": [],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p03-k2.jpg",
    "plan": "plans/e01-p03-k2.svg"
   },
@@ -1615,6 +1780,7 @@
    ],
    "crowds": [],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p03-k3.jpg",
    "plan": "plans/e01-p03-k3.svg"
   },
@@ -1666,6 +1832,7 @@
    ],
    "crowds": [],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p03-k4.jpg",
    "plan": "plans/e01-p03-k4.svg"
   },
@@ -1703,6 +1870,7 @@
    ],
    "crowds": [],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p04-k1.jpg",
    "plan": "plans/e01-p04-k1.svg"
   },
@@ -1752,8 +1920,11 @@
      "heightMm": 1600
     }
    ],
-   "crowds": [],
+   "crowds": [
+    "quayfolk"
+   ],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p04-k2.jpg",
    "plan": "plans/e01-p04-k2.svg"
   },
@@ -1761,84 +1932,390 @@
    "panel": "e01-p04-k3",
    "set": "port",
    "cam": [
-    0,
     -20000,
+    -40000,
     30000
    ],
    "look": [
     0,
-    30000,
+    70000,
     0
    ],
    "stand": null,
    "hfovDeg": 39.5,
    "vfovDeg": 35.0,
-   "figures": [],
+   "figures": [
+    {
+     "fg": "FG-e01-p04-k3-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      -1087,
+      87204,
+      0
+     ],
+     "facingDeg": 248.8,
+     "pose": "wave-hat",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e01-p04-k3-02",
+     "ch": "EX",
+     "name": "船員1",
+     "fig": "s1",
+     "at": [
+      1656,
+      91502,
+      0
+     ],
+     "facingDeg": 68.8,
+     "pose": "carry-up",
+     "heightMm": 1680
+    }
+   ],
    "crowds": [],
-   "noModel": "アンテロープ号の3Dモデルが無い（本文と地図で描く）。",
+   "noModel": null,
+   "vessels": {
+    "ship": {
+     "at": [
+      0,
+      90000,
+      -1500
+     ],
+     "rot": [
+      0,
+      0,
+      0.5646424733950354,
+      0.8253356149096783
+     ]
+    }
+   },
+   "underlay": "underlay/e01-p04-k3.jpg",
    "plan": "plans/e01-p04-k3.svg"
   },
   {
    "panel": "e01-p05-k1",
    "set": "sea",
    "cam": [
-    0,
-    -8000,
+    -20000,
+    -62000,
     2000
    ],
    "look": [
-    0,
-    0,
-    1500
+    3000,
+    -40000,
+    4000
    ],
    "stand": null,
    "hfovDeg": 44.5,
    "vfovDeg": 35.0,
-   "figures": [],
+   "figures": [
+    {
+     "fg": "FG-e01-p05-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      -6000,
+      -40500,
+      1500
+     ],
+     "facingDeg": 17.2,
+     "pose": "crouch",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e01-p05-k1-02",
+     "ch": "EX",
+     "name": "船員1",
+     "fig": "s1",
+     "at": [
+      -3000,
+      -41000,
+      1500
+     ],
+     "facingDeg": 126.1,
+     "pose": "fall",
+     "heightMm": 1680
+    },
+    {
+     "fg": "FG-e01-p05-k1-03",
+     "ch": "EX",
+     "name": "船員2",
+     "fig": "s2",
+     "at": [
+      2000,
+      -39000,
+      1500
+     ],
+     "facingDeg": -68.8,
+     "pose": "carry-up",
+     "heightMm": 1680
+    },
+    {
+     "fg": "FG-e01-p05-k1-04",
+     "ch": "EX",
+     "name": "船員3",
+     "fig": "s3",
+     "at": [
+      10000,
+      -40000,
+      3000
+     ],
+     "facingDeg": -91.7,
+     "pose": "fall",
+     "heightMm": 1680
+    },
+    {
+     "fg": "FG-e01-p05-k1-05",
+     "ch": "EX",
+     "name": "船員4",
+     "fig": "s4",
+     "at": [
+      -10000,
+      -39500,
+      4000
+     ],
+     "facingDeg": -90.0,
+     "pose": "point",
+     "heightMm": 1680
+    }
+   ],
    "crowds": [],
-   "noModel": "嵐の海で岩に乗り上げる船。船の3Dモデルが無い（本文で描く）。",
+   "noModel": null,
+   "vessels": {
+    "ship": {
+     "at": [
+      0,
+      -40000,
+      0
+     ],
+     "rot": [
+      0.03998933418663417,
+      0,
+      0,
+      0.999200106660978
+     ]
+    }
+   },
+   "underlay": "underlay/e01-p05-k1.jpg",
    "plan": "plans/e01-p05-k1.svg"
   },
   {
    "panel": "e01-p05-k2",
    "set": "sea",
    "cam": [
-    0,
-    -3000,
+    4000,
+    -42500,
     3000
    ],
    "look": [
-    0,
-    0,
-    1500
+    12000,
+    -39500,
+    2200
    ],
    "stand": null,
    "hfovDeg": 23.9,
    "vfovDeg": 35.0,
-   "figures": [],
+   "figures": [
+    {
+     "fg": "FG-e01-p05-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      5000,
+      -39000,
+      1500
+     ],
+     "facingDeg": -80.2,
+     "pose": "crouch",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e01-p05-k2-02",
+     "ch": "EX",
+     "name": "船員3",
+     "fig": "s3",
+     "at": [
+      10500,
+      -40500,
+      3000
+     ],
+     "facingDeg": 143.2,
+     "pose": "fall",
+     "heightMm": 1680
+    },
+    {
+     "fg": "FG-e01-p05-k2-03",
+     "ch": "EX",
+     "name": "船員4",
+     "fig": "s4",
+     "at": [
+      9000,
+      -38800,
+      3000
+     ],
+     "facingDeg": -114.6,
+     "pose": "crouch",
+     "heightMm": 1680
+    },
+    {
+     "fg": "FG-e01-p05-k2-04",
+     "ch": "EX",
+     "name": "船員5",
+     "fig": "s5",
+     "at": [
+      7000,
+      -41500,
+      1500
+     ],
+     "facingDeg": -57.3,
+     "pose": "carry-up",
+     "heightMm": 1680
+    }
+   ],
    "crowds": [],
-   "noModel": "砕ける船首。船の3Dモデルが無い（本文で描く）。",
+   "noModel": null,
+   "vessels": {
+    "ship": {
+     "at": [
+      0,
+      -40000,
+      0
+     ],
+     "rot": [
+      0.03998933418663417,
+      0,
+      0,
+      0.999200106660978
+     ]
+    }
+   },
+   "underlay": "underlay/e01-p05-k2.jpg",
    "plan": "plans/e01-p05-k2.svg"
   },
   {
    "panel": "e01-p05-k3",
    "set": "sea",
    "cam": [
-    0,
-    -6000,
+    -3000,
+    -27500,
     300
    ],
    "look": [
     0,
-    0,
-    0
+    -20000,
+    300
    ],
    "stand": null,
    "hfovDeg": 22.6,
    "vfovDeg": 35.0,
-   "figures": [],
+   "figures": [
+    {
+     "fg": "FG-e01-p05-k3-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      -800,
+      -21800,
+      -1560
+     ],
+     "facingDeg": 22.9,
+     "pose": "tread",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e01-p05-k3-02",
+     "ch": "EX",
+     "name": "船員1",
+     "fig": "s1",
+     "at": [
+      1000,
+      -21500,
+      600
+     ],
+     "facingDeg": 114.6,
+     "pose": "fall",
+     "heightMm": 1680
+    },
+    {
+     "fg": "FG-e01-p05-k3-03",
+     "ch": "EX",
+     "name": "船員2",
+     "fig": "s2",
+     "at": [
+      1800,
+      -19000,
+      -1560
+     ],
+     "facingDeg": -28.6,
+     "pose": "tread",
+     "heightMm": 1680
+    },
+    {
+     "fg": "FG-e01-p05-k3-04",
+     "ch": "EX",
+     "name": "船員3",
+     "fig": "s3",
+     "at": [
+      -1500,
+      -19200,
+      500
+     ],
+     "facingDeg": -126.1,
+     "pose": "fall",
+     "heightMm": 1680
+    },
+    {
+     "fg": "FG-e01-p05-k3-05",
+     "ch": "EX",
+     "name": "船員4",
+     "fig": "s4",
+     "at": [
+      2600,
+      -21000,
+      0
+     ],
+     "facingDeg": 45.8,
+     "pose": "swim",
+     "heightMm": 1680
+    },
+    {
+     "fg": "FG-e01-p05-k3-06",
+     "ch": "EX",
+     "name": "船員5",
+     "fig": "s5",
+     "at": [
+      -2600,
+      -20500,
+      -1560
+     ],
+     "facingDeg": 68.8,
+     "pose": "tread",
+     "heightMm": 1680
+    }
+   ],
    "crowds": [],
-   "noModel": "転覆する小舟。小舟の3Dモデルが無い（本文で描く）。",
+   "noModel": null,
+   "vessels": {
+    "boat": {
+     "at": [
+      0,
+      -20000,
+      0
+     ],
+     "rot": [
+      0.5226872289306592,
+      0,
+      0,
+      0.8525245220595057
+     ]
+    }
+   },
+   "underlay": "underlay/e01-p05-k3.jpg",
    "plan": "plans/e01-p05-k3.svg"
   },
   {
@@ -1875,6 +2352,7 @@
    ],
    "crowds": [],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p06-k1.jpg",
    "plan": "plans/e01-p06-k1.svg"
   },
@@ -1912,6 +2390,7 @@
    ],
    "crowds": [],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p06-k2.jpg",
    "plan": "plans/e01-p06-k2.svg"
   },
@@ -1949,6 +2428,7 @@
    ],
    "crowds": [],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p06-k3.jpg",
    "plan": "plans/e01-p06-k3.svg"
   },
@@ -1986,6 +2466,7 @@
    ],
    "crowds": [],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p07-k1.jpg",
    "plan": "plans/e01-p07-k1.svg"
   },
@@ -2023,6 +2504,7 @@
    ],
    "crowds": [],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p07-k2.jpg",
    "plan": "plans/e01-p07-k2.svg"
   },
@@ -2060,6 +2542,7 @@
    ],
    "crowds": [],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p08-k1.jpg",
    "plan": "plans/e01-p08-k1.svg"
   },
@@ -2097,6 +2580,7 @@
    ],
    "crowds": [],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p08-k2.jpg",
    "plan": "plans/e01-p08-k2.svg"
   },
@@ -2134,6 +2618,7 @@
    ],
    "crowds": [],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p08-k3.jpg",
    "plan": "plans/e01-p08-k3.svg"
   },
@@ -2185,6 +2670,7 @@
    ],
    "crowds": [],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p08-k4.jpg",
    "plan": "plans/e01-p08-k4.svg"
   },
@@ -2236,6 +2722,7 @@
    ],
    "crowds": [],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p09-k1.jpg",
    "plan": "plans/e01-p09-k1.svg"
   },
@@ -2345,6 +2832,7 @@
     "body40"
    ],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p09-k2.jpg",
    "plan": "plans/e01-p09-k2.svg"
   },
@@ -2398,6 +2886,7 @@
     "body40"
    ],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p09-k3.jpg",
    "plan": "plans/e01-p09-k3.svg"
   },
@@ -2493,6 +2982,7 @@
     "ring"
    ],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p10-k1.jpg",
    "plan": "plans/e01-p10-k1.svg"
   },
@@ -2532,6 +3022,7 @@
     "ring"
    ],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p10-k2.jpg",
    "plan": "plans/e01-p10-k2.svg"
   },
@@ -2627,6 +3118,7 @@
     "archers"
    ],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p10-k3.jpg",
    "plan": "plans/e01-p10-k3.svg"
   },
@@ -2722,6 +3214,7 @@
     "archers"
    ],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p10-k4.jpg",
    "plan": "plans/e01-p10-k4.svg"
   },
@@ -2759,6 +3252,7 @@
    ],
    "crowds": [],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p11-k1.jpg",
    "plan": "plans/e01-p11-k1.svg"
   },
@@ -2798,6 +3292,7 @@
     "ring"
    ],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p11-k2.jpg",
    "plan": "plans/e01-p11-k2.svg"
   },
@@ -2865,6 +3360,7 @@
     "ring"
    ],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p11-k3.jpg",
    "plan": "plans/e01-p11-k3.svg"
   },
@@ -2902,6 +3398,7 @@
    ],
    "crowds": [],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p11-k4.jpg",
    "plan": "plans/e01-p11-k4.svg"
   },
@@ -2983,6 +3480,7 @@
     "ring"
    ],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p11-k5.jpg",
    "plan": "plans/e01-p11-k5.svg"
   },
@@ -3020,6 +3518,7 @@
    ],
    "crowds": [],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p12-k1.jpg",
    "plan": "plans/e01-p12-k1.svg"
   },
@@ -3085,6 +3584,7 @@
    ],
    "crowds": [],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p12-k2.jpg",
    "plan": "plans/e01-p12-k2.svg"
   },
@@ -3194,6 +3694,7 @@
     "body40"
    ],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p12-k3.jpg",
    "plan": "plans/e01-p12-k3.svg"
   },
@@ -3275,6 +3776,7 @@
     "body40"
    ],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p12-k4.jpg",
    "plan": "plans/e01-p12-k4.svg"
   },
@@ -3312,6 +3814,7 @@
    ],
    "crowds": [],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p12-k5.jpg",
    "plan": "plans/e01-p12-k5.svg"
   },
@@ -3351,6 +3854,7 @@
     "pullers"
    ],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p13-k1.jpg",
    "plan": "plans/e01-p13-k1.svg"
   },
@@ -3405,6 +3909,7 @@
     "horses"
    ],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p13-k2.jpg",
    "plan": "plans/e01-p13-k2.svg"
   },
@@ -3444,6 +3949,7 @@
     "pullers"
    ],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p13-k3.jpg",
    "plan": "plans/e01-p13-k3.svg"
   },
@@ -3483,6 +3989,7 @@
     "mob"
    ],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p14-k1.jpg",
    "plan": "plans/e01-p14-k1.svg"
   },
@@ -3534,6 +4041,7 @@
    ],
    "crowds": [],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p14-k2.jpg",
    "plan": "plans/e01-p14-k2.svg"
   },
@@ -3571,6 +4079,7 @@
    ],
    "crowds": [],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p14-k3.jpg",
    "plan": "plans/e01-p14-k3.svg"
   },
@@ -3610,6 +4119,7 @@
     "mob"
    ],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p15-k1.jpg",
    "plan": "plans/e01-p15-k1.svg"
   },
@@ -3649,6 +4159,7 @@
     "mob"
    ],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p15-k2.jpg",
    "plan": "plans/e01-p15-k2.svg"
   },
@@ -3730,6 +4241,7 @@
     "mob"
    ],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p16-k1.jpg",
    "plan": "plans/e01-p16-k1.svg"
   },
@@ -3781,6 +4293,7 @@
    ],
    "crowds": [],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p16-k2.jpg",
    "plan": "plans/e01-p16-k2.svg"
   },
@@ -3818,6 +4331,7 @@
    ],
    "crowds": [],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p16-k3.jpg",
    "plan": "plans/e01-p16-k3.svg"
   },
@@ -3857,6 +4371,7 @@
     "mob"
    ],
    "noModel": null,
+   "vessels": {},
    "underlay": "underlay/e01-p16-k4.jpg",
    "plan": "plans/e01-p16-k4.svg"
   }

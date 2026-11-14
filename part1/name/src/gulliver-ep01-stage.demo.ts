@@ -110,27 +110,64 @@ function poseRotations(pose: Pose) {
 }
 
 // ---------------------------------------------------------------- the people and the panels
-type Who = 'CH-01' | 'CH-10' | 'CH-02' | 'CH-30' | 'horse';
+type Who = 'CH-01' | 'CH-10' | 'CH-02' | 'CH-30' | 'EX' | 'horse'; // EX: an extra (a sailor, a townsman) not in the cast list
 /** A figure in a panel: `at` is its ground point (standing) or the ground point under its hip (lying). */
 type Place = { fig: string; at: V3; facing: number; pose: Pose; note?: string };
-type Shot = { panel: string; cam: V3; look: V3; stand?: string; places: Place[]; crowds?: string[]; noModel?: string };
+/** A movable model (a ship, a boat): its own CAD version, placed per shot (hidden when a shot leaves it out and it has no home). */
+type Vessel = { id: string; name: string; boxes: CadBox[]; home?: V3 };
+type VesselAt = { at: V3; rot?: Quat };
+type Shot = { panel: string; cam: V3; look: V3; stand?: string; places: Place[]; crowds?: string[]; noModel?: string; vessels?: Record<string, VesselAt> };
 type Actor = { id: string; who: Who; name: string; height: number; look?: FigureLook; horse?: boolean; coat?: typeof grayCoat };
 type Crowd = { id: string; name: string; people: { at: V3; facing: number; height: number; look: FigureLook }[]; horses?: { at: V3; facing: number; withers: number }[] };
 type SetDef = {
   id: string;
   name: string;
   scenes: string[];
-  model: { cad: CadBox[]; bim?: 'temple'; reason?: string };
+  model: { cad: CadBox[]; bim?: 'temple'; reason?: string; vessels?: Vessel[] };
   actors: Actor[];
   crowds: Crowd[];
   shots: Shot[];
 };
-type CadBox = { id: string; name: string; color: string; at: V3; size: V3; cylinder?: { r: number; h: number }; opacity?: number };
+type CadBox = { id: string; name: string; color: string; at: V3; size: V3; cylinder?: { r: number; h: number; up?: boolean }; opacity?: number };
+
+/**
+ * A three-masted merchant ship as boxes (創作: the text gives no plan of the Antelope). Its origin is
+ * the waterline under the mainmast; the bow is +x, the deck 1.5 m above the water.
+ */
+function shipBoxes(): CadBox[] {
+  const hull = '#5b3b24', wood = '#7a5232', sail = '#e8dfc8';
+  const out: CadBox[] = [
+    { id: 'hull', name: '船体', color: hull, at: [-13000, -3500, -3500], size: [24000, 7000, 5000] },
+    { id: 'bow', name: '船首', color: hull, at: [11000, -2200, -2500], size: [3000, 4400, 4300] },
+    { id: 'stern', name: '船尾楼', color: wood, at: [-13000, -3500, 1500], size: [5000, 7000, 2500] },
+    { id: 'forecastle', name: '船首楼', color: wood, at: [9000, -3000, 1500], size: [4000, 6000, 1500] },
+    { id: 'bowsprit', name: '船首の帆柱', color: wood, at: [14000, -150, 2500], size: [6000, 300, 300] },
+  ];
+  ([['fore', 8000, 20000], ['main', 1000, 24000], ['mizzen', -6000, 17000]] as const).forEach(([m, x, ht]) => {
+    out.push({ id: `${m}-mast`, name: `${m} の帆柱`, color: wood, at: [x, 0, 1500], size: [0, 0, 0], cylinder: { r: 250, h: ht, up: true } });
+    for (const [i, z] of [[1, 1500 + ht * 0.45], [2, 1500 + ht * 0.8]] as const) {
+      const w = i === 1 ? 11000 : 8000;
+      out.push({ id: `${m}-yard-${i}`, name: `${m} の帆桁 ${i}`, color: wood, at: [x - 150, -w / 2, z], size: [300, w, 300] });
+      out.push({ id: `${m}-sail-${i}`, name: `${m} の帆 ${i}（畳んだ形）`, color: sail, at: [x + 150, -w / 2 + 300, z - 900], size: [200, w - 600, 900] });
+    }
+  });
+  return out;
+}
+/** The ship's boat (創作): 5 m long, room for six. Origin at the waterline amidships, bow +x. */
+function boatBoxes(): CadBox[] {
+  return [
+    { id: 'boat-hull', name: '小舟の船体', color: '#6b4a2e', at: [-2500, -900, -400], size: [5000, 1800, 700] },
+    { id: 'boat-bow', name: '小舟の舳先', color: '#6b4a2e', at: [2500, -500, -300], size: [600, 1000, 600] },
+    { id: 'boat-thwart-1', name: '漕ぎ座 1', color: '#a07a50', at: [-1000, -850, 200], size: [250, 1700, 60] },
+    { id: 'boat-thwart-2', name: '漕ぎ座 2', color: '#a07a50', at: [800, -850, 200], size: [250, 1700, 60] },
+  ];
+}
 
 const G: Actor = { id: 'gulliver', who: 'CH-01', name: 'ガリヴァー', height: H, look: gulliverLook };
 const olderG: Actor = { ...G, look: { ...gulliverLook, coat: '#4a5866', hair: '#6d5a48' } };
 const MARY: Actor = { id: 'mary', who: 'CH-10', name: 'メアリー', height: 1600, look: { coat: '#7b4a5c', breeches: '#7b4a5c', stockings: '#7b4a5c', shoes: '#3a2a22', skin: '#efd0b0', hair: '#4a3020' } };
 const lil = (id: string, name: string, i: number, who: Who = 'CH-30'): Actor => ({ id, who, name, height: h, look: lilliputLooks[i % lilliputLooks.length] });
+const sailor = (id: string, name: string, i: number): Actor => ({ id, who: 'EX', name, height: 1680, look: [{ coat: '#3a3a3a', breeches: '#6b5a44', stockings: '#8a8070', shoes: '#2b2622', skin: '#d9b08c', hair: '#3a2a1a' }, { coat: '#5a4a3a', breeches: '#3d4652', stockings: '#7a7468', shoes: '#2b2622', skin: '#e0b894', hair: '#5a3a22' }, { coat: '#7a2e2e', breeches: '#4a4038', stockings: '#7a7468', shoes: '#2b2622', skin: '#d4a882', hair: '#2a2018' }][i % 3] });
 const EMPEROR: Actor = { id: 'emperor', who: 'CH-02', name: '皇帝', height: 158, look: { coat: '#c9a227', breeches: '#5c3b6b', stockings: '#efe7d6', shoes: '#2b2622', skin: '#e9c4a0', hair: '#2a2018' } };
 
 /** A crowd standing on a grid inside a rectangle, facing `facing`. */
@@ -188,7 +225,8 @@ const SETS: SetDef[] = [
     name: 'ブリストルの岸壁（仮の3D、創作）',
     scenes: ['SC-002'],
     model: {
-      reason: '再現（GV1〜GV7）にブリストルの港とアンテロープ号の3Dモデルは無い。岸壁と海面だけの仮の3D（創作）で人物の配置とカメラを決めた。船を描くコマは地図と本文で決める。',
+      reason: '再現（GV1〜GV7）にブリストルの港とアンテロープ号の3Dモデルは無い。岸壁と海面と倉庫、三本マストの船の形だけの仮の3D（創作：本文に船の図は無い）で人物の配置とカメラを決めた。',
+      vessels: [{ id: 'ship', name: 'アンテロープ号（仮の3D、創作）', boxes: shipBoxes(), home: [0, 7500, -1500] }],
       cad: [
         { id: 'quay', name: '岸壁', color: '#9a8f7e', at: [-40000, -30000, -20], size: [80000, 30000, 20] },
         { id: 'sea', name: '海面', color: '#3f6f8f', at: [-200000, 0, -1500], size: [400000, 200000, 20] },
@@ -196,10 +234,15 @@ const SETS: SetDef[] = [
         { id: 'warehouse', name: '倉庫', color: '#b8a27e', at: [-15000, -24000, 0], size: [30000, 8000, 9000] },
       ],
     },
-    actors: [G, MARY],
-    crowds: [],
+    actors: [G, MARY, sailor('s1', '船員1', 0), sailor('s2', '船員2', 1), sailor('s3', '船員3', 2)],
+    crowds: [{ id: 'quayfolk', name: '岸壁の見送りの人々', people: grid(-9000, -9000, 9000, -2500, 1300, 0, 0, 21, 1650) }],
     shots: [
-      { panel: 'e01-p03-k1', cam: [0, 0, 12000], look: [0, 30000, 0], places: [], noModel: 'アンテロープ号と港の3Dモデルが無い（地図 SM-02 と本文で描く）。' },
+      { panel: 'e01-p03-k1', cam: [-34000, -14000, 12000], look: [0, 4000, 2500], places: [
+        { fig: 'gulliver', at: [-1500, -1500, 0], facing: 0, pose: 'carry-bag' },
+        { fig: 'mary', at: [-600, -1700, 0], facing: 0, pose: 'hands-together' },
+        { fig: 's1', at: [-3000, 6000, 0], facing: Math.PI, pose: 'carry-up' },
+        { fig: 's2', at: [3000, 8500, 0], facing: 0, pose: 'walk' },
+        { fig: 's3', at: [9500, 7000, 1500], facing: Math.PI / 2, pose: 'point' } ], crowds: ['quayfolk'] },
       { panel: 'e01-p03-k2', cam: [-3200, -4200, 1600], look: [0, -1500, 1200], places: [
         { fig: 'gulliver', at: [0, -1500, 0], facing: -Math.PI / 2, pose: 'carry-bag' },
         { fig: 'mary', at: [950, -1400, 0], facing: Math.PI / 2, pose: 'hands-together' } ] },
@@ -213,8 +256,10 @@ const SETS: SetDef[] = [
         { fig: 'mary', at: [950, -1400, 0], facing: Math.PI / 2, pose: 'hands-together' } ] },
       { panel: 'e01-p04-k2', cam: [3200, -5200, 1600], look: [600, -500, 1300], places: [
         { fig: 'gulliver', at: [300, -300, 0], facing: 0, pose: 'wave-hat' },
-        { fig: 'mary', at: [1500, -2600, 0], facing: -0.3, pose: 'hands-together' } ] },
-      { panel: 'e01-p04-k3', cam: [0, -20000, 30000], look: [0, 30000, 0], places: [], noModel: 'アンテロープ号の3Dモデルが無い（本文と地図で描く）。' },
+        { fig: 'mary', at: [1500, -2600, 0], facing: -0.3, pose: 'hands-together' } ], crowds: ['quayfolk'] },
+      { panel: 'e01-p04-k3', cam: [-20000, -40000, 30000], look: [0, 70000, 0], places: [
+        { fig: 'gulliver', at: [-1087, 87204, 0], facing: Math.PI + 1.2, pose: 'wave-hat' },
+        { fig: 's1', at: [1656, 91502, 0], facing: 1.2, pose: 'carry-up' } ], vessels: { ship: { at: [0, 90000, -1500], rot: axisAngleQuat([0, 0, 1], 1.2) } } },
     ],
   },
   {
@@ -222,21 +267,42 @@ const SETS: SetDef[] = [
     name: '難破の海と浜（仮の3D、創作）',
     scenes: ['SC-003'],
     model: {
-      reason: '再現（GV1〜GV7）に難破の海とアンテロープ号・小舟の3Dモデルは無い。海面・海底・浜・草地だけの仮の3D（創作）で人物の配置とカメラを決めた。船を描くコマは本文で決める。',
+      reason: '再現（GV1〜GV7）に難破の海とアンテロープ号・小舟の3Dモデルは無い。海面・海底・岩・浜・草地と、船と小舟の形だけの仮の3D（創作）で人物の配置とカメラを決めた。',
+      vessels: [
+        { id: 'ship', name: 'アンテロープ号（仮の3D、創作）', boxes: shipBoxes() },
+        { id: 'boat', name: '小舟（仮の3D、創作）', boxes: boatBoxes() },
+      ],
       cad: [
         { id: 'seabed', name: '海底', color: '#6f6450', at: [-100000, -100000, -1450], size: [200000, 106000, 20] },
         { id: 'shallows', name: '浅瀬の底', color: '#8a7d60', at: [-100000, 6000, -420], size: [200000, 14000, 20] },
+        { id: 'rock', name: '岩（創作）', color: '#55524c', at: [11500, -43500, -1450], size: [6000, 5000, 3200] },
+        { id: 'rock-2', name: '岩（創作）2', color: '#4a4844', at: [16000, -45500, -1450], size: [4000, 3500, 1800] },
         { id: 'water', name: '海面', color: '#3d6f94', at: [-100000, -100000, -12], size: [200000, 120000, 12], opacity: 0.55 },
         { id: 'beach', name: '浜（砂）', color: '#cdbb8e', at: [-100000, 20000, -10], size: [200000, 8000, 10] },
         { id: 'grass', name: '草地（短い草）', color: '#6f8f4a', at: [-100000, 28000, 0], size: [200000, 30000, 12] },
       ],
     },
-    actors: [G],
+    actors: [G, sailor('s1', '船員1', 0), sailor('s2', '船員2', 1), sailor('s3', '船員3', 2), sailor('s4', '船員4', 0), sailor('s5', '船員5', 1)],
     crowds: [],
     shots: [
-      { panel: 'e01-p05-k1', cam: [0, -8000, 2000], look: [0, 0, 1500], places: [], noModel: '嵐の海で岩に乗り上げる船。船の3Dモデルが無い（本文で描く）。' },
-      { panel: 'e01-p05-k2', cam: [0, -3000, 3000], look: [0, 0, 1500], places: [], noModel: '砕ける船首。船の3Dモデルが無い（本文で描く）。' },
-      { panel: 'e01-p05-k3', cam: [0, -6000, 300], look: [0, 0, 0], places: [], noModel: '転覆する小舟。小舟の3Dモデルが無い（本文で描く）。' },
+      { panel: 'e01-p05-k1', cam: [-20000, -62000, 2000], look: [3000, -40000, 4000], vessels: { ship: { at: [0, -40000, 0], rot: axisAngleQuat([1, 0, 0], 0.08) } }, places: [
+        { fig: 'gulliver', at: [-6000, -40500, 1500], facing: 0.3, pose: 'crouch' },
+        { fig: 's1', at: [-3000, -41000, 1500], facing: 2.2, pose: 'fall' },
+        { fig: 's2', at: [2000, -39000, 1500], facing: -1.2, pose: 'carry-up' },
+        { fig: 's3', at: [10000, -40000, 3000], facing: -1.6, pose: 'fall' },
+        { fig: 's4', at: [-10000, -39500, 4000], facing: -Math.PI / 2, pose: 'point' } ] },
+      { panel: 'e01-p05-k2', cam: [4000, -42500, 3000], look: [12000, -39500, 2200], vessels: { ship: { at: [0, -40000, 0], rot: axisAngleQuat([1, 0, 0], 0.08) } }, places: [
+        { fig: 'gulliver', at: [5000, -39000, 1500], facing: -1.4, pose: 'crouch' },
+        { fig: 's3', at: [10500, -40500, 3000], facing: 2.5, pose: 'fall' },
+        { fig: 's4', at: [9000, -38800, 3000], facing: -2.0, pose: 'crouch' },
+        { fig: 's5', at: [7000, -41500, 1500], facing: -1.0, pose: 'carry-up' } ] },
+      { panel: 'e01-p05-k3', cam: [-3000, -27500, 300], look: [0, -20000, 300], vessels: { boat: { at: [0, -20000, 0], rot: axisAngleQuat([1, 0, 0], 1.1) } }, places: [
+        { fig: 'gulliver', at: [-800, -21800, -1560], facing: 0.4, pose: 'tread' },
+        { fig: 's1', at: [1000, -21500, 600], facing: 2.0, pose: 'fall' },
+        { fig: 's2', at: [1800, -19000, -1560], facing: -0.5, pose: 'tread' },
+        { fig: 's3', at: [-1500, -19200, 500], facing: -2.2, pose: 'fall' },
+        { fig: 's4', at: [2600, -21000, 0], facing: 0.8, pose: 'swim' },
+        { fig: 's5', at: [-2600, -20500, -1560], facing: 1.2, pose: 'tread' } ] },
       { panel: 'e01-p06-k1', cam: [-2400, -2600, 300], look: [0, 0, 50], places: [{ fig: 'gulliver', at: [0, 0, -1560], facing: 0.3, pose: 'tread' }] },
       { panel: 'e01-p06-k2', cam: [-1500, -1100, -700], look: [0, 300, -900], places: [{ fig: 'gulliver', at: [0, 300, -1000], facing: 0.2, pose: 'swim' }] },
       { panel: 'e01-p06-k3', cam: [400, 4200, 600], look: [0, 14000, 900], places: [{ fig: 'gulliver', at: [0, 8800, -410], facing: 0, pose: 'walk' }] },
@@ -353,7 +419,7 @@ function cadDoc(kernel: { id: string; buildHash: string }, boxes: CadBox[]): Cad
     type: 'insertFeatures',
     features: boxes.map((b) =>
       b.cylinder
-        ? { id: b.id, name: b.name, type: 'cylinder' as const, inputFeatureIds: [], args: { radius: mm(b.cylinder.r), height: mm(b.cylinder.h), origin: position(...b.at), orientation: axisAngleQuat([1, 0, 0], Math.PI / 2) as never } }
+        ? { id: b.id, name: b.name, type: 'cylinder' as const, inputFeatureIds: [], args: { radius: mm(b.cylinder.r), height: mm(b.cylinder.h), origin: position(...b.at), orientation: (b.cylinder.up ? identityQuaternion() : axisAngleQuat([1, 0, 0], Math.PI / 2)) as never } }
         : { id: b.id, name: b.name, type: 'box' as const, inputFeatureIds: [], args: { size: [mm(b.size[0]), mm(b.size[1]), mm(b.size[2])], origin: position(...b.at), orientation: identityQuaternion() } },
     ),
     bodies: boxes.map((b) => ({
@@ -421,6 +487,7 @@ function addCrowd(doc: CharacterDocument, assets: Map<string, Uint8Array>, c: Cr
 }
 
 const HIDDEN: V3 = [0, 0, -60_000];
+const vesselName = (set: SetDef, v: Vessel) => `舞台 ${set.id} ${v.id}`;
 function buildSet(set: SetDef, props: CharacterDocument['props']) {
   const doc = emptyCharacter(`第1話 舞台：${set.name}`);
   const assets = new Map<string, Uint8Array>();
@@ -463,6 +530,12 @@ function buildSet(set: SetDef, props: CharacterDocument['props']) {
       key(`${a.id}-hip-r`, { kind: 'bone', id: f.bone('hip'), property: 'rotation' }, tick, rot);
       const local = poseRotations(place.pose);
       for (const [b, q] of Object.entries(local)) key(`${a.id}-${b}`, { kind: 'bone', id: f.bone(b), property: 'rotation' }, tick, q);
+    }
+    for (const v of set.model.vessels ?? []) {
+      const prop = props.find((x) => x.name === vesselName(set, v))!;
+      const at = s.vessels?.[v.id] ?? (v.home ? { at: v.home } : { at: HIDDEN });
+      key(`${v.id}-t`, { kind: 'prop', id: prop.id, property: 'translation' }, tick, at.at);
+      key(`${v.id}-r`, { kind: 'prop', id: prop.id, property: 'rotation' }, tick, at.rot ?? [0, 0, 0, 1]);
     }
     for (const [cid, part] of crowdParts)
       key(`${part}-t`, { kind: 'part', id: part, property: 'translation' }, tick, (s.crowds ?? []).includes(cid) ? [0, 0, 0] : HIDDEN);
@@ -509,6 +582,17 @@ for (const set of SETS.filter((s) => !ONLY || ONLY.includes(s.id))) {
     await save(page, 1);
     versions.cad = await nativeArtifact(page);
     propNames.push(cadName);
+    for (const v of set.model.vessels ?? []) {
+      await create(page, 'cad');
+      const e = await nativeArtifact(page);
+      const name = vesselName(set, v);
+      await importArtifact(page, `${set.id}-${v.id}.json`, { ...e, name, draft: { ...e.draft, content: cadDoc(kernel, v.boxes) } });
+      await expect(page.getByLabel('Artifact name')).toHaveValue(name);
+      await expect(page.getByTestId('cad-geometry-state')).toHaveText('Shape up to date', { timeout: 600_000 });
+      await save(page, 1);
+      versions[v.id] = await nativeArtifact(page);
+      propNames.push(name);
+    }
 
     await create(page, 'character');
     await expect(page.getByTestId('character-view-state')).toHaveText('Ready');
@@ -551,7 +635,7 @@ for (const set of SETS.filter((s) => !ONLY || ONLY.includes(s.id))) {
       await canvas.screenshot({ path: `${OUT}/${set.id}/${s.panel}.png` });
     }
     writeFileSync(`${OUT}/${set.id}/stage.json`, JSON.stringify({
-      set: { id: set.id, name: set.name, scenes: set.scenes, reason: set.model.reason ?? null, cad: set.model.cad.map((b) => ({ id: b.id, name: b.name, at: b.at, size: b.size, cylinder: b.cylinder ?? null })), bim: set.model.bim ?? null },
+      set: { id: set.id, name: set.name, scenes: set.scenes, reason: set.model.reason ?? null, cad: set.model.cad.map((b) => ({ id: b.id, name: b.name, at: b.at, size: b.size, cylinder: b.cylinder ?? null })), bim: set.model.bim ?? null, vessels: (set.model.vessels ?? []).map((v) => ({ id: v.id, name: v.name, home: v.home ?? null, boxes: v.boxes.map((b) => ({ id: b.id, name: b.name, at: b.at, size: b.size, cylinder: b.cylinder ?? null })) })) },
       props: props.map((p) => ({ name: p.name, source: p.source })),
       canvas: { width: box!.width, height: box!.height, verticalFovDeg: 35 },
       actors: set.actors.map((a) => ({ id: a.id, who: a.who, name: a.name, heightMm: a.height })),

@@ -136,7 +136,7 @@ test('episode 1 ネーム covers every script line, reads left to right and fits
     // Every figure has an FG id and a character from the cast list.
     for (const f of sp.figures) {
       expect(f.fg, r.id).toMatch(new RegExp(`^FG-${r.id}-\\d{2}$`));
-      expect(f.ch, `${r.id} ${f.fg}`).toMatch(/^(CH-\d{2}|horse)$/);
+      expect(f.ch, `${r.id} ${f.fg}`).toMatch(/^(CH-\d{2}|EX|horse)$/);
     }
     const under = content.elements.filter((e) => e.parentId === r.id && e.type === 'image');
     if (sp.noModel) {

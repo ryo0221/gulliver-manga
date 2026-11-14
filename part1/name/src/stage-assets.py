@@ -10,7 +10,7 @@ from PIL import Image
 
 stage_dir, design_path, out = sys.argv[1:4]
 VFOV = 35.0  # the character view's PerspectiveCamera (fixed vertical field of view)
-WHO = {'CH-01': 'ガリヴァー', 'CH-10': 'メアリー', 'CH-02': '皇帝', 'CH-30': '小人', 'horse': '馬'}
+WHO = {'CH-01': 'ガリヴァー', 'CH-10': 'メアリー', 'CH-02': '皇帝', 'CH-30': '小人', 'EX': '端役', 'horse': '馬'}
 SETS = ['stable', 'port', 'sea', 'beach', 'temple']
 
 design = json.load(open(design_path))['draft']['content']
@@ -61,11 +61,29 @@ def plan_svg(set_rec, shot, hfov, crowd_pts):
              for b in set_rec['cad'] if not b.get('cylinder') and b['size'][0] * b['size'][1] < 4e9]
     if set_rec.get('bim') == 'temple':
         boxes = TEMPLE_PLAN + boxes
+    polys = []
+    for v in set_rec.get('vessels') or []:
+        place = (shot.get('vessels') or {}).get(v['id']) or ({'at': v['home']} if v.get('home') else None)
+        if not place:
+            continue
+        qx, qy, qz, qw = place.get('rot') or [0, 0, 0, 1]
+        yaw = math.atan2(2 * (qw * qz + qx * qy), 1 - 2 * (qy * qy + qz * qz))
+        c, sn = math.cos(yaw), math.sin(yaw)
+        for b in v['boxes']:
+            if b.get('cylinder'):
+                continue
+            ax, ay = b['at'][0], b['at'][1]
+            bx, by = ax + b['size'][0], ay + b['size'][1]
+            pts = [(place['at'][0] + c * x - sn * y, place['at'][1] + sn * x + c * y) for x, y in ((ax, ay), (bx, ay), (bx, by), (ax, by))]
+            polys.append((f"{v['name']} {b['name']}", pts))
     for name, (ax, ay, bx, by), color in boxes:
         x, y, w, h = X(ax), Y(by), (bx - ax) * k, (by - ay) * k
         if x > S or y > S or x + w < 0 or y + h < 0:
             continue
         el.append(f'<rect x="{x:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h:.1f}" fill="{color}" fill-opacity="0.55" stroke="#8a7f6a" stroke-width="0.6"><title>{name}</title></rect>')
+    for name, pts in polys:
+        d = ' '.join(f'{X(x):.1f},{Y(y):.1f}' for x, y in pts)
+        el.append(f'<polygon points="{d}" fill="#8b6b45" fill-opacity="0.45" stroke="#5b3b24" stroke-width="0.6"><title>{name}</title></polygon>')
     for p in crowd_pts:
         if x0 <= p[0] <= x0 + span and y0 <= p[1] <= y0 + span:
             el.append(f'<circle cx="{X(p[0]):.1f}" cy="{Y(p[1]):.1f}" r="1.2" fill="#9ca3af"/>')
@@ -116,6 +134,7 @@ for sid in SETS:
         'canvas': st['canvas'],
         'cad': [{k: b[k] for k in ('id', 'name', 'at', 'size', 'cylinder') if b.get(k) is not None} for b in s['cad']],
         'bim': s['bim'],
+        'vessels': [{'id': v['id'], 'name': v['name'], 'home': v['home']} for v in s.get('vessels') or []],
         'crowds': [{k: c[k] for k in ('id', 'name', 'count')} for c in st['crowds']],
     }
     actors = {a['id']: a for a in st['actors']}
@@ -136,7 +155,7 @@ for sid in SETS:
         shot = {**shot, 'places': places}
         rec = {'panel': pid, 'set': sid, 'cam': shot['cam'], 'look': shot['look'], 'stand': shot.get('stand'),
                'hfovDeg': hfov, 'vfovDeg': vfov, 'figures': places, 'crowds': shot.get('crowds') or [],
-               'noModel': shot.get('noModel')}
+               'noModel': shot.get('noModel'), 'vessels': shot.get('vessels') or {}}
         png = f'{stage_dir}/{sid}/{pid}.png'
         if not shot.get('noModel'):
             im = Image.open(png).convert('RGB')
@@ -147,7 +166,7 @@ for sid in SETS:
             im.save(f'{out}/underlay/{pid}.jpg', quality=70, optimize=True)
             rec['underlay'] = f'underlay/{pid}.jpg'
         pts = [pt for c in rec['crowds'] for pt in crowd_pts.get(c, [])]
-        open(f'{out}/plans/{pid}.svg', 'w').write(plan_svg({'cad': s['cad'], 'bim': s['bim']}, shot, hfov, pts))
+        open(f'{out}/plans/{pid}.svg', 'w').write(plan_svg({'cad': s['cad'], 'bim': s['bim'], 'vessels': s.get('vessels')}, shot, hfov, pts))
         rec['plan'] = f'plans/{pid}.svg'
         records[pid] = rec
 
