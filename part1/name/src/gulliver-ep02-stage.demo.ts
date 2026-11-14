@@ -202,7 +202,7 @@ const SETS: SetDef[] = [
     actors: [G, EMPEROR, FLIMNAP, BOLGOLAM, lil('d1', '廷臣1', 0), lil('d2', '廷臣2', 1), lil('d3', '廷臣3', 2), lil('d4', '廷臣4', 3), lil('b1', 'ボルゴラムの従者1', 0), lil('b2', 'ボルゴラムの従者2', 2)],
     crowds: [
       { id: 'court', name: '見物の宮廷（創作の人数）', people: [...grid(-1500, 1900, -600, 2700, 150, 0, Math.PI, 31), ...grid(600, 2100, 1500, 2700, 150, 0, Math.PI, 33)] },
-      { id: 'mob', name: '広場の端の民（創作の人数）', people: [...grid(-4000, 3200, 4000, 3900, 170, 0, Math.PI, 35)] },
+      { id: 'mob', name: '広場の端の民（創作の人数）', people: [...grid(-4000, 4600, 4000, 5300, 170, 0, Math.PI, 35)] },
     ],
     shots: [
       { panel: 'e02-p01-k1', cam: [760, 1720, 136], look: [180, 1290, 640], places: [sit('sit-palm'), onPalm('d1', -30, -10), onPalm('d2', 25, 15, 'jump'), onPalm('d3', 0, 40, 'wave-hat'), EMP_SEAT], crowds: ['court'] },
@@ -249,7 +249,7 @@ const SETS: SetDef[] = [
         { id: 'wall-e1', name: '東の壁', color: '#cbbfa6', at: [620, -440, 0], size: [20, 360, 420] },
         { id: 'wall-e2', name: '東の壁（入口の北）', color: '#cbbfa6', at: [620, 80, 0], size: [20, 360, 420] },
         { id: 'table', name: '長い卓', color: '#6b4a2e', at: [-300, -60, 0], size: [600, 120, 60] },
-        { id: 'throne', name: '玉座', color: '#8c2f39', at: [-500, -50, 0], size: [60, 100, 110] },
+        { id: 'throne', name: '玉座', color: '#8c2f39', at: [-580, -50, 0], size: [60, 100, 110] },
       ],
     },
     actors: [EMPEROR, FLIMNAP, BOLGOLAM, lil('m1', '大臣1', 0), lil('m2', '大臣2', 1), lil('m3', '大臣3', 2), lil('m4', '大臣4', 3)],
@@ -307,7 +307,7 @@ SETS[1]!.shots = [
 ];
 function council(standing = false): Place[] {
   return [
-    { fig: 'emperor', at: [-450, 0, 0], facing: -Math.PI / 2, pose: standing ? 'orate' : 'stand' },
+    { fig: 'emperor', at: [-480, 0, 0], facing: -Math.PI / 2, pose: standing ? 'orate' : 'stand' },
     { fig: 'bolgolam', at: [100, -110, 0], facing: 0, pose: 'arms-crossed' },
     { fig: 'flimnap', at: [-100, 110, 0], facing: Math.PI, pose: 'read' },
     { fig: 'm1', at: [-200, -110, 0], facing: 0, pose: 'stand' },
@@ -519,6 +519,8 @@ for (const set of SETS.filter((s) => !ONLY || ONLY.includes(s.id))) {
     await expect(page.getByTestId('character-view-state')).toHaveText('Ready', { timeout: 1_800_000 });
     await page.getByRole('combobox', { name: 'Action', exact: true }).selectOption({ label: doc.actions[0]!.name });
     const inspector = await panel(page, 'Inspector');
+    // A large BIM prop (F105, the whole city) is still calculating when the view is Ready: wait until every prop is shown.
+    await expect(inspector.getByText('Wait for the props to be shown.')).toHaveCount(0, { timeout: 3_600_000 });
     await inspector.getByRole('group', { name: 'Action camera' }).getByLabel('Look through the action’s camera').check();
     await page.addStyleTag({ content: '.character-bone-overlay, .character-ik-overlay, .character-canvas button { display: none !important; } [data-tooltip]::before, [data-tooltip]::after { display: none !important; }' });
     // Close the side panels so the view is as large as it gets.
