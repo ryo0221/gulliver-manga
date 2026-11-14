@@ -1,0 +1,73 @@
+{
+ "schemaVersion": 1,
+ "id": "gm1-board-settings",
+ "name": "ガリヴァー旅行記 第1部・表示条件",
+ "kind": "data",
+ "provenance": {
+  "source": "created"
+ },
+ "draft": {
+  "baseVersionId": "part1-v1",
+  "updatedAt": "2026-11-14T00:00:00.000Z",
+  "content": {
+   "schemaVersion": 2,
+   "columns": [
+    {
+     "id": "sb1.contract",
+     "name": "Contract",
+     "type": "text"
+    },
+    {
+     "id": "sb1.payload",
+     "name": "Presentation references",
+     "type": "text"
+    }
+   ],
+   "rows": [
+    {
+     "id": "settings",
+     "values": {
+      "sb1.contract": "story-board/1",
+      "sb1.payload": "{\"boardArtifactId\":\"gm1-board\",\"clock\":\"CL-1\",\"groups\":[{\"events\":[],\"id\":\"court\",\"individuals\":[\"[\\\"ns:gm1-story\\\",\\\"CH-02\\\",\\\"WL-A\\\"]\",\"[\\\"ns:gm1-story\\\",\\\"CH-03\\\",\\\"WL-A\\\"]\",\"[\\\"ns:gm1-story\\\",\\\"CH-04\\\",\\\"WL-A\\\"]\",\"[\\\"ns:gm1-story\\\",\\\"CH-05\\\",\\\"WL-A\\\"]\",\"[\\\"ns:gm1-story\\\",\\\"CH-06\\\",\\\"WL-A\\\"]\",\"[\\\"ns:gm1-story\\\",\\\"CH-08\\\",\\\"WL-A\\\"]\"],\"name\":\"リリパットの宮廷\"},{\"events\":[],\"id\":\"escape\",\"individuals\":[\"[\\\"ns:gm1-story\\\",\\\"CH-01\\\",\\\"WL-A\\\"]\",\"[\\\"ns:gm1-story\\\",\\\"CH-07\\\",\\\"WL-A\\\"]\",\"[\\\"ns:gm1-story\\\",\\\"CH-09\\\",\\\"WL-A\\\"]\",\"[\\\"ns:gm1-story\\\",\\\"CH-10\\\",\\\"WL-A\\\"]\"],\"name\":\"亡命と帰国\"}],\"locations\":[{\"featureId\":\"shore\",\"place\":{\"artifactId\":\"gm1-world-notes\",\"itemId\":\"LO-01\"}},{\"featureId\":\"woke\",\"place\":{\"artifactId\":\"gm1-world-notes\",\"itemId\":\"LO-02\"}},{\"featureId\":\"temple\",\"place\":{\"artifactId\":\"gm1-world-notes\",\"itemId\":\"LO-03\"}},{\"featureId\":\"mildendo\",\"place\":{\"artifactId\":\"gm1-world-notes\",\"itemId\":\"LO-04\"}},{\"featureId\":\"palace\",\"place\":{\"artifactId\":\"gm1-world-notes\",\"itemId\":\"LO-05\"}},{\"featureId\":\"hillock\",\"place\":{\"artifactId\":\"gm1-world-notes\",\"itemId\":\"LO-06\"}},{\"featureId\":\"channel-mid\",\"place\":{\"artifactId\":\"gm1-world-notes\",\"itemId\":\"LO-07\"}},{\"featureId\":\"fleet\",\"place\":{\"artifactId\":\"gm1-world-notes\",\"itemId\":\"LO-08\"}},{\"featureId\":\"lilliput-port\",\"place\":{\"artifactId\":\"gm1-world-notes\",\"itemId\":\"LO-09\"}},{\"featureId\":\"blefuscu-city\",\"place\":{\"artifactId\":\"gm1-world-notes\",\"itemId\":\"LO-10\"}},{\"featureId\":\"boat\",\"place\":{\"artifactId\":\"gm1-world-notes\",\"itemId\":\"LO-11\"}}],\"map\":{\"artifactId\":\"gm1-map\",\"contentHash\":\"44babeba6866defd5b55dbbe084234e9a0fbdaaf04a1a0ce4691cd85c1a95ccf\",\"versionId\":\"part1-v1\",\"view\":{\"id\":\"overview\",\"kind\":\"named\"}},\"panels\":[{\"kind\":\"timeline\",\"nodeId\":\"timeline\"},{\"kind\":\"map\",\"nodeId\":\"map\"},{\"event\":{\"artifactId\":\"gm1-ledger\",\"itemId\":\"EV-04\"},\"kind\":\"event-card\",\"nodeId\":\"event-0\"},{\"event\":{\"artifactId\":\"gm1-ledger\",\"itemId\":\"EV-10\"},\"kind\":\"event-card\",\"nodeId\":\"event-1\"},{\"event\":{\"artifactId\":\"gm1-ledger\",\"itemId\":\"EV-14\"},\"kind\":\"event-card\",\"nodeId\":\"event-2\"}],\"presets\":[{\"filter\":{\"groups\":{\"kind\":\"all\"},\"includeUnknown\":true,\"individuals\":{\"kind\":\"all\"},\"places\":{\"kind\":\"all\"},\"time\":{\"clock\":\"CL-1\",\"kind\":\"point\",\"value\":187}},\"id\":\"all\",\"name\":\"全員・神殿に着いた日\"},{\"filter\":{\"groups\":{\"kind\":\"all\"},\"includeUnknown\":true,\"individuals\":{\"kind\":\"all\"},\"places\":{\"kind\":\"all\"},\"time\":{\"clock\":\"CL-1\",\"kind\":\"point\",\"value\":185}},\"id\":\"landing\",\"name\":\"漂着（185日）\"},{\"filter\":{\"groups\":{\"kind\":\"all\"},\"includeUnknown\":true,\"individuals\":{\"ids\":[\"[\\\"ns:gm1-story\\\",\\\"CH-01\\\",\\\"WL-A\\\"]\",\"[\\\"ns:gm1-story\\\",\\\"CH-02\\\",\\\"WL-A\\\"]\",\"[\\\"ns:gm1-story\\\",\\\"CH-03\\\",\\\"WL-A\\\"]\",\"[\\\"ns:gm1-story\\\",\\\"CH-04\\\",\\\"WL-A\\\"]\",\"[\\\"ns:gm1-story\\\",\\\"CH-05\\\",\\\"WL-A\\\"]\",\"[\\\"ns:gm1-story\\\",\\\"CH-06\\\",\\\"WL-A\\\"]\",\"[\\\"ns:gm1-story\\\",\\\"CH-07\\\",\\\"WL-A\\\"]\",\"[\\\"ns:gm1-story\\\",\\\"CH-08\\\",\\\"WL-A\\\"]\",\"[\\\"ns:gm1-story\\\",\\\"CH-09\\\",\\\"WL-A\\\"]\",\"[\\\"ns:gm1-story\\\",\\\"CH-10\\\",\\\"WL-A\\\"]\"],\"kind\":\"set\"},\"places\":{\"kind\":\"all\"},\"time\":{\"clock\":\"CL-1\",\"kind\":\"point\",\"value\":860}},\"id\":\"blefuscu\",\"name\":\"ブレフスキュ（亡命から出帆）\"}],\"schemaVersion\":1,\"storyId\":\"gm1-story\",\"world\":\"WL-A\"}"
+     }
+    }
+   ]
+  }
+ },
+ "versions": [
+  {
+   "artifactId": "gm1-board-settings",
+   "versionId": "part1-v1",
+   "parentVersionId": null,
+   "schemaVersion": 1,
+   "createdAt": "2026-11-14T00:00:00.000Z",
+   "createdBy": null,
+   "reason": "ガリヴァー旅行記 第1部の設定（fiction-manga@1.1.0 人物・世界と舞台）",
+   "content": {
+    "schemaVersion": 2,
+    "columns": [
+     {
+      "id": "sb1.contract",
+      "name": "Contract",
+      "type": "text"
+     },
+     {
+      "id": "sb1.payload",
+      "name": "Presentation references",
+      "type": "text"
+     }
+    ],
+    "rows": [
+     {
+      "id": "settings",
+      "values": {
+       "sb1.contract": "story-board/1",
+       "sb1.payload": "{\"boardArtifactId\":\"gm1-board\",\"clock\":\"CL-1\",\"groups\":[{\"events\":[],\"id\":\"court\",\"individuals\":[\"[\\\"ns:gm1-story\\\",\\\"CH-02\\\",\\\"WL-A\\\"]\",\"[\\\"ns:gm1-story\\\",\\\"CH-03\\\",\\\"WL-A\\\"]\",\"[\\\"ns:gm1-story\\\",\\\"CH-04\\\",\\\"WL-A\\\"]\",\"[\\\"ns:gm1-story\\\",\\\"CH-05\\\",\\\"WL-A\\\"]\",\"[\\\"ns:gm1-story\\\",\\\"CH-06\\\",\\\"WL-A\\\"]\",\"[\\\"ns:gm1-story\\\",\\\"CH-08\\\",\\\"WL-A\\\"]\"],\"name\":\"リリパットの宮廷\"},{\"events\":[],\"id\":\"escape\",\"individuals\":[\"[\\\"ns:gm1-story\\\",\\\"CH-01\\\",\\\"WL-A\\\"]\",\"[\\\"ns:gm1-story\\\",\\\"CH-07\\\",\\\"WL-A\\\"]\",\"[\\\"ns:gm1-story\\\",\\\"CH-09\\\",\\\"WL-A\\\"]\",\"[\\\"ns:gm1-story\\\",\\\"CH-10\\\",\\\"WL-A\\\"]\"],\"name\":\"亡命と帰国\"}],\"locations\":[{\"featureId\":\"shore\",\"place\":{\"artifactId\":\"gm1-world-notes\",\"itemId\":\"LO-01\"}},{\"featureId\":\"woke\",\"place\":{\"artifactId\":\"gm1-world-notes\",\"itemId\":\"LO-02\"}},{\"featureId\":\"temple\",\"place\":{\"artifactId\":\"gm1-world-notes\",\"itemId\":\"LO-03\"}},{\"featureId\":\"mildendo\",\"place\":{\"artifactId\":\"gm1-world-notes\",\"itemId\":\"LO-04\"}},{\"featureId\":\"palace\",\"place\":{\"artifactId\":\"gm1-world-notes\",\"itemId\":\"LO-05\"}},{\"featureId\":\"hillock\",\"place\":{\"artifactId\":\"gm1-world-notes\",\"itemId\":\"LO-06\"}},{\"featureId\":\"channel-mid\",\"place\":{\"artifactId\":\"gm1-world-notes\",\"itemId\":\"LO-07\"}},{\"featureId\":\"fleet\",\"place\":{\"artifactId\":\"gm1-world-notes\",\"itemId\":\"LO-08\"}},{\"featureId\":\"lilliput-port\",\"place\":{\"artifactId\":\"gm1-world-notes\",\"itemId\":\"LO-09\"}},{\"featureId\":\"blefuscu-city\",\"place\":{\"artifactId\":\"gm1-world-notes\",\"itemId\":\"LO-10\"}},{\"featureId\":\"boat\",\"place\":{\"artifactId\":\"gm1-world-notes\",\"itemId\":\"LO-11\"}}],\"map\":{\"artifactId\":\"gm1-map\",\"contentHash\":\"44babeba6866defd5b55dbbe084234e9a0fbdaaf04a1a0ce4691cd85c1a95ccf\",\"versionId\":\"part1-v1\",\"view\":{\"id\":\"overview\",\"kind\":\"named\"}},\"panels\":[{\"kind\":\"timeline\",\"nodeId\":\"timeline\"},{\"kind\":\"map\",\"nodeId\":\"map\"},{\"event\":{\"artifactId\":\"gm1-ledger\",\"itemId\":\"EV-04\"},\"kind\":\"event-card\",\"nodeId\":\"event-0\"},{\"event\":{\"artifactId\":\"gm1-ledger\",\"itemId\":\"EV-10\"},\"kind\":\"event-card\",\"nodeId\":\"event-1\"},{\"event\":{\"artifactId\":\"gm1-ledger\",\"itemId\":\"EV-14\"},\"kind\":\"event-card\",\"nodeId\":\"event-2\"}],\"presets\":[{\"filter\":{\"groups\":{\"kind\":\"all\"},\"includeUnknown\":true,\"individuals\":{\"kind\":\"all\"},\"places\":{\"kind\":\"all\"},\"time\":{\"clock\":\"CL-1\",\"kind\":\"point\",\"value\":187}},\"id\":\"all\",\"name\":\"全員・神殿に着いた日\"},{\"filter\":{\"groups\":{\"kind\":\"all\"},\"includeUnknown\":true,\"individuals\":{\"kind\":\"all\"},\"places\":{\"kind\":\"all\"},\"time\":{\"clock\":\"CL-1\",\"kind\":\"point\",\"value\":185}},\"id\":\"landing\",\"name\":\"漂着（185日）\"},{\"filter\":{\"groups\":{\"kind\":\"all\"},\"includeUnknown\":true,\"individuals\":{\"ids\":[\"[\\\"ns:gm1-story\\\",\\\"CH-01\\\",\\\"WL-A\\\"]\",\"[\\\"ns:gm1-story\\\",\\\"CH-02\\\",\\\"WL-A\\\"]\",\"[\\\"ns:gm1-story\\\",\\\"CH-03\\\",\\\"WL-A\\\"]\",\"[\\\"ns:gm1-story\\\",\\\"CH-04\\\",\\\"WL-A\\\"]\",\"[\\\"ns:gm1-story\\\",\\\"CH-05\\\",\\\"WL-A\\\"]\",\"[\\\"ns:gm1-story\\\",\\\"CH-06\\\",\\\"WL-A\\\"]\",\"[\\\"ns:gm1-story\\\",\\\"CH-07\\\",\\\"WL-A\\\"]\",\"[\\\"ns:gm1-story\\\",\\\"CH-08\\\",\\\"WL-A\\\"]\",\"[\\\"ns:gm1-story\\\",\\\"CH-09\\\",\\\"WL-A\\\"]\",\"[\\\"ns:gm1-story\\\",\\\"CH-10\\\",\\\"WL-A\\\"]\"],\"kind\":\"set\"},\"places\":{\"kind\":\"all\"},\"time\":{\"clock\":\"CL-1\",\"kind\":\"point\",\"value\":860}},\"id\":\"blefuscu\",\"name\":\"ブレフスキュ（亡命から出帆）\"}],\"schemaVersion\":1,\"storyId\":\"gm1-story\",\"world\":\"WL-A\"}"
+      }
+     }
+    ]
+   },
+   "contentHash": "0a9e3e99ffc8ca2c84a83c62b43b464088a166a44a2b8779fe59d811bdf94078"
+  }
+ ]
+}

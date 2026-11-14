@@ -1,0 +1,1369 @@
+{
+ "schemaVersion": 1,
+ "id": "gm1-ledger",
+ "name": "第1部 筋の台帳（WL-A）",
+ "kind": "data",
+ "provenance": {
+  "source": "created"
+ },
+ "draft": {
+  "baseVersionId": "part1-v1",
+  "updatedAt": "2026-11-14T00:00:00.000Z",
+  "content": {
+   "schemaVersion": 2,
+   "columns": [
+    {
+     "id": "tl1.row",
+     "name": "行の種類",
+     "type": "select",
+     "options": [
+      "event",
+      "derive-time",
+      "after",
+      "travel-min",
+      "cause",
+      "participant",
+      "knows",
+      "info-use",
+      "claim",
+      "fact",
+      "presence",
+      "exception",
+      "exception-basis"
+     ],
+     "required": true
+    },
+    {
+     "id": "tl1.label",
+     "name": "名前",
+     "type": "text"
+    },
+    {
+     "id": "tl1.subject",
+     "name": "対象の行",
+     "type": "relation"
+    },
+    {
+     "id": "tl1.ref.artifact",
+     "name": "参照先Artifact",
+     "type": "text"
+    },
+    {
+     "id": "tl1.ref.version",
+     "name": "参照先の版",
+     "type": "text"
+    },
+    {
+     "id": "tl1.ref.hash",
+     "name": "参照先のhash",
+     "type": "text"
+    },
+    {
+     "id": "tl1.ref.item",
+     "name": "参照先の項目",
+     "type": "text"
+    },
+    {
+     "id": "tl1.ref.facet",
+     "name": "参照の範囲",
+     "type": "select",
+     "options": [
+      "whole",
+      "existence",
+      "participants",
+      "time",
+      "content",
+      "info",
+      "evaluation"
+     ]
+    },
+    {
+     "id": "tl1.time.kind",
+     "name": "時点の種類",
+     "type": "select",
+     "options": [
+      "unset",
+      "point",
+      "day",
+      "interval",
+      "range",
+      "derived"
+     ]
+    },
+    {
+     "id": "tl1.time.start",
+     "name": "開始日",
+     "type": "number"
+    },
+    {
+     "id": "tl1.time.end",
+     "name": "終了日",
+     "type": "number"
+    },
+    {
+     "id": "tl1.clock",
+     "name": "時計",
+     "type": "text"
+    },
+    {
+     "id": "tl1.offset.min",
+     "name": "最小日数",
+     "type": "number"
+    },
+    {
+     "id": "tl1.offset.max",
+     "name": "最大日数",
+     "type": "number"
+    },
+    {
+     "id": "tl1.anchor",
+     "name": "基準端",
+     "type": "select",
+     "options": [
+      "start",
+      "end"
+     ]
+    },
+    {
+     "id": "tl1.ind.ch",
+     "name": "人物",
+     "type": "text"
+    },
+    {
+     "id": "tl1.ind.origin",
+     "name": "個体の世界",
+     "type": "text"
+    },
+    {
+     "id": "tl1.info",
+     "name": "情報",
+     "type": "text"
+    },
+    {
+     "id": "tl1.mode",
+     "name": "様態",
+     "type": "select",
+     "options": [
+      "observe",
+      "told",
+      "believe",
+      "doubt",
+      "deny",
+      "forget",
+      "assert",
+      "true",
+      "false"
+     ]
+    },
+    {
+     "id": "tl1.complete",
+     "name": "情報源は全部",
+     "type": "boolean"
+    },
+    {
+     "id": "tl1.loc",
+     "name": "場所",
+     "type": "text"
+    },
+    {
+     "id": "tl1.certainty",
+     "name": "確度",
+     "type": "select",
+     "options": [
+      "confirmed",
+      "uncertain"
+     ]
+    },
+    {
+     "id": "tl1.diag",
+     "name": "診断の種類",
+     "type": "select",
+     "options": [
+      "single-event",
+      "disclosure",
+      "presence",
+      "multi-event",
+      "transfer",
+      "external-event"
+     ]
+    },
+    {
+     "id": "tl1.rule",
+     "name": "規則の版",
+     "type": "text"
+    },
+    {
+     "id": "tl1.reason",
+     "name": "理由",
+     "type": "text"
+    },
+    {
+     "id": "tl1.scope",
+     "name": "規則の範囲",
+     "type": "text"
+    },
+    {
+     "id": "tl1.hypothesis",
+     "name": "仮定の識別",
+     "type": "text"
+    }
+   ],
+   "rows": [
+    {
+     "id": "EV-01",
+     "values": {
+      "tl1.row": "event",
+      "tl1.label": "ブリストルから出航（1699-05-04）",
+      "tl1.time.kind": "day",
+      "tl1.time.start": 0
+     }
+    },
+    {
+     "id": "EV-01.who.CH-01",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-01",
+      "tl1.ind.ch": "CH-01",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
+     "id": "EV-01.who.CH-10",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-01",
+      "tl1.ind.ch": "CH-10",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
+     "id": "EV-02",
+     "values": {
+      "tl1.row": "event",
+      "tl1.label": "嵐で難破し、浜へ泳ぎ着く（1699-11-05）",
+      "tl1.time.kind": "day",
+      "tl1.time.start": 185
+     }
+    },
+    {
+     "id": "EV-02.who.CH-01",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-02",
+      "tl1.ind.ch": "CH-01",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
+     "id": "EV-02.presence.0",
+     "values": {
+      "tl1.row": "presence",
+      "tl1.subject": "EV-02",
+      "tl1.ind.ch": "CH-01",
+      "tl1.ind.origin": "WL-A",
+      "tl1.loc": "LO-01",
+      "tl1.time.kind": "interval",
+      "tl1.time.start": 185,
+      "tl1.time.end": 186,
+      "tl1.certainty": "confirmed"
+     }
+    },
+    {
+     "id": "EV-03",
+     "values": {
+      "tl1.row": "event",
+      "tl1.label": "縛られて目覚め、小人たちに会う",
+      "tl1.time.kind": "day",
+      "tl1.time.start": 186
+     }
+    },
+    {
+     "id": "EV-03.who.CH-01",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-03",
+      "tl1.ind.ch": "CH-01",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
+     "id": "EV-03.presence.0",
+     "values": {
+      "tl1.row": "presence",
+      "tl1.subject": "EV-03",
+      "tl1.ind.ch": "CH-01",
+      "tl1.ind.origin": "WL-A",
+      "tl1.loc": "LO-02",
+      "tl1.time.kind": "interval",
+      "tl1.time.start": 186,
+      "tl1.time.end": 187,
+      "tl1.certainty": "uncertain"
+     }
+    },
+    {
+     "id": "EV-04",
+     "values": {
+      "tl1.row": "event",
+      "tl1.label": "運搬機で古い神殿へ運ばれ、鎖につながれる",
+      "tl1.time.kind": "day",
+      "tl1.time.start": 187
+     }
+    },
+    {
+     "id": "EV-04.who.CH-01",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-04",
+      "tl1.ind.ch": "CH-01",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
+     "id": "EV-04.who.CH-02",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-04",
+      "tl1.ind.ch": "CH-02",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
+     "id": "EV-04.presence.0",
+     "values": {
+      "tl1.row": "presence",
+      "tl1.subject": "EV-04",
+      "tl1.ind.ch": "CH-01",
+      "tl1.ind.origin": "WL-A",
+      "tl1.loc": "LO-03",
+      "tl1.time.kind": "interval",
+      "tl1.time.start": 187,
+      "tl1.time.end": 472,
+      "tl1.certainty": "uncertain"
+     }
+    },
+    {
+     "id": "EV-05",
+     "values": {
+      "tl1.row": "event",
+      "tl1.label": "解放の条件に署名し、自由を得る",
+      "tl1.time.kind": "range",
+      "tl1.time.start": 187,
+      "tl1.time.end": 472
+     }
+    },
+    {
+     "id": "EV-05.who.CH-01",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-05",
+      "tl1.ind.ch": "CH-01",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
+     "id": "EV-05.who.CH-02",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-05",
+      "tl1.ind.ch": "CH-02",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
+     "id": "EV-05.who.CH-06",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-05",
+      "tl1.ind.ch": "CH-06",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
+     "id": "EV-06",
+     "values": {
+      "tl1.row": "event",
+      "tl1.label": "城壁をまたいでミルデンドウと王宮を見る",
+      "tl1.time.kind": "range",
+      "tl1.time.start": 187,
+      "tl1.time.end": 472
+     }
+    },
+    {
+     "id": "EV-06.who.CH-01",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-06",
+      "tl1.ind.ch": "CH-01",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
+     "id": "EV-07",
+     "values": {
+      "tl1.row": "event",
+      "tl1.label": "レルドレサルが訪ね、二つの党派と卵の戦争を説く",
+      "tl1.time.kind": "range",
+      "tl1.time.start": 187,
+      "tl1.time.end": 472
+     }
+    },
+    {
+     "id": "EV-07.who.CH-01",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-07",
+      "tl1.ind.ch": "CH-01",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
+     "id": "EV-07.who.CH-05",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-07",
+      "tl1.ind.ch": "CH-05",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
+     "id": "EV-10",
+     "values": {
+      "tl1.row": "event",
+      "tl1.label": "ブレフスキュの艦隊を引いて来る",
+      "tl1.time.kind": "range",
+      "tl1.time.start": 187,
+      "tl1.time.end": 472
+     }
+    },
+    {
+     "id": "EV-10.who.CH-01",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-10",
+      "tl1.ind.ch": "CH-01",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
+     "id": "EV-10.who.CH-02",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-10",
+      "tl1.ind.ch": "CH-02",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
+     "id": "EV-11",
+     "values": {
+      "tl1.row": "event",
+      "tl1.label": "ブレフスキュを属州にする命令を断る",
+      "tl1.time.kind": "range",
+      "tl1.time.start": 187,
+      "tl1.time.end": 472
+     }
+    },
+    {
+     "id": "EV-11.who.CH-01",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-11",
+      "tl1.ind.ch": "CH-01",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
+     "id": "EV-11.who.CH-02",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-11",
+      "tl1.ind.ch": "CH-02",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
+     "id": "EV-12",
+     "values": {
+      "tl1.row": "event",
+      "tl1.label": "皇后の居室の火事を消す",
+      "tl1.time.kind": "range",
+      "tl1.time.start": 187,
+      "tl1.time.end": 472
+     }
+    },
+    {
+     "id": "EV-12.who.CH-01",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-12",
+      "tl1.ind.ch": "CH-01",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
+     "id": "EV-12.who.CH-03",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-12",
+      "tl1.ind.ch": "CH-03",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
+     "id": "EV-13",
+     "values": {
+      "tl1.row": "event",
+      "tl1.label": "夜の訪問者が弾劾状を知らせる",
+      "tl1.time.kind": "range",
+      "tl1.time.start": 187,
+      "tl1.time.end": 841
+     }
+    },
+    {
+     "id": "EV-13.who.CH-01",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-13",
+      "tl1.ind.ch": "CH-01",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
+     "id": "EV-13.who.CH-08",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-13",
+      "tl1.ind.ch": "CH-08",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
+     "id": "EV-14",
+     "values": {
+      "tl1.row": "event",
+      "tl1.label": "ブレフスキュへ逃れる",
+      "tl1.time.kind": "range",
+      "tl1.time.start": 472,
+      "tl1.time.end": 841
+     }
+    },
+    {
+     "id": "EV-14.who.CH-01",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-14",
+      "tl1.ind.ch": "CH-01",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
+     "id": "EV-14.who.CH-07",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-14",
+      "tl1.ind.ch": "CH-07",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
+     "id": "EV-14.presence.0",
+     "values": {
+      "tl1.row": "presence",
+      "tl1.subject": "EV-14",
+      "tl1.ind.ch": "CH-01",
+      "tl1.ind.origin": "WL-A",
+      "tl1.loc": "LO-10",
+      "tl1.time.kind": "interval",
+      "tl1.time.start": 841,
+      "tl1.time.end": 874,
+      "tl1.certainty": "uncertain"
+     }
+    },
+    {
+     "id": "EV-15",
+     "values": {
+      "tl1.row": "event",
+      "tl1.label": "流れ着いたボートを見つける（到着の3日後）",
+      "tl1.time.kind": "range",
+      "tl1.time.start": 475,
+      "tl1.time.end": 844
+     }
+    },
+    {
+     "id": "EV-15.who.CH-01",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-15",
+      "tl1.ind.ch": "CH-01",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
+     "id": "EV-16",
+     "values": {
+      "tl1.row": "event",
+      "tl1.label": "ブレフスキュから出帆（1701-09-24）",
+      "tl1.time.kind": "day",
+      "tl1.time.start": 874
+     }
+    },
+    {
+     "id": "EV-16.who.CH-01",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-16",
+      "tl1.ind.ch": "CH-01",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
+     "id": "EV-16.who.CH-07",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-16",
+      "tl1.ind.ch": "CH-07",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
+     "id": "EV-17",
+     "values": {
+      "tl1.row": "event",
+      "tl1.label": "ビドル船長の船に拾われる（1701-09-26）",
+      "tl1.time.kind": "day",
+      "tl1.time.start": 876
+     }
+    },
+    {
+     "id": "EV-17.who.CH-01",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-17",
+      "tl1.ind.ch": "CH-01",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
+     "id": "EV-17.who.CH-09",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-17",
+      "tl1.ind.ch": "CH-09",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
+     "id": "EV-18",
+     "values": {
+      "tl1.row": "event",
+      "tl1.label": "ダウンズに着く（1702-04-13）",
+      "tl1.time.kind": "day",
+      "tl1.time.start": 1075
+     }
+    },
+    {
+     "id": "EV-18.who.CH-01",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-18",
+      "tl1.ind.ch": "CH-01",
+      "tl1.ind.origin": "WL-A"
+     }
+    },
+    {
+     "id": "EV-18.who.CH-10",
+     "values": {
+      "tl1.row": "participant",
+      "tl1.subject": "EV-18",
+      "tl1.ind.ch": "CH-10",
+      "tl1.ind.origin": "WL-A"
+     }
+    }
+   ]
+  }
+ },
+ "versions": [
+  {
+   "artifactId": "gm1-ledger",
+   "versionId": "part1-v1",
+   "parentVersionId": null,
+   "schemaVersion": 1,
+   "createdAt": "2026-11-14T00:00:00.000Z",
+   "createdBy": null,
+   "reason": "ガリヴァー旅行記 第1部の設定（fiction-manga@1.1.0 人物・世界と舞台）",
+   "content": {
+    "schemaVersion": 2,
+    "columns": [
+     {
+      "id": "tl1.row",
+      "name": "行の種類",
+      "type": "select",
+      "options": [
+       "event",
+       "derive-time",
+       "after",
+       "travel-min",
+       "cause",
+       "participant",
+       "knows",
+       "info-use",
+       "claim",
+       "fact",
+       "presence",
+       "exception",
+       "exception-basis"
+      ],
+      "required": true
+     },
+     {
+      "id": "tl1.label",
+      "name": "名前",
+      "type": "text"
+     },
+     {
+      "id": "tl1.subject",
+      "name": "対象の行",
+      "type": "relation"
+     },
+     {
+      "id": "tl1.ref.artifact",
+      "name": "参照先Artifact",
+      "type": "text"
+     },
+     {
+      "id": "tl1.ref.version",
+      "name": "参照先の版",
+      "type": "text"
+     },
+     {
+      "id": "tl1.ref.hash",
+      "name": "参照先のhash",
+      "type": "text"
+     },
+     {
+      "id": "tl1.ref.item",
+      "name": "参照先の項目",
+      "type": "text"
+     },
+     {
+      "id": "tl1.ref.facet",
+      "name": "参照の範囲",
+      "type": "select",
+      "options": [
+       "whole",
+       "existence",
+       "participants",
+       "time",
+       "content",
+       "info",
+       "evaluation"
+      ]
+     },
+     {
+      "id": "tl1.time.kind",
+      "name": "時点の種類",
+      "type": "select",
+      "options": [
+       "unset",
+       "point",
+       "day",
+       "interval",
+       "range",
+       "derived"
+      ]
+     },
+     {
+      "id": "tl1.time.start",
+      "name": "開始日",
+      "type": "number"
+     },
+     {
+      "id": "tl1.time.end",
+      "name": "終了日",
+      "type": "number"
+     },
+     {
+      "id": "tl1.clock",
+      "name": "時計",
+      "type": "text"
+     },
+     {
+      "id": "tl1.offset.min",
+      "name": "最小日数",
+      "type": "number"
+     },
+     {
+      "id": "tl1.offset.max",
+      "name": "最大日数",
+      "type": "number"
+     },
+     {
+      "id": "tl1.anchor",
+      "name": "基準端",
+      "type": "select",
+      "options": [
+       "start",
+       "end"
+      ]
+     },
+     {
+      "id": "tl1.ind.ch",
+      "name": "人物",
+      "type": "text"
+     },
+     {
+      "id": "tl1.ind.origin",
+      "name": "個体の世界",
+      "type": "text"
+     },
+     {
+      "id": "tl1.info",
+      "name": "情報",
+      "type": "text"
+     },
+     {
+      "id": "tl1.mode",
+      "name": "様態",
+      "type": "select",
+      "options": [
+       "observe",
+       "told",
+       "believe",
+       "doubt",
+       "deny",
+       "forget",
+       "assert",
+       "true",
+       "false"
+      ]
+     },
+     {
+      "id": "tl1.complete",
+      "name": "情報源は全部",
+      "type": "boolean"
+     },
+     {
+      "id": "tl1.loc",
+      "name": "場所",
+      "type": "text"
+     },
+     {
+      "id": "tl1.certainty",
+      "name": "確度",
+      "type": "select",
+      "options": [
+       "confirmed",
+       "uncertain"
+      ]
+     },
+     {
+      "id": "tl1.diag",
+      "name": "診断の種類",
+      "type": "select",
+      "options": [
+       "single-event",
+       "disclosure",
+       "presence",
+       "multi-event",
+       "transfer",
+       "external-event"
+      ]
+     },
+     {
+      "id": "tl1.rule",
+      "name": "規則の版",
+      "type": "text"
+     },
+     {
+      "id": "tl1.reason",
+      "name": "理由",
+      "type": "text"
+     },
+     {
+      "id": "tl1.scope",
+      "name": "規則の範囲",
+      "type": "text"
+     },
+     {
+      "id": "tl1.hypothesis",
+      "name": "仮定の識別",
+      "type": "text"
+     }
+    ],
+    "rows": [
+     {
+      "id": "EV-01",
+      "values": {
+       "tl1.row": "event",
+       "tl1.label": "ブリストルから出航（1699-05-04）",
+       "tl1.time.kind": "day",
+       "tl1.time.start": 0
+      }
+     },
+     {
+      "id": "EV-01.who.CH-01",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-01",
+       "tl1.ind.ch": "CH-01",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
+      "id": "EV-01.who.CH-10",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-01",
+       "tl1.ind.ch": "CH-10",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
+      "id": "EV-02",
+      "values": {
+       "tl1.row": "event",
+       "tl1.label": "嵐で難破し、浜へ泳ぎ着く（1699-11-05）",
+       "tl1.time.kind": "day",
+       "tl1.time.start": 185
+      }
+     },
+     {
+      "id": "EV-02.who.CH-01",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-02",
+       "tl1.ind.ch": "CH-01",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
+      "id": "EV-02.presence.0",
+      "values": {
+       "tl1.row": "presence",
+       "tl1.subject": "EV-02",
+       "tl1.ind.ch": "CH-01",
+       "tl1.ind.origin": "WL-A",
+       "tl1.loc": "LO-01",
+       "tl1.time.kind": "interval",
+       "tl1.time.start": 185,
+       "tl1.time.end": 186,
+       "tl1.certainty": "confirmed"
+      }
+     },
+     {
+      "id": "EV-03",
+      "values": {
+       "tl1.row": "event",
+       "tl1.label": "縛られて目覚め、小人たちに会う",
+       "tl1.time.kind": "day",
+       "tl1.time.start": 186
+      }
+     },
+     {
+      "id": "EV-03.who.CH-01",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-03",
+       "tl1.ind.ch": "CH-01",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
+      "id": "EV-03.presence.0",
+      "values": {
+       "tl1.row": "presence",
+       "tl1.subject": "EV-03",
+       "tl1.ind.ch": "CH-01",
+       "tl1.ind.origin": "WL-A",
+       "tl1.loc": "LO-02",
+       "tl1.time.kind": "interval",
+       "tl1.time.start": 186,
+       "tl1.time.end": 187,
+       "tl1.certainty": "uncertain"
+      }
+     },
+     {
+      "id": "EV-04",
+      "values": {
+       "tl1.row": "event",
+       "tl1.label": "運搬機で古い神殿へ運ばれ、鎖につながれる",
+       "tl1.time.kind": "day",
+       "tl1.time.start": 187
+      }
+     },
+     {
+      "id": "EV-04.who.CH-01",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-04",
+       "tl1.ind.ch": "CH-01",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
+      "id": "EV-04.who.CH-02",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-04",
+       "tl1.ind.ch": "CH-02",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
+      "id": "EV-04.presence.0",
+      "values": {
+       "tl1.row": "presence",
+       "tl1.subject": "EV-04",
+       "tl1.ind.ch": "CH-01",
+       "tl1.ind.origin": "WL-A",
+       "tl1.loc": "LO-03",
+       "tl1.time.kind": "interval",
+       "tl1.time.start": 187,
+       "tl1.time.end": 472,
+       "tl1.certainty": "uncertain"
+      }
+     },
+     {
+      "id": "EV-05",
+      "values": {
+       "tl1.row": "event",
+       "tl1.label": "解放の条件に署名し、自由を得る",
+       "tl1.time.kind": "range",
+       "tl1.time.start": 187,
+       "tl1.time.end": 472
+      }
+     },
+     {
+      "id": "EV-05.who.CH-01",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-05",
+       "tl1.ind.ch": "CH-01",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
+      "id": "EV-05.who.CH-02",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-05",
+       "tl1.ind.ch": "CH-02",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
+      "id": "EV-05.who.CH-06",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-05",
+       "tl1.ind.ch": "CH-06",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
+      "id": "EV-06",
+      "values": {
+       "tl1.row": "event",
+       "tl1.label": "城壁をまたいでミルデンドウと王宮を見る",
+       "tl1.time.kind": "range",
+       "tl1.time.start": 187,
+       "tl1.time.end": 472
+      }
+     },
+     {
+      "id": "EV-06.who.CH-01",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-06",
+       "tl1.ind.ch": "CH-01",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
+      "id": "EV-07",
+      "values": {
+       "tl1.row": "event",
+       "tl1.label": "レルドレサルが訪ね、二つの党派と卵の戦争を説く",
+       "tl1.time.kind": "range",
+       "tl1.time.start": 187,
+       "tl1.time.end": 472
+      }
+     },
+     {
+      "id": "EV-07.who.CH-01",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-07",
+       "tl1.ind.ch": "CH-01",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
+      "id": "EV-07.who.CH-05",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-07",
+       "tl1.ind.ch": "CH-05",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
+      "id": "EV-10",
+      "values": {
+       "tl1.row": "event",
+       "tl1.label": "ブレフスキュの艦隊を引いて来る",
+       "tl1.time.kind": "range",
+       "tl1.time.start": 187,
+       "tl1.time.end": 472
+      }
+     },
+     {
+      "id": "EV-10.who.CH-01",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-10",
+       "tl1.ind.ch": "CH-01",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
+      "id": "EV-10.who.CH-02",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-10",
+       "tl1.ind.ch": "CH-02",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
+      "id": "EV-11",
+      "values": {
+       "tl1.row": "event",
+       "tl1.label": "ブレフスキュを属州にする命令を断る",
+       "tl1.time.kind": "range",
+       "tl1.time.start": 187,
+       "tl1.time.end": 472
+      }
+     },
+     {
+      "id": "EV-11.who.CH-01",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-11",
+       "tl1.ind.ch": "CH-01",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
+      "id": "EV-11.who.CH-02",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-11",
+       "tl1.ind.ch": "CH-02",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
+      "id": "EV-12",
+      "values": {
+       "tl1.row": "event",
+       "tl1.label": "皇后の居室の火事を消す",
+       "tl1.time.kind": "range",
+       "tl1.time.start": 187,
+       "tl1.time.end": 472
+      }
+     },
+     {
+      "id": "EV-12.who.CH-01",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-12",
+       "tl1.ind.ch": "CH-01",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
+      "id": "EV-12.who.CH-03",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-12",
+       "tl1.ind.ch": "CH-03",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
+      "id": "EV-13",
+      "values": {
+       "tl1.row": "event",
+       "tl1.label": "夜の訪問者が弾劾状を知らせる",
+       "tl1.time.kind": "range",
+       "tl1.time.start": 187,
+       "tl1.time.end": 841
+      }
+     },
+     {
+      "id": "EV-13.who.CH-01",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-13",
+       "tl1.ind.ch": "CH-01",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
+      "id": "EV-13.who.CH-08",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-13",
+       "tl1.ind.ch": "CH-08",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
+      "id": "EV-14",
+      "values": {
+       "tl1.row": "event",
+       "tl1.label": "ブレフスキュへ逃れる",
+       "tl1.time.kind": "range",
+       "tl1.time.start": 472,
+       "tl1.time.end": 841
+      }
+     },
+     {
+      "id": "EV-14.who.CH-01",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-14",
+       "tl1.ind.ch": "CH-01",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
+      "id": "EV-14.who.CH-07",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-14",
+       "tl1.ind.ch": "CH-07",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
+      "id": "EV-14.presence.0",
+      "values": {
+       "tl1.row": "presence",
+       "tl1.subject": "EV-14",
+       "tl1.ind.ch": "CH-01",
+       "tl1.ind.origin": "WL-A",
+       "tl1.loc": "LO-10",
+       "tl1.time.kind": "interval",
+       "tl1.time.start": 841,
+       "tl1.time.end": 874,
+       "tl1.certainty": "uncertain"
+      }
+     },
+     {
+      "id": "EV-15",
+      "values": {
+       "tl1.row": "event",
+       "tl1.label": "流れ着いたボートを見つける（到着の3日後）",
+       "tl1.time.kind": "range",
+       "tl1.time.start": 475,
+       "tl1.time.end": 844
+      }
+     },
+     {
+      "id": "EV-15.who.CH-01",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-15",
+       "tl1.ind.ch": "CH-01",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
+      "id": "EV-16",
+      "values": {
+       "tl1.row": "event",
+       "tl1.label": "ブレフスキュから出帆（1701-09-24）",
+       "tl1.time.kind": "day",
+       "tl1.time.start": 874
+      }
+     },
+     {
+      "id": "EV-16.who.CH-01",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-16",
+       "tl1.ind.ch": "CH-01",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
+      "id": "EV-16.who.CH-07",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-16",
+       "tl1.ind.ch": "CH-07",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
+      "id": "EV-17",
+      "values": {
+       "tl1.row": "event",
+       "tl1.label": "ビドル船長の船に拾われる（1701-09-26）",
+       "tl1.time.kind": "day",
+       "tl1.time.start": 876
+      }
+     },
+     {
+      "id": "EV-17.who.CH-01",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-17",
+       "tl1.ind.ch": "CH-01",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
+      "id": "EV-17.who.CH-09",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-17",
+       "tl1.ind.ch": "CH-09",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
+      "id": "EV-18",
+      "values": {
+       "tl1.row": "event",
+       "tl1.label": "ダウンズに着く（1702-04-13）",
+       "tl1.time.kind": "day",
+       "tl1.time.start": 1075
+      }
+     },
+     {
+      "id": "EV-18.who.CH-01",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-18",
+       "tl1.ind.ch": "CH-01",
+       "tl1.ind.origin": "WL-A"
+      }
+     },
+     {
+      "id": "EV-18.who.CH-10",
+      "values": {
+       "tl1.row": "participant",
+       "tl1.subject": "EV-18",
+       "tl1.ind.ch": "CH-10",
+       "tl1.ind.origin": "WL-A"
+      }
+     }
+    ]
+   },
+   "contentHash": "a9463f53e267d6985541db9664857fc0ced6154ff3aecdb29cc4dbbac129e590"
+  }
+ ]
+}
