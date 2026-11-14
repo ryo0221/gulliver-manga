@@ -1,0 +1,20 @@
+{
+  "item": "ch01-gulliver-side",
+  "generated_at": "2026-11-14",
+  "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool image_gen.imagegen, ChatGPT sign-in",
+  "codex_model": "gpt-6.1-sol",
+  "image_model": "not exposed by the Codex image tool",
+  "prompt": "Use your image generation tool, with the attached image as the reference to edit/trace (keep its composition).\nMake ONE image: full colour manga setting art (character/setting sheet), clean even thin black main line, flat cel colours (no gradients, no painterly texture, minimal shading).\nEarly-18th-century English clothes and ships. No likeness to any film, game or existing illustration.\nKeep the reference's proportions, pose, camera angle and framing exactly; same position and size in the frame. Landscape orientation 1536x1024.\nIgnore and do not draw the orange bone lines and dots in the reference, and do not draw the grey floor grid.\nBackground must be pure flat white (#FFFFFF) everywhere outside the figure: no floor, no grid, no shadow.\nNo text, no speech balloons, no signature, no watermark.\nSubject: Lemuel Gulliver, ship's surgeon, 1,750 mm tall, about 30. Blue coat, tan breeches, white stockings, black shoes, short brown hair tied back, clean-shaven, tired but curious face. Side view.\nAfter generating, copy the generated PNG to ./raw.png in the current directory. Do not generate more than one image.\n",
+  "inputs": [
+    "gulliver-manga/part1/underlay/ch01-gulliver-side.png"
+  ],
+  "raw_output": "ch01-gulliver-side-raw.png",
+  "post_processing": "_tools/split.py: figure scaled/positioned to the underlay figure box, white background flood-filled to transparent; line layer = thin dark strokes (morphological close minus luminance), fill layer = image with strokes inpainted. Composite = un-split image at underlay size.",
+  "outputs": [
+    "ch01-gulliver-side-LY-05.png",
+    "ch01-gulliver-side-LY-07.png",
+    "ch01-gulliver-side-composite.png",
+    "ch01-gulliver-side-raw.png"
+  ],
+  "status": "proposal - author (Ryo) accepts or rejects"
+}
