@@ -27,6 +27,9 @@ test('gulliver part 1 script follows the composition and every line cites a spea
     // AR-05: the first scene of each episode opens with a wide shot showing both sizes.
     expect(ep.scenes[0].lines[0].k).toBe('T');
     expect(ep.scenes[0].lines[0].text).toMatch(/1ページ目、引きのコマ/);
+    // ... and that shot names both size groups: Gulliver and the little people.
+    expect(ep.scenes[0].lines[0].text, `第${ep.n}話`).toMatch(/ガリヴァー/);
+    expect(ep.scenes[0].lines[0].text, `第${ep.n}話`).toMatch(/小人/);
     for (const s of ep.scenes) {
       expect(s.lines.length, s.scene).toBeGreaterThan(0);
       for (const l of s.lines) {
