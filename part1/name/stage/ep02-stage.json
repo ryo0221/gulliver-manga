@@ -14,15 +14,15 @@
     {
      "name": "F106 古い神殿",
      "kind": "bim",
-     "artifactId": "artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca",
-     "versionId": "version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23",
+     "artifactId": "artifact_cfb3001e-213f-41bc-8ffa-fcc35aa063e3",
+     "versionId": "version_940d6c2f-efec-496c-91db-0ac9dd59b7af",
      "contentHash": "d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384"
     },
     {
      "name": "舞台 court",
      "kind": "cad",
-     "artifactId": "artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93",
-     "versionId": "version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb",
+     "artifactId": "artifact_c12ec5e5-c8bd-443c-b583-58a135baa027",
+     "versionId": "version_c1883caa-ba41-4625-bda6-62b5a73a4a29",
      "contentHash": "8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24"
     }
    ],
@@ -128,8 +128,8 @@
     {
      "name": "舞台 council",
      "kind": "cad",
-     "artifactId": "artifact_519b999d-13f7-4edf-9cdf-f49a17b9ad17",
-     "versionId": "version_d439069e-e47e-42cb-b0cf-4b2cf363e461",
+     "artifactId": "artifact_c8b6cce4-ca44-4840-b6c9-c02bc5565de9",
+     "versionId": "version_266b276c-0139-4bc4-9a42-147e92a3b778",
      "contentHash": "a79190853dd888558b96cbb2b6229f376f22288f3e3e026bf14c1cd903bee027"
     }
    ],
@@ -266,15 +266,15 @@
     {
      "name": "F105 都ミルデンドウ",
      "kind": "bim",
-     "artifactId": "artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2",
-     "versionId": "version_04a87c01-d656-442f-9a33-07222af8db50",
+     "artifactId": "artifact_a5858ede-e8c3-4aef-b4fb-ded196f5db65",
+     "versionId": "version_76b7456d-b97a-48df-88c9-03bcc06ffc13",
      "contentHash": "63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1"
     },
     {
      "name": "舞台 city",
      "kind": "cad",
-     "artifactId": "artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7",
-     "versionId": "version_674a76e1-8f13-4fcc-936e-48cd19e95acf",
+     "artifactId": "artifact_960a5146-896b-46db-a237-93ae3b74b2fe",
+     "versionId": "version_a2735e9e-b94b-4b5a-a5ba-bf7bc7071abc",
      "contentHash": "b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025"
     }
    ],
@@ -566,8 +566,8 @@
    ],
    "look": [
     0,
-    1600,
-    330
+    700,
+    560
    ],
    "stand": null,
    "hfovDeg": 56.9,
@@ -1518,7 +1518,7 @@
    "look": [
     -450,
     0,
-    120
+    320
    ],
    "stand": null,
    "hfovDeg": 43.9,
@@ -2382,7 +2382,7 @@
     136
    ],
    "look": [
-    -200,
+    -170,
     1600,
     120
    ],
@@ -2435,7 +2435,7 @@
    ],
    "look": [
     -200,
-    1600,
+    1560,
     120
    ],
    "stand": null,
@@ -2860,13 +2860,13 @@
    "set": "city",
    "cam": [
     -76200,
-    1520,
+    2300,
     898
    ],
    "look": [
-    -79500,
-    0,
-    1000
+    -76600,
+    300,
+    1090
    ],
    "stand": "city-wall",
    "hfovDeg": 56.9,
@@ -2878,8 +2878,8 @@
      "name": "ガリヴァー",
      "fig": "gulliver",
      "at": [
-      -79500,
-      0,
+      -77000,
+      300,
       0
      ],
      "facingDeg": -90.0,
@@ -2893,7 +2893,7 @@
      "fig": "w1",
      "at": [
       -76200,
-      1750,
+      1500,
       762
      ],
      "facingDeg": 90.0,
@@ -3172,14 +3172,14 @@
    "panel": "e02-p15-k1",
    "set": "city",
    "cam": [
-    -762,
-    -700,
+    -150,
+    -150,
     386
    ],
    "look": [
     -762,
     -1524,
-    530
+    204
    ],
    "stand": "dais",
    "hfovDeg": 42.4,

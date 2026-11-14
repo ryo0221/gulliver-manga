@@ -3,7 +3,7 @@
 # usage: run-rough.sh BRIEFS_ROOT [panel ...]
 R=$(realpath "$1"); shift
 HERE=$(cd "$(dirname "$0")" && pwd)
-if [ $# -gt 0 ]; then list=("$@"); else list=(); for d in "$R"/e01-*/; do p=$(basename "$d"); [ -s "$d/raw.png" ] || list+=("$p"); done; fi
+if [ $# -gt 0 ]; then list=("$@"); else list=(); for d in "$R"/e0*-*/; do p=$(basename "$d"); [ -s "$d/raw.png" ] || list+=("$p"); done; fi
 fail=0; running=0
 for p in "${list[@]}"; do
   ( bash "$HERE/gen-rough.sh" "$R/$p" > "$R/$p/run.out" 2>&1; rc=$?; echo "$p exit $rc"; exit $rc ) &

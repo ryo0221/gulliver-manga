@@ -26,6 +26,9 @@ REFS = {
     'CH-30': ('part1/codex/lilliputian-front/lilliputian-front-raw.png', 'the approved design of a Lilliputian (CH-30, the tiny people)'),
     'EX-L': ('part1/codex/lilliputian-front/lilliputian-front-raw.png', 'the approved design of a Lilliputian (tiny people)'),
     'CH-02': ('part1/codex/ch02-emperor/ch02-emperor-raw.png', 'the approved design of the Emperor of Lilliput (CH-02)'),
+    'CH-03': ('part1/codex/ch03-empress/ch03-empress-raw.png', 'the approved design of the Empress of Lilliput (CH-03)'),
+    'CH-04': ('part1/codex/ch04-flimnap/ch04-flimnap-raw.png', 'the approved design of Flimnap, the Treasurer (CH-04)'),
+    'CH-06': ('part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png', 'the approved design of Skyresh Bolgolam, the High Admiral (CH-06)'),
     'LO-03': ('part1/codex/lo03-temple/lo03-temple-raw.png', 'the approved setting art of the old temple (LO-03), where Gulliver is chained'),
     'LO-04': ('part1/codex/lo04-mildendo/lo04-mildendo-raw.png', 'the approved setting art of the capital Mildendo (LO-04)'),
 }
@@ -35,17 +38,31 @@ POSE = {
     'lie-look': 'lying on his back, eyes looking down along his body', 'lie-arm-free': 'lying on his back, left arm pulled free and raised',
     'lie-eat': 'lying on his back, left hand bringing food to his mouth', 'lie-drink': 'lying on his back, tipping a tiny barrel into his mouth with the left hand',
     'lie-hand-hover': 'lying on his back, left hand hovering above his chest', 'swim': 'swimming', 'tread': 'treading water, head above water',
-    'sit': 'sitting', 'archer': 'drawing a bow', 'sword-up': 'raising a sword', 'point': 'pointing', 'orate': 'giving a speech with one arm out',
+    'sit': 'sitting', 'sit-palm': 'sitting on the ground, one open palm held out low with tiny people performing on it',
+    'sit-reach': 'sitting on the ground, reaching out a hand', 'sit-look-down': 'sitting on the ground, looking down at the tiny people',
+    'prone-look': 'lying face down, propped on his elbows, head raised, looking ahead', 'oath': 'standing on his left foot, holding his right foot in his left hand, the middle finger of his right hand on the crown of his head and the thumb on the tip of his right ear (the Lilliputian oath)',
+    'step-over': 'stepping over with one long stride', 'jump': 'leaping high', 'hold-stick': 'holding a stick level in both hands',
+    'arms-crossed': 'standing with arms crossed, sullen', 'read': 'reading aloud from a long parchment', 'archer': 'drawing a bow', 'sword-up': 'raising a sword', 'point': 'pointing', 'orate': 'giving a speech with one arm out',
     'fall': 'tumbling and falling', 'dance': 'dancing / hopping', 'carry-up': 'lifting a basket', 'crouch': 'crouching',
 }
 WHO = {
     'CH-01': 'Gulliver (CH-01): 1,750 mm, plain blue coat with brass buttons and NO gold trim, tan breeches, white stockings, black shoes, brown hair tied back',
     'CH-10': 'Mary, Gulliver\'s wife (CH-10): plain dark early-18th-century house dress, white apron and cap, practical',
     'CH-30': 'a Lilliputian (CH-30): 146 mm tall, 1/12 of Gulliver',
-    'CH-02': 'the Emperor of Lilliput (CH-02)',
+    'CH-02': 'the Emperor of Lilliput (CH-02): a Lilliputian, taller than his courtiers by about the breadth of Gulliver\'s fingernail',
+    'CH-03': 'the Empress of Lilliput (CH-03): a Lilliputian, 1/12 of Gulliver',
+    'CH-04': 'Flimnap, the Treasurer (CH-04): a lean, tall Lilliputian, 1/12 of Gulliver',
+    'CH-06': 'Skyresh Bolgolam, the High Admiral (CH-06): a stout, sour-faced Lilliputian, 1/12 of Gulliver',
     'EX': 'an extra',
     'horse': 'a young horse',
 }
+
+EPISODE_NOTES = os.path.join(os.path.dirname(__file__), 'episode-notes.py')
+_notes = {}
+if os.path.exists(EPISODE_NOTES): exec(open(EPISODE_NOTES).read(), _notes)
+def episode_notes(pid, v, p):
+    f = _notes.get('notes')
+    return f(pid, v, p) if f else []
 
 def sub(a, b): return [a[i] - b[i] for i in range(3)]
 def dot(a, b): return sum(a[i] * b[i] for i in range(3))
@@ -81,16 +98,24 @@ for p in stage['panels']:
     for g in p['figures']:
         fac = math.radians(g['facingDeg']); fwd = [-math.sin(fac), math.cos(fac), 0]
         h = g['heightMm']; at = g['at']
-        if g['pose'].startswith('lie'):
+        if g['pose'].startswith('prone'):
+            # Face down: `at` is the feet and the body lies along the facing, head raised on the elbows.
+            head = [at[0] + fwd[0]*h*0.9, at[1] + fwd[1]*h*0.9, at[2] + h*0.2]
+            sh, sf = project(head, cam, f, r, u, th, tv), project(at, cam, f, r, u, th, tv)
+            orient = f'head at {where(sh)}, feet at {where(sf)}'
+            seen = orient
+        elif g['pose'].startswith('lie'):
             head = [at[0] - fwd[0]*h*0.5, at[1] - fwd[1]*h*0.5, at[2] + h*0.1]
             feet = [at[0] + fwd[0]*h*0.5, at[1] + fwd[1]*h*0.5, at[2] + h*0.05]
             sh, sf = project(head, cam, f, r, u, th, tv), project(feet, cam, f, r, u, th, tv)
             orient = f'head at {where(sh)}, feet at {where(sf)}'
             seen = orient
         else:
-            head = [at[0], at[1], at[2] + h*0.93]
+            # A seated figure's head is about half the standing height (第2話から：座るガリヴァーの頭を正しく写す).
+            hz, bz = (0.52, 0.3) if g['pose'].startswith('sit') and pid >= 'e02' else (0.93, 0.55)
+            head = [at[0], at[1], at[2] + h*hz]
             sh = project(head, cam, f, r, u, th, tv)
-            sb, sl = project([at[0], at[1], at[2] + h*0.55], cam, f, r, u, th, tv), project(at, cam, f, r, u, th, tv)
+            sb, sl = project([at[0], at[1], at[2] + h*bz], cam, f, r, u, th, tv), project(at, cam, f, r, u, th, tv)
             if g['ch'] == 'horse':
                 # A horse's head is forward of its body: try the neck, the head and the muzzle.
                 for k, zk in ((0.45, 1.0), (0.65, 1.05), (0.8, 0.85)):
@@ -122,8 +147,8 @@ for p in stage['panels']:
         figs.append(f"- {g['fg']} {g['name']} — {who}; {POSE.get(g['pose'], g['pose'])}; {orient}; {round(dist)} mm from the camera.")
         key = 'EX-L' if g['ch'] == 'EX' and lilli else g['ch']
         if key in REFS and REFS[key] not in refs: refs.append(REFS[key])
-    if p['set'] == 'temple': refs.append(REFS['LO-03'])
-    if '都' in v['nm.art'] or '城壁' in v['nm.stand']: refs.append(REFS['LO-04'])
+    if p['set'] in ('temple', 'court'): refs.append(REFS['LO-03'])
+    if p['set'] == 'city' or '都' in v['nm.art'] or '城壁' in v['nm.stand']: refs.append(REFS['LO-04'])
     W, H = Image.open(f"{ul_dir}/{pid}.jpg").size
     cw, ch = canvas(W, H)
     s = min(cw / W, ch / H); pw, ph = round(W * s), round(H * s); ox, oy = (cw - pw) // 2, (ch - ph) // 2
@@ -142,6 +167,8 @@ Figures, placed by the 3D layout (keep these places, facings and poses; draw eac
 {chr(10).join(figs) if figs else '- no figures'}
 The FIRST image is the 3D layout render from this camera: figures there are blocky stand-ins, ground/sea/walls are flat placeholders.{noframe}"""
     if pid in REVISED_NOTE: brief += '\n' + REVISED_NOTE[pid]
+    # 第1話の学び（LN-e01-02 大きさの比べ、LN-e01-03 背景、LN-e01-04 続く状態）を、話ごとの覚え書きから足す。
+    for line in episode_notes(pid, v, p): brief += '\n' + line
     if p.get('noModel'):
         brief += f"\nThis place has only a placeholder 3D model: {p['noModel']}"
     open(f'{out}/{pid}/brief.txt', 'w').write(brief)

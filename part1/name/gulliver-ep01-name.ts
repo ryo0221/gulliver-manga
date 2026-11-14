@@ -803,7 +803,7 @@ export function avoidFigures(panel: DesignElement, placed: Placed[], occ: Occupa
             hy = b.y + h.y * b.height;
           return hx >= r.x && hx <= r.x + r.width && hy >= r.y && hy <= r.y + r.height;
         }).length;
-        const c = cost(r) + onHead * 50 + (y - top) * 0.004 + Math.abs(x - q.outline.x) * 0.001;
+        const c = cost(r) + onHead * 1000 + (y - top) * 0.004 + Math.abs(x - q.outline.x) * 0.001;
         if (!best || c < best.c) best = { x, y, c };
       }
     if (!best) {

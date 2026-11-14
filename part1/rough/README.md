@@ -61,3 +61,50 @@ node gm-rough-screens.tmp.mjs /tmp/rough/rough-editor.json /tmp/rough/screens   
 ```
 
 `pages/` は確定版を `captureDesignPages`（vector）で書き出した SVG を PNG にしたものと manifest です（SVG はラフ絵を含んで大きいので commit していません）。Design 原稿は、Playground の読み込みの上限（16 MB）に収まるよう、ラフ絵を長い辺 900 px にしています。
+
+# 第2話「綱渡りの宮廷」ラフ
+
+工程定義 `fiction-manga@1.3.0` の「ラフ」です。ネーム `gm1-ep02-name@name-ep02-v1` と同じ16ページ・48コマに、第1話と同じ方法（3D の舞台のカメラの絵＋採用した設定画を Codex に渡す）でラフ絵を描きました。成果物は `artifacts/gm1-ep02-rough`（Design）、`gm1-ep02-rough-pages`（ページ表）、`gm1-ep02-rough-figures`（人物の絵の表）、記録は `ep02-rough.json`、ページの絵は `ep02/pages/` です。AI の提案で、採否と直しは作者です。
+
+## 第1話の学びの入れ方
+
+- `src/episode-notes.py` に、第2話の覚え書きを置きました（`rough-briefs.py` が読み、第1話のコマには何も足しません）。
+  - LN-e01-04 続く状態：鎖は左足首だけ（1-1〜9-3）、10-1 で外れ、10-2 から無し。都（SC-008）では上着を脱いで短い胴着だけ（原文 "in my short waistcoat"）。
+  - LN-e01-02 大きさの比べ：小人の全身はガリヴァーの手の長さほど、頭は目より小さい。糸（12インチ）は脛まで。城壁と3階建ての屋根は太ももの半ば。窓（4×6インチ）は目と眉ほど。皇后の手は爪ほど。
+  - LN-e01-03 背景：寄りのコマにも、地面・空・壁・部屋のどれかを描く。
+  - 作者の決まり：枠に入る顔は切らない。
+  - 15〜16ページ：3D の窓のガラスは不透明なので、窓の外のガリヴァーの目と口を描くよう書きました。
+- LN-e01-01 主役が枠に入っているか：`briefs.json` の人物ごとの「枠の中か」を見て、主役が外れていた 11-2（城壁の見張り）と 15-1（王子たちと皇后）は、ネームの舞台のカメラを直してから描きました。
+- LN-e01-08：扉（1-1）を先に作者に見せました。
+- `rough-briefs.py` は、座る人物の頭の高さを立った高さで計算していました（第2話から、座る人物は身長の 0.52 で計算）。1〜10ページの最初の説明では、座るガリヴァーの頭を「枠で切れる」と書いていましたが、Codex は 3D の絵に従って顔を描きました。2-1 だけは頭の無い人に見えたので描き直しました。
+
+## 描き直したコマ（作者に見せる前）
+
+`ep02-rough.json` の `retake` に、理由と1回目の生の出力の sha256 を残しました。
+
+| コマ | 理由 | 直し方 |
+| --- | --- | --- |
+| 2-1 | ガリヴァーの首から下だけが写り、頭の無い人に見えた | ネームの舞台のカメラを上に向けて顔を枠に入れた |
+| 6-2・8-2・8-3 | ラフ原稿で、吹き出しが顔に掛かった（顔が枠の真ん中で、吹き出しの余白が無い） | カメラを振って吹き出しの余白を空けた |
+| 15-3 | 説明の覚え書きを「外から見る」と書き間違えた | 覚え書きを直した |
+| 16-1 | ガリヴァーが部屋の中に入っていた | 「建物の外、窓に口と鼻だけ」を足した |
+
+吹き出しを顔に掛けない置き方（`../name/gulliver-ep01-name.ts` の `avoidFigures`）は、頭に掛かる位置の重みを 50 から 1000 にしました。第1話のラフの資料は変わりません（同じ JSON になることを確かめました）。
+
+## 作者に見てほしいところ
+
+- 12-2：ネームの覚え書きは「上着の裾を押さえ」ですが、原作に合わせて上着を脱いだ胴着で描きました。
+- 6-2：吹き出しの余白を空けるため、皇帝と大臣たちの顔が枠の下のほうにあります。
+- 14-2：高さ5フィートの腰掛けが、脚立のような形になっています。
+
+## 作り直し方
+
+```sh
+python3 part1/rough/src/rough-briefs.py part1/name/artifacts/gm1-ep02-name-panels.artifact.json part1/name/stage/ep02-stage.json part1/name/stage/underlay $W
+PAR=5 bash part1/rough/src/run-rough.sh $W            # 48コマで約40分
+EPISODE=2 python3 part1/rough/src/rough-assets.py $W $(git rev-parse HEAD) part1/rough
+cp part1/editor/gulliver-part1.ts story/editor/gulliver-story.ts part1/script/gulliver-part1-script.ts part1/name/gulliver-ep0[12]-name.ts part1/rough/*.ts $SB/
+cp -r part1/name/stage $SB/gulliver-ep02-stage; mkdir $SB/gulliver-ep02-rough; cp -r part1/rough/ep02-rough.json part1/rough/panels part1/rough/prompts $SB/gulliver-ep02-rough/
+GM_OUT=/tmp/rough2 npx vitest run apps/artifact-host/src/creative/story-board/gulliver-ep02-rough.build.test.ts
+node gm-svg2png.tmp.mjs /tmp/rough2/pages /tmp/rough2/png
+```

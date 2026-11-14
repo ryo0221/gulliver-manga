@@ -211,7 +211,7 @@ const SETS: SetDef[] = [
     shots: [
       { panel: 'e02-p01-k1', cam: [1500, 2700, 136], look: [120, 950, 720], places: [sit('sit-palm'), onPalm('d1', -30, -10), onPalm('d2', 25, 15, 'jump'), onPalm('d3', 0, 40, 'wave-hat'), EMP_SEAT], crowds: ['court'] },
       { panel: 'e02-p01-k2', cam: [3600, 4300, 136], look: [0, 1200, 500], places: [sit('sit-palm'), onPalm('d1', -30, -10), onPalm('d2', 25, 15, 'jump'), EMP_SEAT], crowds: ['court', 'mob'] },
-      { panel: 'e02-p02-k1', cam: [-120, 2350, 136], look: [0, ROPE_Y, 330], places: [sit('sit-look-down'), onRope('d1', -150), onRope('d2', 120, 'jump', ROPE_Z + 60), EMP_SEAT], crowds: ['court'] },
+      { panel: 'e02-p02-k1', cam: [-120, 2350, 136], look: [0, 700, 560], places: [sit('sit-look-down'), onRope('d1', -150), onRope('d2', 120, 'jump', ROPE_Z + 60), EMP_SEAT], crowds: ['court'] },
       { panel: 'e02-p02-k2', cam: [1350, ROPE_Y + 120, 136], look: [0, 1200, 450], places: [sit('sit-look-down'), onRope('d1', -150), onRope('d2', 120, 'jump', ROPE_Z + 60), EMP_SEAT], crowds: ['court'] },
       { panel: 'e02-p02-k3', cam: [-80, ROPE_Y + 160, 300], look: [-20, ROPE_Y, ROPE_Z], places: [onRope('d1', -20)] },
       { panel: 'e02-p02-k4', cam: [0, 880, 950], look: [0, ROPE_Y, ROPE_Z], places: [onRope('d1', -150), onRope('d2', 120, 'jump', ROPE_Z + 60), EMP_SEAT], crowds: ['court'] },
@@ -228,8 +228,8 @@ const SETS: SetDef[] = [
       // SC-007 at the temple: Bolgolam reads the articles; the oath; the chain comes off.
       { panel: 'e02-p07-k4', cam: [2250, 2700, 136], look: [0, 1200, 500], places: [sit('sit-look-down'), { fig: 'bolgolam', at: [-200, ROPE_Y, 0], facing: Math.PI, pose: 'read' }, { fig: 'b1', at: [-50, 1750, 0], facing: Math.PI, pose: 'stand' }, { fig: 'b2', at: [-350, 1760, 0], facing: Math.PI, pose: 'stand' }], crowds: ['court'] },
       { panel: 'e02-p08-k1', cam: [-600, 2500, 136], look: [-120, 900, 380], places: [sit('sit-look-down'), { fig: 'bolgolam', at: [-200, ROPE_Y, 0], facing: Math.PI, pose: 'read' }] },
-      { panel: 'e02-p08-k2', cam: [-200, 1430, 136], look: [-200, ROPE_Y, 120], places: [sit('sit-look-down'), { fig: 'bolgolam', at: [-200, ROPE_Y, 0], facing: Math.PI, pose: 'read' }] },
-      { panel: 'e02-p08-k3', cam: [-470, 1580, 136], look: [-200, ROPE_Y, 120], places: [{ fig: 'bolgolam', at: [-200, ROPE_Y, 0], facing: Math.PI, pose: 'read' }, { fig: 'b1', at: [-50, 1750, 0], facing: Math.PI, pose: 'stand' }] },
+      { panel: 'e02-p08-k2', cam: [-200, 1430, 136], look: [-170, ROPE_Y, 120], places: [sit('sit-look-down'), { fig: 'bolgolam', at: [-200, ROPE_Y, 0], facing: Math.PI, pose: 'read' }] },
+      { panel: 'e02-p08-k3', cam: [-470, 1580, 136], look: [-200, ROPE_Y - 40, 120], places: [{ fig: 'bolgolam', at: [-200, ROPE_Y, 0], facing: Math.PI, pose: 'read' }, { fig: 'b1', at: [-50, 1750, 0], facing: Math.PI, pose: 'stand' }] },
       { panel: 'e02-p08-k4', cam: [0, 880, 950], look: [-200, ROPE_Y, 80], places: [{ fig: 'bolgolam', at: [-200, ROPE_Y, 0], facing: Math.PI, pose: 'read' }, { fig: 'b1', at: [-50, 1750, 0], facing: Math.PI, pose: 'stand' }, { fig: 'b2', at: [-350, 1760, 0], facing: Math.PI, pose: 'stand' }] },
       { panel: 'e02-p09-k1', cam: [700, 4000, 136], look: [0, 900, 950], places: [{ fig: 'gulliver', at: STAND_OATH, facing: 0, pose: 'oath' }, { fig: 'bolgolam', at: [-200, 1900, 0], facing: Math.PI, pose: 'stand' }], crowds: ['court'] },
       { panel: 'e02-p09-k2', cam: [160, 1350, 136], look: [0, 900, 1500], places: [{ fig: 'gulliver', at: STAND_OATH, facing: 0, pose: 'oath' }] },
@@ -282,7 +282,7 @@ const SETS: SetDef[] = [
     ],
     shots: [
       { panel: 'e02-p11-k1', cam: [-97700, 0, 3136], look: [-80500, 0, 700], stand: 'hill', places: [{ fig: 'gulliver', at: [-80500, 0, 0], facing: -Math.PI / 2, pose: 'stand' }] },
-      { panel: 'e02-p11-k2', cam: [WALL_X, 1520, 898], look: [-79500, 0, 1000], stand: 'city-wall', places: [{ fig: 'gulliver', at: [-79500, 0, 0], facing: -Math.PI / 2, pose: 'walk' }, { fig: 'w1', at: [WALL_X, 1750, 762], facing: Math.PI / 2, pose: 'point' }] },
+      { panel: 'e02-p11-k2', cam: [WALL_X, 2300, 898], look: [-76600, 300, 1090], stand: 'city-wall', places: [{ fig: 'gulliver', at: [-77000, 300, 0], facing: -Math.PI / 2, pose: 'walk' }, { fig: 'w1', at: [WALL_X, 1500, 762], facing: Math.PI / 2, pose: 'point' }] },
       { panel: 'e02-p12-k1', cam: [-59000, 600, 136], look: [-62500, 0, 120], places: [{ fig: 'gulliver', at: [-63500, 0, 0], facing: 0, pose: 'walk' }], crowds: ['street'] },
       { panel: 'e02-p12-k2', cam: [-54500, 0, 136], look: [-62000, 0, 900], places: [{ fig: 'gulliver', at: [-62000, 0, 0], facing: 0, pose: 'walk' }], crowds: ['roofs'] },
       { panel: 'e02-p12-k3', cam: [-62300, 1300, 886], look: [-62000, 0, 650], stand: 'roof', places: [{ fig: 'gulliver', at: [-62000, 0, 0], facing: 0, pose: 'walk' }], crowds: ['roofs'] },
@@ -290,7 +290,7 @@ const SETS: SetDef[] = [
       { panel: 'e02-p13-k2', cam: [-74600, 7350, 136], look: [-75500, 8000, 60], places: [{ fig: 'gulliver', at: [WALL_X, 8000, 0], facing: -Math.PI / 2, pose: 'step-over' }], crowds: ['wallway'] },
       { panel: 'e02-p14-k1', cam: [1600, -18288, 746], look: [0, 0, 500], stand: 'palace-wall', places: [] },
       { panel: 'e02-p14-k2', cam: [2600, -5600, 136], look: [0, -4300, 2200], places: [{ fig: 'gulliver', at: [0, -5000, STOOL], facing: 0, pose: 'step-over' }] },
-      { panel: 'e02-p15-k1', cam: [-762, -700, 386], look: [-762, -1524, 530], stand: 'dais', places: [PRONE, { fig: 'empress', at: [-1050, -1330, 250], facing: Math.PI, pose: 'point' }, { fig: 'pr1', at: [-560, -1100, 0], facing: Math.PI, pose: 'fall' }, { fig: 'pr2', at: [-420, -1000, 0], facing: Math.PI, pose: 'point' }] },
+      { panel: 'e02-p15-k1', cam: [-150, -150, 386], look: [-762, -1524, 204], stand: 'dais', places: [PRONE, { fig: 'empress', at: [-1050, -1330, 250], facing: Math.PI, pose: 'point' }, { fig: 'pr1', at: [-560, -1100, 0], facing: Math.PI, pose: 'fall' }, { fig: 'pr2', at: [-420, -1000, 0], facing: Math.PI, pose: 'point' }] },
       { panel: 'e02-p15-k2', cam: [-1050, -1470, 386], look: [-1050, -1330, 370], stand: 'dais', places: [PRONE, { fig: 'empress', at: [-1050, -1330, 250], facing: Math.PI, pose: 'point' }] },
       { panel: 'e02-p15-k3', cam: [-762, 900, 386], look: [-762, -1524, 500], stand: 'dais', places: [PRONE, { fig: 'empress', at: [-1050, -1330, 250], facing: Math.PI, pose: 'point' }, { fig: 'pr1', at: [-560, -1100, 0], facing: Math.PI, pose: 'stand' }] },
       { panel: 'e02-p16-k1', cam: [-380, -1120, 386], look: [-840, -1480, 430], stand: 'dais', places: [PRONE, { fig: 'empress', at: [-880, -1400, 250], facing: Math.PI, pose: 'point' }] },
@@ -302,7 +302,7 @@ const SETS: SetDef[] = [
 // SC-007 in the council chamber: the throne at the west end, ministers along the table.
 SETS[1]!.shots = [
   { panel: 'e02-p06-k1', cam: [580, 0, 136], look: [-300, 0, 80], places: council() },
-  { panel: 'e02-p06-k2', cam: [250, 0, 136], look: [-450, 0, 120], places: council() },
+  { panel: 'e02-p06-k2', cam: [250, 0, 136], look: [-450, 0, 320], places: council() },
   { panel: 'e02-p06-k3', cam: [120, 210, 136], look: [100, -110, 110], places: council() },
   { panel: 'e02-p06-k4', cam: [100, 40, 136], look: [100, -110, 115], places: council() },
   { panel: 'e02-p07-k1', cam: [-100, -40, 136], look: [-100, 110, 115], places: council() },
