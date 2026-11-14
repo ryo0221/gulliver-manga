@@ -15,8 +15,10 @@ import type { StructuredData } from '@editor-platform/structured-data/model';
 import {
   buildEpisodeName,
   EP01_NAME,
+  BALLOON_LAYER,
   LAYERS,
   type EpisodeStage,
+  type Occupancy,
   type PanelRecord,
   type RoughImage,
   type StageInput,
@@ -36,6 +38,7 @@ export type RoughPanel = {
   layout: string;
   refs: RoughRef[];
   figures: RoughFigure[];
+  occupancy: Occupancy & { heads: { fg: string; x: number; y: number; r: number }[] };
 };
 export type EpisodeRough = { schemaVersion: 1; episode: number; generatedAt: string; panels: Record<string, RoughPanel> };
 /** ラフの記録と、コマのラフ絵（data:image/jpeg の URI、コマの id ごと）。 */
@@ -46,7 +49,7 @@ export const ROUGH_UNDERLAY_OPACITY = 0.25;
 /** ネームの固定した版（ラフのもと）。 */
 export const NAME_VERSION = 'gm1-ep01-name@name-ep01-v2';
 /** 画作りガイドの決まりで、ラフの段階に要るレイヤー。 */
-export const ROUGH_LAYERS = ['LY-01', 'LY-02', 'LY-09', 'LY-10'] as const;
+export const ROUGH_LAYERS = ['LY-01', 'LY-02', 'LY-09', 'LY-10'] as const satisfies readonly string[];
 const LICENSE = 'OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う';
 
 const REF_NAMES: Record<string, string> = {
@@ -74,7 +77,8 @@ function roughImages(rough: RoughInput, stage: StageInput): Record<string, Rough
 }
 
 export function buildEpisodeRough(stage: StageInput, rough: RoughInput) {
-  return buildEpisodeName(1, EP01_NAME, stage, { rough: roughImages(rough, stage), underlayOpacity: ROUGH_UNDERLAY_OPACITY });
+  const avoid = Object.fromEntries(Object.entries(rough.data.panels).map(([id, p]) => [id, p.occupancy]));
+  return buildEpisodeName(1, EP01_NAME, stage, { rough: roughImages(rough, stage), underlayOpacity: ROUGH_UNDERLAY_OPACITY, avoid });
 }
 
 /** 書き出し用の写し：メモ（ネームのタグと絵のメモ）のグループを隠す。編集する原稿には残す。 */
@@ -119,12 +123,14 @@ function pageTable(records: PanelRecord[], stage: EpisodeStage, rough: EpisodeRo
             ? refs.map(refText).join(' / ')
             : '無し：このページの人物と場所には採用した設定画が無い（CH-10 メアリー・馬・船員・英国の舞台は設定画をまだ作っていない）。人物表の外見の文と 3D の舞台で描いた',
           'rf.samples': `SM-03 実寸の建物と物・SM-04 人物と馬の体（main 40645e80 の見本）。3D の舞台：${models.join('、')}`,
-          'rf.layers': `${LAYERS.underlay}、${LAYERS.atari}（ラフ絵）、${LAYERS.balloon}、${LAYERS.text}、${LAYERS.memo}`,
+          'rf.layers': `${LAYERS.underlay}、${LAYERS.atari}（ラフ絵）、${BALLOON_LAYER} 吹き出し（仮、吹き出しと枠ごとのグループ）、${LAYERS.text}、${LAYERS.memo}`,
           'rf.layerNotes':
             'LY-02 アタリに、人物と背景の位置を一枚に描いたラフ絵を入れた（画作りガイドのラフのレイヤーに背景の位置の層が無く、Codex は 1 コマを 1 枚で描くため。線画で LY-04 と LY-07 に分ける）。' +
-            '「メモ」はネームのタグと絵のメモで、決まりの外。ラフの指示として残し、書き出しでは隠す。',
+            '「メモ」はネームのタグと絵のメモで、決まりの外。ラフの指示として残し、書き出しでは隠す。' +
+            '台詞とナレーションの文字（LY-10）は、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。写植で分ける。LY-01・LY-02・メモは、吹き出しを動かすときに一緒に動かないよう固定した。' +
+            '吹き出しと枠は、ラフ絵の線の濃いところと 3D のカメラに写る人物の頭を避けて置いた（rough.lettering-clear）。',
           'rf.byHuman': 'まだ無い（作者が確かめて直す）',
-          'rf.byAi': `${LAYERS.underlay}（3D の書き出し）、${LAYERS.atari}（画像生成）、${LAYERS.balloon}・${LAYERS.text}（脚本の台詞を置いただけ）`,
+          'rf.byAi': `${LAYERS.underlay}（3D の書き出し）、${LAYERS.atari}（画像生成）、${BALLOON_LAYER} 吹き出し・${LAYERS.text}（脚本の台詞を置いただけ）`,
           'rf.generated': `${tools.join(' / ')}。コマごとに、${NAME_VERSION} のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/rough/prompts/。出典と利用条件：${LICENSE}`,
         },
       };

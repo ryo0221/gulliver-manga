@@ -8,7 +8,7 @@ import { test, expect } from 'vitest';
 import { captureDesignPages } from '@editor-platform/design/pagination';
 import { commitVersion, type Artifact } from '@editor-platform/artifact-core';
 import type { DesignContent, DesignElement } from '@editor-platform/design/model';
-import { EP01_NAME, LAYERS, type EpisodeStage, type StageInput } from './gulliver-ep01-name';
+import { BALLOON_LAYER, EP01_NAME, LAYERS, type EpisodeStage, type StageInput } from './gulliver-ep01-name';
 import {
   buildGulliverEp01Rough,
   forExport,
@@ -46,13 +46,26 @@ test('episode 1 rough has the rough layers, its sources and a drawing for every 
   expect(records.map((r) => r.id)).toEqual(stage.data.panels.map((p) => p.panel));
 
   const layerNames = Object.values(LAYERS);
+  const covered: string[] = [];
   for (const r of records) {
     // rough.layers: every panel has the rough-stage layers of the art guide, in stacking order, and nothing else
     // directly in the panel.
-    const groups = children(r.id);
+    const all = children(r.id);
+    const groups = all.slice(0, layerNames.length);
     expect(groups.map((g) => g.name), r.id).toEqual(layerNames);
-    for (const ly of ROUGH_LAYERS) expect(groups.some((g) => g.name.startsWith(ly)), `${r.id} ${ly}`).toBe(true);
-    const [g01, g02, g09, g10] = groups as DesignElement[];
+    const [g01, g02, g10, gMemo] = groups as DesignElement[];
+    // The image layers and the memo are locked so that dragging a balloon never moves the drawing.
+    expect([g01, g02, gMemo].every((g) => g!.locked), r.id).toBe(true);
+    expect(g10!.locked ?? false, r.id).toBe(false);
+    // LY-09: one movable group per balloon / narration box (outline and its words together), above the layers.
+    const balloons = all.slice(layerNames.length);
+    for (const g of balloons) {
+      expect(g.type, r.id).toBe('group');
+      expect(g.name.startsWith(BALLOON_LAYER), `${r.id} ${g.name}`).toBe(true);
+      expect(children(g.id).filter((e) => e.type === 'text').length, `${r.id} ${g.name}`).toBe(1);
+    }
+    const lyIds = [...groups.map((g) => g.name.slice(0, 5)), ...(balloons.length ? [BALLOON_LAYER] : [])];
+    for (const ly of ROUGH_LAYERS) expect(lyIds.includes(ly) || (ly === BALLOON_LAYER && !r.lines.some((l) => l.line.k === 'D' || l.line.k === 'N')), `${r.id} ${ly}`).toBe(true);
     // LY-01: the 3D camera picture, panel-sized, faint.
     const ul = children(g01!.id);
     expect(ul.length, r.id).toBe(1);
@@ -66,13 +79,22 @@ test('episode 1 rough has the rough layers, its sources and a drawing for every 
     const src = content.pagination!.images.find((i) => i.elementId === rd[0]!.id);
     expect(src?.source, r.id).toContain(NAME_VERSION);
     expect(src?.license).toContain('OpenAI');
-    // LY-09 holds only balloon outlines and narration boxes; LY-10 only text.
-    const under = (id: string): DesignElement[] => children(id).flatMap((e) => [e, ...under(e.id)]);
-    expect(under(g09!.id).every((e) => e.type !== 'text' && e.type !== 'image'), r.id).toBe(true);
+    // LY-10 holds the sound effects and the title.
     expect(children(g10!.id).every((e) => e.type === 'text'), r.id).toBe(true);
+    const words = [...balloons.flatMap((g) => children(g.id)), ...children(g10!.id)].filter((e) => e.type === 'text').map((e) => e.text);
     const lettered = r.lines.filter((l) => l.line.k !== 'T').map((l) => l.line.text);
-    expect(children(g10!.id).map((e) => e.text).filter((t) => lettered.includes(t!)).length, r.id).toBe(lettered.length);
+    expect(lettered.every((t) => words.includes(t)), r.id).toBe(true);
+    // rough.lettering-clear: no balloon, narration box or sound effect covers the head of a figure in frame.
+    const b = byId.get(r.id)!.bounds;
+    const occ = rough.data.panels[r.id]!.occupancy;
+    const boxes = [...balloons, ...children(g10!.id)].map((e) => e.bounds);
+    for (const h of occ.heads) {
+      const hx = b.x + h.x * b.width,
+        hy = b.y + h.y * b.height;
+      for (const x of boxes) if (hx >= x.x && hx <= x.x + x.width && hy >= x.y && hy <= x.y + x.height) covered.push(`${r.id} ${h.fg}`);
+    }
   }
+  expect(covered).toEqual([]);
   // Each rough drawing is used in one panel only (no reuse to explain).
   const srcs = els.filter((e) => e.type === 'image' && e.name.startsWith('ラフ絵')).map((e) => e.src);
   expect(new Set(srcs).size).toBe(records.length);

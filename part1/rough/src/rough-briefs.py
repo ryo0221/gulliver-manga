@@ -103,7 +103,12 @@ for p in stage['panels']:
             else: seen = 'outside the frame (at most a cut-off sliver at the frame edge)'
             orient = f'{seen}, {orient}'
         dist = math.dist(cam, head)
-        vis.append({'fg': g['fg'], 'inFrame': not seen.startswith('outside') and not ('behind the camera' in seen and 'outside' in seen), 'where': seen})
+        hr = None
+        if sh is not None and dist > 1:
+            # Head (about 230 mm tall at full size) as a fraction of the frame height.
+            hr = round(h * 0.13 / 2 / dist / tv / 2 * 2, 3)
+        vis.append({'fg': g['fg'], 'inFrame': not seen.startswith('outside') and not ('behind the camera' in seen and 'outside' in seen), 'where': seen,
+                    'head': [round(sh[0], 3), round(sh[1], 3)] if sh is not None else None, 'headR': hr})
         who = WHO['CH-30'] if g['ch'] == 'EX' and lilli else WHO.get(g['ch'], g['name'])
         if g['ch'] == 'EX' and not lilli: who = 'an early-18th-century English sailor or townsperson (extra)'
         figs.append(f"- {g['fg']} {g['name']} — {who}; {POSE.get(g['pose'], g['pose'])}; {orient}; {round(dist)} mm from the camera.")

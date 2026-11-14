@@ -751,20 +751,107 @@ function layoutPanel(panel: DesignElement, record: PanelRecord): { placed: Place
   throw Error('unreachable');
 }
 
+/**
+ * 台詞・ナレーション・擬音・題を、読む順（上から、同じ高さなら左から右）を保ったまま、コマの絵の濃いところと
+ * 人物の頭を避ける位置へ動かす。タグと絵のメモは動かさない。どこにも置けないときは元の位置のまま。
+ */
+export function avoidFigures(panel: DesignElement, placed: Placed[], occ: Occupancy): Placed[] {
+  const polygon = panelPolygon(panel);
+  const b = panel.bounds;
+  const tag = placed.find((q) => q.kind === 'tag')!;
+  const memo = placed.find((q) => q.kind === 'memo')!;
+  const top = tag.outline.y + tag.outline.height + 4;
+  const bottom = memo.outline.y - 4;
+  const cw = b.width / occ.cols,
+    ch = b.height / occ.rows;
+  const cost = (r: Rect) => {
+    let c = 0;
+    const i0 = Math.max(0, Math.floor((r.x - b.x) / cw)),
+      i1 = Math.min(occ.cols - 1, Math.floor((r.x + r.width - b.x) / cw));
+    const j0 = Math.max(0, Math.floor((r.y - b.y) / ch)),
+      j1 = Math.min(occ.rows - 1, Math.floor((r.y + r.height - b.y) / ch));
+    for (let j = j0; j <= j1; j++)
+      for (let i = i0; i <= i1; i++) {
+        const ox = Math.min(r.x + r.width, b.x + (i + 1) * cw) - Math.max(r.x, b.x + i * cw);
+        const oy = Math.min(r.y + r.height, b.y + (j + 1) * ch) - Math.max(r.y, b.y + j * ch);
+        if (ox > 0 && oy > 0) c += (occ.cells[j * occ.cols + i]! * ox * oy) / (cw * ch);
+      }
+    return c;
+  };
+  const overlaps = (a: Rect, q: Rect, m: number) =>
+    a.x < q.x + q.width + m && q.x < a.x + a.width + m && a.y < q.y + q.height + m && q.y < a.y + a.height + m;
+  const out: Placed[] = [];
+  const done: Rect[] = [];
+  let prev: Rect | null = null;
+  for (const q of placed) {
+    if (q.kind === 'tag' || q.kind === 'memo') {
+      out.push(q);
+      continue;
+    }
+    const tail = q.kind === 'D' ? 14 : 0;
+    const box = { ...q.outline, height: q.outline.height + tail };
+    let best: { x: number; y: number; c: number } | null = null;
+    for (let y = top; y + box.height <= bottom; y += 6)
+      for (let x = b.x; x + box.width <= b.x + b.width; x += 6) {
+        const r = { x, y, width: box.width, height: box.height };
+        // 読む順：前の文字より下か、同じ段で右。
+        if (prev && !(y >= prev.y + prev.height + 4 || (y >= prev.y - 2 && x >= prev.x + prev.width + 6))) continue;
+        if (!insidePolygon(corners(r), polygon, 8)) continue;
+        if (done.some((d) => overlaps(r, d, 6))) continue;
+        const onHead = (occ.heads ?? []).filter((h) => {
+          const hx = b.x + h.x * b.width,
+            hy = b.y + h.y * b.height;
+          return hx >= r.x && hx <= r.x + r.width && hy >= r.y && hy <= r.y + r.height;
+        }).length;
+        const c = cost(r) + onHead * 50 + (y - top) * 0.004 + Math.abs(x - q.outline.x) * 0.001;
+        if (!best || c < best.c) best = { x, y, c };
+      }
+    if (!best) {
+      out.push(q);
+      done.push(box);
+      prev = box;
+      continue;
+    }
+    const dx = best.x - q.outline.x,
+      dy = best.y - q.outline.y;
+    const moved: Placed = {
+      ...q,
+      outline: { ...q.outline, x: q.outline.x + dx, y: q.outline.y + dy },
+      textBox: { ...q.textBox, x: q.textBox.x + dx, y: q.textBox.y + dy },
+    };
+    const nb = { ...box, x: best.x, y: best.y };
+    out.push(moved);
+    done.push(nb);
+    prev = nb;
+  }
+  return out;
+}
+
 /** ラフ（fiction-manga ラフ）でコマのアタリの層に敷く絵。 */
 export type RoughImage = { src: string; alt: string; source: string; license: string };
 /**
  * レイヤー分け（画作りガイドのレイヤーの決まり）。ラフでは、コマごとに LY-01 下絵（3D）・LY-02 アタリ・
  * LY-09 吹き出し・LY-10 文字のグループを作り、コマの中身をそこへ入れる。
  */
-export type LayerOptions = { rough?: Record<string, RoughImage>; underlayOpacity?: number };
+export type LayerOptions = { rough?: Record<string, RoughImage>; underlayOpacity?: number; avoid?: Record<string, Occupancy> };
+/**
+ * 文字を置きたくないところ（コマの絵の上の格子、行優先、0〜1）。ラフ絵の線の濃さと、3D のカメラに写る人物の頭。
+ * 格子はコマの外接矩形（絵を敷いた範囲）を cols×rows に分ける。
+ */
+export type Occupancy = { cols: number; rows: number; cells: number[]; heads?: { x: number; y: number }[] };
 export const LAYERS = {
   underlay: 'LY-01 下絵（3D）',
   atari: 'LY-02 アタリ',
-  balloon: 'LY-09 吹き出し（仮）',
-  text: 'LY-10 文字（仮）',
+  text: 'LY-10 文字（仮。擬音と題）',
   memo: 'メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）',
 } as const;
+/**
+ * LY-09 吹き出し（仮）。エディタで一つずつ動かせるよう、吹き出し・ナレーションの枠ごとに、台詞の文字と一緒の
+ * グループにしてコマの直下（レイヤーのグループの上）に置き、名前を LY-09 で始める。
+ */
+export const BALLOON_LAYER = 'LY-09';
+/** 動かさないレイヤー（ラフ絵と下絵を、吹き出しを動かすときに一緒に動かさない）。 */
+const LOCKED_LAYERS = new Set<keyof typeof LAYERS>(['underlay', 'atari', 'memo']);
 
 export type NameBuild = {
   content: DesignContent;
@@ -797,6 +884,7 @@ export function buildEpisodeName(episode = 1, pages = EP01_NAME, stage?: StageIn
   const memos = new Map<string, string>();
   let n = 0;
   const nid = (kind: string) => `${kind}-${String(++n).padStart(4, '0')}`;
+  const toLock: string[] = [];
   const text = (parentId: string, box: Rect, value: string, name: string, typography: Record<string, unknown>, fill = '#111111') => {
     const id = nid('tx');
     d = insertElement('text', { id, parentId, bounds: box }).apply(d);
@@ -808,15 +896,17 @@ export function buildEpisodeName(episode = 1, pages = EP01_NAME, stage?: StageIn
     const p = r.panel;
     d = updateElement(r.id, { name: `${r.page}-${r.order} ${p.shot}：${p.art}`.slice(0, 200), strokeWidth: 3, stroke: '#111111', fill: '#ffffff' }).apply(d);
     // レイヤー（ラフ）：コマの中に、重ね順のとおりグループを作る。
-    const layer: Record<keyof typeof LAYERS, string> = { underlay: r.id, atari: r.id, balloon: r.id, text: r.id, memo: r.id };
+    const layer: Record<keyof typeof LAYERS | 'balloon', string> = { underlay: r.id, atari: r.id, balloon: r.id, text: r.id, memo: r.id };
     if (layers) {
       for (const k of Object.keys(LAYERS) as (keyof typeof LAYERS)[]) {
         const gid = nid(`layer-${k}`);
         d = insertElement('group', { id: gid, parentId: r.id, bounds: { ...panel.bounds } }).apply(d);
         d = updateElement(gid, { name: LAYERS[k] }).apply(d);
+        if (LOCKED_LAYERS.has(k)) toLock.push(gid);
         layer[k] = gid;
       }
     }
+    const lyName = (name: string) => (layers ? `${BALLOON_LAYER} ${name}` : name);
     // アタリ：3D の舞台のカメラの絵をコマの枠に切り抜いたもの。コマの一番下に敷く（ラフでは LY-01 下絵（3D））。
     const sp = stage?.data.panels.find((x) => x.panel === r.id);
     if (sp?.underlay) {
@@ -843,7 +933,10 @@ export function buildEpisodeName(episode = 1, pages = EP01_NAME, stage?: StageIn
       d = updateElement(iid, { name: `ラフ絵 ${r.id}`, imageFit: 'fill', opacity: 1, alt: rough.alt }).apply(d);
       d = setDesignPagination({ ...d.pagination!, images: [...d.pagination!.images, { elementId: iid, source: rough.source, license: rough.license }] }).apply(d);
     }
-    const { placed: items, ok } = layoutPanel(panel, r);
+    const laid = layoutPanel(panel, r);
+    const ok = laid.ok;
+    const avoid = layers?.avoid?.[r.id];
+    const items = avoid ? avoidFigures(panel, laid.placed, avoid) : laid.placed;
     if (!ok) overflow.push(r.id);
     const memo = `絵：${p.art}`;
     memos.set(r.id, memo);
@@ -861,7 +954,7 @@ export function buildEpisodeName(episode = 1, pages = EP01_NAME, stage?: StageIn
           const gid = nid('balloon');
           const speaker = SPEAKER_NAMES[line.who!];
           d = insertElement('group', { id: gid, parentId: layer.balloon, bounds: { ...it.outline, height: it.outline.height + 14 } }).apply(d);
-          d = updateElement(gid, { name: `台詞 ${it.lineId} ${line.who} ${speaker}` }).apply(d);
+          d = updateElement(gid, { name: lyName(`台詞 ${it.lineId} ${line.who} ${speaker}`) }).apply(d);
           const oid = nid('outline');
           d = insertElement('shape', { id: oid, parentId: gid, bounds: it.outline }).apply(d);
           d = updateElement(oid, { name: '吹き出し（仮、LY-09）', shape: 'ellipse', fill: '#ffffff', stroke: '#111111', strokeWidth: 2 }).apply(d);
@@ -869,12 +962,18 @@ export function buildEpisodeName(episode = 1, pages = EP01_NAME, stage?: StageIn
           const tx = it.outline.x + it.outline.width * (it.outline.x > panel.bounds.x + panel.bounds.width / 2 - it.outline.width / 2 ? 0.3 : 0.6);
           d = insertElement('shape', { id: tail, parentId: gid, bounds: { x: tx, y: it.outline.y + it.outline.height - 3, width: 16, height: 17 } }).apply(d);
           d = updateElement(tail, { name: `尻尾（${speaker}へ）`, shape: 'triangle', flipY: true, fill: '#ffffff', stroke: '#111111', strokeWidth: 2 }).apply(d);
-          text(layers ? layer.text : gid, it.textBox, line.text, `台詞の文 ${it.lineId}`, { fontFamily: GOTHIC, fontSize: it.font, bold: isShout(line), align: 'center', verticalAlign: 'middle', lineHeight: 1.25 });
+          text(gid, it.textBox, line.text, `台詞の文 ${it.lineId}`, { fontFamily: GOTHIC, fontSize: it.font, bold: isShout(line), align: 'center', verticalAlign: 'middle', lineHeight: 1.25 });
         } else if (it.kind === 'N') {
+          let holder: string = r.id;
+          if (layers) {
+            holder = nid('narration-group');
+            d = insertElement('group', { id: holder, parentId: layer.balloon, bounds: { ...it.outline } }).apply(d);
+            d = updateElement(holder, { name: lyName(`ナレーション ${it.lineId}（枠と文字）`) }).apply(d);
+          }
           const bid = nid('narration');
-          d = insertElement('rectangle', { id: bid, parentId: layer.balloon, bounds: it.outline }).apply(d);
+          d = insertElement('rectangle', { id: bid, parentId: holder, bounds: it.outline }).apply(d);
           d = updateElement(bid, { name: `ナレーションの枠 ${it.lineId}`, fill: '#ffffff', stroke: '#111111', strokeWidth: 1.5 }).apply(d);
-          text(layer.text, it.textBox, line.text, `ナレーション ${it.lineId} CH-01`, { fontFamily: MINCHO, fontSize: it.font, lineHeight: 1.35 });
+          text(holder, it.textBox, line.text, `ナレーション ${it.lineId} CH-01`, { fontFamily: MINCHO, fontSize: it.font, lineHeight: 1.35 });
         } else if (it.kind === 'S') {
           text(layer.text, it.textBox, line.text, `擬音 ${it.lineId}（仮、手描きは LY-08）`, { fontFamily: GOTHIC, fontSize: it.font, bold: true, lineHeight: 1.15 }, '#9ca3af');
         }
@@ -887,6 +986,8 @@ export function buildEpisodeName(episode = 1, pages = EP01_NAME, stage?: StageIn
     const x = pi * (PAGE.width + PAGE.gap);
     text(id, { x: x + PAGE.width / 2 - 30, y: PAGE.height - 40, width: 60, height: 20 }, String(pi + 1).padStart(2, '0'), 'ノンブル', { fontFamily: GOTHIC, fontSize: 14, align: 'center' }, '#6b7280');
   });
+  // 中身を入れ終えてから、動かさないレイヤーを固定する。
+  for (const id of toLock) d = updateElement(id, { locked: true }).apply(d);
   return { content: d, records, placed, overflow, memos };
 }
 
