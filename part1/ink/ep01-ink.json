@@ -51,22 +51,22 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p01-k1.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "b9feddda38104475ac96994d537a6b4e4535e322df1189cf10466f77c1216c82"
     },
     {
      "path": "part1/name/stage/underlay/e01-p01-k1.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "d911cc74f3b22768c96cdf512533f7e011816784857e75311461612f28a4e6dd"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     },
     {
      "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
     }
    ]
@@ -119,12 +119,12 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p01-k2.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "57e5d80d33621207499bbf0167d38b9de99ceef2143b5b6e95801e80ff5e3122"
     },
     {
      "path": "part1/name/stage/underlay/e01-p01-k2.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "2e8564382c6b722864b7cd906ea9bc0759ab347758b1f511fc6044414b7ac59a"
     }
    ]
@@ -177,17 +177,17 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p02-k1.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "739fc6f45339967e929af680e59f77a72cea28113845a9e5a1a67c8c1ff9edfa"
     },
     {
      "path": "part1/name/stage/underlay/e01-p02-k1.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "367d4225a9d4a6477871bdf0ca2209421e267074822be0b860f0d4d904ed1e54"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
    ]
@@ -240,17 +240,17 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p02-k2.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "a48a89a9874f35a44b2dc4162615bcb585e74fa59ab242a0abe983c47fca8776"
     },
     {
      "path": "part1/name/stage/underlay/e01-p02-k2.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "28f438d63e9ac51f20ae18e7b191d0de07ac4bcddbecad63e640af1864fe33ec"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
    ]
@@ -303,17 +303,17 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p02-k3.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "031daf8e535614f33e9563197cca1fe3ae6216a914d2f290cd1b6989fdcbfecc"
     },
     {
      "path": "part1/name/stage/underlay/e01-p02-k3.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "4dd78ebf906b79cc2612ab8f6f9fe532ddc1d1b4b997b0367e1a4a5b43f03fc7"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
    ]
@@ -366,17 +366,17 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p02-k4.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "4231222d7bf8432ebe8c3802761dc93c46f6cba35c7d837eeef6e9b02dc7bfaa"
     },
     {
      "path": "part1/name/stage/underlay/e01-p02-k4.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "df34099a2db06938d462f241084023261008fb5b028aefc2c599fb3a677b81f7"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
    ]
@@ -429,12 +429,12 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p02-k5.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "217bf266b3ee41ce3c6aaba0bcc764e64ef2720997f096e12937d0843c1a5376"
     },
     {
      "path": "part1/name/stage/underlay/e01-p02-k5.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "5196a80e16237548e4276ae6ad34656cd1dd503fb2ea7675be9aba720192afa7"
     }
    ]
@@ -487,17 +487,17 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p02-k6.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "5991fef110189abe3b6e487c36450dde917b0c559bb5bc48fa20673f20ff01ff"
     },
     {
      "path": "part1/name/stage/underlay/e01-p02-k6.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "84496b3f4e07641a53f40dcf79c2b960ab3aedef0469589973beff980d2cced3"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
    ]
@@ -550,17 +550,17 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p03-k1.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "56b49d393d25a09a86cc063210e56d6eb9d67749e66d4a6387354d1983c80327"
     },
     {
      "path": "part1/name/stage/underlay/e01-p03-k1.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "9b82297f0248e0da593a6a501a9a6810dce38a1bbe2f0e2f154374cc2ac4d5ee"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
    ]
@@ -613,17 +613,17 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p03-k2.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "b5e8c49c56dbf37b8d02246a3a227d99fade00f7fb428301febb1ad838a9f5f5"
     },
     {
      "path": "part1/name/stage/underlay/e01-p03-k2.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "922029701475df7e9ee5f703ed85c4079d1761dc9abd294d9da1f00ca6269bb1"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
    ]
@@ -676,17 +676,17 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p03-k3.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "27faf159040c6c94e6910103ee011e9d0f0fdf1f1af281a950c809eee3c10451"
     },
     {
      "path": "part1/name/stage/underlay/e01-p03-k3.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "c84c2a9645be8ac1bf8e5bd1e2b1d570fce7ec70c9e51592a13b2b71cb8d328e"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
    ]
@@ -739,17 +739,17 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p03-k4.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "52d56d0755a2d5a123dfc22cbb0885f17c53ee022e8556ad6e4442a49dbcb68c"
     },
     {
      "path": "part1/name/stage/underlay/e01-p03-k4.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "d6a845af5d150682c43b0f08fbf6898825a30d825992c0489722fbb39817dbf4"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
    ]
@@ -802,12 +802,12 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p04-k1.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "1ede9f459a3d9e5fd9b10ad59e032da3b43b76b51e86e532777cfb9093534cf6"
     },
     {
      "path": "part1/name/stage/underlay/e01-p04-k1.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "fed0252f822820f7ceb15ac2156634506e64fd1a2f1ec48d16898f9306e8134e"
     }
    ]
@@ -860,17 +860,17 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p04-k2.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "683aa94c70d031becd251735f179998c86ac378bb0cd08ac9abe2712802fb8c8"
     },
     {
      "path": "part1/name/stage/underlay/e01-p04-k2.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "aae6f61e5f461cc43c7fbf29c9f1b7101339229cbd3dc538fec5b677e9a34e13"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
    ]
@@ -923,17 +923,17 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p04-k3.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "4c41ca3ae1043ae8151e9fd5200337100a73ce3801be4c76ed4058a666d1e97d"
     },
     {
      "path": "part1/name/stage/underlay/e01-p04-k3.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "08c95aa562413e68c19c29cf86a4cd507fc2e0af3b78d6e4bb4c4dc279a66da7"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
    ]
@@ -986,17 +986,17 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p05-k1.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "ff72d5f596449994dd09103c94ca4ac916f3aef79255bbb1c6a9c7b93528ace8"
     },
     {
      "path": "part1/name/stage/underlay/e01-p05-k1.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0479ea3f319ce5b1eaffb5694ee10ab6630884151558f48dc6aaab355bdcfdfd"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
    ]
@@ -1049,17 +1049,17 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p05-k2.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0acedc385b57011ff7d5e75b6ede1f2d09c25c4a30bce30f9c222b1b0c580185"
     },
     {
      "path": "part1/name/stage/underlay/e01-p05-k2.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "ab55587f4435f3c23dcf93762c54db5d208fd53572d9aa49550887d12ff99988"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
    ]
@@ -1112,17 +1112,17 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p05-k3.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "a92afa2d407db249687d27008147b42361952cdf7cbb1ce9a15a36294e1737ec"
     },
     {
      "path": "part1/name/stage/underlay/e01-p05-k3.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "efbdd69a9ecf2568bb0a0dc6587b4390563951add427b8bcf80e2298fb50c4d4"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
    ]
@@ -1175,17 +1175,17 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p06-k1.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "685cd4d07a6a5002fca015236b6d00e8d43fce0d4ab1bbbf8aa2d26bb0d812e9"
     },
     {
      "path": "part1/name/stage/underlay/e01-p06-k1.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "7727e67dc5afb6f707e1b241da65af18d9354716a688b605ac9c08b34ec24648"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
    ]
@@ -1238,17 +1238,17 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p06-k2.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "442847b8b036580f61ef65385da2dbbfa992ea968330d5683f8b53900a651100"
     },
     {
      "path": "part1/name/stage/underlay/e01-p06-k2.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0b38c850fe26e01e5471a5aad863f6372d9af1e06f8721b3d2ce96977f635b80"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
    ]
@@ -1301,17 +1301,17 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p06-k3.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "16e7eab6d1b144d5b523cc04fd441ed91f0ead8be555e3ec8b1c5a6aa34b014b"
     },
     {
      "path": "part1/name/stage/underlay/e01-p06-k3.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "b5ce098ba29717fb7d33140806eee2ea8a88bcf2e468e976d3e9b81017876403"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
    ]
@@ -1364,17 +1364,17 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p07-k1.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "6e4fa50a6b7cc09a0f49e2d1c7d6597ccf48c81bc934e4af637803b5fd31acf7"
     },
     {
      "path": "part1/name/stage/underlay/e01-p07-k1.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "cf7ca26d190e87c9081982560a88456c61b142c8dbefe0f34a289ab8a67e558e"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
    ]
@@ -1427,17 +1427,17 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p07-k2.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "98d18536410784d88c9e6a9c5824e8f29466e269278bf6186739511df2b06611"
     },
     {
      "path": "part1/name/stage/underlay/e01-p07-k2.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "3509bd37152433ab47cc88a3b2d06153e1a22f915286b24fdf960b6c7d2ec73e"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
    ]
@@ -1490,17 +1490,17 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p08-k1.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "c3793afd557abcf02d22bdd3da270374477e48392efdac42bd6f888460fd2ba1"
     },
     {
      "path": "part1/name/stage/underlay/e01-p08-k1.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "9d7d8bd820adbe9337fd43d2a253bdc7b5b4a7ae6d33b2c1a8e7d2d452ba4d67"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
    ]
@@ -1553,17 +1553,17 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p08-k2.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "a90d42c2ee8dbc5f91a64007235198fc64f8a6be30633c21e7d76c808e10dd79"
     },
     {
      "path": "part1/name/stage/underlay/e01-p08-k2.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "b15581b3fe446d34d4122180365adfbc7722ef47c1dfb6f454295fa59ea6b81c"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
    ]
@@ -1616,17 +1616,17 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p08-k3.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "4acf0a87e0f80375c39befddae6cb5a1b430d9edb11e6b2bc26a322931f6a2e4"
     },
     {
      "path": "part1/name/stage/underlay/e01-p08-k3.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "f433ccfe5a9ea76f48dee47ba1a52899b4910a30b030715966c895c9ed892907"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
    ]
@@ -1679,22 +1679,22 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p08-k4.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "5dafa2407659c7ae5a26acd64c24f7862e1550d5509b6e7c0802dda15eb29916"
     },
     {
      "path": "part1/name/stage/underlay/e01-p08-k4.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "debb1ed4a0d36cb533c65ad7aab39f50a873f866fc420e8a08475881abda51bd"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     },
     {
      "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
     }
    ]
@@ -1747,22 +1747,22 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p09-k1.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "d86c15a9b80f88e449d614121ff21e28dfbd70443ecd066dc44832cc2ef9e2af"
     },
     {
      "path": "part1/name/stage/underlay/e01-p09-k1.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "cb8d37bc04103316008fc58b5bbc0f89a9cc9df55ad1c1cf9878d0cbdddbb52b"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     },
     {
      "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
     }
    ]
@@ -1815,22 +1815,22 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p09-k2.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "b4fbd6ed8f90f3a3fd547633ecaf8a810885d7f990cea2d3b9624736d39b04a7"
     },
     {
      "path": "part1/name/stage/underlay/e01-p09-k2.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "90b1e03f6dce35368d7b7c85de8f1bf2db6c986ada4597adbf3feac7fe5da6ff"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     },
     {
      "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
     }
    ]
@@ -1883,22 +1883,22 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p09-k3.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "79dbc439da188c86a5a8baefd90061c16cc454f1af2b5eee945016d5a86f90b6"
     },
     {
      "path": "part1/name/stage/underlay/e01-p09-k3.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "131f65d299661e8eaaa3295b935d568a1a92075aeb6c43991d07dcbfdd79c679"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     },
     {
      "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
     }
    ]
@@ -1951,22 +1951,22 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p10-k1.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "8ba9e983e23c9f50dc526681f8bc985589966fdb8cbda515c9c984acf1145528"
     },
     {
      "path": "part1/name/stage/underlay/e01-p10-k1.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "51f584e4e038dc59b58385dc35ab81f91e6c07027aa21de2fe725ed31dafdbf8"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     },
     {
      "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
     }
    ]
@@ -2019,17 +2019,17 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p10-k2.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0a3f9d3e8b76a9e10d572c583ba612ee0bb908251a1fc6945d274107f204876b"
     },
     {
      "path": "part1/name/stage/underlay/e01-p10-k2.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "58cb73a92041f90e39c796fac71d24625d2e6cb0f7cac84da2fe71d52d657716"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
    ]
@@ -2082,22 +2082,22 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p10-k3.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "8ffebc3b1935b1a9eba111fc01408b5ada9643dc1b9b9704acbe1e2c0f01e76b"
     },
     {
      "path": "part1/name/stage/underlay/e01-p10-k3.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "514e3129612e8f91675bfdb307f4997f99e204e8e6b7f2f87f585509dda77b66"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     },
     {
      "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
     }
    ]
@@ -2150,22 +2150,22 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p10-k4.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "2b8e128fabd061e666493bb2543bcccd1b35d0ff4cab0d5baec842178c9e5a3b"
     },
     {
      "path": "part1/name/stage/underlay/e01-p10-k4.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "5897d4a3b6c14d4db55255b4e1638404824215853363de793e53991e35e710d2"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     },
     {
      "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
     }
    ]
@@ -2218,17 +2218,17 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p11-k1.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "7788f80bff4515ed58c2b6cb774f81c981952feeee609fe065e3e203227bedc2"
     },
     {
      "path": "part1/name/stage/underlay/e01-p11-k1.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "24c86507c50fdc0daa8814e0e7fd22e42095d0589c6ba4fb2ff8f473c002f877"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
    ]
@@ -2281,17 +2281,17 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p11-k2.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "87799ad3310745c75a9fa2abf53fa5c10994aacaec208602079d1a667d08b9ca"
     },
     {
      "path": "part1/name/stage/underlay/e01-p11-k2.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "f9365932a98a28f83396a929913902fed2d2cb9b638846d2fb861ef3ebbd56ae"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
    ]
@@ -2344,22 +2344,22 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p11-k3.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "4c251ed2a28797a563643c26184101500a6fc6327447371b88341224ab7db4fb"
     },
     {
      "path": "part1/name/stage/underlay/e01-p11-k3.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "3eec640e72d438474e8d5d63b4a2d6950af8bcff08ec5d93b380c32aabddacab"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     },
     {
      "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
     }
    ]
@@ -2412,17 +2412,17 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p11-k4.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "84652222331d89c470f8b6591e9d208586a8e7b42518914f26c023ad2ce8af84"
     },
     {
      "path": "part1/name/stage/underlay/e01-p11-k4.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "34fea8a9e5301d9de355e17b59cf01cc1fc8648a0942a2136ede8df59f89437f"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
    ]
@@ -2475,22 +2475,22 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p11-k5.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "a558212fbf599806adf557e0c9c155a8c5348bb2ebeab22724bc3235f67f4b41"
     },
     {
      "path": "part1/name/stage/underlay/e01-p11-k5.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "9c867d01b426eb6cc1dd5e530fc1425ecb18a72296d43ce5b4be37f1a94473e6"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     },
     {
      "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
     }
    ]
@@ -2543,17 +2543,17 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p12-k1.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "bc7c77ce816858034929868ef868d02a08d9c70f1b3989d0883d3349c075aeb3"
     },
     {
      "path": "part1/name/stage/underlay/e01-p12-k1.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "7d8c8589147dd9266fc2200b3ff07f0d009bdd2a35633f885a8c4fc43e371447"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
    ]
@@ -2606,22 +2606,22 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p12-k2.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "3f2203e9988835adcfa28042fd0ff2d58a2ec418542bccb8bbc983fb0e89268c"
     },
     {
      "path": "part1/name/stage/underlay/e01-p12-k2.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "1b00e1ed00f7895d2a9099ae2a02ba7946d2643827e1056400a780a404a7b66d"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     },
     {
      "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
     }
    ]
@@ -2674,22 +2674,22 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p12-k3.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "3265b2c15ba18884fd357c4a72bcb53dc0a35885d9bfccbf58c84b513a3648db"
     },
     {
      "path": "part1/name/stage/underlay/e01-p12-k3.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "d890f378771d379be7294faf3e036182b2655b9baa2beafc38a81b613bda0a85"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     },
     {
      "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
     }
    ]
@@ -2742,22 +2742,22 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p12-k4.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "79422df8cf429442dcd6c52af0aa961f7409fbc3876123284c1ae93862178093"
     },
     {
      "path": "part1/name/stage/underlay/e01-p12-k4.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "9c671601ac270a6f59a185a634b37cb66c29ccc677605a0ea8e1fb543e649c61"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     },
     {
      "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
     }
    ]
@@ -2766,13 +2766,13 @@
    "layers": {
     "LY-07": {
      "image": "layers/e01-p12-k5-LY-07.png",
-     "share": 0.829,
-     "bytes": 23778
+     "share": 0.923,
+     "bytes": 26182
     },
     "LY-04": {
      "image": "layers/e01-p12-k5-LY-04.png",
-     "share": 0.171,
-     "bytes": 7859
+     "share": 0.077,
+     "bytes": 4616
     },
     "LY-08": {
      "image": "layers/e01-p12-k5-LY-08.png",
@@ -2785,8 +2785,8 @@
    "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
    "codexModel": "gpt-6.1-sol",
    "imageModel": "not exposed by the Codex image tool",
-   "codexSession": "01a1da65-bb0c-7672-a4a7-412720ae6201",
-   "rawSha256": "001b9672a3497fe84b36df526fe754e72b7f5a91b7c49016f403104c721b76a3",
+   "codexSession": "01a1da77-871c-76b2-b4b5-980736969111",
+   "rawSha256": "e60cffea2f81b4c380af9638d476d9df6d5d6780787d519cc10d2bbb71339d35",
    "rawSize": [
     1536,
     1024
@@ -2810,17 +2810,17 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p12-k5.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "e5079924d64a902cd3f79921fcad5c5d2bef7ca6ab53b79b59516aef48b6015f"
     },
     {
      "path": "part1/name/stage/underlay/e01-p12-k5.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "e3f74130f2fe3f1ea6927854e9222cd07ee0cd7810f4774a0bbe530c95ff6dfe"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
    ]
@@ -2873,22 +2873,22 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p13-k1.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0347b59cd7e65678f9fbd237cd0a1ccf074bd9a0a28b95996d905a1820696858"
     },
     {
      "path": "part1/name/stage/underlay/e01-p13-k1.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "cd4217a677886b5b971023c904b79eb369134a0bb6f66adaf453c5ec5adefd18"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     },
     {
      "path": "part1/codex/lo03-temple/lo03-temple-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "417c8a947fb6c716efd31d15973ef7a95ec07f34c0fc869509807347259f7735"
     }
    ]
@@ -2941,27 +2941,27 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p13-k2.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "233b53149279271e0a8c255914a4a568e95917b9639c41b8c84bb4a635db00ed"
     },
     {
      "path": "part1/name/stage/underlay/e01-p13-k2.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "a4d03b13a72f70873e02189a5f509d7e2bdb0e0832eea0ca1bec69c835d9a384"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     },
     {
      "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
     },
     {
      "path": "part1/codex/lo03-temple/lo03-temple-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "417c8a947fb6c716efd31d15973ef7a95ec07f34c0fc869509807347259f7735"
     }
    ]
@@ -3014,22 +3014,22 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p13-k3.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "4b089534c338801364d76cff020bf0e3805eb5a2d72a5ffb697494b6626f07ec"
     },
     {
      "path": "part1/name/stage/underlay/e01-p13-k3.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "751c4f29def281c549475eeae4f865fbff95b41b19cdcee1047d46e51bf32b83"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     },
     {
      "path": "part1/codex/lo03-temple/lo03-temple-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "417c8a947fb6c716efd31d15973ef7a95ec07f34c0fc869509807347259f7735"
     }
    ]
@@ -3082,27 +3082,27 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p14-k1.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "b525a2197d7e44f47cfe5e26f6769e632c96e2a638dc9f8bef15d9bc6bc38fdc"
     },
     {
      "path": "part1/name/stage/underlay/e01-p14-k1.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "a75e1eb0574a7fbbf343e2d3b033cbcd51cf7048f232106f2a99252c33f83a33"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     },
     {
      "path": "part1/codex/lo03-temple/lo03-temple-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "417c8a947fb6c716efd31d15973ef7a95ec07f34c0fc869509807347259f7735"
     },
     {
      "path": "part1/codex/lo04-mildendo/lo04-mildendo-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "5a161ac8ecd7ccb15ce83b4142cb80397962cdc66e9c4a672f59c9092c94a86b"
     }
    ]
@@ -3155,27 +3155,27 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p14-k2.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "2fc2b27f84cccd7caff005db076f73e513928fa360b029968d0354ed339f65c9"
     },
     {
      "path": "part1/name/stage/underlay/e01-p14-k2.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "94828ef8f5f8260ae0c819d1e5c39331d7203d2b50444095b68548f9a9b5432b"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     },
     {
      "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
     },
     {
      "path": "part1/codex/lo03-temple/lo03-temple-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "417c8a947fb6c716efd31d15973ef7a95ec07f34c0fc869509807347259f7735"
     }
    ]
@@ -3228,22 +3228,22 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p14-k3.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "1d160b213193a1df26cf4da0873042e944a7be5f9addc04004c3a34b16fc9b83"
     },
     {
      "path": "part1/name/stage/underlay/e01-p14-k3.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "4935d895c97decb603d1c1eced170d9e0240166d604408c438e5625cd5d7ed3e"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     },
     {
      "path": "part1/codex/lo03-temple/lo03-temple-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "417c8a947fb6c716efd31d15973ef7a95ec07f34c0fc869509807347259f7735"
     }
    ]
@@ -3296,22 +3296,22 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p15-k1.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "62ba406fdb44c8217d31cdea0c5d3a79588d12ccaf2bff4e87b6c80fff481371"
     },
     {
      "path": "part1/name/stage/underlay/e01-p15-k1.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "2996995dc1edf5f8e5690e7eb04b14adee3385bdfc3aec06d8fb1471669d49e6"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     },
     {
      "path": "part1/codex/lo03-temple/lo03-temple-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "417c8a947fb6c716efd31d15973ef7a95ec07f34c0fc869509807347259f7735"
     }
    ]
@@ -3364,22 +3364,22 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p15-k2.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "5f762e440ea743657d7a810357faa7bc86a3714f0c6c914b0c4ed2de2e9afba3"
     },
     {
      "path": "part1/name/stage/underlay/e01-p15-k2.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "76c6d1ce9b1e3833d8efd0c645627a5454377d2a33c2633c6ca049034bb86912"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     },
     {
      "path": "part1/codex/lo03-temple/lo03-temple-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "417c8a947fb6c716efd31d15973ef7a95ec07f34c0fc869509807347259f7735"
     }
    ]
@@ -3432,32 +3432,32 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p16-k1.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "8bceb6fa754a6c33dbd51589594e702ae0d2d62a4305f3aeb66fab01f87418c8"
     },
     {
      "path": "part1/name/stage/underlay/e01-p16-k1.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "85f49c457028e069938b6230fdd0dc5bf22d8ad0de733ee04b58b847fce05fba"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     },
     {
      "path": "part1/codex/ch02-emperor/ch02-emperor-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "50970136e0807db55316ebf15536ae2c7a6be805090603292d80d7094815f14a"
     },
     {
      "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
     },
     {
      "path": "part1/codex/lo03-temple/lo03-temple-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "417c8a947fb6c716efd31d15973ef7a95ec07f34c0fc869509807347259f7735"
     }
    ]
@@ -3510,27 +3510,27 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p16-k2.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "c9cb14eb642c9ddf9160c9d9e6f8eb9b8d1840543da0a5451aac40765d4e8c90"
     },
     {
      "path": "part1/name/stage/underlay/e01-p16-k2.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "d7ac0897555c857d0bd35951164ecd0879563a71b268d69d249446c918b61cbb"
     },
     {
      "path": "part1/codex/ch02-emperor/ch02-emperor-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "50970136e0807db55316ebf15536ae2c7a6be805090603292d80d7094815f14a"
     },
     {
      "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
     },
     {
      "path": "part1/codex/lo03-temple/lo03-temple-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "417c8a947fb6c716efd31d15973ef7a95ec07f34c0fc869509807347259f7735"
     }
    ]
@@ -3583,22 +3583,22 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p16-k3.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "e0946261d94620e1529abcaabe733ddae2a063f32c85bcec62d50fe9b9fe3a39"
     },
     {
      "path": "part1/name/stage/underlay/e01-p16-k3.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "308b866173e3a4894cc8b8922bf36e6cf49a74688a65d3986c8ee18cb6368860"
     },
     {
      "path": "part1/codex/ch02-emperor/ch02-emperor-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "50970136e0807db55316ebf15536ae2c7a6be805090603292d80d7094815f14a"
     },
     {
      "path": "part1/codex/lo03-temple/lo03-temple-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "417c8a947fb6c716efd31d15973ef7a95ec07f34c0fc869509807347259f7735"
     }
    ]
@@ -3651,27 +3651,27 @@
    "refs": [
     {
      "path": "part1/rough/panels/e01-p16-k4.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "16d10e2b71878c2ec70d37108a61979d7b7bca5d53b45ffc9eb098b00a127af5"
     },
     {
      "path": "part1/name/stage/underlay/e01-p16-k4.jpg",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "641588b1c9a2601aa0990dc64fb3c8fa2d1398136faf78346d29ec1ed9b07bf6"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     },
     {
      "path": "part1/codex/lo03-temple/lo03-temple-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "417c8a947fb6c716efd31d15973ef7a95ec07f34c0fc869509807347259f7735"
     },
     {
      "path": "part1/codex/lo04-mildendo/lo04-mildendo-raw.png",
-     "commit": "902da0cfb331875e527e34a68fbb8e3d3a0b0850",
+     "commit": "233e5633651ec883ede788376a1e094b966be843",
      "sha256": "5a161ac8ecd7ccb15ce83b4142cb80397962cdc66e9c4a672f59c9092c94a86b"
     }
    ]

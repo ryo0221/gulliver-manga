@@ -15,6 +15,7 @@ briefs = json.load(open(f'{root}/briefs.json'))
 
 # Notes from the author's rough review (2026-11-14) that the line art must fix.
 INK_NOTES = {
+    'e01-p12-k5': "The author found this face cut unnaturally (one huge eye cut off by the frame, a sliver of grass). Here do NOT follow the rough's crop: follow the SECOND image. The camera looks straight down on Gulliver's face; the face sits in the middle of the wide strip (about the middle 45% of the width) with his hair and the grass on both sides. Show BOTH eyes (heavy, half-closed, drowsy from the drugged wine), both eyebrows and the bridge of the nose, the head upright in the frame (forehead toward the top). The top and bottom frame edges cross the forehead and the nose, which is the intended extreme close-up; the left and right edges of the face, the ears and the hair must be inside the frame.",
     'e01-p15-k1': "Gulliver's LEFT leg is still chained: draw the chain from his left ankle back to the temple behind him (the rough missed it). Do not draw any grey padding line at the frame edge.",
 }
 
