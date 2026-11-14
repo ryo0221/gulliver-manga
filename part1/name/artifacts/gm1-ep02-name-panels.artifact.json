@@ -162,12 +162,12 @@
       "nm.text": "",
       "nm.turn": "扉。題と、手のひらの上の芸で大きさの違いを最初に見せる（AR-05）。",
       "st.set": "court：古い神殿（F106）の前の広場：宮廷の芸と解放の誓い",
-      "st.cam": "(760, 1720, 136)",
-      "st.look": "(180, 1290, 640)",
+      "st.cam": "(1500, 2700, 136)",
+      "st.look": "(120, 950, 720)",
       "st.fov": "横 34.1° × 縦 35°",
       "st.figures": "FG-e02-p01-k1-01 CH-01 ガリヴァー (0, 700, 0) 向き 0° sit-palm / FG-e02-p01-k1-02 CH-30 廷臣1 (150, 1280, 600) 向き 90° dance / FG-e02-p01-k1-03 CH-30 廷臣2 (205, 1305, 600) 向き 90° jump / FG-e02-p01-k1-04 CH-30 廷臣3 (180, 1330, 600) 向き 90° wave-hat / FG-e02-p01-k1-05 CH-02 皇帝 (800, 1650, 0) 向き 90° stand",
       "st.crowds": "見物の宮廷（創作の人数）（77）",
-      "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+      "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
       "st.underlay": "underlay/e02-p01-k1.jpg",
       "st.plan": "plans/e02-p01-k1.svg"
      }
@@ -194,7 +194,7 @@
       "st.fov": "横 62.7° × 縦 29.6°",
       "st.figures": "FG-e02-p01-k2-01 CH-01 ガリヴァー (0, 700, 0) 向き 0° sit-palm / FG-e02-p01-k2-02 CH-30 廷臣1 (150, 1280, 600) 向き 90° dance / FG-e02-p01-k2-03 CH-30 廷臣2 (205, 1305, 600) 向き 90° jump / FG-e02-p01-k2-04 CH-02 皇帝 (800, 1650, 0) 向き 90° stand",
       "st.crowds": "見物の宮廷（創作の人数）（77）、広場の端の民（創作の人数）（240）",
-      "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+      "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
       "st.underlay": "underlay/e02-p01-k2.jpg",
       "st.plan": "plans/e02-p01-k2.svg"
      }
@@ -221,7 +221,7 @@
       "st.fov": "横 56.9° × 縦 35°",
       "st.figures": "FG-e02-p02-k1-01 CH-01 ガリヴァー (0, 700, 0) 向き 0° sit-look-down / FG-e02-p02-k1-02 CH-30 廷臣1 (-150, 1600, 305) 向き 90° dance / FG-e02-p02-k1-03 CH-30 廷臣2 (120, 1600, 365) 向き 90° jump / FG-e02-p02-k1-04 CH-02 皇帝 (800, 1650, 0) 向き 90° stand",
       "st.crowds": "見物の宮廷（創作の人数）（77）",
-      "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+      "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
       "st.underlay": "underlay/e02-p02-k1.jpg",
       "st.plan": "plans/e02-p02-k1.svg"
      }
@@ -248,7 +248,7 @@
       "st.fov": "横 51° × 縦 35°",
       "st.figures": "FG-e02-p02-k2-01 CH-01 ガリヴァー (0, 700, 0) 向き 0° sit-look-down / FG-e02-p02-k2-02 CH-30 廷臣1 (-150, 1600, 305) 向き 90° dance / FG-e02-p02-k2-03 CH-30 廷臣2 (120, 1600, 365) 向き 90° jump / FG-e02-p02-k2-04 CH-02 皇帝 (800, 1650, 0) 向き 90° stand",
       "st.crowds": "見物の宮廷（創作の人数）（77）",
-      "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+      "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
       "st.underlay": "underlay/e02-p02-k2.jpg",
       "st.plan": "plans/e02-p02-k2.svg"
      }
@@ -275,7 +275,7 @@
       "st.fov": "横 28.4° × 縦 35°",
       "st.figures": "FG-e02-p02-k3-01 CH-30 廷臣1 (-20, 1600, 305) 向き 90° dance",
       "st.crowds": "",
-      "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+      "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
       "st.underlay": "underlay/e02-p02-k3.jpg",
       "st.plan": "plans/e02-p02-k3.svg"
      }
@@ -302,7 +302,7 @@
       "st.fov": "横 62.7° × 縦 29.6°",
       "st.figures": "FG-e02-p02-k4-01 CH-30 廷臣1 (-150, 1600, 305) 向き 90° dance / FG-e02-p02-k4-02 CH-30 廷臣2 (120, 1600, 365) 向き 90° jump / FG-e02-p02-k4-03 CH-02 皇帝 (800, 1650, 0) 向き 90° stand",
       "st.crowds": "見物の宮廷（創作の人数）（77）",
-      "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+      "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
       "st.underlay": "underlay/e02-p02-k4.jpg",
       "st.plan": "plans/e02-p02-k4.svg"
      }
@@ -329,7 +329,7 @@
       "st.fov": "横 42.4° × 縦 35°",
       "st.figures": "FG-e02-p03-k1-01 CH-04 フリムナップ (0, 1600, 485) 向き 90° jump / FG-e02-p03-k1-02 CH-30 廷臣1 (-260, 1600, 305) 向き 90° dance",
       "st.crowds": "見物の宮廷（創作の人数）（77）",
-      "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+      "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
       "st.underlay": "underlay/e02-p03-k1.jpg",
       "st.plan": "plans/e02-p03-k1.svg"
      }
@@ -356,7 +356,7 @@
       "st.fov": "横 26.8° × 縦 35°",
       "st.figures": "FG-e02-p03-k2-01 CH-30 廷臣3 (-800, 2300, 0) 向き 180° wave-hat / FG-e02-p03-k2-02 CH-30 廷臣4 (-650, 2400, 0) 向き 180° wave-hat / FG-e02-p03-k2-03 CH-04 フリムナップ (0, 1600, 305) 向き 90° stand",
       "st.crowds": "見物の宮廷（創作の人数）（77）",
-      "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+      "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
       "st.underlay": "underlay/e02-p03-k2.jpg",
       "st.plan": "plans/e02-p03-k2.svg"
      }
@@ -383,7 +383,7 @@
       "st.fov": "横 26.8° × 縦 35°",
       "st.figures": "FG-e02-p03-k3-01 CH-04 フリムナップ (0, 2150, 0) 向き 0° stand",
       "st.crowds": "",
-      "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+      "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
       "st.underlay": "underlay/e02-p03-k3.jpg",
       "st.plan": "plans/e02-p03-k3.svg"
      }
@@ -410,7 +410,7 @@
       "st.fov": "横 56.9° × 縦 35°",
       "st.figures": "FG-e02-p04-k1-01 CH-01 ガリヴァー (0, 700, 0) 向き 0° sit-reach / FG-e02-p04-k1-02 CH-30 廷臣2 (220, 1560, 200) 向き 90° fall / FG-e02-p04-k1-03 CH-30 廷臣1 (-200, 1600, 305) 向き 90° dance",
       "st.crowds": "見物の宮廷（創作の人数）（77）",
-      "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+      "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
       "st.underlay": "underlay/e02-p04-k1.jpg",
       "st.plan": "plans/e02-p04-k1.svg"
      }
@@ -437,7 +437,7 @@
       "st.fov": "横 40.1° × 縦 35°",
       "st.figures": "FG-e02-p04-k2-01 CH-01 ガリヴァー (0, 700, 0) 向き 0° sit-reach",
       "st.crowds": "",
-      "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+      "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
       "st.underlay": "underlay/e02-p04-k2.jpg",
       "st.plan": "plans/e02-p04-k2.svg"
      }
@@ -464,7 +464,7 @@
       "st.fov": "横 40.1° × 縦 35°",
       "st.figures": "FG-e02-p04-k3-01 CH-01 ガリヴァー (0, 700, 0) 向き 0° sit-reach / FG-e02-p04-k3-02 CH-30 廷臣2 (230, 1520, 190) 向き 90° crouch",
       "st.crowds": "",
-      "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+      "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
       "st.underlay": "underlay/e02-p04-k3.jpg",
       "st.plan": "plans/e02-p04-k3.svg"
      }
@@ -491,7 +491,7 @@
       "st.fov": "横 62.7° × 縦 29.6°",
       "st.figures": "FG-e02-p04-k4-01 CH-02 皇帝 (250, 2120, 0) 向き 180° hold-stick / FG-e02-p04-k4-02 CH-30 廷臣3 (400, 1950, 110) 向き 90° jump / FG-e02-p04-k4-03 CH-30 廷臣4 (480, 1930, 0) 向き 90° crouch",
       "st.crowds": "見物の宮廷（創作の人数）（77）",
-      "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+      "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
       "st.underlay": "underlay/e02-p04-k4.jpg",
       "st.plan": "plans/e02-p04-k4.svg"
      }
@@ -518,7 +518,7 @@
       "st.fov": "横 56.9° × 縦 35°",
       "st.figures": "FG-e02-p05-k1-01 CH-02 皇帝 (800, 1650, 0) 向き 90° carry-up",
       "st.crowds": "",
-      "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+      "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
       "st.underlay": "underlay/e02-p05-k1.jpg",
       "st.plan": "plans/e02-p05-k1.svg"
      }
@@ -545,7 +545,7 @@
       "st.fov": "横 62.7° × 縦 28.9°",
       "st.figures": "FG-e02-p05-k2-01 CH-30 廷臣1 (-330, 2150, 0) 向き 180° stand / FG-e02-p05-k2-02 CH-30 廷臣3 (-200, 2170, 0) 向き 180° stand / FG-e02-p05-k2-03 CH-04 フリムナップ (-460, 2140, 0) 向き 180° stand",
       "st.crowds": "",
-      "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+      "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
       "st.underlay": "underlay/e02-p05-k2.jpg",
       "st.plan": "plans/e02-p05-k2.svg"
      }
@@ -572,7 +572,7 @@
       "st.fov": "横 62.7° × 縦 29.6°",
       "st.figures": "FG-e02-p05-k3-01 CH-01 ガリヴァー (0, 700, 0) 向き 0° sit-look-down / FG-e02-p05-k3-02 CH-30 廷臣1 (-150, 1600, 305) 向き 90° dance / FG-e02-p05-k3-03 CH-02 皇帝 (800, 1650, 0) 向き 90° stand",
       "st.crowds": "見物の宮廷（創作の人数）（77）、広場の端の民（創作の人数）（240）",
-      "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+      "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
       "st.underlay": "underlay/e02-p05-k3.jpg",
       "st.plan": "plans/e02-p05-k3.svg"
      }
@@ -788,7 +788,7 @@
       "st.fov": "横 62.7° × 縦 29.6°",
       "st.figures": "FG-e02-p07-k4-01 CH-01 ガリヴァー (0, 700, 0) 向き 0° sit-look-down / FG-e02-p07-k4-02 CH-06 ボルゴラム (-200, 1600, 0) 向き 180° read / FG-e02-p07-k4-03 CH-30 ボルゴラムの従者1 (-50, 1750, 0) 向き 180° stand / FG-e02-p07-k4-04 CH-30 ボルゴラムの従者2 (-350, 1760, 0) 向き 180° stand",
       "st.crowds": "見物の宮廷（創作の人数）（77）",
-      "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+      "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
       "st.underlay": "underlay/e02-p07-k4.jpg",
       "st.plan": "plans/e02-p07-k4.svg"
      }
@@ -810,12 +810,12 @@
       "nm.text": "台詞（ボルゴラム）：自分で読み上げる。よく聞け。",
       "nm.turn": "",
       "st.set": "court：古い神殿（F106）の前の広場：宮廷の芸と解放の誓い",
-      "st.cam": "(-160, 1760, 136)",
-      "st.look": "(0, 800, 900)",
+      "st.cam": "(-600, 2500, 136)",
+      "st.look": "(-120, 900, 380)",
       "st.fov": "横 56.9° × 縦 35°",
       "st.figures": "FG-e02-p08-k1-01 CH-01 ガリヴァー (0, 700, 0) 向き 0° sit-look-down / FG-e02-p08-k1-02 CH-06 ボルゴラム (-200, 1600, 0) 向き 180° read",
       "st.crowds": "",
-      "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+      "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
       "st.underlay": "underlay/e02-p08-k1.jpg",
       "st.plan": "plans/e02-p08-k1.svg"
      }
@@ -842,7 +842,7 @@
       "st.fov": "横 40.1° × 縦 35°",
       "st.figures": "FG-e02-p08-k2-01 CH-01 ガリヴァー (0, 700, 0) 向き 0° sit-look-down / FG-e02-p08-k2-02 CH-06 ボルゴラム (-200, 1600, 0) 向き 180° read",
       "st.crowds": "",
-      "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+      "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
       "st.underlay": "underlay/e02-p08-k2.jpg",
       "st.plan": "plans/e02-p08-k2.svg"
      }
@@ -869,7 +869,7 @@
       "st.fov": "横 40.1° × 縦 35°",
       "st.figures": "FG-e02-p08-k3-01 CH-06 ボルゴラム (-200, 1600, 0) 向き 180° read / FG-e02-p08-k3-02 CH-30 ボルゴラムの従者1 (-50, 1750, 0) 向き 180° stand",
       "st.crowds": "",
-      "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+      "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
       "st.underlay": "underlay/e02-p08-k3.jpg",
       "st.plan": "plans/e02-p08-k3.svg"
      }
@@ -896,7 +896,7 @@
       "st.fov": "横 62.7° × 縦 29.6°",
       "st.figures": "FG-e02-p08-k4-01 CH-06 ボルゴラム (-200, 1600, 0) 向き 180° read / FG-e02-p08-k4-02 CH-30 ボルゴラムの従者1 (-50, 1750, 0) 向き 180° stand / FG-e02-p08-k4-03 CH-30 ボルゴラムの従者2 (-350, 1760, 0) 向き 180° stand",
       "st.crowds": "",
-      "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+      "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
       "st.underlay": "underlay/e02-p08-k4.jpg",
       "st.plan": "plans/e02-p08-k4.svg"
      }
@@ -923,7 +923,7 @@
       "st.fov": "横 39.5° × 縦 35°",
       "st.figures": "FG-e02-p09-k1-01 CH-01 ガリヴァー (0, 900, 0) 向き 0° oath / FG-e02-p09-k1-02 CH-06 ボルゴラム (-200, 1900, 0) 向き 180° stand",
       "st.crowds": "見物の宮廷（創作の人数）（77）",
-      "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+      "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
       "st.underlay": "underlay/e02-p09-k1.jpg",
       "st.plan": "plans/e02-p09-k1.svg"
      }
@@ -950,7 +950,7 @@
       "st.fov": "横 29.7° × 縦 35°",
       "st.figures": "FG-e02-p09-k2-01 CH-01 ガリヴァー (0, 900, 0) 向き 0° oath",
       "st.crowds": "",
-      "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+      "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
       "st.underlay": "underlay/e02-p09-k2.jpg",
       "st.plan": "plans/e02-p09-k2.svg"
      }
@@ -977,7 +977,7 @@
       "st.fov": "横 29.7° × 縦 35°",
       "st.figures": "FG-e02-p09-k3-01 CH-30 廷臣3 (850, 2300, 0) 向き 180° hands-together / FG-e02-p09-k3-02 CH-30 廷臣4 (720, 2350, 0) 向き 180° turn-away",
       "st.crowds": "見物の宮廷（創作の人数）（77）",
-      "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+      "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
       "st.underlay": "underlay/e02-p09-k3.jpg",
       "st.plan": "plans/e02-p09-k3.svg"
      }
@@ -1004,7 +1004,7 @@
       "st.fov": "横 56.9° × 縦 35°",
       "st.figures": "FG-e02-p10-k1-01 CH-01 ガリヴァー (0, 900, 0) 向き 0° stand",
       "st.crowds": "",
-      "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+      "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
       "st.underlay": "underlay/e02-p10-k1.jpg",
       "st.plan": "plans/e02-p10-k1.svg"
      }
@@ -1031,7 +1031,7 @@
       "st.fov": "横 62.7° × 縦 28.9°",
       "st.figures": "FG-e02-p10-k2-01 CH-01 ガリヴァー (0, 900, 0) 向き 0° stand / FG-e02-p10-k2-02 CH-06 ボルゴラム (-260, 2200, 0) 向き 0° walk",
       "st.crowds": "",
-      "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+      "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
       "st.underlay": "underlay/e02-p10-k2.jpg",
       "st.plan": "plans/e02-p10-k2.svg"
      }
@@ -1058,7 +1058,7 @@
       "st.fov": "横 62.7° × 縦 29.6°",
       "st.figures": "FG-e02-p10-k3-01 CH-06 ボルゴラム (-260, 2200, 0) 向き 0° walk",
       "st.crowds": "",
-      "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+      "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
       "st.underlay": "underlay/e02-p10-k3.jpg",
       "st.plan": "plans/e02-p10-k3.svg"
      }
@@ -1080,12 +1080,12 @@
       "nm.text": "",
       "nm.turn": "めくると都ミルデンドウの全景。",
       "st.set": "city：都ミルデンドウ（F105）と王宮",
-      "st.cam": "(-100500, 0, 3136)（hill の上）",
-      "st.look": "(-60000, 0, 0)",
+      "st.cam": "(-97700, 0, 3136)（hill の上）",
+      "st.look": "(-80500, 0, 700)",
       "st.fov": "横 39.5° × 縦 35°",
       "st.figures": "FG-e02-p11-k1-01 CH-01 ガリヴァー (-80500, 0, 0) 向き -90° stand",
       "st.crowds": "",
-      "st.models": "F105 都ミルデンドウ（bim artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6 b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
+      "st.models": "F105 都ミルデンドウ（bim artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
       "st.underlay": "underlay/e02-p11-k1.jpg",
       "st.plan": "plans/e02-p11-k1.svg"
      }
@@ -1112,7 +1112,7 @@
       "st.fov": "横 56.9° × 縦 35°",
       "st.figures": "FG-e02-p11-k2-01 CH-01 ガリヴァー (-79500, 0, 0) 向き -90° walk / FG-e02-p11-k2-02 CH-30 城壁の見張り (-76200, 1750, 762) 向き 90° point",
       "st.crowds": "",
-      "st.models": "F105 都ミルデンドウ（bim artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6 b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
+      "st.models": "F105 都ミルデンドウ（bim artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
       "st.underlay": "underlay/e02-p11-k2.jpg",
       "st.plan": "plans/e02-p11-k2.svg"
      }
@@ -1139,7 +1139,7 @@
       "st.fov": "横 61.7° × 縦 35°",
       "st.figures": "FG-e02-p12-k1-01 CH-01 ガリヴァー (-63500, 0, 0) 向き 0° walk",
       "st.crowds": "大通りの民（創作の人数）（76）",
-      "st.models": "F105 都ミルデンドウ（bim artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6 b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
+      "st.models": "F105 都ミルデンドウ（bim artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
       "st.underlay": "underlay/e02-p12-k1.jpg",
       "st.plan": "plans/e02-p12-k1.svg"
      }
@@ -1166,7 +1166,7 @@
       "st.fov": "横 62.7° × 縦 35°",
       "st.figures": "FG-e02-p12-k2-01 CH-01 ガリヴァー (-62000, 0, 0) 向き 0° walk",
       "st.crowds": "屋根と窓の見物人（創作の人数）（62）",
-      "st.models": "F105 都ミルデンドウ（bim artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6 b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
+      "st.models": "F105 都ミルデンドウ（bim artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
       "st.underlay": "underlay/e02-p12-k2.jpg",
       "st.plan": "plans/e02-p12-k2.svg"
      }
@@ -1193,7 +1193,7 @@
       "st.fov": "横 62.7° × 縦 27°",
       "st.figures": "FG-e02-p12-k3-01 CH-01 ガリヴァー (-62000, 0, 0) 向き 0° walk",
       "st.crowds": "屋根と窓の見物人（創作の人数）（62）",
-      "st.models": "F105 都ミルデンドウ（bim artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6 b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
+      "st.models": "F105 都ミルデンドウ（bim artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
       "st.underlay": "underlay/e02-p12-k3.jpg",
       "st.plan": "plans/e02-p12-k3.svg"
      }
@@ -1220,7 +1220,7 @@
       "st.fov": "横 46.7° × 縦 35°",
       "st.figures": "FG-e02-p13-k1-01 CH-01 ガリヴァー (-76200, 8000, 0) 向き -90° step-over",
       "st.crowds": "城壁の内側の道の民（創作の人数）（64）",
-      "st.models": "F105 都ミルデンドウ（bim artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6 b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
+      "st.models": "F105 都ミルデンドウ（bim artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
       "st.underlay": "underlay/e02-p13-k1.jpg",
       "st.plan": "plans/e02-p13-k1.svg"
      }
@@ -1247,7 +1247,7 @@
       "st.fov": "横 46.7° × 縦 35°",
       "st.figures": "FG-e02-p13-k2-01 CH-01 ガリヴァー (-76200, 8000, 0) 向き -90° step-over",
       "st.crowds": "城壁の内側の道の民（創作の人数）（64）",
-      "st.models": "F105 都ミルデンドウ（bim artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6 b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
+      "st.models": "F105 都ミルデンドウ（bim artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
       "st.underlay": "underlay/e02-p13-k2.jpg",
       "st.plan": "plans/e02-p13-k2.svg"
      }
@@ -1274,7 +1274,7 @@
       "st.fov": "横 46.7° × 縦 35°",
       "st.figures": "",
       "st.crowds": "",
-      "st.models": "F105 都ミルデンドウ（bim artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6 b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
+      "st.models": "F105 都ミルデンドウ（bim artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
       "st.underlay": "underlay/e02-p14-k1.jpg",
       "st.plan": "plans/e02-p14-k1.svg"
      }
@@ -1301,7 +1301,7 @@
       "st.fov": "横 46.7° × 縦 35°",
       "st.figures": "FG-e02-p14-k2-01 CH-01 ガリヴァー (0, -5000, 1524) 向き 0° step-over",
       "st.crowds": "",
-      "st.models": "F105 都ミルデンドウ（bim artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6 b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
+      "st.models": "F105 都ミルデンドウ（bim artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
       "st.underlay": "underlay/e02-p14-k2.jpg",
       "st.plan": "plans/e02-p14-k2.svg"
      }
@@ -1326,9 +1326,9 @@
       "st.cam": "(-762, -700, 386)（dais の上）",
       "st.look": "(-762, -1524, 530)",
       "st.fov": "横 42.4° × 縦 35°",
-      "st.figures": "FG-e02-p15-k1-01 CH-01 ガリヴァー (-762, -2080, 0) 向き 0° prone-look / FG-e02-p15-k1-02 CH-03 皇后 (-1050, -1330, 250) 向き 180° point / FG-e02-p15-k1-03 CH-30 若い王子1 (-560, -1100, 0) 向き 180° fall / FG-e02-p15-k1-04 CH-30 若い王子2 (-420, -1000, 0) 向き 180° point",
+      "st.figures": "FG-e02-p15-k1-01 CH-01 ガリヴァー (-762, -3450, 0) 向き 0° prone-look / FG-e02-p15-k1-02 CH-03 皇后 (-1050, -1330, 250) 向き 180° point / FG-e02-p15-k1-03 CH-30 若い王子1 (-560, -1100, 0) 向き 180° fall / FG-e02-p15-k1-04 CH-30 若い王子2 (-420, -1000, 0) 向き 180° point",
       "st.crowds": "",
-      "st.models": "F105 都ミルデンドウ（bim artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6 b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
+      "st.models": "F105 都ミルデンドウ（bim artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
       "st.underlay": "underlay/e02-p15-k1.jpg",
       "st.plan": "plans/e02-p15-k1.svg"
      }
@@ -1353,9 +1353,9 @@
       "st.cam": "(-1050, -1470, 386)（dais の上）",
       "st.look": "(-1050, -1330, 370)",
       "st.fov": "横 26.8° × 縦 35°",
-      "st.figures": "FG-e02-p15-k2-01 CH-01 ガリヴァー (-762, -2080, 0) 向き 0° prone-look / FG-e02-p15-k2-02 CH-03 皇后 (-1050, -1330, 250) 向き 180° point",
+      "st.figures": "FG-e02-p15-k2-01 CH-01 ガリヴァー (-762, -3450, 0) 向き 0° prone-look / FG-e02-p15-k2-02 CH-03 皇后 (-1050, -1330, 250) 向き 180° point",
       "st.crowds": "",
-      "st.models": "F105 都ミルデンドウ（bim artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6 b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
+      "st.models": "F105 都ミルデンドウ（bim artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
       "st.underlay": "underlay/e02-p15-k2.jpg",
       "st.plan": "plans/e02-p15-k2.svg"
      }
@@ -1380,9 +1380,9 @@
       "st.cam": "(-762, 900, 386)（dais の上）",
       "st.look": "(-762, -1524, 500)",
       "st.fov": "横 26.8° × 縦 35°",
-      "st.figures": "FG-e02-p15-k3-01 CH-01 ガリヴァー (-762, -2080, 0) 向き 0° prone-look / FG-e02-p15-k3-02 CH-03 皇后 (-1050, -1330, 250) 向き 180° point / FG-e02-p15-k3-03 CH-30 若い王子1 (-560, -1100, 0) 向き 180° stand",
+      "st.figures": "FG-e02-p15-k3-01 CH-01 ガリヴァー (-762, -3450, 0) 向き 0° prone-look / FG-e02-p15-k3-02 CH-03 皇后 (-1050, -1330, 250) 向き 180° point / FG-e02-p15-k3-03 CH-30 若い王子1 (-560, -1100, 0) 向き 180° stand",
       "st.crowds": "",
-      "st.models": "F105 都ミルデンドウ（bim artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6 b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
+      "st.models": "F105 都ミルデンドウ（bim artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
       "st.underlay": "underlay/e02-p15-k3.jpg",
       "st.plan": "plans/e02-p15-k3.svg"
      }
@@ -1407,9 +1407,9 @@
       "st.cam": "(-380, -1120, 386)（dais の上）",
       "st.look": "(-840, -1480, 430)",
       "st.fov": "横 46.7° × 縦 35°",
-      "st.figures": "FG-e02-p16-k1-01 CH-01 ガリヴァー (-762, -2080, 0) 向き 0° prone-look / FG-e02-p16-k1-02 CH-03 皇后 (-880, -1400, 250) 向き 180° point",
+      "st.figures": "FG-e02-p16-k1-01 CH-01 ガリヴァー (-762, -3450, 0) 向き 0° prone-look / FG-e02-p16-k1-02 CH-03 皇后 (-880, -1400, 250) 向き 180° point",
       "st.crowds": "",
-      "st.models": "F105 都ミルデンドウ（bim artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6 b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
+      "st.models": "F105 都ミルデンドウ（bim artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
       "st.underlay": "underlay/e02-p16-k1.jpg",
       "st.plan": "plans/e02-p16-k1.svg"
      }
@@ -1420,23 +1420,23 @@
       "nm.page": 16,
       "nm.order": 2,
       "nm.scene": "SC-008",
-      "nm.shot": "大引き",
+      "nm.shot": "引き",
       "nm.eye": "小人の目の高さ",
-      "nm.mm": 3136,
-      "nm.stand": "都の西の丘（創作：3,000 mm）",
-      "nm.look": "都の西の丘の上から、夕日の都と、王宮に寝そべるガリヴァーを",
+      "nm.mm": 136,
+      "nm.stand": "",
+      "nm.look": "内庭の地面から、夕日の中、奥の宮殿の窓辺に寝そべるガリヴァーを",
       "nm.size": true,
-      "nm.art": "夕日の都。王宮の内庭に寝そべるガリヴァー。",
+      "nm.art": "夕日の内庭。奥の宮殿の窓辺に寝そべるガリヴァー。",
       "nm.lines": "SC-008.L13",
       "nm.text": "ナレーション（ガリヴァー）：これほど美しい宮殿を、私は見たことがない。そう思った。そのときは。",
       "nm.turn": "",
       "st.set": "city：都ミルデンドウ（F105）と王宮",
-      "st.cam": "(-100500, 0, 3136)（hill の上）",
-      "st.look": "(-30000, 0, 0)",
+      "st.cam": "(1400, -3600, 136)",
+      "st.look": "(-762, -2600, 330)",
       "st.fov": "横 46.7° × 縦 35°",
-      "st.figures": "FG-e02-p16-k2-01 CH-01 ガリヴァー (-762, -2080, 0) 向き 0° prone-look",
+      "st.figures": "FG-e02-p16-k2-01 CH-01 ガリヴァー (-762, -3450, 0) 向き 0° prone-look",
       "st.crowds": "",
-      "st.models": "F105 都ミルデンドウ（bim artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6 b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
+      "st.models": "F105 都ミルデンドウ（bim artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
       "st.underlay": "underlay/e02-p16-k2.jpg",
       "st.plan": "plans/e02-p16-k2.svg"
      }
@@ -1606,12 +1606,12 @@
        "nm.text": "",
        "nm.turn": "扉。題と、手のひらの上の芸で大きさの違いを最初に見せる（AR-05）。",
        "st.set": "court：古い神殿（F106）の前の広場：宮廷の芸と解放の誓い",
-       "st.cam": "(760, 1720, 136)",
-       "st.look": "(180, 1290, 640)",
+       "st.cam": "(1500, 2700, 136)",
+       "st.look": "(120, 950, 720)",
        "st.fov": "横 34.1° × 縦 35°",
        "st.figures": "FG-e02-p01-k1-01 CH-01 ガリヴァー (0, 700, 0) 向き 0° sit-palm / FG-e02-p01-k1-02 CH-30 廷臣1 (150, 1280, 600) 向き 90° dance / FG-e02-p01-k1-03 CH-30 廷臣2 (205, 1305, 600) 向き 90° jump / FG-e02-p01-k1-04 CH-30 廷臣3 (180, 1330, 600) 向き 90° wave-hat / FG-e02-p01-k1-05 CH-02 皇帝 (800, 1650, 0) 向き 90° stand",
        "st.crowds": "見物の宮廷（創作の人数）（77）",
-       "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+       "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
        "st.underlay": "underlay/e02-p01-k1.jpg",
        "st.plan": "plans/e02-p01-k1.svg"
       }
@@ -1638,7 +1638,7 @@
        "st.fov": "横 62.7° × 縦 29.6°",
        "st.figures": "FG-e02-p01-k2-01 CH-01 ガリヴァー (0, 700, 0) 向き 0° sit-palm / FG-e02-p01-k2-02 CH-30 廷臣1 (150, 1280, 600) 向き 90° dance / FG-e02-p01-k2-03 CH-30 廷臣2 (205, 1305, 600) 向き 90° jump / FG-e02-p01-k2-04 CH-02 皇帝 (800, 1650, 0) 向き 90° stand",
        "st.crowds": "見物の宮廷（創作の人数）（77）、広場の端の民（創作の人数）（240）",
-       "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+       "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
        "st.underlay": "underlay/e02-p01-k2.jpg",
        "st.plan": "plans/e02-p01-k2.svg"
       }
@@ -1665,7 +1665,7 @@
        "st.fov": "横 56.9° × 縦 35°",
        "st.figures": "FG-e02-p02-k1-01 CH-01 ガリヴァー (0, 700, 0) 向き 0° sit-look-down / FG-e02-p02-k1-02 CH-30 廷臣1 (-150, 1600, 305) 向き 90° dance / FG-e02-p02-k1-03 CH-30 廷臣2 (120, 1600, 365) 向き 90° jump / FG-e02-p02-k1-04 CH-02 皇帝 (800, 1650, 0) 向き 90° stand",
        "st.crowds": "見物の宮廷（創作の人数）（77）",
-       "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+       "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
        "st.underlay": "underlay/e02-p02-k1.jpg",
        "st.plan": "plans/e02-p02-k1.svg"
       }
@@ -1692,7 +1692,7 @@
        "st.fov": "横 51° × 縦 35°",
        "st.figures": "FG-e02-p02-k2-01 CH-01 ガリヴァー (0, 700, 0) 向き 0° sit-look-down / FG-e02-p02-k2-02 CH-30 廷臣1 (-150, 1600, 305) 向き 90° dance / FG-e02-p02-k2-03 CH-30 廷臣2 (120, 1600, 365) 向き 90° jump / FG-e02-p02-k2-04 CH-02 皇帝 (800, 1650, 0) 向き 90° stand",
        "st.crowds": "見物の宮廷（創作の人数）（77）",
-       "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+       "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
        "st.underlay": "underlay/e02-p02-k2.jpg",
        "st.plan": "plans/e02-p02-k2.svg"
       }
@@ -1719,7 +1719,7 @@
        "st.fov": "横 28.4° × 縦 35°",
        "st.figures": "FG-e02-p02-k3-01 CH-30 廷臣1 (-20, 1600, 305) 向き 90° dance",
        "st.crowds": "",
-       "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+       "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
        "st.underlay": "underlay/e02-p02-k3.jpg",
        "st.plan": "plans/e02-p02-k3.svg"
       }
@@ -1746,7 +1746,7 @@
        "st.fov": "横 62.7° × 縦 29.6°",
        "st.figures": "FG-e02-p02-k4-01 CH-30 廷臣1 (-150, 1600, 305) 向き 90° dance / FG-e02-p02-k4-02 CH-30 廷臣2 (120, 1600, 365) 向き 90° jump / FG-e02-p02-k4-03 CH-02 皇帝 (800, 1650, 0) 向き 90° stand",
        "st.crowds": "見物の宮廷（創作の人数）（77）",
-       "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+       "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
        "st.underlay": "underlay/e02-p02-k4.jpg",
        "st.plan": "plans/e02-p02-k4.svg"
       }
@@ -1773,7 +1773,7 @@
        "st.fov": "横 42.4° × 縦 35°",
        "st.figures": "FG-e02-p03-k1-01 CH-04 フリムナップ (0, 1600, 485) 向き 90° jump / FG-e02-p03-k1-02 CH-30 廷臣1 (-260, 1600, 305) 向き 90° dance",
        "st.crowds": "見物の宮廷（創作の人数）（77）",
-       "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+       "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
        "st.underlay": "underlay/e02-p03-k1.jpg",
        "st.plan": "plans/e02-p03-k1.svg"
       }
@@ -1800,7 +1800,7 @@
        "st.fov": "横 26.8° × 縦 35°",
        "st.figures": "FG-e02-p03-k2-01 CH-30 廷臣3 (-800, 2300, 0) 向き 180° wave-hat / FG-e02-p03-k2-02 CH-30 廷臣4 (-650, 2400, 0) 向き 180° wave-hat / FG-e02-p03-k2-03 CH-04 フリムナップ (0, 1600, 305) 向き 90° stand",
        "st.crowds": "見物の宮廷（創作の人数）（77）",
-       "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+       "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
        "st.underlay": "underlay/e02-p03-k2.jpg",
        "st.plan": "plans/e02-p03-k2.svg"
       }
@@ -1827,7 +1827,7 @@
        "st.fov": "横 26.8° × 縦 35°",
        "st.figures": "FG-e02-p03-k3-01 CH-04 フリムナップ (0, 2150, 0) 向き 0° stand",
        "st.crowds": "",
-       "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+       "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
        "st.underlay": "underlay/e02-p03-k3.jpg",
        "st.plan": "plans/e02-p03-k3.svg"
       }
@@ -1854,7 +1854,7 @@
        "st.fov": "横 56.9° × 縦 35°",
        "st.figures": "FG-e02-p04-k1-01 CH-01 ガリヴァー (0, 700, 0) 向き 0° sit-reach / FG-e02-p04-k1-02 CH-30 廷臣2 (220, 1560, 200) 向き 90° fall / FG-e02-p04-k1-03 CH-30 廷臣1 (-200, 1600, 305) 向き 90° dance",
        "st.crowds": "見物の宮廷（創作の人数）（77）",
-       "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+       "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
        "st.underlay": "underlay/e02-p04-k1.jpg",
        "st.plan": "plans/e02-p04-k1.svg"
       }
@@ -1881,7 +1881,7 @@
        "st.fov": "横 40.1° × 縦 35°",
        "st.figures": "FG-e02-p04-k2-01 CH-01 ガリヴァー (0, 700, 0) 向き 0° sit-reach",
        "st.crowds": "",
-       "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+       "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
        "st.underlay": "underlay/e02-p04-k2.jpg",
        "st.plan": "plans/e02-p04-k2.svg"
       }
@@ -1908,7 +1908,7 @@
        "st.fov": "横 40.1° × 縦 35°",
        "st.figures": "FG-e02-p04-k3-01 CH-01 ガリヴァー (0, 700, 0) 向き 0° sit-reach / FG-e02-p04-k3-02 CH-30 廷臣2 (230, 1520, 190) 向き 90° crouch",
        "st.crowds": "",
-       "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+       "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
        "st.underlay": "underlay/e02-p04-k3.jpg",
        "st.plan": "plans/e02-p04-k3.svg"
       }
@@ -1935,7 +1935,7 @@
        "st.fov": "横 62.7° × 縦 29.6°",
        "st.figures": "FG-e02-p04-k4-01 CH-02 皇帝 (250, 2120, 0) 向き 180° hold-stick / FG-e02-p04-k4-02 CH-30 廷臣3 (400, 1950, 110) 向き 90° jump / FG-e02-p04-k4-03 CH-30 廷臣4 (480, 1930, 0) 向き 90° crouch",
        "st.crowds": "見物の宮廷（創作の人数）（77）",
-       "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+       "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
        "st.underlay": "underlay/e02-p04-k4.jpg",
        "st.plan": "plans/e02-p04-k4.svg"
       }
@@ -1962,7 +1962,7 @@
        "st.fov": "横 56.9° × 縦 35°",
        "st.figures": "FG-e02-p05-k1-01 CH-02 皇帝 (800, 1650, 0) 向き 90° carry-up",
        "st.crowds": "",
-       "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+       "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
        "st.underlay": "underlay/e02-p05-k1.jpg",
        "st.plan": "plans/e02-p05-k1.svg"
       }
@@ -1989,7 +1989,7 @@
        "st.fov": "横 62.7° × 縦 28.9°",
        "st.figures": "FG-e02-p05-k2-01 CH-30 廷臣1 (-330, 2150, 0) 向き 180° stand / FG-e02-p05-k2-02 CH-30 廷臣3 (-200, 2170, 0) 向き 180° stand / FG-e02-p05-k2-03 CH-04 フリムナップ (-460, 2140, 0) 向き 180° stand",
        "st.crowds": "",
-       "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+       "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
        "st.underlay": "underlay/e02-p05-k2.jpg",
        "st.plan": "plans/e02-p05-k2.svg"
       }
@@ -2016,7 +2016,7 @@
        "st.fov": "横 62.7° × 縦 29.6°",
        "st.figures": "FG-e02-p05-k3-01 CH-01 ガリヴァー (0, 700, 0) 向き 0° sit-look-down / FG-e02-p05-k3-02 CH-30 廷臣1 (-150, 1600, 305) 向き 90° dance / FG-e02-p05-k3-03 CH-02 皇帝 (800, 1650, 0) 向き 90° stand",
        "st.crowds": "見物の宮廷（創作の人数）（77）、広場の端の民（創作の人数）（240）",
-       "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+       "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
        "st.underlay": "underlay/e02-p05-k3.jpg",
        "st.plan": "plans/e02-p05-k3.svg"
       }
@@ -2232,7 +2232,7 @@
        "st.fov": "横 62.7° × 縦 29.6°",
        "st.figures": "FG-e02-p07-k4-01 CH-01 ガリヴァー (0, 700, 0) 向き 0° sit-look-down / FG-e02-p07-k4-02 CH-06 ボルゴラム (-200, 1600, 0) 向き 180° read / FG-e02-p07-k4-03 CH-30 ボルゴラムの従者1 (-50, 1750, 0) 向き 180° stand / FG-e02-p07-k4-04 CH-30 ボルゴラムの従者2 (-350, 1760, 0) 向き 180° stand",
        "st.crowds": "見物の宮廷（創作の人数）（77）",
-       "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+       "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
        "st.underlay": "underlay/e02-p07-k4.jpg",
        "st.plan": "plans/e02-p07-k4.svg"
       }
@@ -2254,12 +2254,12 @@
        "nm.text": "台詞（ボルゴラム）：自分で読み上げる。よく聞け。",
        "nm.turn": "",
        "st.set": "court：古い神殿（F106）の前の広場：宮廷の芸と解放の誓い",
-       "st.cam": "(-160, 1760, 136)",
-       "st.look": "(0, 800, 900)",
+       "st.cam": "(-600, 2500, 136)",
+       "st.look": "(-120, 900, 380)",
        "st.fov": "横 56.9° × 縦 35°",
        "st.figures": "FG-e02-p08-k1-01 CH-01 ガリヴァー (0, 700, 0) 向き 0° sit-look-down / FG-e02-p08-k1-02 CH-06 ボルゴラム (-200, 1600, 0) 向き 180° read",
        "st.crowds": "",
-       "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+       "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
        "st.underlay": "underlay/e02-p08-k1.jpg",
        "st.plan": "plans/e02-p08-k1.svg"
       }
@@ -2286,7 +2286,7 @@
        "st.fov": "横 40.1° × 縦 35°",
        "st.figures": "FG-e02-p08-k2-01 CH-01 ガリヴァー (0, 700, 0) 向き 0° sit-look-down / FG-e02-p08-k2-02 CH-06 ボルゴラム (-200, 1600, 0) 向き 180° read",
        "st.crowds": "",
-       "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+       "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
        "st.underlay": "underlay/e02-p08-k2.jpg",
        "st.plan": "plans/e02-p08-k2.svg"
       }
@@ -2313,7 +2313,7 @@
        "st.fov": "横 40.1° × 縦 35°",
        "st.figures": "FG-e02-p08-k3-01 CH-06 ボルゴラム (-200, 1600, 0) 向き 180° read / FG-e02-p08-k3-02 CH-30 ボルゴラムの従者1 (-50, 1750, 0) 向き 180° stand",
        "st.crowds": "",
-       "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+       "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
        "st.underlay": "underlay/e02-p08-k3.jpg",
        "st.plan": "plans/e02-p08-k3.svg"
       }
@@ -2340,7 +2340,7 @@
        "st.fov": "横 62.7° × 縦 29.6°",
        "st.figures": "FG-e02-p08-k4-01 CH-06 ボルゴラム (-200, 1600, 0) 向き 180° read / FG-e02-p08-k4-02 CH-30 ボルゴラムの従者1 (-50, 1750, 0) 向き 180° stand / FG-e02-p08-k4-03 CH-30 ボルゴラムの従者2 (-350, 1760, 0) 向き 180° stand",
        "st.crowds": "",
-       "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+       "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
        "st.underlay": "underlay/e02-p08-k4.jpg",
        "st.plan": "plans/e02-p08-k4.svg"
       }
@@ -2367,7 +2367,7 @@
        "st.fov": "横 39.5° × 縦 35°",
        "st.figures": "FG-e02-p09-k1-01 CH-01 ガリヴァー (0, 900, 0) 向き 0° oath / FG-e02-p09-k1-02 CH-06 ボルゴラム (-200, 1900, 0) 向き 180° stand",
        "st.crowds": "見物の宮廷（創作の人数）（77）",
-       "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+       "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
        "st.underlay": "underlay/e02-p09-k1.jpg",
        "st.plan": "plans/e02-p09-k1.svg"
       }
@@ -2394,7 +2394,7 @@
        "st.fov": "横 29.7° × 縦 35°",
        "st.figures": "FG-e02-p09-k2-01 CH-01 ガリヴァー (0, 900, 0) 向き 0° oath",
        "st.crowds": "",
-       "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+       "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
        "st.underlay": "underlay/e02-p09-k2.jpg",
        "st.plan": "plans/e02-p09-k2.svg"
       }
@@ -2421,7 +2421,7 @@
        "st.fov": "横 29.7° × 縦 35°",
        "st.figures": "FG-e02-p09-k3-01 CH-30 廷臣3 (850, 2300, 0) 向き 180° hands-together / FG-e02-p09-k3-02 CH-30 廷臣4 (720, 2350, 0) 向き 180° turn-away",
        "st.crowds": "見物の宮廷（創作の人数）（77）",
-       "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+       "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
        "st.underlay": "underlay/e02-p09-k3.jpg",
        "st.plan": "plans/e02-p09-k3.svg"
       }
@@ -2448,7 +2448,7 @@
        "st.fov": "横 56.9° × 縦 35°",
        "st.figures": "FG-e02-p10-k1-01 CH-01 ガリヴァー (0, 900, 0) 向き 0° stand",
        "st.crowds": "",
-       "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+       "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
        "st.underlay": "underlay/e02-p10-k1.jpg",
        "st.plan": "plans/e02-p10-k1.svg"
       }
@@ -2475,7 +2475,7 @@
        "st.fov": "横 62.7° × 縦 28.9°",
        "st.figures": "FG-e02-p10-k2-01 CH-01 ガリヴァー (0, 900, 0) 向き 0° stand / FG-e02-p10-k2-02 CH-06 ボルゴラム (-260, 2200, 0) 向き 0° walk",
        "st.crowds": "",
-       "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+       "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
        "st.underlay": "underlay/e02-p10-k2.jpg",
        "st.plan": "plans/e02-p10-k2.svg"
       }
@@ -2502,7 +2502,7 @@
        "st.fov": "横 62.7° × 縦 29.6°",
        "st.figures": "FG-e02-p10-k3-01 CH-06 ボルゴラム (-260, 2200, 0) 向き 0° walk",
        "st.crowds": "",
-       "st.models": "F106 古い神殿（bim artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
+       "st.models": "F106 古い神殿（bim artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 court（cad artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb 8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24）",
        "st.underlay": "underlay/e02-p10-k3.jpg",
        "st.plan": "plans/e02-p10-k3.svg"
       }
@@ -2524,12 +2524,12 @@
        "nm.text": "",
        "nm.turn": "めくると都ミルデンドウの全景。",
        "st.set": "city：都ミルデンドウ（F105）と王宮",
-       "st.cam": "(-100500, 0, 3136)（hill の上）",
-       "st.look": "(-60000, 0, 0)",
+       "st.cam": "(-97700, 0, 3136)（hill の上）",
+       "st.look": "(-80500, 0, 700)",
        "st.fov": "横 39.5° × 縦 35°",
        "st.figures": "FG-e02-p11-k1-01 CH-01 ガリヴァー (-80500, 0, 0) 向き -90° stand",
        "st.crowds": "",
-       "st.models": "F105 都ミルデンドウ（bim artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6 b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
+       "st.models": "F105 都ミルデンドウ（bim artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
        "st.underlay": "underlay/e02-p11-k1.jpg",
        "st.plan": "plans/e02-p11-k1.svg"
       }
@@ -2556,7 +2556,7 @@
        "st.fov": "横 56.9° × 縦 35°",
        "st.figures": "FG-e02-p11-k2-01 CH-01 ガリヴァー (-79500, 0, 0) 向き -90° walk / FG-e02-p11-k2-02 CH-30 城壁の見張り (-76200, 1750, 762) 向き 90° point",
        "st.crowds": "",
-       "st.models": "F105 都ミルデンドウ（bim artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6 b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
+       "st.models": "F105 都ミルデンドウ（bim artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
        "st.underlay": "underlay/e02-p11-k2.jpg",
        "st.plan": "plans/e02-p11-k2.svg"
       }
@@ -2583,7 +2583,7 @@
        "st.fov": "横 61.7° × 縦 35°",
        "st.figures": "FG-e02-p12-k1-01 CH-01 ガリヴァー (-63500, 0, 0) 向き 0° walk",
        "st.crowds": "大通りの民（創作の人数）（76）",
-       "st.models": "F105 都ミルデンドウ（bim artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6 b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
+       "st.models": "F105 都ミルデンドウ（bim artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
        "st.underlay": "underlay/e02-p12-k1.jpg",
        "st.plan": "plans/e02-p12-k1.svg"
       }
@@ -2610,7 +2610,7 @@
        "st.fov": "横 62.7° × 縦 35°",
        "st.figures": "FG-e02-p12-k2-01 CH-01 ガリヴァー (-62000, 0, 0) 向き 0° walk",
        "st.crowds": "屋根と窓の見物人（創作の人数）（62）",
-       "st.models": "F105 都ミルデンドウ（bim artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6 b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
+       "st.models": "F105 都ミルデンドウ（bim artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
        "st.underlay": "underlay/e02-p12-k2.jpg",
        "st.plan": "plans/e02-p12-k2.svg"
       }
@@ -2637,7 +2637,7 @@
        "st.fov": "横 62.7° × 縦 27°",
        "st.figures": "FG-e02-p12-k3-01 CH-01 ガリヴァー (-62000, 0, 0) 向き 0° walk",
        "st.crowds": "屋根と窓の見物人（創作の人数）（62）",
-       "st.models": "F105 都ミルデンドウ（bim artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6 b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
+       "st.models": "F105 都ミルデンドウ（bim artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
        "st.underlay": "underlay/e02-p12-k3.jpg",
        "st.plan": "plans/e02-p12-k3.svg"
       }
@@ -2664,7 +2664,7 @@
        "st.fov": "横 46.7° × 縦 35°",
        "st.figures": "FG-e02-p13-k1-01 CH-01 ガリヴァー (-76200, 8000, 0) 向き -90° step-over",
        "st.crowds": "城壁の内側の道の民（創作の人数）（64）",
-       "st.models": "F105 都ミルデンドウ（bim artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6 b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
+       "st.models": "F105 都ミルデンドウ（bim artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
        "st.underlay": "underlay/e02-p13-k1.jpg",
        "st.plan": "plans/e02-p13-k1.svg"
       }
@@ -2691,7 +2691,7 @@
        "st.fov": "横 46.7° × 縦 35°",
        "st.figures": "FG-e02-p13-k2-01 CH-01 ガリヴァー (-76200, 8000, 0) 向き -90° step-over",
        "st.crowds": "城壁の内側の道の民（創作の人数）（64）",
-       "st.models": "F105 都ミルデンドウ（bim artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6 b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
+       "st.models": "F105 都ミルデンドウ（bim artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
        "st.underlay": "underlay/e02-p13-k2.jpg",
        "st.plan": "plans/e02-p13-k2.svg"
       }
@@ -2718,7 +2718,7 @@
        "st.fov": "横 46.7° × 縦 35°",
        "st.figures": "",
        "st.crowds": "",
-       "st.models": "F105 都ミルデンドウ（bim artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6 b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
+       "st.models": "F105 都ミルデンドウ（bim artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
        "st.underlay": "underlay/e02-p14-k1.jpg",
        "st.plan": "plans/e02-p14-k1.svg"
       }
@@ -2745,7 +2745,7 @@
        "st.fov": "横 46.7° × 縦 35°",
        "st.figures": "FG-e02-p14-k2-01 CH-01 ガリヴァー (0, -5000, 1524) 向き 0° step-over",
        "st.crowds": "",
-       "st.models": "F105 都ミルデンドウ（bim artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6 b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
+       "st.models": "F105 都ミルデンドウ（bim artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
        "st.underlay": "underlay/e02-p14-k2.jpg",
        "st.plan": "plans/e02-p14-k2.svg"
       }
@@ -2770,9 +2770,9 @@
        "st.cam": "(-762, -700, 386)（dais の上）",
        "st.look": "(-762, -1524, 530)",
        "st.fov": "横 42.4° × 縦 35°",
-       "st.figures": "FG-e02-p15-k1-01 CH-01 ガリヴァー (-762, -2080, 0) 向き 0° prone-look / FG-e02-p15-k1-02 CH-03 皇后 (-1050, -1330, 250) 向き 180° point / FG-e02-p15-k1-03 CH-30 若い王子1 (-560, -1100, 0) 向き 180° fall / FG-e02-p15-k1-04 CH-30 若い王子2 (-420, -1000, 0) 向き 180° point",
+       "st.figures": "FG-e02-p15-k1-01 CH-01 ガリヴァー (-762, -3450, 0) 向き 0° prone-look / FG-e02-p15-k1-02 CH-03 皇后 (-1050, -1330, 250) 向き 180° point / FG-e02-p15-k1-03 CH-30 若い王子1 (-560, -1100, 0) 向き 180° fall / FG-e02-p15-k1-04 CH-30 若い王子2 (-420, -1000, 0) 向き 180° point",
        "st.crowds": "",
-       "st.models": "F105 都ミルデンドウ（bim artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6 b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
+       "st.models": "F105 都ミルデンドウ（bim artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
        "st.underlay": "underlay/e02-p15-k1.jpg",
        "st.plan": "plans/e02-p15-k1.svg"
       }
@@ -2797,9 +2797,9 @@
        "st.cam": "(-1050, -1470, 386)（dais の上）",
        "st.look": "(-1050, -1330, 370)",
        "st.fov": "横 26.8° × 縦 35°",
-       "st.figures": "FG-e02-p15-k2-01 CH-01 ガリヴァー (-762, -2080, 0) 向き 0° prone-look / FG-e02-p15-k2-02 CH-03 皇后 (-1050, -1330, 250) 向き 180° point",
+       "st.figures": "FG-e02-p15-k2-01 CH-01 ガリヴァー (-762, -3450, 0) 向き 0° prone-look / FG-e02-p15-k2-02 CH-03 皇后 (-1050, -1330, 250) 向き 180° point",
        "st.crowds": "",
-       "st.models": "F105 都ミルデンドウ（bim artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6 b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
+       "st.models": "F105 都ミルデンドウ（bim artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
        "st.underlay": "underlay/e02-p15-k2.jpg",
        "st.plan": "plans/e02-p15-k2.svg"
       }
@@ -2824,9 +2824,9 @@
        "st.cam": "(-762, 900, 386)（dais の上）",
        "st.look": "(-762, -1524, 500)",
        "st.fov": "横 26.8° × 縦 35°",
-       "st.figures": "FG-e02-p15-k3-01 CH-01 ガリヴァー (-762, -2080, 0) 向き 0° prone-look / FG-e02-p15-k3-02 CH-03 皇后 (-1050, -1330, 250) 向き 180° point / FG-e02-p15-k3-03 CH-30 若い王子1 (-560, -1100, 0) 向き 180° stand",
+       "st.figures": "FG-e02-p15-k3-01 CH-01 ガリヴァー (-762, -3450, 0) 向き 0° prone-look / FG-e02-p15-k3-02 CH-03 皇后 (-1050, -1330, 250) 向き 180° point / FG-e02-p15-k3-03 CH-30 若い王子1 (-560, -1100, 0) 向き 180° stand",
        "st.crowds": "",
-       "st.models": "F105 都ミルデンドウ（bim artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6 b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
+       "st.models": "F105 都ミルデンドウ（bim artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
        "st.underlay": "underlay/e02-p15-k3.jpg",
        "st.plan": "plans/e02-p15-k3.svg"
       }
@@ -2851,9 +2851,9 @@
        "st.cam": "(-380, -1120, 386)（dais の上）",
        "st.look": "(-840, -1480, 430)",
        "st.fov": "横 46.7° × 縦 35°",
-       "st.figures": "FG-e02-p16-k1-01 CH-01 ガリヴァー (-762, -2080, 0) 向き 0° prone-look / FG-e02-p16-k1-02 CH-03 皇后 (-880, -1400, 250) 向き 180° point",
+       "st.figures": "FG-e02-p16-k1-01 CH-01 ガリヴァー (-762, -3450, 0) 向き 0° prone-look / FG-e02-p16-k1-02 CH-03 皇后 (-880, -1400, 250) 向き 180° point",
        "st.crowds": "",
-       "st.models": "F105 都ミルデンドウ（bim artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6 b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
+       "st.models": "F105 都ミルデンドウ（bim artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
        "st.underlay": "underlay/e02-p16-k1.jpg",
        "st.plan": "plans/e02-p16-k1.svg"
       }
@@ -2864,30 +2864,30 @@
        "nm.page": 16,
        "nm.order": 2,
        "nm.scene": "SC-008",
-       "nm.shot": "大引き",
+       "nm.shot": "引き",
        "nm.eye": "小人の目の高さ",
-       "nm.mm": 3136,
-       "nm.stand": "都の西の丘（創作：3,000 mm）",
-       "nm.look": "都の西の丘の上から、夕日の都と、王宮に寝そべるガリヴァーを",
+       "nm.mm": 136,
+       "nm.stand": "",
+       "nm.look": "内庭の地面から、夕日の中、奥の宮殿の窓辺に寝そべるガリヴァーを",
        "nm.size": true,
-       "nm.art": "夕日の都。王宮の内庭に寝そべるガリヴァー。",
+       "nm.art": "夕日の内庭。奥の宮殿の窓辺に寝そべるガリヴァー。",
        "nm.lines": "SC-008.L13",
        "nm.text": "ナレーション（ガリヴァー）：これほど美しい宮殿を、私は見たことがない。そう思った。そのときは。",
        "nm.turn": "",
        "st.set": "city：都ミルデンドウ（F105）と王宮",
-       "st.cam": "(-100500, 0, 3136)（hill の上）",
-       "st.look": "(-30000, 0, 0)",
+       "st.cam": "(1400, -3600, 136)",
+       "st.look": "(-762, -2600, 330)",
        "st.fov": "横 46.7° × 縦 35°",
-       "st.figures": "FG-e02-p16-k2-01 CH-01 ガリヴァー (-762, -2080, 0) 向き 0° prone-look",
+       "st.figures": "FG-e02-p16-k2-01 CH-01 ガリヴァー (-762, -3450, 0) 向き 0° prone-look",
        "st.crowds": "",
-       "st.models": "F105 都ミルデンドウ（bim artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6 b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
+       "st.models": "F105 都ミルデンドウ（bim artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50 63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1） / 舞台 city（cad artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025）",
        "st.underlay": "underlay/e02-p16-k2.jpg",
        "st.plan": "plans/e02-p16-k2.svg"
       }
      }
     ]
    },
-   "contentHash": "52ecce52c1cdaed13a5d9f659e899c739826026f5ec16475bb485bba67d26e83"
+   "contentHash": "339db1c33cb0eaa0fc5cf81e560938439061e43b575f596b867484871b352d59"
   }
  ]
 }

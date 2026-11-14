@@ -4,8 +4,8 @@
  "artwork": [],
  "source": {
   "artifactId": "gm1-ep02-name",
-  "versionId": "version_50196e41-788f-4486-870b-7f4b4c6bb833",
-  "contentHash": "f89aa2bd16965f6aee430e3150c5f4ad414dfcd08fc80ae2936db03e4976196d"
+  "versionId": "version_b2783cc9-0124-4697-953a-d292c998dca2",
+  "contentHash": "3a6095fe5f855fdfe4b0122ae52f84255066ab989772bec47e115159ef140001"
  },
  "direction": "ltr",
  "pages": [
@@ -701,82 +701,82 @@
  "images": [
   {
    "elementId": "underlay-0001",
-   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p01-k1、横 34.1°×縦 35°）。モデル：F106 古い神殿 artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74、舞台 court artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab",
+   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p01-k1、横 34.1°×縦 35°）。モデル：F106 古い神殿 artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23、舞台 court artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0005",
-   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p01-k2、横 62.7°×縦 29.6°）。モデル：F106 古い神殿 artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74、舞台 court artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab",
+   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p01-k2、横 62.7°×縦 29.6°）。モデル：F106 古い神殿 artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23、舞台 court artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0010",
-   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p02-k1、横 56.9°×縦 35°）。モデル：F106 古い神殿 artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74、舞台 court artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab",
+   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p02-k1、横 56.9°×縦 35°）。モデル：F106 古い神殿 artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23、舞台 court artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0013",
-   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p02-k2、横 51°×縦 35°）。モデル：F106 古い神殿 artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74、舞台 court artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab",
+   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p02-k2、横 51°×縦 35°）。モデル：F106 古い神殿 artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23、舞台 court artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0018",
-   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p02-k3、横 28.4°×縦 35°）。モデル：F106 古い神殿 artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74、舞台 court artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab",
+   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p02-k3、横 28.4°×縦 35°）。モデル：F106 古い神殿 artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23、舞台 court artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0023",
-   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p02-k4、横 62.7°×縦 29.6°）。モデル：F106 古い神殿 artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74、舞台 court artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab",
+   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p02-k4、横 62.7°×縦 29.6°）。モデル：F106 古い神殿 artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23、舞台 court artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0026",
-   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p03-k1、横 42.4°×縦 35°）。モデル：F106 古い神殿 artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74、舞台 court artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab",
+   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p03-k1、横 42.4°×縦 35°）。モデル：F106 古い神殿 artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23、舞台 court artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0029",
-   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p03-k2、横 26.8°×縦 35°）。モデル：F106 古い神殿 artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74、舞台 court artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab",
+   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p03-k2、横 26.8°×縦 35°）。モデル：F106 古い神殿 artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23、舞台 court artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0036",
-   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p03-k3、横 26.8°×縦 35°）。モデル：F106 古い神殿 artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74、舞台 court artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab",
+   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p03-k3、横 26.8°×縦 35°）。モデル：F106 古い神殿 artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23、舞台 court artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0043",
-   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p04-k1、横 56.9°×縦 35°）。モデル：F106 古い神殿 artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74、舞台 court artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab",
+   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p04-k1、横 56.9°×縦 35°）。モデル：F106 古い神殿 artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23、舞台 court artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0046",
-   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p04-k2、横 40.1°×縦 35°）。モデル：F106 古い神殿 artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74、舞台 court artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab",
+   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p04-k2、横 40.1°×縦 35°）。モデル：F106 古い神殿 artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23、舞台 court artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0053",
-   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p04-k3、横 40.1°×縦 35°）。モデル：F106 古い神殿 artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74、舞台 court artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab",
+   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p04-k3、横 40.1°×縦 35°）。モデル：F106 古い神殿 artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23、舞台 court artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0056",
-   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p04-k4、横 62.7°×縦 29.6°）。モデル：F106 古い神殿 artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74、舞台 court artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab",
+   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p04-k4、横 62.7°×縦 29.6°）。モデル：F106 古い神殿 artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23、舞台 court artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0059",
-   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p05-k1、横 56.9°×縦 35°）。モデル：F106 古い神殿 artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74、舞台 court artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab",
+   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p05-k1、横 56.9°×縦 35°）。モデル：F106 古い神殿 artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23、舞台 court artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0066",
-   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p05-k2、横 62.7°×縦 28.9°）。モデル：F106 古い神殿 artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74、舞台 court artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab",
+   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p05-k2、横 62.7°×縦 28.9°）。モデル：F106 古い神殿 artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23、舞台 court artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0069",
-   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p05-k3、横 62.7°×縦 29.6°）。モデル：F106 古い神殿 artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74、舞台 court artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab",
+   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p05-k3、横 62.7°×縦 29.6°）。モデル：F106 古い神殿 artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23、舞台 court artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
@@ -816,127 +816,127 @@
   },
   {
    "elementId": "underlay-0111",
-   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p07-k4、横 62.7°×縦 29.6°）。モデル：F106 古い神殿 artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74、舞台 court artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab",
+   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p07-k4、横 62.7°×縦 29.6°）。モデル：F106 古い神殿 artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23、舞台 court artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0114",
-   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p08-k1、横 56.9°×縦 35°）。モデル：F106 古い神殿 artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74、舞台 court artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab",
+   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p08-k1、横 56.9°×縦 35°）。モデル：F106 古い神殿 artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23、舞台 court artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0121",
-   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p08-k2、横 40.1°×縦 35°）。モデル：F106 古い神殿 artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74、舞台 court artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab",
+   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p08-k2、横 40.1°×縦 35°）。モデル：F106 古い神殿 artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23、舞台 court artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0128",
-   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p08-k3、横 40.1°×縦 35°）。モデル：F106 古い神殿 artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74、舞台 court artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab",
+   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p08-k3、横 40.1°×縦 35°）。モデル：F106 古い神殿 artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23、舞台 court artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0135",
-   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p08-k4、横 62.7°×縦 29.6°）。モデル：F106 古い神殿 artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74、舞台 court artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab",
+   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p08-k4、横 62.7°×縦 29.6°）。モデル：F106 古い神殿 artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23、舞台 court artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0142",
-   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p09-k1、横 39.5°×縦 35°）。モデル：F106 古い神殿 artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74、舞台 court artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab",
+   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p09-k1、横 39.5°×縦 35°）。モデル：F106 古い神殿 artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23、舞台 court artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0147",
-   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p09-k2、横 29.7°×縦 35°）。モデル：F106 古い神殿 artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74、舞台 court artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab",
+   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p09-k2、横 29.7°×縦 35°）。モデル：F106 古い神殿 artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23、舞台 court artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0150",
-   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p09-k3、横 29.7°×縦 35°）。モデル：F106 古い神殿 artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74、舞台 court artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab",
+   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p09-k3、横 29.7°×縦 35°）。モデル：F106 古い神殿 artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23、舞台 court artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0153",
-   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p10-k1、横 56.9°×縦 35°）。モデル：F106 古い神殿 artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74、舞台 court artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab",
+   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p10-k1、横 56.9°×縦 35°）。モデル：F106 古い神殿 artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23、舞台 court artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0157",
-   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p10-k2、横 62.7°×縦 28.9°）。モデル：F106 古い神殿 artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74、舞台 court artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab",
+   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p10-k2、横 62.7°×縦 28.9°）。モデル：F106 古い神殿 artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23、舞台 court artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0160",
-   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p10-k3、横 62.7°×縦 29.6°）。モデル：F106 古い神殿 artifact_4d76ea3f-a56a-4cd3-ab21-48de828f5eeb@version_1b27b613-8294-4d04-84c6-1efcf6bc8d74、舞台 court artifact_1035ecb8-24fa-48a5-b04e-e39cbafe33a0@version_f3c63fb1-e061-425a-97ae-34627cf533ab",
+   "source": "3D の舞台「古い神殿（F106）の前の広場：宮廷の芸と解放の誓い」のカメラの絵（e02-p10-k3、横 62.7°×縦 29.6°）。モデル：F106 古い神殿 artifact_1cd81919-c5a4-4039-ada6-77ac2e5c2fca@version_e7680e6f-fcbb-41c5-a43e-84a8b12cfe23、舞台 court artifact_f3d49de4-0a53-4193-aaa2-9294162fbe93@version_b3011d58-882e-4ebe-8fc9-6917bcdaddcb",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0167",
-   "source": "3D の舞台「都ミルデンドウ（F105）と王宮」のカメラの絵（e02-p11-k1、横 39.5°×縦 35°）。モデル：F105 都ミルデンドウ artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2、舞台 city artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6",
+   "source": "3D の舞台「都ミルデンドウ（F105）と王宮」のカメラの絵（e02-p11-k1、横 39.5°×縦 35°）。モデル：F105 都ミルデンドウ artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50、舞台 city artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0170",
-   "source": "3D の舞台「都ミルデンドウ（F105）と王宮」のカメラの絵（e02-p11-k2、横 56.9°×縦 35°）。モデル：F105 都ミルデンドウ artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2、舞台 city artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6",
+   "source": "3D の舞台「都ミルデンドウ（F105）と王宮」のカメラの絵（e02-p11-k2、横 56.9°×縦 35°）。モデル：F105 都ミルデンドウ artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50、舞台 city artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0175",
-   "source": "3D の舞台「都ミルデンドウ（F105）と王宮」のカメラの絵（e02-p12-k1、横 61.7°×縦 35°）。モデル：F105 都ミルデンドウ artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2、舞台 city artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6",
+   "source": "3D の舞台「都ミルデンドウ（F105）と王宮」のカメラの絵（e02-p12-k1、横 61.7°×縦 35°）。モデル：F105 都ミルデンドウ artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50、舞台 city artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0182",
-   "source": "3D の舞台「都ミルデンドウ（F105）と王宮」のカメラの絵（e02-p12-k2、横 62.7°×縦 35°）。モデル：F105 都ミルデンドウ artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2、舞台 city artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6",
+   "source": "3D の舞台「都ミルデンドウ（F105）と王宮」のカメラの絵（e02-p12-k2、横 62.7°×縦 35°）。モデル：F105 都ミルデンドウ artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50、舞台 city artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0185",
-   "source": "3D の舞台「都ミルデンドウ（F105）と王宮」のカメラの絵（e02-p12-k3、横 62.7°×縦 27°）。モデル：F105 都ミルデンドウ artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2、舞台 city artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6",
+   "source": "3D の舞台「都ミルデンドウ（F105）と王宮」のカメラの絵（e02-p12-k3、横 62.7°×縦 27°）。モデル：F105 都ミルデンドウ artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50、舞台 city artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0190",
-   "source": "3D の舞台「都ミルデンドウ（F105）と王宮」のカメラの絵（e02-p13-k1、横 46.7°×縦 35°）。モデル：F105 都ミルデンドウ artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2、舞台 city artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6",
+   "source": "3D の舞台「都ミルデンドウ（F105）と王宮」のカメラの絵（e02-p13-k1、横 46.7°×縦 35°）。モデル：F105 都ミルデンドウ artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50、舞台 city artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0193",
-   "source": "3D の舞台「都ミルデンドウ（F105）と王宮」のカメラの絵（e02-p13-k2、横 46.7°×縦 35°）。モデル：F105 都ミルデンドウ artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2、舞台 city artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6",
+   "source": "3D の舞台「都ミルデンドウ（F105）と王宮」のカメラの絵（e02-p13-k2、横 46.7°×縦 35°）。モデル：F105 都ミルデンドウ artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50、舞台 city artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0197",
-   "source": "3D の舞台「都ミルデンドウ（F105）と王宮」のカメラの絵（e02-p14-k1、横 46.7°×縦 35°）。モデル：F105 都ミルデンドウ artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2、舞台 city artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6",
+   "source": "3D の舞台「都ミルデンドウ（F105）と王宮」のカメラの絵（e02-p14-k1、横 46.7°×縦 35°）。モデル：F105 都ミルデンドウ artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50、舞台 city artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0202",
-   "source": "3D の舞台「都ミルデンドウ（F105）と王宮」のカメラの絵（e02-p14-k2、横 46.7°×縦 35°）。モデル：F105 都ミルデンドウ artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2、舞台 city artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6",
+   "source": "3D の舞台「都ミルデンドウ（F105）と王宮」のカメラの絵（e02-p14-k2、横 46.7°×縦 35°）。モデル：F105 都ミルデンドウ artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50、舞台 city artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0205",
-   "source": "3D の舞台「都ミルデンドウ（F105）と王宮」のカメラの絵（e02-p15-k1、横 42.4°×縦 35°）。モデル：F105 都ミルデンドウ artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2、舞台 city artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6",
+   "source": "3D の舞台「都ミルデンドウ（F105）と王宮」のカメラの絵（e02-p15-k1、横 42.4°×縦 35°）。モデル：F105 都ミルデンドウ artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50、舞台 city artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0208",
-   "source": "3D の舞台「都ミルデンドウ（F105）と王宮」のカメラの絵（e02-p15-k2、横 26.8°×縦 35°）。モデル：F105 都ミルデンドウ artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2、舞台 city artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6",
+   "source": "3D の舞台「都ミルデンドウ（F105）と王宮」のカメラの絵（e02-p15-k2、横 26.8°×縦 35°）。モデル：F105 都ミルデンドウ artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50、舞台 city artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0215",
-   "source": "3D の舞台「都ミルデンドウ（F105）と王宮」のカメラの絵（e02-p15-k3、横 26.8°×縦 35°）。モデル：F105 都ミルデンドウ artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2、舞台 city artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6",
+   "source": "3D の舞台「都ミルデンドウ（F105）と王宮」のカメラの絵（e02-p15-k3、横 26.8°×縦 35°）。モデル：F105 都ミルデンドウ artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50、舞台 city artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0218",
-   "source": "3D の舞台「都ミルデンドウ（F105）と王宮」のカメラの絵（e02-p16-k1、横 46.7°×縦 35°）。モデル：F105 都ミルデンドウ artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2、舞台 city artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6",
+   "source": "3D の舞台「都ミルデンドウ（F105）と王宮」のカメラの絵（e02-p16-k1、横 46.7°×縦 35°）。モデル：F105 都ミルデンドウ artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50、舞台 city artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0221",
-   "source": "3D の舞台「都ミルデンドウ（F105）と王宮」のカメラの絵（e02-p16-k2、横 46.7°×縦 35°）。モデル：F105 都ミルデンドウ artifact_c533fc16-b3bf-4669-be01-e0270d39b5ea@version_dd49f153-6fbe-4d4e-995b-e454763fced2、舞台 city artifact_16f1d25a-ec8b-4d7f-893e-4b100105f584@version_ca1904b1-487a-44ec-8355-5a2790dbc8b6",
+   "source": "3D の舞台「都ミルデンドウ（F105）と王宮」のカメラの絵（e02-p16-k2、横 46.7°×縦 35°）。モデル：F105 都ミルデンドウ artifact_22cbbe9f-5fc3-423a-ae9d-5fbad418e0e2@version_04a87c01-d656-442f-9a33-07222af8db50、舞台 city artifact_53fcc1d0-57c4-47ed-934b-fea9ee0671b7@version_674a76e1-8f13-4fcc-936e-48cd19e95acf",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   }
  ],
