@@ -7,7 +7,7 @@
   "source": "created"
  },
  "draft": {
-  "baseVersionId": "rough-ep02-v1",
+  "baseVersionId": "rough-ep02-v2",
   "updatedAt": "2026-11-14T00:00:00.000Z",
   "content": {
    "schemaVersion": 2,
@@ -340,7 +340,7 @@
  "versions": [
   {
    "artifactId": "gm1-ep02-rough-pages",
-   "versionId": "rough-ep02-v1",
+   "versionId": "rough-ep02-v2",
    "parentVersionId": null,
    "schemaVersion": 1,
    "createdAt": "2026-11-14T00:00:00.000Z",

@@ -7,7 +7,7 @@
   "source": "created"
  },
  "draft": {
-  "baseVersionId": "finish-ep02-v2",
+  "baseVersionId": "finish-ep02-v3",
   "updatedAt": "2026-11-15T00:00:00.000Z",
   "content": {
    "schemaVersion": 2,
@@ -484,12 +484,12 @@
  "versions": [
   {
    "artifactId": "gm1-ep02-lettering",
-   "versionId": "finish-ep02-v2",
+   "versionId": "finish-ep02-v3",
    "parentVersionId": null,
    "schemaVersion": 1,
    "createdAt": "2026-11-15T00:00:00.000Z",
    "createdBy": null,
-   "reason": "ガリヴァー旅行記 第2話の仕上げと写植（白黒。fiction-manga@1.3.0 仕上げと写植、gm1-ep02-ink@ink-ep02-v1 から。AI の提案）",
+   "reason": "ガリヴァー旅行記 第2話の仕上げと写植（白黒。fiction-manga@1.3.0 仕上げと写植、gm1-ep02-ink@ink-ep02-v2 から。AI の提案）",
    "content": {
     "schemaVersion": 2,
     "columns": [

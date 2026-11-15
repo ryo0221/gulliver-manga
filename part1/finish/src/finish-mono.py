@@ -117,13 +117,24 @@ def grey_rgba(darkness, alpha):
     return Image.fromarray(np.dstack([v, v, v, (alpha * 255).astype(np.uint8)]), 'RGBA')
 
 
+_old = f'{out}/ep{EP:02d}-finish.json'
+before = json.load(open(_old))['panels'] if os.path.exists(_old) else {}
+# 通読の直しで線画（とラフ）を描き直したコマ：前の版の sha256 を残す。
+REDRAWN = {'e02-p03-k1': 'RV-e02-01', 'e02-p07-k4': 'RV-e02-02', 'e02-p11-k1': 'RV-e02-04', 'e02-p11-k2': 'RV-e02-05',
+           'e02-p16-k2': 'RV-e02-06', 'e02-p16-k1': 'RV-e02-09'}
+# 線画だけを描き直したコマ（ラフは前のまま）：前のラフは構図が違い、線画へ合わせられず灰色のむらになる。
+# これらのコマは、ラフの代わりに線画そのもの（線と斜線の濃さ）をトーンのもとにする。
+INK_TONE = {'e02-p03-k1', 'e02-p11-k1', 'e02-p11-k2', 'e02-p16-k2'}
 panels = {}
 for pid, ip in sorted(inkdata['panels'].items()):
     lines = {k: np.array(Image.open(f"{ink}/{v['image']}").getchannel('A'), np.float32) for k, v in ip['layers'].items()}
     H, W = lines['LY-07'].shape
     rpath = f'{rough}/panels/{pid}.jpg'
-    ref = np.array(Image.open(rpath).convert('L').resize((W, H), Image.LANCZOS), np.float32)
-    Y = cv2.GaussianBlur(register(ref, lines), (0, 0), BLUR)
+    if pid in INK_TONE:
+        Y = cv2.GaussianBlur(255 - np.maximum.reduce([lines[k] for k in lines]), (0, 0), 4)
+    else:
+        ref = np.array(Image.open(rpath).convert('L').resize((W, H), Image.LANCZOS), np.float32)
+        Y = cv2.GaussianBlur(register(ref, lines), (0, 0), BLUR)
     # Pencil is light: stretch the panel's values so paper is white and its darkest pencil is near black.
     lo, hi = np.percentile(Y, 1), np.percentile(Y, 99.5)
     Y = np.clip((Y - lo) / max(hi - lo, 1) * 255, 0, 255)
@@ -149,13 +160,22 @@ for pid, ip in sorted(inkdata['panels'].items()):
         comp.alpha_composite(Image.merge('RGBA', [Image.new('L', (W, H), 0)] * 3 + [a]))
     comp.convert('L').save(f'{out}/panels/{pid}.jpg', quality=82)
     refs = [{'path': f"part1/ink/{ip['layers'][ly]['image']}", 'commit': commit, 'sha256': sha(f"{ink}/{ip['layers'][ly]['image']}")} for ly in ('LY-04', 'LY-07', 'LY-08')]
-    refs.append({'path': f'part1/rough/panels/{pid}.jpg', 'commit': commit, 'sha256': sha(rpath)})
+    if pid not in INK_TONE: refs.append({'path': f'part1/rough/panels/{pid}.jpg', 'commit': commit, 'sha256': sha(rpath)})
+    # A file that has not changed since the earlier run keeps the commit recorded then.
+    old = {r['path']: r for r in before.get(pid, {}).get('refs', [])}
+    refs = [old[r['path']] if r['path'] in old and old[r['path']]['sha256'] == r['sha256'] else r for r in refs]
     panels[pid] = {
         'layers': files, 'lines': lines_out, 'review': f'panels/{pid}.jpg', 'prompt': None,
-        'tool': 'no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)',
-        'codexModel': None, 'imageModel': 'none', 'codexSession': None, 'rawSha256': sha(rpath), 'rawSize': [W, H],
+        'tool': 'no image generation: grey tones from the accepted ' + ('line art (its hatching; the rough was not redrawn)' if pid in INK_TONE else 'rough') + ' (part1/finish/src/finish-mono.py)',
+        'codexModel': None, 'imageModel': 'none', 'codexSession': None,
+        'rawSha256': sha(f"{ink}/{ip['layers']['LY-07']['image']}") if pid in INK_TONE else sha(rpath), 'rawSize': [W, H],
         'refs': refs,
     }
+    if pid in REDRAWN and pid in before and before[pid]['rawSha256'] != panels[pid]['rawSha256']:
+        panels[pid]['revision'] = {'finding': REDRAWN[pid], 'date': '2026-11-15', 'what': '線画（とラフ）を描き直したので作り直した',
+                                   'previousRefs': {r['path']: r['sha256'] for r in before[pid]['refs']}}
+    elif pid in before and before[pid].get('revision', {}).get('finding') in REDRAWN.values():
+        panels[pid]['revision'] = before[pid]['revision']
     if pid in FLAT_BG: panels[pid]['revision'] = {'finding': FLAT_BG[pid], 'date': '2026-11-15', 'what': '背景に影を付けず、背景のトーンを強くぼかしたラフから取った'}
     print(pid, files['LY-05']['share'], files['LY-03']['share'], files['LY-06']['share'], sum(v['bytes'] for v in files.values()) // 1024, 'KB')
 json.dump({'schemaVersion': 1, 'episode': EP, 'generatedAt': '2026-11-15', 'panels': panels}, open(f'{out}/ep{EP:02d}-finish.json', 'w'), ensure_ascii=False, indent=1)

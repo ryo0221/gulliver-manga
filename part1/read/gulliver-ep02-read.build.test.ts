@@ -7,13 +7,13 @@ import { expect, test } from 'vitest';
 import { PART1_SCRIPT } from './gulliver-part1-script';
 import { assignLines, pageId } from './gulliver-ep01-name';
 import { EP02_NAME } from './gulliver-ep02-name';
-import { buildGulliverEp02Read, FINDINGS_EP02 as FINDINGS, READ_COMMIT_EP02 as READ_COMMIT, READ_VERSIONS_EP02 as READ_VERSIONS, VERDICT_EP02 as VERDICT } from './gulliver-ep02-read';
+import { buildGulliverEp02Read, FINDINGS_EP02 as FINDINGS, FIRST_READ_EP02, READ_VERSIONS_EP02 as READ_VERSIONS, VERDICT_EP02 as VERDICT } from './gulliver-ep02-read';
 
 test('episode 2 編集の記録 records the fixed version and ties every finding to its target', async () => {
   // read.fixed-version: the finished pages and the lettering record, by artifact and version, and the commit.
   expect(READ_VERSIONS.map((v) => v.artifact)).toEqual(expect.arrayContaining(['gm1-ep02-finish', 'gm1-ep02-lettering']));
   for (const v of READ_VERSIONS) expect(v.version, v.artifact).toMatch(/^[a-z0-9-]+-v\d+$/);
-  expect(READ_COMMIT).toMatch(/^[0-9a-f]{40}$/);
+  expect(FIRST_READ_EP02.commit).toMatch(/^[0-9a-f]{40}$/);
 
   // read.traced: each target is a panel, a page, a scene or a script line of episode 2.
   const records = assignLines(2, EP02_NAME);
