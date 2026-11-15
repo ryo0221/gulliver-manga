@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Turns the Codex line-art runs into the ep1 line-art layers (fiction-manga 線画).
+"""Turns the Codex line-art runs into an episode's line-art layers (fiction-manga 線画). EPISODE=N (default 1).
 
 usage: ink-assets.py BRIEFS_ROOT GM_COMMIT OUT_DIR
 BRIEFS_ROOT: rough-briefs.py + ink-briefs.py output with each panel's ink-raw.png, ink-prompt.txt and ink-codex.log.
@@ -7,12 +7,14 @@ GM_COMMIT: the gulliver-manga commit that holds the references passed to Codex (
 The raw image is inked in three colours that mark the layers (gen-ink.sh): black = figures (LY-07), blue = background (LY-04),
 red = effect lines (LY-08). It is cut back to the panel frame and split by hue into three black-line PNGs with transparent
 background, at most MAX px on the long side (OUT_DIR/layers/<panel>-LY-0n.png), with a composite for review
-(OUT_DIR/panels/<panel>.jpg). Writes OUT_DIR/prompts/<panel>.txt and OUT_DIR/ep01-ink.json.
+(OUT_DIR/panels/<panel>.jpg). Writes OUT_DIR/prompts/<panel>.txt and OUT_DIR/epNN-ink.json (only that episode's panels).
 """
 import hashlib, json, os, re, sys
 from PIL import Image, ImageOps
 
 root, commit, out = sys.argv[1:4]
+EP = int(os.environ.get('EPISODE', '1'))
+JSON = f'{out}/ep{EP:02d}-ink.json'
 MAX = int(os.environ.get('INK_MAX', '900'))
 GM = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../..'))
 briefs = json.load(open(f'{root}/briefs.json'))
@@ -50,13 +52,13 @@ def to_png(a, path):
     return os.path.getsize(path)
 
 
-# INK_ONLY=<panel>,... redraws those panels only and keeps the rest of ep01-ink.json (e.g. the read-through fixes).
+# INK_ONLY=<panel>,... redraws those panels only and keeps the rest of epNN-ink.json (e.g. the read-through fixes).
 ONLY = os.environ.get('INK_ONLY', '').split(',') if os.environ.get('INK_ONLY') else None
 REVISED = {'e01-p12-k3': 'RV-e01-04', 'e01-p15-k2': 'RV-e01-07', 'e01-p01-k1': 'RV-e01-03'}
-before = json.load(open(f'{out}/ep01-ink.json'))['panels'] if ONLY else {}
+before = json.load(open(JSON))['panels'] if ONLY else {}
 panels = dict(before)
 for pid, b in briefs.items():
-    if ONLY and pid not in ONLY: continue
+    if not pid.startswith(f'e{EP:02d}-') or (ONLY and pid not in ONLY): continue
     d = f'{root}/{pid}'
     if not os.path.exists(f'{d}/ink-raw.png'): continue
     raw = Image.open(f'{d}/ink-raw.png').convert('RGB')
@@ -75,6 +77,12 @@ for pid, b in briefs.items():
         layers[ly] = {'image': f'layers/{pid}-{ly}.png', 'share': round(count[key] / total, 3), 'bytes': to_png(alpha[key], path)}
         comp.paste(Image.new('RGB', size, tint[key]), (0, 0), alpha[key])
     comp.save(f'{out}/panels/{pid}.jpg', quality=80)
+    # The hidden LY-01 (3D camera picture) and LY-02 (rough) enter the line-art Design as small grey copies (long side
+    # 480 px) to keep it under the Playground's 16 MB import limit.
+    os.makedirs(f'{out}/hidden', exist_ok=True)
+    for ly, src in (('LY-01', f'{GM}/part1/name/stage/underlay/{pid}.jpg'), ('LY-02', f'{GM}/part1/rough/panels/{pid}.jpg')):
+        hid = ImageOps.grayscale(Image.open(src)); hid.thumbnail((480, 480), Image.LANCZOS)
+        hid.save(f'{out}/hidden/{pid}-{ly}.jpg', quality=70, optimize=True)
     prompt = open(f'{d}/ink-prompt.txt').read()
     open(f'{out}/prompts/{pid}.txt', 'w').write(prompt)
     log = open(f'{d}/ink-codex.log', errors='replace').read()
@@ -100,5 +108,5 @@ for pid, b in briefs.items():
     if pid in before and REVISED.get(pid):
         panels[pid]['revision'] = {'finding': REVISED[pid], 'date': '2026-11-14', 'previousRawSha256': before[pid]['rawSha256']}
     print(pid, {ly: v['share'] for ly, v in layers.items()}, sum(v['bytes'] for v in layers.values()) // 1024, 'KB')
-json.dump({'schemaVersion': 1, 'episode': 1, 'generatedAt': '2026-11-14', 'panels': panels}, open(f'{out}/ep01-ink.json', 'w'), ensure_ascii=False, indent=1)
+json.dump({'schemaVersion': 1, 'episode': EP, 'generatedAt': '2026-11-14' if EP == 1 else '2026-11-15', 'panels': panels}, open(JSON, 'w'), ensure_ascii=False, indent=1)
 print(len(panels), 'panels')

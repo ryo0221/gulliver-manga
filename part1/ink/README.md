@@ -58,3 +58,23 @@ node gm-ink-screens.tmp.mjs /tmp/ink/ink-editor.json /tmp/ink/screens   # Playgr
 ```
 
 `pages/` は `captureDesignPages`（vector）で書き出した SVG を PNG にしたものと manifest です。
+
+# 第2話「綱渡りの宮廷」線画
+
+工程定義 `fiction-manga@1.3.0` の「線画」です。ラフ `gm1-ep02-rough@rough-ep02-v1` と同じ16ページ・48コマに、第1話と同じ方法（ラフ絵と 3D のカメラの絵と設定画を Codex に渡し、黒・青・赤の3色で描かせて色で分ける）で線画を描きました。成果物は `artifacts/gm1-ep02-ink`（Design、13.0 MB）と `gm1-ep02-ink-pages`（ページ表）、記録は `ep02-ink.json`、ページの絵は `ep02/pages/` です。AI の提案で、線・細部・人物の比率・つながりの確認（`ink.approved`）と直しは作者です。
+
+- 48コマとも1回で描けました（約50分）。指示は、ラフのときの説明（第1話の学び：続く状態・大きさの比べ・背景・顔を切らない）をそのまま使い、12-2 には作者の確認（2026-11-15「上着を脱いだままでいい」）を足しました。
+- 第1話の学び LN-e01-03：**背景の線の無いコマはありません**（どのコマも青い線がコマの線の 17% 以上）。
+- 効果の線（赤）は 13-2 と 15-1 にだけ少しあります（AI の提案）。
+- 道具は話の番号で選びます：`ink-briefs.py`・`ink-assets.py` は `EPISODE=2`、`ink-assets.py` は隠す LY-01・LY-02 の写し（`hidden/`、長い辺 480 px）も作ります。`gulliver-ep01-ink.ts` の `buildEpisodeInk`・`pageTable` は話を受け取れるようにしました（第1話の資料は同じ JSON のまま）。
+
+```sh
+python3 part1/rough/src/rough-briefs.py part1/name/artifacts/gm1-ep02-name-panels.artifact.json part1/name/stage/ep02-stage.json part1/name/stage/underlay $W
+EPISODE=2 python3 part1/ink/src/ink-briefs.py $W part1/rough
+PAR=5 bash part1/ink/src/run-ink.sh $W $(cd $W && ls -d e02-*)
+EPISODE=2 python3 part1/ink/src/ink-assets.py $W $(git rev-parse HEAD) part1/ink
+cp part1/name/gulliver-ep0[12]-name.ts part1/rough/*.ts part1/ink/*.ts $SB/
+cp -r part1/name/stage $SB/gulliver-ep02-stage; cp -r part1/rough $SB/gulliver-ep02-rough; cp -r part1/ink $SB/gulliver-ep02-ink
+GM_OUT=/tmp/ink2 npx vitest run apps/artifact-host/src/creative/story-board/gulliver-ep02-ink.build.test.ts
+node gm-svg2png.tmp.mjs /tmp/ink2/pages /tmp/ink2/png
+```
