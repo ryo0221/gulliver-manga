@@ -26,5 +26,6 @@ Size check inside the picture (AR-01): the city wall (2.5 feet high) and the thr
 Sunset light. The inner court is narrow for him: he lies face down between the buildings, his head at the palace window.
 Never cut a face with the frame edge: every face that is in the frame is drawn whole.
 Always draw a background (ground, sky, walls or the room) even in a close-up; never leave the space behind the figures blank.
+Line-art correction after the author's rough review: Read-through correction (RV-e02-06): the palace window beside Gulliver's head was drawn bigger than his head. The windows of the royal apartments are tiny: 4 by 6 inches, about the size of Gulliver's EYE with the brow; the whole building is only about as tall as Gulliver kneeling. Draw Gulliver lying face down in the narrow inner court in the sunset, his chin on his hands, his face right at one tiny lit window, much bigger than it; the building's eaves come just above his head. Keep the sunset sky and the other palace buildings behind.
 
 After generating, copy the generated PNG to ./ink-raw.png in the current directory. Do not generate more than one image.
