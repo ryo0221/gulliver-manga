@@ -49,3 +49,25 @@
 cp part1/read/*.ts part1/name/gulliver-ep01-name.ts part1/script/gulliver-part1-script.ts part1/editor/gulliver-part1.ts story/editor/gulliver-story.ts $SB/
 GM_OUT=/tmp/read npx vitest run apps/artifact-host/src/creative/story-board/gulliver-ep01-read.build.test.ts
 ```
+
+# 第2話「綱渡りの宮廷」通読
+
+`gm1-ep02-read`（編集の記録）と `gm1-ep02-read-findings`（指摘の表）。読んだ版は `gm1-ep02-finish@finish-ep02-v1`・
+`gm1-ep02-lettering@finish-ep02-v1`（コミット 2373f55c、白黒）。ページは `../finish/ep02/pages/`。
+第1話の `readDocument`・`findingsTable` を話ごとに使えるようにした（第1話の成果物は変わらない）。
+
+| 指摘 | 対象 | 判断 |
+| --- | --- | --- |
+| RV-e02-01 細い糸が太い石の縁に見える | 3-1 | 作者の判断待ち（提案：直す） |
+| RV-e02-02 引きでガリヴァーの頭が切れている | 7-4 | 作者の判断待ち（提案：直す） |
+| RV-e02-03 評議の間の壁と卓にまだらのグレー | 6-1 6-3 7-1 | 作者の判断待ち（提案：直す、仕上げだけ） |
+| RV-e02-04 都の家がガリヴァーより大きく見える | 11-1 | 作者の判断待ち（提案：直す） |
+| RV-e02-05 見張りの小人が大きすぎる | 11-2 | 作者の判断待ち（提案：直す） |
+| RV-e02-06 宮殿の窓が頭より大きい | 16-2 | 作者の判断待ち（提案：直す） |
+| RV-e02-07 勝者の顔が枠の外 | 5-2 | 意図として残す（腰の寄り） |
+| RV-e02-08 上着の裾のメモと上着を脱いだ姿 | 12-2 | 意図として残す（作者の判断） |
+
+```sh
+cp part1/read/*.ts part1/name/gulliver-ep0{1,2}-name.ts part1/script/gulliver-part1-script.ts $SB/
+GM_OUT=/tmp/read npx vitest run apps/artifact-host/src/creative/story-board/gulliver-ep02-read.build.test.ts
+```

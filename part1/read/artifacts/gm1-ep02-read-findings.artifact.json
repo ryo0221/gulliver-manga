@@ -1,0 +1,333 @@
+{
+ "schemaVersion": 1,
+ "id": "gm1-ep02-read-findings",
+ "name": "第2話 通読の指摘",
+ "kind": "data",
+ "provenance": {
+  "source": "created"
+ },
+ "draft": {
+  "baseVersionId": "read-ep02-v1",
+  "updatedAt": "2026-11-15T00:00:00.000Z",
+  "content": {
+   "schemaVersion": 2,
+   "columns": [
+    {
+     "id": "rv.target",
+     "name": "対象（コマ・ページ・シーン・台詞の行）",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "rv.by",
+     "name": "出し手",
+     "type": "select",
+     "options": [
+      "作者",
+      "AI"
+     ],
+     "required": true
+    },
+    {
+     "id": "rv.when",
+     "name": "いつ・どの工程で",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "rv.text",
+     "name": "指摘",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "rv.decision",
+     "name": "判断",
+     "type": "select",
+     "options": [
+      "直す",
+      "直さない",
+      "意図として残す",
+      "作者の判断待ち"
+     ],
+     "required": true
+    },
+    {
+     "id": "rv.reason",
+     "name": "理由（判断待ちは AI の提案）",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "rv.fixedIn",
+     "name": "直した後の版",
+     "type": "text"
+    }
+   ],
+   "rows": [
+    {
+     "id": "RV-e02-01",
+     "values": {
+      "rv.target": "e02-p03-k1",
+      "rv.by": "AI",
+      "rv.when": "2026-11-15 通読",
+      "rv.text": "3ページの大ゴマで、フリムナップが跳ぶ「地上12インチの細い糸」が、太い石の笠木（塀の上の縁）のように描かれていて、糸の上の芸に見えない。",
+      "rv.decision": "作者の判断待ち",
+      "rv.reason": "提案：直す。線画から描き直す（ink-briefs.py の INK_NOTES に「二本の柱のあいだに張った細い糸、下は草地」を足して INK_ONLY）。仕上げは finish-mono.py をそのコマだけに使う。",
+      "rv.fixedIn": ""
+     }
+    },
+    {
+     "id": "RV-e02-02",
+     "values": {
+      "rv.target": "e02-p07-k4",
+      "rv.by": "AI",
+      "rv.when": "2026-11-15 通読",
+      "rv.text": "7-4（引き：座るガリヴァーと、その前に立つボルゴラムの一行）で、ガリヴァーの頭が枠の上で切れている。顔を枠で切らない決まり（第1話の学び）に反する。",
+      "rv.decision": "作者の判断待ち",
+      "rv.reason": "提案：直す。舞台のカメラを引いて少し上を向け、頭まで枠に入れて撮り直し、ラフ・線画・仕上げをそのコマだけ描き直す。",
+      "rv.fixedIn": ""
+     }
+    },
+    {
+     "id": "RV-e02-03",
+     "values": {
+      "rv.target": "e02-p06-k1 e02-p06-k3 e02-p07-k1",
+      "rv.by": "AI",
+      "rv.when": "2026-11-15 通読",
+      "rv.text": "評議の間の奥の壁と長い卓に、まだらのグレーの斑が出ている（白黒の仕上げで、ラフの鉛筆のむらが影として残った）。",
+      "rv.decision": "作者の判断待ち",
+      "rv.reason": "提案：直す。画像の生成は使わず、finish-mono.py で背景（LY-03）の広い領域には影を付けず、トーンを一つの濃さにする決まりを足し、そのコマだけ作り直す。",
+      "rv.fixedIn": ""
+     }
+    },
+    {
+     "id": "RV-e02-04",
+     "values": {
+      "rv.target": "e02-p11-k1",
+      "rv.by": "AI",
+      "rv.when": "2026-11-15 通読",
+      "rv.text": "丘からの大引きで、城壁の奥の家々の屋根がガリヴァーの頭より高く見える。家はガリヴァーより遠いのに大きく、家の屋根が腿ほど（AR-01）という大きさの違いが伝わらない。",
+      "rv.decision": "作者の判断待ち",
+      "rv.reason": "提案：直す。線画の説明に「家と城壁はガリヴァーの腿の高さまで」を足して描き直す（舞台の 3D は正しい大きさ）。",
+      "rv.fixedIn": ""
+     }
+    },
+    {
+     "id": "RV-e02-05",
+     "values": {
+      "rv.target": "e02-p11-k2",
+      "rv.by": "AI",
+      "rv.when": "2026-11-15 通読",
+      "rv.text": "門へ近づくガリヴァーの脇の見張りの小人が、ガリヴァーの膝近くまである。小人は靴の長さほど（1/12）のはず。",
+      "rv.decision": "作者の判断待ち",
+      "rv.reason": "提案：直す。線画から、小人を靴の長さほどに描き直す（第1話 RV-e01-04 と同じ直し方）。",
+      "rv.fixedIn": ""
+     }
+    },
+    {
+     "id": "RV-e02-06",
+     "values": {
+      "rv.target": "e02-p16-k2",
+      "rv.by": "AI",
+      "rv.when": "2026-11-15 通読",
+      "rv.text": "寝そべるガリヴァーの頭の横の宮殿の窓が、頭より大きい。本文と舞台では窓は 4 × 6 インチで、15ページでは目ほどの大きさに描いている。",
+      "rv.decision": "作者の判断待ち",
+      "rv.reason": "提案：直す。線画の説明に「窓はガリヴァーの目ほどの大きさ、壁は寝そべった頭の少し上まで」を足して描き直す。",
+      "rv.fixedIn": ""
+     }
+    },
+    {
+     "id": "RV-e02-07",
+     "values": {
+      "rv.target": "e02-p05-k2",
+      "rv.by": "AI",
+      "rv.when": "2026-11-15 通読",
+      "rv.text": "勝った廷臣たちの顔が枠の外にある。",
+      "rv.decision": "意図として残す",
+      "rv.reason": "ネームの寄り（勝った廷臣たちの腰に巻いた絹糸）のとおりで、顔を枠で切っているのではなく、顔を入れない構図。",
+      "rv.fixedIn": ""
+     }
+    },
+    {
+     "id": "RV-e02-08",
+     "values": {
+      "rv.target": "e02-p12-k2",
+      "rv.by": "AI",
+      "rv.when": "2026-11-14 ラフ",
+      "rv.text": "ネームの絵のメモは「上着の裾を押さえ」だが、原作では都で上着を脱ぎ、短い胴着だけで歩く。",
+      "rv.decision": "意図として残す",
+      "rv.reason": "作者の判断（2026-11-15「上着を脱いだままでいい」）：原作どおり上着を脱いだ姿で描く。ナレーション「短い胴着だけになって歩いた」と合う。",
+      "rv.fixedIn": ""
+     }
+    }
+   ]
+  }
+ },
+ "versions": [
+  {
+   "artifactId": "gm1-ep02-read-findings",
+   "versionId": "read-ep02-v1",
+   "parentVersionId": null,
+   "schemaVersion": 1,
+   "createdAt": "2026-11-15T00:00:00.000Z",
+   "createdBy": null,
+   "reason": "ガリヴァー旅行記 第2話の通読（fiction-manga@1.3.0 通読：編集の記録。指摘の判断と完成の判断は作者）",
+   "content": {
+    "schemaVersion": 2,
+    "columns": [
+     {
+      "id": "rv.target",
+      "name": "対象（コマ・ページ・シーン・台詞の行）",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "rv.by",
+      "name": "出し手",
+      "type": "select",
+      "options": [
+       "作者",
+       "AI"
+      ],
+      "required": true
+     },
+     {
+      "id": "rv.when",
+      "name": "いつ・どの工程で",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "rv.text",
+      "name": "指摘",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "rv.decision",
+      "name": "判断",
+      "type": "select",
+      "options": [
+       "直す",
+       "直さない",
+       "意図として残す",
+       "作者の判断待ち"
+      ],
+      "required": true
+     },
+     {
+      "id": "rv.reason",
+      "name": "理由（判断待ちは AI の提案）",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "rv.fixedIn",
+      "name": "直した後の版",
+      "type": "text"
+     }
+    ],
+    "rows": [
+     {
+      "id": "RV-e02-01",
+      "values": {
+       "rv.target": "e02-p03-k1",
+       "rv.by": "AI",
+       "rv.when": "2026-11-15 通読",
+       "rv.text": "3ページの大ゴマで、フリムナップが跳ぶ「地上12インチの細い糸」が、太い石の笠木（塀の上の縁）のように描かれていて、糸の上の芸に見えない。",
+       "rv.decision": "作者の判断待ち",
+       "rv.reason": "提案：直す。線画から描き直す（ink-briefs.py の INK_NOTES に「二本の柱のあいだに張った細い糸、下は草地」を足して INK_ONLY）。仕上げは finish-mono.py をそのコマだけに使う。",
+       "rv.fixedIn": ""
+      }
+     },
+     {
+      "id": "RV-e02-02",
+      "values": {
+       "rv.target": "e02-p07-k4",
+       "rv.by": "AI",
+       "rv.when": "2026-11-15 通読",
+       "rv.text": "7-4（引き：座るガリヴァーと、その前に立つボルゴラムの一行）で、ガリヴァーの頭が枠の上で切れている。顔を枠で切らない決まり（第1話の学び）に反する。",
+       "rv.decision": "作者の判断待ち",
+       "rv.reason": "提案：直す。舞台のカメラを引いて少し上を向け、頭まで枠に入れて撮り直し、ラフ・線画・仕上げをそのコマだけ描き直す。",
+       "rv.fixedIn": ""
+      }
+     },
+     {
+      "id": "RV-e02-03",
+      "values": {
+       "rv.target": "e02-p06-k1 e02-p06-k3 e02-p07-k1",
+       "rv.by": "AI",
+       "rv.when": "2026-11-15 通読",
+       "rv.text": "評議の間の奥の壁と長い卓に、まだらのグレーの斑が出ている（白黒の仕上げで、ラフの鉛筆のむらが影として残った）。",
+       "rv.decision": "作者の判断待ち",
+       "rv.reason": "提案：直す。画像の生成は使わず、finish-mono.py で背景（LY-03）の広い領域には影を付けず、トーンを一つの濃さにする決まりを足し、そのコマだけ作り直す。",
+       "rv.fixedIn": ""
+      }
+     },
+     {
+      "id": "RV-e02-04",
+      "values": {
+       "rv.target": "e02-p11-k1",
+       "rv.by": "AI",
+       "rv.when": "2026-11-15 通読",
+       "rv.text": "丘からの大引きで、城壁の奥の家々の屋根がガリヴァーの頭より高く見える。家はガリヴァーより遠いのに大きく、家の屋根が腿ほど（AR-01）という大きさの違いが伝わらない。",
+       "rv.decision": "作者の判断待ち",
+       "rv.reason": "提案：直す。線画の説明に「家と城壁はガリヴァーの腿の高さまで」を足して描き直す（舞台の 3D は正しい大きさ）。",
+       "rv.fixedIn": ""
+      }
+     },
+     {
+      "id": "RV-e02-05",
+      "values": {
+       "rv.target": "e02-p11-k2",
+       "rv.by": "AI",
+       "rv.when": "2026-11-15 通読",
+       "rv.text": "門へ近づくガリヴァーの脇の見張りの小人が、ガリヴァーの膝近くまである。小人は靴の長さほど（1/12）のはず。",
+       "rv.decision": "作者の判断待ち",
+       "rv.reason": "提案：直す。線画から、小人を靴の長さほどに描き直す（第1話 RV-e01-04 と同じ直し方）。",
+       "rv.fixedIn": ""
+      }
+     },
+     {
+      "id": "RV-e02-06",
+      "values": {
+       "rv.target": "e02-p16-k2",
+       "rv.by": "AI",
+       "rv.when": "2026-11-15 通読",
+       "rv.text": "寝そべるガリヴァーの頭の横の宮殿の窓が、頭より大きい。本文と舞台では窓は 4 × 6 インチで、15ページでは目ほどの大きさに描いている。",
+       "rv.decision": "作者の判断待ち",
+       "rv.reason": "提案：直す。線画の説明に「窓はガリヴァーの目ほどの大きさ、壁は寝そべった頭の少し上まで」を足して描き直す。",
+       "rv.fixedIn": ""
+      }
+     },
+     {
+      "id": "RV-e02-07",
+      "values": {
+       "rv.target": "e02-p05-k2",
+       "rv.by": "AI",
+       "rv.when": "2026-11-15 通読",
+       "rv.text": "勝った廷臣たちの顔が枠の外にある。",
+       "rv.decision": "意図として残す",
+       "rv.reason": "ネームの寄り（勝った廷臣たちの腰に巻いた絹糸）のとおりで、顔を枠で切っているのではなく、顔を入れない構図。",
+       "rv.fixedIn": ""
+      }
+     },
+     {
+      "id": "RV-e02-08",
+      "values": {
+       "rv.target": "e02-p12-k2",
+       "rv.by": "AI",
+       "rv.when": "2026-11-14 ラフ",
+       "rv.text": "ネームの絵のメモは「上着の裾を押さえ」だが、原作では都で上着を脱ぎ、短い胴着だけで歩く。",
+       "rv.decision": "意図として残す",
+       "rv.reason": "作者の判断（2026-11-15「上着を脱いだままでいい」）：原作どおり上着を脱いだ姿で描く。ナレーション「短い胴着だけになって歩いた」と合う。",
+       "rv.fixedIn": ""
+      }
+     }
+    ]
+   },
+   "contentHash": "3142a54b36367af034de144f9bf52664c70a63e5b69666012cd14fb1cdfa2728"
+  }
+ ]
+}
