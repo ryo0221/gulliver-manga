@@ -7,7 +7,7 @@
   "source": "created"
  },
  "draft": {
-  "baseVersionId": "finish-ep02-v1",
+  "baseVersionId": "finish-ep02-v2",
   "updatedAt": "2026-11-15T00:00:00.000Z",
   "content": {
    "schemaVersion": 2,
@@ -484,7 +484,7 @@
  "versions": [
   {
    "artifactId": "gm1-ep02-lettering",
-   "versionId": "finish-ep02-v1",
+   "versionId": "finish-ep02-v2",
    "parentVersionId": null,
    "schemaVersion": 1,
    "createdAt": "2026-11-15T00:00:00.000Z",

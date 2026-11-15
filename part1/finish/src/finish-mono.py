@@ -38,6 +38,12 @@ SHADOW_RATIO = 0.88
 SHADOW_TONE = (40, 40, 40)
 BLUR = 2.5
 MIN_REGION = 30
+# 通読の直し（RV-e02-03、2026-11-15）：評議の間の奥の壁と卓に、ラフの鉛筆のむらがまだらの影として出た。
+# これらのコマでは、背景の領域と広い領域（壁・卓の面）に影を付けず、背景のトーンは強くぼかしたラフ（σ 30）から取って
+# 木目やむらで細かく分かれた領域どうしの濃さを揃える。
+FLAT_BG = {'e02-p06-k1': 'RV-e02-03', 'e02-p06-k3': 'RV-e02-03', 'e02-p07-k1': 'RV-e02-03'}
+FLAT_BG_BLUR = 30
+FLAT_SHARE = 0.01   # a region wider than this share of the panel is a wall or a table top (the figures are cut into small regions)
 
 
 def register(ref, lines):
@@ -53,7 +59,7 @@ def register(ref, lines):
     return cv2.remap(ref.astype(np.float32), gx + flow[..., 0], gy + flow[..., 1], cv2.INTER_LINEAR, borderMode=cv2.BORDER_REPLICATE)
 
 
-def split(Y, lines):
+def split(Y, lines, flat_bg=False, Yflat=None):
     H, W = Y.shape
     ink_all = np.maximum.reduce([lines[k] for k in lines])
     linemask = ndi.binary_dilation(ink_all > 70, iterations=1)
@@ -70,13 +76,21 @@ def split(Y, lines):
     shadow = np.zeros((H, W), np.float32)
     for i, sl in enumerate(ndi.find_objects(labels)):
         lab = i + 1
-        if sl is None or sizes[i] < MIN_REGION: continue
+        if sl is None: continue
+        if sizes[i] < MIN_REGION:
+            # Tiny regions (wood grain, hatching) stay white paper, except in the flat panels, where they take the
+            # blurred tone so a table face does not break into white specks.
+            if flat_bg: tone[lab] = LEVELS[np.abs(LEVELS - (1 - np.median(Yflat[sl][labels[sl] == lab]) / 255)).argmin()]
+            continue
         m = labels[sl] == lab
         y = Y[sl][m]
         lit = np.percentile(y, 80)
+        wide = flat_bg and (not is_fig[lab] or sizes[i] > FLAT_SHARE * H * W)
+        if wide: lit = np.median(Yflat[sl][m])
         dark = 1 - lit / 255
         tone[lab] = LEVELS[np.abs(LEVELS - dark).argmin()]
         if sizes[i] < 200 or lit < 40: continue
+        if wide: continue
         dk = m & (Y[sl] < lit * SHADOW_RATIO)
         if dk.sum() < 40: continue
         sh = shadow[sl]
@@ -113,7 +127,7 @@ for pid, ip in sorted(inkdata['panels'].items()):
     # Pencil is light: stretch the panel's values so paper is white and its darkest pencil is near black.
     lo, hi = np.percentile(Y, 1), np.percentile(Y, 99.5)
     Y = np.clip((Y - lo) / max(hi - lo, 1) * 255, 0, 255)
-    darkness, figmask, shadow = split(Y, lines)
+    darkness, figmask, shadow = split(Y, lines, pid in FLAT_BG, cv2.GaussianBlur(Y, (0, 0), FLAT_BG_BLUR) if pid in FLAT_BG else None)
     files = {}
     for ly, img in (('LY-03', grey_rgba(darkness, (~figmask).astype(np.float32))), ('LY-05', grey_rgba(darkness, figmask.astype(np.float32))),
                     ('LY-06', Image.fromarray(np.dstack([np.full((H, W, 3), SHADOW_TONE[0], np.uint8), (shadow * 255).astype(np.uint8)]), 'RGBA'))):
@@ -142,6 +156,7 @@ for pid, ip in sorted(inkdata['panels'].items()):
         'codexModel': None, 'imageModel': 'none', 'codexSession': None, 'rawSha256': sha(rpath), 'rawSize': [W, H],
         'refs': refs,
     }
+    if pid in FLAT_BG: panels[pid]['revision'] = {'finding': FLAT_BG[pid], 'date': '2026-11-15', 'what': '背景に影を付けず、背景のトーンを強くぼかしたラフから取った'}
     print(pid, files['LY-05']['share'], files['LY-03']['share'], files['LY-06']['share'], sum(v['bytes'] for v in files.values()) // 1024, 'KB')
 json.dump({'schemaVersion': 1, 'episode': EP, 'generatedAt': '2026-11-15', 'panels': panels}, open(f'{out}/ep{EP:02d}-finish.json', 'w'), ensure_ascii=False, indent=1)
 print(len(panels), 'panels')

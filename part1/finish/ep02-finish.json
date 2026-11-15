@@ -1111,18 +1111,18 @@
    "layers": {
     "LY-03": {
      "image": "layers/e02-p06-k1-LY-03.webp",
-     "bytes": 11992,
-     "share": 0.841
+     "bytes": 6126,
+     "share": 0.991
     },
     "LY-05": {
      "image": "layers/e02-p06-k1-LY-05.webp",
-     "bytes": 15926,
+     "bytes": 8958,
      "share": 0.534
     },
     "LY-06": {
      "image": "layers/e02-p06-k1-LY-06.webp",
-     "bytes": 3470,
-     "share": 0.029
+     "bytes": 2056,
+     "share": 0.007
     }
    },
    "lines": {
@@ -1174,7 +1174,12 @@
      "commit": "08f03f9d",
      "sha256": "6c68927077938cfdfe3d87720ab6395b29473db62380438d8c9a62417ed51761"
     }
-   ]
+   ],
+   "revision": {
+    "finding": "RV-e02-03",
+    "date": "2026-11-15",
+    "what": "背景に影を付けず、背景のトーンを強くぼかしたラフから取った"
+   }
   },
   "e02-p06-k2": {
    "layers": {
@@ -1249,18 +1254,18 @@
    "layers": {
     "LY-03": {
      "image": "layers/e02-p06-k3-LY-03.webp",
-     "bytes": 1668,
-     "share": 0.11
+     "bytes": 1822,
+     "share": 0.245
     },
     "LY-05": {
      "image": "layers/e02-p06-k3-LY-05.webp",
-     "bytes": 5466,
+     "bytes": 4198,
      "share": 0.796
     },
     "LY-06": {
      "image": "layers/e02-p06-k3-LY-06.webp",
-     "bytes": 1506,
-     "share": 0.008
+     "bytes": 1352,
+     "share": 0.005
     }
    },
    "lines": {
@@ -1312,7 +1317,12 @@
      "commit": "08f03f9d",
      "sha256": "98c976ac58cd332eb66403fe80bf235bf305aa93769795dcac9bc161b40f6352"
     }
-   ]
+   ],
+   "revision": {
+    "finding": "RV-e02-03",
+    "date": "2026-11-15",
+    "what": "背景に影を付けず、背景のトーンを強くぼかしたラフから取った"
+   }
   },
   "e02-p06-k4": {
    "layers": {
@@ -1387,18 +1397,18 @@
    "layers": {
     "LY-03": {
      "image": "layers/e02-p07-k1-LY-03.webp",
-     "bytes": 3802,
-     "share": 0.261
+     "bytes": 3604,
+     "share": 0.711
     },
     "LY-05": {
      "image": "layers/e02-p07-k1-LY-05.webp",
-     "bytes": 8218,
+     "bytes": 8206,
      "share": 0.339
     },
     "LY-06": {
      "image": "layers/e02-p07-k1-LY-06.webp",
-     "bytes": 3248,
-     "share": 0.023
+     "bytes": 2948,
+     "share": 0.02
     }
    },
    "lines": {
@@ -1450,7 +1460,12 @@
      "commit": "08f03f9d",
      "sha256": "32b15de4a0d8c49fb310f7e4ce561e2e4904972afb4897eb4a5d76eae950ee9b"
     }
-   ]
+   ],
+   "revision": {
+    "finding": "RV-e02-03",
+    "date": "2026-11-15",
+    "what": "背景に影を付けず、背景のトーンを強くぼかしたラフから取った"
+   }
   },
   "e02-p07-k2": {
    "layers": {

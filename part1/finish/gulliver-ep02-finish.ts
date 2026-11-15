@@ -20,7 +20,7 @@ export function buildEpisode2Finish(stage: StageInput, rough: RoughInput, ink: I
 }
 
 const stamp = '2026-11-15T00:00:00.000Z';
-const VERSION = 'finish-ep02-v1';
+const VERSION = 'finish-ep02-v2';
 async function native(kind: string, id: string, name: string, content: unknown) {
   const artifact: Artifact<unknown> = {
     schemaVersion: 1,
