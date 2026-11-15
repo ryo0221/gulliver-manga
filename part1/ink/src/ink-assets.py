@@ -54,7 +54,10 @@ def to_png(a, path):
 
 # INK_ONLY=<panel>,... redraws those panels only and keeps the rest of epNN-ink.json (e.g. the read-through fixes).
 ONLY = os.environ.get('INK_ONLY', '').split(',') if os.environ.get('INK_ONLY') else None
-REVISED = {'e01-p12-k3': 'RV-e01-04', 'e01-p15-k2': 'RV-e01-07', 'e01-p01-k1': 'RV-e01-03'}
+REVISED = {'e01-p12-k3': 'RV-e01-04', 'e01-p15-k2': 'RV-e01-07', 'e01-p01-k1': 'RV-e01-03',
+           'e02-p03-k1': 'RV-e02-01', 'e02-p07-k4': 'RV-e02-02', 'e02-p11-k1': 'RV-e02-04', 'e02-p11-k2': 'RV-e02-05',
+           'e02-p16-k2': 'RV-e02-06', 'e02-p16-k1': 'RV-e02-09'}
+REVISED_DATE = {'e01': '2026-11-14', 'e02': '2026-11-15'}
 before = json.load(open(JSON))['panels'] if ONLY else {}
 panels = dict(before)
 for pid, b in briefs.items():
@@ -106,7 +109,7 @@ for pid, b in briefs.items():
         'refs': refs,
     }
     if pid in before and REVISED.get(pid):
-        panels[pid]['revision'] = {'finding': REVISED[pid], 'date': '2026-11-14', 'previousRawSha256': before[pid]['rawSha256']}
+        panels[pid]['revision'] = {'finding': REVISED[pid], 'date': REVISED_DATE[pid[:3]], 'previousRawSha256': before[pid]['rawSha256']}
     print(pid, {ly: v['share'] for ly, v in layers.items()}, sum(v['bytes'] for v in layers.values()) // 1024, 'KB')
 json.dump({'schemaVersion': 1, 'episode': EP, 'generatedAt': '2026-11-14' if EP == 1 else '2026-11-15', 'panels': panels}, open(JSON, 'w'), ensure_ascii=False, indent=1)
 print(len(panels), 'panels')

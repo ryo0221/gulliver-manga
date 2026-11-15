@@ -12,6 +12,8 @@ from PIL import Image, ImageFilter, ImageOps
 
 root, commit, out = sys.argv[1:4]
 EP = int(os.environ.get('EPISODE', '1'))
+# 通読の直しで描き直したコマ（第2話、2026-11-15）：前の生の出力の sha256 を残す。
+REVISED = {'e02-p07-k4': 'RV-e02-02', 'e02-p16-k1': 'RV-e02-09'}
 GM = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../..'))
 briefs = json.load(open(f'{root}/briefs.json'))
 os.makedirs(f'{out}/panels', exist_ok=True); os.makedirs(f'{out}/prompts', exist_ok=True)
@@ -41,6 +43,8 @@ def occupancy_grid(grey, figures):
 
 
 panels = {}
+_old = f'{out}/ep{EP:02d}-rough.json'
+before = json.load(open(_old))['panels'] if os.path.exists(_old) else {}
 for pid, b in briefs.items():
     d = f'{root}/{pid}'
     if not pid.startswith(f'e{EP:02d}-') or not os.path.exists(f'{d}/raw.png'):
@@ -78,5 +82,9 @@ for pid, b in briefs.items():
     # A panel drawn again before the author saw it (the first try did not follow the brief): keep why and the first raw.
     if os.path.exists(f'{d}/try1/raw.png'):
         panels[pid]['retake'] = {'reason': open(f'{d}/retake.txt').read().strip() if os.path.exists(f'{d}/retake.txt') else '', 'firstRawSha256': sha(f'{d}/try1/raw.png')}
+    if pid in REVISED and pid in before and before[pid]['rawSha256'] != panels[pid]['rawSha256']:
+        panels[pid]['revision'] = {'finding': REVISED[pid], 'date': '2026-11-15', 'previousRawSha256': before[pid]['rawSha256']}
+    elif pid in before and before[pid].get('revision'):
+        panels[pid]['revision'] = before[pid]['revision']
 json.dump({'schemaVersion': 1, 'episode': EP, 'generatedAt': '2026-11-14', 'panels': panels}, open(f'{out}/ep{EP:02d}-rough.json', 'w'), ensure_ascii=False, indent=1)
 print(len(panels), 'panels')

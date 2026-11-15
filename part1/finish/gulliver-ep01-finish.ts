@@ -63,6 +63,8 @@ const LICENSE = 'OpenAI の生成画像（Codex）。他の作品の絵は渡し
 const LICENSE_MONO = 'この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う';
 /** 白黒の仕上げ（画像を生成していない）コマか。 */
 export const isMono = (p: FinishPanel) => p.imageModel === 'none';
+/** 白黒の仕上げで、ラフではなく線画の斜線からトーンを取ったコマ（通読の直しで線画だけを描き直したもの）。 */
+const lineTone = (p: FinishPanel) => /from the accepted line art/.test(p.tool);
 /** 話ごとの仕上げの指定。 */
 export type FinishEpisode = { episode: number; name: EpisodeName; inkVersion: string };
 const KEY = { bgFill: 'LY-03', figFill: 'LY-05', shadow: 'LY-06' } as const;
@@ -79,8 +81,10 @@ function finishImages(fin: FinishInput, inkVersion = INK_VERSION): Record<string
   for (const [id, p] of Object.entries(fin.data.panels)) {
     const one = (k: keyof typeof KEY) => isMono(p) ? ({
       src: fin.images[`${id}/${KEY[k]}`]!,
-      alt: `${id} の${WHAT[k]}（白黒）。採ったラフの鉛筆の濃さを、線画の位置へ合わせて、線の間の領域ごとにグレーのトーンと影にしたもの`,
-      source: `${p.tool}。もと：${p.refs.map((r) => refText(r, inkVersion)).join('、')}。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、${KEY[k]} を取り出した`,
+      alt: lineTone(p)
+        ? `${id} の${WHAT[k]}（白黒）。描き直した線画の線と斜線の濃さから、線の間の領域ごとにグレーのトーンと影にしたもの`
+        : `${id} の${WHAT[k]}（白黒）。採ったラフの鉛筆の濃さを、線画の位置へ合わせて、線の間の領域ごとにグレーのトーンと影にしたもの`,
+      source: `${p.tool}。もと：${p.refs.map((r) => refText(r, inkVersion)).join('、')}。${lineTone(p) ? '線画をぼかして' : 'ラフを線画へ合わせ（オプティカルフロー）、ぼかして'}濃さを領域ごとに段階のトーンにし、${KEY[k]} を取り出した`,
       license: LICENSE_MONO,
     }) : ({
       src: fin.images[`${id}/${KEY[k]}`]!,
@@ -154,7 +158,8 @@ export function pageTable(records: PanelRecord[], fin: EpisodeFinish, epNo = 1, 
           'fn.scene': rs[0]!.scene,
           'fn.panels': rs.map((r) => r.id).join(' '),
           'fn.method': mono
-            ? '白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま'
+            ? '白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま' +
+              (fp.some(lineTone) ? `。${rs.filter((r) => lineTone(fin.panels[r.id]!)).map((r) => r.id).join(' ')} は通読の直しで線画だけを描き直し、前のラフと構図が合わないので、線画の線と斜線の濃さからトーンを取った` : '')
             : '採った線画を Codex に塗らせて色の見本を作り、見本を線画の位置へ合わせて（線の画像どうしのオプティカルフロー）、線の間の領域ごとに塗り（人物と背景）と影に分けた。線は線画のまま',
           'fn.ink': `${INK_VERSION}：${refs.filter((r) => r.path.startsWith('part1/ink/')).length} 枚の線のレイヤー（part1/ink/layers/、sha256 は ep${String(epNo).padStart(2, '0')}-finish.json）`,
           'fn.art': mono

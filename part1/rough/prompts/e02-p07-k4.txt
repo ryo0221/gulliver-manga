@@ -11,15 +11,16 @@ No likeness to any film, game or existing illustration. No text, no letters, no 
 Landscape 1536x1024.
 
 Panel e02-p07-k4, page 7 panel 4, scene SC-007.
-Shot: 引き. Camera: 小人の目の高さ, 136 mm above the ground; 神殿の前の地面から、座るガリヴァーと、その前に立つボルゴラムの一行を.
+Shot: 引き. Camera: 小人の目の高さ, 136 mm above the ground; 座るガリヴァーの頭から足まで全身と、その前に立つボルゴラムの一行.
 What the panel shows (storyboard memo): 長い羊皮紙を持って、ガリヴァーの前に来るボルゴラムの一行。
 Words in this panel (for the mood and the faces only, do NOT draw any text): (no words)
 Figures, placed by the 3D layout (keep these places, facings and poses; draw each with a readable face direction, pose and expression):
-- FG-e02-p07-k4-01 ガリヴァー — Gulliver (CH-01): 1,750 mm, plain blue coat with brass buttons and NO gold trim, tan breeches, white stockings, black shoes, brown hair tied back; sitting on the ground, looking down at the tiny people; big in the foreground, head cut off by the frame edge, body at top-centre of the frame (x 39%, y 24%), three-quarter view toward the camera, turned to frame right; 3360 mm from the camera.
-- FG-e02-p07-k4-02 ボルゴラム — Skyresh Bolgolam, the High Admiral (CH-06): a stout, sour-faced Lilliputian, 1/12 of Gulliver; reading aloud from a long parchment; head at bottom-centre of the frame (x 64%, y 75%), three-quarter back view, turned to frame left; 2686 mm from the camera.
-- FG-e02-p07-k4-03 ボルゴラムの従者1 — a Lilliputian (CH-30): 146 mm tall, 1/12 of Gulliver; standing; head at bottom-centre of the frame (x 66%, y 75%), three-quarter back view, turned to frame left; 2488 mm from the camera.
-- FG-e02-p07-k4-04 ボルゴラムの従者2 — a Lilliputian (CH-30): 146 mm tall, 1/12 of Gulliver; standing; head at bottom-right of the frame (x 70%, y 75%), in profile, facing frame left; 2765 mm from the camera.
+- FG-e02-p07-k4-01 ガリヴァー — Gulliver (CH-01): 1,750 mm, plain blue coat with brass buttons and NO gold trim, tan breeches, white stockings, black shoes, brown hair tied back; sitting on the ground, looking down at the tiny people; head at middle-centre of the frame (x 43%, y 37%), three-quarter view toward the camera, turned to frame right; 4383 mm from the camera.
+- FG-e02-p07-k4-02 ボルゴラム — Skyresh Bolgolam, the High Admiral (CH-06): a stout, sour-faced Lilliputian, 1/12 of Gulliver; reading aloud from a long parchment; head at bottom-centre of the frame (x 60%, y 71%), three-quarter back view, turned to frame left; 3912 mm from the camera.
+- FG-e02-p07-k4-03 ボルゴラムの従者1 — a Lilliputian (CH-30): 146 mm tall, 1/12 of Gulliver; standing; head at bottom-centre of the frame (x 61%, y 71%), three-quarter back view, turned to frame left; 3705 mm from the camera.
+- FG-e02-p07-k4-04 ボルゴラムの従者2 — a Lilliputian (CH-30): 146 mm tall, 1/12 of Gulliver; standing; head at bottom-centre of the frame (x 64%, y 71%), three-quarter back view, turned to frame left; 3958 mm from the camera.
 The FIRST image is the 3D layout render from this camera: figures there are blocky stand-ins, ground/sea/walls are flat placeholders. The flat grey bands at the edges of the FIRST image are padding outside the panel: continue the scene into them, nothing important there.
+Correction after the read-through (RV-e02-02): Gulliver's head was cut off by the top of the frame. This is a wide shot: draw seated Gulliver WHOLE, from the top of his head to his shoes, with sky above his head, inside the frame; his face (looking down at Bolgolam) must be fully visible. Bolgolam and his party stand small on the grass in front of him, reading the long parchment; the temple wall and its door behind Gulliver.
 Continuity: Gulliver is still chained by the LEFT ankle only (one chain from his left ankle back to the old temple's door); his right leg is free. He wears his plain coat with buttons.
 Size check inside the picture (AR-01): a whole Lilliputian is about as tall as Gulliver's hand is long; a Lilliputian's head is smaller than Gulliver's eye. The dancing thread is 12 inches up: it reaches only Gulliver's shin. Never draw the Lilliputians bigger than this.
 Never cut a face with the frame edge: every face that is in the frame is drawn whole.

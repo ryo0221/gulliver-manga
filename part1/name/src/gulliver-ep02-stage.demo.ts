@@ -185,8 +185,11 @@ const STOOL = Math.round(5 * foot);
 // The royal apartments (F105 pal-royal, 10 ft square at the centre): their south wall at y = −1,524 mm has 4 × 6 in
 // windows, the lower west one centred at x ≈ −762 mm (sill 457 mm). Gulliver lies outside to the south with his head
 // at that window; the window dais (創作) stands inside the wall.
-// `at` is the feet: the prone root turns the body to lie along +y, so the feet sit about 1.8 m south of the head.
+// `at` is the hip (not the feet): the prone root turns the body to lie along +y, so the head is about 0.9 m north of `at`.
 const PRONE: Place = { fig: 'gulliver', at: [-762, -3450, 0], facing: 0, pose: 'prone-look' };
+// 通読の直し（RV-e02-09、2026-11-15）：`at` は足ではなく腰（hip）で、PRONE の頭は窓の壁から 1.1 m 南にあった。
+// 16-1 の撮り直しだけ、頭が窓の前に来るよう腰を北へ寄せる（他のコマは前の撮影のまま）。
+const PRONE_AT_WINDOW: Place = { ...PRONE, at: [-762, -2450, 0] };
 
 const SETS: SetDef[] = [
   {
@@ -226,7 +229,8 @@ const SETS: SetDef[] = [
       { panel: 'e02-p05-k2', cam: [-260, 1830, 136], look: [-260, 2150, 70], places: [{ fig: 'd1', at: [-330, 2150, 0], facing: Math.PI, pose: 'stand' }, { fig: 'd3', at: [-200, 2170, 0], facing: Math.PI, pose: 'stand' }, { fig: 'flimnap', at: [-460, 2140, 0], facing: Math.PI, pose: 'stand' }] },
       { panel: 'e02-p05-k3', cam: [3600, 4300, 136], look: [0, 1200, 500], places: [sit('sit-look-down'), onRope('d1', -150), EMP_SEAT], crowds: ['court', 'mob'] },
       // SC-007 at the temple: Bolgolam reads the articles; the oath; the chain comes off.
-      { panel: 'e02-p07-k4', cam: [2250, 2700, 136], look: [0, 1200, 500], places: [sit('sit-look-down'), { fig: 'bolgolam', at: [-200, ROPE_Y, 0], facing: Math.PI, pose: 'read' }, { fig: 'b1', at: [-50, 1750, 0], facing: Math.PI, pose: 'stand' }, { fig: 'b2', at: [-350, 1760, 0], facing: Math.PI, pose: 'stand' }], crowds: ['court'] },
+      { panel: 'e02-p07-k4', cam: [3100, 3700, 136], look: [-100, 1100, 600], // 通読の直し RV-e02-02：引いて頭まで入れた（前は cam [2250, 2700, 136] look [0, 1200, 500]）
+         places: [sit('sit-look-down'), { fig: 'bolgolam', at: [-200, ROPE_Y, 0], facing: Math.PI, pose: 'read' }, { fig: 'b1', at: [-50, 1750, 0], facing: Math.PI, pose: 'stand' }, { fig: 'b2', at: [-350, 1760, 0], facing: Math.PI, pose: 'stand' }], crowds: ['court'] },
       { panel: 'e02-p08-k1', cam: [-600, 2500, 136], look: [-120, 900, 380], places: [sit('sit-look-down'), { fig: 'bolgolam', at: [-200, ROPE_Y, 0], facing: Math.PI, pose: 'read' }] },
       { panel: 'e02-p08-k2', cam: [-200, 1430, 136], look: [-170, ROPE_Y, 120], places: [sit('sit-look-down'), { fig: 'bolgolam', at: [-200, ROPE_Y, 0], facing: Math.PI, pose: 'read' }] },
       { panel: 'e02-p08-k3', cam: [-470, 1580, 136], look: [-200, ROPE_Y - 40, 120], places: [{ fig: 'bolgolam', at: [-200, ROPE_Y, 0], facing: Math.PI, pose: 'read' }, { fig: 'b1', at: [-50, 1750, 0], facing: Math.PI, pose: 'stand' }] },
@@ -293,7 +297,8 @@ const SETS: SetDef[] = [
       { panel: 'e02-p15-k1', cam: [-150, -150, 386], look: [-762, -1524, 204], stand: 'dais', places: [PRONE, { fig: 'empress', at: [-1050, -1330, 250], facing: Math.PI, pose: 'point' }, { fig: 'pr1', at: [-560, -1100, 0], facing: Math.PI, pose: 'fall' }, { fig: 'pr2', at: [-420, -1000, 0], facing: Math.PI, pose: 'point' }] },
       { panel: 'e02-p15-k2', cam: [-1050, -1470, 386], look: [-1050, -1330, 370], stand: 'dais', places: [PRONE, { fig: 'empress', at: [-1050, -1330, 250], facing: Math.PI, pose: 'point' }] },
       { panel: 'e02-p15-k3', cam: [-762, 900, 386], look: [-762, -1524, 500], stand: 'dais', places: [PRONE, { fig: 'empress', at: [-1050, -1330, 250], facing: Math.PI, pose: 'point' }, { fig: 'pr1', at: [-560, -1100, 0], facing: Math.PI, pose: 'stand' }] },
-      { panel: 'e02-p16-k1', cam: [-380, -1120, 386], look: [-840, -1480, 430], stand: 'dais', places: [PRONE, { fig: 'empress', at: [-880, -1400, 250], facing: Math.PI, pose: 'point' }] },
+      { panel: 'e02-p16-k1', cam: [-250, -1900, 350], look: [-762, -1620, 280], // 通読の直し RV-e02-09：窓の外の脇から横顔の全体を（前は部屋の中から cam [-380, -1120, 386] look [-840, -1480, 430]、台の上）
+         places: [PRONE_AT_WINDOW, { fig: 'empress', at: [-880, -1400, 250], facing: Math.PI, pose: 'point' }] },
       { panel: 'e02-p16-k2', cam: [1400, -3600, 136], look: [-762, -2600, 330], places: [PRONE] },
     ],
   },

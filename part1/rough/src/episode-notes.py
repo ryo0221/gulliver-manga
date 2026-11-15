@@ -28,7 +28,8 @@ PANEL_E02 = {
     'e02-p15-k1': "The 3D render shows the window glass as opaque: draw Gulliver's huge EYE (with the brow and part of the cheek) filling the small window from outside, looking in. The window is 4 by 6 inches, about as big as his eye with the brow. The princes inside are each smaller than that eye.",
     'e02-p15-k2': "Behind the Empress, the window is filled with Gulliver's huge eye and brow looking in (the 3D glass is opaque; draw the eye).",
     'e02-p15-k3': "Seen from the back of the room: through the small window, Gulliver's huge eye (with the brow) smiles softly; the rest of his face is outside, beyond the window frame. The window is about as big as his eye with the brow.",
-    'e02-p16-k1': "Gulliver is OUTSIDE the building, lying in the court: only his huge lips, nose and chin show in the small open window. The Empress stands inside on the window dais and holds her hand out to him. Her whole hand is about the size of his fingernail; he brings his lips very gently to it. He never comes into the room.",
+    # 通読の直し（RV-e02-09）：前の覚え書き「窓に唇・鼻・顎だけ」が、窓に鼻だけの気味の悪い絵になった。外から横顔の全体を（rough-briefs の REVISED_NOTE）。
+    'e02-p16-k1': "Gulliver is OUTSIDE the building, lying in the court; he never comes into the room. The Empress holds her hand out to him from the small window. Her whole hand is about the size of his fingernail; he brings his lips very gently to it.",
     'e02-p16-k2': "Sunset light. The inner court is narrow for him: he lies face down between the buildings, his head at the palace window.",
 }
 

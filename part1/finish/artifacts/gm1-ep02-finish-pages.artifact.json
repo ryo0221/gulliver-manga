@@ -7,7 +7,7 @@
   "source": "created"
  },
  "draft": {
-  "baseVersionId": "finish-ep02-v1",
+  "baseVersionId": "finish-ep02-v3",
   "updatedAt": "2026-11-15T00:00:00.000Z",
   "content": {
    "schemaVersion": 2,
@@ -90,13 +90,13 @@
       "fn.scene": "SC-006",
       "fn.panels": "e02-p01-k1 e02-p01-k2",
       "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま",
-      "fn.ink": "gm1-ep02-ink@ink-ep02-v1：6 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
+      "fn.ink": "gm1-ep02-ink@ink-ep02-v2：6 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
       "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 2 枚（part1/rough/panels/）",
       "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-03 と LY-05 は白黒のトーン（グレーの塗り）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影はラフの領域の中で暗いところで、半透明の濃いグレーをトーンの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
       "fn.byHuman": "まだ無い（作者が確かめて直す）",
       "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（ラフから計算。画像生成なし）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v1 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
+      "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v2 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
       "fn.noShadow": ""
      }
     },
@@ -107,13 +107,13 @@
       "fn.scene": "SC-006",
       "fn.panels": "e02-p02-k1 e02-p02-k2 e02-p02-k3 e02-p02-k4",
       "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま",
-      "fn.ink": "gm1-ep02-ink@ink-ep02-v1：12 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
+      "fn.ink": "gm1-ep02-ink@ink-ep02-v2：12 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
       "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 4 枚（part1/rough/panels/）",
       "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-03 と LY-05 は白黒のトーン（グレーの塗り）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影はラフの領域の中で暗いところで、半透明の濃いグレーをトーンの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
       "fn.byHuman": "まだ無い（作者が確かめて直す）",
       "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（ラフから計算。画像生成なし）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v1 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
+      "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v2 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
       "fn.noShadow": ""
      }
     },
@@ -123,14 +123,14 @@
       "fn.page": 3,
       "fn.scene": "SC-006",
       "fn.panels": "e02-p03-k1 e02-p03-k2 e02-p03-k3",
-      "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま",
-      "fn.ink": "gm1-ep02-ink@ink-ep02-v1：9 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
-      "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 3 枚（part1/rough/panels/）",
+      "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま。e02-p03-k1 は通読の直しで線画だけを描き直し、前のラフと構図が合わないので、線画の線と斜線の濃さからトーンを取った",
+      "fn.ink": "gm1-ep02-ink@ink-ep02-v2：9 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
+      "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 2 枚（part1/rough/panels/）",
       "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-03 と LY-05 は白黒のトーン（グレーの塗り）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影はラフの領域の中で暗いところで、半透明の濃いグレーをトーンの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
       "fn.byHuman": "まだ無い（作者が確かめて直す）",
       "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（ラフから計算。画像生成なし）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v1 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
+      "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted line art (its hatching; the rough was not redrawn) (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v2 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
       "fn.noShadow": ""
      }
     },
@@ -141,13 +141,13 @@
       "fn.scene": "SC-006",
       "fn.panels": "e02-p04-k1 e02-p04-k2 e02-p04-k3 e02-p04-k4",
       "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま",
-      "fn.ink": "gm1-ep02-ink@ink-ep02-v1：12 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
+      "fn.ink": "gm1-ep02-ink@ink-ep02-v2：12 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
       "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 4 枚（part1/rough/panels/）",
       "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-03 と LY-05 は白黒のトーン（グレーの塗り）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影はラフの領域の中で暗いところで、半透明の濃いグレーをトーンの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
       "fn.byHuman": "まだ無い（作者が確かめて直す）",
       "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（ラフから計算。画像生成なし）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v1 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
+      "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v2 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
       "fn.noShadow": ""
      }
     },
@@ -158,13 +158,13 @@
       "fn.scene": "SC-006",
       "fn.panels": "e02-p05-k1 e02-p05-k2 e02-p05-k3",
       "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま",
-      "fn.ink": "gm1-ep02-ink@ink-ep02-v1：9 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
+      "fn.ink": "gm1-ep02-ink@ink-ep02-v2：9 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
       "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 3 枚（part1/rough/panels/）",
       "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-03 と LY-05 は白黒のトーン（グレーの塗り）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影はラフの領域の中で暗いところで、半透明の濃いグレーをトーンの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
       "fn.byHuman": "まだ無い（作者が確かめて直す）",
       "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（ラフから計算。画像生成なし）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v1 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
+      "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v2 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
       "fn.noShadow": "e02-p05-k1：ラフに、領域の中で暗いところとして取り出せる影が無かった（影はトーンの濃さに残っている）"
      }
     },
@@ -175,13 +175,13 @@
       "fn.scene": "SC-007",
       "fn.panels": "e02-p06-k1 e02-p06-k2 e02-p06-k3 e02-p06-k4",
       "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま",
-      "fn.ink": "gm1-ep02-ink@ink-ep02-v1：12 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
+      "fn.ink": "gm1-ep02-ink@ink-ep02-v2：12 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
       "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 4 枚（part1/rough/panels/）",
       "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-03 と LY-05 は白黒のトーン（グレーの塗り）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影はラフの領域の中で暗いところで、半透明の濃いグレーをトーンの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
       "fn.byHuman": "まだ無い（作者が確かめて直す）",
       "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（ラフから計算。画像生成なし）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v1 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
+      "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v2 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
       "fn.noShadow": ""
      }
     },
@@ -192,13 +192,13 @@
       "fn.scene": "SC-007",
       "fn.panels": "e02-p07-k1 e02-p07-k2 e02-p07-k3 e02-p07-k4",
       "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま",
-      "fn.ink": "gm1-ep02-ink@ink-ep02-v1：12 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
+      "fn.ink": "gm1-ep02-ink@ink-ep02-v2：12 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
       "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 4 枚（part1/rough/panels/）",
       "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-03 と LY-05 は白黒のトーン（グレーの塗り）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影はラフの領域の中で暗いところで、半透明の濃いグレーをトーンの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
       "fn.byHuman": "まだ無い（作者が確かめて直す）",
       "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（ラフから計算。画像生成なし）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v1 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
+      "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v2 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
       "fn.noShadow": ""
      }
     },
@@ -209,13 +209,13 @@
       "fn.scene": "SC-007",
       "fn.panels": "e02-p08-k1 e02-p08-k2 e02-p08-k3 e02-p08-k4",
       "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま",
-      "fn.ink": "gm1-ep02-ink@ink-ep02-v1：12 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
+      "fn.ink": "gm1-ep02-ink@ink-ep02-v2：12 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
       "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 4 枚（part1/rough/panels/）",
       "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-03 と LY-05 は白黒のトーン（グレーの塗り）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影はラフの領域の中で暗いところで、半透明の濃いグレーをトーンの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
       "fn.byHuman": "まだ無い（作者が確かめて直す）",
       "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（ラフから計算。画像生成なし）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v1 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
+      "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v2 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
       "fn.noShadow": ""
      }
     },
@@ -226,13 +226,13 @@
       "fn.scene": "SC-007",
       "fn.panels": "e02-p09-k1 e02-p09-k2 e02-p09-k3",
       "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま",
-      "fn.ink": "gm1-ep02-ink@ink-ep02-v1：9 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
+      "fn.ink": "gm1-ep02-ink@ink-ep02-v2：9 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
       "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 3 枚（part1/rough/panels/）",
       "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-03 と LY-05 は白黒のトーン（グレーの塗り）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影はラフの領域の中で暗いところで、半透明の濃いグレーをトーンの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
       "fn.byHuman": "まだ無い（作者が確かめて直す）",
       "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（ラフから計算。画像生成なし）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v1 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
+      "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v2 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
       "fn.noShadow": ""
      }
     },
@@ -243,13 +243,13 @@
       "fn.scene": "SC-007",
       "fn.panels": "e02-p10-k1 e02-p10-k2 e02-p10-k3",
       "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま",
-      "fn.ink": "gm1-ep02-ink@ink-ep02-v1：9 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
+      "fn.ink": "gm1-ep02-ink@ink-ep02-v2：9 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
       "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 3 枚（part1/rough/panels/）",
       "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-03 と LY-05 は白黒のトーン（グレーの塗り）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影はラフの領域の中で暗いところで、半透明の濃いグレーをトーンの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
       "fn.byHuman": "まだ無い（作者が確かめて直す）",
       "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（ラフから計算。画像生成なし）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v1 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
+      "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v2 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
       "fn.noShadow": ""
      }
     },
@@ -259,14 +259,14 @@
       "fn.page": 11,
       "fn.scene": "SC-008",
       "fn.panels": "e02-p11-k1 e02-p11-k2",
-      "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま",
-      "fn.ink": "gm1-ep02-ink@ink-ep02-v1：6 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
-      "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 2 枚（part1/rough/panels/）",
+      "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま。e02-p11-k1 e02-p11-k2 は通読の直しで線画だけを描き直し、前のラフと構図が合わないので、線画の線と斜線の濃さからトーンを取った",
+      "fn.ink": "gm1-ep02-ink@ink-ep02-v2：6 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
+      "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 0 枚（part1/rough/panels/）",
       "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-03 と LY-05 は白黒のトーン（グレーの塗り）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影はラフの領域の中で暗いところで、半透明の濃いグレーをトーンの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
       "fn.byHuman": "まだ無い（作者が確かめて直す）",
       "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（ラフから計算。画像生成なし）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v1 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
+      "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted line art (its hatching; the rough was not redrawn) (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v2 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
       "fn.noShadow": ""
      }
     },
@@ -277,13 +277,13 @@
       "fn.scene": "SC-008",
       "fn.panels": "e02-p12-k1 e02-p12-k2 e02-p12-k3",
       "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま",
-      "fn.ink": "gm1-ep02-ink@ink-ep02-v1：9 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
+      "fn.ink": "gm1-ep02-ink@ink-ep02-v2：9 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
       "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 3 枚（part1/rough/panels/）",
       "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-03 と LY-05 は白黒のトーン（グレーの塗り）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影はラフの領域の中で暗いところで、半透明の濃いグレーをトーンの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
       "fn.byHuman": "まだ無い（作者が確かめて直す）",
       "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（ラフから計算。画像生成なし）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v1 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
+      "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v2 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
       "fn.noShadow": "e02-p12-k2：ラフに、領域の中で暗いところとして取り出せる影が無かった（影はトーンの濃さに残っている）"
      }
     },
@@ -294,13 +294,13 @@
       "fn.scene": "SC-008",
       "fn.panels": "e02-p13-k1 e02-p13-k2",
       "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま",
-      "fn.ink": "gm1-ep02-ink@ink-ep02-v1：6 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
+      "fn.ink": "gm1-ep02-ink@ink-ep02-v2：6 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
       "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 2 枚（part1/rough/panels/）",
       "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-03 と LY-05 は白黒のトーン（グレーの塗り）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影はラフの領域の中で暗いところで、半透明の濃いグレーをトーンの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
       "fn.byHuman": "まだ無い（作者が確かめて直す）",
       "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（ラフから計算。画像生成なし）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v1 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
+      "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v2 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
       "fn.noShadow": ""
      }
     },
@@ -311,13 +311,13 @@
       "fn.scene": "SC-008",
       "fn.panels": "e02-p14-k1 e02-p14-k2",
       "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま",
-      "fn.ink": "gm1-ep02-ink@ink-ep02-v1：6 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
+      "fn.ink": "gm1-ep02-ink@ink-ep02-v2：6 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
       "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 2 枚（part1/rough/panels/）",
       "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-03 と LY-05 は白黒のトーン（グレーの塗り）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影はラフの領域の中で暗いところで、半透明の濃いグレーをトーンの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
       "fn.byHuman": "まだ無い（作者が確かめて直す）",
       "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（ラフから計算。画像生成なし）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v1 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
+      "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v2 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
       "fn.noShadow": ""
      }
     },
@@ -328,13 +328,13 @@
       "fn.scene": "SC-008",
       "fn.panels": "e02-p15-k1 e02-p15-k2 e02-p15-k3",
       "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま",
-      "fn.ink": "gm1-ep02-ink@ink-ep02-v1：9 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
+      "fn.ink": "gm1-ep02-ink@ink-ep02-v2：9 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
       "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 3 枚（part1/rough/panels/）",
       "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-03 と LY-05 は白黒のトーン（グレーの塗り）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影はラフの領域の中で暗いところで、半透明の濃いグレーをトーンの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
       "fn.byHuman": "まだ無い（作者が確かめて直す）",
       "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（ラフから計算。画像生成なし）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v1 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
+      "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v2 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
       "fn.noShadow": ""
      }
     },
@@ -344,14 +344,14 @@
       "fn.page": 16,
       "fn.scene": "SC-008",
       "fn.panels": "e02-p16-k1 e02-p16-k2",
-      "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま",
-      "fn.ink": "gm1-ep02-ink@ink-ep02-v1：6 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
-      "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 2 枚（part1/rough/panels/）",
+      "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま。e02-p16-k2 は通読の直しで線画だけを描き直し、前のラフと構図が合わないので、線画の線と斜線の濃さからトーンを取った",
+      "fn.ink": "gm1-ep02-ink@ink-ep02-v2：6 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
+      "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 1 枚（part1/rough/panels/）",
       "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-03 と LY-05 は白黒のトーン（グレーの塗り）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影はラフの領域の中で暗いところで、半透明の濃いグレーをトーンの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
       "fn.byHuman": "まだ無い（作者が確かめて直す）",
       "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（ラフから計算。画像生成なし）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v1 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
+      "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v2 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
       "fn.noShadow": ""
      }
     }
@@ -361,12 +361,12 @@
  "versions": [
   {
    "artifactId": "gm1-ep02-finish-pages",
-   "versionId": "finish-ep02-v1",
+   "versionId": "finish-ep02-v3",
    "parentVersionId": null,
    "schemaVersion": 1,
    "createdAt": "2026-11-15T00:00:00.000Z",
    "createdBy": null,
-   "reason": "ガリヴァー旅行記 第2話の仕上げと写植（白黒。fiction-manga@1.3.0 仕上げと写植、gm1-ep02-ink@ink-ep02-v1 から。AI の提案）",
+   "reason": "ガリヴァー旅行記 第2話の仕上げと写植（白黒。fiction-manga@1.3.0 仕上げと写植、gm1-ep02-ink@ink-ep02-v2 から。AI の提案）",
    "content": {
     "schemaVersion": 2,
     "columns": [
@@ -448,13 +448,13 @@
        "fn.scene": "SC-006",
        "fn.panels": "e02-p01-k1 e02-p01-k2",
        "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま",
-       "fn.ink": "gm1-ep02-ink@ink-ep02-v1：6 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
+       "fn.ink": "gm1-ep02-ink@ink-ep02-v2：6 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
        "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 2 枚（part1/rough/panels/）",
        "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-03 と LY-05 は白黒のトーン（グレーの塗り）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影はラフの領域の中で暗いところで、半透明の濃いグレーをトーンの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
        "fn.byHuman": "まだ無い（作者が確かめて直す）",
        "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（ラフから計算。画像生成なし）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v1 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
+       "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v2 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
        "fn.noShadow": ""
       }
      },
@@ -465,13 +465,13 @@
        "fn.scene": "SC-006",
        "fn.panels": "e02-p02-k1 e02-p02-k2 e02-p02-k3 e02-p02-k4",
        "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま",
-       "fn.ink": "gm1-ep02-ink@ink-ep02-v1：12 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
+       "fn.ink": "gm1-ep02-ink@ink-ep02-v2：12 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
        "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 4 枚（part1/rough/panels/）",
        "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-03 と LY-05 は白黒のトーン（グレーの塗り）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影はラフの領域の中で暗いところで、半透明の濃いグレーをトーンの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
        "fn.byHuman": "まだ無い（作者が確かめて直す）",
        "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（ラフから計算。画像生成なし）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v1 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
+       "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v2 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
        "fn.noShadow": ""
       }
      },
@@ -481,14 +481,14 @@
        "fn.page": 3,
        "fn.scene": "SC-006",
        "fn.panels": "e02-p03-k1 e02-p03-k2 e02-p03-k3",
-       "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま",
-       "fn.ink": "gm1-ep02-ink@ink-ep02-v1：9 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
-       "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 3 枚（part1/rough/panels/）",
+       "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま。e02-p03-k1 は通読の直しで線画だけを描き直し、前のラフと構図が合わないので、線画の線と斜線の濃さからトーンを取った",
+       "fn.ink": "gm1-ep02-ink@ink-ep02-v2：9 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
+       "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 2 枚（part1/rough/panels/）",
        "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-03 と LY-05 は白黒のトーン（グレーの塗り）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影はラフの領域の中で暗いところで、半透明の濃いグレーをトーンの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
        "fn.byHuman": "まだ無い（作者が確かめて直す）",
        "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（ラフから計算。画像生成なし）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v1 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
+       "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted line art (its hatching; the rough was not redrawn) (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v2 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
        "fn.noShadow": ""
       }
      },
@@ -499,13 +499,13 @@
        "fn.scene": "SC-006",
        "fn.panels": "e02-p04-k1 e02-p04-k2 e02-p04-k3 e02-p04-k4",
        "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま",
-       "fn.ink": "gm1-ep02-ink@ink-ep02-v1：12 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
+       "fn.ink": "gm1-ep02-ink@ink-ep02-v2：12 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
        "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 4 枚（part1/rough/panels/）",
        "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-03 と LY-05 は白黒のトーン（グレーの塗り）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影はラフの領域の中で暗いところで、半透明の濃いグレーをトーンの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
        "fn.byHuman": "まだ無い（作者が確かめて直す）",
        "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（ラフから計算。画像生成なし）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v1 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
+       "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v2 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
        "fn.noShadow": ""
       }
      },
@@ -516,13 +516,13 @@
        "fn.scene": "SC-006",
        "fn.panels": "e02-p05-k1 e02-p05-k2 e02-p05-k3",
        "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま",
-       "fn.ink": "gm1-ep02-ink@ink-ep02-v1：9 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
+       "fn.ink": "gm1-ep02-ink@ink-ep02-v2：9 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
        "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 3 枚（part1/rough/panels/）",
        "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-03 と LY-05 は白黒のトーン（グレーの塗り）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影はラフの領域の中で暗いところで、半透明の濃いグレーをトーンの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
        "fn.byHuman": "まだ無い（作者が確かめて直す）",
        "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（ラフから計算。画像生成なし）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v1 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
+       "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v2 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
        "fn.noShadow": "e02-p05-k1：ラフに、領域の中で暗いところとして取り出せる影が無かった（影はトーンの濃さに残っている）"
       }
      },
@@ -533,13 +533,13 @@
        "fn.scene": "SC-007",
        "fn.panels": "e02-p06-k1 e02-p06-k2 e02-p06-k3 e02-p06-k4",
        "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま",
-       "fn.ink": "gm1-ep02-ink@ink-ep02-v1：12 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
+       "fn.ink": "gm1-ep02-ink@ink-ep02-v2：12 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
        "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 4 枚（part1/rough/panels/）",
        "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-03 と LY-05 は白黒のトーン（グレーの塗り）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影はラフの領域の中で暗いところで、半透明の濃いグレーをトーンの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
        "fn.byHuman": "まだ無い（作者が確かめて直す）",
        "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（ラフから計算。画像生成なし）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v1 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
+       "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v2 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
        "fn.noShadow": ""
       }
      },
@@ -550,13 +550,13 @@
        "fn.scene": "SC-007",
        "fn.panels": "e02-p07-k1 e02-p07-k2 e02-p07-k3 e02-p07-k4",
        "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま",
-       "fn.ink": "gm1-ep02-ink@ink-ep02-v1：12 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
+       "fn.ink": "gm1-ep02-ink@ink-ep02-v2：12 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
        "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 4 枚（part1/rough/panels/）",
        "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-03 と LY-05 は白黒のトーン（グレーの塗り）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影はラフの領域の中で暗いところで、半透明の濃いグレーをトーンの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
        "fn.byHuman": "まだ無い（作者が確かめて直す）",
        "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（ラフから計算。画像生成なし）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v1 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
+       "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v2 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
        "fn.noShadow": ""
       }
      },
@@ -567,13 +567,13 @@
        "fn.scene": "SC-007",
        "fn.panels": "e02-p08-k1 e02-p08-k2 e02-p08-k3 e02-p08-k4",
        "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま",
-       "fn.ink": "gm1-ep02-ink@ink-ep02-v1：12 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
+       "fn.ink": "gm1-ep02-ink@ink-ep02-v2：12 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
        "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 4 枚（part1/rough/panels/）",
        "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-03 と LY-05 は白黒のトーン（グレーの塗り）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影はラフの領域の中で暗いところで、半透明の濃いグレーをトーンの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
        "fn.byHuman": "まだ無い（作者が確かめて直す）",
        "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（ラフから計算。画像生成なし）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v1 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
+       "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v2 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
        "fn.noShadow": ""
       }
      },
@@ -584,13 +584,13 @@
        "fn.scene": "SC-007",
        "fn.panels": "e02-p09-k1 e02-p09-k2 e02-p09-k3",
        "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま",
-       "fn.ink": "gm1-ep02-ink@ink-ep02-v1：9 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
+       "fn.ink": "gm1-ep02-ink@ink-ep02-v2：9 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
        "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 3 枚（part1/rough/panels/）",
        "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-03 と LY-05 は白黒のトーン（グレーの塗り）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影はラフの領域の中で暗いところで、半透明の濃いグレーをトーンの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
        "fn.byHuman": "まだ無い（作者が確かめて直す）",
        "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（ラフから計算。画像生成なし）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v1 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
+       "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v2 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
        "fn.noShadow": ""
       }
      },
@@ -601,13 +601,13 @@
        "fn.scene": "SC-007",
        "fn.panels": "e02-p10-k1 e02-p10-k2 e02-p10-k3",
        "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま",
-       "fn.ink": "gm1-ep02-ink@ink-ep02-v1：9 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
+       "fn.ink": "gm1-ep02-ink@ink-ep02-v2：9 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
        "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 3 枚（part1/rough/panels/）",
        "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-03 と LY-05 は白黒のトーン（グレーの塗り）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影はラフの領域の中で暗いところで、半透明の濃いグレーをトーンの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
        "fn.byHuman": "まだ無い（作者が確かめて直す）",
        "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（ラフから計算。画像生成なし）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v1 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
+       "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v2 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
        "fn.noShadow": ""
       }
      },
@@ -617,14 +617,14 @@
        "fn.page": 11,
        "fn.scene": "SC-008",
        "fn.panels": "e02-p11-k1 e02-p11-k2",
-       "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま",
-       "fn.ink": "gm1-ep02-ink@ink-ep02-v1：6 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
-       "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 2 枚（part1/rough/panels/）",
+       "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま。e02-p11-k1 e02-p11-k2 は通読の直しで線画だけを描き直し、前のラフと構図が合わないので、線画の線と斜線の濃さからトーンを取った",
+       "fn.ink": "gm1-ep02-ink@ink-ep02-v2：6 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
+       "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 0 枚（part1/rough/panels/）",
        "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-03 と LY-05 は白黒のトーン（グレーの塗り）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影はラフの領域の中で暗いところで、半透明の濃いグレーをトーンの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
        "fn.byHuman": "まだ無い（作者が確かめて直す）",
        "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（ラフから計算。画像生成なし）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v1 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
+       "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted line art (its hatching; the rough was not redrawn) (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v2 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
        "fn.noShadow": ""
       }
      },
@@ -635,13 +635,13 @@
        "fn.scene": "SC-008",
        "fn.panels": "e02-p12-k1 e02-p12-k2 e02-p12-k3",
        "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま",
-       "fn.ink": "gm1-ep02-ink@ink-ep02-v1：9 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
+       "fn.ink": "gm1-ep02-ink@ink-ep02-v2：9 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
        "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 3 枚（part1/rough/panels/）",
        "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-03 と LY-05 は白黒のトーン（グレーの塗り）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影はラフの領域の中で暗いところで、半透明の濃いグレーをトーンの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
        "fn.byHuman": "まだ無い（作者が確かめて直す）",
        "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（ラフから計算。画像生成なし）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v1 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
+       "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v2 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
        "fn.noShadow": "e02-p12-k2：ラフに、領域の中で暗いところとして取り出せる影が無かった（影はトーンの濃さに残っている）"
       }
      },
@@ -652,13 +652,13 @@
        "fn.scene": "SC-008",
        "fn.panels": "e02-p13-k1 e02-p13-k2",
        "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま",
-       "fn.ink": "gm1-ep02-ink@ink-ep02-v1：6 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
+       "fn.ink": "gm1-ep02-ink@ink-ep02-v2：6 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
        "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 2 枚（part1/rough/panels/）",
        "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-03 と LY-05 は白黒のトーン（グレーの塗り）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影はラフの領域の中で暗いところで、半透明の濃いグレーをトーンの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
        "fn.byHuman": "まだ無い（作者が確かめて直す）",
        "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（ラフから計算。画像生成なし）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v1 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
+       "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v2 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
        "fn.noShadow": ""
       }
      },
@@ -669,13 +669,13 @@
        "fn.scene": "SC-008",
        "fn.panels": "e02-p14-k1 e02-p14-k2",
        "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま",
-       "fn.ink": "gm1-ep02-ink@ink-ep02-v1：6 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
+       "fn.ink": "gm1-ep02-ink@ink-ep02-v2：6 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
        "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 2 枚（part1/rough/panels/）",
        "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-03 と LY-05 は白黒のトーン（グレーの塗り）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影はラフの領域の中で暗いところで、半透明の濃いグレーをトーンの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
        "fn.byHuman": "まだ無い（作者が確かめて直す）",
        "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（ラフから計算。画像生成なし）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v1 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
+       "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v2 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
        "fn.noShadow": ""
       }
      },
@@ -686,13 +686,13 @@
        "fn.scene": "SC-008",
        "fn.panels": "e02-p15-k1 e02-p15-k2 e02-p15-k3",
        "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま",
-       "fn.ink": "gm1-ep02-ink@ink-ep02-v1：9 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
+       "fn.ink": "gm1-ep02-ink@ink-ep02-v2：9 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
        "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 3 枚（part1/rough/panels/）",
        "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-03 と LY-05 は白黒のトーン（グレーの塗り）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影はラフの領域の中で暗いところで、半透明の濃いグレーをトーンの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
        "fn.byHuman": "まだ無い（作者が確かめて直す）",
        "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（ラフから計算。画像生成なし）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v1 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
+       "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v2 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
        "fn.noShadow": ""
       }
      },
@@ -702,20 +702,20 @@
        "fn.page": 16,
        "fn.scene": "SC-008",
        "fn.panels": "e02-p16-k1 e02-p16-k2",
-       "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま",
-       "fn.ink": "gm1-ep02-ink@ink-ep02-v1：6 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
-       "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 2 枚（part1/rough/panels/）",
+       "fn.method": "白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま。e02-p16-k2 は通読の直しで線画だけを描き直し、前のラフと構図が合わないので、線画の線と斜線の濃さからトーンを取った",
+       "fn.ink": "gm1-ep02-ink@ink-ep02-v2：6 枚の線のレイヤー（part1/ink/layers/、sha256 は ep02-finish.json）",
+       "fn.art": "無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ 1 枚（part1/rough/panels/）",
        "fn.layers": "LY-03 背景の塗り、LY-04 背景の線画、LY-05 人物の塗り、LY-06 影、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "fn.layerNotes": "LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。LY-03 と LY-05 は白黒のトーン（グレーの塗り）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影はラフの領域の中で暗いところで、半透明の濃いグレーをトーンの上に重ねる。LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
        "fn.byHuman": "まだ無い（作者が確かめて直す）",
        "fn.byAi": "LY-03 背景の塗り・LY-05 人物の塗り・LY-06 影（ラフから計算。画像生成なし）、LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（線画、作者が採った）、LY-09・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v1 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
+       "fn.generated": "仕上げのための画像生成は無い（no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)）。もと：gm1-ep02-ink@ink-ep02-v2 の線と、採ったラフ（part1/rough/panels/、sha256 は ep02-finish.json）。出典と利用条件：この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う",
        "fn.noShadow": ""
       }
      }
     ]
    },
-   "contentHash": "75e93edb28eb7b00a6b5c1be5c8bfd382bcad79cd89a00c77d6a8f67c33a9943"
+   "contentHash": "7e7c991ac291aea099aea304ad416ba4baba7d5e2fefee1c8c58499aafb3a685"
   }
  ]
 }

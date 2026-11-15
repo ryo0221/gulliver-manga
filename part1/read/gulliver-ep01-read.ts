@@ -195,7 +195,7 @@ async function native(kind: string, id: string, name: string, content: unknown) 
   return artifact;
 }
 
-function findingsTable(): StructuredData {
+export function findingsTable(findings: Finding[] = FINDINGS): StructuredData {
   return {
     schemaVersion: 2,
     columns: [
@@ -207,7 +207,7 @@ function findingsTable(): StructuredData {
       { id: 'rv.reason', name: '理由（判断待ちは AI の提案）', type: 'text', required: true },
       { id: 'rv.fixedIn', name: '直した後の版', type: 'text' },
     ],
-    rows: FINDINGS.map((f) => ({
+    rows: findings.map((f) => ({
       id: f.id,
       values: {
         'rv.target': f.target,
@@ -222,28 +222,47 @@ function findingsTable(): StructuredData {
   };
 }
 
-function readDocument() {
+/** 話ごとの通読の記録の中身。 */
+export type ReadEpisode = {
+  episode: number;
+  title: string;
+  versions: readonly { artifact: string; version: string; what: string }[];
+  /** 読んだ版のことわり（コミット、ページの場所、読み直したか）。 */
+  readNote: string;
+  findings: Finding[];
+  verdict: { status: string; decidedBy: string; proposal: string };
+};
+const EP01: ReadEpisode = {
+  episode: 1,
+  title: '人の山',
+  versions: READ_VERSIONS,
+  readNote: `gulliver-manga のコミット ${READ_COMMIT.slice(0, 8)}（通読の指摘を直したコミット）。ページは part1/finish/pages/page-01〜16.jpg。はじめの通読は ${FIRST_READ.finish}（コミット ${FIRST_READ.commit.slice(0, 8)}）を読み、指摘を直した版を読み直した。`,
+  findings: FINDINGS,
+  verdict: VERDICT,
+};
+
+export function readDocument(ep: ReadEpisode = EP01) {
   const blocks: DocumentBlock[] = [];
   let n = 0;
-  const id = () => `r1-${String(++n).padStart(4, '0')}`;
+  const id = () => `r${ep.episode}-${String(++n).padStart(4, '0')}`;
   const h = (level: number, text: string) => blocks.push({ ...createDocument().blocks[0], id: id(), type: 'heading', level, text });
   const p = (text: string) => blocks.push({ ...createDocument().blocks[1], id: id(), type: 'paragraph', text });
-  h(1, 'ガリヴァー旅行記 第1話「人の山」編集の記録（通読）');
+  h(1, `ガリヴァー旅行記 第${ep.episode}話「${ep.title}」編集の記録（通読）`);
   p('工程定義 fiction-manga@1.3.0 の「通読」の成果物。指摘の判断と、完成とするかの判断は作者。AI の指摘は提案で、作者が決めるまで「作者の判断待ち」。');
   h(2, '通読した版');
-  for (const v of READ_VERSIONS) p(`${v.what}：${v.artifact}@${v.version}`);
-  p(`gulliver-manga のコミット ${READ_COMMIT.slice(0, 8)}（通読の指摘を直したコミット）。ページは part1/finish/pages/page-01〜16.jpg。はじめの通読は ${FIRST_READ.finish}（コミット ${FIRST_READ.commit.slice(0, 8)}）を読み、指摘を直した版を読み直した。`);
+  for (const v of ep.versions) p(`${v.what}：${v.artifact}@${v.version}`);
+  p(ep.readNote);
   h(2, '指摘');
-  p('指摘ごとの表は gm1-ep01-read-findings（1指摘1行）。');
-  for (const f of FINDINGS) {
+  p(`指摘ごとの表は gm1-ep${String(ep.episode).padStart(2, '0')}-read-findings（1指摘1行）。`);
+  for (const f of ep.findings) {
     h(3, `${f.id}（${f.target}、${f.by}）`);
     p(f.text);
     p(`判断：${f.decision}。${f.reason}${f.fixedIn ? `直した後の版：${f.fixedIn}。` : ''}`);
   }
   h(2, '判断');
-  p(`${VERDICT.status}。${VERDICT.proposal}`);
+  p(`${ep.verdict.status}。${ep.verdict.proposal}`);
   h(2, '残した例外');
-  for (const f of FINDINGS.filter((x) => x.decision === '意図として残す')) p(`${f.id}（${f.target}）：${f.text} ${f.reason}`);
+  for (const f of ep.findings.filter((x) => x.decision === '意図として残す')) p(`${f.id}（${f.target}）：${f.text} ${f.reason}`);
   return { ...createDocument(), blocks };
 }
 

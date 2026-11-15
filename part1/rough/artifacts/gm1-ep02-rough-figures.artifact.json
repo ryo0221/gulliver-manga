@@ -7,7 +7,7 @@
   "source": "created"
  },
  "draft": {
-  "baseVersionId": "rough-ep02-v1",
+  "baseVersionId": "rough-ep02-v2",
   "updatedAt": "2026-11-14T00:00:00.000Z",
   "content": {
    "schemaVersion": 2,
@@ -1363,7 +1363,7 @@
       "rf.pose": "sit-look-down",
       "rf.drawn": true,
       "rf.drawing": "ラフ絵 e02-p07-k4（panels/e02-p07-k4.jpg）",
-      "rf.where": "head at top-centre of the frame (x 39%, y 27%)",
+      "rf.where": "head at middle-centre of the frame (x 43%, y 37%)",
       "rf.note": ""
      }
     },
@@ -1377,7 +1377,7 @@
       "rf.pose": "read",
       "rf.drawn": true,
       "rf.drawing": "ラフ絵 e02-p07-k4（panels/e02-p07-k4.jpg）",
-      "rf.where": "head at bottom-centre of the frame (x 64%, y 75%)",
+      "rf.where": "head at bottom-centre of the frame (x 60%, y 71%)",
       "rf.note": ""
      }
     },
@@ -1391,7 +1391,7 @@
       "rf.pose": "stand",
       "rf.drawn": true,
       "rf.drawing": "ラフ絵 e02-p07-k4（panels/e02-p07-k4.jpg）",
-      "rf.where": "head at bottom-centre of the frame (x 66%, y 75%)",
+      "rf.where": "head at bottom-centre of the frame (x 61%, y 71%)",
       "rf.note": ""
      }
     },
@@ -1405,7 +1405,7 @@
       "rf.pose": "stand",
       "rf.drawn": true,
       "rf.drawing": "ラフ絵 e02-p07-k4（panels/e02-p07-k4.jpg）",
-      "rf.where": "head at bottom-right of the frame (x 70%, y 75%)",
+      "rf.where": "head at bottom-centre of the frame (x 64%, y 71%)",
       "rf.note": ""
      }
     },
@@ -1923,7 +1923,7 @@
       "rf.pose": "prone-look",
       "rf.drawn": true,
       "rf.drawing": "ラフ絵 e02-p16-k1（panels/e02-p16-k1.jpg）",
-      "rf.where": "head at bottom-left of the frame (x -5%, y 69%), feet at outside the frame",
+      "rf.where": "head at outside the frame, feet at outside the frame",
       "rf.note": ""
      }
     },
@@ -1937,7 +1937,7 @@
       "rf.pose": "point",
       "rf.drawn": true,
       "rf.drawing": "ラフ絵 e02-p16-k1（panels/e02-p16-k1.jpg）",
-      "rf.where": "head at middle-right of the frame (x 68%, y 64%)",
+      "rf.where": "head at top-right of the frame (x 70%, y 25%)",
       "rf.note": ""
      }
     },
@@ -1961,7 +1961,7 @@
  "versions": [
   {
    "artifactId": "gm1-ep02-rough-figures",
-   "versionId": "rough-ep02-v1",
+   "versionId": "rough-ep02-v2",
    "parentVersionId": null,
    "schemaVersion": 1,
    "createdAt": "2026-11-14T00:00:00.000Z",
@@ -3321,7 +3321,7 @@
        "rf.pose": "sit-look-down",
        "rf.drawn": true,
        "rf.drawing": "ラフ絵 e02-p07-k4（panels/e02-p07-k4.jpg）",
-       "rf.where": "head at top-centre of the frame (x 39%, y 27%)",
+       "rf.where": "head at middle-centre of the frame (x 43%, y 37%)",
        "rf.note": ""
       }
      },
@@ -3335,7 +3335,7 @@
        "rf.pose": "read",
        "rf.drawn": true,
        "rf.drawing": "ラフ絵 e02-p07-k4（panels/e02-p07-k4.jpg）",
-       "rf.where": "head at bottom-centre of the frame (x 64%, y 75%)",
+       "rf.where": "head at bottom-centre of the frame (x 60%, y 71%)",
        "rf.note": ""
       }
      },
@@ -3349,7 +3349,7 @@
        "rf.pose": "stand",
        "rf.drawn": true,
        "rf.drawing": "ラフ絵 e02-p07-k4（panels/e02-p07-k4.jpg）",
-       "rf.where": "head at bottom-centre of the frame (x 66%, y 75%)",
+       "rf.where": "head at bottom-centre of the frame (x 61%, y 71%)",
        "rf.note": ""
       }
      },
@@ -3363,7 +3363,7 @@
        "rf.pose": "stand",
        "rf.drawn": true,
        "rf.drawing": "ラフ絵 e02-p07-k4（panels/e02-p07-k4.jpg）",
-       "rf.where": "head at bottom-right of the frame (x 70%, y 75%)",
+       "rf.where": "head at bottom-centre of the frame (x 64%, y 71%)",
        "rf.note": ""
       }
      },
@@ -3881,7 +3881,7 @@
        "rf.pose": "prone-look",
        "rf.drawn": true,
        "rf.drawing": "ラフ絵 e02-p16-k1（panels/e02-p16-k1.jpg）",
-       "rf.where": "head at bottom-left of the frame (x -5%, y 69%), feet at outside the frame",
+       "rf.where": "head at outside the frame, feet at outside the frame",
        "rf.note": ""
       }
      },
@@ -3895,7 +3895,7 @@
        "rf.pose": "point",
        "rf.drawn": true,
        "rf.drawing": "ラフ絵 e02-p16-k1（panels/e02-p16-k1.jpg）",
-       "rf.where": "head at middle-right of the frame (x 68%, y 64%)",
+       "rf.where": "head at top-right of the frame (x 70%, y 25%)",
        "rf.note": ""
       }
      },
@@ -3915,7 +3915,7 @@
      }
     ]
    },
-   "contentHash": "5bee6098b7852e17e7c1a626bd2b24c2e56876b4e22e872b1352a9025e781af2"
+   "contentHash": "7fb723892ad3de7a04ccd70f6cdd9c21abfe2179b8342804f95dfbc79b67e2d5"
   }
  ]
 }

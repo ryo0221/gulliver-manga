@@ -25,5 +25,6 @@ Continuity: in the city Gulliver has taken his long coat OFF so that its skirts 
 Size check inside the picture (AR-01): the city wall (2.5 feet high) and the three-storey house roofs come up to about the middle of Gulliver's thigh; the main street (5 feet wide) is narrower than his stride; a Lilliputian is about as tall as his shoe is long. Never draw the city bigger than this.
 Never cut a face with the frame edge: every face that is in the frame is drawn whole.
 Always draw a background (ground, sky, walls or the room) even in a close-up; never leave the space behind the figures blank.
+Line-art correction after the author's rough review: Read-through correction (RV-e02-04): the houses of the city were drawn bigger than Gulliver although they are farther away. Here Gulliver stands just outside the city wall, near the camera's side; the city wall (2.5 feet) comes only to about his knee, and the roofs of the three-storey houses behind it reach no higher than the middle of his thigh. The whole city (500 feet square, with the palace in the middle) spreads out like a model town at his feet, its roofs far below his waist. Keep the hill-top view, the grass in front and the great street running to the palace.
 
 After generating, copy the generated PNG to ./ink-raw.png in the current directory. Do not generate more than one image.

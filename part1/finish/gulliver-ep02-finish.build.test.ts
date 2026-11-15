@@ -83,7 +83,10 @@ test('episode 2 black-and-white finish has the finish layers, their sources, and
       expect(src?.license).toContain('OpenAI');
       if (g === g03 || g === g05 || g === g06) {
         expect(src?.source).toContain(INK_VERSION);
-        expect(src?.source).toContain(`part1/rough/panels/${r.id}.jpg`);
+        // Tones come from the accepted rough, or, for a panel whose line art alone was redrawn after the read-through
+        // (its rough no longer matches), from the line art's own hatching.
+        if (/from the accepted line art/.test(src?.source ?? '')) expect(src?.source).not.toContain('part1/rough/panels/');
+        else expect(src?.source).toContain(`part1/rough/panels/${r.id}.jpg`);
         expect(src?.source).toContain('no image generation');
       }
     }
@@ -121,7 +124,7 @@ test('episode 2 black-and-white finish has the finish layers, their sources, and
   expect(pages.rows.flatMap((row) => String(row.values['fn.noShadow'] ?? '').split('：')[0]!.split(' ').filter(Boolean))).toEqual(noShadow);
   for (const p of Object.values(fin.data.panels)) {
     expect(p.refs.filter((x) => x.path.startsWith('part1/ink/layers/')).length).toBe(3);
-    expect(p.refs.filter((x) => x.path.startsWith('part1/rough/panels/')).length).toBe(1);
+    expect(p.refs.filter((x) => x.path.startsWith('part1/rough/panels/')).length).toBe(/from the accepted line art/.test(p.tool) ? 0 : 1);
     expect(p.codexSession).toBeNull();
     for (const ref of p.refs) expect(ref.sha256).toMatch(/^[0-9a-f]{64}$/);
     expect(p.rawSha256).toMatch(/^[0-9a-f]{64}$/);
