@@ -10,16 +10,17 @@ No likeness to any film, game or existing illustration. No text, no letters, no 
 Landscape 1536x1024.
 
 Panel e02-p16-k1, page 16 panel 1, scene SC-008.
-Shot: 寄り. Camera: 小人の目の高さ, 386 mm above the ground (standing on: 奥の宮殿の窓辺の段（F105 の中、創作：250 mm）); 窓の脇から、皇后の手とガリヴァーの唇を.
+Shot: 寄り. Camera: 宮殿の外、窓の脇の壁ぎわ, 350 mm above the ground; 窓から差し出された皇后の小さな手と、そこへ唇を寄せるガリヴァーの横顔の全体.
 What the panel shows (storyboard memo): 皇后の小さな手に、そっと口づけするガリヴァー。
 Words in this panel (for the mood and the faces only, do NOT draw any text): (no words)
 Figures, placed by the 3D layout (keep these places, facings and poses; draw each with a readable face direction, pose and expression):
-- FG-e02-p16-k1-01 ガリヴァー — Gulliver (CH-01): 1,750 mm, plain blue coat with brass buttons and NO gold trim, tan breeches, white stockings, black shoes, brown hair tied back; lying face down, propped on his elbows, head raised, looking ahead; head at bottom-left of the frame (x -5%, y 69%), feet at outside the frame; 847 mm from the camera.
-- FG-e02-p16-k1-02 皇后 — the Empress of Lilliput (CH-03): a Lilliputian, 1/12 of Gulliver; pointing; head at middle-right of the frame (x 68%, y 64%), three-quarter back view, turned to frame left; 573 mm from the camera.
+- FG-e02-p16-k1-01 ガリヴァー — Gulliver (CH-01): 1,750 mm, plain blue coat with brass buttons and NO gold trim, tan breeches, white stockings, black shoes, brown hair tied back; lying face down, propped on his elbows, head raised, looking ahead; head at outside the frame, feet at outside the frame; 1146 mm from the camera.
+- FG-e02-p16-k1-02 皇后 — the Empress of Lilliput (CH-03): a Lilliputian, 1/12 of Gulliver; pointing; head at top-right of the frame (x 70%, y 25%), three-quarter view toward the camera, turned to frame left; 805 mm from the camera.
 The FIRST image is the 3D layout render from this camera: figures there are blocky stand-ins, ground/sea/walls are flat placeholders. The flat grey bands at the edges of the FIRST image are padding outside the panel: continue the scene into them, nothing important there.
+Correction after the read-through (RV-e02-09, the author: his face showing only as a nose in the window looked creepy): the camera is now OUTSIDE the palace, low beside the wall. The 3D layout is only a rough guide here (its stand-in puts his raised hands at the bottom left and his head just below the frame): move the camera back a little so his whole head is IN the frame. Show Gulliver's WHOLE face in profile (forehead, eye, nose, lips and chin, his hair tied back), lying on the ground of the court with his chin low; the palace wall with its tiny window (about as big as his eye) is beside his face. From that small window the Empress leans out and holds out her tiny hand; Gulliver brings his lips very gently to her hand. Her whole hand is about the size of his fingernail; she is seen from the waist up in the window frame, her crown and her smile. Gentle evening light.
 Continuity: in the city Gulliver has taken his long coat OFF so that its skirts will not damage the roofs: he wears only a short sleeveless waistcoat over his shirt, breeches, stockings and shoes. No chain.
 Size check inside the picture (AR-01): the city wall (2.5 feet high) and the three-storey house roofs come up to about the middle of Gulliver's thigh; the main street (5 feet wide) is narrower than his stride; a Lilliputian is about as tall as his shoe is long. Never draw the city bigger than this.
-Gulliver is OUTSIDE the building, lying in the court: only his huge lips, nose and chin show in the small open window. The Empress stands inside on the window dais and holds her hand out to him. Her whole hand is about the size of his fingernail; he brings his lips very gently to it. He never comes into the room.
+Gulliver is OUTSIDE the building, lying in the court; he never comes into the room. The Empress holds her hand out to him from the small window. Her whole hand is about the size of his fingernail; he brings his lips very gently to it.
 Never cut a face with the frame edge: every face that is in the frame is drawn whole.
 Always draw a background (ground, sky, walls or the room) even in a close-up; never leave the space behind the figures blank.
 

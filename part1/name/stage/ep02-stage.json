@@ -3404,16 +3404,16 @@
    "panel": "e02-p16-k1",
    "set": "city",
    "cam": [
-    -380,
-    -1120,
-    386
+    -250,
+    -1900,
+    350
    ],
    "look": [
-    -840,
-    -1480,
-    430
+    -762,
+    -1620,
+    280
    ],
-   "stand": "dais",
+   "stand": null,
    "hfovDeg": 46.7,
    "vfovDeg": 35.0,
    "figures": [
@@ -3424,7 +3424,7 @@
      "fig": "gulliver",
      "at": [
       -762,
-      -3450,
+      -2450,
       0
      ],
      "facingDeg": 0.0,
@@ -3450,7 +3450,41 @@
    "noModel": null,
    "vessels": {},
    "underlay": "underlay/e02-p16-k1.jpg",
-   "plan": "plans/e02-p16-k1.svg"
+   "plan": "plans/e02-p16-k1.svg",
+   "revised": {
+    "finding": "RV-e02-09",
+    "date": "2026-11-15",
+    "why": "作者の指摘（2026-11-15「ガリバーの顔が鼻のみになっていて気持ち悪い」）：部屋の中から窓を撮ると、顔は窓いっぱいの鼻だけになった。窓の外の脇から撮り直した。あわせて、ポーズの at は足ではなく腰で、前の PRONE では頭が窓の壁から 1.1 m 南にあったので、このコマだけ腰を北へ 1 m 寄せた（PRONE_AT_WINDOW）。",
+    "before": {
+     "cam": [
+      -380,
+      -1120,
+      386
+     ],
+     "look": [
+      -840,
+      -1480,
+      430
+     ]
+    },
+    "models": "models/city-rv-e02-09/",
+    "props": [
+     {
+      "name": "F105 都ミルデンドウ",
+      "kind": "bim",
+      "artifactId": "artifact_c640b1a6-cf39-4e1b-b53b-9d9464955c63",
+      "versionId": "version_40ca42d8-32a5-4094-b664-d910f910175a",
+      "contentHash": "63ea20697c47925bf1c5ef6a3efde6e021a100b7211c6f4ca24c0b38b94840e1"
+     },
+     {
+      "name": "舞台 city",
+      "kind": "cad",
+      "artifactId": "artifact_95426d14-98ea-481b-9ff8-34fd5a3a2065",
+      "versionId": "version_60846fc8-7fb6-4b41-a41a-254dc53175ab",
+      "contentHash": "b3202f8fd29f32dfd78ce58ede45748d3e44c81ce6c6311ed087d3da16811025"
+     }
+    ]
+   }
   },
   {
    "panel": "e02-p16-k2",
