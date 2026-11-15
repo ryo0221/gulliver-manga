@@ -26,6 +26,7 @@ import {
   type Placed,
   type StageInput,
 } from './gulliver-ep01-name';
+type EpisodeName = typeof EP01_NAME;
 import { SPEAKER_NAMES } from './gulliver-part1-script';
 import type { RoughInput, RoughRef } from './gulliver-ep01-rough';
 import { refText as inkRefText, type InkInput } from './gulliver-ep01-ink';
@@ -38,7 +39,7 @@ export type FinishPanel = {
   /** 採った線画の線のレイヤーを、同じ画素のまま可逆の WebP にした写し（16 MB の上限のため）。 */
   lines: Record<'LY-04' | 'LY-07' | 'LY-08', { image: string; from: string; bytes: number }>;
   review: string;
-  prompt: string;
+  prompt: string | null;
   tool: string;
   codexModel: string | null;
   imageModel: string;
@@ -58,17 +59,33 @@ export const SCRIPT_LINES_VERSION = 'gm1-script-lines@script-v1';
 /** 画作りガイドの決まりで、仕上げの段階に要るレイヤー。 */
 export const FINISH_STAGE_LAYERS = ['LY-03', 'LY-04', 'LY-05', 'LY-06', 'LY-07', 'LY-08', 'LY-09', 'LY-10'] as const satisfies readonly string[];
 const LICENSE = 'OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う';
+/** 白黒の仕上げ（第2話から）：画像を生成せず、採ったラフの濃さからグレーのトーンと影を作る。 */
+const LICENSE_MONO = 'この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う';
+/** 白黒の仕上げ（画像を生成していない）コマか。 */
+export const isMono = (p: FinishPanel) => p.imageModel === 'none';
+/** 話ごとの仕上げの指定。 */
+export type FinishEpisode = { episode: number; name: EpisodeName; inkVersion: string };
 const KEY = { bgFill: 'LY-03', figFill: 'LY-05', shadow: 'LY-06' } as const;
 const WHAT = { bgFill: '背景の塗り', figFill: '人物の塗り', shadow: '影（人物と背景をまとめた一枚）' } as const;
-const refText = (r: RoughRef) => (r.path.startsWith('part1/ink/') ? `${INK_VERSION} の線画 ${r.path} sha256:${r.sha256.slice(0, 12)}` : inkRefText(r));
+const refText = (r: RoughRef, inkVersion = INK_VERSION) =>
+  r.path.startsWith('part1/ink/')
+    ? `${inkVersion} の線画 ${r.path} sha256:${r.sha256.slice(0, 12)}`
+    : r.path.startsWith('part1/rough/panels/')
+      ? `採ったラフ ${r.path} sha256:${r.sha256.slice(0, 12)}`
+      : inkRefText(r);
 
-function finishImages(fin: FinishInput): Record<string, FinishImages> {
+function finishImages(fin: FinishInput, inkVersion = INK_VERSION): Record<string, FinishImages> {
   const out: Record<string, FinishImages> = {};
   for (const [id, p] of Object.entries(fin.data.panels)) {
-    const one = (k: keyof typeof KEY) => ({
+    const one = (k: keyof typeof KEY) => isMono(p) ? ({
+      src: fin.images[`${id}/${KEY[k]}`]!,
+      alt: `${id} の${WHAT[k]}（白黒）。採ったラフの鉛筆の濃さを、線画の位置へ合わせて、線の間の領域ごとにグレーのトーンと影にしたもの`,
+      source: `${p.tool}。もと：${p.refs.map((r) => refText(r, inkVersion)).join('、')}。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、${KEY[k]} を取り出した`,
+      license: LICENSE_MONO,
+    }) : ({
       src: fin.images[`${id}/${KEY[k]}`]!,
       alt: `${id} の${WHAT[k]}。採った線画を Codex に塗らせた色の見本を、線画の位置へ合わせて、線の間の領域ごとに分けたもの`,
-      source: `${p.tool}、Codex のモデル ${p.codexModel ?? '不明'}（画像のモデルは出ない）。渡した参照：${p.refs.map(refText).join('、')}。生の出力 sha256:${p.rawSha256.slice(0, 12)}。色の見本を線画へ合わせ（オプティカルフロー）、${KEY[k]} を取り出した`,
+      source: `${p.tool}、Codex のモデル ${p.codexModel ?? '不明'}（画像のモデルは出ない）。渡した参照：${p.refs.map((r) => refText(r, inkVersion)).join('、')}。生の出力 sha256:${p.rawSha256.slice(0, 12)}。色の見本を線画へ合わせ（オプティカルフロー）、${KEY[k]} を取り出した`,
       license: LICENSE,
     });
     out[id] = { bgFill: one('bgFill'), figFill: one('figFill'), shadow: one('shadow') };
@@ -76,7 +93,8 @@ function finishImages(fin: FinishInput): Record<string, FinishImages> {
   return out;
 }
 
-export function buildEpisodeFinish(stage: StageInput, rough: RoughInput, ink: InkInput, fin: FinishInput) {
+export function buildEpisodeFinish(stage: StageInput, rough: RoughInput, ink: InkInput, fin: FinishInput, ep: FinishEpisode = { episode: 1, name: EP01_NAME, inkVersion: INK_VERSION }) {
+  const INK_VERSION = ep.inkVersion;
   // The lettering stays where the rough and the ink placed it (the rough's occupancy).
   const avoid = Object.fromEntries(Object.entries(rough.data.panels).map(([id, p]) => [id, p.occupancy]));
   const inkImgs = Object.fromEntries(
@@ -93,7 +111,7 @@ export function buildEpisodeFinish(stage: StageInput, rough: RoughInput, ink: In
       return [id, { bg: one('LY-04', '背景の線画'), fig: one('LY-07', '人物の線画'), fx: one('LY-08', '効果') }];
     }),
   );
-  return buildEpisodeName(1, EP01_NAME, stage, { avoid, ink: inkImgs, finish: finishImages(fin) });
+  return buildEpisodeName(ep.episode, ep.name, stage, { avoid, ink: inkImgs, finish: finishImages(fin, ep.inkVersion) });
 }
 
 // ---------------------------------------------------------------- 表
@@ -101,7 +119,9 @@ export function buildEpisodeFinish(stage: StageInput, rough: RoughInput, ink: In
 /** 影があると見なす、コマのうち影のある割合。 */
 export const SHADOW_MIN_SHARE = 0.002;
 
-function pageTable(records: PanelRecord[], fin: EpisodeFinish): StructuredData {
+export function pageTable(records: PanelRecord[], fin: EpisodeFinish, epNo = 1, INK_VERSION_ = INK_VERSION): StructuredData {
+  const INK_VERSION = INK_VERSION_;
+  const refText_ = (r: RoughRef) => refText(r, INK_VERSION);
   const pages = [...new Set(records.map((r) => r.page))];
   return {
     schemaVersion: 2,
@@ -124,29 +144,37 @@ function pageTable(records: PanelRecord[], fin: EpisodeFinish): StructuredData {
       const fp = rs.map((r) => fin.panels[r.id]!);
       const refs = [...new Map(fp.flatMap((p) => p.refs).map((r) => [r.path, r])).values()];
       const art = refs.filter((r) => r.path.startsWith('part1/codex/'));
-      const tools = [...new Set(fp.map((p) => `${p.tool}、モデル ${p.codexModel ?? '不明'}`))];
+      const mono = fp.every(isMono);
+      const tools = [...new Set(fp.map((p) => (isMono(p) ? p.tool : `${p.tool}、モデル ${p.codexModel ?? '不明'}`)))];
       const noShadow = rs.filter((r) => (fin.panels[r.id]!.layers['LY-06'].share ?? 0) < SHADOW_MIN_SHARE).map((r) => r.id);
       return {
-        id: `PG-e01-${String(page).padStart(2, '0')}`,
+        id: `PG-e${String(epNo).padStart(2, '0')}-${String(page).padStart(2, '0')}`,
         values: {
           'fn.page': page,
           'fn.scene': rs[0]!.scene,
           'fn.panels': rs.map((r) => r.id).join(' '),
-          'fn.method':
-            '採った線画を Codex に塗らせて色の見本を作り、見本を線画の位置へ合わせて（線の画像どうしのオプティカルフロー）、線の間の領域ごとに塗り（人物と背景）と影に分けた。線は線画のまま',
-          'fn.ink': `${INK_VERSION}：${refs.filter((r) => r.path.startsWith('part1/ink/')).length} 枚の線のレイヤー（part1/ink/layers/、sha256 は ep01-finish.json）`,
-          'fn.art': art.length ? art.map(refText).join(' / ') : '無し：このページの人物と場所には採用した設定画が無い（CH-10 メアリー・馬・船員・英国の舞台は設定画をまだ作っていない）。線画と色の決まり（AR-04、AR-06）だけを渡した',
+          'fn.method': mono
+            ? '白黒（第2話から）。画像を生成せず、採ったラフ（鉛筆の絵）を線画の位置へ合わせ（オプティカルフロー）、ぼかして濃さを線の間の領域ごとに段階のグレーのトーン（白・10・20・32・45 %）にし、領域の中で暗いところを影にした。線は線画のまま'
+            : '採った線画を Codex に塗らせて色の見本を作り、見本を線画の位置へ合わせて（線の画像どうしのオプティカルフロー）、線の間の領域ごとに塗り（人物と背景）と影に分けた。線は線画のまま',
+          'fn.ink': `${INK_VERSION}：${refs.filter((r) => r.path.startsWith('part1/ink/')).length} 枚の線のレイヤー（part1/ink/layers/、sha256 は ep${String(epNo).padStart(2, '0')}-finish.json）`,
+          'fn.art': mono
+            ? `無し：白黒の仕上げは画像を生成しないので、設定画は渡していない。トーンのもとは採ったラフ ${refs.filter((r) => r.path.startsWith('part1/rough/')).length} 枚（part1/rough/panels/）`
+            : art.length ? art.map(refText_).join(' / ') : '無し：このページの人物と場所には採用した設定画が無い（CH-10 メアリー・馬・船員・英国の舞台は設定画をまだ作っていない）。線画と色の決まり（AR-04、AR-06）だけを渡した',
           'fn.layers': `${FINISH_LAYERS.bgFill}、${INK_LAYERS.bg}、${FINISH_LAYERS.figFill}、${FINISH_LAYERS.shadow}、${INK_LAYERS.fig}、${INK_LAYERS.fx}、${BALLOON_LAYER} 吹き出し（吹き出しと枠ごとのグループ）、${LAYERS.text}、${LAYERS.memo}`,
           'fn.layerNotes':
             'LY-01 下絵と LY-02 アタリは、画作りガイドで仕上げの段階に要らないので入れていない（ネーム・ラフ・線画の原稿に残っている）。' +
-            'LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影は色の見本で同じ色のうち暗いところを取り出したもので、半透明の影の色を塗りの上に重ねる。' +
+            (mono
+              ? 'LY-03 と LY-05 は白黒のトーン（グレーの塗り）。LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影はラフの領域の中で暗いところで、半透明の濃いグレーをトーンの上に重ねる。'
+              : 'LY-06 影は、決まりのとおり人物と背景を一枚にまとめた。影は色の見本で同じ色のうち暗いところを取り出したもので、半透明の影の色を塗りの上に重ねる。') +
             'LY-10 文字の台詞とナレーションは、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。' +
             '擬音は、画作りガイドでは手書きで LY-08 に描く。作者が描くまで LY-10 の仮の文字のまま。' +
             '「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。',
           'fn.byHuman': 'まだ無い（作者が確かめて直す）',
-          'fn.byAi': `${FINISH_LAYERS.bgFill}・${FINISH_LAYERS.figFill}・${FINISH_LAYERS.shadow}（画像生成）、${INK_LAYERS.bg}・${INK_LAYERS.fig}・${INK_LAYERS.fx}（線画、作者が採った）、${BALLOON_LAYER}・${LAYERS.text}（脚本の台詞を置いただけ）`,
-          'fn.generated': `${tools.join(' / ')}。コマごとに、${INK_VERSION} の線（3枚を黒で重ねた絵）と上の設定画を渡した。プロンプトは part1/finish/prompts/。出典と利用条件：${LICENSE}`,
-          'fn.noShadow': noShadow.length ? `${noShadow.join(' ')}：色の見本の影が、同じ色の暗いところとして取り出せなかった（影の色が別の色になっている）。影は塗りに残っている` : '',
+          'fn.byAi': `${FINISH_LAYERS.bgFill}・${FINISH_LAYERS.figFill}・${FINISH_LAYERS.shadow}（${mono ? 'ラフから計算。画像生成なし' : '画像生成'}）、${INK_LAYERS.bg}・${INK_LAYERS.fig}・${INK_LAYERS.fx}（線画、作者が採った）、${BALLOON_LAYER}・${LAYERS.text}（脚本の台詞を置いただけ）`,
+          'fn.generated': mono
+            ? `仕上げのための画像生成は無い（${tools[0]}）。もと：${INK_VERSION} の線と、採ったラフ（part1/rough/panels/、sha256 は ep${String(epNo).padStart(2, '0')}-finish.json）。出典と利用条件：${LICENSE_MONO}`
+            : `${tools.join(' / ')}。コマごとに、${INK_VERSION} の線（3枚を黒で重ねた絵）と上の設定画を渡した。プロンプトは part1/finish/prompts/。出典と利用条件：${LICENSE}`,
+          'fn.noShadow': noShadow.length && mono ? `${noShadow.join(' ')}：ラフに、領域の中で暗いところとして取り出せる影が無かった（影はトーンの濃さに残っている）` : noShadow.length ? `${noShadow.join(' ')}：色の見本の影が、同じ色の暗いところとして取り出せなかった（影の色が別の色になっている）。影は塗りに残っている` : '',
         },
       };
     }),
@@ -157,7 +185,7 @@ const KIND = { D: '台詞', N: 'ナレーション', S: '擬音', title: '題' }
 const isShout = (text: string) => /！$/.test(text) && text.length <= 12;
 
 /** 写植の記録：吹き出し・ナレーションの枠・擬音・題ごとに1行。 */
-export function letteringTable(records: PanelRecord[], placed: Placed[]): StructuredData {
+export function letteringTable(records: PanelRecord[], placed: Placed[], epNo = 1): StructuredData {
   const rows = placed
     .filter((it) => it.kind === 'D' || it.kind === 'N' || it.kind === 'S' || it.kind === 'title')
     .map((it, i) => {
@@ -170,7 +198,7 @@ export function letteringTable(records: PanelRecord[], placed: Placed[]): Struct
       const font =
         kind === 'N' || kind === 'title' ? `明朝（${MINCHO.split(',')[0]}）${kind === 'title' ? '、太字' : ''}` : `ゴシック（${GOTHIC.split(',')[0]}）${kind === 'S' || isShout(text) ? '、太字' : ''}`;
       return {
-        id: `LT-e01-${String(i + 1).padStart(3, '0')}`,
+        id: `LT-e${String(epNo).padStart(2, '0')}-${String(i + 1).padStart(3, '0')}`,
         values: {
           'lt.panel': it.panelId,
           'lt.line': line ? `${SCRIPT_LINES_VERSION} ${it.lineId}` : `${SCRIPT_LINES_VERSION}（題：${r.lines[0]!.id} のト書き）`,

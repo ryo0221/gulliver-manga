@@ -65,3 +65,34 @@ node gm-finish-screens.tmp.mjs /tmp/finish/finish-editor.json /tmp/finish/screen
 ```
 
 `pages/` は `captureDesignPages`（vector）で書き出した SVG を画像にしたもの（JPEG）と manifest です。
+
+# 第2話「綱渡りの宮廷」仕上げと写植（白黒）
+
+第2話から白黒にした（トークンの節約のため。第1話はカラーのまま）。仕上げのための画像生成は無い。
+
+- 原稿 `artifacts/gm1-ep02-finish.artifact.json`（16 ページ、9.3 MB）、ページ表 `gm1-ep02-finish-pages`、写植の記録
+  `gm1-ep02-lettering`。もとは線画 `gm1-ep02-ink@ink-ep02-v1`。ページの画像は `ep02/pages/`。
+- レイヤーと重ね順、動かせる吹き出し、写植の決まりは第1話と同じ（`gulliver-ep01-finish.ts` を話ごとに使えるようにした。
+  第1話の成果物は変わらない）。
+
+## トーンの作り方（`src/finish-mono.py`）
+
+1. 採ったラフ（`part1/rough/panels/<コマ>.jpg`、鉛筆の絵で線画と同じ大きさ）を、第1話の色の見本と同じオプティカルフローで
+   線画の位置へ合わせ、ぼかして（σ 2.5）鉛筆のハッチングを均した。コマごとに、紙を白、いちばん濃い鉛筆を黒に近く伸ばした。
+2. 線の間の領域ごとに、明るいところ（80 パーセンタイル）の濃さを、白・10・20・32・45 % の段階のグレーにした（スクリーントーンの代わり）。
+3. 領域の中で明るいところより暗いところ（0.88 倍より暗い）を影にし、LY-06 に半透明の濃いグレーで、ひとかたまりごとに一つの濃さで置いた。
+   小さすぎるかたまりは捨てた。
+4. 人物（LY-05）か背景（LY-03）かは、第1話と同じく領域を囲む線の種類で決めた。
+
+## 作者に見てほしいところ
+
+- トーンの濃さはラフの鉛筆に従うので、ラフで濃く塗った壁などは濃いグレーになる。段階や明るさは `LEVELS` で変えられる。
+- 影はラフの陰影から取ったもので、光の向きはコマごとに揃っていないことがある。
+
+## 作り直し方
+
+```sh
+EPISODE=2 python3 src/finish-mono.py <gulliver-manga のコミット>   # layers/ lines/ panels/ ep02-finish.json
+# $SB に gulliver-ep01/02-finish*.ts と gulliver-ep02-finish/（ep02-finish.json・layers・lines）を置いて
+GM_OUT=/tmp/fin2 npx vitest run apps/artifact-host/src/creative/story-board/gulliver-ep02-finish.build.test.ts
+```
