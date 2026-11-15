@@ -13,7 +13,7 @@
  */
 import { contentHash, type Artifact } from '@editor-platform/artifact-core';
 import type { StructuredData } from '@editor-platform/structured-data/model';
-import { buildEpisodeName, EP01_NAME, BALLOON_LAYER, INK_LAYERS, LAYERS, type EpisodeStage, type InkImages, type PanelRecord, type StageInput } from './gulliver-ep01-name';
+import { buildEpisodeName, EP01_NAME, BALLOON_LAYER, INK_LAYERS, LAYERS, type EpisodeStage, type InkImages, type NamePage, type PanelRecord, type StageInput } from './gulliver-ep01-name';
 import { ROUGH_UNDERLAY_OPACITY, type RoughInput, type RoughRef } from './gulliver-ep01-rough';
 
 export { forExport } from './gulliver-ep01-rough';
@@ -41,7 +41,7 @@ export type InkInput = { data: EpisodeInk; images: Record<string, string> };
 export const ROUGH_VERSION = 'gm1-ep01-rough@rough-ep01-v2';
 /** 画作りガイドの決まりで、線画の段階に要るレイヤー。LY-01 と LY-02 は隠して残す。 */
 export const INK_STAGE_LAYERS = ['LY-04', 'LY-07', 'LY-08'] as const satisfies readonly string[];
-const LICENSE = 'OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う';
+export const LICENSE = 'OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う';
 const KEY = { bg: 'LY-04', fig: 'LY-07', fx: 'LY-08' } as const;
 const WHAT = { bg: '背景（建物・地面・海・船・小道具）の線', fig: '人物と動物の線', fx: '効果の線（集中線・動きの線）' } as const;
 
@@ -49,20 +49,23 @@ const REF_NAMES: Record<string, string> = {
   'ch01-gulliver-front': 'CH-01 ガリヴァーの設定画（正面）',
   'lilliputian-front': 'CH-30 小人の設定画（正面）',
   'ch02-emperor': 'CH-02 皇帝の設定画',
+  'ch03-empress': 'CH-03 皇后の設定画',
+  'ch04-flimnap': 'CH-04 フリムナップの設定画',
+  'ch06-bolgolam': 'CH-06 ボルゴラムの設定画',
   'lo03-temple': 'LO-03 古い神殿の舞台の設定画',
   'lo04-mildendo': 'LO-04 都ミルドゥンドの舞台の設定画',
 };
-const refName = (r: RoughRef) =>
-  r.path.startsWith('part1/rough/') ? `${ROUGH_VERSION} のラフ絵` : r.path.startsWith('part1/name/') ? '3D の舞台のカメラの絵' : (REF_NAMES[r.path.split('/')[2]!] ?? r.path);
-export const refText = (r: RoughRef) => `${refName(r)}（gulliver-manga@${r.commit.slice(0, 8)} ${r.path} sha256:${r.sha256.slice(0, 12)}）`;
+const refName = (r: RoughRef, roughVersion = ROUGH_VERSION) =>
+  r.path.startsWith('part1/rough/') ? `${roughVersion} のラフ絵` : r.path.startsWith('part1/name/') ? '3D の舞台のカメラの絵' : (REF_NAMES[r.path.split('/')[2]!] ?? r.path);
+export const refText = (r: RoughRef, roughVersion = ROUGH_VERSION) => `${refName(r, roughVersion)}（gulliver-manga@${r.commit.slice(0, 8)} ${r.path} sha256:${r.sha256.slice(0, 12)}）`;
 
-function inkImages(ink: InkInput): Record<string, InkImages> {
+export function inkImages(ink: InkInput, roughVersion = ROUGH_VERSION): Record<string, InkImages> {
   const out: Record<string, InkImages> = {};
   for (const [id, p] of Object.entries(ink.data.panels)) {
     const one = (k: keyof typeof KEY) => ({
       src: ink.images[`${id}/${KEY[k]}`]!,
       alt: `${id} の${WHAT[k]}。採ったラフ絵をなぞって Codex の画像生成で描いた線画を、色で分けたもの`,
-      source: `${p.tool}、Codex のモデル ${p.codexModel ?? '不明'}（画像のモデルは出ない）。渡した参照：${p.refs.map(refText).join('、')}。生の出力 sha256:${p.rawSha256.slice(0, 12)}。3色で描かせ、${KEY[k]} の色の線だけを取り出した`,
+      source: `${p.tool}、Codex のモデル ${p.codexModel ?? '不明'}（画像のモデルは出ない）。渡した参照：${p.refs.map((r) => refText(r, roughVersion)).join('、')}。生の出力 sha256:${p.rawSha256.slice(0, 12)}。3色で描かせ、${KEY[k]} の色の線だけを取り出した`,
       license: LICENSE,
     });
     out[id] = { bg: one('bg'), fig: one('fig'), fx: one('fx') };
@@ -70,7 +73,8 @@ function inkImages(ink: InkInput): Record<string, InkImages> {
   return out;
 }
 
-export function buildEpisodeInk(stage: StageInput, rough: RoughInput, ink: InkInput) {
+export function buildEpisodeInk(stage: StageInput, rough: RoughInput, ink: InkInput, ep: { episode: number; name: NamePage[]; roughVersion: string } = { episode: 1, name: EP01_NAME, roughVersion: ROUGH_VERSION }) {
+  const ROUGH_VERSION = ep.roughVersion;
   const avoid = Object.fromEntries(Object.entries(rough.data.panels).map(([id, p]) => [id, p.occupancy]));
   const roughImages = Object.fromEntries(
     Object.entries(rough.data.panels).map(([id, p]) => [
@@ -78,12 +82,13 @@ export function buildEpisodeInk(stage: StageInput, rough: RoughInput, ink: InkIn
       { src: rough.images[id]!, alt: `${id} のラフ絵（${ROUGH_VERSION}、線画では隠して残す）`, source: `${ROUGH_VERSION} のラフ絵 ${p.image} を長い辺 480 px に縮めた写し part1/ink/hidden/${id}-LY-02.jpg（${p.tool}）`, license: LICENSE },
     ]),
   );
-  return buildEpisodeName(1, EP01_NAME, stage, { rough: roughImages, underlayOpacity: ROUGH_UNDERLAY_OPACITY, avoid, ink: inkImages(ink) });
+  return buildEpisodeName(ep.episode, ep.name, stage, { rough: roughImages, underlayOpacity: ROUGH_UNDERLAY_OPACITY, avoid, ink: inkImages(ink, ROUGH_VERSION) });
 }
 
 // ---------------------------------------------------------------- 表
 
-function pageTable(records: PanelRecord[], stage: EpisodeStage, ink: EpisodeInk): StructuredData {
+export function pageTable(records: PanelRecord[], stage: EpisodeStage, ink: EpisodeInk, epNo = 1, ROUGH_VERSION_ = ROUGH_VERSION): StructuredData {
+  const ROUGH_VERSION = ROUGH_VERSION_;
   const pages = [...new Set(records.map((r) => r.page))];
   return {
     schemaVersion: 2,
@@ -114,14 +119,14 @@ function pageTable(records: PanelRecord[], stage: EpisodeStage, ink: EpisodeInk)
       const bgAdded = rs.filter((r) => ink.panels[r.id]!.background);
       const fx = rs.filter((r) => ink.panels[r.id]!.layers['LY-08'].share >= FX_MIN_SHARE).map((r) => r.id);
       return {
-        id: `PG-e01-${String(page).padStart(2, '0')}`,
+        id: `PG-e${String(epNo).padStart(2, '0')}-${String(page).padStart(2, '0')}`,
         values: {
           'ik.page': page,
           'ik.scene': rs[0]!.scene,
           'ik.panels': rs.map((r) => r.id).join(' '),
           'ik.method': 'ラフ絵をなぞる AI の画像生成（Codex）。構図・人物の位置と大きさは、ラフと 3D の舞台で決めたまま',
           'ik.rough': `${ROUGH_VERSION}：${refs.filter((r) => r.path.startsWith('part1/rough/')).map((r) => `${r.path} sha256:${r.sha256.slice(0, 12)}`).join('、')}。3D の舞台：${models.join('、')}`,
-          'ik.art': art.length ? art.map(refText).join(' / ') : '無し：このページの人物と場所には採用した設定画が無い（CH-10 メアリー・馬・船員・英国の舞台は設定画をまだ作っていない）。ラフ絵と 3D の舞台だけを渡した',
+          'ik.art': art.length ? art.map((r) => refText(r, ROUGH_VERSION)).join(' / ') : '無し：このページの人物と場所には採用した設定画が無い（CH-10 メアリー・馬・船員・英国の舞台は設定画をまだ作っていない）。ラフ絵と 3D の舞台だけを渡した',
           'ik.layers': `${LAYERS.underlay}（隠す）、${LAYERS.atari}（ラフ絵、隠す）、${INK_LAYERS.bg}、${INK_LAYERS.fig}、${INK_LAYERS.fx}、${BALLOON_LAYER} 吹き出し（仮、吹き出しと枠ごとのグループ）、${LAYERS.text}、${LAYERS.memo}`,
           'ik.layerNotes':
             'LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。' +
