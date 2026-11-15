@@ -15,9 +15,19 @@ panels_path, stage_path, ul_dir, out = sys.argv[1:5]
 REVISED_CAMERA = {
     'e01-p01-k1': {'nm.eye': '胸の上の小人たちの後ろの少し上', 'nm.mm': 545, 'nm.look': '胸の上に並ぶ小人たちの背中と弓の向こうに、横たわるガリヴァーの顎と顔'},
 }
+# 第2話の通読の直し（RV-e02-02・RV-e02-09、2026-11-15、作者「これと提案の6件を直してください」）：7-4 は引いて頭まで入れ、
+# 16-1 は部屋の中からではなく窓の外の脇から（stage の ep02-stage.json の revised）。
+REVISED_CAMERA.update({
+    'e02-p07-k4': {'nm.look': '座るガリヴァーの頭から足まで全身と、その前に立つボルゴラムの一行'},
+    'e02-p16-k1': {'nm.eye': '宮殿の外、窓の脇の壁ぎわ', 'nm.mm': 560, 'nm.look': '窓から差し出された皇后の小さな手と、そこへ唇を寄せるガリヴァーの横顔の全体'},
+})
 REVISED_NOTE = {
     'e01-p01-k1': "Correction after the read-through (the cover): the Lilliputians standing on Gulliver's chest must be clearly SEEN, as the cover's subject: in the foreground several tiny archers and men seen from behind, full figures from head to feet, bows drawn and quivers on their backs, standing on the blue coat with its brass buttons; beyond them, up the slope of his chest, Gulliver's chin and face (eyes open, looking down along his body in astonishment), his hair tied to the sand. The Lilliputians are 1/12 of his size: a whole man is about as tall as Gulliver's face. Beach sand and the sky beyond.",
 }
+REVISED_NOTE.update({
+    'e02-p07-k4': "Correction after the read-through (RV-e02-02): Gulliver's head was cut off by the top of the frame. This is a wide shot: draw seated Gulliver WHOLE, from the top of his head to his shoes, with sky above his head, inside the frame; his face (looking down at Bolgolam) must be fully visible. Bolgolam and his party stand small on the grass in front of him, reading the long parchment; the temple wall and its door behind Gulliver.",
+    'e02-p16-k1': "Correction after the read-through (RV-e02-09, the author: his face showing only as a nose in the window looked creepy): the camera is now OUTSIDE the palace, low beside the wall. Show Gulliver's WHOLE face in profile (forehead, eye, nose, lips and chin, his hair tied back), lying on the ground of the court with his chin low; the palace wall with its tiny window (about as big as his eye) is beside his face. From that small window the Empress leans out and holds out her tiny hand; Gulliver brings his lips very gently to her hand. Her whole hand is about the size of his fingernail; she is seen from the waist up in the window frame, her crown and her smile. Gentle evening light.",
+})
 rows = {r['id']: r['values'] for r in json.load(open(panels_path))['draft']['content']['rows']}
 stage = json.load(open(stage_path))
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../..'))

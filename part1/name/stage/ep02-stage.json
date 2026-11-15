@@ -2243,14 +2243,14 @@
    "panel": "e02-p07-k4",
    "set": "court",
    "cam": [
-    2250,
-    2700,
+    3100,
+    3700,
     136
    ],
    "look": [
-    0,
-    1200,
-    500
+    -100,
+    1100,
+    600
    ],
    "stand": null,
    "hfovDeg": 62.7,
@@ -2319,7 +2319,41 @@
    "noModel": null,
    "vessels": {},
    "underlay": "underlay/e02-p07-k4.jpg",
-   "plan": "plans/e02-p07-k4.svg"
+   "plan": "plans/e02-p07-k4.svg",
+   "revised": {
+    "finding": "RV-e02-02",
+    "date": "2026-11-15",
+    "why": "通読の直し：引きのカメラで、座るガリヴァーの頭が枠の上で切れていた。後ろへ引いて少し上を向け、頭まで入れた。",
+    "before": {
+     "cam": [
+      2250,
+      2700,
+      136
+     ],
+     "look": [
+      0,
+      1200,
+      500
+     ]
+    },
+    "models": "models/court-rv-e02-02/",
+    "props": [
+     {
+      "name": "F106 古い神殿",
+      "kind": "bim",
+      "artifactId": "artifact_fdf6894e-c9a9-41d4-905b-038e2319269b",
+      "versionId": "version_735f15b2-6735-4c83-9f37-e04c04b1e7d5",
+      "contentHash": "d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384"
+     },
+     {
+      "name": "舞台 court",
+      "kind": "cad",
+      "artifactId": "artifact_a7b38c26-5e75-4410-a23f-b85b7e6b3af0",
+      "versionId": "version_02672bac-c63f-4989-9e5c-72cc6401d8f1",
+      "contentHash": "8e954b85a7b39e38c7f639da1c842e79807958721e215a6d697c82b62f06af24"
+     }
+    ]
+   }
   },
   {
    "panel": "e02-p08-k1",
