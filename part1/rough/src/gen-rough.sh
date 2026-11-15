@@ -8,7 +8,7 @@ D=$(realpath "$1"); cd "$D"
 read -r CW CH < <(python3 -c "import json;print(*json.load(open('frame.json'))['canvas'])")
 orient=$([ "$CW" -gt "$CH" ] && echo "Landscape ${CW}x${CH}" || { [ "$CW" -lt "$CH" ] && echo "Portrait ${CW}x${CH}" || echo "Square ${CW}x${CH}"; })
 args=(-i "$D/layout.png"); refs=""; n=2
-ordinal=(FIRST SECOND THIRD FOURTH FIFTH)
+ordinal=(FIRST SECOND THIRD FOURTH FIFTH SIXTH SEVENTH EIGHTH)
 while IFS=$'\t' read -r path what || [ -n "$path" ]; do
   [ -n "$path" ] || continue
   args+=(-i "$path"); refs+="The ${ordinal[$((n-1))]} attached image is $what: keep that costume and face design."$'\n'; n=$((n+1))

@@ -50,26 +50,29 @@ export const ROUGH_UNDERLAY_OPACITY = 0.25;
 export const NAME_VERSION = 'gm1-ep01-name@name-ep01-v2';
 /** 画作りガイドの決まりで、ラフの段階に要るレイヤー。 */
 export const ROUGH_LAYERS = ['LY-01', 'LY-02', 'LY-09', 'LY-10'] as const satisfies readonly string[];
-const LICENSE = 'OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う';
+export const LICENSE = 'OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う';
 
 const REF_NAMES: Record<string, string> = {
   'ch01-gulliver-front': 'CH-01 ガリヴァーの設定画（正面）',
   'lilliputian-front': 'CH-30 小人の設定画（正面）',
   'ch02-emperor': 'CH-02 皇帝の設定画',
+  'ch03-empress': 'CH-03 皇后の設定画',
+  'ch04-flimnap': 'CH-04 フリムナップの設定画',
+  'ch06-bolgolam': 'CH-06 ボルゴラムの設定画',
   'lo03-temple': 'LO-03 古い神殿の舞台の設定画',
   'lo04-mildendo': 'LO-04 都ミルドゥンドの舞台の設定画',
 };
-const refName = (r: RoughRef) => REF_NAMES[r.path.split('/')[2]!] ?? r.path;
-const refText = (r: RoughRef) => `${refName(r)}（gulliver-manga@${r.commit.slice(0, 8)} ${r.path} sha256:${r.sha256.slice(0, 12)}）`;
+export const refName = (r: RoughRef) => REF_NAMES[r.path.split('/')[2]!] ?? r.path;
+export const refText = (r: RoughRef) => `${refName(r)}（gulliver-manga@${r.commit.slice(0, 8)} ${r.path} sha256:${r.sha256.slice(0, 12)}）`;
 
-function roughImages(rough: RoughInput, stage: StageInput): Record<string, RoughImage> {
+export function roughImages(rough: RoughInput, stage: StageInput, nameVersion = NAME_VERSION): Record<string, RoughImage> {
   const out: Record<string, RoughImage> = {};
   for (const [id, p] of Object.entries(rough.data.panels)) {
     const sp = stage.data.panels.find((x) => x.panel === id)!;
     out[id] = {
       src: rough.images[id]!,
       alt: `${id} のラフ絵。3D の舞台「${stage.data.sets[sp.set]!.name}」のカメラの絵を構図の型にして、Codex の画像生成で描いた鉛筆のラフ`,
-      source: `${p.tool}、Codex のモデル ${p.codexModel ?? '不明'}（画像のモデルは出ない）。渡した参照：${NAME_VERSION} のカメラの絵 ${p.layout}、${p.refs.map(refText).join('、')}。生の出力 sha256:${p.rawSha256.slice(0, 12)}`,
+      source: `${p.tool}、Codex のモデル ${p.codexModel ?? '不明'}（画像のモデルは出ない）。渡した参照：${nameVersion} のカメラの絵 ${p.layout}、${p.refs.map(refText).join('、')}。生の出力 sha256:${p.rawSha256.slice(0, 12)}`,
       license: LICENSE,
     };
   }
@@ -88,7 +91,7 @@ export function forExport(content: DesignContent): DesignContent {
 
 // ---------------------------------------------------------------- 表
 
-function pageTable(records: PanelRecord[], stage: EpisodeStage, rough: EpisodeRough): StructuredData {
+export function pageTable(records: PanelRecord[], stage: EpisodeStage, rough: EpisodeRough, ep = 1, nameVersion = NAME_VERSION): StructuredData {
   const pages = [...new Set(records.map((r) => r.page))];
   return {
     schemaVersion: 2,
@@ -113,7 +116,7 @@ function pageTable(records: PanelRecord[], stage: EpisodeStage, rough: EpisodeRo
       const models = sets.flatMap((s) => stage.sets[s]!.props.map((p) => `${p.name} ${p.artifactId}@${p.versionId}`));
       const tools = [...new Set(rp.map((p) => `${p.tool}、モデル ${p.codexModel ?? '不明'}`))];
       return {
-        id: `PG-e01-${String(page).padStart(2, '0')}`,
+        id: `PG-e${String(ep).padStart(2, '0')}-${String(page).padStart(2, '0')}`,
         values: {
           'rf.page': page,
           'rf.scene': rs[0]!.scene,
@@ -131,7 +134,7 @@ function pageTable(records: PanelRecord[], stage: EpisodeStage, rough: EpisodeRo
             '吹き出しと枠は、ラフ絵の線の濃いところと 3D のカメラに写る人物の頭を避けて置いた（rough.lettering-clear）。',
           'rf.byHuman': 'まだ無い（作者が確かめて直す）',
           'rf.byAi': `${LAYERS.underlay}（3D の書き出し）、${LAYERS.atari}（画像生成）、${BALLOON_LAYER} 吹き出し・${LAYERS.text}（脚本の台詞を置いただけ）`,
-          'rf.generated': `${tools.join(' / ')}。コマごとに、${NAME_VERSION} のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/rough/prompts/。出典と利用条件：${LICENSE}`,
+          'rf.generated': `${tools.join(' / ')}。コマごとに、${nameVersion} のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/rough/prompts/。出典と利用条件：${LICENSE}`,
         },
       };
     }),
@@ -146,7 +149,7 @@ export const DRAWN_OUTSIDE_STAGE: Record<string, string> = {
     '3D のカメラ（注視点が馬の頭より左）では画角のわずかに外。ネームの絵のメモ「馬の鼻先」に合わせ、ラフでは灰の馬の鼻先を描いた。ネームの舞台のカメラを直す',
 };
 
-function figureTable(records: PanelRecord[], stage: EpisodeStage, rough: EpisodeRough): StructuredData {
+export function figureTable(records: PanelRecord[], stage: EpisodeStage, rough: EpisodeRough, drawnOutside: Record<string, string> = DRAWN_OUTSIDE_STAGE): StructuredData {
   return {
     schemaVersion: 2,
     columns: [
@@ -165,7 +168,7 @@ function figureTable(records: PanelRecord[], stage: EpisodeStage, rough: Episode
       const rp = rough.panels[r.id]!;
       return sp.figures.map((f) => {
         const v = rp.figures.find((x) => x.fg === f.fg)!;
-        const extra = DRAWN_OUTSIDE_STAGE[f.fg];
+        const extra = drawnOutside[f.fg];
         const drawn = v.inFrame || !!extra;
         return {
           id: f.fg,

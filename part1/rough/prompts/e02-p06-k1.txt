@@ -1,0 +1,31 @@
+Use your image generation tool. Make ONE image: a manga ROUGH (ラフ) for one comic panel, drawn the way a manga artist roughs a panel before inking.
+Style: loose but clear grey pencil lines on white paper, monochrome only (no colour), light grey tone only to separate figures from the background, no finished rendering. Faces must show the direction of the face and the expression; bodies must show the pose with readable joints; contacts (hands, ropes, feet on the body) must be clear.
+The FIRST attached image fixes the composition: keep its camera angle, horizon, and where each object and figure sits and how big it is in the frame. Redraw the blocky stand-ins as real people, horses, ships and places.
+The SECOND attached image is the approved design of the Emperor of Lilliput (CH-02): keep that costume and face design.
+The THIRD attached image is the approved design of Skyresh Bolgolam, the High Admiral (CH-06): keep that costume and face design.
+The FOURTH attached image is the approved design of Flimnap, the Treasurer (CH-04): keep that costume and face design.
+The FIFTH attached image is the approved design of a Lilliputian (CH-30, the tiny people): keep that costume and face design.
+ Gulliver's coat is plain blue in the design but this rough is monochrome: draw it as a plain coat with buttons and NO trim or edging.
+Early-18th-century England and its ships; Lilliput is a country of people 1/12 of Gulliver's size: keep their true size against him (AR-01, no exaggeration).
+No likeness to any film, game or existing illustration. No text, no letters, no speech balloons, no panel border, no signature, no watermark.
+Landscape 1536x1024.
+
+Panel e02-p06-k1, page 6 panel 1, scene SC-007.
+Shot: 引き. Camera: 小人の目の高さ, 136 mm above the ground; 評議の間の入口から、長い卓と皇帝と大臣たちを.
+What the panel shows (storyboard memo): 宮廷の評議。長い卓、玉座の皇帝、並ぶ大臣たち。腕を組む太った男。
+Words in this panel (for the mood and the faces only, do NOT draw any text): (no words)
+Figures, placed by the 3D layout (keep these places, facings and poses; draw each with a readable face direction, pose and expression):
+- FG-e02-p06-k1-01 皇帝 — the Emperor of Lilliput (CH-02): a Lilliputian, taller than his courtiers by about the breadth of Gulliver's fingernail; standing; head at middle-centre of the frame (x 50%, y 38%), facing the camera; 1060 mm from the camera.
+- FG-e02-p06-k1-02 ボルゴラム — Skyresh Bolgolam, the High Admiral (CH-06): a stout, sour-faced Lilliputian, 1/12 of Gulliver; standing with arms crossed, sullen; head at middle-left of the frame (x 26%, y 39%), in profile, facing frame right; 492 mm from the camera.
+- FG-e02-p06-k1-03 フリムナップ — Flimnap, the Treasurer (CH-04): a lean, tall Lilliputian, 1/12 of Gulliver; reading aloud from a long parchment; head at middle-right of the frame (x 67%, y 38%), in profile, facing frame left; 689 mm from the camera.
+- FG-e02-p06-k1-04 大臣1 — a Lilliputian (CH-30): 146 mm tall, 1/12 of Gulliver; standing; head at middle-centre of the frame (x 35%, y 40%), in profile, facing frame right; 788 mm from the camera.
+- FG-e02-p06-k1-05 大臣2 — a Lilliputian (CH-30): 146 mm tall, 1/12 of Gulliver; standing; head at middle-right of the frame (x 80%, y 40%), in profile, facing frame left; 396 mm from the camera.
+- FG-e02-p06-k1-06 大臣3 — a Lilliputian (CH-30): 146 mm tall, 1/12 of Gulliver; standing; head at middle-centre of the frame (x 64%, y 40%), in profile, facing frame left; 837 mm from the camera.
+- FG-e02-p06-k1-07 大臣4 — a Lilliputian (CH-30): 146 mm tall, 1/12 of Gulliver; standing; head at middle-left of the frame (x 15%, y 40%), in profile, facing frame right; 348 mm from the camera.
+The FIRST image is the 3D layout render from this camera: figures there are blocky stand-ins, ground/sea/walls are flat placeholders. The flat grey bands at the edges of the FIRST image are padding outside the panel: continue the scene into them, nothing important there.
+Continuity: Gulliver is still chained by the LEFT ankle only (one chain from his left ankle back to the old temple's door); his right leg is free. He wears his plain coat with buttons.
+Everything here is Lilliputian: the people, the long table and the throne are in normal proportion to each other (no giant in this room).
+Never cut a face with the frame edge: every face that is in the frame is drawn whole.
+Always draw a background (ground, sky, walls or the room) even in a close-up; never leave the space behind the figures blank.
+
+After generating, copy the generated PNG to ./raw.png in the current directory. Do not generate more than one image.

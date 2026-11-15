@@ -241,7 +241,7 @@ export const EP02_NAME: NamePage[] = [
     scene: 'SC-008',
     tiers: [
       { h: 5, panels: [{ take: 1, shot: '寄り', cam: L('窓の脇から、皇后の手とガリヴァーの唇を', ROYAL_FLOOR), art: '皇后の小さな手に、そっと口づけするガリヴァー。', size: true }] },
-      { h: 5, panels: [{ take: 1, shot: '大引き', cam: L('都の西の丘の上から、夕日の都と、王宮に寝そべるガリヴァーを', HILL), art: '夕日の都。王宮の内庭に寝そべるガリヴァー。', size: true }] },
+      { h: 5, panels: [{ take: 1, shot: '引き', cam: L('内庭の地面から、夕日の中、奥の宮殿の窓辺に寝そべるガリヴァーを'), art: '夕日の内庭。奥の宮殿の窓辺に寝そべるガリヴァー。', size: true }] },
     ],
   },
 ];

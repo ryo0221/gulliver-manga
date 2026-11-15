@@ -69,3 +69,20 @@ python3 <gm>/part1/name/src/name-doc.py <gm>/part1/name/artifacts/gm1-ep01-name-
 ```
 
 画面は、漫画ワークスペースのページ（1・9・15）、見開き（8–9）、通読、コマ表です。2026-11-14 に実行し、5つの舞台の demo、ネームと脚本のテストが通り、画面を 6 枚書き出しました。
+
+## 第2話「綱渡りの宮廷」（下書き、作者の確認待ち）
+
+`gulliver-ep02-name.ts`（16ページ・48コマ、`name-ep02-v1`）。成果物は `artifacts/gm1-ep02-name`（Design）と `artifacts/gm1-ep02-name-panels`（コマの表）、ページの絵は `ep02/pages/` です。舞台は `src/gulliver-ep02-stage.demo.ts` の3つ（court：古い神殿の前の広場、council：会議の間、city：都ミルデンドウ F105 と王宮）で、記録は `stage/ep02-stage.json` です。
+
+- 第1話の学び LN-e01-01（コマの主役が枠に入っているか）を、舞台のカメラの絵で確かめてから組みました。
+- 都の舞台は F105 の BIM が大きく、キャラクター編集の「Ready」のあとも計算が続きます。撮影の前に、すべてのプロップが表示されるまで待ちます。
+- 皇后の窓のコマ（15〜16ページ）は、F105 の王の住まい（中央の10フィート四方）の南の壁の窓（4×6インチ）に合わせました。3D の窓のガラスは不透明なので、窓の外のガリヴァーの目は 3D の絵には写りません（ラフで描く）。
+- ネームの確認のあと、カメラの絵で主役が見えなかった4コマを撮り直しました（2026-11-14）：扉 1-1（ガリヴァーの顔と手のひらの小人が両方入るよう引いた）、8-1（ボルゴラムが手前に入るよう低く引いた）、11-1（丘の東の端から）、16-2（王宮の外や丘からは壁でガリヴァーが隠れるので、内庭の地面からの「引き」に変えた）。ラフの段階で、主役が枠から外れていた 11-2・15-1、座るガリヴァーの頭が枠の外だった 2-1、吹き出しの余白が無かった 6-2・8-2・8-3 のカメラも直しました（`../rough/README.md`）。寝そべるガリヴァー（`PRONE`）の `at` は足の位置で、前の版では体が宮殿の壁の中に埋まっていたので、頭が窓の外に来るよう南へ動かしました。
+
+```sh
+CAD_OCCT_DIST=$PWD/work/cad-kernel STAGE_OUT=/tmp/stage2 npx playwright test -c gm-stage2.config.ts --trace off   # 3つの舞台、約12分
+GM_NO_STAGE=1 GM_OUT=/tmp/name2 npx vitest run apps/artifact-host/src/creative/story-board/gulliver-ep02-name.build.test.ts   # 先にページだけ
+python3 <gm>/part1/name/src/stage-assets.py /tmp/stage2 /tmp/name2/artifacts/gm1-ep02-name.artifact.json <gm>/part1/name/stage 2
+cp -r <gm>/part1/name/stage $SB/gulliver-ep02-stage
+GM_OUT=/tmp/name2 npx vitest run apps/artifact-host/src/creative/story-board/gulliver-ep02-name.build.test.ts
+```

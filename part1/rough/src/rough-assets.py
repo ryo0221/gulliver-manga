@@ -1,16 +1,17 @@
 #!/usr/bin/env python3
-"""Turns the Codex rough runs into the ep1 rough assets (fiction-manga ラフ).
+"""Turns the Codex rough runs into an episode's rough assets (fiction-manga ラフ). EPISODE=N (default 1).
 
 usage: rough-assets.py BRIEFS_ROOT GM_COMMIT OUT_DIR
 BRIEFS_ROOT: rough-briefs.py output with each panel's raw.png, prompt.txt and codex.log (gen-rough.sh).
 GM_COMMIT: the gulliver-manga commit that holds the reference images passed to Codex (their fixed version).
 Writes OUT_DIR/panels/<panel>.jpg (the raw cut back to the panel frame, the underlay's aspect, at most 900 px, grey),
-OUT_DIR/prompts/<panel>.txt and OUT_DIR/ep01-rough.json.
+OUT_DIR/prompts/<panel>.txt and OUT_DIR/epNN-rough.json (only that episode's panels).
 """
 import hashlib, json, os, re, sys
 from PIL import Image, ImageFilter, ImageOps
 
 root, commit, out = sys.argv[1:4]
+EP = int(os.environ.get('EPISODE', '1'))
 GM = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../..'))
 briefs = json.load(open(f'{root}/briefs.json'))
 os.makedirs(f'{out}/panels', exist_ok=True); os.makedirs(f'{out}/prompts', exist_ok=True)
@@ -42,7 +43,7 @@ def occupancy_grid(grey, figures):
 panels = {}
 for pid, b in briefs.items():
     d = f'{root}/{pid}'
-    if not os.path.exists(f'{d}/raw.png'):
+    if not pid.startswith(f'e{EP:02d}-') or not os.path.exists(f'{d}/raw.png'):
         continue
     raw = Image.open(f'{d}/raw.png').convert('RGB')
     cw, ch = b['frame']['canvas']; ox, oy, pw, ph = b['frame']['panel']; W, H = b['frame']['underlay']
@@ -74,5 +75,8 @@ for pid, b in briefs.items():
         'figures': b['figures'],
         'occupancy': occupancy,
     }
-json.dump({'schemaVersion': 1, 'episode': 1, 'generatedAt': '2026-11-14', 'panels': panels}, open(f'{out}/ep01-rough.json', 'w'), ensure_ascii=False, indent=1)
+    # A panel drawn again before the author saw it (the first try did not follow the brief): keep why and the first raw.
+    if os.path.exists(f'{d}/try1/raw.png'):
+        panels[pid]['retake'] = {'reason': open(f'{d}/retake.txt').read().strip() if os.path.exists(f'{d}/retake.txt') else '', 'firstRawSha256': sha(f'{d}/try1/raw.png')}
+json.dump({'schemaVersion': 1, 'episode': EP, 'generatedAt': '2026-11-14', 'panels': panels}, open(f'{out}/ep{EP:02d}-rough.json', 'w'), ensure_ascii=False, indent=1)
 print(len(panels), 'panels')
