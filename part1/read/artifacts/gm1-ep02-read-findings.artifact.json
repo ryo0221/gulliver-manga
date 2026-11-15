@@ -7,7 +7,7 @@
   "source": "created"
  },
  "draft": {
-  "baseVersionId": "read-ep02-v2",
+  "baseVersionId": "read-ep02-v3",
   "updatedAt": "2026-11-15T00:00:00.000Z",
   "content": {
    "schemaVersion": 2,
@@ -156,8 +156,8 @@
       "rv.by": "AI",
       "rv.when": "2026-11-15 直した版の見直し",
       "rv.text": "線画だけを描き直した4コマは、前のラフと構図が合わず、ラフからトーンを取ると灰色のむらが出た。線画の線と斜線の濃さからトーンを取ったので、他のコマより明るく、人物の輪郭に薄いグレーの縁が出る。",
-      "rv.decision": "作者の判断待ち",
-      "rv.reason": "提案：このままでよい（読むのに差し支えない）。揃えるなら、4コマのラフを直した構図で描き直し（Codex で4枚）、ラフからトーンを取り直す。",
+      "rv.decision": "意図として残す",
+      "rv.reason": "作者の判断（2026-11-15「このままでよい」、提案どおり）：このまま。読むのに差し支えない。4コマのラフは描き直さない。",
       "rv.fixedIn": ""
      }
     },
@@ -191,7 +191,7 @@
  "versions": [
   {
    "artifactId": "gm1-ep02-read-findings",
-   "versionId": "read-ep02-v2",
+   "versionId": "read-ep02-v3",
    "parentVersionId": null,
    "schemaVersion": 1,
    "createdAt": "2026-11-15T00:00:00.000Z",
@@ -344,8 +344,8 @@
        "rv.by": "AI",
        "rv.when": "2026-11-15 直した版の見直し",
        "rv.text": "線画だけを描き直した4コマは、前のラフと構図が合わず、ラフからトーンを取ると灰色のむらが出た。線画の線と斜線の濃さからトーンを取ったので、他のコマより明るく、人物の輪郭に薄いグレーの縁が出る。",
-       "rv.decision": "作者の判断待ち",
-       "rv.reason": "提案：このままでよい（読むのに差し支えない）。揃えるなら、4コマのラフを直した構図で描き直し（Codex で4枚）、ラフからトーンを取り直す。",
+       "rv.decision": "意図として残す",
+       "rv.reason": "作者の判断（2026-11-15「このままでよい」、提案どおり）：このまま。読むのに差し支えない。4コマのラフは描き直さない。",
        "rv.fixedIn": ""
       }
      },
@@ -375,7 +375,7 @@
      }
     ]
    },
-   "contentHash": "3744dc96e6a341f189610fbfd3dec85700f1c4bb9063c9bec3e7f537c67259ba"
+   "contentHash": "4e7d00fc3d49ee5b0ec035254ac89eccffbacdb74cc55540291cb935d8bcd3b4"
   }
  ]
 }

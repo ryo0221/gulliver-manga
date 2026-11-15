@@ -94,8 +94,8 @@ export const FINDINGS_EP02: Finding[] = [
     by: 'AI',
     when: '2026-11-15 直した版の見直し',
     text: '線画だけを描き直した4コマは、前のラフと構図が合わず、ラフからトーンを取ると灰色のむらが出た。線画の線と斜線の濃さからトーンを取ったので、他のコマより明るく、人物の輪郭に薄いグレーの縁が出る。',
-    decision: WAIT,
-    reason: '提案：このままでよい（読むのに差し支えない）。揃えるなら、4コマのラフを直した構図で描き直し（Codex で4枚）、ラフからトーンを取り直す。',
+    decision: '意図として残す',
+    reason: '作者の判断（2026-11-15「このままでよい」、提案どおり）：このまま。読むのに差し支えない。4コマのラフは描き直さない。',
   },
   {
     id: 'RV-e02-07',
@@ -121,7 +121,7 @@ export const VERDICT_EP02 = {
   status: WAIT,
   decidedBy: '作者が決める',
   proposal:
-    'RV-e02-01〜06 と作者の指摘 RV-e02-09 を直した版（finish-ep02-v3）を、直したコマを中心に読み直した。完成とするかは作者の判断。',
+    'RV-e02-01〜06 と作者の指摘 RV-e02-09 を直した版（finish-ep02-v3）を、直したコマを中心に読み直した。RV-e02-10 は作者の判断でこのまま。指摘はすべて決まった。完成とするかは作者の判断。',
 };
 
 export const EP02_READ: ReadEpisode = {
@@ -134,7 +134,7 @@ export const EP02_READ: ReadEpisode = {
 };
 
 const stamp = '2026-11-15T00:00:00.000Z';
-const VERSION = 'read-ep02-v2';
+const VERSION = 'read-ep02-v3';
 async function native(kind: string, id: string, name: string, content: unknown) {
   const artifact: Artifact<unknown> = {
     schemaVersion: 1,
