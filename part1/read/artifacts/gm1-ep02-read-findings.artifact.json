@@ -7,7 +7,7 @@
   "source": "created"
  },
  "draft": {
-  "baseVersionId": "read-ep02-v3",
+  "baseVersionId": "read-ep02-v4",
   "updatedAt": "2026-11-15T00:00:00.000Z",
   "content": {
    "schemaVersion": 2,
@@ -191,7 +191,7 @@
  "versions": [
   {
    "artifactId": "gm1-ep02-read-findings",
-   "versionId": "read-ep02-v3",
+   "versionId": "read-ep02-v4",
    "parentVersionId": null,
    "schemaVersion": 1,
    "createdAt": "2026-11-15T00:00:00.000Z",

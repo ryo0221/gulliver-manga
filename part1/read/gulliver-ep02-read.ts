@@ -13,10 +13,11 @@ export const READ_VERSIONS_EP02 = [
   { artifact: 'gm1-ep02-lettering', version: 'finish-ep02-v3', what: '第2話 写植の記録' },
   { artifact: 'gm1-script-lines', version: 'script-v1', what: '第1部 脚本の行（台詞の全文の照合）' },
 ] as const;
+/** 直した版（finish-ep02-v3）を main に入れたコミット（PR #14 のマージ）。出版準備はこの版から作る。 */
+export const READ_COMMIT_EP02 = '2b451a9440e5e7fd60739d289aaf2d4cfe099704';
 /** はじめに通読した版（直す前）。 */
 export const FIRST_READ_EP02 = { finish: 'gm1-ep02-finish@finish-ep02-v1', commit: '2373f55c0e8249cd1ef21296bb1c45fa78c57c59' };
 
-const WAIT = '作者の判断待ち' as const;
 export const FINDINGS_EP02: Finding[] = [
   {
     id: 'RV-e02-01',
@@ -118,10 +119,10 @@ export const FINDINGS_EP02: Finding[] = [
 ];
 
 export const VERDICT_EP02 = {
-  status: WAIT,
-  decidedBy: '作者が決める',
+  status: '完成',
+  decidedBy: '作者（2026-11-16「2話は完成としてよい」）',
   proposal:
-    'RV-e02-01〜06 と作者の指摘 RV-e02-09 を直した版（finish-ep02-v3）を、直したコマを中心に読み直した。RV-e02-10 は作者の判断でこのまま。指摘はすべて決まった。完成とするかは作者の判断。',
+    'RV-e02-01〜06 と作者の指摘 RV-e02-09 を直した版（finish-ep02-v3）を、直したコマを中心に読み直した。RV-e02-10 は作者の判断でこのまま。指摘はすべて決まった。出版準備はこの版から作る。',
 };
 
 export const EP02_READ: ReadEpisode = {
@@ -134,7 +135,7 @@ export const EP02_READ: ReadEpisode = {
 };
 
 const stamp = '2026-11-15T00:00:00.000Z';
-const VERSION = 'read-ep02-v3';
+const VERSION = 'read-ep02-v4';
 async function native(kind: string, id: string, name: string, content: unknown) {
   const artifact: Artifact<unknown> = {
     schemaVersion: 1,

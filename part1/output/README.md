@@ -32,3 +32,23 @@ GM_FINISH=$GM/part1/finish GM_OUT=/tmp/out GM_OUTPUTS=/tmp/out/export npx vitest
 
 - 著者名は作者が決めました（ナナシ　アイ）。題・あらすじ・紹介文は AI の草案です。
 - 判型：原稿の枠 800×1180（1:1.475）は企画の「A4縦」（1:1.414）より縦長ですが、作者の判断でこのままにしました（2026-11-14）。
+
+# 第2話「綱渡りの宮廷」出版準備
+
+通読で完成とした（作者の判断 2026-11-16「2話は完成としてよい」）固定した版 `gm1-ep02-finish@finish-ep02-v3`（コミット 2b451a94）から、第1話と同じ手順で書き出しました。白黒です。
+
+| 資料 | 中身 |
+| --- | --- |
+| `artifacts/gm1-ep02-output` 第2話 出力の記録（Structured Data） | 出力物、書誌情報と紹介文（題は脚本、あらすじ・紹介文は AI の草案、著者名・原作は第1話と同じ）、AI の関わり（仕上げに画像の生成は使っていない） |
+| `ep02-outputs.json` | 書き出した各ファイルの大きさと sha256、もとにした版 |
+| PNG（ページごと） | 2400×3540 px 16枚と奥付1枚。プロジェクトのファイル `gulliver-manga/part1/output-ep02/png/` |
+| PDF（話ごと） | `gulliver-ep02.pdf`、漫画16ページ＋奥付、600×885 pt。プロジェクトのファイル `gulliver-manga/part1/output-ep02/` |
+
+第1話の `gulliver-ep01-output.ts` を話ごとに使えるようにしました（`OutputEpisode`、`buildEpisodeOutput`、`colophonHtml(ep)`）。第1話の出力の記録は変わりません。
+
+```sh
+cp part1/read/*.ts part1/output/*.ts $SB/; cp part1/output/src/export-ep.mjs gm-export-ep.tmp.mjs   # editor-platform で
+GM_FINISH=$GM/part1/finish GM_OUT=/tmp/out2 npx vitest run apps/artifact-host/src/creative/story-board/gulliver-ep02-output.build.test.ts
+node gm-export-ep.tmp.mjs /tmp/out2 /tmp/out2/export gulliver-ep02 3
+GM_FINISH=$GM/part1/finish GM_OUT=/tmp/out2 GM_OUTPUTS=/tmp/out2/export npx vitest run apps/artifact-host/src/creative/story-board/gulliver-ep02-output.build.test.ts
+```
