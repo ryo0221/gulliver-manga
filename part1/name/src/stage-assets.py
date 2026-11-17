@@ -12,8 +12,8 @@ from PIL import Image
 stage_dir, design_path, out = sys.argv[1:4]
 VFOV = 35.0  # the character view's PerspectiveCamera (fixed vertical field of view)
 EPISODE = int(sys.argv[4]) if len(sys.argv) > 4 else 1
-WHO = {'CH-01': 'ガリヴァー', 'CH-10': 'メアリー', 'CH-02': '皇帝', 'CH-03': '皇后', 'CH-04': 'フリムナップ', 'CH-06': 'ボルゴラム', 'CH-30': '小人', 'EX': '端役', 'horse': '馬'}
-SETS = {1: ['stable', 'port', 'sea', 'beach', 'temple'], 2: ['court', 'council', 'city']}[EPISODE]
+WHO = {'CH-01': 'ガリヴァー', 'CH-10': 'メアリー', 'CH-02': '皇帝', 'CH-03': '皇后', 'CH-04': 'フリムナップ', 'CH-05': 'レルドレサル', 'CH-06': 'ボルゴラム', 'CH-30': '小人', 'EX': '端役', 'horse': '馬'}
+SETS = {1: ['stable', 'port', 'sea', 'beach', 'temple'], 2: ['court', 'council', 'city'], 3: ['house', 'strait', 'coast', 'fleet']}[EPISODE]
 if os.environ.get('STAGE_SETS'): SETS = os.environ['STAGE_SETS'].split(',')  # a re-run of some sets only
 
 design = json.load(open(design_path))['draft']['content']
@@ -104,11 +104,17 @@ def plan_svg(set_rec, shot, hfov, crowd_pts):
         x, y = X(p['at'][0]), Y(p['at'][1])
         f = math.radians(p['facingDeg']) + math.pi / 2  # a figure faces +y at facing 0
         lying = p['pose'].startswith('lie')
-        col = '#b91c1c' if p['fig'] == 'gulliver' else '#111827'
+        col = '#b91c1c' if p['fig'] in ('gulliver', 'gj') else '#111827'
         if lying and p['fig'] == 'gulliver':
             # Lying on the back: head 700 mm toward −y of the body, feet 800 mm toward +y.
             hx, hy = p['at'][0] - 700 * math.cos(f), p['at'][1] - 700 * math.sin(f)
             fx, fy = p['at'][0] + 850 * math.cos(f), p['at'][1] + 850 * math.sin(f)
+            el.append(f'<line x1="{X(hx):.1f}" y1="{Y(hy):.1f}" x2="{X(fx):.1f}" y2="{Y(fy):.1f}" stroke="{col}" stroke-width="{max(2, 420 * k):.1f}" stroke-opacity="0.35" stroke-linecap="round"/>')
+            el.append(f'<circle cx="{X(hx):.1f}" cy="{Y(hy):.1f}" r="{max(2.5, 110 * k):.1f}" fill="{col}"/>')
+        elif p['pose'].startswith('prone') and p['fig'] in ('gulliver', 'gj'):
+            # Lying face down: the head about 0.7 m ahead (+y of the body), the feet 0.85 m behind; `at` is the hip.
+            hx, hy = p['at'][0] + 700 * math.cos(f), p['at'][1] + 700 * math.sin(f)
+            fx, fy = p['at'][0] - 850 * math.cos(f), p['at'][1] - 850 * math.sin(f)
             el.append(f'<line x1="{X(hx):.1f}" y1="{Y(hy):.1f}" x2="{X(fx):.1f}" y2="{Y(fy):.1f}" stroke="{col}" stroke-width="{max(2, 420 * k):.1f}" stroke-opacity="0.35" stroke-linecap="round"/>')
             el.append(f'<circle cx="{X(hx):.1f}" cy="{Y(hy):.1f}" r="{max(2.5, 110 * k):.1f}" fill="{col}"/>')
         else:
@@ -152,6 +158,8 @@ for sid in SETS:
     actors = {a['id']: a for a in st['actors']}
     crowd_pts = {c['id']: c['points'] for c in st['crowds']}
     cw, chh = st['canvas']['width'], st['canvas']['height']
+    # LN-e02-01 (from episode 3): the head and palms of Gulliver in each shot, as the stage computed them.
+    points = {q['panel']: q['figures'] for q in st.get('points') or []}
     for shot in st['shots']:
         pid = shot['panel']
         panel = panels[pid]
@@ -168,6 +176,8 @@ for sid in SETS:
         rec = {'panel': pid, 'set': sid, 'cam': shot['cam'], 'look': shot['look'], 'stand': shot.get('stand'),
                'hfovDeg': hfov, 'vfovDeg': vfov, 'figures': places, 'crowds': shot.get('crowds') or [],
                'noModel': shot.get('noModel'), 'vessels': shot.get('vessels') or {}}
+        if points.get(pid):
+            rec['points'] = points[pid]
         png = f'{stage_dir}/{sid}/{pid}.png'
         if not shot.get('noModel'):
             im = Image.open(png).convert('RGB')
