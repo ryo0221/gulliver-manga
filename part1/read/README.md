@@ -80,3 +80,26 @@ GM_OUT=/tmp/read npx vitest run apps/artifact-host/src/creative/story-board/gull
 `stage/ep02-stage.json` に入れた（`revised`）。舞台の罠：ポーズの `at` は足ではなく腰で、寝そべるガリヴァー（PRONE）の頭は窓の壁から 1.1 m 南にあった
 （16-1 だけ `PRONE_AT_WINDOW`）。ラフは `rough-briefs.py` の `REVISED_CAMERA`・`REVISED_NOTE`、線画は `ink-briefs.py` の `INK_NOTES` と `INK_ONLY`、
 仕上げは `finish-mono.py` の `FLAT_BG`・`INK_TONE`。
+
+# 第3話「卵の端」通読
+
+`gm1-ep03-read`（編集の記録）と `gm1-ep03-read-findings`（指摘の表）。読んだ版は `gm1-ep03-finish@finish-ep03-v1`（コミット 294641e2、PR #18 のマージ、白黒）。ページは `../finish/ep03/pages/`。指摘はすべて AI の提案で、判断は作者。
+
+| 指摘 | 対象 | 提案 |
+| --- | --- | --- |
+| RV-e03-01 話すレルドレサルの頭が枠の外 | 2-2 | 直す（舞台を撮り直し、ラフ・線画・仕上げ） |
+| RV-e03-02 同じく頭が枠の外 | 6-1 | 直す（同上） |
+| RV-e03-03 幼い王子が大人に見える | 4-4 | 直す（線画から） |
+| RV-e03-04 胸までのはずの海が脛ほど | 12-1 | 直す（線画から） |
+| RV-e03-05 綱の束の間がくさび形のむら | 12-1 | 直す（仕上げ） |
+| RV-e03-06 皇帝の立つ台が模様の無い灰色の板 | 16-1 16-2 | 直す（線画から） |
+| RV-e03-07 効果音の「ン」だけが折り返し | 10-2 | 直す（写植） |
+| RV-e03-08 11-1 だけ胴着がひも締め | 11-1 | 直す（線画から。このままでもよい） |
+| RV-e03-09 空のグレーのしみ | 15-1 16-3 | 直す（仕上げ） |
+| RV-e03-10 頭が枠の外 | 9-2 | 意図として残す（足としぶきの寄り） |
+| RV-e03-11 卵が大きい | 5-2 | 意図として残す（小人の目の高さの寄り） |
+
+```sh
+cp part1/read/*.ts part1/name/gulliver-ep0{1,2,3}-name.ts part1/script/gulliver-part1-script.ts $SB/
+GM_OUT=/tmp/read npx vitest run apps/artifact-host/src/creative/story-board/gulliver-ep03-read.build.test.ts
+```
