@@ -13,15 +13,15 @@
     {
      "name": "F106 古い神殿",
      "kind": "bim",
-     "artifactId": "artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d",
-     "versionId": "version_4955c459-bc2d-4509-9f33-628a15b2cb9e",
+     "artifactId": "artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521",
+     "versionId": "version_2749ad99-6d1d-44f7-a717-cd88cb946504",
      "contentHash": "d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384"
     },
     {
      "name": "舞台 house",
      "kind": "cad",
-     "artifactId": "artifact_d5005983-49f0-413d-bc75-560c55f2abfd",
-     "versionId": "version_108803b2-dc11-407e-bb5a-856d24d30eb5",
+     "artifactId": "artifact_34162bfd-b738-447a-b840-48664e7da7a9",
+     "versionId": "version_72cf9691-db9b-495f-87a1-fa6656bce0c8",
      "contentHash": "7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f"
     }
    ],
@@ -55,6 +55,717 @@
      "count": 18
     }
    ]
+  },
+  "past": {
+   "name": "回想：昔の宮廷の朝食の間、法を読み上げる広場、海辺の反乱（創作）",
+   "scenes": [
+    "SC-009"
+   ],
+   "reason": "再現（GV1〜GV7）に昔の場面の 3D は無い。本文（卵を割って指を切った皇子、小さい端から割る法、6度の反乱とブレフスキュへ逃げた者）から、創作の小さな舞台を置いた仮の3D。",
+   "props": [
+    {
+     "name": "舞台 past",
+     "kind": "cad",
+     "artifactId": "artifact_773026e4-d01a-4d7c-8ff7-a67f53fb496b",
+     "versionId": "version_620548e3-4d34-4794-b414-fbe221ef5cda",
+     "contentHash": "636b3e0f0cb4b4acc72b4cb90834c5fb217dfc15b5b4db483960465b0d159876"
+    }
+   ],
+   "canvas": {
+    "width": 1440,
+    "height": 745,
+    "verticalFovDeg": 35
+   },
+   "cad": [
+    {
+     "id": "floor",
+     "name": "朝食の間の床",
+     "at": [
+      -400,
+      -200,
+      -10
+     ],
+     "size": [
+      800,
+      900,
+      10
+     ]
+    },
+    {
+     "id": "wall",
+     "name": "朝食の間の奥の壁",
+     "at": [
+      -400,
+      620,
+      0
+     ],
+     "size": [
+      800,
+      20,
+      260
+     ]
+    },
+    {
+     "id": "wall-l",
+     "name": "朝食の間の左の壁",
+     "at": [
+      -420,
+      -200,
+      0
+     ],
+     "size": [
+      20,
+      840,
+      260
+     ]
+    },
+    {
+     "id": "wall-r",
+     "name": "朝食の間の右の壁",
+     "at": [
+      400,
+      -200,
+      0
+     ],
+     "size": [
+      20,
+      840,
+      260
+     ]
+    },
+    {
+     "id": "window",
+     "name": "奥の壁の窓",
+     "at": [
+      100,
+      615,
+      90
+     ],
+     "size": [
+      80,
+      6,
+      110
+     ]
+    },
+    {
+     "id": "table-top",
+     "name": "朝食の卓（天板）",
+     "at": [
+      -110,
+      240,
+      60
+     ],
+     "size": [
+      220,
+      120,
+      6
+     ]
+    },
+    {
+     "id": "table-leg",
+     "name": "朝食の卓（脚）",
+     "at": [
+      -20,
+      280,
+      0
+     ],
+     "size": [
+      40,
+      40,
+      60
+     ]
+    },
+    {
+     "id": "cloth",
+     "name": "卓の白い布",
+     "at": [
+      -60,
+      270,
+      66
+     ],
+     "size": [
+      120,
+      60,
+      0.4
+     ]
+    },
+    {
+     "id": "egg-big-1",
+     "name": "卵（大きい端を割った）下",
+     "at": [
+      -14,
+      300,
+      66
+     ],
+     "size": [
+      4,
+      4,
+      2.2
+     ],
+     "cylinder": {
+      "r": 1.9,
+      "h": 2.2,
+      "up": true
+     }
+    },
+    {
+     "id": "egg-big-2",
+     "name": "卵（大きい端を割った）上",
+     "at": [
+      -14,
+      300,
+      68.2
+     ],
+     "size": [
+      5,
+      5,
+      1.6
+     ],
+     "cylinder": {
+      "r": 2.4,
+      "h": 1.6,
+      "up": true
+     }
+    },
+    {
+     "id": "egg-small-1",
+     "name": "卵（小さい端を割った）下",
+     "at": [
+      14,
+      300,
+      66
+     ],
+     "size": [
+      5,
+      5,
+      2.4
+     ],
+     "cylinder": {
+      "r": 2.4,
+      "h": 2.4,
+      "up": true
+     }
+    },
+    {
+     "id": "egg-small-2",
+     "name": "卵（小さい端を割った）上",
+     "at": [
+      14,
+      300,
+      68.4
+     ],
+     "size": [
+      4,
+      4,
+      1.2
+     ],
+     "cylinder": {
+      "r": 1.8,
+      "h": 1.2,
+      "up": true
+     }
+    },
+    {
+     "id": "egg-yolk",
+     "name": "卵の黄身",
+     "at": [
+      -14,
+      300,
+      69.7
+     ],
+     "size": [
+      3,
+      3,
+      0.3
+     ],
+     "cylinder": {
+      "r": 1.6,
+      "h": 0.3,
+      "up": true
+     }
+    },
+    {
+     "id": "egg-cap",
+     "name": "割れた殻",
+     "at": [
+      -6,
+      296,
+      66
+     ],
+     "size": [
+      3,
+      3,
+      1
+     ],
+     "cylinder": {
+      "r": 1.5,
+      "h": 1,
+      "up": true
+     }
+    },
+    {
+     "id": "chair",
+     "name": "幼い皇子の椅子",
+     "at": [
+      -170,
+      170,
+      0
+     ],
+     "size": [
+      50,
+      50,
+      32
+     ]
+    },
+    {
+     "id": "square",
+     "name": "法を読み上げる広場",
+     "at": [
+      2200,
+      -900,
+      -10
+     ],
+     "size": [
+      1600,
+      1600,
+      10
+     ]
+    },
+    {
+     "id": "palace",
+     "name": "王宮の正面",
+     "at": [
+      2200,
+      520,
+      0
+     ],
+     "size": [
+      1600,
+      200,
+      520
+     ]
+    },
+    {
+     "id": "palace-door",
+     "name": "王宮の扉",
+     "at": [
+      2930,
+      515,
+      0
+     ],
+     "size": [
+      140,
+      6,
+      230
+     ]
+    },
+    {
+     "id": "steps",
+     "name": "王宮の前の段",
+     "at": [
+      2850,
+      380,
+      0
+     ],
+     "size": [
+      300,
+      140,
+      60
+     ]
+    },
+    {
+     "id": "board-post",
+     "name": "高札の柱",
+     "at": [
+      3290,
+      140,
+      0
+     ],
+     "size": [
+      8,
+      8,
+      210
+     ]
+    },
+    {
+     "id": "board",
+     "name": "高札",
+     "at": [
+      3230,
+      136,
+      120
+     ],
+     "size": [
+      130,
+      4,
+      80
+     ]
+    },
+    {
+     "id": "rebel-ground",
+     "name": "反乱の広場",
+     "at": [
+      -3800,
+      -1000,
+      -10
+     ],
+     "size": [
+      1600,
+      1400,
+      10
+     ]
+    },
+    {
+     "id": "rebel-beach",
+     "name": "海辺の浜",
+     "at": [
+      -3800,
+      400,
+      -8
+     ],
+     "size": [
+      1600,
+      300,
+      8
+     ]
+    },
+    {
+     "id": "rebel-sea",
+     "name": "海",
+     "at": [
+      -3800,
+      700,
+      -12
+     ],
+     "size": [
+      1600,
+      1300,
+      4
+     ]
+    },
+    {
+     "id": "house-a",
+     "name": "燃える家",
+     "at": [
+      -3700,
+      -300,
+      0
+     ],
+     "size": [
+      260,
+      220,
+      220
+     ]
+    },
+    {
+     "id": "fire-a",
+     "name": "炎",
+     "at": [
+      -3680,
+      -280,
+      220
+     ],
+     "size": [
+      200,
+      160,
+      120
+     ]
+    },
+    {
+     "id": "house-b",
+     "name": "燃える家（浜の近く）",
+     "at": [
+      -2620,
+      60,
+      0
+     ],
+     "size": [
+      220,
+      200,
+      200
+     ]
+    },
+    {
+     "id": "fire-b",
+     "name": "炎",
+     "at": [
+      -2600,
+      80,
+      200
+     ],
+     "size": [
+      180,
+      160,
+      110
+     ]
+    },
+    {
+     "id": "boat-1",
+     "name": "逃げる小舟1",
+     "at": [
+      -3150,
+      900,
+      -8
+     ],
+     "size": [
+      70,
+      200,
+      22
+     ]
+    },
+    {
+     "id": "boat-2",
+     "name": "逃げる小舟2",
+     "at": [
+      -2850,
+      1250,
+      -8
+     ],
+     "size": [
+      70,
+      200,
+      22
+     ]
+    },
+    {
+     "id": "boat-3",
+     "name": "逃げる小舟3",
+     "at": [
+      -3350,
+      1500,
+      -8
+     ],
+     "size": [
+      70,
+      200,
+      22
+     ]
+    },
+    {
+     "id": "boat-folk",
+     "name": "小舟の人々",
+     "at": [
+      -3140,
+      960,
+      14
+     ],
+     "size": [
+      50,
+      80,
+      60
+     ]
+    },
+    {
+     "id": "tower",
+     "name": "広場を見下ろす塔",
+     "at": [
+      -3080,
+      -1000,
+      0
+     ],
+     "size": [
+      160,
+      160,
+      364
+     ]
+    }
+   ],
+   "bim": null,
+   "vessels": [],
+   "crowds": [
+    {
+     "id": "folk",
+     "name": "法を見上げる民（創作の人数）",
+     "count": 24
+    },
+    {
+     "id": "rebels",
+     "name": "反乱の民（創作の人数）",
+     "count": 30
+    }
+   ]
+  },
+  "eggs": {
+   "name": "回想：卓の上の割られた二つの卵（創作）",
+   "scenes": [
+    "SC-009"
+   ],
+   "reason": "卵の寄り。朝食の卓（past と同じ寸法）と二つの卵だけの舞台（小さな物の寄りは、舞台が小さいほど手前で切れない）。",
+   "props": [
+    {
+     "name": "舞台 eggs",
+     "kind": "cad",
+     "artifactId": "artifact_207d35aa-877c-45ab-92f0-a2df8189ad33",
+     "versionId": "version_3ac019b9-e674-41a0-b7c3-8ab1ffd03357",
+     "contentHash": "55d65562431c65d64a23c52b476915647b2c2db09c6f24e6335bba7f72a29c0c"
+    }
+   ],
+   "canvas": {
+    "width": 1440,
+    "height": 1020,
+    "verticalFovDeg": 35
+   },
+   "cad": [
+    {
+     "id": "table-top",
+     "name": "朝食の卓（天板）",
+     "at": [
+      -110,
+      240,
+      60
+     ],
+     "size": [
+      220,
+      120,
+      6
+     ]
+    },
+    {
+     "id": "table-leg",
+     "name": "朝食の卓（脚）",
+     "at": [
+      -20,
+      280,
+      0
+     ],
+     "size": [
+      40,
+      40,
+      60
+     ]
+    },
+    {
+     "id": "cloth",
+     "name": "卓の白い布",
+     "at": [
+      -60,
+      270,
+      66
+     ],
+     "size": [
+      120,
+      60,
+      0.4
+     ]
+    },
+    {
+     "id": "egg-big-1",
+     "name": "卵（大きい端を割った）下",
+     "at": [
+      -14,
+      300,
+      66
+     ],
+     "size": [
+      4,
+      4,
+      2.2
+     ],
+     "cylinder": {
+      "r": 1.9,
+      "h": 2.2,
+      "up": true
+     }
+    },
+    {
+     "id": "egg-big-2",
+     "name": "卵（大きい端を割った）上",
+     "at": [
+      -14,
+      300,
+      68.2
+     ],
+     "size": [
+      5,
+      5,
+      1.6
+     ],
+     "cylinder": {
+      "r": 2.4,
+      "h": 1.6,
+      "up": true
+     }
+    },
+    {
+     "id": "egg-small-1",
+     "name": "卵（小さい端を割った）下",
+     "at": [
+      14,
+      300,
+      66
+     ],
+     "size": [
+      5,
+      5,
+      2.4
+     ],
+     "cylinder": {
+      "r": 2.4,
+      "h": 2.4,
+      "up": true
+     }
+    },
+    {
+     "id": "egg-small-2",
+     "name": "卵（小さい端を割った）上",
+     "at": [
+      14,
+      300,
+      68.4
+     ],
+     "size": [
+      4,
+      4,
+      1.2
+     ],
+     "cylinder": {
+      "r": 1.8,
+      "h": 1.2,
+      "up": true
+     }
+    },
+    {
+     "id": "egg-yolk",
+     "name": "卵の黄身",
+     "at": [
+      -14,
+      300,
+      69.7
+     ],
+     "size": [
+      3,
+      3,
+      0.3
+     ],
+     "cylinder": {
+      "r": 1.6,
+      "h": 0.3,
+      "up": true
+     }
+    },
+    {
+     "id": "egg-cap",
+     "name": "割れた殻",
+     "at": [
+      -6,
+      296,
+      66
+     ],
+     "size": [
+      3,
+      3,
+      1
+     ],
+     "cylinder": {
+      "r": 1.5,
+      "h": 1,
+      "up": true
+     }
+    }
+   ],
+   "bim": null,
+   "vessels": [],
+   "crowds": []
   },
   "strait": {
    "name": "北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港",
@@ -1494,14 +2205,14 @@
    "panel": "e03-p04-k2",
    "set": "house",
    "cam": [
-    330,
-    2080,
+    440,
+    2200,
     170
    ],
    "look": [
-    212,
+    262,
     1872,
-    140
+    170
    ],
    "stand": null,
    "hfovDeg": 34.6,
@@ -1646,90 +2357,199 @@
   },
   {
    "panel": "e03-p04-k4",
-   "set": "house",
+   "set": "past",
    "cam": [
-    0,
-    0,
+    -200,
+    120,
     120
    ],
    "look": [
-    0,
-    1,
-    0
+    20,
+    300,
+    75
    ],
    "stand": null,
    "hfovDeg": 62.7,
    "vfovDeg": 29.6,
-   "figures": [],
+   "figures": [
+    {
+     "fg": "FG-e03-p04-k4-01",
+     "ch": "EX",
+     "name": "幼い皇子（今の皇帝の祖父）",
+     "fig": "boy",
+     "at": [
+      -25,
+      215,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "read",
+     "heightMm": 95
+    },
+    {
+     "fg": "FG-e03-p04-k4-02",
+     "ch": "EX",
+     "name": "給仕",
+     "fig": "nurse",
+     "at": [
+      -200,
+      380,
+      0
+     ],
+     "facingDeg": -34.4,
+     "pose": "hands-together",
+     "heightMm": 146
+    }
+   ],
    "crowds": [],
-   "noModel": "回想（昔の宮廷と国の中）。再現（GV1〜GV7）に昔の場面の 3D は無く、本文と人物表で描く。",
+   "noModel": null,
    "vessels": {},
+   "underlay": "underlay/e03-p04-k4.jpg",
    "plan": "plans/e03-p04-k4.svg"
   },
   {
    "panel": "e03-p05-k1",
-   "set": "house",
+   "set": "past",
    "cam": [
-    0,
-    0,
+    3000,
+    -820,
     136
    ],
    "look": [
-    0,
-    1,
-    0
+    3000,
+    400,
+    170
    ],
    "stand": null,
    "hfovDeg": 56.9,
    "vfovDeg": 35.0,
-   "figures": [],
-   "crowds": [],
-   "noModel": "回想（昔の宮廷と国の中）。再現（GV1〜GV7）に昔の場面の 3D は無く、本文と人物表で描く。",
+   "figures": [
+    {
+     "fg": "FG-e03-p05-k1-01",
+     "ch": "EX",
+     "name": "昔の皇帝（皇子の父）",
+     "fig": "oldemp",
+     "at": [
+      3000,
+      450,
+      60
+     ],
+     "facingDeg": 180.0,
+     "pose": "orate",
+     "heightMm": 158
+    },
+    {
+     "fg": "FG-e03-p05-k1-02",
+     "ch": "EX",
+     "name": "布告役",
+     "fig": "herald",
+     "at": [
+      3180,
+      330,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "read",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [
+    "folk"
+   ],
+   "noModel": null,
    "vessels": {},
+   "underlay": "underlay/e03-p05-k1.jpg",
    "plan": "plans/e03-p05-k1.svg"
   },
   {
    "panel": "e03-p05-k2",
-   "set": "house",
+   "set": "eggs",
    "cam": [
     0,
-    0,
-    40
+    248,
+    70
    ],
    "look": [
     0,
-    1,
-    0
+    300,
+    66
    ],
    "stand": null,
-   "hfovDeg": 62.7,
-   "vfovDeg": 28.9,
+   "hfovDeg": 48.0,
+   "vfovDeg": 21.3,
    "figures": [],
    "crowds": [],
-   "noModel": "卵の寄り（大きい端と小さい端）。3D の舞台は使わない。",
+   "noModel": null,
    "vessels": {},
+   "underlay": "underlay/e03-p05-k2.jpg",
    "plan": "plans/e03-p05-k2.svg"
   },
   {
    "panel": "e03-p05-k3",
-   "set": "house",
+   "set": "past",
    "cam": [
-    0,
-    0,
+    -3000,
+    -920,
     500
    ],
    "look": [
-    0,
-    1,
-    0
+    -3050,
+    500,
+    40
    ],
-   "stand": null,
+   "stand": "tower",
    "hfovDeg": 62.7,
    "vfovDeg": 29.6,
-   "figures": [],
-   "crowds": [],
-   "noModel": "回想（昔の宮廷と国の中）。再現（GV1〜GV7）に昔の場面の 3D は無く、本文と人物表で描く。",
+   "figures": [
+    {
+     "fg": "FG-e03-p05-k3-01",
+     "ch": "EX",
+     "name": "剣を掲げる反乱の民1",
+     "fig": "r1",
+     "at": [
+      -3050,
+      -150,
+      0
+     ],
+     "facingDeg": 90.0,
+     "pose": "sword-up",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e03-p05-k3-02",
+     "ch": "EX",
+     "name": "剣を掲げる反乱の民2",
+     "fig": "r2",
+     "at": [
+      -2900,
+      -250,
+      0
+     ],
+     "facingDeg": 90.0,
+     "pose": "sword-up",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e03-p05-k3-03",
+     "ch": "EX",
+     "name": "反乱の民3",
+     "fig": "r3",
+     "at": [
+      -3150,
+      -300,
+      0
+     ],
+     "facingDeg": 90.0,
+     "pose": "point",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [
+    "rebels"
+   ],
+   "noModel": null,
    "vessels": {},
+   "underlay": "underlay/e03-p05-k3.jpg",
    "plan": "plans/e03-p05-k3.svg"
   },
   {

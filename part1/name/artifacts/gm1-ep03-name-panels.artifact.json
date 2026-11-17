@@ -167,7 +167,7 @@
       "st.fov": "横 34.1° × 縦 35°",
       "st.figures": "FG-e03-p01-k1-01 CH-01 ガリヴァー (0, 900, 0) 向き 0° prone-palm / FG-e03-p01-k1-02 CH-05 レルドレサル (212, 1872, 68) 向き 180° orate",
       "st.crowds": "",
-      "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
+      "st.models": "F106 古い神殿（bim artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
       "st.underlay": "underlay/e03-p01-k1.jpg",
       "st.plan": "plans/e03-p01-k1.svg"
      }
@@ -194,7 +194,7 @@
       "st.fov": "横 62.7° × 縦 29.6°",
       "st.figures": "FG-e03-p01-k2-01 CH-01 ガリヴァー (0, 900, 0) 向き 0° prone-palm / FG-e03-p01-k2-02 CH-05 レルドレサル (480, 2150, 0) 向き 202.9° walk / FG-e03-p01-k2-03 CH-30 レルドレサルの従者 (640, 2300, 0) 向き 202.9° walk",
       "st.crowds": "",
-      "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
+      "st.models": "F106 古い神殿（bim artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
       "st.underlay": "underlay/e03-p01-k2.jpg",
       "st.plan": "plans/e03-p01-k2.svg"
      }
@@ -221,7 +221,7 @@
       "st.fov": "横 56.9° × 縦 35°",
       "st.figures": "FG-e03-p02-k1-01 CH-01 ガリヴァー (0, 900, 0) 向き 0° prone-palm / FG-e03-p02-k1-02 CH-05 レルドレサル (212, 1872, 68) 向き 180° orate / FG-e03-p02-k1-03 CH-30 レルドレサルの従者 (560, 2050, 0) 向き 180° stand",
       "st.crowds": "",
-      "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
+      "st.models": "F106 古い神殿（bim artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
       "st.underlay": "underlay/e03-p02-k1.jpg",
       "st.plan": "plans/e03-p02-k1.svg"
      }
@@ -248,7 +248,7 @@
       "st.fov": "横 62.7° × 縦 28.9°",
       "st.figures": "FG-e03-p02-k2-01 CH-01 ガリヴァー (0, 900, 0) 向き 0° prone-palm / FG-e03-p02-k2-02 CH-05 レルドレサル (212, 1872, 68) 向き 197.2° point",
       "st.crowds": "",
-      "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
+      "st.models": "F106 古い神殿（bim artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
       "st.underlay": "underlay/e03-p02-k2.jpg",
       "st.plan": "plans/e03-p02-k2.svg"
      }
@@ -275,7 +275,7 @@
       "st.fov": "横 62.7° × 縦 29.6°",
       "st.figures": "FG-e03-p02-k3-01 CH-30 かかとの高い廷臣1 (3020, 3000, 0) 向き -90° glare / FG-e03-p02-k3-02 CH-30 かかとの高い廷臣2 (2960, 3080, 0) 向き -90° arms-crossed / FG-e03-p02-k3-03 CH-30 かかとの低い廷臣1 (3380, 3000, 0) 向き 90° glare / FG-e03-p02-k3-04 CH-30 かかとの低い廷臣2 (3440, 2930, 0) 向き 90° arms-crossed",
       "st.crowds": "",
-      "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
+      "st.models": "F106 古い神殿（bim artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
       "st.underlay": "underlay/e03-p02-k3.jpg",
       "st.plan": "plans/e03-p02-k3.svg"
      }
@@ -302,7 +302,7 @@
       "st.fov": "横 56.9° × 縦 35°",
       "st.figures": "FG-e03-p03-k1-01 CH-01 ガリヴァー (0, 900, 0) 向き 0° prone-palm / FG-e03-p03-k1-02 CH-05 レルドレサル (212, 1872, 68) 向き 180° orate",
       "st.crowds": "",
-      "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
+      "st.models": "F106 古い神殿（bim artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
       "st.underlay": "underlay/e03-p03-k1.jpg",
       "st.plan": "plans/e03-p03-k1.svg"
      }
@@ -329,7 +329,7 @@
       "st.fov": "横 62.7° × 縦 28.9°",
       "st.figures": "FG-e03-p03-k2-01 CH-30 皇太子 (2500, 2850, 0) 向き 107.2° limp",
       "st.crowds": "皇太子の後ろの廷臣（創作の人数）（18）",
-      "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
+      "st.models": "F106 古い神殿（bim artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
       "st.underlay": "underlay/e03-p03-k2.jpg",
       "st.plan": "plans/e03-p03-k2.svg"
      }
@@ -356,7 +356,7 @@
       "st.fov": "横 62.7° × 縦 29.6°",
       "st.figures": "FG-e03-p03-k3-01 CH-01 ガリヴァー (0, 900, 0) 向き 0° prone-palm",
       "st.crowds": "",
-      "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
+      "st.models": "F106 古い神殿（bim artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
       "st.underlay": "underlay/e03-p03-k3.jpg",
       "st.plan": "plans/e03-p03-k3.svg"
      }
@@ -383,7 +383,7 @@
       "st.fov": "横 56.9° × 縦 35°",
       "st.figures": "FG-e03-p04-k1-01 CH-01 ガリヴァー (0, 900, 0) 向き 0° prone-palm / FG-e03-p04-k1-02 CH-05 レルドレサル (212, 1872, 68) 向き 208.6° orate",
       "st.crowds": "",
-      "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
+      "st.models": "F106 古い神殿（bim artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
       "st.underlay": "underlay/e03-p04-k1.jpg",
       "st.plan": "plans/e03-p04-k1.svg"
      }
@@ -405,12 +405,12 @@
       "nm.text": "台詞（レルドレサル）：始まりは卵です。",
       "nm.turn": "",
       "st.set": "house：ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話",
-      "st.cam": "(330, 2080, 170)",
-      "st.look": "(212, 1872, 140)",
+      "st.cam": "(440, 2200, 170)",
+      "st.look": "(262, 1872, 170)",
       "st.fov": "横 34.6° × 縦 35°",
       "st.figures": "FG-e03-p04-k2-01 CH-01 ガリヴァー (0, 900, 0) 向き 0° prone-palm / FG-e03-p04-k2-02 CH-05 レルドレサル (212, 1872, 68) 向き 180° point",
       "st.crowds": "",
-      "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
+      "st.models": "F106 古い神殿（bim artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
       "st.underlay": "underlay/e03-p04-k2.jpg",
       "st.plan": "plans/e03-p04-k2.svg"
      }
@@ -437,7 +437,7 @@
       "st.fov": "横 45.4° × 縦 35°",
       "st.figures": "FG-e03-p04-k3-01 CH-01 ガリヴァー (0, 900, 0) 向き 0° prone-palm / FG-e03-p04-k3-02 CH-05 レルドレサル (212, 1872, 68) 向き 180° orate",
       "st.crowds": "",
-      "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
+      "st.models": "F106 古い神殿（bim artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
       "st.underlay": "underlay/e03-p04-k3.jpg",
       "st.plan": "plans/e03-p04-k3.svg"
      }
@@ -458,14 +458,14 @@
       "nm.lines": "SC-009.L12",
       "nm.text": "台詞（レルドレサル）：昔はみな、卵を大きい端から割っていました。ところが今の陛下の祖父君が子どものころ、それで指を切った。",
       "nm.turn": "",
-      "st.set": "house：ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話",
-      "st.cam": "(0, 0, 120)",
-      "st.look": "(0, 1, 0)",
+      "st.set": "past：回想：昔の宮廷の朝食の間、法を読み上げる広場、海辺の反乱（創作）",
+      "st.cam": "(-200, 120, 120)",
+      "st.look": "(20, 300, 75)",
       "st.fov": "横 62.7° × 縦 29.6°",
-      "st.figures": "",
+      "st.figures": "FG-e03-p04-k4-01 EX 幼い皇子（今の皇帝の祖父） (-25, 215, 0) 向き 0° read / FG-e03-p04-k4-02 EX 給仕 (-200, 380, 0) 向き -34.4° hands-together",
       "st.crowds": "",
-      "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
-      "st.underlay": "無し：回想（昔の宮廷と国の中）。再現（GV1〜GV7）に昔の場面の 3D は無く、本文と人物表で描く。",
+      "st.models": "舞台 past（cad artifact_773026e4-d01a-4d7c-8ff7-a67f53fb496b@version_620548e3-4d34-4794-b414-fbe221ef5cda 636b3e0f0cb4b4acc72b4cb90834c5fb217dfc15b5b4db483960465b0d159876）",
+      "st.underlay": "underlay/e03-p04-k4.jpg",
       "st.plan": "plans/e03-p04-k4.svg"
      }
     },
@@ -485,14 +485,14 @@
       "nm.lines": "SC-009.L13",
       "nm.text": "台詞（レルドレサル）：そこで御父君は、小さい端から割れという法を出されたのです。",
       "nm.turn": "",
-      "st.set": "house：ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話",
-      "st.cam": "(0, 0, 136)",
-      "st.look": "(0, 1, 0)",
+      "st.set": "past：回想：昔の宮廷の朝食の間、法を読み上げる広場、海辺の反乱（創作）",
+      "st.cam": "(3000, -820, 136)",
+      "st.look": "(3000, 400, 170)",
       "st.fov": "横 56.9° × 縦 35°",
-      "st.figures": "",
-      "st.crowds": "",
-      "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
-      "st.underlay": "無し：回想（昔の宮廷と国の中）。再現（GV1〜GV7）に昔の場面の 3D は無く、本文と人物表で描く。",
+      "st.figures": "FG-e03-p05-k1-01 EX 昔の皇帝（皇子の父） (3000, 450, 60) 向き 180° orate / FG-e03-p05-k1-02 EX 布告役 (3180, 330, 0) 向き 180° read",
+      "st.crowds": "法を見上げる民（創作の人数）（24）",
+      "st.models": "舞台 past（cad artifact_773026e4-d01a-4d7c-8ff7-a67f53fb496b@version_620548e3-4d34-4794-b414-fbe221ef5cda 636b3e0f0cb4b4acc72b4cb90834c5fb217dfc15b5b4db483960465b0d159876）",
+      "st.underlay": "underlay/e03-p05-k1.jpg",
       "st.plan": "plans/e03-p05-k1.svg"
      }
     },
@@ -504,22 +504,22 @@
       "nm.scene": "SC-009",
       "nm.shot": "寄り",
       "nm.eye": "小人の目の高さ",
-      "nm.mm": 40,
+      "nm.mm": 70,
       "nm.stand": "",
       "nm.look": "卓の上の卵の高さから",
       "nm.size": false,
-      "nm.art": "割られた二つの卵。大きい端と小さい端。（小人の卵は小人の手ほど）",
+      "nm.art": "割られた二つの卵。大きい端と小さい端。（小人の卵は長さ約5 mm、小人の手の3分の1ほど）",
       "nm.lines": "SC-009.L14",
       "nm.text": "",
       "nm.turn": "",
-      "st.set": "house：ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話",
-      "st.cam": "(0, 0, 40)",
-      "st.look": "(0, 1, 0)",
-      "st.fov": "横 62.7° × 縦 28.9°",
+      "st.set": "eggs：回想：卓の上の割られた二つの卵（創作）",
+      "st.cam": "(0, 248, 70)",
+      "st.look": "(0, 300, 66)",
+      "st.fov": "横 48° × 縦 21.3°",
       "st.figures": "",
       "st.crowds": "",
-      "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
-      "st.underlay": "無し：卵の寄り（大きい端と小さい端）。3D の舞台は使わない。",
+      "st.models": "舞台 eggs（cad artifact_207d35aa-877c-45ab-92f0-a2df8189ad33@version_3ac019b9-e674-41a0-b7c3-8ab1ffd03357 55d65562431c65d64a23c52b476915647b2c2db09c6f24e6335bba7f72a29c0c）",
+      "st.underlay": "underlay/e03-p05-k2.jpg",
       "st.plan": "plans/e03-p05-k2.svg"
      }
     },
@@ -539,14 +539,14 @@
       "nm.lines": "SC-009.L15",
       "nm.text": "台詞（レルドレサル）：民はこれを嫌い、反乱は六度。死を選んだ者は一万一千人。大端派の書物は禁じられ、逃げた者はブレフスキュがかくまっております。",
       "nm.turn": "",
-      "st.set": "house：ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話",
-      "st.cam": "(0, 0, 500)",
-      "st.look": "(0, 1, 0)",
+      "st.set": "past：回想：昔の宮廷の朝食の間、法を読み上げる広場、海辺の反乱（創作）",
+      "st.cam": "(-3000, -920, 500)（tower の上）",
+      "st.look": "(-3050, 500, 40)",
       "st.fov": "横 62.7° × 縦 29.6°",
-      "st.figures": "",
-      "st.crowds": "",
-      "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
-      "st.underlay": "無し：回想（昔の宮廷と国の中）。再現（GV1〜GV7）に昔の場面の 3D は無く、本文と人物表で描く。",
+      "st.figures": "FG-e03-p05-k3-01 EX 剣を掲げる反乱の民1 (-3050, -150, 0) 向き 90° sword-up / FG-e03-p05-k3-02 EX 剣を掲げる反乱の民2 (-2900, -250, 0) 向き 90° sword-up / FG-e03-p05-k3-03 EX 反乱の民3 (-3150, -300, 0) 向き 90° point",
+      "st.crowds": "反乱の民（創作の人数）（30）",
+      "st.models": "舞台 past（cad artifact_773026e4-d01a-4d7c-8ff7-a67f53fb496b@version_620548e3-4d34-4794-b414-fbe221ef5cda 636b3e0f0cb4b4acc72b4cb90834c5fb217dfc15b5b4db483960465b0d159876）",
+      "st.underlay": "underlay/e03-p05-k3.jpg",
       "st.plan": "plans/e03-p05-k3.svg"
      }
     },
@@ -572,7 +572,7 @@
       "st.fov": "横 62.7° × 縦 29.6°",
       "st.figures": "FG-e03-p06-k1-01 CH-01 ガリヴァー (0, 900, 0) 向き 0° prone-palm / FG-e03-p06-k1-02 CH-05 レルドレサル (212, 1872, 68) 向き 180° stand",
       "st.crowds": "",
-      "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
+      "st.models": "F106 古い神殿（bim artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
       "st.underlay": "underlay/e03-p06-k1.jpg",
       "st.plan": "plans/e03-p06-k1.svg"
      }
@@ -599,7 +599,7 @@
       "st.fov": "横 44.2° × 縦 35°",
       "st.figures": "FG-e03-p06-k2-01 CH-01 ガリヴァー (0, 900, 0) 向き 0° prone-palm / FG-e03-p06-k2-02 CH-05 レルドレサル (212, 1872, 68) 向き 180° stand",
       "st.crowds": "",
-      "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
+      "st.models": "F106 古い神殿（bim artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
       "st.underlay": "underlay/e03-p06-k2.jpg",
       "st.plan": "plans/e03-p06-k2.svg"
      }
@@ -626,7 +626,7 @@
       "st.fov": "横 35.8° × 縦 35°",
       "st.figures": "FG-e03-p06-k3-01 CH-01 ガリヴァー (0, 900, 0) 向き 0° prone-palm / FG-e03-p06-k3-02 CH-05 レルドレサル (212, 1872, 68) 向き 145.6° bow",
       "st.crowds": "",
-      "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
+      "st.models": "F106 古い神殿（bim artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
       "st.underlay": "underlay/e03-p06-k3.jpg",
       "st.plan": "plans/e03-p06-k3.svg"
      }
@@ -653,7 +653,7 @@
       "st.fov": "横 56.9° × 縦 35°",
       "st.figures": "FG-e03-p06-k4-01 CH-01 ガリヴァー (0, 900, 0) 向き 0° prone-palm / FG-e03-p06-k4-02 CH-05 レルドレサル (212, 1872, 68) 向き 180° stand",
       "st.crowds": "",
-      "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
+      "st.models": "F106 古い神殿（bim artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
       "st.underlay": "underlay/e03-p06-k4.jpg",
       "st.plan": "plans/e03-p06-k4.svg"
      }
@@ -1557,7 +1557,7 @@
        "st.fov": "横 34.1° × 縦 35°",
        "st.figures": "FG-e03-p01-k1-01 CH-01 ガリヴァー (0, 900, 0) 向き 0° prone-palm / FG-e03-p01-k1-02 CH-05 レルドレサル (212, 1872, 68) 向き 180° orate",
        "st.crowds": "",
-       "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
+       "st.models": "F106 古い神殿（bim artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
        "st.underlay": "underlay/e03-p01-k1.jpg",
        "st.plan": "plans/e03-p01-k1.svg"
       }
@@ -1584,7 +1584,7 @@
        "st.fov": "横 62.7° × 縦 29.6°",
        "st.figures": "FG-e03-p01-k2-01 CH-01 ガリヴァー (0, 900, 0) 向き 0° prone-palm / FG-e03-p01-k2-02 CH-05 レルドレサル (480, 2150, 0) 向き 202.9° walk / FG-e03-p01-k2-03 CH-30 レルドレサルの従者 (640, 2300, 0) 向き 202.9° walk",
        "st.crowds": "",
-       "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
+       "st.models": "F106 古い神殿（bim artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
        "st.underlay": "underlay/e03-p01-k2.jpg",
        "st.plan": "plans/e03-p01-k2.svg"
       }
@@ -1611,7 +1611,7 @@
        "st.fov": "横 56.9° × 縦 35°",
        "st.figures": "FG-e03-p02-k1-01 CH-01 ガリヴァー (0, 900, 0) 向き 0° prone-palm / FG-e03-p02-k1-02 CH-05 レルドレサル (212, 1872, 68) 向き 180° orate / FG-e03-p02-k1-03 CH-30 レルドレサルの従者 (560, 2050, 0) 向き 180° stand",
        "st.crowds": "",
-       "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
+       "st.models": "F106 古い神殿（bim artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
        "st.underlay": "underlay/e03-p02-k1.jpg",
        "st.plan": "plans/e03-p02-k1.svg"
       }
@@ -1638,7 +1638,7 @@
        "st.fov": "横 62.7° × 縦 28.9°",
        "st.figures": "FG-e03-p02-k2-01 CH-01 ガリヴァー (0, 900, 0) 向き 0° prone-palm / FG-e03-p02-k2-02 CH-05 レルドレサル (212, 1872, 68) 向き 197.2° point",
        "st.crowds": "",
-       "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
+       "st.models": "F106 古い神殿（bim artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
        "st.underlay": "underlay/e03-p02-k2.jpg",
        "st.plan": "plans/e03-p02-k2.svg"
       }
@@ -1665,7 +1665,7 @@
        "st.fov": "横 62.7° × 縦 29.6°",
        "st.figures": "FG-e03-p02-k3-01 CH-30 かかとの高い廷臣1 (3020, 3000, 0) 向き -90° glare / FG-e03-p02-k3-02 CH-30 かかとの高い廷臣2 (2960, 3080, 0) 向き -90° arms-crossed / FG-e03-p02-k3-03 CH-30 かかとの低い廷臣1 (3380, 3000, 0) 向き 90° glare / FG-e03-p02-k3-04 CH-30 かかとの低い廷臣2 (3440, 2930, 0) 向き 90° arms-crossed",
        "st.crowds": "",
-       "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
+       "st.models": "F106 古い神殿（bim artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
        "st.underlay": "underlay/e03-p02-k3.jpg",
        "st.plan": "plans/e03-p02-k3.svg"
       }
@@ -1692,7 +1692,7 @@
        "st.fov": "横 56.9° × 縦 35°",
        "st.figures": "FG-e03-p03-k1-01 CH-01 ガリヴァー (0, 900, 0) 向き 0° prone-palm / FG-e03-p03-k1-02 CH-05 レルドレサル (212, 1872, 68) 向き 180° orate",
        "st.crowds": "",
-       "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
+       "st.models": "F106 古い神殿（bim artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
        "st.underlay": "underlay/e03-p03-k1.jpg",
        "st.plan": "plans/e03-p03-k1.svg"
       }
@@ -1719,7 +1719,7 @@
        "st.fov": "横 62.7° × 縦 28.9°",
        "st.figures": "FG-e03-p03-k2-01 CH-30 皇太子 (2500, 2850, 0) 向き 107.2° limp",
        "st.crowds": "皇太子の後ろの廷臣（創作の人数）（18）",
-       "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
+       "st.models": "F106 古い神殿（bim artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
        "st.underlay": "underlay/e03-p03-k2.jpg",
        "st.plan": "plans/e03-p03-k2.svg"
       }
@@ -1746,7 +1746,7 @@
        "st.fov": "横 62.7° × 縦 29.6°",
        "st.figures": "FG-e03-p03-k3-01 CH-01 ガリヴァー (0, 900, 0) 向き 0° prone-palm",
        "st.crowds": "",
-       "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
+       "st.models": "F106 古い神殿（bim artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
        "st.underlay": "underlay/e03-p03-k3.jpg",
        "st.plan": "plans/e03-p03-k3.svg"
       }
@@ -1773,7 +1773,7 @@
        "st.fov": "横 56.9° × 縦 35°",
        "st.figures": "FG-e03-p04-k1-01 CH-01 ガリヴァー (0, 900, 0) 向き 0° prone-palm / FG-e03-p04-k1-02 CH-05 レルドレサル (212, 1872, 68) 向き 208.6° orate",
        "st.crowds": "",
-       "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
+       "st.models": "F106 古い神殿（bim artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
        "st.underlay": "underlay/e03-p04-k1.jpg",
        "st.plan": "plans/e03-p04-k1.svg"
       }
@@ -1795,12 +1795,12 @@
        "nm.text": "台詞（レルドレサル）：始まりは卵です。",
        "nm.turn": "",
        "st.set": "house：ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話",
-       "st.cam": "(330, 2080, 170)",
-       "st.look": "(212, 1872, 140)",
+       "st.cam": "(440, 2200, 170)",
+       "st.look": "(262, 1872, 170)",
        "st.fov": "横 34.6° × 縦 35°",
        "st.figures": "FG-e03-p04-k2-01 CH-01 ガリヴァー (0, 900, 0) 向き 0° prone-palm / FG-e03-p04-k2-02 CH-05 レルドレサル (212, 1872, 68) 向き 180° point",
        "st.crowds": "",
-       "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
+       "st.models": "F106 古い神殿（bim artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
        "st.underlay": "underlay/e03-p04-k2.jpg",
        "st.plan": "plans/e03-p04-k2.svg"
       }
@@ -1827,7 +1827,7 @@
        "st.fov": "横 45.4° × 縦 35°",
        "st.figures": "FG-e03-p04-k3-01 CH-01 ガリヴァー (0, 900, 0) 向き 0° prone-palm / FG-e03-p04-k3-02 CH-05 レルドレサル (212, 1872, 68) 向き 180° orate",
        "st.crowds": "",
-       "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
+       "st.models": "F106 古い神殿（bim artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
        "st.underlay": "underlay/e03-p04-k3.jpg",
        "st.plan": "plans/e03-p04-k3.svg"
       }
@@ -1848,14 +1848,14 @@
        "nm.lines": "SC-009.L12",
        "nm.text": "台詞（レルドレサル）：昔はみな、卵を大きい端から割っていました。ところが今の陛下の祖父君が子どものころ、それで指を切った。",
        "nm.turn": "",
-       "st.set": "house：ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話",
-       "st.cam": "(0, 0, 120)",
-       "st.look": "(0, 1, 0)",
+       "st.set": "past：回想：昔の宮廷の朝食の間、法を読み上げる広場、海辺の反乱（創作）",
+       "st.cam": "(-200, 120, 120)",
+       "st.look": "(20, 300, 75)",
        "st.fov": "横 62.7° × 縦 29.6°",
-       "st.figures": "",
+       "st.figures": "FG-e03-p04-k4-01 EX 幼い皇子（今の皇帝の祖父） (-25, 215, 0) 向き 0° read / FG-e03-p04-k4-02 EX 給仕 (-200, 380, 0) 向き -34.4° hands-together",
        "st.crowds": "",
-       "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
-       "st.underlay": "無し：回想（昔の宮廷と国の中）。再現（GV1〜GV7）に昔の場面の 3D は無く、本文と人物表で描く。",
+       "st.models": "舞台 past（cad artifact_773026e4-d01a-4d7c-8ff7-a67f53fb496b@version_620548e3-4d34-4794-b414-fbe221ef5cda 636b3e0f0cb4b4acc72b4cb90834c5fb217dfc15b5b4db483960465b0d159876）",
+       "st.underlay": "underlay/e03-p04-k4.jpg",
        "st.plan": "plans/e03-p04-k4.svg"
       }
      },
@@ -1875,14 +1875,14 @@
        "nm.lines": "SC-009.L13",
        "nm.text": "台詞（レルドレサル）：そこで御父君は、小さい端から割れという法を出されたのです。",
        "nm.turn": "",
-       "st.set": "house：ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話",
-       "st.cam": "(0, 0, 136)",
-       "st.look": "(0, 1, 0)",
+       "st.set": "past：回想：昔の宮廷の朝食の間、法を読み上げる広場、海辺の反乱（創作）",
+       "st.cam": "(3000, -820, 136)",
+       "st.look": "(3000, 400, 170)",
        "st.fov": "横 56.9° × 縦 35°",
-       "st.figures": "",
-       "st.crowds": "",
-       "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
-       "st.underlay": "無し：回想（昔の宮廷と国の中）。再現（GV1〜GV7）に昔の場面の 3D は無く、本文と人物表で描く。",
+       "st.figures": "FG-e03-p05-k1-01 EX 昔の皇帝（皇子の父） (3000, 450, 60) 向き 180° orate / FG-e03-p05-k1-02 EX 布告役 (3180, 330, 0) 向き 180° read",
+       "st.crowds": "法を見上げる民（創作の人数）（24）",
+       "st.models": "舞台 past（cad artifact_773026e4-d01a-4d7c-8ff7-a67f53fb496b@version_620548e3-4d34-4794-b414-fbe221ef5cda 636b3e0f0cb4b4acc72b4cb90834c5fb217dfc15b5b4db483960465b0d159876）",
+       "st.underlay": "underlay/e03-p05-k1.jpg",
        "st.plan": "plans/e03-p05-k1.svg"
       }
      },
@@ -1894,22 +1894,22 @@
        "nm.scene": "SC-009",
        "nm.shot": "寄り",
        "nm.eye": "小人の目の高さ",
-       "nm.mm": 40,
+       "nm.mm": 70,
        "nm.stand": "",
        "nm.look": "卓の上の卵の高さから",
        "nm.size": false,
-       "nm.art": "割られた二つの卵。大きい端と小さい端。（小人の卵は小人の手ほど）",
+       "nm.art": "割られた二つの卵。大きい端と小さい端。（小人の卵は長さ約5 mm、小人の手の3分の1ほど）",
        "nm.lines": "SC-009.L14",
        "nm.text": "",
        "nm.turn": "",
-       "st.set": "house：ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話",
-       "st.cam": "(0, 0, 40)",
-       "st.look": "(0, 1, 0)",
-       "st.fov": "横 62.7° × 縦 28.9°",
+       "st.set": "eggs：回想：卓の上の割られた二つの卵（創作）",
+       "st.cam": "(0, 248, 70)",
+       "st.look": "(0, 300, 66)",
+       "st.fov": "横 48° × 縦 21.3°",
        "st.figures": "",
        "st.crowds": "",
-       "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
-       "st.underlay": "無し：卵の寄り（大きい端と小さい端）。3D の舞台は使わない。",
+       "st.models": "舞台 eggs（cad artifact_207d35aa-877c-45ab-92f0-a2df8189ad33@version_3ac019b9-e674-41a0-b7c3-8ab1ffd03357 55d65562431c65d64a23c52b476915647b2c2db09c6f24e6335bba7f72a29c0c）",
+       "st.underlay": "underlay/e03-p05-k2.jpg",
        "st.plan": "plans/e03-p05-k2.svg"
       }
      },
@@ -1929,14 +1929,14 @@
        "nm.lines": "SC-009.L15",
        "nm.text": "台詞（レルドレサル）：民はこれを嫌い、反乱は六度。死を選んだ者は一万一千人。大端派の書物は禁じられ、逃げた者はブレフスキュがかくまっております。",
        "nm.turn": "",
-       "st.set": "house：ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話",
-       "st.cam": "(0, 0, 500)",
-       "st.look": "(0, 1, 0)",
+       "st.set": "past：回想：昔の宮廷の朝食の間、法を読み上げる広場、海辺の反乱（創作）",
+       "st.cam": "(-3000, -920, 500)（tower の上）",
+       "st.look": "(-3050, 500, 40)",
        "st.fov": "横 62.7° × 縦 29.6°",
-       "st.figures": "",
-       "st.crowds": "",
-       "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
-       "st.underlay": "無し：回想（昔の宮廷と国の中）。再現（GV1〜GV7）に昔の場面の 3D は無く、本文と人物表で描く。",
+       "st.figures": "FG-e03-p05-k3-01 EX 剣を掲げる反乱の民1 (-3050, -150, 0) 向き 90° sword-up / FG-e03-p05-k3-02 EX 剣を掲げる反乱の民2 (-2900, -250, 0) 向き 90° sword-up / FG-e03-p05-k3-03 EX 反乱の民3 (-3150, -300, 0) 向き 90° point",
+       "st.crowds": "反乱の民（創作の人数）（30）",
+       "st.models": "舞台 past（cad artifact_773026e4-d01a-4d7c-8ff7-a67f53fb496b@version_620548e3-4d34-4794-b414-fbe221ef5cda 636b3e0f0cb4b4acc72b4cb90834c5fb217dfc15b5b4db483960465b0d159876）",
+       "st.underlay": "underlay/e03-p05-k3.jpg",
        "st.plan": "plans/e03-p05-k3.svg"
       }
      },
@@ -1962,7 +1962,7 @@
        "st.fov": "横 62.7° × 縦 29.6°",
        "st.figures": "FG-e03-p06-k1-01 CH-01 ガリヴァー (0, 900, 0) 向き 0° prone-palm / FG-e03-p06-k1-02 CH-05 レルドレサル (212, 1872, 68) 向き 180° stand",
        "st.crowds": "",
-       "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
+       "st.models": "F106 古い神殿（bim artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
        "st.underlay": "underlay/e03-p06-k1.jpg",
        "st.plan": "plans/e03-p06-k1.svg"
       }
@@ -1989,7 +1989,7 @@
        "st.fov": "横 44.2° × 縦 35°",
        "st.figures": "FG-e03-p06-k2-01 CH-01 ガリヴァー (0, 900, 0) 向き 0° prone-palm / FG-e03-p06-k2-02 CH-05 レルドレサル (212, 1872, 68) 向き 180° stand",
        "st.crowds": "",
-       "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
+       "st.models": "F106 古い神殿（bim artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
        "st.underlay": "underlay/e03-p06-k2.jpg",
        "st.plan": "plans/e03-p06-k2.svg"
       }
@@ -2016,7 +2016,7 @@
        "st.fov": "横 35.8° × 縦 35°",
        "st.figures": "FG-e03-p06-k3-01 CH-01 ガリヴァー (0, 900, 0) 向き 0° prone-palm / FG-e03-p06-k3-02 CH-05 レルドレサル (212, 1872, 68) 向き 145.6° bow",
        "st.crowds": "",
-       "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
+       "st.models": "F106 古い神殿（bim artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
        "st.underlay": "underlay/e03-p06-k3.jpg",
        "st.plan": "plans/e03-p06-k3.svg"
       }
@@ -2043,7 +2043,7 @@
        "st.fov": "横 56.9° × 縦 35°",
        "st.figures": "FG-e03-p06-k4-01 CH-01 ガリヴァー (0, 900, 0) 向き 0° prone-palm / FG-e03-p06-k4-02 CH-05 レルドレサル (212, 1872, 68) 向き 180° stand",
        "st.crowds": "",
-       "st.models": "F106 古い神殿（bim artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
+       "st.models": "F106 古い神殿（bim artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504 d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384） / 舞台 house（cad artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8 7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f）",
        "st.underlay": "underlay/e03-p06-k4.jpg",
        "st.plan": "plans/e03-p06-k4.svg"
       }
@@ -2779,7 +2779,7 @@
      }
     ]
    },
-   "contentHash": "1eea21b814a78790200f544f40685f689d0a61c8ea115756ee0a924615191c81"
+   "contentHash": "1360bdd0c5de5d0c66f050c77eeb70020e0f47bd1f29debd5b3d1fd6021650bb"
   }
  ]
 }
