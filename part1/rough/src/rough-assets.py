@@ -13,7 +13,8 @@ from PIL import Image, ImageFilter, ImageOps
 root, commit, out = sys.argv[1:4]
 EP = int(os.environ.get('EPISODE', '1'))
 # 通読の直しで描き直したコマ（第2話、2026-11-15）：前の生の出力の sha256 を残す。
-REVISED = {'e02-p07-k4': 'RV-e02-02', 'e02-p16-k1': 'RV-e02-09'}
+REVISED = {'e02-p07-k4': 'RV-e02-02', 'e02-p16-k1': 'RV-e02-09',
+           'e03-p02-k2': 'RV-e03-01', 'e03-p06-k1': 'RV-e03-02', 'e03-p04-k4': 'RV-e03-03', 'e03-p12-k1': 'RV-e03-04'}
 GM = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../..'))
 briefs = json.load(open(f'{root}/briefs.json'))
 os.makedirs(f'{out}/panels', exist_ok=True); os.makedirs(f'{out}/prompts', exist_ok=True)
@@ -83,7 +84,7 @@ for pid, b in briefs.items():
     if os.path.exists(f'{d}/try1/raw.png'):
         panels[pid]['retake'] = {'reason': open(f'{d}/retake.txt').read().strip() if os.path.exists(f'{d}/retake.txt') else '', 'firstRawSha256': sha(f'{d}/try1/raw.png')}
     if pid in REVISED and pid in before and before[pid]['rawSha256'] != panels[pid]['rawSha256']:
-        panels[pid]['revision'] = {'finding': REVISED[pid], 'date': '2026-11-15', 'previousRawSha256': before[pid]['rawSha256']}
+        panels[pid]['revision'] = {'finding': REVISED[pid], 'date': {'e02': '2026-11-15'}.get(pid[:3], '2026-11-17'), 'previousRawSha256': before[pid]['rawSha256']}
     elif pid in before and before[pid].get('revision'):
         panels[pid]['revision'] = before[pid]['revision']
 json.dump({'schemaVersion': 1, 'episode': EP, 'generatedAt': '2026-11-14', 'panels': panels}, open(f'{out}/ep{EP:02d}-rough.json', 'w'), ensure_ascii=False, indent=1)

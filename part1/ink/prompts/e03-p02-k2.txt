@@ -15,16 +15,18 @@ No likeness to any film, game or existing illustration. No text, no letters, no 
 Landscape 1536x1024.
 
 Panel e03-p02-k2, page 2 panel 2, scene SC-009.
-Shot: 寄り. Camera: ガリヴァーの側（顔や手の近く）, 357 mm above the ground; ガリヴァーの目から、手のひらの上のレルドレサルを見下ろす.
+Shot: 寄り. Camera: ガリヴァーの側（顔や手の近く）, 357 mm above the ground; 手のひらの上で指を立てて話すレルドレサルの全身（頭の上に余白）.
 What the panel shows (storyboard memo): 指を立てて話すレルドレサル。手のひらのしわが床のよう。
 Words in this panel (for the mood and the faces only, do NOT draw any text): 台詞（レルドレサル）：一つは内の党派。靴のかかとの高い者と、低い者です。
 Figures, placed by the 3D layout (as placed in the rough and the 3D layout: keep these places, facings and poses; draw each with a readable face direction, pose and expression):
-- FG-e03-p02-k2-01 ガリヴァー — Gulliver (CH-01): 1,750 mm, plain blue coat with brass buttons and NO gold trim, tan breeches, white stockings, black shoes, brown hair tied back; lying face down, propped up on his elbows with his chin raised, his right palm open on the ground in front of his face; outside the frame (at most a cut-off sliver at the frame edge); 79 mm from the camera.
-- FG-e03-p02-k2-02 レルドレサル — Reldresal, Principal Secretary of private affairs (CH-05): a Lilliputian, 1/12 of Gulliver, narrow eyes, calm and kind; pointing; head at top-centre of the frame (x 50%, y 23%), three-quarter view toward the camera, turned to frame right; 372 mm from the camera.
+- FG-e03-p02-k2-01 ガリヴァー — Gulliver (CH-01): 1,750 mm, plain blue coat with brass buttons and NO gold trim, tan breeches, white stockings, black shoes, brown hair tied back; lying face down, propped up on his elbows with his chin raised, his right palm open on the ground in front of his face; head at top-right of the frame (x 83%, y 18%); 102 mm from the camera.
+- FG-e03-p02-k2-02 レルドレサル — Reldresal, Principal Secretary of private affairs (CH-05): a Lilliputian, 1/12 of Gulliver, narrow eyes, calm and kind; pointing; head at middle-centre of the frame (x 50%, y 40%), three-quarter view toward the camera, turned to frame right; 532 mm from the camera.
 The SECOND image is the 3D layout render from this camera: figures there are blocky stand-ins, ground/sea/walls are flat placeholders. The flat grey bands at the edges of the FIRST and SECOND images are padding outside the panel: continue the scene into them, nothing important there.
+Correction after the read-through (RV-e03-01): Reldresal's head was cut off by the top of the frame. This panel is a WIDE, LOW strip: the top and bottom of the drawing are cut away, so keep everything important in the middle band. Draw Reldresal WHOLE on Gulliver's palm, from his wig to his shoes, with clear space above his head; his face, raised finger and expression fully visible. Gulliver's FACE must NOT appear at all (it would be cut by the frame): show only his open palm and fingers and, behind, his forearm and coat sleeve lying on the grass. The grass and the wall behind.
 Continuity: Gulliver wears his plain coat with buttons, breeches, stockings and shoes (no chain any more).
 Size check inside the picture (AR-01): Reldresal (150 mm) standing on Gulliver's open palm is a little shorter than the palm and fingers are long (about 190 mm); a Lilliputian's whole head is smaller than Gulliver's eye. Never draw the Lilliputians bigger than this.
 Never cut a face with the frame edge, and never show only part of a face (a nose or a mouth alone): every face in the frame is drawn whole, with its eyes, or not at all (LN-e02-02).
 Always draw a background (ground, sky, sea, walls or the room) even in a close-up; never leave the space behind the figures blank.
+Line-art correction after the author's rough review: Read-through correction (RV-e03-01): the panel is a wide strip and its top is cut: Gulliver's face must NOT appear (only his palm, fingers, forearm and sleeve); Reldresal whole with space above his head. Trace Reldresal at EXACTLY the size and place of the FIRST image (do not enlarge him): the top of his wig is about 32% down from the top of the whole image, his shoes about 70% down.
 
 After generating, copy the generated PNG to ./ink-raw.png in the current directory. Do not generate more than one image.

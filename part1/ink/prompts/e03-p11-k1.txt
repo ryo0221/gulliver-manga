@@ -25,5 +25,6 @@ Size check inside the picture (AR-01): each warship is about as long as Gulliver
 Thin things (cables, arrows, hooks) stay thin: cables thinner than Gulliver's finger, arrows like sewing needles; show where each cable starts and ends (LN-e02-04).
 Never cut a face with the frame edge, and never show only part of a face (a nose or a mouth alone): every face in the frame is drawn whole, with its eyes, or not at all (LN-e02-02).
 Always draw a background (ground, sky, sea, walls or the room) even in a close-up; never leave the space behind the figures blank.
+Line-art correction after the author's rough review: Read-through correction (RV-e03-08): his sleeveless leather jerkin is BUTTONED down the front with a row of buttons, as in every other panel; no laces, no criss-cross cords on the chest. Keep the rest: arms spread wide, spectacles, the arrows bouncing off the glass, the sea behind.
 
 After generating, copy the generated PNG to ./ink-raw.png in the current directory. Do not generate more than one image.

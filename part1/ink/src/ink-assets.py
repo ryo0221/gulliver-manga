@@ -56,8 +56,10 @@ def to_png(a, path):
 ONLY = os.environ.get('INK_ONLY', '').split(',') if os.environ.get('INK_ONLY') else None
 REVISED = {'e01-p12-k3': 'RV-e01-04', 'e01-p15-k2': 'RV-e01-07', 'e01-p01-k1': 'RV-e01-03',
            'e02-p03-k1': 'RV-e02-01', 'e02-p07-k4': 'RV-e02-02', 'e02-p11-k1': 'RV-e02-04', 'e02-p11-k2': 'RV-e02-05',
-           'e02-p16-k2': 'RV-e02-06', 'e02-p16-k1': 'RV-e02-09'}
-REVISED_DATE = {'e01': '2026-11-14', 'e02': '2026-11-15'}
+           'e02-p16-k2': 'RV-e02-06', 'e02-p16-k1': 'RV-e02-09',
+           'e03-p02-k2': 'RV-e03-01', 'e03-p06-k1': 'RV-e03-02', 'e03-p04-k4': 'RV-e03-03', 'e03-p12-k1': 'RV-e03-04',
+           'e03-p11-k1': 'RV-e03-08', 'e03-p16-k1': 'RV-e03-06', 'e03-p16-k2': 'RV-e03-06'}
+REVISED_DATE = {'e01': '2026-11-14', 'e02': '2026-11-15', 'e03': '2026-11-17'}
 before = json.load(open(JSON))['panels'] if ONLY else {}
 panels = dict(before)
 for pid, b in briefs.items():

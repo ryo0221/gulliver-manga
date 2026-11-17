@@ -7,7 +7,7 @@
   "source": "created"
  },
  "draft": {
-  "baseVersionId": "rough-ep03-v1",
+  "baseVersionId": "rough-ep03-v2",
   "updatedAt": "2026-11-17T00:00:00.000Z",
   "content": {
    "schemaVersion": 2,
@@ -85,7 +85,7 @@
       "rf.scene": "SC-009",
       "rf.panels": "e03-p01-k1 e03-p01-k2",
       "rf.method": "3D の下絵（ネームの舞台とカメラ）＋ AI の画像生成（Codex）。人物と背景の位置は 3D の舞台で決めたまま",
-      "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@7b0cf4c6 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1） / CH-30 小人の設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
+      "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@49a0e030 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1） / CH-30 小人の設定画（正面）（gulliver-manga@49a0e030 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
       "rf.samples": "SM-03 実寸の建物と物・SM-04 人物と馬の体（main 40645e80 の見本）。3D の舞台：F106 古い神殿 artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504、舞台 house artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8",
       "rf.layers": "LY-01 下絵（3D）、LY-02 アタリ（ラフ絵）、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "rf.layerNotes": "LY-02 アタリに、人物と背景の位置を一枚に描いたラフ絵を入れた（画作りガイドのラフのレイヤーに背景の位置の層が無く、Codex は 1 コマを 1 枚で描くため。線画で LY-04 と LY-07 に分ける）。「メモ」はネームのタグと絵のメモで、決まりの外。ラフの指示として残し、書き出しでは隠す。台詞とナレーションの文字（LY-10）は、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。写植で分ける。LY-01・LY-02・メモは、吹き出しを動かすときに一緒に動かないよう固定した。吹き出しと枠は、ラフ絵の線の濃いところと 3D のカメラに写る人物の頭を避けて置いた（rough.lettering-clear）。",
@@ -101,13 +101,13 @@
       "rf.scene": "SC-009",
       "rf.panels": "e03-p02-k1 e03-p02-k2 e03-p02-k3",
       "rf.method": "3D の下絵（ネームの舞台とカメラ）＋ AI の画像生成（Codex）。人物と背景の位置は 3D の舞台で決めたまま",
-      "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@7b0cf4c6 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1） / CH-30 小人の設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
+      "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@49a0e030 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1） / CH-30 小人の設定画（正面）（gulliver-manga@49a0e030 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
       "rf.samples": "SM-03 実寸の建物と物・SM-04 人物と馬の体（main 40645e80 の見本）。3D の舞台：F106 古い神殿 artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504、舞台 house artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8",
       "rf.layers": "LY-01 下絵（3D）、LY-02 アタリ（ラフ絵）、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "rf.layerNotes": "LY-02 アタリに、人物と背景の位置を一枚に描いたラフ絵を入れた（画作りガイドのラフのレイヤーに背景の位置の層が無く、Codex は 1 コマを 1 枚で描くため。線画で LY-04 と LY-07 に分ける）。「メモ」はネームのタグと絵のメモで、決まりの外。ラフの指示として残し、書き出しでは隠す。台詞とナレーションの文字（LY-10）は、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。写植で分ける。LY-01・LY-02・メモは、吹き出しを動かすときに一緒に動かないよう固定した。吹き出しと枠は、ラフ絵の線の濃いところと 3D のカメラに写る人物の頭を避けて置いた（rough.lettering-clear）。",
       "rf.byHuman": "まだ無い（作者が確かめて直す）",
       "rf.byAi": "LY-01 下絵（3D）（3D の書き出し）、LY-02 アタリ（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "rf.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep03-name@name-ep03-v1 のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/rough/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+      "rf.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol / Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep03-name@name-ep03-v1 のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/rough/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
      }
     },
     {
@@ -117,7 +117,7 @@
       "rf.scene": "SC-009",
       "rf.panels": "e03-p03-k1 e03-p03-k2 e03-p03-k3",
       "rf.method": "3D の下絵（ネームの舞台とカメラ）＋ AI の画像生成（Codex）。人物と背景の位置は 3D の舞台で決めたまま",
-      "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@7b0cf4c6 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1） / CH-30 小人の設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
+      "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@49a0e030 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1） / CH-30 小人の設定画（正面）（gulliver-manga@49a0e030 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
       "rf.samples": "SM-03 実寸の建物と物・SM-04 人物と馬の体（main 40645e80 の見本）。3D の舞台：F106 古い神殿 artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504、舞台 house artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8",
       "rf.layers": "LY-01 下絵（3D）、LY-02 アタリ（ラフ絵）、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "rf.layerNotes": "LY-02 アタリに、人物と背景の位置を一枚に描いたラフ絵を入れた（画作りガイドのラフのレイヤーに背景の位置の層が無く、Codex は 1 コマを 1 枚で描くため。線画で LY-04 と LY-07 に分ける）。「メモ」はネームのタグと絵のメモで、決まりの外。ラフの指示として残し、書き出しでは隠す。台詞とナレーションの文字（LY-10）は、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。写植で分ける。LY-01・LY-02・メモは、吹き出しを動かすときに一緒に動かないよう固定した。吹き出しと枠は、ラフ絵の線の濃いところと 3D のカメラに写る人物の頭を避けて置いた（rough.lettering-clear）。",
@@ -133,13 +133,13 @@
       "rf.scene": "SC-009",
       "rf.panels": "e03-p04-k1 e03-p04-k2 e03-p04-k3 e03-p04-k4",
       "rf.method": "3D の下絵（ネームの舞台とカメラ）＋ AI の画像生成（Codex）。人物と背景の位置は 3D の舞台で決めたまま",
-      "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@7b0cf4c6 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1） / CH-30 小人の設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
+      "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@49a0e030 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1） / CH-30 小人の設定画（正面）（gulliver-manga@49a0e030 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
       "rf.samples": "SM-03 実寸の建物と物・SM-04 人物と馬の体（main 40645e80 の見本）。3D の舞台：F106 古い神殿 artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504、舞台 house artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8、舞台 past artifact_773026e4-d01a-4d7c-8ff7-a67f53fb496b@version_620548e3-4d34-4794-b414-fbe221ef5cda",
       "rf.layers": "LY-01 下絵（3D）、LY-02 アタリ（ラフ絵）、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "rf.layerNotes": "LY-02 アタリに、人物と背景の位置を一枚に描いたラフ絵を入れた（画作りガイドのラフのレイヤーに背景の位置の層が無く、Codex は 1 コマを 1 枚で描くため。線画で LY-04 と LY-07 に分ける）。「メモ」はネームのタグと絵のメモで、決まりの外。ラフの指示として残し、書き出しでは隠す。台詞とナレーションの文字（LY-10）は、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。写植で分ける。LY-01・LY-02・メモは、吹き出しを動かすときに一緒に動かないよう固定した。吹き出しと枠は、ラフ絵の線の濃いところと 3D のカメラに写る人物の頭を避けて置いた（rough.lettering-clear）。",
       "rf.byHuman": "まだ無い（作者が確かめて直す）",
       "rf.byAi": "LY-01 下絵（3D）（3D の書き出し）、LY-02 アタリ（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "rf.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep03-name@name-ep03-v1 のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/rough/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+      "rf.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol / Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-astra。コマごとに、gm1-ep03-name@name-ep03-v1 のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/rough/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
      }
     },
     {
@@ -149,7 +149,7 @@
       "rf.scene": "SC-009",
       "rf.panels": "e03-p05-k1 e03-p05-k2 e03-p05-k3",
       "rf.method": "3D の下絵（ネームの舞台とカメラ）＋ AI の画像生成（Codex）。人物と背景の位置は 3D の舞台で決めたまま",
-      "rf.art": "CH-30 小人の設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
+      "rf.art": "CH-30 小人の設定画（正面）（gulliver-manga@49a0e030 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
       "rf.samples": "SM-03 実寸の建物と物・SM-04 人物と馬の体（main 40645e80 の見本）。3D の舞台：舞台 past artifact_773026e4-d01a-4d7c-8ff7-a67f53fb496b@version_620548e3-4d34-4794-b414-fbe221ef5cda、舞台 eggs artifact_207d35aa-877c-45ab-92f0-a2df8189ad33@version_3ac019b9-e674-41a0-b7c3-8ab1ffd03357",
       "rf.layers": "LY-01 下絵（3D）、LY-02 アタリ（ラフ絵）、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "rf.layerNotes": "LY-02 アタリに、人物と背景の位置を一枚に描いたラフ絵を入れた（画作りガイドのラフのレイヤーに背景の位置の層が無く、Codex は 1 コマを 1 枚で描くため。線画で LY-04 と LY-07 に分ける）。「メモ」はネームのタグと絵のメモで、決まりの外。ラフの指示として残し、書き出しでは隠す。台詞とナレーションの文字（LY-10）は、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。写植で分ける。LY-01・LY-02・メモは、吹き出しを動かすときに一緒に動かないよう固定した。吹き出しと枠は、ラフ絵の線の濃いところと 3D のカメラに写る人物の頭を避けて置いた（rough.lettering-clear）。",
@@ -165,13 +165,13 @@
       "rf.scene": "SC-009",
       "rf.panels": "e03-p06-k1 e03-p06-k2 e03-p06-k3 e03-p06-k4",
       "rf.method": "3D の下絵（ネームの舞台とカメラ）＋ AI の画像生成（Codex）。人物と背景の位置は 3D の舞台で決めたまま",
-      "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@7b0cf4c6 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1）",
+      "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@49a0e030 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1）",
       "rf.samples": "SM-03 実寸の建物と物・SM-04 人物と馬の体（main 40645e80 の見本）。3D の舞台：F106 古い神殿 artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504、舞台 house artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8",
       "rf.layers": "LY-01 下絵（3D）、LY-02 アタリ（ラフ絵）、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "rf.layerNotes": "LY-02 アタリに、人物と背景の位置を一枚に描いたラフ絵を入れた（画作りガイドのラフのレイヤーに背景の位置の層が無く、Codex は 1 コマを 1 枚で描くため。線画で LY-04 と LY-07 に分ける）。「メモ」はネームのタグと絵のメモで、決まりの外。ラフの指示として残し、書き出しでは隠す。台詞とナレーションの文字（LY-10）は、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。写植で分ける。LY-01・LY-02・メモは、吹き出しを動かすときに一緒に動かないよう固定した。吹き出しと枠は、ラフ絵の線の濃いところと 3D のカメラに写る人物の頭を避けて置いた（rough.lettering-clear）。",
       "rf.byHuman": "まだ無い（作者が確かめて直す）",
       "rf.byAi": "LY-01 下絵（3D）（3D の書き出し）、LY-02 アタリ（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "rf.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep03-name@name-ep03-v1 のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/rough/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+      "rf.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol / Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep03-name@name-ep03-v1 のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/rough/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
      }
     },
     {
@@ -181,7 +181,7 @@
       "rf.scene": "SC-010",
       "rf.panels": "e03-p07-k1 e03-p07-k2 e03-p07-k3",
       "rf.method": "3D の下絵（ネームの舞台とカメラ）＋ AI の画像生成（Codex）。人物と背景の位置は 3D の舞台で決めたまま",
-      "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-30 小人の設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
+      "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-30 小人の設定画（正面）（gulliver-manga@49a0e030 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
       "rf.samples": "SM-03 実寸の建物と物・SM-04 人物と馬の体（main 40645e80 の見本）。3D の舞台：舞台 strait artifact_fdb39db6-18c6-429c-be15-d205d2083866@version_6164aa92-11de-4610-8e15-fb29cdd74b05、舞台 strait fleet artifact_f9d5c7a7-272f-4bab-a124-b9efbb92d7a9@version_43e8de01-f054-4818-889e-93c0af0f2c96、舞台 strait fleet2 artifact_e826cd6e-63df-4e32-8af4-866611b62443@version_a90f3689-7111-4fe7-bf2a-bc82130a48a2、舞台 strait cords artifact_e0aeaba7-4461-4be3-9a70-5dabc602f05c@version_b0355f09-d681-4b33-a9cc-7b9b87b0b442、舞台 coast artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85、舞台 coast fleet artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e、舞台 coast fleet2 artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346、舞台 coast cords artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae",
       "rf.layers": "LY-01 下絵（3D）、LY-02 アタリ（ラフ絵）、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "rf.layerNotes": "LY-02 アタリに、人物と背景の位置を一枚に描いたラフ絵を入れた（画作りガイドのラフのレイヤーに背景の位置の層が無く、Codex は 1 コマを 1 枚で描くため。線画で LY-04 と LY-07 に分ける）。「メモ」はネームのタグと絵のメモで、決まりの外。ラフの指示として残し、書き出しでは隠す。台詞とナレーションの文字（LY-10）は、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。写植で分ける。LY-01・LY-02・メモは、吹き出しを動かすときに一緒に動かないよう固定した。吹き出しと枠は、ラフ絵の線の濃いところと 3D のカメラに写る人物の頭を避けて置いた（rough.lettering-clear）。",
@@ -197,7 +197,7 @@
       "rf.scene": "SC-010",
       "rf.panels": "e03-p08-k1 e03-p08-k2",
       "rf.method": "3D の下絵（ネームの舞台とカメラ）＋ AI の画像生成（Codex）。人物と背景の位置は 3D の舞台で決めたまま",
-      "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
+      "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
       "rf.samples": "SM-03 実寸の建物と物・SM-04 人物と馬の体（main 40645e80 の見本）。3D の舞台：舞台 fleet artifact_0ac3ae01-79e7-42be-96ea-1750ad721370@version_4424048c-a895-4d7d-a1ed-72e222782247、舞台 fleet fleet artifact_7a8177f3-e8b9-4753-9a00-a99f5d9b60c2@version_cae013a1-8b58-42b2-838f-e49d2b22613b、舞台 fleet fleet2 artifact_37e30a1f-07e4-4d60-9e19-07d01180c0c6@version_6c98a7b0-fc9a-40f3-848f-339aef34221c、舞台 fleet cords artifact_afede8e6-6ea9-450a-8918-54287d23fa33@version_c52d9e52-f1ec-4768-827a-7816edac1589、舞台 coast artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85、舞台 coast fleet artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e、舞台 coast fleet2 artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346、舞台 coast cords artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae",
       "rf.layers": "LY-01 下絵（3D）、LY-02 アタリ（ラフ絵）、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "rf.layerNotes": "LY-02 アタリに、人物と背景の位置を一枚に描いたラフ絵を入れた（画作りガイドのラフのレイヤーに背景の位置の層が無く、Codex は 1 コマを 1 枚で描くため。線画で LY-04 と LY-07 に分ける）。「メモ」はネームのタグと絵のメモで、決まりの外。ラフの指示として残し、書き出しでは隠す。台詞とナレーションの文字（LY-10）は、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。写植で分ける。LY-01・LY-02・メモは、吹き出しを動かすときに一緒に動かないよう固定した。吹き出しと枠は、ラフ絵の線の濃いところと 3D のカメラに写る人物の頭を避けて置いた（rough.lettering-clear）。",
@@ -213,7 +213,7 @@
       "rf.scene": "SC-010",
       "rf.panels": "e03-p09-k1 e03-p09-k2 e03-p09-k3",
       "rf.method": "3D の下絵（ネームの舞台とカメラ）＋ AI の画像生成（Codex）。人物と背景の位置は 3D の舞台で決めたまま",
-      "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
+      "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
       "rf.samples": "SM-03 実寸の建物と物・SM-04 人物と馬の体（main 40645e80 の見本）。3D の舞台：舞台 coast artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85、舞台 coast fleet artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e、舞台 coast fleet2 artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346、舞台 coast cords artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae、舞台 strait artifact_fdb39db6-18c6-429c-be15-d205d2083866@version_6164aa92-11de-4610-8e15-fb29cdd74b05、舞台 strait fleet artifact_f9d5c7a7-272f-4bab-a124-b9efbb92d7a9@version_43e8de01-f054-4818-889e-93c0af0f2c96、舞台 strait fleet2 artifact_e826cd6e-63df-4e32-8af4-866611b62443@version_a90f3689-7111-4fe7-bf2a-bc82130a48a2、舞台 strait cords artifact_e0aeaba7-4461-4be3-9a70-5dabc602f05c@version_b0355f09-d681-4b33-a9cc-7b9b87b0b442",
       "rf.layers": "LY-01 下絵（3D）、LY-02 アタリ（ラフ絵）、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "rf.layerNotes": "LY-02 アタリに、人物と背景の位置を一枚に描いたラフ絵を入れた（画作りガイドのラフのレイヤーに背景の位置の層が無く、Codex は 1 コマを 1 枚で描くため。線画で LY-04 と LY-07 に分ける）。「メモ」はネームのタグと絵のメモで、決まりの外。ラフの指示として残し、書き出しでは隠す。台詞とナレーションの文字（LY-10）は、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。写植で分ける。LY-01・LY-02・メモは、吹き出しを動かすときに一緒に動かないよう固定した。吹き出しと枠は、ラフ絵の線の濃いところと 3D のカメラに写る人物の頭を避けて置いた（rough.lettering-clear）。",
@@ -229,7 +229,7 @@
       "rf.scene": "SC-010",
       "rf.panels": "e03-p10-k1 e03-p10-k2 e03-p10-k3 e03-p10-k4",
       "rf.method": "3D の下絵（ネームの舞台とカメラ）＋ AI の画像生成（Codex）。人物と背景の位置は 3D の舞台で決めたまま",
-      "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
+      "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
       "rf.samples": "SM-03 実寸の建物と物・SM-04 人物と馬の体（main 40645e80 の見本）。3D の舞台：舞台 fleet artifact_0ac3ae01-79e7-42be-96ea-1750ad721370@version_4424048c-a895-4d7d-a1ed-72e222782247、舞台 fleet fleet artifact_7a8177f3-e8b9-4753-9a00-a99f5d9b60c2@version_cae013a1-8b58-42b2-838f-e49d2b22613b、舞台 fleet fleet2 artifact_37e30a1f-07e4-4d60-9e19-07d01180c0c6@version_6c98a7b0-fc9a-40f3-848f-339aef34221c、舞台 fleet cords artifact_afede8e6-6ea9-450a-8918-54287d23fa33@version_c52d9e52-f1ec-4768-827a-7816edac1589",
       "rf.layers": "LY-01 下絵（3D）、LY-02 アタリ（ラフ絵）、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "rf.layerNotes": "LY-02 アタリに、人物と背景の位置を一枚に描いたラフ絵を入れた（画作りガイドのラフのレイヤーに背景の位置の層が無く、Codex は 1 コマを 1 枚で描くため。線画で LY-04 と LY-07 に分ける）。「メモ」はネームのタグと絵のメモで、決まりの外。ラフの指示として残し、書き出しでは隠す。台詞とナレーションの文字（LY-10）は、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。写植で分ける。LY-01・LY-02・メモは、吹き出しを動かすときに一緒に動かないよう固定した。吹き出しと枠は、ラフ絵の線の濃いところと 3D のカメラに写る人物の頭を避けて置いた（rough.lettering-clear）。",
@@ -245,7 +245,7 @@
       "rf.scene": "SC-010",
       "rf.panels": "e03-p11-k1 e03-p11-k2 e03-p11-k3",
       "rf.method": "3D の下絵（ネームの舞台とカメラ）＋ AI の画像生成（Codex）。人物と背景の位置は 3D の舞台で決めたまま",
-      "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
+      "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
       "rf.samples": "SM-03 実寸の建物と物・SM-04 人物と馬の体（main 40645e80 の見本）。3D の舞台：舞台 fleet artifact_0ac3ae01-79e7-42be-96ea-1750ad721370@version_4424048c-a895-4d7d-a1ed-72e222782247、舞台 fleet fleet artifact_7a8177f3-e8b9-4753-9a00-a99f5d9b60c2@version_cae013a1-8b58-42b2-838f-e49d2b22613b、舞台 fleet fleet2 artifact_37e30a1f-07e4-4d60-9e19-07d01180c0c6@version_6c98a7b0-fc9a-40f3-848f-339aef34221c、舞台 fleet cords artifact_afede8e6-6ea9-450a-8918-54287d23fa33@version_c52d9e52-f1ec-4768-827a-7816edac1589",
       "rf.layers": "LY-01 下絵（3D）、LY-02 アタリ（ラフ絵）、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "rf.layerNotes": "LY-02 アタリに、人物と背景の位置を一枚に描いたラフ絵を入れた（画作りガイドのラフのレイヤーに背景の位置の層が無く、Codex は 1 コマを 1 枚で描くため。線画で LY-04 と LY-07 に分ける）。「メモ」はネームのタグと絵のメモで、決まりの外。ラフの指示として残し、書き出しでは隠す。台詞とナレーションの文字（LY-10）は、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。写植で分ける。LY-01・LY-02・メモは、吹き出しを動かすときに一緒に動かないよう固定した。吹き出しと枠は、ラフ絵の線の濃いところと 3D のカメラに写る人物の頭を避けて置いた（rough.lettering-clear）。",
@@ -261,13 +261,13 @@
       "rf.scene": "SC-010",
       "rf.panels": "e03-p12-k1 e03-p12-k2",
       "rf.method": "3D の下絵（ネームの舞台とカメラ）＋ AI の画像生成（Codex）。人物と背景の位置は 3D の舞台で決めたまま",
-      "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
+      "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
       "rf.samples": "SM-03 実寸の建物と物・SM-04 人物と馬の体（main 40645e80 の見本）。3D の舞台：舞台 strait artifact_fdb39db6-18c6-429c-be15-d205d2083866@version_6164aa92-11de-4610-8e15-fb29cdd74b05、舞台 strait fleet artifact_f9d5c7a7-272f-4bab-a124-b9efbb92d7a9@version_43e8de01-f054-4818-889e-93c0af0f2c96、舞台 strait fleet2 artifact_e826cd6e-63df-4e32-8af4-866611b62443@version_a90f3689-7111-4fe7-bf2a-bc82130a48a2、舞台 strait cords artifact_e0aeaba7-4461-4be3-9a70-5dabc602f05c@version_b0355f09-d681-4b33-a9cc-7b9b87b0b442、舞台 fleet artifact_0ac3ae01-79e7-42be-96ea-1750ad721370@version_4424048c-a895-4d7d-a1ed-72e222782247、舞台 fleet fleet artifact_7a8177f3-e8b9-4753-9a00-a99f5d9b60c2@version_cae013a1-8b58-42b2-838f-e49d2b22613b、舞台 fleet fleet2 artifact_37e30a1f-07e4-4d60-9e19-07d01180c0c6@version_6c98a7b0-fc9a-40f3-848f-339aef34221c、舞台 fleet cords artifact_afede8e6-6ea9-450a-8918-54287d23fa33@version_c52d9e52-f1ec-4768-827a-7816edac1589",
       "rf.layers": "LY-01 下絵（3D）、LY-02 アタリ（ラフ絵）、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "rf.layerNotes": "LY-02 アタリに、人物と背景の位置を一枚に描いたラフ絵を入れた（画作りガイドのラフのレイヤーに背景の位置の層が無く、Codex は 1 コマを 1 枚で描くため。線画で LY-04 と LY-07 に分ける）。「メモ」はネームのタグと絵のメモで、決まりの外。ラフの指示として残し、書き出しでは隠す。台詞とナレーションの文字（LY-10）は、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。写植で分ける。LY-01・LY-02・メモは、吹き出しを動かすときに一緒に動かないよう固定した。吹き出しと枠は、ラフ絵の線の濃いところと 3D のカメラに写る人物の頭を避けて置いた（rough.lettering-clear）。",
       "rf.byHuman": "まだ無い（作者が確かめて直す）",
       "rf.byAi": "LY-01 下絵（3D）（3D の書き出し）、LY-02 アタリ（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "rf.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep03-name@name-ep03-v1 のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/rough/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+      "rf.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-astra / Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep03-name@name-ep03-v1 のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/rough/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
      }
     },
     {
@@ -277,7 +277,7 @@
       "rf.scene": "SC-010",
       "rf.panels": "e03-p13-k1 e03-p13-k2",
       "rf.method": "3D の下絵（ネームの舞台とカメラ）＋ AI の画像生成（Codex）。人物と背景の位置は 3D の舞台で決めたまま",
-      "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-02 皇帝の設定画（gulliver-manga@7b0cf4c6 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080）",
+      "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-02 皇帝の設定画（gulliver-manga@49a0e030 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080）",
       "rf.samples": "SM-03 実寸の建物と物・SM-04 人物と馬の体（main 40645e80 の見本）。3D の舞台：舞台 coast artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85、舞台 coast fleet artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e、舞台 coast fleet2 artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346、舞台 coast cords artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae",
       "rf.layers": "LY-01 下絵（3D）、LY-02 アタリ（ラフ絵）、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "rf.layerNotes": "LY-02 アタリに、人物と背景の位置を一枚に描いたラフ絵を入れた（画作りガイドのラフのレイヤーに背景の位置の層が無く、Codex は 1 コマを 1 枚で描くため。線画で LY-04 と LY-07 に分ける）。「メモ」はネームのタグと絵のメモで、決まりの外。ラフの指示として残し、書き出しでは隠す。台詞とナレーションの文字（LY-10）は、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。写植で分ける。LY-01・LY-02・メモは、吹き出しを動かすときに一緒に動かないよう固定した。吹き出しと枠は、ラフ絵の線の濃いところと 3D のカメラに写る人物の頭を避けて置いた（rough.lettering-clear）。",
@@ -293,7 +293,7 @@
       "rf.scene": "SC-011",
       "rf.panels": "e03-p14-k1 e03-p14-k2",
       "rf.method": "3D の下絵（ネームの舞台とカメラ）＋ AI の画像生成（Codex）。人物と背景の位置は 3D の舞台で決めたまま",
-      "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-02 皇帝の設定画（gulliver-manga@7b0cf4c6 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080） / CH-06 ボルゴラムの設定画（gulliver-manga@7b0cf4c6 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）",
+      "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-02 皇帝の設定画（gulliver-manga@49a0e030 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080） / CH-06 ボルゴラムの設定画（gulliver-manga@49a0e030 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）",
       "rf.samples": "SM-03 実寸の建物と物・SM-04 人物と馬の体（main 40645e80 の見本）。3D の舞台：舞台 coast artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85、舞台 coast fleet artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e、舞台 coast fleet2 artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346、舞台 coast cords artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae",
       "rf.layers": "LY-01 下絵（3D）、LY-02 アタリ（ラフ絵）、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "rf.layerNotes": "LY-02 アタリに、人物と背景の位置を一枚に描いたラフ絵を入れた（画作りガイドのラフのレイヤーに背景の位置の層が無く、Codex は 1 コマを 1 枚で描くため。線画で LY-04 と LY-07 に分ける）。「メモ」はネームのタグと絵のメモで、決まりの外。ラフの指示として残し、書き出しでは隠す。台詞とナレーションの文字（LY-10）は、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。写植で分ける。LY-01・LY-02・メモは、吹き出しを動かすときに一緒に動かないよう固定した。吹き出しと枠は、ラフ絵の線の濃いところと 3D のカメラに写る人物の頭を避けて置いた（rough.lettering-clear）。",
@@ -309,7 +309,7 @@
       "rf.scene": "SC-011",
       "rf.panels": "e03-p15-k1 e03-p15-k2 e03-p15-k3",
       "rf.method": "3D の下絵（ネームの舞台とカメラ）＋ AI の画像生成（Codex）。人物と背景の位置は 3D の舞台で決めたまま",
-      "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-02 皇帝の設定画（gulliver-manga@7b0cf4c6 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080） / CH-06 ボルゴラムの設定画（gulliver-manga@7b0cf4c6 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）",
+      "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-02 皇帝の設定画（gulliver-manga@49a0e030 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080） / CH-06 ボルゴラムの設定画（gulliver-manga@49a0e030 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）",
       "rf.samples": "SM-03 実寸の建物と物・SM-04 人物と馬の体（main 40645e80 の見本）。3D の舞台：舞台 coast artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85、舞台 coast fleet artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e、舞台 coast fleet2 artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346、舞台 coast cords artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae",
       "rf.layers": "LY-01 下絵（3D）、LY-02 アタリ（ラフ絵）、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "rf.layerNotes": "LY-02 アタリに、人物と背景の位置を一枚に描いたラフ絵を入れた（画作りガイドのラフのレイヤーに背景の位置の層が無く、Codex は 1 コマを 1 枚で描くため。線画で LY-04 と LY-07 に分ける）。「メモ」はネームのタグと絵のメモで、決まりの外。ラフの指示として残し、書き出しでは隠す。台詞とナレーションの文字（LY-10）は、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。写植で分ける。LY-01・LY-02・メモは、吹き出しを動かすときに一緒に動かないよう固定した。吹き出しと枠は、ラフ絵の線の濃いところと 3D のカメラに写る人物の頭を避けて置いた（rough.lettering-clear）。",
@@ -325,7 +325,7 @@
       "rf.scene": "SC-011",
       "rf.panels": "e03-p16-k1 e03-p16-k2 e03-p16-k3",
       "rf.method": "3D の下絵（ネームの舞台とカメラ）＋ AI の画像生成（Codex）。人物と背景の位置は 3D の舞台で決めたまま",
-      "rf.art": "CH-02 皇帝の設定画（gulliver-manga@7b0cf4c6 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080） / CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
+      "rf.art": "CH-02 皇帝の設定画（gulliver-manga@49a0e030 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080） / CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
       "rf.samples": "SM-03 実寸の建物と物・SM-04 人物と馬の体（main 40645e80 の見本）。3D の舞台：舞台 coast artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85、舞台 coast fleet artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e、舞台 coast fleet2 artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346、舞台 coast cords artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae",
       "rf.layers": "LY-01 下絵（3D）、LY-02 アタリ（ラフ絵）、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "rf.layerNotes": "LY-02 アタリに、人物と背景の位置を一枚に描いたラフ絵を入れた（画作りガイドのラフのレイヤーに背景の位置の層が無く、Codex は 1 コマを 1 枚で描くため。線画で LY-04 と LY-07 に分ける）。「メモ」はネームのタグと絵のメモで、決まりの外。ラフの指示として残し、書き出しでは隠す。台詞とナレーションの文字（LY-10）は、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。写植で分ける。LY-01・LY-02・メモは、吹き出しを動かすときに一緒に動かないよう固定した。吹き出しと枠は、ラフ絵の線の濃いところと 3D のカメラに写る人物の頭を避けて置いた（rough.lettering-clear）。",
@@ -340,7 +340,7 @@
  "versions": [
   {
    "artifactId": "gm1-ep03-rough-pages",
-   "versionId": "rough-ep03-v1",
+   "versionId": "rough-ep03-v2",
    "parentVersionId": null,
    "schemaVersion": 1,
    "createdAt": "2026-11-17T00:00:00.000Z",
@@ -422,7 +422,7 @@
        "rf.scene": "SC-009",
        "rf.panels": "e03-p01-k1 e03-p01-k2",
        "rf.method": "3D の下絵（ネームの舞台とカメラ）＋ AI の画像生成（Codex）。人物と背景の位置は 3D の舞台で決めたまま",
-       "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@7b0cf4c6 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1） / CH-30 小人の設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
+       "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@49a0e030 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1） / CH-30 小人の設定画（正面）（gulliver-manga@49a0e030 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
        "rf.samples": "SM-03 実寸の建物と物・SM-04 人物と馬の体（main 40645e80 の見本）。3D の舞台：F106 古い神殿 artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504、舞台 house artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8",
        "rf.layers": "LY-01 下絵（3D）、LY-02 アタリ（ラフ絵）、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "rf.layerNotes": "LY-02 アタリに、人物と背景の位置を一枚に描いたラフ絵を入れた（画作りガイドのラフのレイヤーに背景の位置の層が無く、Codex は 1 コマを 1 枚で描くため。線画で LY-04 と LY-07 に分ける）。「メモ」はネームのタグと絵のメモで、決まりの外。ラフの指示として残し、書き出しでは隠す。台詞とナレーションの文字（LY-10）は、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。写植で分ける。LY-01・LY-02・メモは、吹き出しを動かすときに一緒に動かないよう固定した。吹き出しと枠は、ラフ絵の線の濃いところと 3D のカメラに写る人物の頭を避けて置いた（rough.lettering-clear）。",
@@ -438,13 +438,13 @@
        "rf.scene": "SC-009",
        "rf.panels": "e03-p02-k1 e03-p02-k2 e03-p02-k3",
        "rf.method": "3D の下絵（ネームの舞台とカメラ）＋ AI の画像生成（Codex）。人物と背景の位置は 3D の舞台で決めたまま",
-       "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@7b0cf4c6 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1） / CH-30 小人の設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
+       "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@49a0e030 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1） / CH-30 小人の設定画（正面）（gulliver-manga@49a0e030 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
        "rf.samples": "SM-03 実寸の建物と物・SM-04 人物と馬の体（main 40645e80 の見本）。3D の舞台：F106 古い神殿 artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504、舞台 house artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8",
        "rf.layers": "LY-01 下絵（3D）、LY-02 アタリ（ラフ絵）、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "rf.layerNotes": "LY-02 アタリに、人物と背景の位置を一枚に描いたラフ絵を入れた（画作りガイドのラフのレイヤーに背景の位置の層が無く、Codex は 1 コマを 1 枚で描くため。線画で LY-04 と LY-07 に分ける）。「メモ」はネームのタグと絵のメモで、決まりの外。ラフの指示として残し、書き出しでは隠す。台詞とナレーションの文字（LY-10）は、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。写植で分ける。LY-01・LY-02・メモは、吹き出しを動かすときに一緒に動かないよう固定した。吹き出しと枠は、ラフ絵の線の濃いところと 3D のカメラに写る人物の頭を避けて置いた（rough.lettering-clear）。",
        "rf.byHuman": "まだ無い（作者が確かめて直す）",
        "rf.byAi": "LY-01 下絵（3D）（3D の書き出し）、LY-02 アタリ（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "rf.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep03-name@name-ep03-v1 のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/rough/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+       "rf.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol / Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep03-name@name-ep03-v1 のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/rough/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
       }
      },
      {
@@ -454,7 +454,7 @@
        "rf.scene": "SC-009",
        "rf.panels": "e03-p03-k1 e03-p03-k2 e03-p03-k3",
        "rf.method": "3D の下絵（ネームの舞台とカメラ）＋ AI の画像生成（Codex）。人物と背景の位置は 3D の舞台で決めたまま",
-       "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@7b0cf4c6 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1） / CH-30 小人の設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
+       "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@49a0e030 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1） / CH-30 小人の設定画（正面）（gulliver-manga@49a0e030 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
        "rf.samples": "SM-03 実寸の建物と物・SM-04 人物と馬の体（main 40645e80 の見本）。3D の舞台：F106 古い神殿 artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504、舞台 house artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8",
        "rf.layers": "LY-01 下絵（3D）、LY-02 アタリ（ラフ絵）、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "rf.layerNotes": "LY-02 アタリに、人物と背景の位置を一枚に描いたラフ絵を入れた（画作りガイドのラフのレイヤーに背景の位置の層が無く、Codex は 1 コマを 1 枚で描くため。線画で LY-04 と LY-07 に分ける）。「メモ」はネームのタグと絵のメモで、決まりの外。ラフの指示として残し、書き出しでは隠す。台詞とナレーションの文字（LY-10）は、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。写植で分ける。LY-01・LY-02・メモは、吹き出しを動かすときに一緒に動かないよう固定した。吹き出しと枠は、ラフ絵の線の濃いところと 3D のカメラに写る人物の頭を避けて置いた（rough.lettering-clear）。",
@@ -470,13 +470,13 @@
        "rf.scene": "SC-009",
        "rf.panels": "e03-p04-k1 e03-p04-k2 e03-p04-k3 e03-p04-k4",
        "rf.method": "3D の下絵（ネームの舞台とカメラ）＋ AI の画像生成（Codex）。人物と背景の位置は 3D の舞台で決めたまま",
-       "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@7b0cf4c6 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1） / CH-30 小人の設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
+       "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@49a0e030 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1） / CH-30 小人の設定画（正面）（gulliver-manga@49a0e030 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
        "rf.samples": "SM-03 実寸の建物と物・SM-04 人物と馬の体（main 40645e80 の見本）。3D の舞台：F106 古い神殿 artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504、舞台 house artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8、舞台 past artifact_773026e4-d01a-4d7c-8ff7-a67f53fb496b@version_620548e3-4d34-4794-b414-fbe221ef5cda",
        "rf.layers": "LY-01 下絵（3D）、LY-02 アタリ（ラフ絵）、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "rf.layerNotes": "LY-02 アタリに、人物と背景の位置を一枚に描いたラフ絵を入れた（画作りガイドのラフのレイヤーに背景の位置の層が無く、Codex は 1 コマを 1 枚で描くため。線画で LY-04 と LY-07 に分ける）。「メモ」はネームのタグと絵のメモで、決まりの外。ラフの指示として残し、書き出しでは隠す。台詞とナレーションの文字（LY-10）は、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。写植で分ける。LY-01・LY-02・メモは、吹き出しを動かすときに一緒に動かないよう固定した。吹き出しと枠は、ラフ絵の線の濃いところと 3D のカメラに写る人物の頭を避けて置いた（rough.lettering-clear）。",
        "rf.byHuman": "まだ無い（作者が確かめて直す）",
        "rf.byAi": "LY-01 下絵（3D）（3D の書き出し）、LY-02 アタリ（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "rf.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep03-name@name-ep03-v1 のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/rough/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+       "rf.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol / Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-astra。コマごとに、gm1-ep03-name@name-ep03-v1 のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/rough/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
       }
      },
      {
@@ -486,7 +486,7 @@
        "rf.scene": "SC-009",
        "rf.panels": "e03-p05-k1 e03-p05-k2 e03-p05-k3",
        "rf.method": "3D の下絵（ネームの舞台とカメラ）＋ AI の画像生成（Codex）。人物と背景の位置は 3D の舞台で決めたまま",
-       "rf.art": "CH-30 小人の設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
+       "rf.art": "CH-30 小人の設定画（正面）（gulliver-manga@49a0e030 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
        "rf.samples": "SM-03 実寸の建物と物・SM-04 人物と馬の体（main 40645e80 の見本）。3D の舞台：舞台 past artifact_773026e4-d01a-4d7c-8ff7-a67f53fb496b@version_620548e3-4d34-4794-b414-fbe221ef5cda、舞台 eggs artifact_207d35aa-877c-45ab-92f0-a2df8189ad33@version_3ac019b9-e674-41a0-b7c3-8ab1ffd03357",
        "rf.layers": "LY-01 下絵（3D）、LY-02 アタリ（ラフ絵）、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "rf.layerNotes": "LY-02 アタリに、人物と背景の位置を一枚に描いたラフ絵を入れた（画作りガイドのラフのレイヤーに背景の位置の層が無く、Codex は 1 コマを 1 枚で描くため。線画で LY-04 と LY-07 に分ける）。「メモ」はネームのタグと絵のメモで、決まりの外。ラフの指示として残し、書き出しでは隠す。台詞とナレーションの文字（LY-10）は、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。写植で分ける。LY-01・LY-02・メモは、吹き出しを動かすときに一緒に動かないよう固定した。吹き出しと枠は、ラフ絵の線の濃いところと 3D のカメラに写る人物の頭を避けて置いた（rough.lettering-clear）。",
@@ -502,13 +502,13 @@
        "rf.scene": "SC-009",
        "rf.panels": "e03-p06-k1 e03-p06-k2 e03-p06-k3 e03-p06-k4",
        "rf.method": "3D の下絵（ネームの舞台とカメラ）＋ AI の画像生成（Codex）。人物と背景の位置は 3D の舞台で決めたまま",
-       "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@7b0cf4c6 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1）",
+       "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@49a0e030 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1）",
        "rf.samples": "SM-03 実寸の建物と物・SM-04 人物と馬の体（main 40645e80 の見本）。3D の舞台：F106 古い神殿 artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504、舞台 house artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8",
        "rf.layers": "LY-01 下絵（3D）、LY-02 アタリ（ラフ絵）、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "rf.layerNotes": "LY-02 アタリに、人物と背景の位置を一枚に描いたラフ絵を入れた（画作りガイドのラフのレイヤーに背景の位置の層が無く、Codex は 1 コマを 1 枚で描くため。線画で LY-04 と LY-07 に分ける）。「メモ」はネームのタグと絵のメモで、決まりの外。ラフの指示として残し、書き出しでは隠す。台詞とナレーションの文字（LY-10）は、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。写植で分ける。LY-01・LY-02・メモは、吹き出しを動かすときに一緒に動かないよう固定した。吹き出しと枠は、ラフ絵の線の濃いところと 3D のカメラに写る人物の頭を避けて置いた（rough.lettering-clear）。",
        "rf.byHuman": "まだ無い（作者が確かめて直す）",
        "rf.byAi": "LY-01 下絵（3D）（3D の書き出し）、LY-02 アタリ（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "rf.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep03-name@name-ep03-v1 のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/rough/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+       "rf.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol / Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep03-name@name-ep03-v1 のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/rough/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
       }
      },
      {
@@ -518,7 +518,7 @@
        "rf.scene": "SC-010",
        "rf.panels": "e03-p07-k1 e03-p07-k2 e03-p07-k3",
        "rf.method": "3D の下絵（ネームの舞台とカメラ）＋ AI の画像生成（Codex）。人物と背景の位置は 3D の舞台で決めたまま",
-       "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-30 小人の設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
+       "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-30 小人の設定画（正面）（gulliver-manga@49a0e030 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
        "rf.samples": "SM-03 実寸の建物と物・SM-04 人物と馬の体（main 40645e80 の見本）。3D の舞台：舞台 strait artifact_fdb39db6-18c6-429c-be15-d205d2083866@version_6164aa92-11de-4610-8e15-fb29cdd74b05、舞台 strait fleet artifact_f9d5c7a7-272f-4bab-a124-b9efbb92d7a9@version_43e8de01-f054-4818-889e-93c0af0f2c96、舞台 strait fleet2 artifact_e826cd6e-63df-4e32-8af4-866611b62443@version_a90f3689-7111-4fe7-bf2a-bc82130a48a2、舞台 strait cords artifact_e0aeaba7-4461-4be3-9a70-5dabc602f05c@version_b0355f09-d681-4b33-a9cc-7b9b87b0b442、舞台 coast artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85、舞台 coast fleet artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e、舞台 coast fleet2 artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346、舞台 coast cords artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae",
        "rf.layers": "LY-01 下絵（3D）、LY-02 アタリ（ラフ絵）、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "rf.layerNotes": "LY-02 アタリに、人物と背景の位置を一枚に描いたラフ絵を入れた（画作りガイドのラフのレイヤーに背景の位置の層が無く、Codex は 1 コマを 1 枚で描くため。線画で LY-04 と LY-07 に分ける）。「メモ」はネームのタグと絵のメモで、決まりの外。ラフの指示として残し、書き出しでは隠す。台詞とナレーションの文字（LY-10）は、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。写植で分ける。LY-01・LY-02・メモは、吹き出しを動かすときに一緒に動かないよう固定した。吹き出しと枠は、ラフ絵の線の濃いところと 3D のカメラに写る人物の頭を避けて置いた（rough.lettering-clear）。",
@@ -534,7 +534,7 @@
        "rf.scene": "SC-010",
        "rf.panels": "e03-p08-k1 e03-p08-k2",
        "rf.method": "3D の下絵（ネームの舞台とカメラ）＋ AI の画像生成（Codex）。人物と背景の位置は 3D の舞台で決めたまま",
-       "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
+       "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
        "rf.samples": "SM-03 実寸の建物と物・SM-04 人物と馬の体（main 40645e80 の見本）。3D の舞台：舞台 fleet artifact_0ac3ae01-79e7-42be-96ea-1750ad721370@version_4424048c-a895-4d7d-a1ed-72e222782247、舞台 fleet fleet artifact_7a8177f3-e8b9-4753-9a00-a99f5d9b60c2@version_cae013a1-8b58-42b2-838f-e49d2b22613b、舞台 fleet fleet2 artifact_37e30a1f-07e4-4d60-9e19-07d01180c0c6@version_6c98a7b0-fc9a-40f3-848f-339aef34221c、舞台 fleet cords artifact_afede8e6-6ea9-450a-8918-54287d23fa33@version_c52d9e52-f1ec-4768-827a-7816edac1589、舞台 coast artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85、舞台 coast fleet artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e、舞台 coast fleet2 artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346、舞台 coast cords artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae",
        "rf.layers": "LY-01 下絵（3D）、LY-02 アタリ（ラフ絵）、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "rf.layerNotes": "LY-02 アタリに、人物と背景の位置を一枚に描いたラフ絵を入れた（画作りガイドのラフのレイヤーに背景の位置の層が無く、Codex は 1 コマを 1 枚で描くため。線画で LY-04 と LY-07 に分ける）。「メモ」はネームのタグと絵のメモで、決まりの外。ラフの指示として残し、書き出しでは隠す。台詞とナレーションの文字（LY-10）は、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。写植で分ける。LY-01・LY-02・メモは、吹き出しを動かすときに一緒に動かないよう固定した。吹き出しと枠は、ラフ絵の線の濃いところと 3D のカメラに写る人物の頭を避けて置いた（rough.lettering-clear）。",
@@ -550,7 +550,7 @@
        "rf.scene": "SC-010",
        "rf.panels": "e03-p09-k1 e03-p09-k2 e03-p09-k3",
        "rf.method": "3D の下絵（ネームの舞台とカメラ）＋ AI の画像生成（Codex）。人物と背景の位置は 3D の舞台で決めたまま",
-       "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
+       "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
        "rf.samples": "SM-03 実寸の建物と物・SM-04 人物と馬の体（main 40645e80 の見本）。3D の舞台：舞台 coast artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85、舞台 coast fleet artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e、舞台 coast fleet2 artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346、舞台 coast cords artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae、舞台 strait artifact_fdb39db6-18c6-429c-be15-d205d2083866@version_6164aa92-11de-4610-8e15-fb29cdd74b05、舞台 strait fleet artifact_f9d5c7a7-272f-4bab-a124-b9efbb92d7a9@version_43e8de01-f054-4818-889e-93c0af0f2c96、舞台 strait fleet2 artifact_e826cd6e-63df-4e32-8af4-866611b62443@version_a90f3689-7111-4fe7-bf2a-bc82130a48a2、舞台 strait cords artifact_e0aeaba7-4461-4be3-9a70-5dabc602f05c@version_b0355f09-d681-4b33-a9cc-7b9b87b0b442",
        "rf.layers": "LY-01 下絵（3D）、LY-02 アタリ（ラフ絵）、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "rf.layerNotes": "LY-02 アタリに、人物と背景の位置を一枚に描いたラフ絵を入れた（画作りガイドのラフのレイヤーに背景の位置の層が無く、Codex は 1 コマを 1 枚で描くため。線画で LY-04 と LY-07 に分ける）。「メモ」はネームのタグと絵のメモで、決まりの外。ラフの指示として残し、書き出しでは隠す。台詞とナレーションの文字（LY-10）は、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。写植で分ける。LY-01・LY-02・メモは、吹き出しを動かすときに一緒に動かないよう固定した。吹き出しと枠は、ラフ絵の線の濃いところと 3D のカメラに写る人物の頭を避けて置いた（rough.lettering-clear）。",
@@ -566,7 +566,7 @@
        "rf.scene": "SC-010",
        "rf.panels": "e03-p10-k1 e03-p10-k2 e03-p10-k3 e03-p10-k4",
        "rf.method": "3D の下絵（ネームの舞台とカメラ）＋ AI の画像生成（Codex）。人物と背景の位置は 3D の舞台で決めたまま",
-       "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
+       "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
        "rf.samples": "SM-03 実寸の建物と物・SM-04 人物と馬の体（main 40645e80 の見本）。3D の舞台：舞台 fleet artifact_0ac3ae01-79e7-42be-96ea-1750ad721370@version_4424048c-a895-4d7d-a1ed-72e222782247、舞台 fleet fleet artifact_7a8177f3-e8b9-4753-9a00-a99f5d9b60c2@version_cae013a1-8b58-42b2-838f-e49d2b22613b、舞台 fleet fleet2 artifact_37e30a1f-07e4-4d60-9e19-07d01180c0c6@version_6c98a7b0-fc9a-40f3-848f-339aef34221c、舞台 fleet cords artifact_afede8e6-6ea9-450a-8918-54287d23fa33@version_c52d9e52-f1ec-4768-827a-7816edac1589",
        "rf.layers": "LY-01 下絵（3D）、LY-02 アタリ（ラフ絵）、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "rf.layerNotes": "LY-02 アタリに、人物と背景の位置を一枚に描いたラフ絵を入れた（画作りガイドのラフのレイヤーに背景の位置の層が無く、Codex は 1 コマを 1 枚で描くため。線画で LY-04 と LY-07 に分ける）。「メモ」はネームのタグと絵のメモで、決まりの外。ラフの指示として残し、書き出しでは隠す。台詞とナレーションの文字（LY-10）は、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。写植で分ける。LY-01・LY-02・メモは、吹き出しを動かすときに一緒に動かないよう固定した。吹き出しと枠は、ラフ絵の線の濃いところと 3D のカメラに写る人物の頭を避けて置いた（rough.lettering-clear）。",
@@ -582,7 +582,7 @@
        "rf.scene": "SC-010",
        "rf.panels": "e03-p11-k1 e03-p11-k2 e03-p11-k3",
        "rf.method": "3D の下絵（ネームの舞台とカメラ）＋ AI の画像生成（Codex）。人物と背景の位置は 3D の舞台で決めたまま",
-       "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
+       "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
        "rf.samples": "SM-03 実寸の建物と物・SM-04 人物と馬の体（main 40645e80 の見本）。3D の舞台：舞台 fleet artifact_0ac3ae01-79e7-42be-96ea-1750ad721370@version_4424048c-a895-4d7d-a1ed-72e222782247、舞台 fleet fleet artifact_7a8177f3-e8b9-4753-9a00-a99f5d9b60c2@version_cae013a1-8b58-42b2-838f-e49d2b22613b、舞台 fleet fleet2 artifact_37e30a1f-07e4-4d60-9e19-07d01180c0c6@version_6c98a7b0-fc9a-40f3-848f-339aef34221c、舞台 fleet cords artifact_afede8e6-6ea9-450a-8918-54287d23fa33@version_c52d9e52-f1ec-4768-827a-7816edac1589",
        "rf.layers": "LY-01 下絵（3D）、LY-02 アタリ（ラフ絵）、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "rf.layerNotes": "LY-02 アタリに、人物と背景の位置を一枚に描いたラフ絵を入れた（画作りガイドのラフのレイヤーに背景の位置の層が無く、Codex は 1 コマを 1 枚で描くため。線画で LY-04 と LY-07 に分ける）。「メモ」はネームのタグと絵のメモで、決まりの外。ラフの指示として残し、書き出しでは隠す。台詞とナレーションの文字（LY-10）は、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。写植で分ける。LY-01・LY-02・メモは、吹き出しを動かすときに一緒に動かないよう固定した。吹き出しと枠は、ラフ絵の線の濃いところと 3D のカメラに写る人物の頭を避けて置いた（rough.lettering-clear）。",
@@ -598,13 +598,13 @@
        "rf.scene": "SC-010",
        "rf.panels": "e03-p12-k1 e03-p12-k2",
        "rf.method": "3D の下絵（ネームの舞台とカメラ）＋ AI の画像生成（Codex）。人物と背景の位置は 3D の舞台で決めたまま",
-       "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
+       "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
        "rf.samples": "SM-03 実寸の建物と物・SM-04 人物と馬の体（main 40645e80 の見本）。3D の舞台：舞台 strait artifact_fdb39db6-18c6-429c-be15-d205d2083866@version_6164aa92-11de-4610-8e15-fb29cdd74b05、舞台 strait fleet artifact_f9d5c7a7-272f-4bab-a124-b9efbb92d7a9@version_43e8de01-f054-4818-889e-93c0af0f2c96、舞台 strait fleet2 artifact_e826cd6e-63df-4e32-8af4-866611b62443@version_a90f3689-7111-4fe7-bf2a-bc82130a48a2、舞台 strait cords artifact_e0aeaba7-4461-4be3-9a70-5dabc602f05c@version_b0355f09-d681-4b33-a9cc-7b9b87b0b442、舞台 fleet artifact_0ac3ae01-79e7-42be-96ea-1750ad721370@version_4424048c-a895-4d7d-a1ed-72e222782247、舞台 fleet fleet artifact_7a8177f3-e8b9-4753-9a00-a99f5d9b60c2@version_cae013a1-8b58-42b2-838f-e49d2b22613b、舞台 fleet fleet2 artifact_37e30a1f-07e4-4d60-9e19-07d01180c0c6@version_6c98a7b0-fc9a-40f3-848f-339aef34221c、舞台 fleet cords artifact_afede8e6-6ea9-450a-8918-54287d23fa33@version_c52d9e52-f1ec-4768-827a-7816edac1589",
        "rf.layers": "LY-01 下絵（3D）、LY-02 アタリ（ラフ絵）、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "rf.layerNotes": "LY-02 アタリに、人物と背景の位置を一枚に描いたラフ絵を入れた（画作りガイドのラフのレイヤーに背景の位置の層が無く、Codex は 1 コマを 1 枚で描くため。線画で LY-04 と LY-07 に分ける）。「メモ」はネームのタグと絵のメモで、決まりの外。ラフの指示として残し、書き出しでは隠す。台詞とナレーションの文字（LY-10）は、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。写植で分ける。LY-01・LY-02・メモは、吹き出しを動かすときに一緒に動かないよう固定した。吹き出しと枠は、ラフ絵の線の濃いところと 3D のカメラに写る人物の頭を避けて置いた（rough.lettering-clear）。",
        "rf.byHuman": "まだ無い（作者が確かめて直す）",
        "rf.byAi": "LY-01 下絵（3D）（3D の書き出し）、LY-02 アタリ（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "rf.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep03-name@name-ep03-v1 のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/rough/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+       "rf.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-astra / Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.1-sol。コマごとに、gm1-ep03-name@name-ep03-v1 のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/rough/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
       }
      },
      {
@@ -614,7 +614,7 @@
        "rf.scene": "SC-010",
        "rf.panels": "e03-p13-k1 e03-p13-k2",
        "rf.method": "3D の下絵（ネームの舞台とカメラ）＋ AI の画像生成（Codex）。人物と背景の位置は 3D の舞台で決めたまま",
-       "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-02 皇帝の設定画（gulliver-manga@7b0cf4c6 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080）",
+       "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-02 皇帝の設定画（gulliver-manga@49a0e030 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080）",
        "rf.samples": "SM-03 実寸の建物と物・SM-04 人物と馬の体（main 40645e80 の見本）。3D の舞台：舞台 coast artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85、舞台 coast fleet artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e、舞台 coast fleet2 artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346、舞台 coast cords artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae",
        "rf.layers": "LY-01 下絵（3D）、LY-02 アタリ（ラフ絵）、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "rf.layerNotes": "LY-02 アタリに、人物と背景の位置を一枚に描いたラフ絵を入れた（画作りガイドのラフのレイヤーに背景の位置の層が無く、Codex は 1 コマを 1 枚で描くため。線画で LY-04 と LY-07 に分ける）。「メモ」はネームのタグと絵のメモで、決まりの外。ラフの指示として残し、書き出しでは隠す。台詞とナレーションの文字（LY-10）は、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。写植で分ける。LY-01・LY-02・メモは、吹き出しを動かすときに一緒に動かないよう固定した。吹き出しと枠は、ラフ絵の線の濃いところと 3D のカメラに写る人物の頭を避けて置いた（rough.lettering-clear）。",
@@ -630,7 +630,7 @@
        "rf.scene": "SC-011",
        "rf.panels": "e03-p14-k1 e03-p14-k2",
        "rf.method": "3D の下絵（ネームの舞台とカメラ）＋ AI の画像生成（Codex）。人物と背景の位置は 3D の舞台で決めたまま",
-       "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-02 皇帝の設定画（gulliver-manga@7b0cf4c6 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080） / CH-06 ボルゴラムの設定画（gulliver-manga@7b0cf4c6 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）",
+       "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-02 皇帝の設定画（gulliver-manga@49a0e030 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080） / CH-06 ボルゴラムの設定画（gulliver-manga@49a0e030 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）",
        "rf.samples": "SM-03 実寸の建物と物・SM-04 人物と馬の体（main 40645e80 の見本）。3D の舞台：舞台 coast artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85、舞台 coast fleet artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e、舞台 coast fleet2 artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346、舞台 coast cords artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae",
        "rf.layers": "LY-01 下絵（3D）、LY-02 アタリ（ラフ絵）、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "rf.layerNotes": "LY-02 アタリに、人物と背景の位置を一枚に描いたラフ絵を入れた（画作りガイドのラフのレイヤーに背景の位置の層が無く、Codex は 1 コマを 1 枚で描くため。線画で LY-04 と LY-07 に分ける）。「メモ」はネームのタグと絵のメモで、決まりの外。ラフの指示として残し、書き出しでは隠す。台詞とナレーションの文字（LY-10）は、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。写植で分ける。LY-01・LY-02・メモは、吹き出しを動かすときに一緒に動かないよう固定した。吹き出しと枠は、ラフ絵の線の濃いところと 3D のカメラに写る人物の頭を避けて置いた（rough.lettering-clear）。",
@@ -646,7 +646,7 @@
        "rf.scene": "SC-011",
        "rf.panels": "e03-p15-k1 e03-p15-k2 e03-p15-k3",
        "rf.method": "3D の下絵（ネームの舞台とカメラ）＋ AI の画像生成（Codex）。人物と背景の位置は 3D の舞台で決めたまま",
-       "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-02 皇帝の設定画（gulliver-manga@7b0cf4c6 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080） / CH-06 ボルゴラムの設定画（gulliver-manga@7b0cf4c6 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）",
+       "rf.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-02 皇帝の設定画（gulliver-manga@49a0e030 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080） / CH-06 ボルゴラムの設定画（gulliver-manga@49a0e030 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）",
        "rf.samples": "SM-03 実寸の建物と物・SM-04 人物と馬の体（main 40645e80 の見本）。3D の舞台：舞台 coast artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85、舞台 coast fleet artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e、舞台 coast fleet2 artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346、舞台 coast cords artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae",
        "rf.layers": "LY-01 下絵（3D）、LY-02 アタリ（ラフ絵）、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "rf.layerNotes": "LY-02 アタリに、人物と背景の位置を一枚に描いたラフ絵を入れた（画作りガイドのラフのレイヤーに背景の位置の層が無く、Codex は 1 コマを 1 枚で描くため。線画で LY-04 と LY-07 に分ける）。「メモ」はネームのタグと絵のメモで、決まりの外。ラフの指示として残し、書き出しでは隠す。台詞とナレーションの文字（LY-10）は、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。写植で分ける。LY-01・LY-02・メモは、吹き出しを動かすときに一緒に動かないよう固定した。吹き出しと枠は、ラフ絵の線の濃いところと 3D のカメラに写る人物の頭を避けて置いた（rough.lettering-clear）。",
@@ -662,7 +662,7 @@
        "rf.scene": "SC-011",
        "rf.panels": "e03-p16-k1 e03-p16-k2 e03-p16-k3",
        "rf.method": "3D の下絵（ネームの舞台とカメラ）＋ AI の画像生成（Codex）。人物と背景の位置は 3D の舞台で決めたまま",
-       "rf.art": "CH-02 皇帝の設定画（gulliver-manga@7b0cf4c6 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080） / CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
+       "rf.art": "CH-02 皇帝の設定画（gulliver-manga@49a0e030 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080） / CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
        "rf.samples": "SM-03 実寸の建物と物・SM-04 人物と馬の体（main 40645e80 の見本）。3D の舞台：舞台 coast artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85、舞台 coast fleet artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e、舞台 coast fleet2 artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346、舞台 coast cords artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae",
        "rf.layers": "LY-01 下絵（3D）、LY-02 アタリ（ラフ絵）、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "rf.layerNotes": "LY-02 アタリに、人物と背景の位置を一枚に描いたラフ絵を入れた（画作りガイドのラフのレイヤーに背景の位置の層が無く、Codex は 1 コマを 1 枚で描くため。線画で LY-04 と LY-07 に分ける）。「メモ」はネームのタグと絵のメモで、決まりの外。ラフの指示として残し、書き出しでは隠す。台詞とナレーションの文字（LY-10）は、エディタで吹き出しや枠ごと動かせるよう、LY-09 の吹き出し・枠と一つのグループにまとめ、コマの直下に置いた（擬音と題だけ LY-10）。写植で分ける。LY-01・LY-02・メモは、吹き出しを動かすときに一緒に動かないよう固定した。吹き出しと枠は、ラフ絵の線の濃いところと 3D のカメラに写る人物の頭を避けて置いた（rough.lettering-clear）。",
@@ -673,7 +673,7 @@
      }
     ]
    },
-   "contentHash": "a79e8f788e8c53ab1a95201e1733409da103a4c5f045d80b2486bad695df304d"
+   "contentHash": "040339eb2d0a26b05afa886ac8714086a368301dc80b8b2f521f21a31a3f516c"
   }
  ]
 }

@@ -7,7 +7,7 @@
   "source": "created"
  },
  "draft": {
-  "baseVersionId": "finish-ep03-v1",
+  "baseVersionId": "finish-ep03-v2",
   "updatedAt": "2026-11-17T00:00:00.000Z",
   "content": {
    "schemaVersion": 2,
@@ -114,7 +114,7 @@
       "lt.shape": "楕円の吹き出し、尾は話す人（レルドレサル）へ",
       "lt.font": "ゴシック（Noto Sans CJK JP）、19 px",
       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
-      "lt.where": "x 1308、y 582、幅 303、高さ 108（原稿の座標。エディタで動かせる）",
+      "lt.where": "x 912、y 522、幅 303、高さ 108（原稿の座標。エディタで動かせる）",
       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
      }
     },
@@ -249,7 +249,7 @@
       "lt.shape": "楕円の吹き出し、尾は話す人（レルドレサル）へ",
       "lt.font": "ゴシック（Noto Sans CJK JP）、19 px",
       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
-      "lt.where": "x 4748、y 84、幅 303、高さ 180（原稿の座標。エディタで動かせる）",
+      "lt.where": "x 4748、y 144、幅 303、高さ 180（原稿の座標。エディタで動かせる）",
       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
      }
     },
@@ -367,9 +367,9 @@
       "lt.speaker": "",
       "lt.text": "ヒュンヒュンヒュン",
       "lt.shape": "枠なしの文字に白い縁取り（仮。手書きは LY-08）",
-      "lt.font": "ゴシック（Noto Sans CJK JP）、太字、30 px",
+      "lt.font": "ゴシック（Noto Sans CJK JP）、太字、26 px",
       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
-      "lt.where": "x 7792、y 522、幅 260、高さ 69（原稿の座標。エディタで動かせる）",
+      "lt.where": "x 7810、y 522、幅 260、高さ 30（原稿の座標。エディタで動かせる）",
       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
      }
     },
@@ -499,12 +499,12 @@
  "versions": [
   {
    "artifactId": "gm1-ep03-lettering",
-   "versionId": "finish-ep03-v1",
+   "versionId": "finish-ep03-v2",
    "parentVersionId": null,
    "schemaVersion": 1,
    "createdAt": "2026-11-17T00:00:00.000Z",
    "createdBy": null,
-   "reason": "ガリヴァー旅行記 第3話の仕上げと写植（白黒。fiction-manga@1.3.0 仕上げと写植、gm1-ep03-ink@ink-ep03-v1 から。AI の提案）",
+   "reason": "ガリヴァー旅行記 第3話の仕上げと写植（白黒。fiction-manga@1.3.0 仕上げと写植、gm1-ep03-ink@ink-ep03-v2 から。AI の提案）",
    "content": {
     "schemaVersion": 2,
     "columns": [
@@ -610,7 +610,7 @@
        "lt.shape": "楕円の吹き出し、尾は話す人（レルドレサル）へ",
        "lt.font": "ゴシック（Noto Sans CJK JP）、19 px",
        "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
-       "lt.where": "x 1308、y 582、幅 303、高さ 108（原稿の座標。エディタで動かせる）",
+       "lt.where": "x 912、y 522、幅 303、高さ 108（原稿の座標。エディタで動かせる）",
        "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
       }
      },
@@ -745,7 +745,7 @@
        "lt.shape": "楕円の吹き出し、尾は話す人（レルドレサル）へ",
        "lt.font": "ゴシック（Noto Sans CJK JP）、19 px",
        "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
-       "lt.where": "x 4748、y 84、幅 303、高さ 180（原稿の座標。エディタで動かせる）",
+       "lt.where": "x 4748、y 144、幅 303、高さ 180（原稿の座標。エディタで動かせる）",
        "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
       }
      },
@@ -863,9 +863,9 @@
        "lt.speaker": "",
        "lt.text": "ヒュンヒュンヒュン",
        "lt.shape": "枠なしの文字に白い縁取り（仮。手書きは LY-08）",
-       "lt.font": "ゴシック（Noto Sans CJK JP）、太字、30 px",
+       "lt.font": "ゴシック（Noto Sans CJK JP）、太字、26 px",
        "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
-       "lt.where": "x 7792、y 522、幅 260、高さ 69（原稿の座標。エディタで動かせる）",
+       "lt.where": "x 7810、y 522、幅 260、高さ 30（原稿の座標。エディタで動かせる）",
        "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
       }
      },
@@ -991,7 +991,7 @@
      }
     ]
    },
-   "contentHash": "78153409645e32cbae8436cca480dae62c10734cda995a57a61fd235cf4d43f9"
+   "contentHash": "a4b6a784827d424fb7e462d71cd9724e9a869c5509fda26b23c6340f7be15cff"
   }
  ]
 }

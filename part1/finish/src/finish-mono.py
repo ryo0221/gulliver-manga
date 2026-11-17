@@ -47,6 +47,9 @@ FLAT_BG = {'e02-p06-k1': 'RV-e02-03', 'e02-p06-k3': 'RV-e02-03', 'e02-p07-k1': '
            # 広い海のコマ：ラフの鉛筆のむらが海面にまだらに出た（2026-11-17、作者に見せる前に直した）
            'e03-p07-k1': 'LN-e02-06', 'e03-p07-k2': 'LN-e02-06', 'e03-p12-k1': 'LN-e02-06'}
 FLAT_BG_BLUR = 30
+# 第3話の通読の直し（RV-e03-09、2026-11-17）：空にラフのむらがグレーのしみと影で出た。これらのコマは、水平線
+# （コマの高さに対する割合）より上の背景を白にする。
+SKY_WHITE = {'e03-p15-k1': (0.9, 'RV-e03-09'), 'e03-p16-k3': (0.45, 'RV-e03-09')}
 DATE = {2: '2026-11-15'}.get(EP, '2026-11-17')
 FLAT_SHARE = 0.01   # a region wider than this share of the panel is a wall or a table top (the figures are cut into small regions)
 
@@ -126,7 +129,8 @@ _old = f'{out}/ep{EP:02d}-finish.json'
 before = json.load(open(_old))['panels'] if os.path.exists(_old) else {}
 # 通読の直しで線画（とラフ）を描き直したコマ：前の版の sha256 を残す。
 REDRAWN = {'e02-p03-k1': 'RV-e02-01', 'e02-p07-k4': 'RV-e02-02', 'e02-p11-k1': 'RV-e02-04', 'e02-p11-k2': 'RV-e02-05',
-           'e02-p16-k2': 'RV-e02-06', 'e02-p16-k1': 'RV-e02-09'}
+           'e02-p16-k2': 'RV-e02-06', 'e02-p16-k1': 'RV-e02-09',
+           'e03-p02-k2': 'RV-e03-01', 'e03-p06-k1': 'RV-e03-02', 'e03-p04-k4': 'RV-e03-03', 'e03-p12-k1': 'RV-e03-04'}
 # 線画だけを描き直したコマ（ラフは前のまま）：前のラフは構図が違い、線画へ合わせられず灰色のむらになる。
 # これらのコマは、ラフの代わりに線画そのもの（線と斜線の濃さ）をトーンのもとにする。
 INK_TONE = {'e02-p03-k1', 'e02-p11-k1', 'e02-p11-k2', 'e02-p16-k2'}
@@ -144,6 +148,10 @@ for pid, ip in sorted(inkdata['panels'].items()):
     lo, hi = np.percentile(Y, 1), np.percentile(Y, 99.5)
     Y = np.clip((Y - lo) / max(hi - lo, 1) * 255, 0, 255)
     darkness, figmask, shadow = split(Y, lines, pid in FLAT_BG, cv2.GaussianBlur(Y, (0, 0), FLAT_BG_BLUR) if pid in FLAT_BG else None)
+    if pid in SKY_WHITE:
+        # 空（水平線より上の背景）は白い紙のまま：トーンも影も置かない。
+        sky = ~figmask & (np.arange(H)[:, None] < SKY_WHITE[pid][0] * H)
+        darkness = np.where(sky, 0, darkness); shadow = np.where(sky, 0, shadow)
     files = {}
     for ly, img in (('LY-03', grey_rgba(darkness, (~figmask).astype(np.float32))), ('LY-05', grey_rgba(darkness, figmask.astype(np.float32))),
                     ('LY-06', Image.fromarray(np.dstack([np.full((H, W, 3), SHADOW_TONE[0], np.uint8), (shadow * 255).astype(np.uint8)]), 'RGBA'))):
@@ -177,10 +185,11 @@ for pid, ip in sorted(inkdata['panels'].items()):
         'refs': refs,
     }
     if pid in REDRAWN and pid in before and before[pid]['rawSha256'] != panels[pid]['rawSha256']:
-        panels[pid]['revision'] = {'finding': REDRAWN[pid], 'date': '2026-11-15', 'what': '線画（とラフ）を描き直したので作り直した',
+        panels[pid]['revision'] = {'finding': REDRAWN[pid], 'date': DATE, 'what': '線画（とラフ）を描き直したので作り直した',
                                    'previousRefs': {r['path']: r['sha256'] for r in before[pid]['refs']}}
     elif pid in before and before[pid].get('revision', {}).get('finding') in REDRAWN.values():
         panels[pid]['revision'] = before[pid]['revision']
+    if pid in SKY_WHITE: panels[pid]['revision'] = {'finding': SKY_WHITE[pid][1], 'date': DATE, 'what': '水平線より上の背景（空）を白にした'}
     if pid in FLAT_BG: panels[pid]['revision'] = {'finding': FLAT_BG[pid], 'date': DATE, 'what': '背景に影を付けず、背景のトーンを強くぼかしたラフから取った'}
     print(pid, files['LY-05']['share'], files['LY-03']['share'], files['LY-06']['share'], sum(v['bytes'] for v in files.values()) // 1024, 'KB')
 json.dump({'schemaVersion': 1, 'episode': EP, 'generatedAt': DATE, 'panels': panels}, open(f'{out}/ep{EP:02d}-finish.json', 'w'), ensure_ascii=False, indent=1)

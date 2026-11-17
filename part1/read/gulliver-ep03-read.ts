@@ -10,12 +10,14 @@ import { findingsTable, readDocument, type Finding, type ReadEpisode } from './g
 /** 通読した固定した版（read.fixed-version）。 */
 /** 通読した固定した版（read.fixed-version）。 */
 export const READ_VERSIONS_EP03 = [
-  { artifact: 'gm1-ep03-finish', version: 'finish-ep03-v1', what: '第3話「卵の端」仕上げ（白黒、16ページ、Design）' },
-  { artifact: 'gm1-ep03-lettering', version: 'finish-ep03-v1', what: '第3話 写植の記録' },
+  { artifact: 'gm1-ep03-finish', version: 'finish-ep03-v2', what: '第3話「卵の端」仕上げ（白黒、16ページ、Design）' },
+  { artifact: 'gm1-ep03-lettering', version: 'finish-ep03-v2', what: '第3話 写植の記録' },
   { artifact: 'gm1-script-lines', version: 'script-v1', what: '第1部 脚本の行（台詞の全文の照合）' },
 ] as const;
-/** 通読した版を main に入れたコミット（PR #18 のマージ）。 */
+/** はじめに通読した版（直す前）を main に入れたコミット（PR #18 のマージ）。 */
 export const READ_COMMIT_EP03 = '294641e2cf89cbac0ecba344f06fed2374bd4e88';
+/** はじめに通読した版。 */
+export const FIRST_READ_EP03 = { finish: 'gm1-ep03-finish@finish-ep03-v1', commit: READ_COMMIT_EP03 };
 
 export const FINDINGS_EP03: Finding[] = [
   {
@@ -24,8 +26,9 @@ export const FINDINGS_EP03: Finding[] = [
     by: 'AI',
     when: '2026-11-17 通読',
     text: '2-2 で話しているレルドレサル（「一つは内の党派…」）の頭が枠の上の外にあり、首から下だけが見える。話す人の顔が見えず、誰が話しているか分かりにくい（顔を枠で切らない決まり）。',
-    decision: '作者の判断待ち',
-    reason: '提案：直す。舞台のカメラを引いて少し上へ向け、手のひらとレルドレサルの全身（顔まで）を入れて撮り直し、ラフ・線画・仕上げを描き直す。',
+    decision: '直す',
+    reason: '作者の判断（2026-11-17「おすすめ通り直して」、提案どおり）：直す。舞台のカメラを引いて撮り直し（stage の revised）、ラフ・線画・仕上げを描き直した。コマは横に細く絵の上下が切れるので、ガリヴァーの顔は入れず（手のひらと袖だけ）、レルドレサルの全身と頭の上の余白を入れた。',
+    fixedIn: 'gm1-ep03-finish@finish-ep03-v2（ラフ rough-ep03-v2、線画 ink-ep03-v2）',
   },
   {
     id: 'RV-e03-02',
@@ -33,8 +36,9 @@ export const FINDINGS_EP03: Finding[] = [
     by: 'AI',
     when: '2026-11-17 通読',
     text: '6-1 で経典を引いて肩をすくめるレルドレサルも、頭が枠の上の外で、胸から下だけ。2-2 と同じく話す人の顔が無い。',
-    decision: '作者の判断待ち',
-    reason: '提案：直す（RV-e03-01 と同じやり方）。',
+    decision: '直す',
+    reason: '作者の判断（2026-11-17「おすすめ通り直して」、提案どおり）：直す。舞台のカメラを引いて撮り直し、ラフ・線画・仕上げを描き直した。ガリヴァーの頭は枠の上の外（胸と腕と手のひら）、レルドレサルの全身と頭の上の余白を入れた。',
+    fixedIn: 'gm1-ep03-finish@finish-ep03-v2（ラフ rough-ep03-v2、線画 ink-ep03-v2）',
   },
   {
     id: 'RV-e03-03',
@@ -42,8 +46,9 @@ export const FINDINGS_EP03: Finding[] = [
     by: 'AI',
     when: '2026-11-17 通読',
     text: '回想の 4-4 で指を切る「幼い王子（今の皇帝の祖父）」が、かつらと上着の大人の青年に見え、子どもに見えない。',
-    decision: '作者の判断待ち',
-    reason: '提案：直す。線画の説明に「6〜8歳ほどの子ども、背は大人の胸ほど、かつら無し」を足して線画から描き直す（舞台の人物は子どもの大きさ）。',
+    decision: '直す',
+    reason: '作者の判断（2026-11-17「おすすめ通り直して」、提案どおり）：直す。ラフの説明に「7歳ほどの子ども、かつら無し」を足してラフ・線画・仕上げを描き直した。',
+    fixedIn: 'gm1-ep03-finish@finish-ep03-v2（ラフ rough-ep03-v2、線画 ink-ep03-v2）',
   },
   {
     id: 'RV-e03-04',
@@ -51,8 +56,9 @@ export const FINDINGS_EP03: Finding[] = [
     by: 'AI',
     when: '2026-11-17 通読',
     text: '12-1 は、ネームでは「胸まで海につかって海峡を戻る」だが、水が脛ほどで、素足が水面の上に見え、海の上に立っているように見える。海峡の中ほどの深さ（約6フィート）とも合わない。',
-    decision: '作者の判断待ち',
-    reason: '提案：直す。線画の説明に「水面は胸の高さ、腰から下は水の中で見えない」を足して描き直す。',
+    decision: '直す',
+    reason: '作者の判断（2026-11-17「おすすめ通り直して」、提案どおり）：直す。ラフの説明に「水面は胸の高さ」を足してラフ・線画・仕上げを描き直した。',
+    fixedIn: 'gm1-ep03-finish@finish-ep03-v2（ラフ rough-ep03-v2、線画 ink-ep03-v2）',
   },
   {
     id: 'RV-e03-05',
@@ -60,8 +66,9 @@ export const FINDINGS_EP03: Finding[] = [
     by: 'AI',
     when: '2026-11-17 通読',
     text: '12-1 の手から艦隊へのびる綱の束の間が、白とグレーのくさび形の面で塗られ、綱の束に見えない（細い領域の仕上げのむら）。',
-    decision: '作者の判断待ち',
-    reason: '提案：直す。仕上げで綱の間の細い領域を海のトーンにそろえる（RV-e03-04 で描き直すなら、その線画で作り直す）。',
+    decision: '直す',
+    reason: '作者の判断（2026-11-17「おすすめ通り直して」、提案どおり）：直す。線画で綱を1本ずつの細い線にし、間を塗らないようにした（RV-e03-04 と一緒に描き直し）。',
+    fixedIn: 'gm1-ep03-finish@finish-ep03-v2（線画 ink-ep03-v2）',
   },
   {
     id: 'RV-e03-06',
@@ -69,8 +76,9 @@ export const FINDINGS_EP03: Finding[] = [
     by: 'AI',
     when: '2026-11-17 通読',
     text: '16-1・16-2 で皇帝が立つ岸壁の上の台が、模様の無い灰色の板（3D の置き物のまま）に見える。',
-    decision: '作者の判断待ち',
-    reason: '提案：直す。線画の説明に「石を敷いた低い壇、縁に石の目地」を足して線画から描き直す。',
+    decision: '直す',
+    reason: '作者の判断（2026-11-17「おすすめ通り直して」、提案どおり）：直す。線画の説明に「石を敷いた低い壇、縁に彫りのある石」を足して線画から描き直した（ラフはそのまま）。',
+    fixedIn: 'gm1-ep03-finish@finish-ep03-v2（線画 ink-ep03-v2）',
   },
   {
     id: 'RV-e03-07',
@@ -78,8 +86,9 @@ export const FINDINGS_EP03: Finding[] = [
     by: 'AI',
     when: '2026-11-17 通読',
     text: '効果音「ヒュンヒュンヒュン」が「ヒュンヒュンヒュ／ン」と折り返され、最後の「ン」だけが次の行にある。',
-    decision: '作者の判断待ち',
-    reason: '提案：直す。写植で効果音の幅を広げて1行にする（絵は変えない）。',
+    decision: '直す',
+    reason: '作者の判断（2026-11-17「おすすめ通り直して」、提案どおり）：直す。写植で、擬音は折り返さず1行に収まる大きさに字を小さくした（gulliver-ep01-name.ts。第1話・第2話の擬音は変わらない）。',
+    fixedIn: 'gm1-ep03-finish@finish-ep03-v2',
   },
   {
     id: 'RV-e03-08',
@@ -87,8 +96,9 @@ export const FINDINGS_EP03: Finding[] = [
     by: 'AI',
     when: '2026-11-17 通読',
     text: '11-1 だけ、胴着の前がひも締め（交差したひも）で、ほかのコマのボタン留めの胴着と違う。',
-    decision: '作者の判断待ち',
-    reason: '提案：直す。線画の説明に「ほかのコマと同じボタン留めの胴着」を足して描き直す。小さな違いなので、このままでもよい。',
+    decision: '直す',
+    reason: '作者の判断（2026-11-17「おすすめ通り直して」、提案どおり）：直す。線画の説明に「ボタン留めの胴着」を足して線画から描き直した（ラフはそのまま）。',
+    fixedIn: 'gm1-ep03-finish@finish-ep03-v2（線画 ink-ep03-v2）',
   },
   {
     id: 'RV-e03-09',
@@ -96,8 +106,9 @@ export const FINDINGS_EP03: Finding[] = [
     by: 'AI',
     when: '2026-11-17 通読',
     text: '空に、線の無いグレーのしみが出ている（15-1 左下の帆柱の近く、16-3 右上）。仕上げのトーンの取り違え。',
-    decision: '作者の判断待ち',
-    reason: '提案：直す。仕上げで、そのしみの領域を空と同じ白にする（絵は変えない）。',
+    decision: '直す',
+    reason: '作者の判断（2026-11-17「おすすめ通り直して」、提案どおり）：直す。仕上げ（finish-mono.py の SKY_WHITE）で、水平線より上の背景を白にした。',
+    fixedIn: 'gm1-ep03-finish@finish-ep03-v2',
   },
   {
     id: 'RV-e03-10',
@@ -123,20 +134,20 @@ export const VERDICT_EP03 = {
   status: '作者の判断待ち',
   decidedBy: '作者',
   proposal:
-    '話の流れ（二つの災い → 卵の端の由来 → 艦隊を奪う → ナルダック → 皇帝の欲）は16ページで通り、台詞・ナレーション・効果音はすべて脚本どおり。RV-e03-01〜09 を直してから完成とするのを勧める。RV-e03-07・09 は写植と仕上げだけで直せる。',
+    '作者の判断（2026-11-17「おすすめ通り直して」）で RV-e03-01〜09 を直した版（finish-ep03-v2）を、直したページ（2・4・6・10・11・12・15・16）を中心に読み直した。2-2・6-1 で描き直しの1回目にガリヴァーの顔がコマの上で切れたので、顔を入れずに描き直した。RV-e03-10・11 は意図として残す。完成とするかは作者が決める。',
 };
 
 export const EP03_READ: ReadEpisode = {
   episode: 3,
   title: '卵の端',
   versions: READ_VERSIONS_EP03,
-  readNote: `${READ_VERSIONS_EP03[0].artifact}@${READ_VERSIONS_EP03[0].version}（コミット ${READ_COMMIT_EP03.slice(0, 8)}、PR #18 のマージ）を1ページ目から読んだ。ページは part1/finish/ep03/pages/page-01〜16.png。白黒の仕上げ。`,
+  readNote: `はじめの通読は ${FIRST_READ_EP03.finish}（コミット ${READ_COMMIT_EP03.slice(0, 8)}、PR #18 のマージ）を1ページ目から読み、指摘を直した版 ${READ_VERSIONS_EP03[0].version} を読み直した。ページは part1/finish/ep03/pages/page-01〜16.png。白黒の仕上げ。`,
   findings: FINDINGS_EP03,
   verdict: VERDICT_EP03,
 };
 
 const stamp = '2026-11-17T00:00:00.000Z';
-const VERSION = 'read-ep03-v1';
+const VERSION = 'read-ep03-v2';
 async function native(kind: string, id: string, name: string, content: unknown) {
   const artifact: Artifact<unknown> = {
     schemaVersion: 1,

@@ -26,7 +26,7 @@ export function buildEpisode3Rough(stage: StageInput, rough: RoughInput) {
 }
 
 const stamp = '2026-11-17T00:00:00.000Z';
-const VERSION = 'rough-ep03-v1';
+const VERSION = 'rough-ep03-v2';
 async function native(kind: string, id: string, name: string, content: unknown) {
   const artifact: Artifact<unknown> = {
     schemaVersion: 1,
