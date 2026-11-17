@@ -102,3 +102,17 @@ EPISODE=2 python3 src/finish-mono.py <gulliver-manga のコミット>   # layers
 # $SB に gulliver-ep01/02-finish*.ts と gulliver-ep02-finish/（ep02-finish.json・layers・lines）を置いて
 GM_OUT=/tmp/fin2 npx vitest run apps/artifact-host/src/creative/story-board/gulliver-ep02-finish.build.test.ts
 ```
+
+# 第3話「卵の端」仕上げと写植（白黒）
+
+第2話と同じ白黒の作り（`src/finish-mono.py`、画像生成なし）。もとは線画 `gm1-ep03-ink@ink-ep03-v1`。
+
+- 原稿 `artifacts/gm1-ep03-finish.artifact.json`（16 ページ、8.2 MB）、ページ表 `gm1-ep03-finish-pages`、写植の記録 `gm1-ep03-lettering`（第3話の台詞・ナレーション・効果音をすべて `gm1-script-lines@script-v1` から）。ページの画像は `ep03/pages/`。
+- 第2話の学び LN-e02-06：広い室内・壁のコマ（4-4・5-1・5-2）は最初から `FLAT_BG`（背景に影を付けず、強くぼかしたラフからトーン）にした。作者に見せる前に、海面にラフのむらがまだらに出た広い海のコマ（7-1・7-2・12-1）も `FLAT_BG` にした。
+- 3-1 は線画だけ描き直したが、構図（ガリヴァーの胸と手、手のひらのレルドレサル）はラフと同じなので、ラフからトーンを取った。
+
+```sh
+EPISODE=3 python3 src/finish-mono.py <gulliver-manga のコミット>
+# $SB に gulliver-ep0[123]-finish*.ts と gulliver-ep03-finish/（ep03-finish.json・layers・lines）を置いて
+GM_OUT=/tmp/fin3 npx vitest run apps/artifact-host/src/creative/story-board/gulliver-ep03-finish.build.test.ts
+```

@@ -1,0 +1,26 @@
+Use your image generation tool. Make ONE image: the manga LINE ART (線画, inks) for one comic panel, inked cleanly over the attached pencil rough the way a manga artist inks a page.
+The FIRST attached image is the author's approved pencil rough of this panel: trace its composition faithfully — same camera angle, horizon, figure places, sizes, poses, facings, gestures and expressions. Clean up and finish the drawing: confident pen lines, varied line weight (thicker outlines, thin inner detail), correct anatomy and hands, readable faces, clothing folds, and the details of buildings, ships, ropes and ground. Do not add or remove figures.
+The SECOND attached image is the 3D layout render of the same camera: use it to keep proportions, perspective and the true sizes of things.
+ Gulliver's coat: plain, with buttons and NO trim or edging.
+Lilliput is a country of people 1/12 of Gulliver's size: keep their true size against him (AR-01, no exaggeration). Keep every face whole inside the frame unless the rough itself crops it.
+
+INK COLOURS (the colours mark the layers; they are separated afterwards):
+- PURE BLACK lines (#000000) for every person and animal: outlines, faces, hair, clothes, hands, and whatever they hold or wear (bows, swords, hats, chains and ropes tied on a body).
+- PURE BLUE lines (#0000FF) for everything that is not a person or animal: buildings, walls, ground, sand, grass, sea and waves, sky and clouds, ships, boats, carts, barrels, ladders, loose ropes and stakes.
+- PURE RED lines (#FF0000) only for manga effect lines (speed lines, focus lines, impact or shock marks) where the panel's action calls for them; if the panel needs none, use no red at all.
+Lines only on pure white paper: no grey, no screentone, no solid fills, no colour other than these three, no shading except fine line hatching in the same colour as the thing it shades. Where a figure overlaps the background, the background line stops at the figure's outline.
+No likeness to any film, game or existing illustration. No text, no letters, no sound effects lettering, no speech balloons, no panel border, no signature, no watermark.
+Landscape 1536x1024.
+
+Panel e03-p05-k2, page 5 panel 2, scene SC-009.
+Shot: 寄り. Camera: 小人の目の高さ, 70 mm above the ground; 卓の上の卵の高さから.
+What the panel shows (storyboard memo): 割られた二つの卵。大きい端と小さい端。（小人の卵は長さ約5 mm、小人の手の3分の1ほど）
+Words in this panel (for the mood and the faces only, do NOT draw any text): (no words)
+Figures, placed by the 3D layout (as placed in the rough and the 3D layout: keep these places, facings and poses; draw each with a readable face direction, pose and expression):
+- no figures
+The SECOND image is the 3D layout render from this camera: figures there are blocky stand-ins, ground/sea/walls are flat placeholders. The flat grey bands at the edges of the FIRST and SECOND images are padding outside the panel: continue the scene into them, nothing important there.
+This is a FLASHBACK panel (an old story told by Reldresal): only Lilliputians, no giant anywhere; draw it in the same pencil style but slightly softer, as a memory. Everything is Lilliputian: the people, the table, the eggs (a Lilliputian egg is about a third of a Lilliputian's hand long), the palace and the boats are in normal proportion to each other.
+Never cut a face with the frame edge, and never show only part of a face (a nose or a mouth alone): every face in the frame is drawn whole, with its eyes, or not at all (LN-e02-02).
+Always draw a background (ground, sky, sea, walls or the room) even in a close-up; never leave the space behind the figures blank.
+
+After generating, copy the generated PNG to ./ink-raw.png in the current directory. Do not generate more than one image.
