@@ -734,7 +734,7 @@
       "st.fov": "横 23.8° × 縦 35°",
       "st.figures": "FG-e03-p07-k3-01 CH-01 ガリヴァー (3000, -8000, 0) 向き 90° crouch / FG-e03-p07-k3-02 CH-30 水夫 (2600, -7900, 0) 向き -90° point",
       "st.crowds": "水夫たち（創作の人数）（21）",
-      "st.models": "舞台 coast（cad artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587 c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
+      "st.models": "舞台 coast（cad artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
       "st.underlay": "underlay/e03-p07-k3.jpg",
       "st.plan": "plans/e03-p07-k3.svg"
      }
@@ -788,7 +788,7 @@
       "st.fov": "横 46.7° × 縦 35°",
       "st.figures": "FG-e03-p08-k2-01 CH-01 ガリヴァー (3000, -8000, 0) 向き -90° crouch",
       "st.crowds": "綱を運ぶ人々（創作の人数）（36）",
-      "st.models": "舞台 coast（cad artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587 c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
+      "st.models": "舞台 coast（cad artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
       "st.underlay": "underlay/e03-p08-k2.jpg",
       "st.plan": "plans/e03-p08-k2.svg"
      }
@@ -815,7 +815,7 @@
       "st.fov": "横 56.9° × 縦 35°",
       "st.figures": "FG-e03-p09-k1-01 CH-01 ガリヴァー（革の胴着） (0, -3000, 0) 向き 0° stand",
       "st.crowds": "",
-      "st.models": "舞台 coast（cad artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587 c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
+      "st.models": "舞台 coast（cad artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
       "st.underlay": "underlay/e03-p09-k1.jpg",
       "st.plan": "plans/e03-p09-k1.svg"
      }
@@ -842,7 +842,7 @@
       "st.fov": "横 62.7° × 縦 28.9°",
       "st.figures": "FG-e03-p09-k2-01 CH-01 ガリヴァー（革の胴着） (0, 8000, -300) 向き 0° wade",
       "st.crowds": "",
-      "st.models": "舞台 coast（cad artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587 c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
+      "st.models": "舞台 coast（cad artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
       "st.underlay": "underlay/e03-p09-k2.jpg",
       "st.plan": "plans/e03-p09-k2.svg"
      }
@@ -1134,12 +1134,12 @@
       "nm.text": "",
       "nm.turn": "",
       "st.set": "coast：リリパットの北東の岸と王の港（海峡の南の端、200 m）",
-      "st.cam": "(800, -1700, 136)",
+      "st.cam": "(250, -1900, 136)",
       "st.look": "(0, 160000, 300)",
       "st.fov": "横 46.7° × 縦 35°",
       "st.figures": "FG-e03-p13-k1-01 CH-01 ガリヴァー（革の胴着） (0, 160000, -1300) 向き 180° stand-in-water / FG-e03-p13-k1-02 CH-02 皇帝 (0, -900, 0) 向き 0° stand",
       "st.crowds": "浜で待つ宮廷（創作の人数）（207）",
-      "st.models": "舞台 coast（cad artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587 c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
+      "st.models": "舞台 coast（cad artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
       "st.underlay": "underlay/e03-p13-k1.jpg",
       "st.plan": "plans/e03-p13-k1.svg"
      }
@@ -1161,12 +1161,12 @@
       "nm.text": "台詞（ガリヴァー）：リリパットのいと強き皇帝、万歳！",
       "nm.turn": "",
       "st.set": "coast：リリパットの北東の岸と王の港（海峡の南の端、200 m）",
-      "st.cam": "(450, -600, 136)",
+      "st.cam": "(150, -1500, 136)",
       "st.look": "(0, 12000, 1300)",
       "st.fov": "横 46.7° × 縦 35°",
       "st.figures": "FG-e03-p13-k2-01 CH-01 ガリヴァー（革の胴着） (0, 12000, -300) 向き 180° cheer / FG-e03-p13-k2-02 CH-02 皇帝 (0, -900, 0) 向き 0° stand",
       "st.crowds": "浜で待つ宮廷（創作の人数）（207）",
-      "st.models": "舞台 coast（cad artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587 c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
+      "st.models": "舞台 coast（cad artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
       "st.underlay": "underlay/e03-p13-k2.jpg",
       "st.plan": "plans/e03-p13-k2.svg"
      }
@@ -1193,7 +1193,7 @@
       "st.fov": "横 39.5° × 縦 35°",
       "st.figures": "FG-e03-p14-k1-01 CH-01 ガリヴァー（革の胴着） (46000, -2000, 0) 向き 90° kneel / FG-e03-p14-k1-02 CH-02 皇帝 (44000, -2500, 450) 向き -90° orate / FG-e03-p14-k1-03 CH-06 ボルゴラム (42900, -3900, 300) 向き -34.4° arms-crossed",
       "st.crowds": "岸壁の群衆（創作の人数）（615）",
-      "st.models": "舞台 coast（cad artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587 c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
+      "st.models": "舞台 coast（cad artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
       "st.underlay": "underlay/e03-p14-k1.jpg",
       "st.plan": "plans/e03-p14-k1.svg"
      }
@@ -1220,7 +1220,7 @@
       "st.fov": "横 56.9° × 縦 35°",
       "st.figures": "FG-e03-p14-k2-01 CH-01 ガリヴァー（革の胴着） (46000, -2000, 0) 向き 90° kneel / FG-e03-p14-k2-02 CH-02 皇帝 (44000, -2500, 450) 向き -90° orate",
       "st.crowds": "",
-      "st.models": "舞台 coast（cad artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587 c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
+      "st.models": "舞台 coast（cad artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
       "st.underlay": "underlay/e03-p14-k2.jpg",
       "st.plan": "plans/e03-p14-k2.svg"
      }
@@ -1243,11 +1243,11 @@
       "nm.turn": "",
       "st.set": "coast：リリパットの北東の岸と王の港（海峡の南の端、200 m）",
       "st.cam": "(44500, -1500, 436)（quay の上）",
-      "st.look": "(46000, -2000, 950)",
+      "st.look": "(46000, -2000, 1350)",
       "st.fov": "横 62.7° × 縦 29.6°",
       "st.figures": "FG-e03-p15-k1-01 CH-01 ガリヴァー（革の胴着） (46000, -2000, 0) 向き 90° kneel / FG-e03-p15-k1-02 CH-02 皇帝 (44000, -2500, 450) 向き -90° orate",
       "st.crowds": "",
-      "st.models": "舞台 coast（cad artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587 c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
+      "st.models": "舞台 coast（cad artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
       "st.underlay": "underlay/e03-p15-k1.jpg",
       "st.plan": "plans/e03-p15-k1.svg"
      }
@@ -1274,7 +1274,7 @@
       "st.fov": "横 57.8° × 縦 35°",
       "st.figures": "FG-e03-p15-k2-01 CH-06 ボルゴラム (42900, -3900, 300) 向き -34.4° arms-crossed",
       "st.crowds": "岸壁の群衆（創作の人数）（615）",
-      "st.models": "舞台 coast（cad artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587 c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
+      "st.models": "舞台 coast（cad artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
       "st.underlay": "underlay/e03-p15-k2.jpg",
       "st.plan": "plans/e03-p15-k2.svg"
      }
@@ -1301,7 +1301,7 @@
       "st.fov": "横 62.7° × 縦 29.6°",
       "st.figures": "FG-e03-p15-k3-01 CH-06 ボルゴラム (42900, -3900, 300) 向き -34.4° arms-crossed",
       "st.crowds": "岸壁の群衆（創作の人数）（615）",
-      "st.models": "舞台 coast（cad artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587 c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
+      "st.models": "舞台 coast（cad artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
       "st.underlay": "underlay/e03-p15-k3.jpg",
       "st.plan": "plans/e03-p15-k3.svg"
      }
@@ -1328,7 +1328,7 @@
       "st.fov": "横 50.9° × 縦 35°",
       "st.figures": "FG-e03-p16-k1-01 CH-02 皇帝 (44000, -2500, 450) 向き 0° stand / FG-e03-p16-k1-02 CH-01 ガリヴァー（革の胴着） (46000, -2000, 0) 向き 90° kneel",
       "st.crowds": "",
-      "st.models": "舞台 coast（cad artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587 c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
+      "st.models": "舞台 coast（cad artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
       "st.underlay": "underlay/e03-p16-k1.jpg",
       "st.plan": "plans/e03-p16-k1.svg"
      }
@@ -1355,7 +1355,7 @@
       "st.fov": "横 62.7° × 縦 26.2°",
       "st.figures": "FG-e03-p16-k2-01 CH-02 皇帝 (44000, -2500, 450) 向き 0° point / FG-e03-p16-k2-02 CH-01 ガリヴァー（革の胴着） (46000, -2000, 0) 向き 90° kneel",
       "st.crowds": "",
-      "st.models": "舞台 coast（cad artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587 c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
+      "st.models": "舞台 coast（cad artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
       "st.underlay": "underlay/e03-p16-k2.jpg",
       "st.plan": "plans/e03-p16-k2.svg"
      }
@@ -1382,7 +1382,7 @@
       "st.fov": "横 62.7° × 縦 27°",
       "st.figures": "FG-e03-p16-k3-01 CH-01 ガリヴァー（革の胴着） (46000, -2000, 0) 向き 90° kneel",
       "st.crowds": "",
-      "st.models": "舞台 coast（cad artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587 c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
+      "st.models": "舞台 coast（cad artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
       "st.underlay": "underlay/e03-p16-k3.jpg",
       "st.plan": "plans/e03-p16-k3.svg"
      }
@@ -2124,7 +2124,7 @@
        "st.fov": "横 23.8° × 縦 35°",
        "st.figures": "FG-e03-p07-k3-01 CH-01 ガリヴァー (3000, -8000, 0) 向き 90° crouch / FG-e03-p07-k3-02 CH-30 水夫 (2600, -7900, 0) 向き -90° point",
        "st.crowds": "水夫たち（創作の人数）（21）",
-       "st.models": "舞台 coast（cad artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587 c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
+       "st.models": "舞台 coast（cad artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
        "st.underlay": "underlay/e03-p07-k3.jpg",
        "st.plan": "plans/e03-p07-k3.svg"
       }
@@ -2178,7 +2178,7 @@
        "st.fov": "横 46.7° × 縦 35°",
        "st.figures": "FG-e03-p08-k2-01 CH-01 ガリヴァー (3000, -8000, 0) 向き -90° crouch",
        "st.crowds": "綱を運ぶ人々（創作の人数）（36）",
-       "st.models": "舞台 coast（cad artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587 c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
+       "st.models": "舞台 coast（cad artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
        "st.underlay": "underlay/e03-p08-k2.jpg",
        "st.plan": "plans/e03-p08-k2.svg"
       }
@@ -2205,7 +2205,7 @@
        "st.fov": "横 56.9° × 縦 35°",
        "st.figures": "FG-e03-p09-k1-01 CH-01 ガリヴァー（革の胴着） (0, -3000, 0) 向き 0° stand",
        "st.crowds": "",
-       "st.models": "舞台 coast（cad artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587 c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
+       "st.models": "舞台 coast（cad artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
        "st.underlay": "underlay/e03-p09-k1.jpg",
        "st.plan": "plans/e03-p09-k1.svg"
       }
@@ -2232,7 +2232,7 @@
        "st.fov": "横 62.7° × 縦 28.9°",
        "st.figures": "FG-e03-p09-k2-01 CH-01 ガリヴァー（革の胴着） (0, 8000, -300) 向き 0° wade",
        "st.crowds": "",
-       "st.models": "舞台 coast（cad artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587 c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
+       "st.models": "舞台 coast（cad artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
        "st.underlay": "underlay/e03-p09-k2.jpg",
        "st.plan": "plans/e03-p09-k2.svg"
       }
@@ -2524,12 +2524,12 @@
        "nm.text": "",
        "nm.turn": "",
        "st.set": "coast：リリパットの北東の岸と王の港（海峡の南の端、200 m）",
-       "st.cam": "(800, -1700, 136)",
+       "st.cam": "(250, -1900, 136)",
        "st.look": "(0, 160000, 300)",
        "st.fov": "横 46.7° × 縦 35°",
        "st.figures": "FG-e03-p13-k1-01 CH-01 ガリヴァー（革の胴着） (0, 160000, -1300) 向き 180° stand-in-water / FG-e03-p13-k1-02 CH-02 皇帝 (0, -900, 0) 向き 0° stand",
        "st.crowds": "浜で待つ宮廷（創作の人数）（207）",
-       "st.models": "舞台 coast（cad artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587 c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
+       "st.models": "舞台 coast（cad artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
        "st.underlay": "underlay/e03-p13-k1.jpg",
        "st.plan": "plans/e03-p13-k1.svg"
       }
@@ -2551,12 +2551,12 @@
        "nm.text": "台詞（ガリヴァー）：リリパットのいと強き皇帝、万歳！",
        "nm.turn": "",
        "st.set": "coast：リリパットの北東の岸と王の港（海峡の南の端、200 m）",
-       "st.cam": "(450, -600, 136)",
+       "st.cam": "(150, -1500, 136)",
        "st.look": "(0, 12000, 1300)",
        "st.fov": "横 46.7° × 縦 35°",
        "st.figures": "FG-e03-p13-k2-01 CH-01 ガリヴァー（革の胴着） (0, 12000, -300) 向き 180° cheer / FG-e03-p13-k2-02 CH-02 皇帝 (0, -900, 0) 向き 0° stand",
        "st.crowds": "浜で待つ宮廷（創作の人数）（207）",
-       "st.models": "舞台 coast（cad artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587 c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
+       "st.models": "舞台 coast（cad artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
        "st.underlay": "underlay/e03-p13-k2.jpg",
        "st.plan": "plans/e03-p13-k2.svg"
       }
@@ -2583,7 +2583,7 @@
        "st.fov": "横 39.5° × 縦 35°",
        "st.figures": "FG-e03-p14-k1-01 CH-01 ガリヴァー（革の胴着） (46000, -2000, 0) 向き 90° kneel / FG-e03-p14-k1-02 CH-02 皇帝 (44000, -2500, 450) 向き -90° orate / FG-e03-p14-k1-03 CH-06 ボルゴラム (42900, -3900, 300) 向き -34.4° arms-crossed",
        "st.crowds": "岸壁の群衆（創作の人数）（615）",
-       "st.models": "舞台 coast（cad artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587 c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
+       "st.models": "舞台 coast（cad artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
        "st.underlay": "underlay/e03-p14-k1.jpg",
        "st.plan": "plans/e03-p14-k1.svg"
       }
@@ -2610,7 +2610,7 @@
        "st.fov": "横 56.9° × 縦 35°",
        "st.figures": "FG-e03-p14-k2-01 CH-01 ガリヴァー（革の胴着） (46000, -2000, 0) 向き 90° kneel / FG-e03-p14-k2-02 CH-02 皇帝 (44000, -2500, 450) 向き -90° orate",
        "st.crowds": "",
-       "st.models": "舞台 coast（cad artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587 c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
+       "st.models": "舞台 coast（cad artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
        "st.underlay": "underlay/e03-p14-k2.jpg",
        "st.plan": "plans/e03-p14-k2.svg"
       }
@@ -2633,11 +2633,11 @@
        "nm.turn": "",
        "st.set": "coast：リリパットの北東の岸と王の港（海峡の南の端、200 m）",
        "st.cam": "(44500, -1500, 436)（quay の上）",
-       "st.look": "(46000, -2000, 950)",
+       "st.look": "(46000, -2000, 1350)",
        "st.fov": "横 62.7° × 縦 29.6°",
        "st.figures": "FG-e03-p15-k1-01 CH-01 ガリヴァー（革の胴着） (46000, -2000, 0) 向き 90° kneel / FG-e03-p15-k1-02 CH-02 皇帝 (44000, -2500, 450) 向き -90° orate",
        "st.crowds": "",
-       "st.models": "舞台 coast（cad artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587 c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
+       "st.models": "舞台 coast（cad artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
        "st.underlay": "underlay/e03-p15-k1.jpg",
        "st.plan": "plans/e03-p15-k1.svg"
       }
@@ -2664,7 +2664,7 @@
        "st.fov": "横 57.8° × 縦 35°",
        "st.figures": "FG-e03-p15-k2-01 CH-06 ボルゴラム (42900, -3900, 300) 向き -34.4° arms-crossed",
        "st.crowds": "岸壁の群衆（創作の人数）（615）",
-       "st.models": "舞台 coast（cad artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587 c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
+       "st.models": "舞台 coast（cad artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
        "st.underlay": "underlay/e03-p15-k2.jpg",
        "st.plan": "plans/e03-p15-k2.svg"
       }
@@ -2691,7 +2691,7 @@
        "st.fov": "横 62.7° × 縦 29.6°",
        "st.figures": "FG-e03-p15-k3-01 CH-06 ボルゴラム (42900, -3900, 300) 向き -34.4° arms-crossed",
        "st.crowds": "岸壁の群衆（創作の人数）（615）",
-       "st.models": "舞台 coast（cad artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587 c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
+       "st.models": "舞台 coast（cad artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
        "st.underlay": "underlay/e03-p15-k3.jpg",
        "st.plan": "plans/e03-p15-k3.svg"
       }
@@ -2718,7 +2718,7 @@
        "st.fov": "横 50.9° × 縦 35°",
        "st.figures": "FG-e03-p16-k1-01 CH-02 皇帝 (44000, -2500, 450) 向き 0° stand / FG-e03-p16-k1-02 CH-01 ガリヴァー（革の胴着） (46000, -2000, 0) 向き 90° kneel",
        "st.crowds": "",
-       "st.models": "舞台 coast（cad artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587 c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
+       "st.models": "舞台 coast（cad artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
        "st.underlay": "underlay/e03-p16-k1.jpg",
        "st.plan": "plans/e03-p16-k1.svg"
       }
@@ -2745,7 +2745,7 @@
        "st.fov": "横 62.7° × 縦 26.2°",
        "st.figures": "FG-e03-p16-k2-01 CH-02 皇帝 (44000, -2500, 450) 向き 0° point / FG-e03-p16-k2-02 CH-01 ガリヴァー（革の胴着） (46000, -2000, 0) 向き 90° kneel",
        "st.crowds": "",
-       "st.models": "舞台 coast（cad artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587 c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
+       "st.models": "舞台 coast（cad artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
        "st.underlay": "underlay/e03-p16-k2.jpg",
        "st.plan": "plans/e03-p16-k2.svg"
       }
@@ -2772,14 +2772,14 @@
        "st.fov": "横 62.7° × 縦 27°",
        "st.figures": "FG-e03-p16-k3-01 CH-01 ガリヴァー（革の胴着） (46000, -2000, 0) 向き 90° kneel",
        "st.crowds": "",
-       "st.models": "舞台 coast（cad artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587 c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
+       "st.models": "舞台 coast（cad artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85 e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e） / 舞台 coast fleet（cad artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd） / 舞台 coast fleet2（cad artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346 95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab） / 舞台 coast cords（cad artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae 40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137）",
        "st.underlay": "underlay/e03-p16-k3.jpg",
        "st.plan": "plans/e03-p16-k3.svg"
       }
      }
     ]
    },
-   "contentHash": "1360bdd0c5de5d0c66f050c77eeb70020e0f47bd1f29debd5b3d1fd6021650bb"
+   "contentHash": "0aee3614a7339804ae49bc2dc168d8c09a489e39431042f4a677d6aeedbdb60a"
   }
  ]
 }

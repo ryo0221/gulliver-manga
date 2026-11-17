@@ -108,3 +108,42 @@ cp -r part1/name/stage $SB/gulliver-ep02-stage; mkdir $SB/gulliver-ep02-rough; c
 GM_OUT=/tmp/rough2 npx vitest run apps/artifact-host/src/creative/story-board/gulliver-ep02-rough.build.test.ts
 node gm-svg2png.tmp.mjs /tmp/rough2/pages /tmp/rough2/png
 ```
+
+# 第3話「卵の端」ラフ
+
+ネーム `gm1-ep03-name@name-ep03-v1`（16ページ・46コマ、作者確認済み）に、第2話と同じ方法でラフ絵を描きました。成果物は `artifacts/gm1-ep03-rough`（Design）、`gm1-ep03-rough-pages`、`gm1-ep03-rough-figures`、記録は `ep03-rough.json`、ページの絵は `ep03/pages/` です。人物にレルドレザル（CH-05）が加わりました。
+
+## 第2話の学びの入れ方
+
+- `src/episode-notes.py` の第3話の覚え書き：
+  - 続く状態：8-2 まで上着、9-1 で脱いで胴着だけ、9-2〜10-3 は眼鏡無し、10-4〜12-2 は眼鏡、13-1 から濡れた胴着。
+  - 大きさ：館・海岸・艦隊・海峡ごとの比べ（ネームの【大きさ（3D）】の数値と同じ）。昔話（舞台 past・eggs）にはガリヴァーが出ないことを書きました。
+  - LN-e02-02 顔を半分だけ枠に入れない、LN-e02-04 綱・糸・矢を細く、LN-e02-05 引きの絵で頭の上に余白、を全コマ（または当たるコマ）に足しました。
+- `rough-briefs.py`：寝る・腹ばい・泳ぐ姿勢は、3D の姿勢から求めた頭の位置（FK）を使うようにしました。胴着姿（gj）は胴着と素足で書きます。
+- `gulliver-ep03-rough.build.test.ts` は、上の覚え書きが説明に入っていることを確かめます。
+
+## 描き直したコマ（作者に見せる前）
+
+| コマ | 理由 | 直し方 |
+| --- | --- | --- |
+| 9-3 | 海だけに見え、泳ぐガリヴァーが見えなかった | 泳ぐ姿を枠の5分の1ほどで描く覚え書きを足した |
+| 15-1 | ひざまずくガリヴァーの頭が枠の上で切れた（2回） | ネームの舞台のカメラを上に向けた（見る高さ 950→1350 mm）。3回目で描いた |
+
+13-1・13-2 は、皇帝が枠から外れていたので、ラフの前にネームの舞台のカメラを引きました（ネームのページ 13・15 も描き直し）。
+
+## 作者に見てほしいところ
+
+- 2-3：二人の間が空いて、真ん中が何も無く見えます。
+- 5-2：卵が卓の上で大きく見えます（3D では長さ約5 mm）。
+
+## 作り直し方
+
+```sh
+python3 part1/rough/src/rough-briefs.py part1/name/artifacts/gm1-ep03-name-panels.artifact.json part1/name/stage/ep03-stage.json part1/name/stage/underlay $W
+PAR=5 bash part1/rough/src/run-rough.sh $W            # 46コマで約15分
+EPISODE=3 python3 part1/rough/src/rough-assets.py $W $(git rev-parse HEAD) part1/rough
+cp part1/name/gulliver-ep03-name.ts part1/rough/gulliver-ep03-rough*.ts $SB/
+cp -r part1/name/stage/. $SB/gulliver-ep03-stage/; mkdir -p $SB/gulliver-ep03-rough; cp -r part1/rough/ep03-rough.json part1/rough/panels part1/rough/prompts $SB/gulliver-ep03-rough/
+GM_OUT=/tmp/rough3 npx vitest run apps/artifact-host/src/creative/story-board/gulliver-ep03-rough.build.test.ts
+node gm-svg2png.tmp.mjs /tmp/rough3/pages /tmp/rough3/png
+```

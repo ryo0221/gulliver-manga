@@ -4,8 +4,8 @@
  "artwork": [],
  "source": {
   "artifactId": "gm1-ep03-name",
-  "versionId": "version_42791050-3023-40f2-a186-e9daae614fe2",
-  "contentHash": "9f5944944c0c16421d3f64689907661dda8c30f58ce70b7e73c5701a9d361351"
+  "versionId": "version_d5921007-0ef5-4c12-93ed-900b92069522",
+  "contentHash": "c7325cf0ffc4571ba93c76b6460ad273fe5828a8e6887f0a3f8c42c75c8a64e0"
  },
  "direction": "ltr",
  "pages": [
@@ -780,7 +780,7 @@
   },
   {
    "elementId": "underlay-0121",
-   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p07-k3、横 23.8°×縦 35°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
+   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p07-k3、横 23.8°×縦 35°）。モデル：舞台 coast artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85、舞台 coast fleet artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e、舞台 coast fleet2 artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346、舞台 coast cords artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
@@ -790,17 +790,17 @@
   },
   {
    "elementId": "underlay-0129",
-   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p08-k2、横 46.7°×縦 35°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
+   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p08-k2、横 46.7°×縦 35°）。モデル：舞台 coast artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85、舞台 coast fleet artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e、舞台 coast fleet2 artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346、舞台 coast cords artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0134",
-   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p09-k1、横 56.9°×縦 35°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
+   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p09-k1、横 56.9°×縦 35°）。モデル：舞台 coast artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85、舞台 coast fleet artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e、舞台 coast fleet2 artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346、舞台 coast cords artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0137",
-   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p09-k2、横 62.7°×縦 28.9°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
+   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p09-k2、横 62.7°×縦 28.9°）。モデル：舞台 coast artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85、舞台 coast fleet artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e、舞台 coast fleet2 artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346、舞台 coast cords artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
@@ -855,52 +855,52 @@
   },
   {
    "elementId": "underlay-0179",
-   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p13-k1、横 46.7°×縦 35°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
+   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p13-k1、横 46.7°×縦 35°）。モデル：舞台 coast artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85、舞台 coast fleet artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e、舞台 coast fleet2 artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346、舞台 coast cords artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0182",
-   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p13-k2、横 46.7°×縦 35°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
+   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p13-k2、横 46.7°×縦 35°）。モデル：舞台 coast artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85、舞台 coast fleet artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e、舞台 coast fleet2 artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346、舞台 coast cords artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0189",
-   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p14-k1、横 39.5°×縦 35°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
+   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p14-k1、横 39.5°×縦 35°）。モデル：舞台 coast artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85、舞台 coast fleet artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e、舞台 coast fleet2 artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346、舞台 coast cords artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0192",
-   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p14-k2、横 56.9°×縦 35°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
+   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p14-k2、横 56.9°×縦 35°）。モデル：舞台 coast artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85、舞台 coast fleet artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e、舞台 coast fleet2 artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346、舞台 coast cords artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0199",
-   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p15-k1、横 62.7°×縦 29.6°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
+   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p15-k1、横 62.7°×縦 29.6°）。モデル：舞台 coast artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85、舞台 coast fleet artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e、舞台 coast fleet2 artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346、舞台 coast cords artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0204",
-   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p15-k2、横 57.8°×縦 35°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
+   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p15-k2、横 57.8°×縦 35°）。モデル：舞台 coast artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85、舞台 coast fleet artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e、舞台 coast fleet2 artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346、舞台 coast cords artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0207",
-   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p15-k3、横 62.7°×縦 29.6°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
+   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p15-k3、横 62.7°×縦 29.6°）。モデル：舞台 coast artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85、舞台 coast fleet artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e、舞台 coast fleet2 artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346、舞台 coast cords artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0214",
-   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p16-k1、横 50.9°×縦 35°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
+   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p16-k1、横 50.9°×縦 35°）。モデル：舞台 coast artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85、舞台 coast fleet artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e、舞台 coast fleet2 artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346、舞台 coast cords artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0217",
-   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p16-k2、横 62.7°×縦 26.2°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
+   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p16-k2、横 62.7°×縦 26.2°）。モデル：舞台 coast artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85、舞台 coast fleet artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e、舞台 coast fleet2 artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346、舞台 coast cords artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0224",
-   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p16-k3、横 62.7°×縦 27°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
+   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p16-k3、横 62.7°×縦 27°）。モデル：舞台 coast artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a@version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85、舞台 coast fleet artifact_45f74604-55d1-4ab7-9179-c263c1464626@version_8c00e63b-c642-416e-9ab9-96f85f96913e、舞台 coast fleet2 artifact_d2241bd0-5482-4593-8a7c-30d6283c5695@version_6a5ce0fd-748f-4780-b7db-2e8ef410c346、舞台 coast cords artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4@version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   }
  ],

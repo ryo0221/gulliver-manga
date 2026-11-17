@@ -1,0 +1,23 @@
+Use your image generation tool. Make ONE image: a manga ROUGH (ラフ) for one comic panel, drawn the way a manga artist roughs a panel before inking.
+Style: loose but clear grey pencil lines on white paper, monochrome only (no colour), light grey tone only to separate figures from the background, no finished rendering. Faces must show the direction of the face and the expression; bodies must show the pose with readable joints; contacts (hands, ropes, feet on the body) must be clear.
+The FIRST attached image fixes the composition: keep its camera angle, horizon, and where each object and figure sits and how big it is in the frame. Redraw the blocky stand-ins as real people, horses, ships and places.
+The SECOND attached image is the approved design of Gulliver (CH-01): keep that costume and face design.
+ Gulliver's coat is plain blue in the design but this rough is monochrome: draw it as a plain coat with buttons and NO trim or edging.
+Early-18th-century England and its ships; Lilliput is a country of people 1/12 of Gulliver's size: keep their true size against him (AR-01, no exaggeration).
+No likeness to any film, game or existing illustration. No text, no letters, no speech balloons, no panel border, no signature, no watermark.
+Landscape 1536x1024.
+
+Panel e03-p08-k2, page 8 panel 2, scene SC-010.
+Shot: 中. Camera: 小人の目の高さ, 136 mm above the ground; 浜の地面から、綱と鉤の山と、しゃがむガリヴァーを.
+What the panel shows (storyboard memo): 太い綱50本と鉄の鉤50個の山。綱を三本ずつより合わせるガリヴァー。運んできた小人たち。【大きさ（3D）】小人はガリヴァーの足首より少し上までの背。【細い物（LN-e02-04）】綱はガリヴァーの指より細く、小人の腕ほどの太さ。鉤は小人の手のひらほど。綱の両端を、ガリヴァーの手と鉤の山で必ず見せる。
+Words in this panel (for the mood and the faces only, do NOT draw any text): ナレーション（ガリヴァー）：私は太い綱を50本、鉄の棒を曲げた鉤を50個用意させた。
+Figures, placed by the 3D layout (keep these places, facings and poses; draw each with a readable face direction, pose and expression):
+- FG-e03-p08-k2-01 ガリヴァー — Gulliver (CH-01): 1,750 mm, plain blue coat with brass buttons and NO gold trim, tan breeches, white stockings, black shoes, brown hair tied back; crouching; head at middle-centre of the frame (x 53%, y 36%), facing the camera; 3531 mm from the camera.
+The FIRST image is the 3D layout render from this camera: figures there are blocky stand-ins, ground/sea/walls are flat placeholders. The flat grey bands at the edges of the FIRST image are padding outside the panel: continue the scene into them, nothing important there.
+Continuity: Gulliver wears his plain coat with buttons, breeches, stockings and shoes (no chain any more).
+Size check inside the picture (AR-01): a Lilliputian (150 mm) reaches only a little above Gulliver's ankle; the quay (300 mm high) comes to about the middle of his shin. Never draw the Lilliputians bigger than this.
+Thin things (cables, arrows, hooks) stay thin: cables thinner than Gulliver's finger, arrows like sewing needles; show where each cable starts and ends (LN-e02-04).
+Never cut a face with the frame edge, and never show only part of a face (a nose or a mouth alone): every face in the frame is drawn whole, with its eyes, or not at all (LN-e02-02).
+Always draw a background (ground, sky, sea, walls or the room) even in a close-up; never leave the space behind the figures blank.
+
+After generating, copy the generated PNG to ./raw.png in the current directory. Do not generate more than one image.

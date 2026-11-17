@@ -1,0 +1,25 @@
+Use your image generation tool. Make ONE image: a manga ROUGH (ラフ) for one comic panel, drawn the way a manga artist roughs a panel before inking.
+Style: loose but clear grey pencil lines on white paper, monochrome only (no colour), light grey tone only to separate figures from the background, no finished rendering. Faces must show the direction of the face and the expression; bodies must show the pose with readable joints; contacts (hands, ropes, feet on the body) must be clear.
+The FIRST attached image fixes the composition: keep its camera angle, horizon, and where each object and figure sits and how big it is in the frame. Redraw the blocky stand-ins as real people, horses, ships and places.
+The SECOND attached image is the approved design of Gulliver (CH-01): keep that costume and face design.
+ Gulliver's coat is plain blue in the design but this rough is monochrome: draw it as a plain coat with buttons and NO trim or edging.
+Early-18th-century England and its ships; Lilliput is a country of people 1/12 of Gulliver's size: keep their true size against him (AR-01, no exaggeration).
+No likeness to any film, game or existing illustration. No text, no letters, no speech balloons, no panel border, no signature, no watermark.
+Square 1024x1024.
+
+Panel e03-p12-k1, page 12 panel 1, scene SC-010.
+Shot: 大引き. Camera: 水面すれすれ・水の中, 3000 mm above the ground; 海の上から、艦隊を引いて海峡を戻るガリヴァーを.
+What the panel shows (storyboard memo): 50隻の艦隊を綱で引き、胸まで海につかって海峡を戻るガリヴァー。帆の並ぶ艦隊が後ろに続く。【細い物（LN-e02-04）】手から艦隊の舳先まで約3 m の綱の束（手首より細い）を、両端とも見せる。
+Words in this panel (for the mood and the faces only, do NOT draw any text): (no words)
+Figures, placed by the 3D layout (keep these places, facings and poses; draw each with a readable face direction, pose and expression):
+- FG-e03-p12-k1-01 ガリヴァー（革の胴着） — Gulliver (CH-01): 1,750 mm, coat, shoes and stockings OFF: a sleeveless leather jerkin over his shirt, breeches, bare legs and bare feet, brown hair tied back; wading back through the sea, leaning forward, towing the bundle of cables held in his right hand behind him; head at middle-centre of the frame (x 64%, y 52%), facing the camera; 17000 mm from the camera.
+The FIRST image is the 3D layout render from this camera: figures there are blocky stand-ins, ground/sea/walls are flat placeholders. The flat grey bands at the edges of the FIRST image are padding outside the panel: continue the scene into them, nothing important there.
+Continuity: Gulliver wears a sleeveless leather jerkin over his shirt, breeches, bare legs and feet, and from this panel on a pair of small round SPECTACLES on his nose to guard his eyes from the arrows.
+Size check inside the picture (AR-01): the strait is 800 yards wide; seen this far, Gulliver and the ships are small shapes in the sea.
+Gulliver wades in the sea up to his chest, towing the fleet: the bundle of fifty cables runs from his right hand back to the bows of the first ships (both ends of the cables seen). Leave a tenth of the frame clear above him.
+Gulliver is shown whole in this wide shot: keep his whole head inside the frame with about a tenth of the frame's height clear above it (LN-e02-05).
+Thin things (cables, arrows, hooks) stay thin: cables thinner than Gulliver's finger, arrows like sewing needles; show where each cable starts and ends (LN-e02-04).
+Never cut a face with the frame edge, and never show only part of a face (a nose or a mouth alone): every face in the frame is drawn whole, with its eyes, or not at all (LN-e02-02).
+Always draw a background (ground, sky, sea, walls or the room) even in a close-up; never leave the space behind the figures blank.
+
+After generating, copy the generated PNG to ./raw.png in the current directory. Do not generate more than one image.

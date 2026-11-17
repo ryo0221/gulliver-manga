@@ -33,9 +33,58 @@ PANEL_E02 = {
     'e02-p16-k2': "Sunset light. The inner court is narrow for him: he lies face down between the buildings, his head at the palace window.",
 }
 
+# 第3話。第2話の学び LN-e02-01〜06 は作者が全部採った（2026-11-17）：頭の位置（stage の FK）、顔の一部だけを見せない、
+# 大きさは 3D の数字で（ネームの覚え書きの【大きさ（3D）】）、細い物は太さの比べと両端（【細い物】）、巨人の頭の上に1割の余白。
+# 続く状態：9-1 で上着・靴・靴下を脱ぎ、革の胴着と半ズボンで裸足（本文 "I put off my coat, shoes, and stockings, and walked
+# into the sea, in my leathern jerkin"）。眼鏡は 9-1 で胸の内ポケットへ、10-4 で出してかけ、艦隊を引いて戻るまでかけたまま。
+CONTINUITY_E03 = [
+    ((1, 1), (8, 2), "Continuity: Gulliver wears his plain coat with buttons, breeches, stockings and shoes (no chain any more)."),
+    ((9, 1), (9, 1), "Continuity: Gulliver has just taken off his coat, shoes and stockings: he stands in a sleeveless LEATHER JERKIN over his shirt and breeches, BAREFOOT and bare-legged; the folded coat, shoes and stockings lie at his feet."),
+    ((9, 2), (10, 3), "Continuity: Gulliver wears only a sleeveless leather jerkin over his shirt, and breeches; bare legs and BARE FEET (no coat, no shoes, no stockings). No spectacles on his face yet (they are in the jerkin's inside pocket)."),
+    ((10, 4), (12, 2), "Continuity: Gulliver wears a sleeveless leather jerkin over his shirt, breeches, bare legs and feet, and from this panel on a pair of small round SPECTACLES on his nose to guard his eyes from the arrows."),
+    ((13, 1), (16, 3), "Continuity: Gulliver still wears only the sleeveless leather jerkin over his shirt, and breeches, wet from the sea, bare legs and bare feet (no coat, no shoes)."),
+]
+SIZE_E03 = {
+    'house': "Size check inside the picture (AR-01): Reldresal (150 mm) standing on Gulliver's open palm is a little shorter than the palm and fingers are long (about 190 mm); a Lilliputian's whole head is smaller than Gulliver's eye. Never draw the Lilliputians bigger than this.",
+    'coast': "Size check inside the picture (AR-01): a Lilliputian (150 mm) reaches only a little above Gulliver's ankle; the quay (300 mm high) comes to about the middle of his shin. Never draw the Lilliputians bigger than this.",
+    'fleet': "Size check inside the picture (AR-01): each warship is about as long as Gulliver is tall (1.8 m) and its masts stand about 1.7 m above the water, higher than his head while he is in the sea up to his chest; a sailor (150 mm) is smaller than his hand.",
+    'strait': "Size check inside the picture (AR-01): the strait is 800 yards wide; seen this far, Gulliver and the ships are small shapes in the sea.",
+}
+FLASHBACK_E03 = "This is a FLASHBACK panel (an old story told by Reldresal): only Lilliputians, no giant anywhere; draw it in the same pencil style but slightly softer, as a memory. Everything is Lilliputian: the people, the table, the eggs (a Lilliputian egg is about a third of a Lilliputian's hand long), the palace and the boats are in normal proportion to each other."
+PANEL_E03 = {
+    'e03-p01-k1': "This is the episode's cover (扉): BOTH Gulliver's face (propped on his elbows, looking at the tiny man) and Reldresal standing on Gulliver's open right palm must be clearly seen. Keep a tenth of the frame clear above Gulliver's head.",
+    'e03-p08-k1': "Seen through a pocket telescope: draw the round black vignette of the telescope's lens around the picture; inside it, the rows of anchored warships with soldiers on deck.",
+    'e03-p09-k2': "Gulliver's huge BARE foot steps into the sea; splashes. Show the beach and the sea behind.",
+    # 作者に見せる前の描き直し：9-3 は海だけに見えた、15-1 は頭が枠の上で切れた。
+    'e03-p09-k3': "Retake: in the first try only empty sea showed. Gulliver must be clearly SEEN swimming in the middle of the strait: his head, shoulders and stroking arms with a wake behind him, about a fifth of the frame wide, a little below the centre; far ahead on the horizon the Blefuscu shore and the masts of the fleet.",
+    'e03-p15-k1': "Retake: in the first try Gulliver's head was cut off by the top of the frame. Tilt the view up: draw kneeling Gulliver's WHOLE head and bowed face (eyes lowered, humble) inside the frame, with sky above it; his knee on the ground and his hands on his knee; the quay edge below.",
+    'e03-p13-k1': "The court waits on the beach, seen from behind them: the Emperor (green coat) and his courtiers look out to sea, uneasy. Far out in the sea only Gulliver's head shows above the water, and behind it come the sails of the captured fleet (no giant body visible: he is chest-deep in the sea far away).",
+    'e03-p12-k1': "Gulliver wades in the sea up to his chest, towing the fleet: the bundle of fifty cables runs from his right hand back to the bows of the first ships (both ends of the cables seen). Leave a tenth of the frame clear above him.",
+}
+
 def _key(v): return (int(v['nm.page']), int(v['nm.order']))
 
+def notes_e03(pid, v, p):
+    out = []
+    k = _key(v)
+    flash = p['set'] in ('past', 'eggs')
+    gul = any(g['ch'] == 'CH-01' for g in p['figures'])
+    if gul:
+        for a, b, t in CONTINUITY_E03:
+            if a <= k <= b: out.append(t)
+    if flash: out.append(FLASHBACK_E03)
+    elif p['set'] in SIZE_E03 and gul: out.append(SIZE_E03[p['set']])
+    if pid in PANEL_E03: out.append(PANEL_E03[pid])
+    if gul and v['nm.shot'] in ('引き', '大引き'):
+        out.append("Gulliver is shown whole in this wide shot: keep his whole head inside the frame with about a tenth of the frame's height clear above it (LN-e02-05).")
+    if any(w in v['nm.art'] for w in ('綱', '矢', '鉤')):
+        out.append("Thin things (cables, arrows, hooks) stay thin: cables thinner than Gulliver's finger, arrows like sewing needles; show where each cable starts and ends (LN-e02-04).")
+    out.append("Never cut a face with the frame edge, and never show only part of a face (a nose or a mouth alone): every face in the frame is drawn whole, with its eyes, or not at all (LN-e02-02).")
+    out.append("Always draw a background (ground, sky, sea, walls or the room) even in a close-up; never leave the space behind the figures blank.")
+    return out
+
 def notes(pid, v, p):
+    if pid.startswith('e03-'): return notes_e03(pid, v, p)
     if not pid.startswith('e02-'): return []
     out = []
     k = _key(v)

@@ -1121,29 +1121,29 @@
     {
      "name": "舞台 coast",
      "kind": "cad",
-     "artifactId": "artifact_88b65140-cc2f-4632-bc06-0429d6556f44",
-     "versionId": "version_e82d2cce-0d93-4c87-b30a-67608b128621",
+     "artifactId": "artifact_a10ba35e-b8ae-4fee-acaf-bbc8e3edf31a",
+     "versionId": "version_a5a354dd-7231-4c3a-8dd3-1008ba8dca85",
      "contentHash": "e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e"
     },
     {
      "name": "舞台 coast fleet",
      "kind": "cad",
-     "artifactId": "artifact_785a0ea6-d5be-4350-a9ca-956769650cc5",
-     "versionId": "version_88a81b65-3446-4633-98f5-4d0048ee6587",
+     "artifactId": "artifact_45f74604-55d1-4ab7-9179-c263c1464626",
+     "versionId": "version_8c00e63b-c642-416e-9ab9-96f85f96913e",
      "contentHash": "c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd"
     },
     {
      "name": "舞台 coast fleet2",
      "kind": "cad",
-     "artifactId": "artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b",
-     "versionId": "version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad",
+     "artifactId": "artifact_d2241bd0-5482-4593-8a7c-30d6283c5695",
+     "versionId": "version_6a5ce0fd-748f-4780-b7db-2e8ef410c346",
      "contentHash": "95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab"
     },
     {
      "name": "舞台 coast cords",
      "kind": "cad",
-     "artifactId": "artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335",
-     "versionId": "version_adb25b6f-a30e-40d2-bd05-291cea600244",
+     "artifactId": "artifact_26fe51f2-e5c5-4642-b192-5761a18bf6c4",
+     "versionId": "version_33d393eb-4d4d-4328-9de4-6831f3c2c2ae",
      "contentHash": "40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137"
     }
    ],
@@ -4123,8 +4123,8 @@
    "panel": "e03-p13-k1",
    "set": "coast",
    "cam": [
-    800,
-    -1700,
+    250,
+    -1900,
     136
    ],
    "look": [
@@ -4224,8 +4224,8 @@
    "panel": "e03-p13-k2",
    "set": "coast",
    "cam": [
-    450,
-    -600,
+    150,
+    -1500,
     136
    ],
    "look": [
@@ -4532,7 +4532,7 @@
    "look": [
     46000,
     -2000,
-    950
+    1350
    ],
    "stand": "quay",
    "hfovDeg": 62.7,
