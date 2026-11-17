@@ -88,7 +88,25 @@ const EYE = posePoint('prone-palm', LIE.at, 0, H, 'eye'); // ≈ [0, 1605, 357]
 const HEAD = posePoint('prone-palm', LIE.at, 0, H, 'head');
 const ON_PALM: V3 = [PALM[0], PALM[1], PALM[2] + 25];
 const rel = (pose: Pose = 'orate', facing = Math.PI): Place => ({ fig: 'reldresal', at: ON_PALM, facing, pose });
-const NO_FLASHBACK = '回想（昔の宮廷と国の中）。再現（GV1〜GV7）に昔の場面の 3D は無く、本文と人物表で描く。';
+
+// SC-009 the flashback (Reldresal's tale): three small 創作 sets side by side, all in Lilliput's scale (a man 146 mm,
+// a table 60 mm). The breakfast room at x = 0, the square with the law at x = 3000, the rebellion by the sea at x = −3000.
+const PAST_HIDDEN: V3 = [0, 0, -3000];
+const TABLE_Z = 60; // the top of the breakfast table (a man's table is 0.43 of his height)
+const EGG: CadBox[] = [
+  // An egg in Lilliput's scale is about 5 mm long (a hen's egg ÷ 12). Two broken eggs: the big end cut (left), the small end cut (right).
+  { id: 'egg-big-1', name: '卵（大きい端を割った）下', color: '#efe6d2', at: [-14, 300, TABLE_Z + 6], size: [4, 4, 2.2], cylinder: { r: 1.9, h: 2.2, up: true } },
+  { id: 'egg-big-2', name: '卵（大きい端を割った）上', color: '#efe6d2', at: [-14, 300, TABLE_Z + 8.2], size: [5, 5, 1.6], cylinder: { r: 2.4, h: 1.6, up: true } },
+  { id: 'egg-small-1', name: '卵（小さい端を割った）下', color: '#efe6d2', at: [14, 300, TABLE_Z + 6], size: [5, 5, 2.4], cylinder: { r: 2.4, h: 2.4, up: true } },
+  { id: 'egg-small-2', name: '卵（小さい端を割った）上', color: '#efe6d2', at: [14, 300, TABLE_Z + 8.4], size: [4, 4, 1.2], cylinder: { r: 1.8, h: 1.2, up: true } },
+  { id: 'egg-yolk', name: '卵の黄身', color: '#e8b830', at: [-14, 300, TABLE_Z + 9.7], size: [3, 3, 0.3], cylinder: { r: 1.6, h: 0.3, up: true } },
+  { id: 'egg-cap', name: '割れた殻', color: '#efe6d2', at: [-6, 296, TABLE_Z + 6], size: [3, 3, 1], cylinder: { r: 1.5, h: 1, up: true } },
+];
+const TABLE: CadBox[] = [
+  { id: 'table-top', name: '朝食の卓（天板）', color: '#7a5634', at: [-110, 240, TABLE_Z], size: [220, 120, 6] },
+  { id: 'table-leg', name: '朝食の卓（脚）', color: '#5a3e24', at: [-20, 280, 0], size: [40, 40, TABLE_Z] },
+  { id: 'cloth', name: '卓の白い布', color: '#ece8dc', at: [-60, 270, TABLE_Z + 6], size: [120, 60, 0.4] },
+];
 
 // SC-010/SC-011: the strait between Lilliput (south, y < 0) and Blefuscu (north). 本文: 800 yards across, 70 glumgluffs
 // (about 6 ft) deep in the middle at high water; he swam about 30 yards in the middle. The steps of the bed are 創作.
@@ -176,17 +194,83 @@ const SETS: SetDef[] = [
       { panel: 'e03-p03-k2', cam: [2700, 2650, 75], look: [2500, 2900, 80], places: [{ fig: 'prince', at: [2500, 2850, 0], facing: Math.PI / 2 + 0.3, pose: 'limp' }], crowds: ['court'] },
       { panel: 'e03-p03-k3', cam: [ON_PALM[0] + 20, ON_PALM[1] + 60, ON_PALM[2] + 136], look: [EYE[0], EYE[1], EYE[2] + 20], places: [LIE] },
       { panel: 'e03-p04-k1', cam: [950, 2350, 136], look: [130, 1700, 260], places: [LIE, rel('orate', Math.PI + 0.5)] },
-      { panel: 'e03-p04-k2', cam: [330, 2080, 170], look: [ON_PALM[0], ON_PALM[1], 140], places: [LIE, rel('point')] },
+      { panel: 'e03-p04-k2', cam: [440, 2200, 170], look: [ON_PALM[0] + 50, ON_PALM[1], 170], places: [LIE, rel('point')] },
       { panel: 'e03-p04-k3', cam: [260, 2100, 320], look: [HEAD[0], HEAD[1], HEAD[2]], places: [LIE, rel()] },
-      { panel: 'e03-p04-k4', cam: [0, 0, 120], look: [0, 1, 0], places: [], noModel: NO_FLASHBACK },
-      { panel: 'e03-p05-k1', cam: [0, 0, 136], look: [0, 1, 0], places: [], noModel: NO_FLASHBACK },
-      { panel: 'e03-p05-k2', cam: [0, 0, 40], look: [0, 1, 0], places: [], noModel: '卵の寄り（大きい端と小さい端）。3D の舞台は使わない。' },
-      { panel: 'e03-p05-k3', cam: [0, 0, 500], look: [0, 1, 0], places: [], noModel: NO_FLASHBACK },
       { panel: 'e03-p06-k1', cam: [470, 2080, 136], look: [ON_PALM[0], ON_PALM[1], 150], places: [LIE, rel('stand')] },
       { panel: 'e03-p06-k2', cam: [-260, 2080, 330], look: [HEAD[0], HEAD[1], HEAD[2]], places: [LIE, rel('stand')] },
       { panel: 'e03-p06-k3', cam: [640, 1900, 130], look: [ON_PALM[0], ON_PALM[1], 150], places: [LIE, rel('bow', Math.PI - 0.6)] },
       { panel: 'e03-p06-k4', cam: [-2300, 3900, 650], look: [0, 1200, 300], places: [LIE, rel('stand')] },
     ],
+  },
+  {
+    id: 'past',
+    name: '回想：昔の宮廷の朝食の間、法を読み上げる広場、海辺の反乱（創作）',
+    scenes: ['SC-009'],
+    hidden: PAST_HIDDEN,
+    model: {
+      reason: '再現（GV1〜GV7）に昔の場面の 3D は無い。本文（卵を割って指を切った皇子、小さい端から割る法、6度の反乱とブレフスキュへ逃げた者）から、創作の小さな舞台を置いた仮の3D。',
+      cad: [
+        { id: 'floor', name: '朝食の間の床', color: '#8a6a48', at: [-400, -200, -10], size: [800, 900, 10] },
+        { id: 'wall', name: '朝食の間の奥の壁', color: '#d8cdb4', at: [-400, 620, 0], size: [800, 20, 260] },
+        { id: 'wall-l', name: '朝食の間の左の壁', color: '#cfc3a8', at: [-420, -200, 0], size: [20, 840, 260] },
+        { id: 'wall-r', name: '朝食の間の右の壁', color: '#cfc3a8', at: [400, -200, 0], size: [20, 840, 260] },
+        { id: 'window', name: '奥の壁の窓', color: '#a9c4d8', at: [100, 615, 90], size: [80, 6, 110] },
+        ...TABLE,
+        ...EGG,
+        { id: 'chair', name: '幼い皇子の椅子', color: '#6a4a2c', at: [-170, 170, 0], size: [50, 50, 32] },
+        { id: 'square', name: '法を読み上げる広場', color: '#b9ae98', at: [2200, -900, -10], size: [1600, 1600, 10] },
+        { id: 'palace', name: '王宮の正面', color: '#d2c3a0', at: [2200, 520, 0], size: [1600, 200, 520] },
+        { id: 'palace-door', name: '王宮の扉', color: '#6a4a2c', at: [2930, 515, 0], size: [140, 6, 230] },
+        { id: 'steps', name: '王宮の前の段', color: '#c4b48e', at: [2850, 380, 0], size: [300, 140, 60] },
+        { id: 'board-post', name: '高札の柱', color: '#5a3e24', at: [3290, 140, 0], size: [8, 8, 210] },
+        { id: 'board', name: '高札', color: '#e2d6b6', at: [3230, 136, 120], size: [130, 4, 80] },
+        { id: 'rebel-ground', name: '反乱の広場', color: '#a89c84', at: [-3800, -1000, -10], size: [1600, 1400, 10] },
+        { id: 'rebel-beach', name: '海辺の浜', color: '#cdbb8e', at: [-3800, 400, -8], size: [1600, 300, 8] },
+        { id: 'rebel-sea', name: '海', color: '#4f7894', at: [-3800, 700, -12], size: [1600, 1300, 4] },
+        { id: 'house-a', name: '燃える家', color: '#9a8a70', at: [-3700, -300, 0], size: [260, 220, 220] },
+        { id: 'fire-a', name: '炎', color: '#e07a2a', at: [-3680, -280, 220], size: [200, 160, 120], opacity: 0.85 },
+        { id: 'house-b', name: '燃える家（浜の近く）', color: '#9a8a70', at: [-2620, 60, 0], size: [220, 200, 200] },
+        { id: 'fire-b', name: '炎', color: '#e0a02a', at: [-2600, 80, 200], size: [180, 160, 110], opacity: 0.85 },
+        { id: 'boat-1', name: '逃げる小舟1', color: '#5a4030', at: [-3150, 900, -8], size: [70, 200, 22] },
+        { id: 'boat-2', name: '逃げる小舟2', color: '#5a4030', at: [-2850, 1250, -8], size: [70, 200, 22] },
+        { id: 'boat-3', name: '逃げる小舟3', color: '#5a4030', at: [-3350, 1500, -8], size: [70, 200, 22] },
+        { id: 'boat-folk', name: '小舟の人々', color: '#3a3a4a', at: [-3140, 960, 14], size: [50, 80, 60] },
+        { id: 'tower', name: '広場を見下ろす塔', color: '#8c8070', at: [-3080, -1000, 0], size: [160, 160, 364] },
+      ],
+    },
+    actors: [
+      { id: 'boy', who: 'EX', name: '幼い皇子（今の皇帝の祖父）', height: 95, look: { coat: '#b08a3a', breeches: '#6a5430', stockings: '#efe7d6', shoes: '#2b2622', skin: '#ecc8a4', hair: '#6a4a2c' } },
+      lil('nurse', '給仕', 2, 'EX'),
+      { id: 'oldemp', who: 'EX', name: '昔の皇帝（皇子の父）', height: 158, look: { coat: '#6a2f3a', breeches: '#4a2028', stockings: '#efe7d6', shoes: '#2b2622', skin: '#e2bc98', hair: '#c8c0b0' } },
+      lil('herald', '布告役', 0, 'EX'),
+      lil('r1', '剣を掲げる反乱の民1', 1, 'EX'), lil('r2', '剣を掲げる反乱の民2', 3, 'EX'), lil('r3', '反乱の民3', 0, 'EX'),
+    ],
+    crowds: [
+      { id: 'folk', name: '法を見上げる民（創作の人数）', people: [...grid(2550, -560, 2860, -160, 130, 0, 0, 61), ...grid(3140, -560, 3450, -160, 130, 0, 0, 62)] },
+      { id: 'rebels', name: '反乱の民（創作の人数）', people: grid(-3400, -500, -2700, 0, 120, 0, Math.PI / 2, 63) },
+    ],
+    shots: [
+      { panel: 'e03-p04-k4', cam: [-200, 120, 120], look: [20, 300, 75], places: [
+        { fig: 'boy', at: [-25, 215, 0], facing: 0, pose: 'read' }, { fig: 'nurse', at: [-200, 380, 0], facing: -0.6, pose: 'hands-together' }] },
+      { panel: 'e03-p05-k1', cam: [3000, -820, 136], look: [3000, 400, 170], places: [
+        { fig: 'oldemp', at: [3000, 450, 60], facing: Math.PI, pose: 'orate' }, { fig: 'herald', at: [3180, 330, 0], facing: Math.PI, pose: 'read' }], crowds: ['folk'] },
+      { panel: 'e03-p05-k3', cam: [-3000, -920, 500], look: [-3050, 500, 40], stand: 'tower', places: [
+        { fig: 'r1', at: [-3050, -150, 0], facing: Math.PI / 2, pose: 'sword-up' }, { fig: 'r2', at: [-2900, -250, 0], facing: Math.PI / 2, pose: 'sword-up' }, { fig: 'r3', at: [-3150, -300, 0], facing: Math.PI / 2, pose: 'point' }], crowds: ['rebels'] },
+    ],
+  },
+  {
+    id: 'eggs',
+    name: '回想：卓の上の割られた二つの卵（創作）',
+    scenes: ['SC-009'],
+    model: {
+      reason: '卵の寄り。朝食の卓（past と同じ寸法）と二つの卵だけの舞台（小さな物の寄りは、舞台が小さいほど手前で切れない）。',
+      cad: [...TABLE, ...EGG],
+    },
+    // The character view is Ready only with a figure in it: the boy waits under the table, out of the shot.
+    hidden: [0, 300, -200],
+    actors: [{ id: 'boy', who: 'EX', name: '幼い皇子（今の皇帝の祖父）', height: 95, look: { coat: '#b08a3a', breeches: '#6a5430', stockings: '#efe7d6', shoes: '#2b2622', skin: '#ecc8a4', hair: '#6a4a2c' } }],
+    crowds: [],
+    shots: [{ panel: 'e03-p05-k2', cam: [0, 248, 70], look: [0, 300, 66], places: [] }],
   },
   {
     id: 'strait',
@@ -243,9 +327,9 @@ const SETS: SetDef[] = [
   const face = (p: Place, d: [number, number], z: number): Pick<Shot, 'cam' | 'look'> => { const q = gHead(p); return { cam: [q[0] + d[0], q[1] + d[1], z], look: q }; };
   const WATER_EYE = 830;
   const DECK_EYE = 286;
-  SETS[1]!.shots = [
+  SETS.find((x) => x.id === 'strait')!.shots = [
     { panel: 'e03-p07-k1', cam: [-2600, -25600, 5300], look: [400, -14000, 4600], stand: 'hill', places: [{ fig: 'gulliver', at: ON_HILL, facing: 0, pose: 'telescope' }] },
-    { panel: 'e03-p07-k2', cam: [-160_000, -140_000, 140_000], look: [0, 380_000, 0], places: [{ fig: 'gulliver', at: ON_HILL, facing: 0, pose: 'telescope' }], vessels: { fleet: { at: ANCHORED } } },
+    { panel: 'e03-p07-k2', cam: [-20_000, -250_000, 140_000], look: [0, 150_000, 0], places: [{ fig: 'gulliver', at: ON_HILL, facing: 0, pose: 'telescope' }], vessels: { fleet: { at: ANCHORED } } },
     { panel: 'e03-p07-k3', cam: [700, -6100, 136], look: [2900, -8000, 1000], places: [{ fig: 'gulliver', at: [3000, -8000, 0], facing: Math.PI / 2, pose: 'crouch' }, { fig: 's1', at: [2600, -7900, 0], facing: -Math.PI / 2, pose: 'point' }], crowds: ['seamen'] },
     { panel: 'e03-p08-k1', cam: [0, 690_000, 1500], look: [0, 712_000, 300], places: [], crowds: ['crew'], vessels: { fleet: { at: ANCHORED } } },
     { panel: 'e03-p08-k2', cam: [5500, -5800, 136], look: [3250, -7900, 950], places: [{ fig: 'gulliver', at: [3000, -8000, 0], facing: -Math.PI / 2, pose: 'crouch' }], crowds: ['workers'] },
@@ -274,12 +358,12 @@ const SETS: SetDef[] = [
     { panel: 'e03-p16-k3', ...face(KNEEL, [-700, -500], 1300), places: [KNEEL], vessels: { fleet: MOORED } },
   ];
   // Both halves of the fleet stand where the shot puts the fleet.
-  for (const shot of SETS[1]!.shots) if (shot.vessels?.fleet) shot.vessels.fleet2 = shot.vessels.fleet;
+  for (const shot of SETS.find((x) => x.id === 'strait')!.shots) if (shot.vessels?.fleet) shot.vessels.fleet2 = shot.vessels.fleet;
   // The character view's near plane is 1/1000 of the whole scene's size: with the whole strait (1.3 km) it is 1.3 m and
   // every close shot is cut away. The close shots stand in two cut-outs of the same model (the same coordinates):
   // the Lilliput coast with the port, and the water around the fleet with the Blefuscu shore. The whole strait keeps
   // only the far shots.
-  const whole = SETS[1]!;
+  const whole = SETS.find((x) => x.id === 'strait')!;
   const clip = (win: [number, number, number, number]) =>
     whole.model.cad.flatMap((b): CadBox[] => {
       const x0 = Math.max(b.at[0], win[0]), y0 = Math.max(b.at[1], win[1]);

@@ -92,15 +92,23 @@ GM_OUT=/tmp/name2 npx vitest run apps/artifact-host/src/creative/story-board/gul
 `gulliver-ep03-name.ts`（16ページ・46コマ、`name-ep03-v1`）。成果物は `artifacts/gm1-ep03-name`（Design）と `artifacts/gm1-ep03-name-panels`（コマの表）、ページの絵は `ep03/pages/` です。舞台は `src/gulliver-ep03-stage.demo.ts` の4つで、記録は `stage/ep03-stage.json` です。
 
 - house：ガリヴァーの住まい（F106）。寝そべるガリヴァーの手のひらにレルドレサルが立つ。ポーズは `src/gulliver-stage-poses.ts`（第2話のポーズに、prone-palm・望遠鏡・水を歩く・曳く などを足した）。
+- past：回想（4-4・5-1・5-3）。昔の宮廷の朝食の間、法を読み上げる王宮前の広場、燃える家と小舟で逃げる海辺の反乱を、創作の小さな舞台として並べた（作者 2026-11-17「先に3Dで撮って」）。
+- eggs：5-2 の卵の寄り。小人の卵は長さ約5 mm なので、卓と卵だけの小さな舞台にした（舞台が小さいほど、カメラの手前で切れない）。人物がいないと編集画面が Ready にならないので、幼い皇子を卓の下に隠して置いた。
 - strait：幅800ヤードの海峡とリリパット・ブレフスキュの両岸（引きのコマだけ）。
 - coast / fleet：海峡のうち、リリパットの岸と艦隊のまわりだけを切り出した舞台。1.3 km の海峡を1つの舞台にすると、カメラの手前の切り取り面（全体の大きさの1/1000）が数メートルになり、寄りのコマで人物が切れるためです。
 - 艦隊50隻は、1隻を船体・帆柱・帆2枚の箱4つにし、色ごとに1つのボディにまとめました（CAD の上限：フィーチャー256、ボディ64）。
+- 第2話の学び LN-e02-01〜06 は、作者の選択（2026-11-17「全部いれてください」）で全部採りました。ネームでは次のように入れ、テストで確かめています。
+  - LN-e02-01・05：引き・大引きのコマで、ガリヴァーの頭のてっぺん（FK の頭の位置 + 120 mm）が枠の中にあり、上にコマの1割の余白があること。地図のコマ 7-2 は、小山のガリヴァーが枠の外だったので、両岸と小山が入るよう撮り直しました。
+  - LN-e02-02：顔の一部だけを見せる覚え書きを書かない。
+  - LN-e02-03：大きさの違うコマの覚え書きに、3D の舞台で測った数字を【大きさ（3D）】として書く。
+  - LN-e02-04：綱・矢の覚え書きに、太さの比べと両端を【細い物】として書く。
+  - LN-e02-06（FLAT_BG、ラフの描き直し）はラフと仕上げの工程で使います。
 - ポーズの `at` は腰の位置です。頭・目・手のひらの位置は `posePoint`（FK）で求め、`ep03-stage.json` の `points` に残しています。
 
 ```sh
 cp <gm>/part1/name/src/gulliver-ep03-stage.demo.ts <gm>/part1/name/src/gulliver-stage-poses.ts tests/demo/
 cp <gm>/part1/name/src/gulliver-ep03-stage.config.ts gm-stage3.config.ts
-CAD_OCCT_DIST=$PWD/work/cad-kernel STAGE_OUT=/tmp/stage3 npx playwright test -c gm-stage3.config.ts --trace off   # 4つの舞台、約5分（STAGE_SETS=coast,fleet で一部だけ）
+CAD_OCCT_DIST=$PWD/work/cad-kernel STAGE_OUT=/tmp/stage3 npx playwright test -c gm-stage3.config.ts --trace off   # 6つの舞台、約6分（STAGE_SETS=coast,fleet で一部だけ）
 GM_STAGE=/nonexistent GM_NO_STAGE=1 GM_OUT=/tmp/name3 npx vitest run apps/artifact-host/src/creative/story-board/gulliver-ep03-name.build.test.ts   # 先にページだけ
 python3 <gm>/part1/name/src/stage-assets.py /tmp/stage3 /tmp/name3/artifacts/gm1-ep03-name.artifact.json <gm>/part1/name/stage 3
 cp -r <gm>/part1/name/stage/. $SB/gulliver-ep03-stage/

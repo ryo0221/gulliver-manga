@@ -4,8 +4,8 @@
  "artwork": [],
  "source": {
   "artifactId": "gm1-ep03-name",
-  "versionId": "version_3f273e24-6fb6-4085-a197-65d50fd99573",
-  "contentHash": "0b9c80a80e4aece49d7975c5fe92aea21c2b7ac7d9cb493adb735c56b394be9f"
+  "versionId": "version_42791050-3023-40f2-a186-e9daae614fe2",
+  "contentHash": "9f5944944c0c16421d3f64689907661dda8c30f58ce70b7e73c5701a9d361351"
  },
  "direction": "ltr",
  "pages": [
@@ -675,211 +675,231 @@
  "images": [
   {
    "elementId": "underlay-0001",
-   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p01-k1、横 34.1°×縦 35°）。モデル：F106 古い神殿 artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e、舞台 house artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5",
+   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p01-k1、横 34.1°×縦 35°）。モデル：F106 古い神殿 artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504、舞台 house artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0005",
-   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p01-k2、横 62.7°×縦 29.6°）。モデル：F106 古い神殿 artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e、舞台 house artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5",
+   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p01-k2、横 62.7°×縦 29.6°）。モデル：F106 古い神殿 artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504、舞台 house artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0008",
-   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p02-k1、横 56.9°×縦 35°）。モデル：F106 古い神殿 artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e、舞台 house artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5",
+   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p02-k1、横 56.9°×縦 35°）。モデル：F106 古い神殿 artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504、舞台 house artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0015",
-   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p02-k2、横 62.7°×縦 28.9°）。モデル：F106 古い神殿 artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e、舞台 house artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5",
+   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p02-k2、横 62.7°×縦 28.9°）。モデル：F106 古い神殿 artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504、舞台 house artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0022",
-   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p02-k3、横 62.7°×縦 29.6°）。モデル：F106 古い神殿 artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e、舞台 house artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5",
+   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p02-k3、横 62.7°×縦 29.6°）。モデル：F106 古い神殿 artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504、舞台 house artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0025",
-   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p03-k1、横 56.9°×縦 35°）。モデル：F106 古い神殿 artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e、舞台 house artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5",
+   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p03-k1、横 56.9°×縦 35°）。モデル：F106 古い神殿 artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504、舞台 house artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0032",
-   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p03-k2、横 62.7°×縦 28.9°）。モデル：F106 古い神殿 artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e、舞台 house artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5",
+   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p03-k2、横 62.7°×縦 28.9°）。モデル：F106 古い神殿 artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504、舞台 house artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0035",
-   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p03-k3、横 62.7°×縦 29.6°）。モデル：F106 古い神殿 artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e、舞台 house artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5",
+   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p03-k3、横 62.7°×縦 29.6°）。モデル：F106 古い神殿 artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504、舞台 house artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0042",
-   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p04-k1、横 56.9°×縦 35°）。モデル：F106 古い神殿 artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e、舞台 house artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5",
+   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p04-k1、横 56.9°×縦 35°）。モデル：F106 古い神殿 artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504、舞台 house artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0049",
-   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p04-k2、横 34.6°×縦 35°）。モデル：F106 古い神殿 artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e、舞台 house artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5",
+   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p04-k2、横 34.6°×縦 35°）。モデル：F106 古い神殿 artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504、舞台 house artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0056",
-   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p04-k3、横 45.4°×縦 35°）。モデル：F106 古い神殿 artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e、舞台 house artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5",
+   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p04-k3、横 45.4°×縦 35°）。モデル：F106 古い神殿 artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504、舞台 house artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
-   "elementId": "underlay-0083",
-   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p06-k1、横 62.7°×縦 29.6°）。モデル：F106 古い神殿 artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e、舞台 house artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5",
+   "elementId": "underlay-0063",
+   "source": "3D の舞台「回想：昔の宮廷の朝食の間、法を読み上げる広場、海辺の反乱（創作）」のカメラの絵（e03-p04-k4、横 62.7°×縦 29.6°）。モデル：舞台 past artifact_773026e4-d01a-4d7c-8ff7-a67f53fb496b@version_620548e3-4d34-4794-b414-fbe221ef5cda",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
-   "elementId": "underlay-0090",
-   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p06-k2、横 44.2°×縦 35°）。モデル：F106 古い神殿 artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e、舞台 house artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5",
+   "elementId": "underlay-0070",
+   "source": "3D の舞台「回想：昔の宮廷の朝食の間、法を読み上げる広場、海辺の反乱（創作）」のカメラの絵（e03-p05-k1、横 56.9°×縦 35°）。モデル：舞台 past artifact_773026e4-d01a-4d7c-8ff7-a67f53fb496b@version_620548e3-4d34-4794-b414-fbe221ef5cda",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
-   "elementId": "underlay-0097",
-   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p06-k3、横 35.8°×縦 35°）。モデル：F106 古い神殿 artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e、舞台 house artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5",
+   "elementId": "underlay-0077",
+   "source": "3D の舞台「回想：卓の上の割られた二つの卵（創作）」のカメラの絵（e03-p05-k2、横 48°×縦 21.3°）。モデル：舞台 eggs artifact_207d35aa-877c-45ab-92f0-a2df8189ad33@version_3ac019b9-e674-41a0-b7c3-8ab1ffd03357",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
-   "elementId": "underlay-0104",
-   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p06-k4、横 56.9°×縦 35°）。モデル：F106 古い神殿 artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e、舞台 house artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5",
+   "elementId": "underlay-0080",
+   "source": "3D の舞台「回想：昔の宮廷の朝食の間、法を読み上げる広場、海辺の反乱（創作）」のカメラの絵（e03-p05-k3、横 62.7°×縦 29.6°）。モデル：舞台 past artifact_773026e4-d01a-4d7c-8ff7-a67f53fb496b@version_620548e3-4d34-4794-b414-fbe221ef5cda",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
-   "elementId": "underlay-0109",
-   "source": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」のカメラの絵（e03-p07-k1、横 46.7°×縦 35°）。モデル：舞台 strait artifact_a8d511fc-0e4f-42cf-85b6-674f0ee53d86@version_3c0b2445-b7f0-4759-8e2f-a09938884dc6、舞台 strait fleet artifact_2bb7e1a2-e91e-47fe-8beb-b448677e0d85@version_f6f155f6-7db2-4c42-a164-b2b5693464c1、舞台 strait fleet2 artifact_96689529-a2c4-49db-9846-33ecc8a735eb@version_db180474-0bfe-46ff-a306-308c12d0318b、舞台 strait cords artifact_3a31478a-f1e5-428a-92b7-030714645844@version_473c4d6a-1bf7-491f-a3fa-bd5c0b90bd2c",
+   "elementId": "underlay-0087",
+   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p06-k1、横 62.7°×縦 29.6°）。モデル：F106 古い神殿 artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504、舞台 house artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
-   "elementId": "underlay-0112",
-   "source": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」のカメラの絵（e03-p07-k2、横 23.8°×縦 35°）。モデル：舞台 strait artifact_a8d511fc-0e4f-42cf-85b6-674f0ee53d86@version_3c0b2445-b7f0-4759-8e2f-a09938884dc6、舞台 strait fleet artifact_2bb7e1a2-e91e-47fe-8beb-b448677e0d85@version_f6f155f6-7db2-4c42-a164-b2b5693464c1、舞台 strait fleet2 artifact_96689529-a2c4-49db-9846-33ecc8a735eb@version_db180474-0bfe-46ff-a306-308c12d0318b、舞台 strait cords artifact_3a31478a-f1e5-428a-92b7-030714645844@version_473c4d6a-1bf7-491f-a3fa-bd5c0b90bd2c",
+   "elementId": "underlay-0094",
+   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p06-k2、横 44.2°×縦 35°）。モデル：F106 古い神殿 artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504、舞台 house artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
-   "elementId": "underlay-0117",
+   "elementId": "underlay-0101",
+   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p06-k3、横 35.8°×縦 35°）。モデル：F106 古い神殿 artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504、舞台 house artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0108",
+   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p06-k4、横 56.9°×縦 35°）。モデル：F106 古い神殿 artifact_f8c6c665-0ed4-45aa-8be9-37e0a29a6521@version_2749ad99-6d1d-44f7-a717-cd88cb946504、舞台 house artifact_34162bfd-b738-447a-b840-48664e7da7a9@version_72cf9691-db9b-495f-87a1-fa6656bce0c8",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0113",
+   "source": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」のカメラの絵（e03-p07-k1、横 46.7°×縦 35°）。モデル：舞台 strait artifact_fdb39db6-18c6-429c-be15-d205d2083866@version_6164aa92-11de-4610-8e15-fb29cdd74b05、舞台 strait fleet artifact_f9d5c7a7-272f-4bab-a124-b9efbb92d7a9@version_43e8de01-f054-4818-889e-93c0af0f2c96、舞台 strait fleet2 artifact_e826cd6e-63df-4e32-8af4-866611b62443@version_a90f3689-7111-4fe7-bf2a-bc82130a48a2、舞台 strait cords artifact_e0aeaba7-4461-4be3-9a70-5dabc602f05c@version_b0355f09-d681-4b33-a9cc-7b9b87b0b442",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0116",
+   "source": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」のカメラの絵（e03-p07-k2、横 23.8°×縦 35°）。モデル：舞台 strait artifact_fdb39db6-18c6-429c-be15-d205d2083866@version_6164aa92-11de-4610-8e15-fb29cdd74b05、舞台 strait fleet artifact_f9d5c7a7-272f-4bab-a124-b9efbb92d7a9@version_43e8de01-f054-4818-889e-93c0af0f2c96、舞台 strait fleet2 artifact_e826cd6e-63df-4e32-8af4-866611b62443@version_a90f3689-7111-4fe7-bf2a-bc82130a48a2、舞台 strait cords artifact_e0aeaba7-4461-4be3-9a70-5dabc602f05c@version_b0355f09-d681-4b33-a9cc-7b9b87b0b442",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0121",
    "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p07-k3、横 23.8°×縦 35°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
-   "elementId": "underlay-0122",
+   "elementId": "underlay-0126",
    "source": "3D の舞台「ブレフスキュの艦隊のまわりの海とブレフスキュの浜（海峡の北の端）」のカメラの絵（e03-p08-k1、横 46.7°×縦 35°）。モデル：舞台 fleet artifact_0ac3ae01-79e7-42be-96ea-1750ad721370@version_4424048c-a895-4d7d-a1ed-72e222782247、舞台 fleet fleet artifact_7a8177f3-e8b9-4753-9a00-a99f5d9b60c2@version_cae013a1-8b58-42b2-838f-e49d2b22613b、舞台 fleet fleet2 artifact_37e30a1f-07e4-4d60-9e19-07d01180c0c6@version_6c98a7b0-fc9a-40f3-848f-339aef34221c、舞台 fleet cords artifact_afede8e6-6ea9-450a-8918-54287d23fa33@version_c52d9e52-f1ec-4768-827a-7816edac1589",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
-   "elementId": "underlay-0125",
+   "elementId": "underlay-0129",
    "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p08-k2、横 46.7°×縦 35°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
-   "elementId": "underlay-0130",
+   "elementId": "underlay-0134",
    "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p09-k1、横 56.9°×縦 35°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
-   "elementId": "underlay-0133",
+   "elementId": "underlay-0137",
    "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p09-k2、横 62.7°×縦 28.9°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
-   "elementId": "underlay-0137",
-   "source": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」のカメラの絵（e03-p09-k3、横 62.7°×縦 29.6°）。モデル：舞台 strait artifact_a8d511fc-0e4f-42cf-85b6-674f0ee53d86@version_3c0b2445-b7f0-4759-8e2f-a09938884dc6、舞台 strait fleet artifact_2bb7e1a2-e91e-47fe-8beb-b448677e0d85@version_f6f155f6-7db2-4c42-a164-b2b5693464c1、舞台 strait fleet2 artifact_96689529-a2c4-49db-9846-33ecc8a735eb@version_db180474-0bfe-46ff-a306-308c12d0318b、舞台 strait cords artifact_3a31478a-f1e5-428a-92b7-030714645844@version_473c4d6a-1bf7-491f-a3fa-bd5c0b90bd2c",
+   "elementId": "underlay-0141",
+   "source": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」のカメラの絵（e03-p09-k3、横 62.7°×縦 29.6°）。モデル：舞台 strait artifact_fdb39db6-18c6-429c-be15-d205d2083866@version_6164aa92-11de-4610-8e15-fb29cdd74b05、舞台 strait fleet artifact_f9d5c7a7-272f-4bab-a124-b9efbb92d7a9@version_43e8de01-f054-4818-889e-93c0af0f2c96、舞台 strait fleet2 artifact_e826cd6e-63df-4e32-8af4-866611b62443@version_a90f3689-7111-4fe7-bf2a-bc82130a48a2、舞台 strait cords artifact_e0aeaba7-4461-4be3-9a70-5dabc602f05c@version_b0355f09-d681-4b33-a9cc-7b9b87b0b442",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
-   "elementId": "underlay-0140",
+   "elementId": "underlay-0144",
    "source": "3D の舞台「ブレフスキュの艦隊のまわりの海とブレフスキュの浜（海峡の北の端）」のカメラの絵（e03-p10-k1、横 56.9°×縦 35°）。モデル：舞台 fleet artifact_0ac3ae01-79e7-42be-96ea-1750ad721370@version_4424048c-a895-4d7d-a1ed-72e222782247、舞台 fleet fleet artifact_7a8177f3-e8b9-4753-9a00-a99f5d9b60c2@version_cae013a1-8b58-42b2-838f-e49d2b22613b、舞台 fleet fleet2 artifact_37e30a1f-07e4-4d60-9e19-07d01180c0c6@version_6c98a7b0-fc9a-40f3-848f-339aef34221c、舞台 fleet cords artifact_afede8e6-6ea9-450a-8918-54287d23fa33@version_c52d9e52-f1ec-4768-827a-7816edac1589",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
-   "elementId": "underlay-0143",
+   "elementId": "underlay-0147",
    "source": "3D の舞台「ブレフスキュの艦隊のまわりの海とブレフスキュの浜（海峡の北の端）」のカメラの絵（e03-p10-k2、横 44.2°×縦 35°）。モデル：舞台 fleet artifact_0ac3ae01-79e7-42be-96ea-1750ad721370@version_4424048c-a895-4d7d-a1ed-72e222782247、舞台 fleet fleet artifact_7a8177f3-e8b9-4753-9a00-a99f5d9b60c2@version_cae013a1-8b58-42b2-838f-e49d2b22613b、舞台 fleet fleet2 artifact_37e30a1f-07e4-4d60-9e19-07d01180c0c6@version_6c98a7b0-fc9a-40f3-848f-339aef34221c、舞台 fleet cords artifact_afede8e6-6ea9-450a-8918-54287d23fa33@version_c52d9e52-f1ec-4768-827a-7816edac1589",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
-   "elementId": "underlay-0147",
+   "elementId": "underlay-0151",
    "source": "3D の舞台「ブレフスキュの艦隊のまわりの海とブレフスキュの浜（海峡の北の端）」のカメラの絵（e03-p10-k3、横 35.8°×縦 35°）。モデル：舞台 fleet artifact_0ac3ae01-79e7-42be-96ea-1750ad721370@version_4424048c-a895-4d7d-a1ed-72e222782247、舞台 fleet fleet artifact_7a8177f3-e8b9-4753-9a00-a99f5d9b60c2@version_cae013a1-8b58-42b2-838f-e49d2b22613b、舞台 fleet fleet2 artifact_37e30a1f-07e4-4d60-9e19-07d01180c0c6@version_6c98a7b0-fc9a-40f3-848f-339aef34221c、舞台 fleet cords artifact_afede8e6-6ea9-450a-8918-54287d23fa33@version_c52d9e52-f1ec-4768-827a-7816edac1589",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
-   "elementId": "underlay-0152",
+   "elementId": "underlay-0156",
    "source": "3D の舞台「ブレフスキュの艦隊のまわりの海とブレフスキュの浜（海峡の北の端）」のカメラの絵（e03-p10-k4、横 62.7°×縦 29.6°）。モデル：舞台 fleet artifact_0ac3ae01-79e7-42be-96ea-1750ad721370@version_4424048c-a895-4d7d-a1ed-72e222782247、舞台 fleet fleet artifact_7a8177f3-e8b9-4753-9a00-a99f5d9b60c2@version_cae013a1-8b58-42b2-838f-e49d2b22613b、舞台 fleet fleet2 artifact_37e30a1f-07e4-4d60-9e19-07d01180c0c6@version_6c98a7b0-fc9a-40f3-848f-339aef34221c、舞台 fleet cords artifact_afede8e6-6ea9-450a-8918-54287d23fa33@version_c52d9e52-f1ec-4768-827a-7816edac1589",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
-   "elementId": "underlay-0155",
+   "elementId": "underlay-0159",
    "source": "3D の舞台「ブレフスキュの艦隊のまわりの海とブレフスキュの浜（海峡の北の端）」のカメラの絵（e03-p11-k1、横 62.7°×縦 29.6°）。モデル：舞台 fleet artifact_0ac3ae01-79e7-42be-96ea-1750ad721370@version_4424048c-a895-4d7d-a1ed-72e222782247、舞台 fleet fleet artifact_7a8177f3-e8b9-4753-9a00-a99f5d9b60c2@version_cae013a1-8b58-42b2-838f-e49d2b22613b、舞台 fleet fleet2 artifact_37e30a1f-07e4-4d60-9e19-07d01180c0c6@version_6c98a7b0-fc9a-40f3-848f-339aef34221c、舞台 fleet cords artifact_afede8e6-6ea9-450a-8918-54287d23fa33@version_c52d9e52-f1ec-4768-827a-7816edac1589",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
-   "elementId": "underlay-0159",
+   "elementId": "underlay-0163",
    "source": "3D の舞台「ブレフスキュの艦隊のまわりの海とブレフスキュの浜（海峡の北の端）」のカメラの絵（e03-p11-k2、横 57.8°×縦 35°）。モデル：舞台 fleet artifact_0ac3ae01-79e7-42be-96ea-1750ad721370@version_4424048c-a895-4d7d-a1ed-72e222782247、舞台 fleet fleet artifact_7a8177f3-e8b9-4753-9a00-a99f5d9b60c2@version_cae013a1-8b58-42b2-838f-e49d2b22613b、舞台 fleet fleet2 artifact_37e30a1f-07e4-4d60-9e19-07d01180c0c6@version_6c98a7b0-fc9a-40f3-848f-339aef34221c、舞台 fleet cords artifact_afede8e6-6ea9-450a-8918-54287d23fa33@version_c52d9e52-f1ec-4768-827a-7816edac1589",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
-   "elementId": "underlay-0162",
+   "elementId": "underlay-0166",
    "source": "3D の舞台「ブレフスキュの艦隊のまわりの海とブレフスキュの浜（海峡の北の端）」のカメラの絵（e03-p11-k3、横 62.7°×縦 29.6°）。モデル：舞台 fleet artifact_0ac3ae01-79e7-42be-96ea-1750ad721370@version_4424048c-a895-4d7d-a1ed-72e222782247、舞台 fleet fleet artifact_7a8177f3-e8b9-4753-9a00-a99f5d9b60c2@version_cae013a1-8b58-42b2-838f-e49d2b22613b、舞台 fleet fleet2 artifact_37e30a1f-07e4-4d60-9e19-07d01180c0c6@version_6c98a7b0-fc9a-40f3-848f-339aef34221c、舞台 fleet cords artifact_afede8e6-6ea9-450a-8918-54287d23fa33@version_c52d9e52-f1ec-4768-827a-7816edac1589",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
-   "elementId": "underlay-0165",
-   "source": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」のカメラの絵（e03-p12-k1、横 39.5°×縦 35°）。モデル：舞台 strait artifact_a8d511fc-0e4f-42cf-85b6-674f0ee53d86@version_3c0b2445-b7f0-4759-8e2f-a09938884dc6、舞台 strait fleet artifact_2bb7e1a2-e91e-47fe-8beb-b448677e0d85@version_f6f155f6-7db2-4c42-a164-b2b5693464c1、舞台 strait fleet2 artifact_96689529-a2c4-49db-9846-33ecc8a735eb@version_db180474-0bfe-46ff-a306-308c12d0318b、舞台 strait cords artifact_3a31478a-f1e5-428a-92b7-030714645844@version_473c4d6a-1bf7-491f-a3fa-bd5c0b90bd2c",
+   "elementId": "underlay-0169",
+   "source": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」のカメラの絵（e03-p12-k1、横 39.5°×縦 35°）。モデル：舞台 strait artifact_fdb39db6-18c6-429c-be15-d205d2083866@version_6164aa92-11de-4610-8e15-fb29cdd74b05、舞台 strait fleet artifact_f9d5c7a7-272f-4bab-a124-b9efbb92d7a9@version_43e8de01-f054-4818-889e-93c0af0f2c96、舞台 strait fleet2 artifact_e826cd6e-63df-4e32-8af4-866611b62443@version_a90f3689-7111-4fe7-bf2a-bc82130a48a2、舞台 strait cords artifact_e0aeaba7-4461-4be3-9a70-5dabc602f05c@version_b0355f09-d681-4b33-a9cc-7b9b87b0b442",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
-   "elementId": "underlay-0168",
+   "elementId": "underlay-0172",
    "source": "3D の舞台「ブレフスキュの艦隊のまわりの海とブレフスキュの浜（海峡の北の端）」のカメラの絵（e03-p12-k2、横 56.9°×縦 35°）。モデル：舞台 fleet artifact_0ac3ae01-79e7-42be-96ea-1750ad721370@version_4424048c-a895-4d7d-a1ed-72e222782247、舞台 fleet fleet artifact_7a8177f3-e8b9-4753-9a00-a99f5d9b60c2@version_cae013a1-8b58-42b2-838f-e49d2b22613b、舞台 fleet fleet2 artifact_37e30a1f-07e4-4d60-9e19-07d01180c0c6@version_6c98a7b0-fc9a-40f3-848f-339aef34221c、舞台 fleet cords artifact_afede8e6-6ea9-450a-8918-54287d23fa33@version_c52d9e52-f1ec-4768-827a-7816edac1589",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
-   "elementId": "underlay-0175",
+   "elementId": "underlay-0179",
    "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p13-k1、横 46.7°×縦 35°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
-   "elementId": "underlay-0178",
+   "elementId": "underlay-0182",
    "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p13-k2、横 46.7°×縦 35°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
-   "elementId": "underlay-0185",
+   "elementId": "underlay-0189",
    "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p14-k1、横 39.5°×縦 35°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
-   "elementId": "underlay-0188",
+   "elementId": "underlay-0192",
    "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p14-k2、横 56.9°×縦 35°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
-   "elementId": "underlay-0195",
+   "elementId": "underlay-0199",
    "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p15-k1、横 62.7°×縦 29.6°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
-   "elementId": "underlay-0200",
+   "elementId": "underlay-0204",
    "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p15-k2、横 57.8°×縦 35°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
-   "elementId": "underlay-0203",
+   "elementId": "underlay-0207",
    "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p15-k3、横 62.7°×縦 29.6°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
-   "elementId": "underlay-0210",
+   "elementId": "underlay-0214",
    "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p16-k1、横 50.9°×縦 35°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
-   "elementId": "underlay-0213",
+   "elementId": "underlay-0217",
    "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p16-k2、横 62.7°×縦 26.2°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
-   "elementId": "underlay-0220",
+   "elementId": "underlay-0224",
    "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p16-k3、横 62.7°×縦 27°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   }

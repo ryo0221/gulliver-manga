@@ -98,7 +98,33 @@ test('episode 3 ネーム covers every script line, reads left to right and fits
   for (const r of records.slice(undress + 1)) expect(r.panel.art, r.id).not.toMatch(/上着の姿/);
   // LN-e02-02: no panel shows only part of a face (a nose, a mouth) through a window or frame edge.
   for (const r of records) expect(r.panel.art, r.id).not.toMatch(/(鼻|唇|口|顎)だけ/);
+  // LN-e02-03: every panel that shows the size difference states it in numbers measured on the 3D stage.
+  for (const r of records.filter((r) => r.panel.size)) expect(r.panel.art, r.id).toMatch(/【大きさ（3D）】.*\d/);
+  // LN-e02-04: a thin thing (cable, thread, chain, arrow) is drawn with a thickness comparison and its ends shown.
+  for (const r of records.filter((r) => /(綱|糸|鎖|矢)/.test(r.panel.art))) expect(r.panel.art, r.id).toMatch(/【細い物（LN-e02-04）】.*細/);
   if (stage) {
+    // LN-e02-01 / LN-e02-05: in every wide shot of Gulliver (引き・大引き, not straight down), the top of his head
+    // (the stage's FK head point + 120 mm) is inside the frame with a tenth of the frame clear above it.
+    const shotOf = new Map(records.map((r) => [r.id, r.panel.shot]));
+    for (const sp of stage.data.panels) {
+      if (sp.noModel || !['引き', '大引き'].includes(shotOf.get(sp.panel) ?? '')) continue;
+      const head = (sp as unknown as { points?: { fig: string; head: number[] }[] }).points?.find((q) => q.fig === 'gulliver' || q.fig === 'gj')?.head;
+      if (!head) continue;
+      const sub = (a: number[], b: number[]) => a.map((v, i) => v - b[i]!);
+      const dot = (a: number[], b: number[]) => a.reduce((s, v, i) => s + v * b[i]!, 0);
+      const unit = (a: number[]) => a.map((v) => v / Math.hypot(...a));
+      const f = unit(sub(sp.look, sp.cam));
+      if (Math.abs(f[2]!) > 0.95) continue; // a map seen from straight above has no top of the frame
+      const r = unit([f[1]!, -f[0]!, 0]);
+      const u = [r[1]! * f[2]! - r[2]! * f[1]!, r[2]! * f[0]! - r[0]! * f[2]!, r[0]! * f[1]! - r[1]! * f[0]!];
+      const v = sub([head[0]!, head[1]!, head[2]! + 120], sp.cam);
+      const z = dot(v, f);
+      expect(z, `${sp.panel} head in front`).toBeGreaterThan(0);
+      const x = dot(v, r) / z / Math.tan(((sp.hfovDeg ?? 0) * Math.PI) / 360);
+      const y = dot(v, u) / z / Math.tan((sp.vfovDeg * Math.PI) / 360);
+      expect(Math.abs(x), `${sp.panel} head across`).toBeLessThanOrEqual(1);
+      expect((1 - y) / 2, `${sp.panel} headroom`).toBeGreaterThanOrEqual(0.1);
+    }
     // LN-e02-01: Reldresal stands on the palm (his feet within 60 mm of the palm point the stage computed).
     for (const sp of stage.data.panels.filter((p) => p.set === 'house')) {
       const pts = (sp as unknown as { points?: { fig: string; palmR: number[] }[] }).points?.find((q) => q.fig === 'gulliver');
