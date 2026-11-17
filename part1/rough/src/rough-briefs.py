@@ -38,6 +38,7 @@ REFS = {
     'CH-02': ('part1/codex/ch02-emperor/ch02-emperor-raw.png', 'the approved design of the Emperor of Lilliput (CH-02)'),
     'CH-03': ('part1/codex/ch03-empress/ch03-empress-raw.png', 'the approved design of the Empress of Lilliput (CH-03)'),
     'CH-04': ('part1/codex/ch04-flimnap/ch04-flimnap-raw.png', 'the approved design of Flimnap, the Treasurer (CH-04)'),
+    'CH-05': ('part1/codex/ch05-reldresal/ch05-reldresal-raw.png', 'the approved design of Reldresal, Principal Secretary of private affairs (CH-05)'),
     'CH-06': ('part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png', 'the approved design of Skyresh Bolgolam, the High Admiral (CH-06)'),
     'LO-03': ('part1/codex/lo03-temple/lo03-temple-raw.png', 'the approved setting art of the old temple (LO-03), where Gulliver is chained'),
     'LO-04': ('part1/codex/lo04-mildendo/lo04-mildendo-raw.png', 'the approved setting art of the capital Mildendo (LO-04)'),
@@ -54,6 +55,13 @@ POSE = {
     'step-over': 'stepping over with one long stride', 'jump': 'leaping high', 'hold-stick': 'holding a stick level in both hands',
     'arms-crossed': 'standing with arms crossed, sullen', 'read': 'reading aloud from a long parchment', 'archer': 'drawing a bow', 'sword-up': 'raising a sword', 'point': 'pointing', 'orate': 'giving a speech with one arm out',
     'fall': 'tumbling and falling', 'dance': 'dancing / hopping', 'carry-up': 'lifting a basket', 'crouch': 'crouching',
+    # 第3話のポーズ
+    'prone-palm': 'lying face down, propped up on his elbows with his chin raised, his right palm open on the ground in front of his face',
+    'telescope': 'standing, looking through a pocket telescope held to his eye with both hands', 'wade': 'wading through the sea, arms out for balance',
+    'tow': 'wading back through the sea, leaning forward, towing the bundle of cables held in his right hand behind him',
+    'kneel': 'kneeling on one knee, head bowed', 'bow': 'bowing deeply from the waist', 'cheer': 'standing with both arms raised high, shouting',
+    'hands-face': 'raising both hands to the face', 'limp': 'limping, one heel higher than the other', 'glare': 'glaring with arms crossed',
+    'tie': 'bending over, tying knots with both hands', 'stand-in-water': 'standing in the sea, arms low',
 }
 WHO = {
     'CH-01': 'Gulliver (CH-01): 1,750 mm, plain blue coat with brass buttons and NO gold trim, tan breeches, white stockings, black shoes, brown hair tied back',
@@ -62,6 +70,7 @@ WHO = {
     'CH-02': 'the Emperor of Lilliput (CH-02): a Lilliputian, taller than his courtiers by about the breadth of Gulliver\'s fingernail',
     'CH-03': 'the Empress of Lilliput (CH-03): a Lilliputian, 1/12 of Gulliver',
     'CH-04': 'Flimnap, the Treasurer (CH-04): a lean, tall Lilliputian, 1/12 of Gulliver',
+    'CH-05': 'Reldresal, Principal Secretary of private affairs (CH-05): a Lilliputian, 1/12 of Gulliver, narrow eyes, calm and kind',
     'CH-06': 'Skyresh Bolgolam, the High Admiral (CH-06): a stout, sour-faced Lilliputian, 1/12 of Gulliver',
     'EX': 'an extra',
     'horse': 'a young horse',
@@ -104,11 +113,20 @@ for p in stage['panels']:
     f = norm(sub(look, cam)); r = norm(cross(f, [0, 0, 1])); u = cross(r, f)
     th, tv = math.tan(math.radians(p['hfovDeg']) / 2), math.tan(math.radians(p['vfovDeg']) / 2)
     figs = []; refs = []; vis = []
+    fk = {q['fig']: q for q in p.get('points') or []}
     lilli = p['set'] not in ('stable', 'port', 'sea')
     for g in p['figures']:
         fac = math.radians(g['facingDeg']); fwd = [-math.sin(fac), math.cos(fac), 0]
         h = g['heightMm']; at = g['at']
-        if g['pose'].startswith('prone'):
+        if g.get('fig') in fk and g['pose'].startswith(('prone', 'lie', 'swim')):
+            # 第3話から：ポーズの at は腰（足ではない）。頭は stage の points（FK）から取る。
+            head = fk[g['fig']]['head']
+            sh, sl = project(head, cam, f, r, u, th, tv), project(at, cam, f, r, u, th, tv)
+            inside = lambda q: q is not None and -0.05 <= q[0] <= 1.05 and -0.05 <= q[1] <= 1.05
+            seen = (f'head at {where(sh)}' if inside(sh) else f'head outside the frame, hips at {where(sl)}' if inside(sl)
+                    else 'outside the frame (at most a cut-off sliver at the frame edge)')
+            orient = seen
+        elif g['pose'].startswith('prone'):
             # Face down: `at` is the feet and the body lies along the facing, head raised on the elbows.
             head = [at[0] + fwd[0]*h*0.9, at[1] + fwd[1]*h*0.9, at[2] + h*0.2]
             sh, sf = project(head, cam, f, r, u, th, tv), project(at, cam, f, r, u, th, tv)
@@ -123,7 +141,7 @@ for p in stage['panels']:
         else:
             # A seated figure's head is about half the standing height (第2話から：座るガリヴァーの頭を正しく写す).
             hz, bz = (0.52, 0.3) if g['pose'].startswith('sit') and pid >= 'e02' else (0.93, 0.55)
-            head = [at[0], at[1], at[2] + h*hz]
+            head = fk[g['fig']]['head'] if g.get('fig') in fk else [at[0], at[1], at[2] + h*hz]
             sh = project(head, cam, f, r, u, th, tv)
             sb, sl = project([at[0], at[1], at[2] + h*bz], cam, f, r, u, th, tv), project(at, cam, f, r, u, th, tv)
             if g['ch'] == 'horse':
@@ -153,6 +171,7 @@ for p in stage['panels']:
         vis.append({'fg': g['fg'], 'inFrame': not seen.startswith('outside') and not ('behind the camera' in seen and 'outside' in seen), 'where': seen,
                     'head': [round(sh[0], 3), round(sh[1], 3)] if sh is not None else None, 'headR': hr})
         who = WHO['CH-30'] if g['ch'] == 'EX' and lilli else WHO.get(g['ch'], g['name'])
+        if g.get('fig') == 'gj': who = 'Gulliver (CH-01): 1,750 mm, coat, shoes and stockings OFF: a sleeveless leather jerkin over his shirt, breeches, bare legs and bare feet, brown hair tied back'
         if g['ch'] == 'EX' and not lilli: who = 'an early-18th-century English sailor or townsperson (extra)'
         figs.append(f"- {g['fg']} {g['name']} — {who}; {POSE.get(g['pose'], g['pose'])}; {orient}; {round(dist)} mm from the camera.")
         key = 'EX-L' if g['ch'] == 'EX' and lilli else g['ch']
