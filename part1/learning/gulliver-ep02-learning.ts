@@ -47,12 +47,12 @@ export const LEARNINGS_EP02: Learning[] = [
     source: 'RV-e02-03（6-1・6-3・7-1）、RV-e02-10',
     next: '広い室内のコマは最初から FLAT_BG にする。線画を描き直すときは、構図が変わるならラフも描き直してからトーンを取る。',
   },
-].map((l) => ({ ...l, choice: '作者の選択待ち' as Choice }));
-/** 作者の選択（learning.chosen）：まだ。第3話のネームでは提案として使い、作者の選択で外す。 */
-export const CHOSEN_BY_EP02 = '作者の選択待ち';
+].map((l) => ({ ...l, choice: '採る' as Choice }));
+/** 作者の選択（learning.chosen）：2026-11-17「第2話からの学びは全部いれてください」。 */
+export const CHOSEN_BY_EP02 = '作者（2026-11-17「全部いれてください」）';
 
 const stamp = '2026-11-17T00:00:00.000Z';
-const VERSION = 'learning-ep02-v1';
+const VERSION = 'learning-ep02-v2';
 async function native(kind: string, id: string, name: string, content: unknown) {
   const artifact: Artifact<unknown> = {
     schemaVersion: 1,

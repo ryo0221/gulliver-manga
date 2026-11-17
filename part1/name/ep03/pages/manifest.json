@@ -4,8 +4,8 @@
  "artwork": [],
  "source": {
   "artifactId": "gm1-ep03-name",
-  "versionId": "version_3f273e24-6fb6-4085-a197-65d50fd99573",
-  "contentHash": "0b9c80a80e4aece49d7975c5fe92aea21c2b7ac7d9cb493adb735c56b394be9f"
+  "versionId": "version_32ad0743-7cd6-4aa9-82ec-aad26cb2e03e",
+  "contentHash": "7c92902f151eb6a99e0bcbfddeac35c57c11f37f7300bcfa9d051a3d90285722"
  },
  "direction": "ltr",
  "pages": [
@@ -750,12 +750,12 @@
   },
   {
    "elementId": "underlay-0109",
-   "source": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」のカメラの絵（e03-p07-k1、横 46.7°×縦 35°）。モデル：舞台 strait artifact_a8d511fc-0e4f-42cf-85b6-674f0ee53d86@version_3c0b2445-b7f0-4759-8e2f-a09938884dc6、舞台 strait fleet artifact_2bb7e1a2-e91e-47fe-8beb-b448677e0d85@version_f6f155f6-7db2-4c42-a164-b2b5693464c1、舞台 strait fleet2 artifact_96689529-a2c4-49db-9846-33ecc8a735eb@version_db180474-0bfe-46ff-a306-308c12d0318b、舞台 strait cords artifact_3a31478a-f1e5-428a-92b7-030714645844@version_473c4d6a-1bf7-491f-a3fa-bd5c0b90bd2c",
+   "source": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」のカメラの絵（e03-p07-k1、横 46.7°×縦 35°）。モデル：舞台 strait artifact_fdb39db6-18c6-429c-be15-d205d2083866@version_6164aa92-11de-4610-8e15-fb29cdd74b05、舞台 strait fleet artifact_f9d5c7a7-272f-4bab-a124-b9efbb92d7a9@version_43e8de01-f054-4818-889e-93c0af0f2c96、舞台 strait fleet2 artifact_e826cd6e-63df-4e32-8af4-866611b62443@version_a90f3689-7111-4fe7-bf2a-bc82130a48a2、舞台 strait cords artifact_e0aeaba7-4461-4be3-9a70-5dabc602f05c@version_b0355f09-d681-4b33-a9cc-7b9b87b0b442",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
    "elementId": "underlay-0112",
-   "source": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」のカメラの絵（e03-p07-k2、横 23.8°×縦 35°）。モデル：舞台 strait artifact_a8d511fc-0e4f-42cf-85b6-674f0ee53d86@version_3c0b2445-b7f0-4759-8e2f-a09938884dc6、舞台 strait fleet artifact_2bb7e1a2-e91e-47fe-8beb-b448677e0d85@version_f6f155f6-7db2-4c42-a164-b2b5693464c1、舞台 strait fleet2 artifact_96689529-a2c4-49db-9846-33ecc8a735eb@version_db180474-0bfe-46ff-a306-308c12d0318b、舞台 strait cords artifact_3a31478a-f1e5-428a-92b7-030714645844@version_473c4d6a-1bf7-491f-a3fa-bd5c0b90bd2c",
+   "source": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」のカメラの絵（e03-p07-k2、横 23.8°×縦 35°）。モデル：舞台 strait artifact_fdb39db6-18c6-429c-be15-d205d2083866@version_6164aa92-11de-4610-8e15-fb29cdd74b05、舞台 strait fleet artifact_f9d5c7a7-272f-4bab-a124-b9efbb92d7a9@version_43e8de01-f054-4818-889e-93c0af0f2c96、舞台 strait fleet2 artifact_e826cd6e-63df-4e32-8af4-866611b62443@version_a90f3689-7111-4fe7-bf2a-bc82130a48a2、舞台 strait cords artifact_e0aeaba7-4461-4be3-9a70-5dabc602f05c@version_b0355f09-d681-4b33-a9cc-7b9b87b0b442",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
@@ -785,7 +785,7 @@
   },
   {
    "elementId": "underlay-0137",
-   "source": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」のカメラの絵（e03-p09-k3、横 62.7°×縦 29.6°）。モデル：舞台 strait artifact_a8d511fc-0e4f-42cf-85b6-674f0ee53d86@version_3c0b2445-b7f0-4759-8e2f-a09938884dc6、舞台 strait fleet artifact_2bb7e1a2-e91e-47fe-8beb-b448677e0d85@version_f6f155f6-7db2-4c42-a164-b2b5693464c1、舞台 strait fleet2 artifact_96689529-a2c4-49db-9846-33ecc8a735eb@version_db180474-0bfe-46ff-a306-308c12d0318b、舞台 strait cords artifact_3a31478a-f1e5-428a-92b7-030714645844@version_473c4d6a-1bf7-491f-a3fa-bd5c0b90bd2c",
+   "source": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」のカメラの絵（e03-p09-k3、横 62.7°×縦 29.6°）。モデル：舞台 strait artifact_fdb39db6-18c6-429c-be15-d205d2083866@version_6164aa92-11de-4610-8e15-fb29cdd74b05、舞台 strait fleet artifact_f9d5c7a7-272f-4bab-a124-b9efbb92d7a9@version_43e8de01-f054-4818-889e-93c0af0f2c96、舞台 strait fleet2 artifact_e826cd6e-63df-4e32-8af4-866611b62443@version_a90f3689-7111-4fe7-bf2a-bc82130a48a2、舞台 strait cords artifact_e0aeaba7-4461-4be3-9a70-5dabc602f05c@version_b0355f09-d681-4b33-a9cc-7b9b87b0b442",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {
@@ -825,7 +825,7 @@
   },
   {
    "elementId": "underlay-0165",
-   "source": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」のカメラの絵（e03-p12-k1、横 39.5°×縦 35°）。モデル：舞台 strait artifact_a8d511fc-0e4f-42cf-85b6-674f0ee53d86@version_3c0b2445-b7f0-4759-8e2f-a09938884dc6、舞台 strait fleet artifact_2bb7e1a2-e91e-47fe-8beb-b448677e0d85@version_f6f155f6-7db2-4c42-a164-b2b5693464c1、舞台 strait fleet2 artifact_96689529-a2c4-49db-9846-33ecc8a735eb@version_db180474-0bfe-46ff-a306-308c12d0318b、舞台 strait cords artifact_3a31478a-f1e5-428a-92b7-030714645844@version_473c4d6a-1bf7-491f-a3fa-bd5c0b90bd2c",
+   "source": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」のカメラの絵（e03-p12-k1、横 39.5°×縦 35°）。モデル：舞台 strait artifact_fdb39db6-18c6-429c-be15-d205d2083866@version_6164aa92-11de-4610-8e15-fb29cdd74b05、舞台 strait fleet artifact_f9d5c7a7-272f-4bab-a124-b9efbb92d7a9@version_43e8de01-f054-4818-889e-93c0af0f2c96、舞台 strait fleet2 artifact_e826cd6e-63df-4e32-8af4-866611b62443@version_a90f3689-7111-4fe7-bf2a-bc82130a48a2、舞台 strait cords artifact_e0aeaba7-4461-4be3-9a70-5dabc602f05c@version_b0355f09-d681-4b33-a9cc-7b9b87b0b442",
    "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
   },
   {

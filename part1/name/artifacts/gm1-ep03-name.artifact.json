@@ -29,7 +29,7 @@
     {
      "id": "e03-p01-k1",
      "type": "frame",
-     "name": "1-1 大引き：扉。古い神殿の前に寝そべり、肘をついて顔を起こすガリヴァー。顔の前の右の手のひらの上で、細い目の小人（レルドレサル）が話している。",
+     "name": "1-1 大引き：扉。古い神殿の前に寝そべり、肘をついて顔を起こすガリヴァー。顔の前の右の手のひらの上で、細い目の小人（レルドレサル）が話している。【大きさ（3D）】小人の背（150 mm）は、ガリヴァーの手の長さ（約190 mm）に少し足りない。",
      "bounds": {
       "x": 40,
       "y": 56,
@@ -66,7 +66,7 @@
     {
      "id": "e03-p01-k2",
      "type": "frame",
-     "name": "1-2 引き：従者一人を連れて来るレルドレサル。奥にガリヴァーの顔。",
+     "name": "1-2 引き：従者一人を連れて来るレルドレサル。奥にガリヴァーの顔。【大きさ（3D）】小人の背は、寝そべるガリヴァーの顔の高さ（地面から約400 mm）の3分の1ほど。",
      "bounds": {
       "x": 40,
       "y": 811.6,
@@ -117,7 +117,7 @@
     {
      "id": "e03-p02-k1",
      "type": "frame",
-     "name": "2-1 中：手のひらの上で語るレルドレサル。奥で聞くガリヴァーの目と顔の全体（目を含めて見せる、LN-e02-02）。",
+     "name": "2-1 中：手のひらの上で語るレルドレサル。奥で聞くガリヴァーの目と顔の全体（目を含めて見せる、LN-e02-02）。【大きさ（3D）】小人の背（150 mm）は、ガリヴァーの手の長さ（約190 mm）に少し足りない。",
      "bounds": {
       "x": 900,
       "y": 56,
@@ -316,7 +316,7 @@
     {
      "id": "e03-p03-k3",
      "type": "frame",
-     "name": "3-3 寄り：問い返すガリヴァーの顔（両目と鼻と口、顔の全体）。",
+     "name": "3-3 寄り：問い返すガリヴァーの顔（両目と鼻と口、顔の全体）。【大きさ（3D）】ガリヴァーの顔の幅（約150 mm）は、小人の背と同じほど。",
      "bounds": {
       "x": 1760,
       "y": 811.5999999999999,
@@ -367,7 +367,7 @@
     {
      "id": "e03-p04-k1",
      "type": "frame",
-     "name": "4-1 中：北東の方を指すレルドレサル。「36か月」の重さ。奥にガリヴァーの顔。",
+     "name": "4-1 中：北東の方を指すレルドレサル。「36か月」の重さ。奥にガリヴァーの顔。【大きさ（3D）】小人の背（150 mm）は、ガリヴァーの手の長さ（約190 mm）に少し足りない。",
      "bounds": {
       "x": 2620,
       "y": 56,
@@ -765,7 +765,7 @@
     {
      "id": "e03-p06-k4",
      "type": "frame",
-     "name": "6-4 引き：夕方。寝そべるガリヴァーと、手のひらの上の小さな男。笑わないガリヴァーの顔。",
+     "name": "6-4 引き：夕方。寝そべるガリヴァーと、手のひらの上の小さな男。笑わないガリヴァーの顔。【大きさ（3D）】小人の背（150 mm）は、ガリヴァーの手の長さ（約190 mm）に少し足りない。神殿の扉は、寝そべるガリヴァーの肩ほどの高さ。",
      "bounds": {
       "x": 4340,
       "y": 704.8,
@@ -890,7 +890,7 @@
     {
      "id": "e03-p07-k3",
      "type": "frame",
-     "name": "7-3 中：しゃがんで水夫たちから深さを聞くガリヴァー。指さして答える水夫。",
+     "name": "7-3 中：しゃがんで水夫たちから深さを聞くガリヴァー。指さして答える水夫。【大きさ（3D）】しゃがんだガリヴァーの頭は地面から約1300 mm、水夫（150 mm）はその9分の1ほどで、ガリヴァーの足首より少し上まで。",
      "bounds": {
       "x": 5568,
       "y": 598,
@@ -978,7 +978,7 @@
     {
      "id": "e03-p08-k2",
      "type": "frame",
-     "name": "8-2 中：太い綱50本と鉄の鉤50個の山。綱を三本ずつより合わせるガリヴァー。運んできた小人たち。",
+     "name": "8-2 中：太い綱50本と鉄の鉤50個の山。綱を三本ずつより合わせるガリヴァー。運んできた小人たち。【大きさ（3D）】小人はガリヴァーの足首より少し上までの背。【細い物（LN-e02-04）】綱はガリヴァーの指より細く、小人の腕ほどの太さ。鉤は小人の手のひらほど。綱の両端を、ガリヴァーの手と鉤の山で必ず見せる。",
      "bounds": {
       "x": 6060,
       "y": 598,
@@ -1029,7 +1029,7 @@
     {
      "id": "e03-p09-k1",
      "type": "frame",
-     "name": "9-1 中：上着と靴と靴下を脱ぎ、革の胴着一つになったガリヴァー。眼鏡を胸の内ポケットへ。足もとに脱いだ服。",
+     "name": "9-1 中：上着と靴と靴下を脱ぎ、革の胴着一つになったガリヴァー。眼鏡を胸の内ポケットへ。足もとに脱いだ服。【大きさ（3D）】小人（150 mm）は、ガリヴァーのすねの下3分の1まで。",
      "bounds": {
       "x": 6920,
       "y": 56,
@@ -1154,7 +1154,7 @@
     {
      "id": "e03-p10-k1",
      "type": "frame",
-     "name": "10-1 中：甲板から見た、海から立ち上がって迫るガリヴァー。慌てて海へ飛び込む兵たち。",
+     "name": "10-1 中：甲板から見た、海から立ち上がって迫るガリヴァー。慌てて海へ飛び込む兵たち。【大きさ（3D）】軍艦の長さ（約1.8 m）はガリヴァーの背ほど、帆柱の先（水面から約1.5 m）は彼の胸ほど。兵（150 mm）は帆の下半分にも届かない。",
      "bounds": {
       "x": 7780,
       "y": 56,
@@ -1191,7 +1191,7 @@
     {
      "id": "e03-p10-k2",
      "type": "frame",
-     "name": "10-2 寄り：手と顔に刺さる千本の矢。顔をかばう両手（目と眉は手の間から見える）。",
+     "name": "10-2 寄り：手と顔に刺さる千本の矢。顔をかばう両手（目と眉は手の間から見える）。【細い物（LN-e02-04）】矢はガリヴァーの指より細く、縫い針ほど（長さは指の半分ほど）。",
      "bounds": {
       "x": 7780,
       "y": 491.2,
@@ -1228,7 +1228,7 @@
     {
      "id": "e03-p10-k3",
      "type": "frame",
-     "name": "10-3 寄り：目を細めるガリヴァー。頬に刺さる矢。（顔の全体）",
+     "name": "10-3 寄り：目を細めるガリヴァー。頬に刺さる矢。（顔の全体）【細い物（LN-e02-04）】矢はガリヴァーの指より細く、縫い針ほど（長さは指の半分ほど）。",
      "bounds": {
       "x": 8188,
       "y": 491.2,
@@ -1316,7 +1316,7 @@
     {
      "id": "e03-p11-k1",
      "type": "frame",
-     "name": "11-1 寄り：眼鏡のガラスに当たって弾かれる矢。ガラスの奥の目（両目）。",
+     "name": "11-1 寄り：眼鏡のガラスに当たって弾かれる矢。ガラスの奥の目（両目）。【細い物（LN-e02-04）】矢はガリヴァーの指より細く、縫い針ほど（長さは指の半分ほど）。",
      "bounds": {
       "x": 8640,
       "y": 56,
@@ -1353,7 +1353,7 @@
     {
      "id": "e03-p11-k2",
      "type": "frame",
-     "name": "11-2 中：一隻ずつ舳先の穴に鉤を掛ける大きな手。錨綱をナイフで切る。",
+     "name": "11-2 中：一隻ずつ舳先の穴に鉤を掛ける大きな手。錨綱をナイフで切る。【大きさ（3D）】ガリヴァーの手（約190 mm）は兵（150 mm）より大きい。【細い物（LN-e02-04）】綱は彼の指より細い。手から舳先の鉤まで綱を切らずに見せる。",
      "bounds": {
       "x": 8640,
       "y": 384.3999999999999,
@@ -1390,7 +1390,7 @@
     {
      "id": "e03-p11-k3",
      "type": "frame",
-     "name": "11-3 寄り：50本の綱を一つに結んだ結び目を握る手。",
+     "name": "11-3 寄り：50本の綱を一つに結んだ結び目を握る手。【細い物（LN-e02-04）】一本一本は指より細い綱。束ねても手首より細い。束の先が画面の外の艦隊へ伸びるのを見せる。",
      "bounds": {
       "x": 8640,
       "y": 811.5999999999999,
@@ -1441,7 +1441,7 @@
     {
      "id": "e03-p12-k1",
      "type": "frame",
-     "name": "12-1 大引き：50隻の艦隊を綱で引き、胸まで海につかって海峡を戻るガリヴァー。帆の並ぶ艦隊が後ろに続く。",
+     "name": "12-1 大引き：50隻の艦隊を綱で引き、胸まで海につかって海峡を戻るガリヴァー。帆の並ぶ艦隊が後ろに続く。【細い物（LN-e02-04）】手から艦隊の舳先まで約3 m の綱の束（手首より細い）を、両端とも見せる。",
      "bounds": {
       "x": 9500,
       "y": 56,
@@ -1478,7 +1478,7 @@
     {
      "id": "e03-p12-k2",
      "type": "frame",
-     "name": "12-2 引き：ブレフスキュの浜で叫ぶ人々。遠ざかる巨人と艦隊。",
+     "name": "12-2 引き：ブレフスキュの浜で叫ぶ人々。遠ざかる巨人と艦隊。【大きさ（3D）】帆柱（約1.5 m）は浜の人々の10倍の高さ、巨人はその上に肩から上が出る。",
      "bounds": {
       "x": 9500,
       "y": 704.8,
@@ -1529,7 +1529,7 @@
     {
      "id": "e03-p13-k1",
      "type": "frame",
-     "name": "13-1 引き：リリパットの浜で待つ皇帝と廷臣たち。海から頭だけが見え、その後ろを艦隊だけが進んでくる。不安な顔の宮廷。",
+     "name": "13-1 引き：リリパットの浜で待つ皇帝と廷臣たち。海から頭だけが見え、その後ろを艦隊だけが進んでくる。不安な顔の宮廷。【大きさ（3D）】海から出たガリヴァーの頭（約250 mm）は、廷臣（150 mm）の背より大きい。",
      "bounds": {
       "x": 10360,
       "y": 56,
@@ -1566,7 +1566,7 @@
     {
      "id": "e03-p13-k2",
      "type": "frame",
-     "name": "13-2 中：浅瀬で立ち上がり、綱を掲げて叫ぶガリヴァー。手前に驚く皇帝の背中。",
+     "name": "13-2 中：浅瀬で立ち上がり、綱を掲げて叫ぶガリヴァー。手前に驚く皇帝の背中。【大きさ（3D）】立ったガリヴァーの膝（約500 mm）は、皇帝（約160 mm）の3倍の高さ。【細い物（LN-e02-04）】掲げる綱は指より細い。",
      "bounds": {
       "x": 10360,
       "y": 598,
@@ -1617,7 +1617,7 @@
     {
      "id": "e03-p14-k1",
      "type": "frame",
-     "name": "14-1 大引き：王の港。岸壁に並ぶ奪った艦隊。壇の上の皇帝の前にひざまずくガリヴァー。群衆。",
+     "name": "14-1 大引き：王の港。岸壁に並ぶ奪った艦隊。壇の上の皇帝の前にひざまずくガリヴァー。群衆。【大きさ（3D）】岸壁は地面から300 mm（ガリヴァーのすねの下ほど）、壇はさらに150 mm。ひざまずいた彼の頭（約1300 mm）は、壇の上の皇帝の約8倍の高さ。",
      "bounds": {
       "x": 11220,
       "y": 56,
@@ -1705,7 +1705,7 @@
     {
      "id": "e03-p15-k1",
      "type": "frame",
-     "name": "15-1 中：頭を下げるガリヴァー（ひざまずいても、皇帝より何倍も高い）。",
+     "name": "15-1 中：頭を下げるガリヴァー（ひざまずいても、皇帝より何倍も高い）。【大きさ（3D）】ひざまずいた頭は岸壁から約1300 mm、岸壁の上の人（150 mm）の約9倍。",
      "bounds": {
       "x": 12080,
       "y": 56,
@@ -2008,7 +2008,7 @@
       "width": 696,
       "height": 31.200000000000003
      },
-     "text": "絵：扉。古い神殿の前に寝そべり、肘をついて顔を起こすガリヴァー。顔の前の右の手のひらの上で、細い目の小人（レルドレサル）が話している。",
+     "text": "絵：扉。古い神殿の前に寝そべり、肘をついて顔を起こすガリヴァー。顔の前の右の手のひらの上で、細い目の小人（レルドレサル）が話している。【大きさ（3D）】小人の背（150 mm）は、ガリヴァーの手の長さ（約190 mm）に少し足りない。",
      "fill": "#6b7280",
      "parentId": "e03-p01-k1",
      "typography": {
@@ -2063,11 +2063,11 @@
      "name": "絵のメモ（ト書き）",
      "bounds": {
       "x": 50,
-      "y": 1098.4,
+      "y": 1082.8,
       "width": 700,
-      "height": 15.600000000000001
+      "height": 31.200000000000003
      },
-     "text": "絵：従者一人を連れて来るレルドレサル。奥にガリヴァーの顔。",
+     "text": "絵：従者一人を連れて来るレルドレサル。奥にガリヴァーの顔。【大きさ（3D）】小人の背は、寝そべるガリヴァーの顔の高さ（地面から約400 mm）の3分の1ほど。",
      "fill": "#6b7280",
      "parentId": "e03-p01-k2",
      "typography": {
@@ -2194,11 +2194,11 @@
      "name": "絵のメモ（ト書き）",
      "bounds": {
       "x": 912,
-      "y": 447.6,
+      "y": 432.00000000000006,
       "width": 696,
-      "height": 15.600000000000001
+      "height": 31.200000000000003
      },
-     "text": "絵：手のひらの上で語るレルドレサル。奥で聞くガリヴァーの目と顔の全体（目を含めて見せる、LN-e02-02）。",
+     "text": "絵：手のひらの上で語るレルドレサル。奥で聞くガリヴァーの目と顔の全体（目を含めて見せる、LN-e02-02）。【大きさ（3D）】小人の背（150 mm）は、ガリヴァーの手の長さ（約190 mm）に少し足りない。",
      "fill": "#6b7280",
      "parentId": "e03-p02-k1",
      "typography": {
@@ -2705,11 +2705,11 @@
      "name": "絵のメモ（ト書き）",
      "bounds": {
       "x": 1770,
-      "y": 1098.4,
+      "y": 1082.8,
       "width": 700,
-      "height": 15.600000000000001
+      "height": 31.200000000000003
      },
-     "text": "絵：問い返すガリヴァーの顔（両目と鼻と口、顔の全体）。",
+     "text": "絵：問い返すガリヴァーの顔（両目と鼻と口、顔の全体）。【大きさ（3D）】ガリヴァーの顔の幅（約150 mm）は、小人の背と同じほど。",
      "fill": "#6b7280",
      "parentId": "e03-p03-k3",
      "typography": {
@@ -2836,11 +2836,11 @@
      "name": "絵のメモ（ト書き）",
      "bounds": {
       "x": 2632,
-      "y": 447.6,
+      "y": 432.00000000000006,
       "width": 696,
-      "height": 15.600000000000001
+      "height": 31.200000000000003
      },
-     "text": "絵：北東の方を指すレルドレサル。「36か月」の重さ。奥にガリヴァーの顔。",
+     "text": "絵：北東の方を指すレルドレサル。「36か月」の重さ。奥にガリヴァーの顔。【大きさ（3D）】小人の背（150 mm）は、ガリヴァーの手の長さ（約190 mm）に少し足りない。",
      "fill": "#6b7280",
      "parentId": "e03-p04-k1",
      "typography": {
@@ -3966,11 +3966,11 @@
      "name": "絵のメモ（ト書き）",
      "bounds": {
       "x": 4352,
-      "y": 1096.4,
+      "y": 1080.8,
       "width": 696,
-      "height": 15.600000000000001
+      "height": 31.200000000000003
      },
-     "text": "絵：夕方。寝そべるガリヴァーと、手のひらの上の小さな男。笑わないガリヴァーの顔。",
+     "text": "絵：夕方。寝そべるガリヴァーと、手のひらの上の小さな男。笑わないガリヴァーの顔。【大きさ（3D）】小人の背（150 mm）は、ガリヴァーの手の長さ（約190 mm）に少し足りない。神殿の扉は、寝そべるガリヴァーの肩ほどの高さ。",
      "fill": "#6b7280",
      "parentId": "e03-p06-k4",
      "typography": {
@@ -4051,11 +4051,11 @@
      },
      "text": "",
      "fill": "#d4e3cf",
-     "src": "data:image/jpeg;base64,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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//2Q==",
+     "src": "data:image/jpeg;base64,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",
      "parentId": "e03-p07-k2",
      "imageFit": "fill",
      "opacity": 0.5,
-     "alt": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」をカメラ (-160000, -140000, 140000) mm から注視点 (0, 380000, 0) mm へ見た絵"
+     "alt": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」をカメラ (-20000, -250000, 140000) mm から注視点 (0, 150000, 0) mm へ見た絵"
     },
     {
      "id": "tx-0113",
@@ -4215,11 +4215,11 @@
      "name": "絵のメモ（ト書き）",
      "bounds": {
       "x": 5578,
-      "y": 1082.8,
+      "y": 1051.6,
       "width": 332,
-      "height": 31.200000000000003
+      "height": 62.400000000000006
      },
-     "text": "絵：しゃがんで水夫たちから深さを聞くガリヴァー。指さして答える水夫。",
+     "text": "絵：しゃがんで水夫たちから深さを聞くガリヴァー。指さして答える水夫。【大きさ（3D）】しゃがんだガリヴァーの頭は地面から約1300 mm、水夫（150 mm）はその9分の1ほどで、ガリヴァーの足首より少し上まで。",
      "fill": "#6b7280",
      "parentId": "e03-p07-k3",
      "typography": {
@@ -4369,11 +4369,11 @@
      "name": "絵のメモ（ト書き）",
      "bounds": {
       "x": 6070,
-      "y": 1098.4,
+      "y": 1067.2,
       "width": 700,
-      "height": 15.600000000000001
+      "height": 46.800000000000004
      },
-     "text": "絵：太い綱50本と鉄の鉤50個の山。綱を三本ずつより合わせるガリヴァー。運んできた小人たち。",
+     "text": "絵：太い綱50本と鉄の鉤50個の山。綱を三本ずつより合わせるガリヴァー。運んできた小人たち。【大きさ（3D）】小人はガリヴァーの足首より少し上までの背。【細い物（LN-e02-04）】綱はガリヴァーの指より細く、小人の腕ほどの太さ。鉤は小人の手のひらほど。綱の両端を、ガリヴァーの手と鉤の山で必ず見せる。",
      "fill": "#6b7280",
      "parentId": "e03-p08-k2",
      "typography": {
@@ -4428,11 +4428,11 @@
      "name": "絵のメモ（ト書き）",
      "bounds": {
       "x": 6932,
-      "y": 447.6,
+      "y": 432.00000000000006,
       "width": 696,
-      "height": 15.600000000000001
+      "height": 31.200000000000003
      },
-     "text": "絵：上着と靴と靴下を脱ぎ、革の胴着一つになったガリヴァー。眼鏡を胸の内ポケットへ。足もとに脱いだ服。",
+     "text": "絵：上着と靴と靴下を脱ぎ、革の胴着一つになったガリヴァー。眼鏡を胸の内ポケットへ。足もとに脱いだ服。【大きさ（3D）】小人（150 mm）は、ガリヴァーのすねの下3分の1まで。",
      "fill": "#6b7280",
      "parentId": "e03-p09-k1",
      "typography": {
@@ -4626,11 +4626,11 @@
      "name": "絵のメモ（ト書き）",
      "bounds": {
       "x": 7792,
-      "y": 447.6,
+      "y": 432.00000000000006,
       "width": 696,
-      "height": 15.600000000000001
+      "height": 31.200000000000003
      },
-     "text": "絵：甲板から見た、海から立ち上がって迫るガリヴァー。慌てて海へ飛び込む兵たち。",
+     "text": "絵：甲板から見た、海から立ち上がって迫るガリヴァー。慌てて海へ飛び込む兵たち。【大きさ（3D）】軍艦の長さ（約1.8 m）はガリヴァーの背ほど、帆柱の先（水面から約1.5 m）は彼の胸ほど。兵（150 mm）は帆の下半分にも届かない。",
      "fill": "#6b7280",
      "parentId": "e03-p10-k1",
      "typography": {
@@ -4706,11 +4706,11 @@
      "name": "絵のメモ（ト書き）",
      "bounds": {
       "x": 7792,
-      "y": 754.3999999999999,
+      "y": 738.8,
       "width": 368,
-      "height": 31.200000000000003
+      "height": 46.800000000000004
      },
-     "text": "絵：手と顔に刺さる千本の矢。顔をかばう両手（目と眉は手の間から見える）。",
+     "text": "絵：手と顔に刺さる千本の矢。顔をかばう両手（目と眉は手の間から見える）。【細い物（LN-e02-04）】矢はガリヴァーの指より細く、縫い針ほど（長さは指の半分ほど）。",
      "fill": "#6b7280",
      "parentId": "e03-p10-k2",
      "typography": {
@@ -4801,11 +4801,11 @@
      "name": "絵のメモ（ト書き）",
      "bounds": {
       "x": 8198,
-      "y": 754.3999999999999,
+      "y": 738.8,
       "width": 292,
-      "height": 31.200000000000003
+      "height": 46.800000000000004
      },
-     "text": "絵：目を細めるガリヴァー。頬に刺さる矢。（顔の全体）",
+     "text": "絵：目を細めるガリヴァー。頬に刺さる矢。（顔の全体）【細い物（LN-e02-04）】矢はガリヴァーの指より細く、縫い針ほど（長さは指の半分ほど）。",
      "fill": "#6b7280",
      "parentId": "e03-p10-k3",
      "typography": {
@@ -4940,11 +4940,11 @@
      "name": "絵のメモ（ト書き）",
      "bounds": {
       "x": 8650,
-      "y": 342.79999999999995,
+      "y": 327.2,
       "width": 700,
-      "height": 15.600000000000001
+      "height": 31.200000000000003
      },
-     "text": "絵：眼鏡のガラスに当たって弾かれる矢。ガラスの奥の目（両目）。",
+     "text": "絵：眼鏡のガラスに当たって弾かれる矢。ガラスの奥の目（両目）。【細い物（LN-e02-04）】矢はガリヴァーの指より細く、縫い針ほど（長さは指の半分ほど）。",
      "fill": "#6b7280",
      "parentId": "e03-p11-k1",
      "typography": {
@@ -4999,11 +4999,11 @@
      "name": "絵のメモ（ト書き）",
      "bounds": {
       "x": 8652,
-      "y": 769.9999999999999,
+      "y": 754.3999999999999,
       "width": 696,
-      "height": 15.600000000000001
+      "height": 31.200000000000003
      },
-     "text": "絵：一隻ずつ舳先の穴に鉤を掛ける大きな手。錨綱をナイフで切る。",
+     "text": "絵：一隻ずつ舳先の穴に鉤を掛ける大きな手。錨綱をナイフで切る。【大きさ（3D）】ガリヴァーの手（約190 mm）は兵（150 mm）より大きい。【細い物（LN-e02-04）】綱は彼の指より細い。手から舳先の鉤まで綱を切らずに見せる。",
      "fill": "#6b7280",
      "parentId": "e03-p11-k2",
      "typography": {
@@ -5058,11 +5058,11 @@
      "name": "絵のメモ（ト書き）",
      "bounds": {
       "x": 8650,
-      "y": 1098.4,
+      "y": 1082.8,
       "width": 700,
-      "height": 15.600000000000001
+      "height": 31.200000000000003
      },
-     "text": "絵：50本の綱を一つに結んだ結び目を握る手。",
+     "text": "絵：50本の綱を一つに結んだ結び目を握る手。【細い物（LN-e02-04）】一本一本は指より細い綱。束ねても手首より細い。束の先が画面の外の艦隊へ伸びるのを見せる。",
      "fill": "#6b7280",
      "parentId": "e03-p11-k3",
      "typography": {
@@ -5117,11 +5117,11 @@
      "name": "絵のメモ（ト書き）",
      "bounds": {
       "x": 9510,
-      "y": 663.1999999999999,
+      "y": 647.5999999999999,
       "width": 700,
-      "height": 15.600000000000001
+      "height": 31.200000000000003
      },
-     "text": "絵：50隻の艦隊を綱で引き、胸まで海につかって海峡を戻るガリヴァー。帆の並ぶ艦隊が後ろに続く。",
+     "text": "絵：50隻の艦隊を綱で引き、胸まで海につかって海峡を戻るガリヴァー。帆の並ぶ艦隊が後ろに続く。【細い物（LN-e02-04）】手から艦隊の舳先まで約3 m の綱の束（手首より細い）を、両端とも見せる。",
      "fill": "#6b7280",
      "parentId": "e03-p12-k1",
      "typography": {
@@ -5248,11 +5248,11 @@
      "name": "絵のメモ（ト書き）",
      "bounds": {
       "x": 9512,
-      "y": 1096.4,
+      "y": 1080.8,
       "width": 696,
-      "height": 15.600000000000001
+      "height": 31.200000000000003
      },
-     "text": "絵：ブレフスキュの浜で叫ぶ人々。遠ざかる巨人と艦隊。",
+     "text": "絵：ブレフスキュの浜で叫ぶ人々。遠ざかる巨人と艦隊。【大きさ（3D）】帆柱（約1.5 m）は浜の人々の10倍の高さ、巨人はその上に肩から上が出る。",
      "fill": "#6b7280",
      "parentId": "e03-p12-k2",
      "typography": {
@@ -5307,11 +5307,11 @@
      "name": "絵のメモ（ト書き）",
      "bounds": {
       "x": 10370,
-      "y": 556.4,
+      "y": 540.8,
       "width": 700,
-      "height": 15.600000000000001
+      "height": 31.200000000000003
      },
-     "text": "絵：リリパットの浜で待つ皇帝と廷臣たち。海から頭だけが見え、その後ろを艦隊だけが進んでくる。不安な顔の宮廷。",
+     "text": "絵：リリパットの浜で待つ皇帝と廷臣たち。海から頭だけが見え、その後ろを艦隊だけが進んでくる。不安な顔の宮廷。【大きさ（3D）】海から出たガリヴァーの頭（約250 mm）は、廷臣（150 mm）の背より大きい。",
      "fill": "#6b7280",
      "parentId": "e03-p13-k1",
      "typography": {
@@ -5438,11 +5438,11 @@
      "name": "絵のメモ（ト書き）",
      "bounds": {
       "x": 10370,
-      "y": 1098.4,
+      "y": 1082.8,
       "width": 700,
-      "height": 15.600000000000001
+      "height": 31.200000000000003
      },
-     "text": "絵：浅瀬で立ち上がり、綱を掲げて叫ぶガリヴァー。手前に驚く皇帝の背中。",
+     "text": "絵：浅瀬で立ち上がり、綱を掲げて叫ぶガリヴァー。手前に驚く皇帝の背中。【大きさ（3D）】立ったガリヴァーの膝（約500 mm）は、皇帝（約160 mm）の3倍の高さ。【細い物（LN-e02-04）】掲げる綱は指より細い。",
      "fill": "#6b7280",
      "parentId": "e03-p13-k2",
      "typography": {
@@ -5497,11 +5497,11 @@
      "name": "絵のメモ（ト書き）",
      "bounds": {
       "x": 11230,
-      "y": 663.1999999999999,
+      "y": 647.5999999999999,
       "width": 700,
-      "height": 15.600000000000001
+      "height": 31.200000000000003
      },
-     "text": "絵：王の港。岸壁に並ぶ奪った艦隊。壇の上の皇帝の前にひざまずくガリヴァー。群衆。",
+     "text": "絵：王の港。岸壁に並ぶ奪った艦隊。壇の上の皇帝の前にひざまずくガリヴァー。群衆。【大きさ（3D）】岸壁は地面から300 mm（ガリヴァーのすねの下ほど）、壇はさらに150 mm。ひざまずいた彼の頭（約1300 mm）は、壇の上の皇帝の約8倍の高さ。",
      "fill": "#6b7280",
      "parentId": "e03-p14-k1",
      "typography": {
@@ -5723,11 +5723,11 @@
      "name": "絵のメモ（ト書き）",
      "bounds": {
       "x": 12090,
-      "y": 342.79999999999995,
+      "y": 327.2,
       "width": 700,
-      "height": 15.600000000000001
+      "height": 31.200000000000003
      },
-     "text": "絵：頭を下げるガリヴァー（ひざまずいても、皇帝より何倍も高い）。",
+     "text": "絵：頭を下げるガリヴァー（ひざまずいても、皇帝より何倍も高い）。【大きさ（3D）】ひざまずいた頭は岸壁から約1300 mm、岸壁の上の人（150 mm）の約9倍。",
      "fill": "#6b7280",
      "parentId": "e03-p15-k1",
      "typography": {
@@ -7243,12 +7243,12 @@
      },
      {
       "elementId": "underlay-0109",
-      "source": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」のカメラの絵（e03-p07-k1、横 46.7°×縦 35°）。モデル：舞台 strait artifact_a8d511fc-0e4f-42cf-85b6-674f0ee53d86@version_3c0b2445-b7f0-4759-8e2f-a09938884dc6、舞台 strait fleet artifact_2bb7e1a2-e91e-47fe-8beb-b448677e0d85@version_f6f155f6-7db2-4c42-a164-b2b5693464c1、舞台 strait fleet2 artifact_96689529-a2c4-49db-9846-33ecc8a735eb@version_db180474-0bfe-46ff-a306-308c12d0318b、舞台 strait cords artifact_3a31478a-f1e5-428a-92b7-030714645844@version_473c4d6a-1bf7-491f-a3fa-bd5c0b90bd2c",
+      "source": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」のカメラの絵（e03-p07-k1、横 46.7°×縦 35°）。モデル：舞台 strait artifact_fdb39db6-18c6-429c-be15-d205d2083866@version_6164aa92-11de-4610-8e15-fb29cdd74b05、舞台 strait fleet artifact_f9d5c7a7-272f-4bab-a124-b9efbb92d7a9@version_43e8de01-f054-4818-889e-93c0af0f2c96、舞台 strait fleet2 artifact_e826cd6e-63df-4e32-8af4-866611b62443@version_a90f3689-7111-4fe7-bf2a-bc82130a48a2、舞台 strait cords artifact_e0aeaba7-4461-4be3-9a70-5dabc602f05c@version_b0355f09-d681-4b33-a9cc-7b9b87b0b442",
       "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
      },
      {
       "elementId": "underlay-0112",
-      "source": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」のカメラの絵（e03-p07-k2、横 23.8°×縦 35°）。モデル：舞台 strait artifact_a8d511fc-0e4f-42cf-85b6-674f0ee53d86@version_3c0b2445-b7f0-4759-8e2f-a09938884dc6、舞台 strait fleet artifact_2bb7e1a2-e91e-47fe-8beb-b448677e0d85@version_f6f155f6-7db2-4c42-a164-b2b5693464c1、舞台 strait fleet2 artifact_96689529-a2c4-49db-9846-33ecc8a735eb@version_db180474-0bfe-46ff-a306-308c12d0318b、舞台 strait cords artifact_3a31478a-f1e5-428a-92b7-030714645844@version_473c4d6a-1bf7-491f-a3fa-bd5c0b90bd2c",
+      "source": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」のカメラの絵（e03-p07-k2、横 23.8°×縦 35°）。モデル：舞台 strait artifact_fdb39db6-18c6-429c-be15-d205d2083866@version_6164aa92-11de-4610-8e15-fb29cdd74b05、舞台 strait fleet artifact_f9d5c7a7-272f-4bab-a124-b9efbb92d7a9@version_43e8de01-f054-4818-889e-93c0af0f2c96、舞台 strait fleet2 artifact_e826cd6e-63df-4e32-8af4-866611b62443@version_a90f3689-7111-4fe7-bf2a-bc82130a48a2、舞台 strait cords artifact_e0aeaba7-4461-4be3-9a70-5dabc602f05c@version_b0355f09-d681-4b33-a9cc-7b9b87b0b442",
       "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
      },
      {
@@ -7278,7 +7278,7 @@
      },
      {
       "elementId": "underlay-0137",
-      "source": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」のカメラの絵（e03-p09-k3、横 62.7°×縦 29.6°）。モデル：舞台 strait artifact_a8d511fc-0e4f-42cf-85b6-674f0ee53d86@version_3c0b2445-b7f0-4759-8e2f-a09938884dc6、舞台 strait fleet artifact_2bb7e1a2-e91e-47fe-8beb-b448677e0d85@version_f6f155f6-7db2-4c42-a164-b2b5693464c1、舞台 strait fleet2 artifact_96689529-a2c4-49db-9846-33ecc8a735eb@version_db180474-0bfe-46ff-a306-308c12d0318b、舞台 strait cords artifact_3a31478a-f1e5-428a-92b7-030714645844@version_473c4d6a-1bf7-491f-a3fa-bd5c0b90bd2c",
+      "source": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」のカメラの絵（e03-p09-k3、横 62.7°×縦 29.6°）。モデル：舞台 strait artifact_fdb39db6-18c6-429c-be15-d205d2083866@version_6164aa92-11de-4610-8e15-fb29cdd74b05、舞台 strait fleet artifact_f9d5c7a7-272f-4bab-a124-b9efbb92d7a9@version_43e8de01-f054-4818-889e-93c0af0f2c96、舞台 strait fleet2 artifact_e826cd6e-63df-4e32-8af4-866611b62443@version_a90f3689-7111-4fe7-bf2a-bc82130a48a2、舞台 strait cords artifact_e0aeaba7-4461-4be3-9a70-5dabc602f05c@version_b0355f09-d681-4b33-a9cc-7b9b87b0b442",
       "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
      },
      {
@@ -7318,7 +7318,7 @@
      },
      {
       "elementId": "underlay-0165",
-      "source": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」のカメラの絵（e03-p12-k1、横 39.5°×縦 35°）。モデル：舞台 strait artifact_a8d511fc-0e4f-42cf-85b6-674f0ee53d86@version_3c0b2445-b7f0-4759-8e2f-a09938884dc6、舞台 strait fleet artifact_2bb7e1a2-e91e-47fe-8beb-b448677e0d85@version_f6f155f6-7db2-4c42-a164-b2b5693464c1、舞台 strait fleet2 artifact_96689529-a2c4-49db-9846-33ecc8a735eb@version_db180474-0bfe-46ff-a306-308c12d0318b、舞台 strait cords artifact_3a31478a-f1e5-428a-92b7-030714645844@version_473c4d6a-1bf7-491f-a3fa-bd5c0b90bd2c",
+      "source": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」のカメラの絵（e03-p12-k1、横 39.5°×縦 35°）。モデル：舞台 strait artifact_fdb39db6-18c6-429c-be15-d205d2083866@version_6164aa92-11de-4610-8e15-fb29cdd74b05、舞台 strait fleet artifact_f9d5c7a7-272f-4bab-a124-b9efbb92d7a9@version_43e8de01-f054-4818-889e-93c0af0f2c96、舞台 strait fleet2 artifact_e826cd6e-63df-4e32-8af4-866611b62443@version_a90f3689-7111-4fe7-bf2a-bc82130a48a2、舞台 strait cords artifact_e0aeaba7-4461-4be3-9a70-5dabc602f05c@version_b0355f09-d681-4b33-a9cc-7b9b87b0b442",
       "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
      },
      {
@@ -7409,7 +7409,7 @@
      {
       "id": "e03-p01-k1",
       "type": "frame",
-      "name": "1-1 大引き：扉。古い神殿の前に寝そべり、肘をついて顔を起こすガリヴァー。顔の前の右の手のひらの上で、細い目の小人（レルドレサル）が話している。",
+      "name": "1-1 大引き：扉。古い神殿の前に寝そべり、肘をついて顔を起こすガリヴァー。顔の前の右の手のひらの上で、細い目の小人（レルドレサル）が話している。【大きさ（3D）】小人の背（150 mm）は、ガリヴァーの手の長さ（約190 mm）に少し足りない。",
       "bounds": {
        "x": 40,
        "y": 56,
@@ -7446,7 +7446,7 @@
      {
       "id": "e03-p01-k2",
       "type": "frame",
-      "name": "1-2 引き：従者一人を連れて来るレルドレサル。奥にガリヴァーの顔。",
+      "name": "1-2 引き：従者一人を連れて来るレルドレサル。奥にガリヴァーの顔。【大きさ（3D）】小人の背は、寝そべるガリヴァーの顔の高さ（地面から約400 mm）の3分の1ほど。",
       "bounds": {
        "x": 40,
        "y": 811.6,
@@ -7497,7 +7497,7 @@
      {
       "id": "e03-p02-k1",
       "type": "frame",
-      "name": "2-1 中：手のひらの上で語るレルドレサル。奥で聞くガリヴァーの目と顔の全体（目を含めて見せる、LN-e02-02）。",
+      "name": "2-1 中：手のひらの上で語るレルドレサル。奥で聞くガリヴァーの目と顔の全体（目を含めて見せる、LN-e02-02）。【大きさ（3D）】小人の背（150 mm）は、ガリヴァーの手の長さ（約190 mm）に少し足りない。",
       "bounds": {
        "x": 900,
        "y": 56,
@@ -7696,7 +7696,7 @@
      {
       "id": "e03-p03-k3",
       "type": "frame",
-      "name": "3-3 寄り：問い返すガリヴァーの顔（両目と鼻と口、顔の全体）。",
+      "name": "3-3 寄り：問い返すガリヴァーの顔（両目と鼻と口、顔の全体）。【大きさ（3D）】ガリヴァーの顔の幅（約150 mm）は、小人の背と同じほど。",
       "bounds": {
        "x": 1760,
        "y": 811.5999999999999,
@@ -7747,7 +7747,7 @@
      {
       "id": "e03-p04-k1",
       "type": "frame",
-      "name": "4-1 中：北東の方を指すレルドレサル。「36か月」の重さ。奥にガリヴァーの顔。",
+      "name": "4-1 中：北東の方を指すレルドレサル。「36か月」の重さ。奥にガリヴァーの顔。【大きさ（3D）】小人の背（150 mm）は、ガリヴァーの手の長さ（約190 mm）に少し足りない。",
       "bounds": {
        "x": 2620,
        "y": 56,
@@ -8145,7 +8145,7 @@
      {
       "id": "e03-p06-k4",
       "type": "frame",
-      "name": "6-4 引き：夕方。寝そべるガリヴァーと、手のひらの上の小さな男。笑わないガリヴァーの顔。",
+      "name": "6-4 引き：夕方。寝そべるガリヴァーと、手のひらの上の小さな男。笑わないガリヴァーの顔。【大きさ（3D）】小人の背（150 mm）は、ガリヴァーの手の長さ（約190 mm）に少し足りない。神殿の扉は、寝そべるガリヴァーの肩ほどの高さ。",
       "bounds": {
        "x": 4340,
        "y": 704.8,
@@ -8270,7 +8270,7 @@
      {
       "id": "e03-p07-k3",
       "type": "frame",
-      "name": "7-3 中：しゃがんで水夫たちから深さを聞くガリヴァー。指さして答える水夫。",
+      "name": "7-3 中：しゃがんで水夫たちから深さを聞くガリヴァー。指さして答える水夫。【大きさ（3D）】しゃがんだガリヴァーの頭は地面から約1300 mm、水夫（150 mm）はその9分の1ほどで、ガリヴァーの足首より少し上まで。",
       "bounds": {
        "x": 5568,
        "y": 598,
@@ -8358,7 +8358,7 @@
      {
       "id": "e03-p08-k2",
       "type": "frame",
-      "name": "8-2 中：太い綱50本と鉄の鉤50個の山。綱を三本ずつより合わせるガリヴァー。運んできた小人たち。",
+      "name": "8-2 中：太い綱50本と鉄の鉤50個の山。綱を三本ずつより合わせるガリヴァー。運んできた小人たち。【大きさ（3D）】小人はガリヴァーの足首より少し上までの背。【細い物（LN-e02-04）】綱はガリヴァーの指より細く、小人の腕ほどの太さ。鉤は小人の手のひらほど。綱の両端を、ガリヴァーの手と鉤の山で必ず見せる。",
       "bounds": {
        "x": 6060,
        "y": 598,
@@ -8409,7 +8409,7 @@
      {
       "id": "e03-p09-k1",
       "type": "frame",
-      "name": "9-1 中：上着と靴と靴下を脱ぎ、革の胴着一つになったガリヴァー。眼鏡を胸の内ポケットへ。足もとに脱いだ服。",
+      "name": "9-1 中：上着と靴と靴下を脱ぎ、革の胴着一つになったガリヴァー。眼鏡を胸の内ポケットへ。足もとに脱いだ服。【大きさ（3D）】小人（150 mm）は、ガリヴァーのすねの下3分の1まで。",
       "bounds": {
        "x": 6920,
        "y": 56,
@@ -8534,7 +8534,7 @@
      {
       "id": "e03-p10-k1",
       "type": "frame",
-      "name": "10-1 中：甲板から見た、海から立ち上がって迫るガリヴァー。慌てて海へ飛び込む兵たち。",
+      "name": "10-1 中：甲板から見た、海から立ち上がって迫るガリヴァー。慌てて海へ飛び込む兵たち。【大きさ（3D）】軍艦の長さ（約1.8 m）はガリヴァーの背ほど、帆柱の先（水面から約1.5 m）は彼の胸ほど。兵（150 mm）は帆の下半分にも届かない。",
       "bounds": {
        "x": 7780,
        "y": 56,
@@ -8571,7 +8571,7 @@
      {
       "id": "e03-p10-k2",
       "type": "frame",
-      "name": "10-2 寄り：手と顔に刺さる千本の矢。顔をかばう両手（目と眉は手の間から見える）。",
+      "name": "10-2 寄り：手と顔に刺さる千本の矢。顔をかばう両手（目と眉は手の間から見える）。【細い物（LN-e02-04）】矢はガリヴァーの指より細く、縫い針ほど（長さは指の半分ほど）。",
       "bounds": {
        "x": 7780,
        "y": 491.2,
@@ -8608,7 +8608,7 @@
      {
       "id": "e03-p10-k3",
       "type": "frame",
-      "name": "10-3 寄り：目を細めるガリヴァー。頬に刺さる矢。（顔の全体）",
+      "name": "10-3 寄り：目を細めるガリヴァー。頬に刺さる矢。（顔の全体）【細い物（LN-e02-04）】矢はガリヴァーの指より細く、縫い針ほど（長さは指の半分ほど）。",
       "bounds": {
        "x": 8188,
        "y": 491.2,
@@ -8696,7 +8696,7 @@
      {
       "id": "e03-p11-k1",
       "type": "frame",
-      "name": "11-1 寄り：眼鏡のガラスに当たって弾かれる矢。ガラスの奥の目（両目）。",
+      "name": "11-1 寄り：眼鏡のガラスに当たって弾かれる矢。ガラスの奥の目（両目）。【細い物（LN-e02-04）】矢はガリヴァーの指より細く、縫い針ほど（長さは指の半分ほど）。",
       "bounds": {
        "x": 8640,
        "y": 56,
@@ -8733,7 +8733,7 @@
      {
       "id": "e03-p11-k2",
       "type": "frame",
-      "name": "11-2 中：一隻ずつ舳先の穴に鉤を掛ける大きな手。錨綱をナイフで切る。",
+      "name": "11-2 中：一隻ずつ舳先の穴に鉤を掛ける大きな手。錨綱をナイフで切る。【大きさ（3D）】ガリヴァーの手（約190 mm）は兵（150 mm）より大きい。【細い物（LN-e02-04）】綱は彼の指より細い。手から舳先の鉤まで綱を切らずに見せる。",
       "bounds": {
        "x": 8640,
        "y": 384.3999999999999,
@@ -8770,7 +8770,7 @@
      {
       "id": "e03-p11-k3",
       "type": "frame",
-      "name": "11-3 寄り：50本の綱を一つに結んだ結び目を握る手。",
+      "name": "11-3 寄り：50本の綱を一つに結んだ結び目を握る手。【細い物（LN-e02-04）】一本一本は指より細い綱。束ねても手首より細い。束の先が画面の外の艦隊へ伸びるのを見せる。",
       "bounds": {
        "x": 8640,
        "y": 811.5999999999999,
@@ -8821,7 +8821,7 @@
      {
       "id": "e03-p12-k1",
       "type": "frame",
-      "name": "12-1 大引き：50隻の艦隊を綱で引き、胸まで海につかって海峡を戻るガリヴァー。帆の並ぶ艦隊が後ろに続く。",
+      "name": "12-1 大引き：50隻の艦隊を綱で引き、胸まで海につかって海峡を戻るガリヴァー。帆の並ぶ艦隊が後ろに続く。【細い物（LN-e02-04）】手から艦隊の舳先まで約3 m の綱の束（手首より細い）を、両端とも見せる。",
       "bounds": {
        "x": 9500,
        "y": 56,
@@ -8858,7 +8858,7 @@
      {
       "id": "e03-p12-k2",
       "type": "frame",
-      "name": "12-2 引き：ブレフスキュの浜で叫ぶ人々。遠ざかる巨人と艦隊。",
+      "name": "12-2 引き：ブレフスキュの浜で叫ぶ人々。遠ざかる巨人と艦隊。【大きさ（3D）】帆柱（約1.5 m）は浜の人々の10倍の高さ、巨人はその上に肩から上が出る。",
       "bounds": {
        "x": 9500,
        "y": 704.8,
@@ -8909,7 +8909,7 @@
      {
       "id": "e03-p13-k1",
       "type": "frame",
-      "name": "13-1 引き：リリパットの浜で待つ皇帝と廷臣たち。海から頭だけが見え、その後ろを艦隊だけが進んでくる。不安な顔の宮廷。",
+      "name": "13-1 引き：リリパットの浜で待つ皇帝と廷臣たち。海から頭だけが見え、その後ろを艦隊だけが進んでくる。不安な顔の宮廷。【大きさ（3D）】海から出たガリヴァーの頭（約250 mm）は、廷臣（150 mm）の背より大きい。",
       "bounds": {
        "x": 10360,
        "y": 56,
@@ -8946,7 +8946,7 @@
      {
       "id": "e03-p13-k2",
       "type": "frame",
-      "name": "13-2 中：浅瀬で立ち上がり、綱を掲げて叫ぶガリヴァー。手前に驚く皇帝の背中。",
+      "name": "13-2 中：浅瀬で立ち上がり、綱を掲げて叫ぶガリヴァー。手前に驚く皇帝の背中。【大きさ（3D）】立ったガリヴァーの膝（約500 mm）は、皇帝（約160 mm）の3倍の高さ。【細い物（LN-e02-04）】掲げる綱は指より細い。",
       "bounds": {
        "x": 10360,
        "y": 598,
@@ -8997,7 +8997,7 @@
      {
       "id": "e03-p14-k1",
       "type": "frame",
-      "name": "14-1 大引き：王の港。岸壁に並ぶ奪った艦隊。壇の上の皇帝の前にひざまずくガリヴァー。群衆。",
+      "name": "14-1 大引き：王の港。岸壁に並ぶ奪った艦隊。壇の上の皇帝の前にひざまずくガリヴァー。群衆。【大きさ（3D）】岸壁は地面から300 mm（ガリヴァーのすねの下ほど）、壇はさらに150 mm。ひざまずいた彼の頭（約1300 mm）は、壇の上の皇帝の約8倍の高さ。",
       "bounds": {
        "x": 11220,
        "y": 56,
@@ -9085,7 +9085,7 @@
      {
       "id": "e03-p15-k1",
       "type": "frame",
-      "name": "15-1 中：頭を下げるガリヴァー（ひざまずいても、皇帝より何倍も高い）。",
+      "name": "15-1 中：頭を下げるガリヴァー（ひざまずいても、皇帝より何倍も高い）。【大きさ（3D）】ひざまずいた頭は岸壁から約1300 mm、岸壁の上の人（150 mm）の約9倍。",
       "bounds": {
        "x": 12080,
        "y": 56,
@@ -9388,7 +9388,7 @@
        "width": 696,
        "height": 31.200000000000003
       },
-      "text": "絵：扉。古い神殿の前に寝そべり、肘をついて顔を起こすガリヴァー。顔の前の右の手のひらの上で、細い目の小人（レルドレサル）が話している。",
+      "text": "絵：扉。古い神殿の前に寝そべり、肘をついて顔を起こすガリヴァー。顔の前の右の手のひらの上で、細い目の小人（レルドレサル）が話している。【大きさ（3D）】小人の背（150 mm）は、ガリヴァーの手の長さ（約190 mm）に少し足りない。",
       "fill": "#6b7280",
       "parentId": "e03-p01-k1",
       "typography": {
@@ -9443,11 +9443,11 @@
       "name": "絵のメモ（ト書き）",
       "bounds": {
        "x": 50,
-       "y": 1098.4,
+       "y": 1082.8,
        "width": 700,
-       "height": 15.600000000000001
+       "height": 31.200000000000003
       },
-      "text": "絵：従者一人を連れて来るレルドレサル。奥にガリヴァーの顔。",
+      "text": "絵：従者一人を連れて来るレルドレサル。奥にガリヴァーの顔。【大きさ（3D）】小人の背は、寝そべるガリヴァーの顔の高さ（地面から約400 mm）の3分の1ほど。",
       "fill": "#6b7280",
       "parentId": "e03-p01-k2",
       "typography": {
@@ -9574,11 +9574,11 @@
       "name": "絵のメモ（ト書き）",
       "bounds": {
        "x": 912,
-       "y": 447.6,
+       "y": 432.00000000000006,
        "width": 696,
-       "height": 15.600000000000001
+       "height": 31.200000000000003
       },
-      "text": "絵：手のひらの上で語るレルドレサル。奥で聞くガリヴァーの目と顔の全体（目を含めて見せる、LN-e02-02）。",
+      "text": "絵：手のひらの上で語るレルドレサル。奥で聞くガリヴァーの目と顔の全体（目を含めて見せる、LN-e02-02）。【大きさ（3D）】小人の背（150 mm）は、ガリヴァーの手の長さ（約190 mm）に少し足りない。",
       "fill": "#6b7280",
       "parentId": "e03-p02-k1",
       "typography": {
@@ -10085,11 +10085,11 @@
       "name": "絵のメモ（ト書き）",
       "bounds": {
        "x": 1770,
-       "y": 1098.4,
+       "y": 1082.8,
        "width": 700,
-       "height": 15.600000000000001
+       "height": 31.200000000000003
       },
-      "text": "絵：問い返すガリヴァーの顔（両目と鼻と口、顔の全体）。",
+      "text": "絵：問い返すガリヴァーの顔（両目と鼻と口、顔の全体）。【大きさ（3D）】ガリヴァーの顔の幅（約150 mm）は、小人の背と同じほど。",
       "fill": "#6b7280",
       "parentId": "e03-p03-k3",
       "typography": {
@@ -10216,11 +10216,11 @@
       "name": "絵のメモ（ト書き）",
       "bounds": {
        "x": 2632,
-       "y": 447.6,
+       "y": 432.00000000000006,
        "width": 696,
-       "height": 15.600000000000001
+       "height": 31.200000000000003
       },
-      "text": "絵：北東の方を指すレルドレサル。「36か月」の重さ。奥にガリヴァーの顔。",
+      "text": "絵：北東の方を指すレルドレサル。「36か月」の重さ。奥にガリヴァーの顔。【大きさ（3D）】小人の背（150 mm）は、ガリヴァーの手の長さ（約190 mm）に少し足りない。",
       "fill": "#6b7280",
       "parentId": "e03-p04-k1",
       "typography": {
@@ -11346,11 +11346,11 @@
       "name": "絵のメモ（ト書き）",
       "bounds": {
        "x": 4352,
-       "y": 1096.4,
+       "y": 1080.8,
        "width": 696,
-       "height": 15.600000000000001
+       "height": 31.200000000000003
       },
-      "text": "絵：夕方。寝そべるガリヴァーと、手のひらの上の小さな男。笑わないガリヴァーの顔。",
+      "text": "絵：夕方。寝そべるガリヴァーと、手のひらの上の小さな男。笑わないガリヴァーの顔。【大きさ（3D）】小人の背（150 mm）は、ガリヴァーの手の長さ（約190 mm）に少し足りない。神殿の扉は、寝そべるガリヴァーの肩ほどの高さ。",
       "fill": "#6b7280",
       "parentId": "e03-p06-k4",
       "typography": {
@@ -11431,11 +11431,11 @@
       },
       "text": "",
       "fill": "#d4e3cf",
-      "src": "data:image/jpeg;base64,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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//2Q==",
+      "src": "data:image/jpeg;base64,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",
       "parentId": "e03-p07-k2",
       "imageFit": "fill",
       "opacity": 0.5,
-      "alt": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」をカメラ (-160000, -140000, 140000) mm から注視点 (0, 380000, 0) mm へ見た絵"
+      "alt": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」をカメラ (-20000, -250000, 140000) mm から注視点 (0, 150000, 0) mm へ見た絵"
      },
      {
       "id": "tx-0113",
@@ -11595,11 +11595,11 @@
       "name": "絵のメモ（ト書き）",
       "bounds": {
        "x": 5578,
-       "y": 1082.8,
+       "y": 1051.6,
        "width": 332,
-       "height": 31.200000000000003
+       "height": 62.400000000000006
       },
-      "text": "絵：しゃがんで水夫たちから深さを聞くガリヴァー。指さして答える水夫。",
+      "text": "絵：しゃがんで水夫たちから深さを聞くガリヴァー。指さして答える水夫。【大きさ（3D）】しゃがんだガリヴァーの頭は地面から約1300 mm、水夫（150 mm）はその9分の1ほどで、ガリヴァーの足首より少し上まで。",
       "fill": "#6b7280",
       "parentId": "e03-p07-k3",
       "typography": {
@@ -11749,11 +11749,11 @@
       "name": "絵のメモ（ト書き）",
       "bounds": {
        "x": 6070,
-       "y": 1098.4,
+       "y": 1067.2,
        "width": 700,
-       "height": 15.600000000000001
+       "height": 46.800000000000004
       },
-      "text": "絵：太い綱50本と鉄の鉤50個の山。綱を三本ずつより合わせるガリヴァー。運んできた小人たち。",
+      "text": "絵：太い綱50本と鉄の鉤50個の山。綱を三本ずつより合わせるガリヴァー。運んできた小人たち。【大きさ（3D）】小人はガリヴァーの足首より少し上までの背。【細い物（LN-e02-04）】綱はガリヴァーの指より細く、小人の腕ほどの太さ。鉤は小人の手のひらほど。綱の両端を、ガリヴァーの手と鉤の山で必ず見せる。",
       "fill": "#6b7280",
       "parentId": "e03-p08-k2",
       "typography": {
@@ -11808,11 +11808,11 @@
       "name": "絵のメモ（ト書き）",
       "bounds": {
        "x": 6932,
-       "y": 447.6,
+       "y": 432.00000000000006,
        "width": 696,
-       "height": 15.600000000000001
+       "height": 31.200000000000003
       },
-      "text": "絵：上着と靴と靴下を脱ぎ、革の胴着一つになったガリヴァー。眼鏡を胸の内ポケットへ。足もとに脱いだ服。",
+      "text": "絵：上着と靴と靴下を脱ぎ、革の胴着一つになったガリヴァー。眼鏡を胸の内ポケットへ。足もとに脱いだ服。【大きさ（3D）】小人（150 mm）は、ガリヴァーのすねの下3分の1まで。",
       "fill": "#6b7280",
       "parentId": "e03-p09-k1",
       "typography": {
@@ -12006,11 +12006,11 @@
       "name": "絵のメモ（ト書き）",
       "bounds": {
        "x": 7792,
-       "y": 447.6,
+       "y": 432.00000000000006,
        "width": 696,
-       "height": 15.600000000000001
+       "height": 31.200000000000003
       },
-      "text": "絵：甲板から見た、海から立ち上がって迫るガリヴァー。慌てて海へ飛び込む兵たち。",
+      "text": "絵：甲板から見た、海から立ち上がって迫るガリヴァー。慌てて海へ飛び込む兵たち。【大きさ（3D）】軍艦の長さ（約1.8 m）はガリヴァーの背ほど、帆柱の先（水面から約1.5 m）は彼の胸ほど。兵（150 mm）は帆の下半分にも届かない。",
       "fill": "#6b7280",
       "parentId": "e03-p10-k1",
       "typography": {
@@ -12086,11 +12086,11 @@
       "name": "絵のメモ（ト書き）",
       "bounds": {
        "x": 7792,
-       "y": 754.3999999999999,
+       "y": 738.8,
        "width": 368,
-       "height": 31.200000000000003
+       "height": 46.800000000000004
       },
-      "text": "絵：手と顔に刺さる千本の矢。顔をかばう両手（目と眉は手の間から見える）。",
+      "text": "絵：手と顔に刺さる千本の矢。顔をかばう両手（目と眉は手の間から見える）。【細い物（LN-e02-04）】矢はガリヴァーの指より細く、縫い針ほど（長さは指の半分ほど）。",
       "fill": "#6b7280",
       "parentId": "e03-p10-k2",
       "typography": {
@@ -12181,11 +12181,11 @@
       "name": "絵のメモ（ト書き）",
       "bounds": {
        "x": 8198,
-       "y": 754.3999999999999,
+       "y": 738.8,
        "width": 292,
-       "height": 31.200000000000003
+       "height": 46.800000000000004
       },
-      "text": "絵：目を細めるガリヴァー。頬に刺さる矢。（顔の全体）",
+      "text": "絵：目を細めるガリヴァー。頬に刺さる矢。（顔の全体）【細い物（LN-e02-04）】矢はガリヴァーの指より細く、縫い針ほど（長さは指の半分ほど）。",
       "fill": "#6b7280",
       "parentId": "e03-p10-k3",
       "typography": {
@@ -12320,11 +12320,11 @@
       "name": "絵のメモ（ト書き）",
       "bounds": {
        "x": 8650,
-       "y": 342.79999999999995,
+       "y": 327.2,
        "width": 700,
-       "height": 15.600000000000001
+       "height": 31.200000000000003
       },
-      "text": "絵：眼鏡のガラスに当たって弾かれる矢。ガラスの奥の目（両目）。",
+      "text": "絵：眼鏡のガラスに当たって弾かれる矢。ガラスの奥の目（両目）。【細い物（LN-e02-04）】矢はガリヴァーの指より細く、縫い針ほど（長さは指の半分ほど）。",
       "fill": "#6b7280",
       "parentId": "e03-p11-k1",
       "typography": {
@@ -12379,11 +12379,11 @@
       "name": "絵のメモ（ト書き）",
       "bounds": {
        "x": 8652,
-       "y": 769.9999999999999,
+       "y": 754.3999999999999,
        "width": 696,
-       "height": 15.600000000000001
+       "height": 31.200000000000003
       },
-      "text": "絵：一隻ずつ舳先の穴に鉤を掛ける大きな手。錨綱をナイフで切る。",
+      "text": "絵：一隻ずつ舳先の穴に鉤を掛ける大きな手。錨綱をナイフで切る。【大きさ（3D）】ガリヴァーの手（約190 mm）は兵（150 mm）より大きい。【細い物（LN-e02-04）】綱は彼の指より細い。手から舳先の鉤まで綱を切らずに見せる。",
       "fill": "#6b7280",
       "parentId": "e03-p11-k2",
       "typography": {
@@ -12438,11 +12438,11 @@
       "name": "絵のメモ（ト書き）",
       "bounds": {
        "x": 8650,
-       "y": 1098.4,
+       "y": 1082.8,
        "width": 700,
-       "height": 15.600000000000001
+       "height": 31.200000000000003
       },
-      "text": "絵：50本の綱を一つに結んだ結び目を握る手。",
+      "text": "絵：50本の綱を一つに結んだ結び目を握る手。【細い物（LN-e02-04）】一本一本は指より細い綱。束ねても手首より細い。束の先が画面の外の艦隊へ伸びるのを見せる。",
       "fill": "#6b7280",
       "parentId": "e03-p11-k3",
       "typography": {
@@ -12497,11 +12497,11 @@
       "name": "絵のメモ（ト書き）",
       "bounds": {
        "x": 9510,
-       "y": 663.1999999999999,
+       "y": 647.5999999999999,
        "width": 700,
-       "height": 15.600000000000001
+       "height": 31.200000000000003
       },
-      "text": "絵：50隻の艦隊を綱で引き、胸まで海につかって海峡を戻るガリヴァー。帆の並ぶ艦隊が後ろに続く。",
+      "text": "絵：50隻の艦隊を綱で引き、胸まで海につかって海峡を戻るガリヴァー。帆の並ぶ艦隊が後ろに続く。【細い物（LN-e02-04）】手から艦隊の舳先まで約3 m の綱の束（手首より細い）を、両端とも見せる。",
       "fill": "#6b7280",
       "parentId": "e03-p12-k1",
       "typography": {
@@ -12628,11 +12628,11 @@
       "name": "絵のメモ（ト書き）",
       "bounds": {
        "x": 9512,
-       "y": 1096.4,
+       "y": 1080.8,
        "width": 696,
-       "height": 15.600000000000001
+       "height": 31.200000000000003
       },
-      "text": "絵：ブレフスキュの浜で叫ぶ人々。遠ざかる巨人と艦隊。",
+      "text": "絵：ブレフスキュの浜で叫ぶ人々。遠ざかる巨人と艦隊。【大きさ（3D）】帆柱（約1.5 m）は浜の人々の10倍の高さ、巨人はその上に肩から上が出る。",
       "fill": "#6b7280",
       "parentId": "e03-p12-k2",
       "typography": {
@@ -12687,11 +12687,11 @@
       "name": "絵のメモ（ト書き）",
       "bounds": {
        "x": 10370,
-       "y": 556.4,
+       "y": 540.8,
        "width": 700,
-       "height": 15.600000000000001
+       "height": 31.200000000000003
       },
-      "text": "絵：リリパットの浜で待つ皇帝と廷臣たち。海から頭だけが見え、その後ろを艦隊だけが進んでくる。不安な顔の宮廷。",
+      "text": "絵：リリパットの浜で待つ皇帝と廷臣たち。海から頭だけが見え、その後ろを艦隊だけが進んでくる。不安な顔の宮廷。【大きさ（3D）】海から出たガリヴァーの頭（約250 mm）は、廷臣（150 mm）の背より大きい。",
       "fill": "#6b7280",
       "parentId": "e03-p13-k1",
       "typography": {
@@ -12818,11 +12818,11 @@
       "name": "絵のメモ（ト書き）",
       "bounds": {
        "x": 10370,
-       "y": 1098.4,
+       "y": 1082.8,
        "width": 700,
-       "height": 15.600000000000001
+       "height": 31.200000000000003
       },
-      "text": "絵：浅瀬で立ち上がり、綱を掲げて叫ぶガリヴァー。手前に驚く皇帝の背中。",
+      "text": "絵：浅瀬で立ち上がり、綱を掲げて叫ぶガリヴァー。手前に驚く皇帝の背中。【大きさ（3D）】立ったガリヴァーの膝（約500 mm）は、皇帝（約160 mm）の3倍の高さ。【細い物（LN-e02-04）】掲げる綱は指より細い。",
       "fill": "#6b7280",
       "parentId": "e03-p13-k2",
       "typography": {
@@ -12877,11 +12877,11 @@
       "name": "絵のメモ（ト書き）",
       "bounds": {
        "x": 11230,
-       "y": 663.1999999999999,
+       "y": 647.5999999999999,
        "width": 700,
-       "height": 15.600000000000001
+       "height": 31.200000000000003
       },
-      "text": "絵：王の港。岸壁に並ぶ奪った艦隊。壇の上の皇帝の前にひざまずくガリヴァー。群衆。",
+      "text": "絵：王の港。岸壁に並ぶ奪った艦隊。壇の上の皇帝の前にひざまずくガリヴァー。群衆。【大きさ（3D）】岸壁は地面から300 mm（ガリヴァーのすねの下ほど）、壇はさらに150 mm。ひざまずいた彼の頭（約1300 mm）は、壇の上の皇帝の約8倍の高さ。",
       "fill": "#6b7280",
       "parentId": "e03-p14-k1",
       "typography": {
@@ -13103,11 +13103,11 @@
       "name": "絵のメモ（ト書き）",
       "bounds": {
        "x": 12090,
-       "y": 342.79999999999995,
+       "y": 327.2,
        "width": 700,
-       "height": 15.600000000000001
+       "height": 31.200000000000003
       },
-      "text": "絵：頭を下げるガリヴァー（ひざまずいても、皇帝より何倍も高い）。",
+      "text": "絵：頭を下げるガリヴァー（ひざまずいても、皇帝より何倍も高い）。【大きさ（3D）】ひざまずいた頭は岸壁から約1300 mm、岸壁の上の人（150 mm）の約9倍。",
       "fill": "#6b7280",
       "parentId": "e03-p15-k1",
       "typography": {
@@ -14623,12 +14623,12 @@
       },
       {
        "elementId": "underlay-0109",
-       "source": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」のカメラの絵（e03-p07-k1、横 46.7°×縦 35°）。モデル：舞台 strait artifact_a8d511fc-0e4f-42cf-85b6-674f0ee53d86@version_3c0b2445-b7f0-4759-8e2f-a09938884dc6、舞台 strait fleet artifact_2bb7e1a2-e91e-47fe-8beb-b448677e0d85@version_f6f155f6-7db2-4c42-a164-b2b5693464c1、舞台 strait fleet2 artifact_96689529-a2c4-49db-9846-33ecc8a735eb@version_db180474-0bfe-46ff-a306-308c12d0318b、舞台 strait cords artifact_3a31478a-f1e5-428a-92b7-030714645844@version_473c4d6a-1bf7-491f-a3fa-bd5c0b90bd2c",
+       "source": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」のカメラの絵（e03-p07-k1、横 46.7°×縦 35°）。モデル：舞台 strait artifact_fdb39db6-18c6-429c-be15-d205d2083866@version_6164aa92-11de-4610-8e15-fb29cdd74b05、舞台 strait fleet artifact_f9d5c7a7-272f-4bab-a124-b9efbb92d7a9@version_43e8de01-f054-4818-889e-93c0af0f2c96、舞台 strait fleet2 artifact_e826cd6e-63df-4e32-8af4-866611b62443@version_a90f3689-7111-4fe7-bf2a-bc82130a48a2、舞台 strait cords artifact_e0aeaba7-4461-4be3-9a70-5dabc602f05c@version_b0355f09-d681-4b33-a9cc-7b9b87b0b442",
        "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
       },
       {
        "elementId": "underlay-0112",
-       "source": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」のカメラの絵（e03-p07-k2、横 23.8°×縦 35°）。モデル：舞台 strait artifact_a8d511fc-0e4f-42cf-85b6-674f0ee53d86@version_3c0b2445-b7f0-4759-8e2f-a09938884dc6、舞台 strait fleet artifact_2bb7e1a2-e91e-47fe-8beb-b448677e0d85@version_f6f155f6-7db2-4c42-a164-b2b5693464c1、舞台 strait fleet2 artifact_96689529-a2c4-49db-9846-33ecc8a735eb@version_db180474-0bfe-46ff-a306-308c12d0318b、舞台 strait cords artifact_3a31478a-f1e5-428a-92b7-030714645844@version_473c4d6a-1bf7-491f-a3fa-bd5c0b90bd2c",
+       "source": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」のカメラの絵（e03-p07-k2、横 23.8°×縦 35°）。モデル：舞台 strait artifact_fdb39db6-18c6-429c-be15-d205d2083866@version_6164aa92-11de-4610-8e15-fb29cdd74b05、舞台 strait fleet artifact_f9d5c7a7-272f-4bab-a124-b9efbb92d7a9@version_43e8de01-f054-4818-889e-93c0af0f2c96、舞台 strait fleet2 artifact_e826cd6e-63df-4e32-8af4-866611b62443@version_a90f3689-7111-4fe7-bf2a-bc82130a48a2、舞台 strait cords artifact_e0aeaba7-4461-4be3-9a70-5dabc602f05c@version_b0355f09-d681-4b33-a9cc-7b9b87b0b442",
        "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
       },
       {
@@ -14658,7 +14658,7 @@
       },
       {
        "elementId": "underlay-0137",
-       "source": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」のカメラの絵（e03-p09-k3、横 62.7°×縦 29.6°）。モデル：舞台 strait artifact_a8d511fc-0e4f-42cf-85b6-674f0ee53d86@version_3c0b2445-b7f0-4759-8e2f-a09938884dc6、舞台 strait fleet artifact_2bb7e1a2-e91e-47fe-8beb-b448677e0d85@version_f6f155f6-7db2-4c42-a164-b2b5693464c1、舞台 strait fleet2 artifact_96689529-a2c4-49db-9846-33ecc8a735eb@version_db180474-0bfe-46ff-a306-308c12d0318b、舞台 strait cords artifact_3a31478a-f1e5-428a-92b7-030714645844@version_473c4d6a-1bf7-491f-a3fa-bd5c0b90bd2c",
+       "source": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」のカメラの絵（e03-p09-k3、横 62.7°×縦 29.6°）。モデル：舞台 strait artifact_fdb39db6-18c6-429c-be15-d205d2083866@version_6164aa92-11de-4610-8e15-fb29cdd74b05、舞台 strait fleet artifact_f9d5c7a7-272f-4bab-a124-b9efbb92d7a9@version_43e8de01-f054-4818-889e-93c0af0f2c96、舞台 strait fleet2 artifact_e826cd6e-63df-4e32-8af4-866611b62443@version_a90f3689-7111-4fe7-bf2a-bc82130a48a2、舞台 strait cords artifact_e0aeaba7-4461-4be3-9a70-5dabc602f05c@version_b0355f09-d681-4b33-a9cc-7b9b87b0b442",
        "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
       },
       {
@@ -14698,7 +14698,7 @@
       },
       {
        "elementId": "underlay-0165",
-       "source": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」のカメラの絵（e03-p12-k1、横 39.5°×縦 35°）。モデル：舞台 strait artifact_a8d511fc-0e4f-42cf-85b6-674f0ee53d86@version_3c0b2445-b7f0-4759-8e2f-a09938884dc6、舞台 strait fleet artifact_2bb7e1a2-e91e-47fe-8beb-b448677e0d85@version_f6f155f6-7db2-4c42-a164-b2b5693464c1、舞台 strait fleet2 artifact_96689529-a2c4-49db-9846-33ecc8a735eb@version_db180474-0bfe-46ff-a306-308c12d0318b、舞台 strait cords artifact_3a31478a-f1e5-428a-92b7-030714645844@version_473c4d6a-1bf7-491f-a3fa-bd5c0b90bd2c",
+       "source": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」のカメラの絵（e03-p12-k1、横 39.5°×縦 35°）。モデル：舞台 strait artifact_fdb39db6-18c6-429c-be15-d205d2083866@version_6164aa92-11de-4610-8e15-fb29cdd74b05、舞台 strait fleet artifact_f9d5c7a7-272f-4bab-a124-b9efbb92d7a9@version_43e8de01-f054-4818-889e-93c0af0f2c96、舞台 strait fleet2 artifact_e826cd6e-63df-4e32-8af4-866611b62443@version_a90f3689-7111-4fe7-bf2a-bc82130a48a2、舞台 strait cords artifact_e0aeaba7-4461-4be3-9a70-5dabc602f05c@version_b0355f09-d681-4b33-a9cc-7b9b87b0b442",
        "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
       },
       {
@@ -14759,7 +14759,7 @@
      ]
     }
    },
-   "contentHash": "0b9c80a80e4aece49d7975c5fe92aea21c2b7ac7d9cb493adb735c56b394be9f"
+   "contentHash": "7c92902f151eb6a99e0bcbfddeac35c57c11f37f7300bcfa9d051a3d90285722"
   }
  ]
 }

@@ -66,29 +66,29 @@
     {
      "name": "舞台 strait",
      "kind": "cad",
-     "artifactId": "artifact_a8d511fc-0e4f-42cf-85b6-674f0ee53d86",
-     "versionId": "version_3c0b2445-b7f0-4759-8e2f-a09938884dc6",
+     "artifactId": "artifact_fdb39db6-18c6-429c-be15-d205d2083866",
+     "versionId": "version_6164aa92-11de-4610-8e15-fb29cdd74b05",
      "contentHash": "ffd08ea7bc804822d4fa7d324fda84a853092511e9720c7337fc09ef565c00b8"
     },
     {
      "name": "舞台 strait fleet",
      "kind": "cad",
-     "artifactId": "artifact_2bb7e1a2-e91e-47fe-8beb-b448677e0d85",
-     "versionId": "version_f6f155f6-7db2-4c42-a164-b2b5693464c1",
+     "artifactId": "artifact_f9d5c7a7-272f-4bab-a124-b9efbb92d7a9",
+     "versionId": "version_43e8de01-f054-4818-889e-93c0af0f2c96",
      "contentHash": "c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd"
     },
     {
      "name": "舞台 strait fleet2",
      "kind": "cad",
-     "artifactId": "artifact_96689529-a2c4-49db-9846-33ecc8a735eb",
-     "versionId": "version_db180474-0bfe-46ff-a306-308c12d0318b",
+     "artifactId": "artifact_e826cd6e-63df-4e32-8af4-866611b62443",
+     "versionId": "version_a90f3689-7111-4fe7-bf2a-bc82130a48a2",
      "contentHash": "95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab"
     },
     {
      "name": "舞台 strait cords",
      "kind": "cad",
-     "artifactId": "artifact_3a31478a-f1e5-428a-92b7-030714645844",
-     "versionId": "version_473c4d6a-1bf7-491f-a3fa-bd5c0b90bd2c",
+     "artifactId": "artifact_e0aeaba7-4461-4be3-9a70-5dabc602f05c",
+     "versionId": "version_b0355f09-d681-4b33-a9cc-7b9b87b0b442",
      "contentHash": "40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137"
     }
    ],
@@ -2107,13 +2107,13 @@
    "panel": "e03-p07-k2",
    "set": "strait",
    "cam": [
-    -160000,
-    -140000,
+    -20000,
+    -250000,
     140000
    ],
    "look": [
     0,
-    380000,
+    150000,
     0
    ],
    "stand": null,

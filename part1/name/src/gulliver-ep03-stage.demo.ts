@@ -245,7 +245,7 @@ const SETS: SetDef[] = [
   const DECK_EYE = 286;
   SETS[1]!.shots = [
     { panel: 'e03-p07-k1', cam: [-2600, -25600, 5300], look: [400, -14000, 4600], stand: 'hill', places: [{ fig: 'gulliver', at: ON_HILL, facing: 0, pose: 'telescope' }] },
-    { panel: 'e03-p07-k2', cam: [-160_000, -140_000, 140_000], look: [0, 380_000, 0], places: [{ fig: 'gulliver', at: ON_HILL, facing: 0, pose: 'telescope' }], vessels: { fleet: { at: ANCHORED } } },
+    { panel: 'e03-p07-k2', cam: [-20_000, -250_000, 140_000], look: [0, 150_000, 0], places: [{ fig: 'gulliver', at: ON_HILL, facing: 0, pose: 'telescope' }], vessels: { fleet: { at: ANCHORED } } },
     { panel: 'e03-p07-k3', cam: [700, -6100, 136], look: [2900, -8000, 1000], places: [{ fig: 'gulliver', at: [3000, -8000, 0], facing: Math.PI / 2, pose: 'crouch' }, { fig: 's1', at: [2600, -7900, 0], facing: -Math.PI / 2, pose: 'point' }], crowds: ['seamen'] },
     { panel: 'e03-p08-k1', cam: [0, 690_000, 1500], look: [0, 712_000, 300], places: [], crowds: ['crew'], vessels: { fleet: { at: ANCHORED } } },
     { panel: 'e03-p08-k2', cam: [5500, -5800, 136], look: [3250, -7900, 950], places: [{ fig: 'gulliver', at: [3000, -8000, 0], facing: -Math.PI / 2, pose: 'crouch' }], crowds: ['workers'] },
