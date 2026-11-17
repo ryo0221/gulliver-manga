@@ -41,8 +41,13 @@ MIN_REGION = 30
 # 通読の直し（RV-e02-03、2026-11-15）：評議の間の奥の壁と卓に、ラフの鉛筆のむらがまだらの影として出た。
 # これらのコマでは、背景の領域と広い領域（壁・卓の面）に影を付けず、背景のトーンは強くぼかしたラフ（σ 30）から取って
 # 木目やむらで細かく分かれた領域どうしの濃さを揃える。
-FLAT_BG = {'e02-p06-k1': 'RV-e02-03', 'e02-p06-k3': 'RV-e02-03', 'e02-p07-k1': 'RV-e02-03'}
+FLAT_BG = {'e02-p06-k1': 'RV-e02-03', 'e02-p06-k3': 'RV-e02-03', 'e02-p07-k1': 'RV-e02-03',
+           # 第3話：第2話の学び LN-e02-06「広い室内・壁のコマは最初から FLAT_BG」（作者が採る、2026-11-17）
+           'e03-p04-k4': 'LN-e02-06', 'e03-p05-k1': 'LN-e02-06', 'e03-p05-k2': 'LN-e02-06',
+           # 広い海のコマ：ラフの鉛筆のむらが海面にまだらに出た（2026-11-17、作者に見せる前に直した）
+           'e03-p07-k1': 'LN-e02-06', 'e03-p07-k2': 'LN-e02-06', 'e03-p12-k1': 'LN-e02-06'}
 FLAT_BG_BLUR = 30
+DATE = {2: '2026-11-15'}.get(EP, '2026-11-17')
 FLAT_SHARE = 0.01   # a region wider than this share of the panel is a wall or a table top (the figures are cut into small regions)
 
 
@@ -176,7 +181,7 @@ for pid, ip in sorted(inkdata['panels'].items()):
                                    'previousRefs': {r['path']: r['sha256'] for r in before[pid]['refs']}}
     elif pid in before and before[pid].get('revision', {}).get('finding') in REDRAWN.values():
         panels[pid]['revision'] = before[pid]['revision']
-    if pid in FLAT_BG: panels[pid]['revision'] = {'finding': FLAT_BG[pid], 'date': '2026-11-15', 'what': '背景に影を付けず、背景のトーンを強くぼかしたラフから取った'}
+    if pid in FLAT_BG: panels[pid]['revision'] = {'finding': FLAT_BG[pid], 'date': DATE, 'what': '背景に影を付けず、背景のトーンを強くぼかしたラフから取った'}
     print(pid, files['LY-05']['share'], files['LY-03']['share'], files['LY-06']['share'], sum(v['bytes'] for v in files.values()) // 1024, 'KB')
-json.dump({'schemaVersion': 1, 'episode': EP, 'generatedAt': '2026-11-15', 'panels': panels}, open(f'{out}/ep{EP:02d}-finish.json', 'w'), ensure_ascii=False, indent=1)
+json.dump({'schemaVersion': 1, 'episode': EP, 'generatedAt': DATE, 'panels': panels}, open(f'{out}/ep{EP:02d}-finish.json', 'w'), ensure_ascii=False, indent=1)
 print(len(panels), 'panels')
