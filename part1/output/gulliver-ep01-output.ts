@@ -10,10 +10,32 @@ import type { StructuredData } from '@editor-platform/structured-data/model';
 import { READ_COMMIT, READ_VERSIONS } from './gulliver-ep01-read';
 
 export type OutputFile = { file: string; format: 'PNG' | 'PDF'; page?: number | 'colophon'; pages?: number; colophon?: boolean; width?: number; height?: number; pointSize?: [number, number]; bytes: number; sha256: string };
+export type Biblio = { title: string; series: string; author: string; original: string; synopsis: string; blurb: string };
+export type AiRole = { phase: string; asked: string; adopted: string };
+/** 話ごとの出版準備の材料（第2話からも同じ組み立てで使う）。 */
+export type OutputEpisode = {
+  no: number;
+  biblio: Biblio;
+  roles: AiRole[];
+  /** 通読で読んだ固定した版（仕上げの Design）。 */
+  fixed: { artifact: string; version: string; what: string };
+  readCommit: string;
+  /** 元の原稿のファイル（リポジトリの中の道）。 */
+  sourceFile: string;
+  /** 判型の行の記録。 */
+  format: string;
+  /** 元の原稿のレイヤー。 */
+  layers: string;
+  /** 奥付の AI の関わりの前置き。 */
+  colophonIntro: string;
+  version: string;
+  stamp: string;
+  reason: string;
+};
 export type Outputs = { name: string; scale: number; source: { artifactId: string; versionId: string; contentHash: string; exportFilter?: string; exportContentHash?: string }; files: OutputFile[] };
 
 /** 書誌情報と紹介文（AI の草案。著者名は作者が決めた（2026-11-14）。題・あらすじ・紹介文は AI の草案）。 */
-export const BIBLIO = {
+export const BIBLIO: Biblio = {
   title: 'ガリヴァー旅行記　第1話「人の山」',
   series: 'ガリヴァー旅行記（全4部・24話）第1部 リリパット 第1話',
   author: 'ナナシ　アイ',
@@ -24,7 +46,7 @@ export const BIBLIO = {
 };
 
 /** AI の関わり（工程ごとに、AI に頼んだことと、採った絵・レイヤー・台詞）。出口の規定：各話の最後に記す。 */
-export const AI_ROLES: { phase: string; asked: string; adopted: string }[] = [
+export const AI_ROLES: AiRole[] = [
   { phase: '企画・人物と世界', asked: '企画書・画作りガイド・人物表・世界の覚え書き・地図の草案。設定画（Codex CLI の画像生成）', adopted: '作者が受け入れた設定画（CH-01〜07、小人、神殿、都）を、ラフ以降の参照に使った' },
   { phase: '筋と構成・脚本', asked: '原文からの新しい訳と、シーン・台詞・ト書きの草案', adopted: '作者が受け入れた脚本の行（gm1-script-lines@script-v1）をそのまま写植した。台詞は変えていない' },
   { phase: 'ネーム', asked: 'ページ割り・コマ・カメラと、3D の舞台（デジタルツイン）での人物の配置', adopted: 'コマ割りとカメラ（作者の確認と直しのあと）' },
@@ -36,8 +58,9 @@ export const AI_ROLES: { phase: string; asked: string; adopted: string }[] = [
 
 const esc = (t: string) => t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 /** 奥付（話の最後のページ）：書誌情報と AI の関わり。出口の規定「各話の最後に AI の関わりを記す」。 */
-export function colophonHtml() {
-  const rows = AI_ROLES.map((r) => `<tr><th>${esc(r.phase)}</th><td>${esc(r.asked)}。<br><span>採ったもの：${esc(r.adopted)}</span></td></tr>`).join('');
+export function colophonHtml(ep: OutputEpisode = EP01_OUTPUT) {
+  const BIBLIO = ep.biblio;
+  const rows = ep.roles.map((r) => `<tr><th>${esc(r.phase)}</th><td>${esc(r.asked)}。<br><span>採ったもの：${esc(r.adopted)}</span></td></tr>`).join('');
   return `<!doctype html><html lang="ja"><head><meta charset="utf-8"><style>
 body{margin:0;width:800px;height:1180px;background:#fff;color:#1d1d1f;font-family:"Noto Sans CJK JP","Noto Sans JP",sans-serif}
 .w{box-sizing:border-box;width:800px;height:1180px;padding:70px 64px;display:flex;flex-direction:column;gap:18px}
@@ -50,15 +73,31 @@ th{text-align:left;vertical-align:top;white-space:nowrap;padding:5px 14px 5px 0;
 <p>${esc(BIBLIO.series)}<br>著者：${esc(BIBLIO.author)}</p>
 <p>原作：${esc(BIBLIO.original)}</p>
 <h2>AI の関わり</h2>
-<p>この話は、作者が決めた筋・コマ割り・判断のもとで、絵の多くを AI の画像生成で作りました。工程ごとに AI に頼んだことと、採ったものは次のとおりです。</p>
+<p>${esc(ep.colophonIntro)}</p>
 <table>${rows}</table>
 <p class="f">人物の大きさと配置は、実寸の 3D の舞台（デジタルツイン）で確かめています。</p>
 </div></body></html>`;
 }
 
-const stamp = '2026-11-14T00:00:00.000Z';
-const VERSION = 'output-ep01-v2';
-async function native(kind: string, id: string, name: string, content: unknown) {
+const COLOPHON_INTRO = 'この話は、作者が決めた筋・コマ割り・判断のもとで、絵の多くを AI の画像生成で作りました。工程ごとに AI に頼んだことと、採ったものは次のとおりです。';
+const FORMAT_EP01 = '原稿の枠は 800×1180（縦横比 1:1.475）。企画の「A4縦」（1:1.414）より縦長で、PDF のページは 600×885 pt（A4 は 595×842 pt）。作者の判断（2026-11-14）：このまま（A4 に合わせない）。';
+export const EP01_OUTPUT: OutputEpisode = {
+  no: 1,
+  biblio: BIBLIO,
+  roles: AI_ROLES,
+  fixed: READ_VERSIONS.find((v) => v.artifact === 'gm1-ep01-finish')!,
+  readCommit: READ_COMMIT,
+  sourceFile: 'part1/finish/artifacts/gm1-ep01-finish.artifact.json',
+  format: FORMAT_EP01,
+  layers: 'LY-03〜LY-10',
+  colophonIntro: COLOPHON_INTRO,
+  version: 'output-ep01-v2',
+  stamp: '2026-11-14T00:00:00.000Z',
+  reason: 'ガリヴァー旅行記 第1話の出版準備（fiction-manga@1.3.0 出版準備：出力の記録。確かめるのは作者）',
+};
+
+export async function native(ep: OutputEpisode, kind: string, id: string, name: string, content: unknown) {
+  const { stamp, version: VERSION } = ep;
   const artifact: Artifact<unknown> = {
     schemaVersion: 1,
     id,
@@ -74,7 +113,7 @@ async function native(kind: string, id: string, name: string, content: unknown) 
         schemaVersion: 1,
         createdAt: stamp,
         createdBy: null,
-        reason: 'ガリヴァー旅行記 第1話の出版準備（fiction-manga@1.3.0 出版準備：出力の記録。確かめるのは作者）',
+        reason: ep.reason,
         content,
         contentHash: await contentHash(content),
       },
@@ -83,30 +122,31 @@ async function native(kind: string, id: string, name: string, content: unknown) 
   return artifact;
 }
 
-function outputTable(outputs: Outputs): StructuredData {
-  const fixed = READ_VERSIONS.find((v) => v.artifact === 'gm1-ep01-finish')!;
-  const src = `${outputs.source.artifactId}@${outputs.source.versionId}（contentHash ${outputs.source.contentHash.slice(0, 12)}、コミット ${READ_COMMIT.slice(0, 8)}）${outputs.source.exportFilter ? `。書き出しでは${outputs.source.exportFilter}` : ''}`;
+export function outputTable(outputs: Outputs, ep: OutputEpisode = EP01_OUTPUT): StructuredData {
+  const { fixed, biblio: BIBLIO, roles: AI_ROLES } = ep;
+  const e = `OR-e${String(ep.no).padStart(2, '0')}`;
+  const src = `${outputs.source.artifactId}@${outputs.source.versionId}（contentHash ${outputs.source.contentHash.slice(0, 12)}、コミット ${ep.readCommit.slice(0, 8)}）${outputs.source.exportFilter ? `。書き出しでは${outputs.source.exportFilter}` : ''}`;
   const rows: StructuredData['rows'] = [];
   const row = (id: string, section: string, item: string, value: string, source = '') =>
     rows.push({ id, values: { 'or.section': section, 'or.item': item, 'or.value': value, 'or.source': source } });
   // 出力物：レイヤーを残した元の原稿と、まとめた出力物を分ける。
-  row('OR-e01-01', '出力物', '元の原稿（レイヤーを残す）', `${fixed.what}。Design（漫画ワークスペース）、コマごとに LY-03〜LY-10 のレイヤーのグループ。part1/finish/artifacts/gm1-ep01-finish.artifact.json`, `${fixed.artifact}@${fixed.version}`);
+  row(`${e}-01`, '出力物', '元の原稿（レイヤーを残す）', `${fixed.what}。Design（漫画ワークスペース）、コマごとに ${ep.layers} のレイヤーのグループ。${ep.sourceFile}`, `${fixed.artifact}@${fixed.version}`);
   const pngs = outputs.files.filter((f) => f.format === 'PNG' && typeof f.page === 'number');
   const colophon = outputs.files.find((f) => f.page === 'colophon');
-  row('OR-e01-02', '出力物', 'PNG（ページごと）', `${pngs.length}枚、${pngs[0]!.width}×${pngs[0]!.height} px（原稿の枠 800×1180 の ${outputs.scale} 倍）。${pngs.map((f) => `${f.file} sha256:${f.sha256.slice(0, 12)}`).join('、')}`, src);
-  if (colophon) row('OR-e01-03b', '出力物', '奥付（話の最後のページ）', `${colophon.file}、${colophon.width}×${colophon.height} px。書誌情報と AI の関わり（この表の「AI の関わり」と同じ中身）。sha256:${colophon.sha256.slice(0, 12)}`, src);
+  row(`${e}-02`, '出力物', 'PNG（ページごと）', `${pngs.length}枚、${pngs[0]!.width}×${pngs[0]!.height} px（原稿の枠 800×1180 の ${outputs.scale} 倍）。${pngs.map((f) => `${f.file} sha256:${f.sha256.slice(0, 12)}`).join('、')}`, src);
+  if (colophon) row(`${e}-03b`, '出力物', '奥付（話の最後のページ）', `${colophon.file}、${colophon.width}×${colophon.height} px。書誌情報と AI の関わり（この表の「AI の関わり」と同じ中身）。sha256:${colophon.sha256.slice(0, 12)}`, src);
   for (const f of outputs.files.filter((x) => x.format === 'PDF'))
-    row('OR-e01-03', '出力物', 'PDF（話ごと）', `${f.file}、${f.pages}ページ（漫画16ページ${f.colophon ? '＋奥付' : ''}）、${f.pointSize!.join('×')} pt。書き出しの元の版（references.json）を添付。sha256:${f.sha256.slice(0, 12)}、${Math.round(f.bytes / 1024)} KB`, src);
-  row('OR-e01-04', '出力物', '判型', '原稿の枠は 800×1180（縦横比 1:1.475）。企画の「A4縦」（1:1.414）より縦長で、PDF のページは 600×885 pt（A4 は 595×842 pt）。作者の判断（2026-11-14）：このまま（A4 に合わせない）。');
+    row(`${e}-03`, '出力物', 'PDF（話ごと）', `${f.file}、${f.pages}ページ（漫画16ページ${f.colophon ? '＋奥付' : ''}）、${f.pointSize!.join('×')} pt。書き出しの元の版（references.json）を添付。sha256:${f.sha256.slice(0, 12)}、${Math.round(f.bytes / 1024)} KB`, src);
+  row(`${e}-04`, '出力物', '判型', ep.format);
   // 書誌情報と紹介文
-  row('OR-e01-05', '書誌情報と紹介文', '題', BIBLIO.title);
-  row('OR-e01-06', '書誌情報と紹介文', '連載', BIBLIO.series);
-  row('OR-e01-07', '書誌情報と紹介文', '著者名', BIBLIO.author);
-  row('OR-e01-08', '書誌情報と紹介文', '原作', BIBLIO.original);
-  row('OR-e01-09', '書誌情報と紹介文', 'あらすじ', BIBLIO.synopsis);
-  row('OR-e01-10', '書誌情報と紹介文', '紹介文', BIBLIO.blurb);
+  row(`${e}-05`, '書誌情報と紹介文', '題', BIBLIO.title);
+  row(`${e}-06`, '書誌情報と紹介文', '連載', BIBLIO.series);
+  row(`${e}-07`, '書誌情報と紹介文', '著者名', BIBLIO.author);
+  row(`${e}-08`, '書誌情報と紹介文', '原作', BIBLIO.original);
+  row(`${e}-09`, '書誌情報と紹介文', 'あらすじ', BIBLIO.synopsis);
+  row(`${e}-10`, '書誌情報と紹介文', '紹介文', BIBLIO.blurb);
   // AI の関わり
-  AI_ROLES.forEach((r, i) => row(`OR-e01-${String(11 + i).padStart(2, '0')}`, 'AI の関わり', r.phase, `頼んだこと：${r.asked}。採ったもの：${r.adopted}`));
+  AI_ROLES.forEach((r, i) => row(`${e}-${String(11 + i).padStart(2, '0')}`, 'AI の関わり', r.phase, `頼んだこと：${r.asked}。採ったもの：${r.adopted}`));
   return {
     schemaVersion: 2,
     columns: [
@@ -119,6 +159,9 @@ function outputTable(outputs: Outputs): StructuredData {
   };
 }
 
+export async function buildEpisodeOutput(outputs: Outputs, ep: OutputEpisode) {
+  return [await native(ep, 'data', `gm1-ep${String(ep.no).padStart(2, '0')}-output`, `第${ep.no}話 出力の記録`, outputTable(outputs, ep))];
+}
 export async function buildGulliverEp01Output(outputs: Outputs) {
-  return [await native('data', 'gm1-ep01-output', '第1話 出力の記録', outputTable(outputs))];
+  return buildEpisodeOutput(outputs, EP01_OUTPUT);
 }

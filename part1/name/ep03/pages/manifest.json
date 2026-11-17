@@ -1,0 +1,894 @@
+{
+ "schemaVersion": 1,
+ "capability": "vector",
+ "artwork": [],
+ "source": {
+  "artifactId": "gm1-ep03-name",
+  "versionId": "version_3f273e24-6fb6-4085-a197-65d50fd99573",
+  "contentHash": "0b9c80a80e4aece49d7975c5fe92aea21c2b7ac7d9cb493adb735c56b394be9f"
+ },
+ "direction": "ltr",
+ "pages": [
+  {
+   "frameId": "e03-p01",
+   "panelIds": [
+    "e03-p01-k1",
+    "e03-p01-k2"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e03-p01-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 803.6
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e03-p01-k1"
+     },
+     "b": {
+      "panelId": "e03-p01-k2"
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e03-p02",
+   "panelIds": [
+    "e03-p02-k1",
+    "e03-p02-k2",
+    "e03-p02-k3"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e03-p02-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 483.2
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e03-p02-k1"
+     },
+     "b": {
+      "dividerId": "e03-p02-h2",
+      "line": {
+       "nx": 0,
+       "ny": 1,
+       "offset": 803.5999999999999
+      },
+      "gap": 16,
+      "a": {
+       "panelId": "e03-p02-k2"
+      },
+      "b": {
+       "panelId": "e03-p02-k3"
+      }
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e03-p03",
+   "panelIds": [
+    "e03-p03-k1",
+    "e03-p03-k2",
+    "e03-p03-k3"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e03-p03-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 483.2
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e03-p03-k1"
+     },
+     "b": {
+      "dividerId": "e03-p03-h2",
+      "line": {
+       "nx": 0,
+       "ny": 1,
+       "offset": 803.5999999999999
+      },
+      "gap": 16,
+      "a": {
+       "panelId": "e03-p03-k2"
+      },
+      "b": {
+       "panelId": "e03-p03-k3"
+      }
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e03-p04",
+   "panelIds": [
+    "e03-p04-k1",
+    "e03-p04-k2",
+    "e03-p04-k3",
+    "e03-p04-k4"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e03-p04-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 483.2
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e03-p04-k1"
+     },
+     "b": {
+      "dividerId": "e03-p04-h2",
+      "line": {
+       "nx": 0,
+       "ny": 1,
+       "offset": 803.5999999999999
+      },
+      "gap": 16,
+      "a": {
+       "dividerId": "e03-p04-t2v1",
+       "line": {
+        "nx": 1,
+        "ny": 0,
+        "offset": 348.57142857142856
+       },
+       "gap": 16,
+       "a": {
+        "panelId": "e03-p04-k2"
+       },
+       "b": {
+        "panelId": "e03-p04-k3"
+       }
+      },
+      "b": {
+       "panelId": "e03-p04-k4"
+      }
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e03-p05",
+   "panelIds": [
+    "e03-p05-k1",
+    "e03-p05-k2",
+    "e03-p05-k3"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e03-p05-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 483.2
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e03-p05-k1"
+     },
+     "b": {
+      "dividerId": "e03-p05-h2",
+      "line": {
+       "nx": 0,
+       "ny": 1,
+       "offset": 803.5999999999999
+      },
+      "gap": 16,
+      "a": {
+       "panelId": "e03-p05-k2"
+      },
+      "b": {
+       "panelId": "e03-p05-k3"
+      }
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e03-p06",
+   "panelIds": [
+    "e03-p06-k1",
+    "e03-p06-k2",
+    "e03-p06-k3",
+    "e03-p06-k4"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e03-p06-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 376.4
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e03-p06-k1"
+     },
+     "b": {
+      "dividerId": "e03-p06-h2",
+      "line": {
+       "nx": 0,
+       "ny": 1,
+       "offset": 696.8
+      },
+      "gap": 16,
+      "a": {
+       "dividerId": "e03-p06-t2v1",
+       "line": {
+        "nx": 1,
+        "ny": 0,
+        "offset": 440
+       },
+       "gap": 16,
+       "a": {
+        "panelId": "e03-p06-k2"
+       },
+       "b": {
+        "panelId": "e03-p06-k3"
+       }
+      },
+      "b": {
+       "panelId": "e03-p06-k4"
+      }
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e03-p07",
+   "panelIds": [
+    "e03-p07-k1",
+    "e03-p07-k2",
+    "e03-p07-k3"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e03-p07-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 590
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e03-p07-k1"
+     },
+     "b": {
+      "dividerId": "e03-p07-t2v1",
+      "line": {
+       "nx": 1,
+       "ny": 0,
+       "offset": 400
+      },
+      "gap": 16,
+      "a": {
+       "panelId": "e03-p07-k2"
+      },
+      "b": {
+       "panelId": "e03-p07-k3"
+      }
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e03-p08",
+   "panelIds": [
+    "e03-p08-k1",
+    "e03-p08-k2"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e03-p08-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 590
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e03-p08-k1"
+     },
+     "b": {
+      "panelId": "e03-p08-k2"
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e03-p09",
+   "panelIds": [
+    "e03-p09-k1",
+    "e03-p09-k2",
+    "e03-p09-k3"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e03-p09-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 483.2
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e03-p09-k1"
+     },
+     "b": {
+      "dividerId": "e03-p09-h2",
+      "line": {
+       "nx": 0,
+       "ny": 1,
+       "offset": 803.5999999999999
+      },
+      "gap": 16,
+      "a": {
+       "panelId": "e03-p09-k2"
+      },
+      "b": {
+       "panelId": "e03-p09-k3"
+      }
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e03-p10",
+   "panelIds": [
+    "e03-p10-k1",
+    "e03-p10-k2",
+    "e03-p10-k3",
+    "e03-p10-k4"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e03-p10-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 483.2
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e03-p10-k1"
+     },
+     "b": {
+      "dividerId": "e03-p10-h2",
+      "line": {
+       "nx": 0,
+       "ny": 1,
+       "offset": 803.5999999999999
+      },
+      "gap": 16,
+      "a": {
+       "dividerId": "e03-p10-t2v1",
+       "line": {
+        "nx": 1,
+        "ny": 0,
+        "offset": 440
+       },
+       "gap": 16,
+       "a": {
+        "panelId": "e03-p10-k2"
+       },
+       "b": {
+        "panelId": "e03-p10-k3"
+       }
+      },
+      "b": {
+       "panelId": "e03-p10-k4"
+      }
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e03-p11",
+   "panelIds": [
+    "e03-p11-k1",
+    "e03-p11-k2",
+    "e03-p11-k3"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e03-p11-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 376.4
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e03-p11-k1"
+     },
+     "b": {
+      "dividerId": "e03-p11-h2",
+      "line": {
+       "nx": 0,
+       "ny": 1,
+       "offset": 803.5999999999999
+      },
+      "gap": 16,
+      "a": {
+       "panelId": "e03-p11-k2"
+      },
+      "b": {
+       "panelId": "e03-p11-k3"
+      }
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e03-p12",
+   "panelIds": [
+    "e03-p12-k1",
+    "e03-p12-k2"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e03-p12-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 696.8
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e03-p12-k1"
+     },
+     "b": {
+      "panelId": "e03-p12-k2"
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e03-p13",
+   "panelIds": [
+    "e03-p13-k1",
+    "e03-p13-k2"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e03-p13-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 590
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e03-p13-k1"
+     },
+     "b": {
+      "panelId": "e03-p13-k2"
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e03-p14",
+   "panelIds": [
+    "e03-p14-k1",
+    "e03-p14-k2"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e03-p14-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 696.8
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e03-p14-k1"
+     },
+     "b": {
+      "panelId": "e03-p14-k2"
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e03-p15",
+   "panelIds": [
+    "e03-p15-k1",
+    "e03-p15-k2",
+    "e03-p15-k3"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e03-p15-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 376.4
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e03-p15-k1"
+     },
+     "b": {
+      "dividerId": "e03-p15-h2",
+      "line": {
+       "nx": 0,
+       "ny": 1,
+       "offset": 803.5999999999999
+      },
+      "gap": 16,
+      "a": {
+       "panelId": "e03-p15-k2"
+      },
+      "b": {
+       "panelId": "e03-p15-k3"
+      }
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e03-p16",
+   "panelIds": [
+    "e03-p16-k1",
+    "e03-p16-k2",
+    "e03-p16-k3"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e03-p16-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 541.4545454545455
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e03-p16-k1"
+     },
+     "b": {
+      "dividerId": "e03-p16-h2",
+      "line": {
+       "nx": 0,
+       "ny": 1,
+       "offset": 832.7272727272727
+      },
+      "gap": 16,
+      "a": {
+       "panelId": "e03-p16-k2"
+      },
+      "b": {
+       "panelId": "e03-p16-k3"
+      }
+     }
+    }
+   }
+  }
+ ],
+ "images": [
+  {
+   "elementId": "underlay-0001",
+   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p01-k1、横 34.1°×縦 35°）。モデル：F106 古い神殿 artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e、舞台 house artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0005",
+   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p01-k2、横 62.7°×縦 29.6°）。モデル：F106 古い神殿 artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e、舞台 house artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0008",
+   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p02-k1、横 56.9°×縦 35°）。モデル：F106 古い神殿 artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e、舞台 house artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0015",
+   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p02-k2、横 62.7°×縦 28.9°）。モデル：F106 古い神殿 artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e、舞台 house artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0022",
+   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p02-k3、横 62.7°×縦 29.6°）。モデル：F106 古い神殿 artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e、舞台 house artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0025",
+   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p03-k1、横 56.9°×縦 35°）。モデル：F106 古い神殿 artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e、舞台 house artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0032",
+   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p03-k2、横 62.7°×縦 28.9°）。モデル：F106 古い神殿 artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e、舞台 house artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0035",
+   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p03-k3、横 62.7°×縦 29.6°）。モデル：F106 古い神殿 artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e、舞台 house artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0042",
+   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p04-k1、横 56.9°×縦 35°）。モデル：F106 古い神殿 artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e、舞台 house artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0049",
+   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p04-k2、横 34.6°×縦 35°）。モデル：F106 古い神殿 artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e、舞台 house artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0056",
+   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p04-k3、横 45.4°×縦 35°）。モデル：F106 古い神殿 artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e、舞台 house artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0083",
+   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p06-k1、横 62.7°×縦 29.6°）。モデル：F106 古い神殿 artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e、舞台 house artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0090",
+   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p06-k2、横 44.2°×縦 35°）。モデル：F106 古い神殿 artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e、舞台 house artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0097",
+   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p06-k3、横 35.8°×縦 35°）。モデル：F106 古い神殿 artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e、舞台 house artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0104",
+   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話」のカメラの絵（e03-p06-k4、横 56.9°×縦 35°）。モデル：F106 古い神殿 artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d@version_4955c459-bc2d-4509-9f33-628a15b2cb9e、舞台 house artifact_d5005983-49f0-413d-bc75-560c55f2abfd@version_108803b2-dc11-407e-bb5a-856d24d30eb5",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0109",
+   "source": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」のカメラの絵（e03-p07-k1、横 46.7°×縦 35°）。モデル：舞台 strait artifact_a8d511fc-0e4f-42cf-85b6-674f0ee53d86@version_3c0b2445-b7f0-4759-8e2f-a09938884dc6、舞台 strait fleet artifact_2bb7e1a2-e91e-47fe-8beb-b448677e0d85@version_f6f155f6-7db2-4c42-a164-b2b5693464c1、舞台 strait fleet2 artifact_96689529-a2c4-49db-9846-33ecc8a735eb@version_db180474-0bfe-46ff-a306-308c12d0318b、舞台 strait cords artifact_3a31478a-f1e5-428a-92b7-030714645844@version_473c4d6a-1bf7-491f-a3fa-bd5c0b90bd2c",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0112",
+   "source": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」のカメラの絵（e03-p07-k2、横 23.8°×縦 35°）。モデル：舞台 strait artifact_a8d511fc-0e4f-42cf-85b6-674f0ee53d86@version_3c0b2445-b7f0-4759-8e2f-a09938884dc6、舞台 strait fleet artifact_2bb7e1a2-e91e-47fe-8beb-b448677e0d85@version_f6f155f6-7db2-4c42-a164-b2b5693464c1、舞台 strait fleet2 artifact_96689529-a2c4-49db-9846-33ecc8a735eb@version_db180474-0bfe-46ff-a306-308c12d0318b、舞台 strait cords artifact_3a31478a-f1e5-428a-92b7-030714645844@version_473c4d6a-1bf7-491f-a3fa-bd5c0b90bd2c",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0117",
+   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p07-k3、横 23.8°×縦 35°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0122",
+   "source": "3D の舞台「ブレフスキュの艦隊のまわりの海とブレフスキュの浜（海峡の北の端）」のカメラの絵（e03-p08-k1、横 46.7°×縦 35°）。モデル：舞台 fleet artifact_0ac3ae01-79e7-42be-96ea-1750ad721370@version_4424048c-a895-4d7d-a1ed-72e222782247、舞台 fleet fleet artifact_7a8177f3-e8b9-4753-9a00-a99f5d9b60c2@version_cae013a1-8b58-42b2-838f-e49d2b22613b、舞台 fleet fleet2 artifact_37e30a1f-07e4-4d60-9e19-07d01180c0c6@version_6c98a7b0-fc9a-40f3-848f-339aef34221c、舞台 fleet cords artifact_afede8e6-6ea9-450a-8918-54287d23fa33@version_c52d9e52-f1ec-4768-827a-7816edac1589",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0125",
+   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p08-k2、横 46.7°×縦 35°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0130",
+   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p09-k1、横 56.9°×縦 35°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0133",
+   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p09-k2、横 62.7°×縦 28.9°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0137",
+   "source": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」のカメラの絵（e03-p09-k3、横 62.7°×縦 29.6°）。モデル：舞台 strait artifact_a8d511fc-0e4f-42cf-85b6-674f0ee53d86@version_3c0b2445-b7f0-4759-8e2f-a09938884dc6、舞台 strait fleet artifact_2bb7e1a2-e91e-47fe-8beb-b448677e0d85@version_f6f155f6-7db2-4c42-a164-b2b5693464c1、舞台 strait fleet2 artifact_96689529-a2c4-49db-9846-33ecc8a735eb@version_db180474-0bfe-46ff-a306-308c12d0318b、舞台 strait cords artifact_3a31478a-f1e5-428a-92b7-030714645844@version_473c4d6a-1bf7-491f-a3fa-bd5c0b90bd2c",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0140",
+   "source": "3D の舞台「ブレフスキュの艦隊のまわりの海とブレフスキュの浜（海峡の北の端）」のカメラの絵（e03-p10-k1、横 56.9°×縦 35°）。モデル：舞台 fleet artifact_0ac3ae01-79e7-42be-96ea-1750ad721370@version_4424048c-a895-4d7d-a1ed-72e222782247、舞台 fleet fleet artifact_7a8177f3-e8b9-4753-9a00-a99f5d9b60c2@version_cae013a1-8b58-42b2-838f-e49d2b22613b、舞台 fleet fleet2 artifact_37e30a1f-07e4-4d60-9e19-07d01180c0c6@version_6c98a7b0-fc9a-40f3-848f-339aef34221c、舞台 fleet cords artifact_afede8e6-6ea9-450a-8918-54287d23fa33@version_c52d9e52-f1ec-4768-827a-7816edac1589",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0143",
+   "source": "3D の舞台「ブレフスキュの艦隊のまわりの海とブレフスキュの浜（海峡の北の端）」のカメラの絵（e03-p10-k2、横 44.2°×縦 35°）。モデル：舞台 fleet artifact_0ac3ae01-79e7-42be-96ea-1750ad721370@version_4424048c-a895-4d7d-a1ed-72e222782247、舞台 fleet fleet artifact_7a8177f3-e8b9-4753-9a00-a99f5d9b60c2@version_cae013a1-8b58-42b2-838f-e49d2b22613b、舞台 fleet fleet2 artifact_37e30a1f-07e4-4d60-9e19-07d01180c0c6@version_6c98a7b0-fc9a-40f3-848f-339aef34221c、舞台 fleet cords artifact_afede8e6-6ea9-450a-8918-54287d23fa33@version_c52d9e52-f1ec-4768-827a-7816edac1589",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0147",
+   "source": "3D の舞台「ブレフスキュの艦隊のまわりの海とブレフスキュの浜（海峡の北の端）」のカメラの絵（e03-p10-k3、横 35.8°×縦 35°）。モデル：舞台 fleet artifact_0ac3ae01-79e7-42be-96ea-1750ad721370@version_4424048c-a895-4d7d-a1ed-72e222782247、舞台 fleet fleet artifact_7a8177f3-e8b9-4753-9a00-a99f5d9b60c2@version_cae013a1-8b58-42b2-838f-e49d2b22613b、舞台 fleet fleet2 artifact_37e30a1f-07e4-4d60-9e19-07d01180c0c6@version_6c98a7b0-fc9a-40f3-848f-339aef34221c、舞台 fleet cords artifact_afede8e6-6ea9-450a-8918-54287d23fa33@version_c52d9e52-f1ec-4768-827a-7816edac1589",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0152",
+   "source": "3D の舞台「ブレフスキュの艦隊のまわりの海とブレフスキュの浜（海峡の北の端）」のカメラの絵（e03-p10-k4、横 62.7°×縦 29.6°）。モデル：舞台 fleet artifact_0ac3ae01-79e7-42be-96ea-1750ad721370@version_4424048c-a895-4d7d-a1ed-72e222782247、舞台 fleet fleet artifact_7a8177f3-e8b9-4753-9a00-a99f5d9b60c2@version_cae013a1-8b58-42b2-838f-e49d2b22613b、舞台 fleet fleet2 artifact_37e30a1f-07e4-4d60-9e19-07d01180c0c6@version_6c98a7b0-fc9a-40f3-848f-339aef34221c、舞台 fleet cords artifact_afede8e6-6ea9-450a-8918-54287d23fa33@version_c52d9e52-f1ec-4768-827a-7816edac1589",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0155",
+   "source": "3D の舞台「ブレフスキュの艦隊のまわりの海とブレフスキュの浜（海峡の北の端）」のカメラの絵（e03-p11-k1、横 62.7°×縦 29.6°）。モデル：舞台 fleet artifact_0ac3ae01-79e7-42be-96ea-1750ad721370@version_4424048c-a895-4d7d-a1ed-72e222782247、舞台 fleet fleet artifact_7a8177f3-e8b9-4753-9a00-a99f5d9b60c2@version_cae013a1-8b58-42b2-838f-e49d2b22613b、舞台 fleet fleet2 artifact_37e30a1f-07e4-4d60-9e19-07d01180c0c6@version_6c98a7b0-fc9a-40f3-848f-339aef34221c、舞台 fleet cords artifact_afede8e6-6ea9-450a-8918-54287d23fa33@version_c52d9e52-f1ec-4768-827a-7816edac1589",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0159",
+   "source": "3D の舞台「ブレフスキュの艦隊のまわりの海とブレフスキュの浜（海峡の北の端）」のカメラの絵（e03-p11-k2、横 57.8°×縦 35°）。モデル：舞台 fleet artifact_0ac3ae01-79e7-42be-96ea-1750ad721370@version_4424048c-a895-4d7d-a1ed-72e222782247、舞台 fleet fleet artifact_7a8177f3-e8b9-4753-9a00-a99f5d9b60c2@version_cae013a1-8b58-42b2-838f-e49d2b22613b、舞台 fleet fleet2 artifact_37e30a1f-07e4-4d60-9e19-07d01180c0c6@version_6c98a7b0-fc9a-40f3-848f-339aef34221c、舞台 fleet cords artifact_afede8e6-6ea9-450a-8918-54287d23fa33@version_c52d9e52-f1ec-4768-827a-7816edac1589",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0162",
+   "source": "3D の舞台「ブレフスキュの艦隊のまわりの海とブレフスキュの浜（海峡の北の端）」のカメラの絵（e03-p11-k3、横 62.7°×縦 29.6°）。モデル：舞台 fleet artifact_0ac3ae01-79e7-42be-96ea-1750ad721370@version_4424048c-a895-4d7d-a1ed-72e222782247、舞台 fleet fleet artifact_7a8177f3-e8b9-4753-9a00-a99f5d9b60c2@version_cae013a1-8b58-42b2-838f-e49d2b22613b、舞台 fleet fleet2 artifact_37e30a1f-07e4-4d60-9e19-07d01180c0c6@version_6c98a7b0-fc9a-40f3-848f-339aef34221c、舞台 fleet cords artifact_afede8e6-6ea9-450a-8918-54287d23fa33@version_c52d9e52-f1ec-4768-827a-7816edac1589",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0165",
+   "source": "3D の舞台「北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港」のカメラの絵（e03-p12-k1、横 39.5°×縦 35°）。モデル：舞台 strait artifact_a8d511fc-0e4f-42cf-85b6-674f0ee53d86@version_3c0b2445-b7f0-4759-8e2f-a09938884dc6、舞台 strait fleet artifact_2bb7e1a2-e91e-47fe-8beb-b448677e0d85@version_f6f155f6-7db2-4c42-a164-b2b5693464c1、舞台 strait fleet2 artifact_96689529-a2c4-49db-9846-33ecc8a735eb@version_db180474-0bfe-46ff-a306-308c12d0318b、舞台 strait cords artifact_3a31478a-f1e5-428a-92b7-030714645844@version_473c4d6a-1bf7-491f-a3fa-bd5c0b90bd2c",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0168",
+   "source": "3D の舞台「ブレフスキュの艦隊のまわりの海とブレフスキュの浜（海峡の北の端）」のカメラの絵（e03-p12-k2、横 56.9°×縦 35°）。モデル：舞台 fleet artifact_0ac3ae01-79e7-42be-96ea-1750ad721370@version_4424048c-a895-4d7d-a1ed-72e222782247、舞台 fleet fleet artifact_7a8177f3-e8b9-4753-9a00-a99f5d9b60c2@version_cae013a1-8b58-42b2-838f-e49d2b22613b、舞台 fleet fleet2 artifact_37e30a1f-07e4-4d60-9e19-07d01180c0c6@version_6c98a7b0-fc9a-40f3-848f-339aef34221c、舞台 fleet cords artifact_afede8e6-6ea9-450a-8918-54287d23fa33@version_c52d9e52-f1ec-4768-827a-7816edac1589",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0175",
+   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p13-k1、横 46.7°×縦 35°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0178",
+   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p13-k2、横 46.7°×縦 35°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0185",
+   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p14-k1、横 39.5°×縦 35°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0188",
+   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p14-k2、横 56.9°×縦 35°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0195",
+   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p15-k1、横 62.7°×縦 29.6°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0200",
+   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p15-k2、横 57.8°×縦 35°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0203",
+   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p15-k3、横 62.7°×縦 29.6°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0210",
+   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p16-k1、横 50.9°×縦 35°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0213",
+   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p16-k2、横 62.7°×縦 26.2°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0220",
+   "source": "3D の舞台「リリパットの北東の岸と王の港（海峡の南の端、200 m）」のカメラの絵（e03-p16-k3、横 62.7°×縦 27°）。モデル：舞台 coast artifact_88b65140-cc2f-4632-bc06-0429d6556f44@version_e82d2cce-0d93-4c87-b30a-67608b128621、舞台 coast fleet artifact_785a0ea6-d5be-4350-a9ca-956769650cc5@version_88a81b65-3446-4633-98f5-4d0048ee6587、舞台 coast fleet2 artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b@version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad、舞台 coast cords artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335@version_adb25b6f-a30e-40d2-bd05-291cea600244",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  }
+ ],
+ "diagnostics": [
+  {
+   "code": "raster-pdf",
+   "severity": "warning",
+   "message": "PNG/PDF are derived raster representations; native editing, annotations, typography and vector fidelity are not preserved. Vertical text and ruby are unsupported."
+  }
+ ]
+}

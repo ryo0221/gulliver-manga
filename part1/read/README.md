@@ -69,6 +69,8 @@ GM_OUT=/tmp/read npx vitest run apps/artifact-host/src/creative/story-board/gull
 | RV-e02-07 勝者の顔が枠の外 | 5-2 | 意図として残す（腰の寄り） |
 | RV-e02-08 上着の裾のメモと上着を脱いだ姿 | 12-2 | 意図として残す（作者の判断） |
 
+作者の判断（2026-11-16「2話は完成としてよい」）：完成。出版準備は `finish-ep02-v3`（コミット 2b451a94、PR #14 のマージ）から作る。
+
 ```sh
 cp part1/read/*.ts part1/name/gulliver-ep0{1,2}-name.ts part1/script/gulliver-part1-script.ts $SB/
 GM_OUT=/tmp/read npx vitest run apps/artifact-host/src/creative/story-board/gulliver-ep02-read.build.test.ts

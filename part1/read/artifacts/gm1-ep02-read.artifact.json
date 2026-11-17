@@ -7,7 +7,7 @@
   "source": "created"
  },
  "draft": {
-  "baseVersionId": "read-ep02-v3",
+  "baseVersionId": "read-ep02-v4",
   "updatedAt": "2026-11-15T00:00:00.000Z",
   "content": {
    "schemaVersion": 2,
@@ -229,7 +229,7 @@
     {
      "id": "r2-0041",
      "type": "paragraph",
-     "text": "作者の判断待ち。RV-e02-01〜06 と作者の指摘 RV-e02-09 を直した版（finish-ep02-v3）を、直したコマを中心に読み直した。RV-e02-10 は作者の判断でこのまま。指摘はすべて決まった。完成とするかは作者の判断。"
+     "text": "完成。RV-e02-01〜06 と作者の指摘 RV-e02-09 を直した版（finish-ep02-v3）を、直したコマを中心に読み直した。RV-e02-10 は作者の判断でこのまま。指摘はすべて決まった。出版準備はこの版から作る。"
     },
     {
      "id": "r2-0042",
@@ -258,7 +258,7 @@
  "versions": [
   {
    "artifactId": "gm1-ep02-read",
-   "versionId": "read-ep02-v3",
+   "versionId": "read-ep02-v4",
    "parentVersionId": null,
    "schemaVersion": 1,
    "createdAt": "2026-11-15T00:00:00.000Z",
@@ -484,7 +484,7 @@
      {
       "id": "r2-0041",
       "type": "paragraph",
-      "text": "作者の判断待ち。RV-e02-01〜06 と作者の指摘 RV-e02-09 を直した版（finish-ep02-v3）を、直したコマを中心に読み直した。RV-e02-10 は作者の判断でこのまま。指摘はすべて決まった。完成とするかは作者の判断。"
+      "text": "完成。RV-e02-01〜06 と作者の指摘 RV-e02-09 を直した版（finish-ep02-v3）を、直したコマを中心に読み直した。RV-e02-10 は作者の判断でこのまま。指摘はすべて決まった。出版準備はこの版から作る。"
      },
      {
       "id": "r2-0042",
@@ -509,7 +509,7 @@
      }
     ]
    },
-   "contentHash": "d85bc6e4824db6f60d700100f16bb40a836c9696aad9084012c645e96ea9f3b5"
+   "contentHash": "e022526dc12d61daf675b68c0893b017457f97b08a1e250cd66cecf280478c06"
   }
  ]
 }

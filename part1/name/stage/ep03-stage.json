@@ -1,0 +1,4139 @@
+{
+ "schemaVersion": 1,
+ "episode": 3,
+ "verticalFovDeg": 35.0,
+ "sets": {
+  "house": {
+   "name": "ガリヴァーの家（古い神殿 F106）の前：レルドレサルの話",
+   "scenes": [
+    "SC-009"
+   ],
+   "reason": null,
+   "props": [
+    {
+     "name": "F106 古い神殿",
+     "kind": "bim",
+     "artifactId": "artifact_bd03298b-7df6-41ec-b19d-32807a9bf35d",
+     "versionId": "version_4955c459-bc2d-4509-9f33-628a15b2cb9e",
+     "contentHash": "d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384"
+    },
+    {
+     "name": "舞台 house",
+     "kind": "cad",
+     "artifactId": "artifact_d5005983-49f0-413d-bc75-560c55f2abfd",
+     "versionId": "version_108803b2-dc11-407e-bb5a-856d24d30eb5",
+     "contentHash": "7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f"
+    }
+   ],
+   "canvas": {
+    "width": 1440,
+    "height": 745,
+    "verticalFovDeg": 35
+   },
+   "cad": [
+    {
+     "id": "grass",
+     "name": "草地",
+     "at": [
+      -250000,
+      -250000,
+      -14
+     ],
+     "size": [
+      500000,
+      500000,
+      12
+     ]
+    }
+   ],
+   "bim": "temple",
+   "vessels": [],
+   "crowds": [
+    {
+     "id": "court",
+     "name": "皇太子の後ろの廷臣（創作の人数）",
+     "count": 18
+    }
+   ]
+  },
+  "strait": {
+   "name": "北東の岸と海峡（800ヤード）とブレフスキュの艦隊、王の港",
+   "scenes": [
+    "SC-010"
+   ],
+   "reason": "再現（GV1〜GV7）の地図（SM-01）に海峡はあるが、海の深さと岸と港の 3D は無い。本文の幅と深さで海峡を、創作で岸・丘・港を置いた仮の3D。艦隊は GV3b の軍艦（6 フィート、創作）を箱にした。",
+   "props": [
+    {
+     "name": "舞台 strait",
+     "kind": "cad",
+     "artifactId": "artifact_a8d511fc-0e4f-42cf-85b6-674f0ee53d86",
+     "versionId": "version_3c0b2445-b7f0-4759-8e2f-a09938884dc6",
+     "contentHash": "ffd08ea7bc804822d4fa7d324fda84a853092511e9720c7337fc09ef565c00b8"
+    },
+    {
+     "name": "舞台 strait fleet",
+     "kind": "cad",
+     "artifactId": "artifact_2bb7e1a2-e91e-47fe-8beb-b448677e0d85",
+     "versionId": "version_f6f155f6-7db2-4c42-a164-b2b5693464c1",
+     "contentHash": "c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd"
+    },
+    {
+     "name": "舞台 strait fleet2",
+     "kind": "cad",
+     "artifactId": "artifact_96689529-a2c4-49db-9846-33ecc8a735eb",
+     "versionId": "version_db180474-0bfe-46ff-a306-308c12d0318b",
+     "contentHash": "95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab"
+    },
+    {
+     "name": "舞台 strait cords",
+     "kind": "cad",
+     "artifactId": "artifact_3a31478a-f1e5-428a-92b7-030714645844",
+     "versionId": "version_473c4d6a-1bf7-491f-a3fa-bd5c0b90bd2c",
+     "contentHash": "40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137"
+    }
+   ],
+   "canvas": {
+    "width": 1440,
+    "height": 745,
+    "verticalFovDeg": 35
+   },
+   "cad": [
+    {
+     "id": "land-s",
+     "name": "リリパットの草地",
+     "at": [
+      -300000,
+      -300000,
+      -12
+     ],
+     "size": [
+      600000,
+      280000,
+      12
+     ]
+    },
+    {
+     "id": "beach-s",
+     "name": "リリパットの浜",
+     "at": [
+      -300000,
+      -20000,
+      -10
+     ],
+     "size": [
+      600000,
+      20000,
+      10
+     ]
+    },
+    {
+     "id": "bed-0",
+     "name": "海峡の底（深さ 300 mm）",
+     "at": [
+      -300000,
+      0,
+      -320
+     ],
+     "size": [
+      600000,
+      20000,
+      20
+     ]
+    },
+    {
+     "id": "bed-1",
+     "name": "海峡の底（深さ 800 mm）",
+     "at": [
+      -300000,
+      20000,
+      -820
+     ],
+     "size": [
+      600000,
+      80000,
+      20
+     ]
+    },
+    {
+     "id": "bed-2",
+     "name": "海峡の底（深さ 1300 mm）",
+     "at": [
+      -300000,
+      100000,
+      -1320
+     ],
+     "size": [
+      600000,
+      230000,
+      20
+     ]
+    },
+    {
+     "id": "bed-3",
+     "name": "海峡の底（深さ 1829 mm）",
+     "at": [
+      -300000,
+      330000,
+      -1849
+     ],
+     "size": [
+      600000,
+      30000,
+      20
+     ]
+    },
+    {
+     "id": "bed-4",
+     "name": "海峡の底（深さ 1300 mm）",
+     "at": [
+      -300000,
+      360000,
+      -1320
+     ],
+     "size": [
+      600000,
+      270000,
+      20
+     ]
+    },
+    {
+     "id": "bed-5",
+     "name": "海峡の底（深さ 800 mm）",
+     "at": [
+      -300000,
+      630000,
+      -820
+     ],
+     "size": [
+      600000,
+      81000,
+      20
+     ]
+    },
+    {
+     "id": "bed-6",
+     "name": "海峡の底（深さ 300 mm）",
+     "at": [
+      -300000,
+      711000,
+      -320
+     ],
+     "size": [
+      600000,
+      20520,
+      20
+     ]
+    },
+    {
+     "id": "water",
+     "name": "海峡の海面",
+     "at": [
+      -300000,
+      0,
+      -12
+     ],
+     "size": [
+      600000,
+      731520,
+      12
+     ]
+    },
+    {
+     "id": "beach-n",
+     "name": "ブレフスキュの浜",
+     "at": [
+      -300000,
+      731520,
+      -10
+     ],
+     "size": [
+      600000,
+      20000,
+      10
+     ]
+    },
+    {
+     "id": "land-n",
+     "name": "ブレフスキュの草地",
+     "at": [
+      -300000,
+      751520,
+      -12
+     ],
+     "size": [
+      600000,
+      280000,
+      12
+     ]
+    },
+    {
+     "id": "hill",
+     "name": "北東の岸の小山（創作：4,000 mm）",
+     "at": [
+      -6000,
+      -26000,
+      0
+     ],
+     "size": [
+      12000,
+      6000,
+      4000
+     ]
+    },
+    {
+     "id": "cables",
+     "name": "太い綱と鉤の山（本文：50本と50個）",
+     "at": [
+      3300,
+      -7700,
+      0
+     ],
+     "size": [
+      500,
+      400,
+      120
+     ]
+    },
+    {
+     "id": "clothes",
+     "name": "脱いだ上着と靴（創作の置き場所）",
+     "at": [
+      -450,
+      -3200,
+      0
+     ],
+     "size": [
+      400,
+      300,
+      60
+     ]
+    },
+    {
+     "id": "quay",
+     "name": "王の港の岸壁（創作：高さ 300 mm）",
+     "at": [
+      36000,
+      -6000,
+      0
+     ],
+     "size": [
+      9000,
+      6000,
+      300
+     ]
+    },
+    {
+     "id": "dais",
+     "name": "岸壁の上の皇帝の壇（創作：150 mm）",
+     "at": [
+      43700,
+      -2800,
+      300
+     ],
+     "size": [
+      600,
+      600,
+      150
+     ]
+    },
+    {
+     "id": "town-1",
+     "name": "港の家並み（創作）",
+     "at": [
+      36000,
+      -9500,
+      0
+     ],
+     "size": [
+      9000,
+      1500,
+      760
+     ]
+    },
+    {
+     "id": "town-2",
+     "name": "港の家並み（創作）2",
+     "at": [
+      37000,
+      -12000,
+      0
+     ],
+     "size": [
+      7000,
+      1500,
+      900
+     ]
+    },
+    {
+     "id": "blefuscu-town",
+     "name": "ブレフスキュの港の家並み（創作）",
+     "at": [
+      -6000,
+      734520,
+      0
+     ],
+     "size": [
+      12000,
+      2000,
+      900
+     ]
+    }
+   ],
+   "bim": null,
+   "vessels": [
+    {
+     "id": "fleet",
+     "name": "ブレフスキュの艦隊 1〜3列（軍艦30隻、仮の3D）",
+     "home": null
+    },
+    {
+     "id": "fleet2",
+     "name": "ブレフスキュの艦隊 4〜5列（軍艦20隻、仮の3D）",
+     "home": null
+    },
+    {
+     "id": "cords",
+     "name": "一つにまとめた綱（仮の3D）",
+     "home": null
+    }
+   ],
+   "crowds": []
+  },
+  "coast": {
+   "name": "リリパットの北東の岸と王の港（海峡の南の端、200 m）",
+   "scenes": [
+    "SC-010",
+    "SC-011"
+   ],
+   "reason": "再現（GV1〜GV7）の地図（SM-01）に海峡はあるが、海の深さと岸と港の 3D は無い。本文の幅と深さで海峡を、創作で岸・丘・港を置いた仮の3D。艦隊は GV3b の軍艦（6 フィート、創作）を箱にした。",
+   "props": [
+    {
+     "name": "舞台 coast",
+     "kind": "cad",
+     "artifactId": "artifact_88b65140-cc2f-4632-bc06-0429d6556f44",
+     "versionId": "version_e82d2cce-0d93-4c87-b30a-67608b128621",
+     "contentHash": "e0db2bf49708beb87d611b8179baa9a0282714d89296e1a8cc97c9ed13a7486e"
+    },
+    {
+     "name": "舞台 coast fleet",
+     "kind": "cad",
+     "artifactId": "artifact_785a0ea6-d5be-4350-a9ca-956769650cc5",
+     "versionId": "version_88a81b65-3446-4633-98f5-4d0048ee6587",
+     "contentHash": "c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd"
+    },
+    {
+     "name": "舞台 coast fleet2",
+     "kind": "cad",
+     "artifactId": "artifact_7ea6d9d0-7e73-456e-908b-19a2874f036b",
+     "versionId": "version_1c2b7702-3402-4208-9c51-ca7f0c3a24ad",
+     "contentHash": "95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab"
+    },
+    {
+     "name": "舞台 coast cords",
+     "kind": "cad",
+     "artifactId": "artifact_b342f4f4-f1d1-42c0-8fa0-31d96ba58335",
+     "versionId": "version_adb25b6f-a30e-40d2-bd05-291cea600244",
+     "contentHash": "40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137"
+    }
+   ],
+   "canvas": {
+    "width": 1440,
+    "height": 745,
+    "verticalFovDeg": 35
+   },
+   "cad": [
+    {
+     "id": "land-s",
+     "name": "リリパットの草地",
+     "at": [
+      -60000,
+      -40000,
+      -12
+     ],
+     "size": [
+      120000,
+      20000,
+      12
+     ]
+    },
+    {
+     "id": "beach-s",
+     "name": "リリパットの浜",
+     "at": [
+      -60000,
+      -20000,
+      -10
+     ],
+     "size": [
+      120000,
+      20000,
+      10
+     ]
+    },
+    {
+     "id": "bed-0",
+     "name": "海峡の底（深さ 300 mm）",
+     "at": [
+      -60000,
+      0,
+      -320
+     ],
+     "size": [
+      120000,
+      20000,
+      20
+     ]
+    },
+    {
+     "id": "bed-1",
+     "name": "海峡の底（深さ 800 mm）",
+     "at": [
+      -60000,
+      20000,
+      -820
+     ],
+     "size": [
+      120000,
+      80000,
+      20
+     ]
+    },
+    {
+     "id": "bed-2",
+     "name": "海峡の底（深さ 1300 mm）",
+     "at": [
+      -60000,
+      100000,
+      -1320
+     ],
+     "size": [
+      120000,
+      100000,
+      20
+     ]
+    },
+    {
+     "id": "water",
+     "name": "海峡の海面",
+     "at": [
+      -60000,
+      0,
+      -12
+     ],
+     "size": [
+      120000,
+      200000,
+      12
+     ]
+    },
+    {
+     "id": "hill",
+     "name": "北東の岸の小山（創作：4,000 mm）",
+     "at": [
+      -6000,
+      -26000,
+      0
+     ],
+     "size": [
+      12000,
+      6000,
+      4000
+     ]
+    },
+    {
+     "id": "cables",
+     "name": "太い綱と鉤の山（本文：50本と50個）",
+     "at": [
+      3300,
+      -7700,
+      0
+     ],
+     "size": [
+      500,
+      400,
+      120
+     ]
+    },
+    {
+     "id": "clothes",
+     "name": "脱いだ上着と靴（創作の置き場所）",
+     "at": [
+      -450,
+      -3200,
+      0
+     ],
+     "size": [
+      400,
+      300,
+      60
+     ]
+    },
+    {
+     "id": "quay",
+     "name": "王の港の岸壁（創作：高さ 300 mm）",
+     "at": [
+      36000,
+      -6000,
+      0
+     ],
+     "size": [
+      9000,
+      6000,
+      300
+     ]
+    },
+    {
+     "id": "dais",
+     "name": "岸壁の上の皇帝の壇（創作：150 mm）",
+     "at": [
+      43700,
+      -2800,
+      300
+     ],
+     "size": [
+      600,
+      600,
+      150
+     ]
+    },
+    {
+     "id": "town-1",
+     "name": "港の家並み（創作）",
+     "at": [
+      36000,
+      -9500,
+      0
+     ],
+     "size": [
+      9000,
+      1500,
+      760
+     ]
+    },
+    {
+     "id": "town-2",
+     "name": "港の家並み（創作）2",
+     "at": [
+      37000,
+      -12000,
+      0
+     ],
+     "size": [
+      7000,
+      1500,
+      900
+     ]
+    }
+   ],
+   "bim": null,
+   "vessels": [
+    {
+     "id": "fleet",
+     "name": "ブレフスキュの艦隊 1〜3列（軍艦30隻、仮の3D）",
+     "home": null
+    },
+    {
+     "id": "fleet2",
+     "name": "ブレフスキュの艦隊 4〜5列（軍艦20隻、仮の3D）",
+     "home": null
+    },
+    {
+     "id": "cords",
+     "name": "一つにまとめた綱（仮の3D）",
+     "home": null
+    }
+   ],
+   "crowds": [
+    {
+     "id": "seamen",
+     "name": "水夫たち（創作の人数）",
+     "count": 21
+    },
+    {
+     "id": "workers",
+     "name": "綱を運ぶ人々（創作の人数）",
+     "count": 36
+    },
+    {
+     "id": "court",
+     "name": "浜で待つ宮廷（創作の人数）",
+     "count": 207
+    },
+    {
+     "id": "port",
+     "name": "岸壁の群衆（創作の人数）",
+     "count": 615
+    }
+   ]
+  },
+  "fleet": {
+   "name": "ブレフスキュの艦隊のまわりの海とブレフスキュの浜（海峡の北の端）",
+   "scenes": [
+    "SC-010"
+   ],
+   "reason": "再現（GV1〜GV7）の地図（SM-01）に海峡はあるが、海の深さと岸と港の 3D は無い。本文の幅と深さで海峡を、創作で岸・丘・港を置いた仮の3D。艦隊は GV3b の軍艦（6 フィート、創作）を箱にした。",
+   "props": [
+    {
+     "name": "舞台 fleet",
+     "kind": "cad",
+     "artifactId": "artifact_0ac3ae01-79e7-42be-96ea-1750ad721370",
+     "versionId": "version_4424048c-a895-4d7d-a1ed-72e222782247",
+     "contentHash": "f23f048da30ac2e8d44182ef76908ed9fe9d29ab107c21982adb18168b90000f"
+    },
+    {
+     "name": "舞台 fleet fleet",
+     "kind": "cad",
+     "artifactId": "artifact_7a8177f3-e8b9-4753-9a00-a99f5d9b60c2",
+     "versionId": "version_cae013a1-8b58-42b2-838f-e49d2b22613b",
+     "contentHash": "c2b5650f10b05651e2394af7d99759081b13715a88269851fb01be8bcd0e64fd"
+    },
+    {
+     "name": "舞台 fleet fleet2",
+     "kind": "cad",
+     "artifactId": "artifact_37e30a1f-07e4-4d60-9e19-07d01180c0c6",
+     "versionId": "version_6c98a7b0-fc9a-40f3-848f-339aef34221c",
+     "contentHash": "95d500239d39bf81dffad3b581852b3df2385f7f801aa9f3608a02e0cb6879ab"
+    },
+    {
+     "name": "舞台 fleet cords",
+     "kind": "cad",
+     "artifactId": "artifact_afede8e6-6ea9-450a-8918-54287d23fa33",
+     "versionId": "version_c52d9e52-f1ec-4768-827a-7816edac1589",
+     "contentHash": "40a4a843bd09cf301a1786490d0e367d3bc6af8f9f3cd4ccad5a3f617d4d6137"
+    }
+   ],
+   "canvas": {
+    "width": 1440,
+    "height": 745,
+    "verticalFovDeg": 35
+   },
+   "cad": [
+    {
+     "id": "bed-5",
+     "name": "海峡の底（深さ 800 mm）",
+     "at": [
+      -40000,
+      660000,
+      -820
+     ],
+     "size": [
+      80000,
+      51000,
+      20
+     ]
+    },
+    {
+     "id": "bed-6",
+     "name": "海峡の底（深さ 300 mm）",
+     "at": [
+      -40000,
+      711000,
+      -320
+     ],
+     "size": [
+      80000,
+      20520,
+      20
+     ]
+    },
+    {
+     "id": "water",
+     "name": "海峡の海面",
+     "at": [
+      -40000,
+      660000,
+      -12
+     ],
+     "size": [
+      80000,
+      71520,
+      12
+     ]
+    },
+    {
+     "id": "beach-n",
+     "name": "ブレフスキュの浜",
+     "at": [
+      -40000,
+      731520,
+      -10
+     ],
+     "size": [
+      80000,
+      20000,
+      10
+     ]
+    },
+    {
+     "id": "blefuscu-town",
+     "name": "ブレフスキュの港の家並み（創作）",
+     "at": [
+      -6000,
+      734520,
+      0
+     ],
+     "size": [
+      12000,
+      2000,
+      900
+     ]
+    }
+   ],
+   "bim": null,
+   "vessels": [
+    {
+     "id": "fleet",
+     "name": "ブレフスキュの艦隊 1〜3列（軍艦30隻、仮の3D）",
+     "home": null
+    },
+    {
+     "id": "fleet2",
+     "name": "ブレフスキュの艦隊 4〜5列（軍艦20隻、仮の3D）",
+     "home": null
+    },
+    {
+     "id": "cords",
+     "name": "一つにまとめた綱（仮の3D）",
+     "home": null
+    }
+   ],
+   "crowds": [
+    {
+     "id": "crew",
+     "name": "艦隊の乗組員（創作の人数）",
+     "count": 100
+    },
+    {
+     "id": "jumpers",
+     "name": "海へ飛び込んだ兵（創作の人数）",
+     "count": 13
+    },
+    {
+     "id": "blefuscans",
+     "name": "ブレフスキュの浜の人々（創作の人数）",
+     "count": 192
+    }
+   ]
+  }
+ },
+ "panels": [
+  {
+   "panel": "e03-p01-k1",
+   "set": "house",
+   "cam": [
+    1700,
+    3700,
+    136
+   ],
+   "look": [
+    120,
+    1500,
+    330
+   ],
+   "stand": null,
+   "hfovDeg": 34.1,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e03-p01-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      900,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "prone-palm",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e03-p01-k1-02",
+     "ch": "CH-05",
+     "name": "レルドレサル",
+     "fig": "reldresal",
+     "at": [
+      212,
+      1872,
+      68
+     ],
+     "facingDeg": 180.0,
+     "pose": "orate",
+     "heightMm": 150
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "points": [
+    {
+     "fig": "gulliver",
+     "head": [
+      0,
+      1545,
+      409
+     ],
+     "eye": [
+      0,
+      1605,
+      357
+     ],
+     "palmR": [
+      212,
+      1872,
+      43
+     ],
+     "palmL": [
+      -212,
+      1872,
+      43
+     ]
+    }
+   ],
+   "underlay": "underlay/e03-p01-k1.jpg",
+   "plan": "plans/e03-p01-k1.svg"
+  },
+  {
+   "panel": "e03-p01-k2",
+   "set": "house",
+   "cam": [
+    1350,
+    2650,
+    136
+   ],
+   "look": [
+    350,
+    2050,
+    260
+   ],
+   "stand": null,
+   "hfovDeg": 62.7,
+   "vfovDeg": 29.6,
+   "figures": [
+    {
+     "fg": "FG-e03-p01-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      900,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "prone-palm",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e03-p01-k2-02",
+     "ch": "CH-05",
+     "name": "レルドレサル",
+     "fig": "reldresal",
+     "at": [
+      480,
+      2150,
+      0
+     ],
+     "facingDeg": 202.9,
+     "pose": "walk",
+     "heightMm": 150
+    },
+    {
+     "fg": "FG-e03-p01-k2-03",
+     "ch": "CH-30",
+     "name": "レルドレサルの従者",
+     "fig": "sv",
+     "at": [
+      640,
+      2300,
+      0
+     ],
+     "facingDeg": 202.9,
+     "pose": "walk",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "points": [
+    {
+     "fig": "gulliver",
+     "head": [
+      0,
+      1545,
+      409
+     ],
+     "eye": [
+      0,
+      1605,
+      357
+     ],
+     "palmR": [
+      212,
+      1872,
+      43
+     ],
+     "palmL": [
+      -212,
+      1872,
+      43
+     ]
+    }
+   ],
+   "underlay": "underlay/e03-p01-k2.jpg",
+   "plan": "plans/e03-p01-k2.svg"
+  },
+  {
+   "panel": "e03-p02-k1",
+   "set": "house",
+   "cam": [
+    650,
+    2500,
+    160
+   ],
+   "look": [
+    120,
+    1700,
+    300
+   ],
+   "stand": null,
+   "hfovDeg": 56.9,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e03-p02-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      900,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "prone-palm",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e03-p02-k1-02",
+     "ch": "CH-05",
+     "name": "レルドレサル",
+     "fig": "reldresal",
+     "at": [
+      212,
+      1872,
+      68
+     ],
+     "facingDeg": 180.0,
+     "pose": "orate",
+     "heightMm": 150
+    },
+    {
+     "fg": "FG-e03-p02-k1-03",
+     "ch": "CH-30",
+     "name": "レルドレサルの従者",
+     "fig": "sv",
+     "at": [
+      560,
+      2050,
+      0
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "points": [
+    {
+     "fig": "gulliver",
+     "head": [
+      0,
+      1545,
+      409
+     ],
+     "eye": [
+      0,
+      1605,
+      357
+     ],
+     "palmR": [
+      212,
+      1872,
+      43
+     ],
+     "palmL": [
+      -212,
+      1872,
+      43
+     ]
+    }
+   ],
+   "underlay": "underlay/e03-p02-k1.jpg",
+   "plan": "plans/e03-p02-k1.svg"
+  },
+  {
+   "panel": "e03-p02-k2",
+   "set": "house",
+   "cam": [
+    0,
+    1605,
+    357
+   ],
+   "look": [
+    212,
+    1872,
+    148
+   ],
+   "stand": null,
+   "hfovDeg": 62.7,
+   "vfovDeg": 28.9,
+   "figures": [
+    {
+     "fg": "FG-e03-p02-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      900,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "prone-palm",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e03-p02-k2-02",
+     "ch": "CH-05",
+     "name": "レルドレサル",
+     "fig": "reldresal",
+     "at": [
+      212,
+      1872,
+      68
+     ],
+     "facingDeg": 197.2,
+     "pose": "point",
+     "heightMm": 150
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "points": [
+    {
+     "fig": "gulliver",
+     "head": [
+      0,
+      1545,
+      409
+     ],
+     "eye": [
+      0,
+      1605,
+      357
+     ],
+     "palmR": [
+      212,
+      1872,
+      43
+     ],
+     "palmL": [
+      -212,
+      1872,
+      43
+     ]
+    }
+   ],
+   "underlay": "underlay/e03-p02-k2.jpg",
+   "plan": "plans/e03-p02-k2.svg"
+  },
+  {
+   "panel": "e03-p02-k3",
+   "set": "house",
+   "cam": [
+    3200,
+    2650,
+    70
+   ],
+   "look": [
+    3200,
+    3000,
+    85
+   ],
+   "stand": null,
+   "hfovDeg": 62.7,
+   "vfovDeg": 29.6,
+   "figures": [
+    {
+     "fg": "FG-e03-p02-k3-01",
+     "ch": "CH-30",
+     "name": "かかとの高い廷臣1",
+     "fig": "hi1",
+     "at": [
+      3020,
+      3000,
+      0
+     ],
+     "facingDeg": -90.0,
+     "pose": "glare",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e03-p02-k3-02",
+     "ch": "CH-30",
+     "name": "かかとの高い廷臣2",
+     "fig": "hi2",
+     "at": [
+      2960,
+      3080,
+      0
+     ],
+     "facingDeg": -90.0,
+     "pose": "arms-crossed",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e03-p02-k3-03",
+     "ch": "CH-30",
+     "name": "かかとの低い廷臣1",
+     "fig": "lo1",
+     "at": [
+      3380,
+      3000,
+      0
+     ],
+     "facingDeg": 90.0,
+     "pose": "glare",
+     "heightMm": 146
+    },
+    {
+     "fg": "FG-e03-p02-k3-04",
+     "ch": "CH-30",
+     "name": "かかとの低い廷臣2",
+     "fig": "lo2",
+     "at": [
+      3440,
+      2930,
+      0
+     ],
+     "facingDeg": 90.0,
+     "pose": "arms-crossed",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e03-p02-k3.jpg",
+   "plan": "plans/e03-p02-k3.svg"
+  },
+  {
+   "panel": "e03-p03-k1",
+   "set": "house",
+   "cam": [
+    380,
+    2200,
+    150
+   ],
+   "look": [
+    212,
+    1872,
+    140
+   ],
+   "stand": null,
+   "hfovDeg": 56.9,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e03-p03-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      900,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "prone-palm",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e03-p03-k1-02",
+     "ch": "CH-05",
+     "name": "レルドレサル",
+     "fig": "reldresal",
+     "at": [
+      212,
+      1872,
+      68
+     ],
+     "facingDeg": 180.0,
+     "pose": "orate",
+     "heightMm": 150
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "points": [
+    {
+     "fig": "gulliver",
+     "head": [
+      0,
+      1545,
+      409
+     ],
+     "eye": [
+      0,
+      1605,
+      357
+     ],
+     "palmR": [
+      212,
+      1872,
+      43
+     ],
+     "palmL": [
+      -212,
+      1872,
+      43
+     ]
+    }
+   ],
+   "underlay": "underlay/e03-p03-k1.jpg",
+   "plan": "plans/e03-p03-k1.svg"
+  },
+  {
+   "panel": "e03-p03-k2",
+   "set": "house",
+   "cam": [
+    2700,
+    2650,
+    75
+   ],
+   "look": [
+    2500,
+    2900,
+    80
+   ],
+   "stand": null,
+   "hfovDeg": 62.7,
+   "vfovDeg": 28.9,
+   "figures": [
+    {
+     "fg": "FG-e03-p03-k2-01",
+     "ch": "CH-30",
+     "name": "皇太子",
+     "fig": "prince",
+     "at": [
+      2500,
+      2850,
+      0
+     ],
+     "facingDeg": 107.2,
+     "pose": "limp",
+     "heightMm": 150
+    }
+   ],
+   "crowds": [
+    "court"
+   ],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e03-p03-k2.jpg",
+   "plan": "plans/e03-p03-k2.svg"
+  },
+  {
+   "panel": "e03-p03-k3",
+   "set": "house",
+   "cam": [
+    232,
+    1932,
+    204
+   ],
+   "look": [
+    0,
+    1605,
+    377
+   ],
+   "stand": null,
+   "hfovDeg": 62.7,
+   "vfovDeg": 29.6,
+   "figures": [
+    {
+     "fg": "FG-e03-p03-k3-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      900,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "prone-palm",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "points": [
+    {
+     "fig": "gulliver",
+     "head": [
+      0,
+      1545,
+      409
+     ],
+     "eye": [
+      0,
+      1605,
+      357
+     ],
+     "palmR": [
+      212,
+      1872,
+      43
+     ],
+     "palmL": [
+      -212,
+      1872,
+      43
+     ]
+    }
+   ],
+   "underlay": "underlay/e03-p03-k3.jpg",
+   "plan": "plans/e03-p03-k3.svg"
+  },
+  {
+   "panel": "e03-p04-k1",
+   "set": "house",
+   "cam": [
+    950,
+    2350,
+    136
+   ],
+   "look": [
+    130,
+    1700,
+    260
+   ],
+   "stand": null,
+   "hfovDeg": 56.9,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e03-p04-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      900,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "prone-palm",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e03-p04-k1-02",
+     "ch": "CH-05",
+     "name": "レルドレサル",
+     "fig": "reldresal",
+     "at": [
+      212,
+      1872,
+      68
+     ],
+     "facingDeg": 208.6,
+     "pose": "orate",
+     "heightMm": 150
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "points": [
+    {
+     "fig": "gulliver",
+     "head": [
+      0,
+      1545,
+      409
+     ],
+     "eye": [
+      0,
+      1605,
+      357
+     ],
+     "palmR": [
+      212,
+      1872,
+      43
+     ],
+     "palmL": [
+      -212,
+      1872,
+      43
+     ]
+    }
+   ],
+   "underlay": "underlay/e03-p04-k1.jpg",
+   "plan": "plans/e03-p04-k1.svg"
+  },
+  {
+   "panel": "e03-p04-k2",
+   "set": "house",
+   "cam": [
+    330,
+    2080,
+    170
+   ],
+   "look": [
+    212,
+    1872,
+    140
+   ],
+   "stand": null,
+   "hfovDeg": 34.6,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e03-p04-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      900,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "prone-palm",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e03-p04-k2-02",
+     "ch": "CH-05",
+     "name": "レルドレサル",
+     "fig": "reldresal",
+     "at": [
+      212,
+      1872,
+      68
+     ],
+     "facingDeg": 180.0,
+     "pose": "point",
+     "heightMm": 150
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "points": [
+    {
+     "fig": "gulliver",
+     "head": [
+      0,
+      1545,
+      409
+     ],
+     "eye": [
+      0,
+      1605,
+      357
+     ],
+     "palmR": [
+      212,
+      1872,
+      43
+     ],
+     "palmL": [
+      -212,
+      1872,
+      43
+     ]
+    }
+   ],
+   "underlay": "underlay/e03-p04-k2.jpg",
+   "plan": "plans/e03-p04-k2.svg"
+  },
+  {
+   "panel": "e03-p04-k3",
+   "set": "house",
+   "cam": [
+    260,
+    2100,
+    320
+   ],
+   "look": [
+    0,
+    1545,
+    409
+   ],
+   "stand": null,
+   "hfovDeg": 45.4,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e03-p04-k3-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      900,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "prone-palm",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e03-p04-k3-02",
+     "ch": "CH-05",
+     "name": "レルドレサル",
+     "fig": "reldresal",
+     "at": [
+      212,
+      1872,
+      68
+     ],
+     "facingDeg": 180.0,
+     "pose": "orate",
+     "heightMm": 150
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "points": [
+    {
+     "fig": "gulliver",
+     "head": [
+      0,
+      1545,
+      409
+     ],
+     "eye": [
+      0,
+      1605,
+      357
+     ],
+     "palmR": [
+      212,
+      1872,
+      43
+     ],
+     "palmL": [
+      -212,
+      1872,
+      43
+     ]
+    }
+   ],
+   "underlay": "underlay/e03-p04-k3.jpg",
+   "plan": "plans/e03-p04-k3.svg"
+  },
+  {
+   "panel": "e03-p04-k4",
+   "set": "house",
+   "cam": [
+    0,
+    0,
+    120
+   ],
+   "look": [
+    0,
+    1,
+    0
+   ],
+   "stand": null,
+   "hfovDeg": 62.7,
+   "vfovDeg": 29.6,
+   "figures": [],
+   "crowds": [],
+   "noModel": "回想（昔の宮廷と国の中）。再現（GV1〜GV7）に昔の場面の 3D は無く、本文と人物表で描く。",
+   "vessels": {},
+   "plan": "plans/e03-p04-k4.svg"
+  },
+  {
+   "panel": "e03-p05-k1",
+   "set": "house",
+   "cam": [
+    0,
+    0,
+    136
+   ],
+   "look": [
+    0,
+    1,
+    0
+   ],
+   "stand": null,
+   "hfovDeg": 56.9,
+   "vfovDeg": 35.0,
+   "figures": [],
+   "crowds": [],
+   "noModel": "回想（昔の宮廷と国の中）。再現（GV1〜GV7）に昔の場面の 3D は無く、本文と人物表で描く。",
+   "vessels": {},
+   "plan": "plans/e03-p05-k1.svg"
+  },
+  {
+   "panel": "e03-p05-k2",
+   "set": "house",
+   "cam": [
+    0,
+    0,
+    40
+   ],
+   "look": [
+    0,
+    1,
+    0
+   ],
+   "stand": null,
+   "hfovDeg": 62.7,
+   "vfovDeg": 28.9,
+   "figures": [],
+   "crowds": [],
+   "noModel": "卵の寄り（大きい端と小さい端）。3D の舞台は使わない。",
+   "vessels": {},
+   "plan": "plans/e03-p05-k2.svg"
+  },
+  {
+   "panel": "e03-p05-k3",
+   "set": "house",
+   "cam": [
+    0,
+    0,
+    500
+   ],
+   "look": [
+    0,
+    1,
+    0
+   ],
+   "stand": null,
+   "hfovDeg": 62.7,
+   "vfovDeg": 29.6,
+   "figures": [],
+   "crowds": [],
+   "noModel": "回想（昔の宮廷と国の中）。再現（GV1〜GV7）に昔の場面の 3D は無く、本文と人物表で描く。",
+   "vessels": {},
+   "plan": "plans/e03-p05-k3.svg"
+  },
+  {
+   "panel": "e03-p06-k1",
+   "set": "house",
+   "cam": [
+    470,
+    2080,
+    136
+   ],
+   "look": [
+    212,
+    1872,
+    150
+   ],
+   "stand": null,
+   "hfovDeg": 62.7,
+   "vfovDeg": 29.6,
+   "figures": [
+    {
+     "fg": "FG-e03-p06-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      900,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "prone-palm",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e03-p06-k1-02",
+     "ch": "CH-05",
+     "name": "レルドレサル",
+     "fig": "reldresal",
+     "at": [
+      212,
+      1872,
+      68
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 150
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "points": [
+    {
+     "fig": "gulliver",
+     "head": [
+      0,
+      1545,
+      409
+     ],
+     "eye": [
+      0,
+      1605,
+      357
+     ],
+     "palmR": [
+      212,
+      1872,
+      43
+     ],
+     "palmL": [
+      -212,
+      1872,
+      43
+     ]
+    }
+   ],
+   "underlay": "underlay/e03-p06-k1.jpg",
+   "plan": "plans/e03-p06-k1.svg"
+  },
+  {
+   "panel": "e03-p06-k2",
+   "set": "house",
+   "cam": [
+    -260,
+    2080,
+    330
+   ],
+   "look": [
+    0,
+    1545,
+    409
+   ],
+   "stand": null,
+   "hfovDeg": 44.2,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e03-p06-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      900,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "prone-palm",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e03-p06-k2-02",
+     "ch": "CH-05",
+     "name": "レルドレサル",
+     "fig": "reldresal",
+     "at": [
+      212,
+      1872,
+      68
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 150
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "points": [
+    {
+     "fig": "gulliver",
+     "head": [
+      0,
+      1545,
+      409
+     ],
+     "eye": [
+      0,
+      1605,
+      357
+     ],
+     "palmR": [
+      212,
+      1872,
+      43
+     ],
+     "palmL": [
+      -212,
+      1872,
+      43
+     ]
+    }
+   ],
+   "underlay": "underlay/e03-p06-k2.jpg",
+   "plan": "plans/e03-p06-k2.svg"
+  },
+  {
+   "panel": "e03-p06-k3",
+   "set": "house",
+   "cam": [
+    640,
+    1900,
+    130
+   ],
+   "look": [
+    212,
+    1872,
+    150
+   ],
+   "stand": null,
+   "hfovDeg": 35.8,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e03-p06-k3-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      900,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "prone-palm",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e03-p06-k3-02",
+     "ch": "CH-05",
+     "name": "レルドレサル",
+     "fig": "reldresal",
+     "at": [
+      212,
+      1872,
+      68
+     ],
+     "facingDeg": 145.6,
+     "pose": "bow",
+     "heightMm": 150
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "points": [
+    {
+     "fig": "gulliver",
+     "head": [
+      0,
+      1545,
+      409
+     ],
+     "eye": [
+      0,
+      1605,
+      357
+     ],
+     "palmR": [
+      212,
+      1872,
+      43
+     ],
+     "palmL": [
+      -212,
+      1872,
+      43
+     ]
+    }
+   ],
+   "underlay": "underlay/e03-p06-k3.jpg",
+   "plan": "plans/e03-p06-k3.svg"
+  },
+  {
+   "panel": "e03-p06-k4",
+   "set": "house",
+   "cam": [
+    -2300,
+    3900,
+    650
+   ],
+   "look": [
+    0,
+    1200,
+    300
+   ],
+   "stand": null,
+   "hfovDeg": 56.9,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e03-p06-k4-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      900,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "prone-palm",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e03-p06-k4-02",
+     "ch": "CH-05",
+     "name": "レルドレサル",
+     "fig": "reldresal",
+     "at": [
+      212,
+      1872,
+      68
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand",
+     "heightMm": 150
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "points": [
+    {
+     "fig": "gulliver",
+     "head": [
+      0,
+      1545,
+      409
+     ],
+     "eye": [
+      0,
+      1605,
+      357
+     ],
+     "palmR": [
+      212,
+      1872,
+      43
+     ],
+     "palmL": [
+      -212,
+      1872,
+      43
+     ]
+    }
+   ],
+   "underlay": "underlay/e03-p06-k4.jpg",
+   "plan": "plans/e03-p06-k4.svg"
+  },
+  {
+   "panel": "e03-p07-k1",
+   "set": "strait",
+   "cam": [
+    -2600,
+    -25600,
+    5300
+   ],
+   "look": [
+    400,
+    -14000,
+    4600
+   ],
+   "stand": "hill",
+   "hfovDeg": 46.7,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e03-p07-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      -21500,
+      4000
+     ],
+     "facingDeg": 0.0,
+     "pose": "telescope",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "points": [
+    {
+     "fig": "gulliver",
+     "head": [
+      0,
+      -21491,
+      5628
+     ],
+     "eye": [
+      0,
+      -21412,
+      5636
+     ],
+     "palmR": [
+      388,
+      -21001,
+      5778
+     ],
+     "palmL": [
+      -56,
+      -21049,
+      5863
+     ]
+    }
+   ],
+   "underlay": "underlay/e03-p07-k1.jpg",
+   "plan": "plans/e03-p07-k1.svg"
+  },
+  {
+   "panel": "e03-p07-k2",
+   "set": "strait",
+   "cam": [
+    -160000,
+    -140000,
+    140000
+   ],
+   "look": [
+    0,
+    380000,
+    0
+   ],
+   "stand": null,
+   "hfovDeg": 23.8,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e03-p07-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      0,
+      -21500,
+      4000
+     ],
+     "facingDeg": 0.0,
+     "pose": "telescope",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {
+    "fleet": {
+     "at": [
+      0,
+      699300,
+      0
+     ]
+    },
+    "fleet2": {
+     "at": [
+      0,
+      699300,
+      0
+     ]
+    }
+   },
+   "points": [
+    {
+     "fig": "gulliver",
+     "head": [
+      0,
+      -21491,
+      5628
+     ],
+     "eye": [
+      0,
+      -21412,
+      5636
+     ],
+     "palmR": [
+      388,
+      -21001,
+      5778
+     ],
+     "palmL": [
+      -56,
+      -21049,
+      5863
+     ]
+    }
+   ],
+   "underlay": "underlay/e03-p07-k2.jpg",
+   "plan": "plans/e03-p07-k2.svg"
+  },
+  {
+   "panel": "e03-p07-k3",
+   "set": "coast",
+   "cam": [
+    700,
+    -6100,
+    136
+   ],
+   "look": [
+    2900,
+    -8000,
+    1000
+   ],
+   "stand": null,
+   "hfovDeg": 23.8,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e03-p07-k3-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      3000,
+      -8000,
+      0
+     ],
+     "facingDeg": 90.0,
+     "pose": "crouch",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e03-p07-k3-02",
+     "ch": "CH-30",
+     "name": "水夫",
+     "fig": "s1",
+     "at": [
+      2600,
+      -7900,
+      0
+     ],
+     "facingDeg": -90.0,
+     "pose": "point",
+     "heightMm": 146
+    }
+   ],
+   "crowds": [
+    "seamen"
+   ],
+   "noModel": null,
+   "vessels": {},
+   "points": [
+    {
+     "fig": "gulliver",
+     "head": [
+      2991,
+      -8000,
+      1330
+     ],
+     "eye": [
+      2913,
+      -8000,
+      1339
+     ],
+     "palmR": [
+      2362,
+      -7700,
+      1003
+     ],
+     "palmL": [
+      3000,
+      -8236,
+      473
+     ]
+    }
+   ],
+   "underlay": "underlay/e03-p07-k3.jpg",
+   "plan": "plans/e03-p07-k3.svg"
+  },
+  {
+   "panel": "e03-p08-k1",
+   "set": "fleet",
+   "cam": [
+    0,
+    690000,
+    1500
+   ],
+   "look": [
+    0,
+    712000,
+    300
+   ],
+   "stand": null,
+   "hfovDeg": 46.7,
+   "vfovDeg": 35.0,
+   "figures": [],
+   "crowds": [
+    "crew"
+   ],
+   "noModel": null,
+   "vessels": {
+    "fleet": {
+     "at": [
+      0,
+      699300,
+      0
+     ]
+    },
+    "fleet2": {
+     "at": [
+      0,
+      699300,
+      0
+     ]
+    }
+   },
+   "underlay": "underlay/e03-p08-k1.jpg",
+   "plan": "plans/e03-p08-k1.svg"
+  },
+  {
+   "panel": "e03-p08-k2",
+   "set": "coast",
+   "cam": [
+    5500,
+    -5800,
+    136
+   ],
+   "look": [
+    3250,
+    -7900,
+    950
+   ],
+   "stand": null,
+   "hfovDeg": 46.7,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e03-p08-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー",
+     "fig": "gulliver",
+     "at": [
+      3000,
+      -8000,
+      0
+     ],
+     "facingDeg": -90.0,
+     "pose": "crouch",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [
+    "workers"
+   ],
+   "noModel": null,
+   "vessels": {},
+   "points": [
+    {
+     "fig": "gulliver",
+     "head": [
+      3009,
+      -8000,
+      1330
+     ],
+     "eye": [
+      3088,
+      -8000,
+      1339
+     ],
+     "palmR": [
+      3638,
+      -8300,
+      1003
+     ],
+     "palmL": [
+      3000,
+      -7764,
+      473
+     ]
+    }
+   ],
+   "underlay": "underlay/e03-p08-k2.jpg",
+   "plan": "plans/e03-p08-k2.svg"
+  },
+  {
+   "panel": "e03-p09-k1",
+   "set": "coast",
+   "cam": [
+    2300,
+    -700,
+    136
+   ],
+   "look": [
+    0,
+    -3000,
+    950
+   ],
+   "stand": null,
+   "hfovDeg": 56.9,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e03-p09-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー（革の胴着）",
+     "fig": "gj",
+     "at": [
+      0,
+      -3000,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "stand",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "points": [
+    {
+     "fig": "gj",
+     "head": [
+      0,
+      -2991,
+      1628
+     ],
+     "eye": [
+      0,
+      -2912,
+      1636
+     ],
+     "palmR": [
+      236,
+      -3000,
+      770
+     ],
+     "palmL": [
+      -236,
+      -3000,
+      770
+     ]
+    }
+   ],
+   "underlay": "underlay/e03-p09-k1.jpg",
+   "plan": "plans/e03-p09-k1.svg"
+  },
+  {
+   "panel": "e03-p09-k2",
+   "set": "coast",
+   "cam": [
+    1200,
+    11500,
+    150
+   ],
+   "look": [
+    0,
+    8000,
+    400
+   ],
+   "stand": null,
+   "hfovDeg": 62.7,
+   "vfovDeg": 28.9,
+   "figures": [
+    {
+     "fg": "FG-e03-p09-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー（革の胴着）",
+     "fig": "gj",
+     "at": [
+      0,
+      8000,
+      -300
+     ],
+     "facingDeg": 0.0,
+     "pose": "wade",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {},
+   "points": [
+    {
+     "fig": "gj",
+     "head": [
+      0,
+      8009,
+      1328
+     ],
+     "eye": [
+      0,
+      8088,
+      1336
+     ],
+     "palmR": [
+      806,
+      8214,
+      1300
+     ],
+     "palmL": [
+      -806,
+      8214,
+      1300
+     ]
+    }
+   ],
+   "underlay": "underlay/e03-p09-k2.jpg",
+   "plan": "plans/e03-p09-k2.svg"
+  },
+  {
+   "panel": "e03-p09-k3",
+   "set": "strait",
+   "cam": [
+    -60000,
+    300000,
+    40000
+   ],
+   "look": [
+    0,
+    345000,
+    -800
+   ],
+   "stand": null,
+   "hfovDeg": 62.7,
+   "vfovDeg": 29.6,
+   "figures": [
+    {
+     "fg": "FG-e03-p09-k3-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー（革の胴着）",
+     "fig": "gj",
+     "at": [
+      0,
+      345000,
+      50
+     ],
+     "facingDeg": 0.0,
+     "pose": "swim",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {
+    "fleet": {
+     "at": [
+      0,
+      699300,
+      0
+     ]
+    },
+    "fleet2": {
+     "at": [
+      0,
+      699300,
+      0
+     ]
+    }
+   },
+   "points": [
+    {
+     "fig": "gj",
+     "head": [
+      0,
+      345700,
+      -116
+     ],
+     "eye": [
+      0,
+      345709,
+      -195
+     ],
+     "palmR": [
+      362,
+      344872,
+      18
+     ],
+     "palmL": [
+      -344,
+      346121,
+      -269
+     ]
+    }
+   ],
+   "underlay": "underlay/e03-p09-k3.jpg",
+   "plan": "plans/e03-p09-k3.svg"
+  },
+  {
+   "panel": "e03-p10-k1",
+   "set": "fleet",
+   "cam": [
+    700,
+    702500,
+    286
+   ],
+   "look": [
+    0,
+    698000,
+    900
+   ],
+   "stand": "deck",
+   "hfovDeg": 56.9,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e03-p10-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー（革の胴着）",
+     "fig": "gj",
+     "at": [
+      0,
+      698000,
+      -800
+     ],
+     "facingDeg": 0.0,
+     "pose": "wade",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [
+    "crew",
+    "jumpers"
+   ],
+   "noModel": null,
+   "vessels": {
+    "fleet": {
+     "at": [
+      0,
+      699300,
+      0
+     ]
+    },
+    "fleet2": {
+     "at": [
+      0,
+      699300,
+      0
+     ]
+    }
+   },
+   "points": [
+    {
+     "fig": "gj",
+     "head": [
+      0,
+      698009,
+      828
+     ],
+     "eye": [
+      0,
+      698088,
+      836
+     ],
+     "palmR": [
+      806,
+      698214,
+      800
+     ],
+     "palmL": [
+      -806,
+      698214,
+      800
+     ]
+    }
+   ],
+   "underlay": "underlay/e03-p10-k1.jpg",
+   "plan": "plans/e03-p10-k1.svg"
+  },
+  {
+   "panel": "e03-p10-k2",
+   "set": "fleet",
+   "cam": [
+    350,
+    699076,
+    830
+   ],
+   "look": [
+    0,
+    697976,
+    826
+   ],
+   "stand": null,
+   "hfovDeg": 44.2,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e03-p10-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー（革の胴着）",
+     "fig": "gj",
+     "at": [
+      0,
+      698000,
+      -800
+     ],
+     "facingDeg": 0.0,
+     "pose": "hands-face",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {
+    "fleet": {
+     "at": [
+      0,
+      699300,
+      0
+     ]
+    },
+    "fleet2": {
+     "at": [
+      0,
+      699300,
+      0
+     ]
+    }
+   },
+   "points": [
+    {
+     "fig": "gj",
+     "head": [
+      0,
+      697976,
+      826
+     ],
+     "eye": [
+      0,
+      698050,
+      854
+     ],
+     "palmR": [
+      223,
+      698355,
+      1028
+     ],
+     "palmL": [
+      -223,
+      698355,
+      1028
+     ]
+    }
+   ],
+   "underlay": "underlay/e03-p10-k2.jpg",
+   "plan": "plans/e03-p10-k2.svg"
+  },
+  {
+   "panel": "e03-p10-k3",
+   "set": "fleet",
+   "cam": [
+    -250,
+    698609,
+    830
+   ],
+   "look": [
+    0,
+    698009,
+    828
+   ],
+   "stand": null,
+   "hfovDeg": 35.8,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e03-p10-k3-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー（革の胴着）",
+     "fig": "gj",
+     "at": [
+      0,
+      698000,
+      -800
+     ],
+     "facingDeg": 0.0,
+     "pose": "wade",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {
+    "fleet": {
+     "at": [
+      0,
+      699300,
+      0
+     ]
+    },
+    "fleet2": {
+     "at": [
+      0,
+      699300,
+      0
+     ]
+    }
+   },
+   "points": [
+    {
+     "fig": "gj",
+     "head": [
+      0,
+      698009,
+      828
+     ],
+     "eye": [
+      0,
+      698088,
+      836
+     ],
+     "palmR": [
+      806,
+      698214,
+      800
+     ],
+     "palmL": [
+      -806,
+      698214,
+      800
+     ]
+    }
+   ],
+   "underlay": "underlay/e03-p10-k3.jpg",
+   "plan": "plans/e03-p10-k3.svg"
+  },
+  {
+   "panel": "e03-p10-k4",
+   "set": "fleet",
+   "cam": [
+    300,
+    698709,
+    830
+   ],
+   "look": [
+    0,
+    698009,
+    828
+   ],
+   "stand": null,
+   "hfovDeg": 62.7,
+   "vfovDeg": 29.6,
+   "figures": [
+    {
+     "fg": "FG-e03-p10-k4-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー（革の胴着）",
+     "fig": "gj",
+     "at": [
+      0,
+      698000,
+      -800
+     ],
+     "facingDeg": 0.0,
+     "pose": "telescope",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {
+    "fleet": {
+     "at": [
+      0,
+      699300,
+      0
+     ]
+    },
+    "fleet2": {
+     "at": [
+      0,
+      699300,
+      0
+     ]
+    }
+   },
+   "points": [
+    {
+     "fig": "gj",
+     "head": [
+      0,
+      698009,
+      828
+     ],
+     "eye": [
+      0,
+      698088,
+      836
+     ],
+     "palmR": [
+      388,
+      698499,
+      978
+     ],
+     "palmL": [
+      -56,
+      698451,
+      1063
+     ]
+    }
+   ],
+   "underlay": "underlay/e03-p10-k4.jpg",
+   "plan": "plans/e03-p10-k4.svg"
+  },
+  {
+   "panel": "e03-p11-k1",
+   "set": "fleet",
+   "cam": [
+    120,
+    699109,
+    830
+   ],
+   "look": [
+    0,
+    698009,
+    828
+   ],
+   "stand": null,
+   "hfovDeg": 62.7,
+   "vfovDeg": 29.6,
+   "figures": [
+    {
+     "fg": "FG-e03-p11-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー（革の胴着）",
+     "fig": "gj",
+     "at": [
+      0,
+      698000,
+      -800
+     ],
+     "facingDeg": 0.0,
+     "pose": "wade",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {
+    "fleet": {
+     "at": [
+      0,
+      699300,
+      0
+     ]
+    },
+    "fleet2": {
+     "at": [
+      0,
+      699300,
+      0
+     ]
+    }
+   },
+   "points": [
+    {
+     "fig": "gj",
+     "head": [
+      0,
+      698009,
+      828
+     ],
+     "eye": [
+      0,
+      698088,
+      836
+     ],
+     "palmR": [
+      806,
+      698214,
+      800
+     ],
+     "palmL": [
+      -806,
+      698214,
+      800
+     ]
+    }
+   ],
+   "underlay": "underlay/e03-p11-k1.jpg",
+   "plan": "plans/e03-p11-k1.svg"
+  },
+  {
+   "panel": "e03-p11-k2",
+   "set": "fleet",
+   "cam": [
+    1500,
+    700300,
+    286
+   ],
+   "look": [
+    0,
+    699100,
+    450
+   ],
+   "stand": "deck",
+   "hfovDeg": 57.8,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e03-p11-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー（革の胴着）",
+     "fig": "gj",
+     "at": [
+      0,
+      698400,
+      -800
+     ],
+     "facingDeg": 0.0,
+     "pose": "tie",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [
+    "jumpers"
+   ],
+   "noModel": null,
+   "vessels": {
+    "fleet": {
+     "at": [
+      0,
+      699300,
+      0
+     ]
+    },
+    "fleet2": {
+     "at": [
+      0,
+      699300,
+      0
+     ]
+    }
+   },
+   "points": [
+    {
+     "fig": "gj",
+     "head": [
+      0,
+      698122,
+      764
+     ],
+     "eye": [
+      0,
+      698174,
+      824
+     ],
+     "palmR": [
+      228,
+      698855,
+      565
+     ],
+     "palmL": [
+      -228,
+      698855,
+      565
+     ]
+    }
+   ],
+   "underlay": "underlay/e03-p11-k2.jpg",
+   "plan": "plans/e03-p11-k2.svg"
+  },
+  {
+   "panel": "e03-p11-k3",
+   "set": "fleet",
+   "cam": [
+    700,
+    690400,
+    600
+   ],
+   "look": [
+    0,
+    690500,
+    150
+   ],
+   "stand": null,
+   "hfovDeg": 62.7,
+   "vfovDeg": 29.6,
+   "figures": [
+    {
+     "fg": "FG-e03-p11-k3-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー（革の胴着）",
+     "fig": "gj",
+     "at": [
+      0,
+      690000,
+      -800
+     ],
+     "facingDeg": 180.0,
+     "pose": "tow",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {
+    "fleet": {
+     "at": [
+      -346,
+      693530,
+      0
+     ]
+    },
+    "cords": {
+     "at": [
+      -346,
+      690530,
+      137
+     ]
+    },
+    "fleet2": {
+     "at": [
+      -346,
+      693530,
+      0
+     ]
+    }
+   },
+   "points": [
+    {
+     "fig": "gj",
+     "head": [
+      0,
+      690165,
+      790
+     ],
+     "eye": [
+      0,
+      690091,
+      818
+     ],
+     "palmR": [
+      -346,
+      690530,
+      137
+     ],
+     "palmL": [
+      532,
+      689657,
+      262
+     ]
+    }
+   ],
+   "underlay": "underlay/e03-p11-k3.jpg",
+   "plan": "plans/e03-p11-k3.svg"
+  },
+  {
+   "panel": "e03-p12-k1",
+   "set": "strait",
+   "cam": [
+    -9000,
+    287000,
+    3000
+   ],
+   "look": [
+    0,
+    305000,
+    0
+   ],
+   "stand": null,
+   "hfovDeg": 39.5,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e03-p12-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー（革の胴着）",
+     "fig": "gj",
+     "at": [
+      0,
+      301000,
+      -1300
+     ],
+     "facingDeg": 180.0,
+     "pose": "tow",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {
+    "fleet": {
+     "at": [
+      -346,
+      304530,
+      0
+     ]
+    },
+    "cords": {
+     "at": [
+      -346,
+      301530,
+      -363
+     ]
+    },
+    "fleet2": {
+     "at": [
+      -346,
+      304530,
+      0
+     ]
+    }
+   },
+   "points": [
+    {
+     "fig": "gj",
+     "head": [
+      0,
+      301165,
+      290
+     ],
+     "eye": [
+      0,
+      301091,
+      318
+     ],
+     "palmR": [
+      -346,
+      301530,
+      -363
+     ],
+     "palmL": [
+      532,
+      300657,
+      -238
+     ]
+    }
+   ],
+   "underlay": "underlay/e03-p12-k1.jpg",
+   "plan": "plans/e03-p12-k1.svg"
+  },
+  {
+   "panel": "e03-p12-k2",
+   "set": "fleet",
+   "cam": [
+    -1500,
+    733420,
+    136
+   ],
+   "look": [
+    0,
+    700000,
+    400
+   ],
+   "stand": null,
+   "hfovDeg": 56.9,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e03-p12-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー（革の胴着）",
+     "fig": "gj",
+     "at": [
+      0,
+      690000,
+      -800
+     ],
+     "facingDeg": 180.0,
+     "pose": "tow",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [
+    "blefuscans"
+   ],
+   "noModel": null,
+   "vessels": {
+    "fleet": {
+     "at": [
+      -346,
+      693530,
+      0
+     ]
+    },
+    "cords": {
+     "at": [
+      -346,
+      690530,
+      137
+     ]
+    },
+    "fleet2": {
+     "at": [
+      -346,
+      693530,
+      0
+     ]
+    }
+   },
+   "points": [
+    {
+     "fig": "gj",
+     "head": [
+      0,
+      690165,
+      790
+     ],
+     "eye": [
+      0,
+      690091,
+      818
+     ],
+     "palmR": [
+      -346,
+      690530,
+      137
+     ],
+     "palmL": [
+      532,
+      689657,
+      262
+     ]
+    }
+   ],
+   "underlay": "underlay/e03-p12-k2.jpg",
+   "plan": "plans/e03-p12-k2.svg"
+  },
+  {
+   "panel": "e03-p13-k1",
+   "set": "coast",
+   "cam": [
+    800,
+    -1700,
+    136
+   ],
+   "look": [
+    0,
+    160000,
+    300
+   ],
+   "stand": null,
+   "hfovDeg": 46.7,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e03-p13-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー（革の胴着）",
+     "fig": "gj",
+     "at": [
+      0,
+      160000,
+      -1300
+     ],
+     "facingDeg": 180.0,
+     "pose": "stand-in-water",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e03-p13-k1-02",
+     "ch": "CH-02",
+     "name": "皇帝",
+     "fig": "emperor",
+     "at": [
+      0,
+      -900,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "stand",
+     "heightMm": 158
+    }
+   ],
+   "crowds": [
+    "court"
+   ],
+   "noModel": null,
+   "vessels": {
+    "fleet": {
+     "at": [
+      -637,
+      162840,
+      0
+     ]
+    },
+    "cords": {
+     "at": [
+      -637,
+      159840,
+      -346
+     ]
+    },
+    "fleet2": {
+     "at": [
+      -637,
+      162840,
+      0
+     ]
+    }
+   },
+   "points": [
+    {
+     "fig": "gj",
+     "head": [
+      0,
+      159991,
+      327
+     ],
+     "eye": [
+      0,
+      159913,
+      336
+     ],
+     "palmR": [
+      -637,
+      159840,
+      -346
+     ],
+     "palmL": [
+      637,
+      159840,
+      -346
+     ]
+    }
+   ],
+   "underlay": "underlay/e03-p13-k1.jpg",
+   "plan": "plans/e03-p13-k1.svg"
+  },
+  {
+   "panel": "e03-p13-k2",
+   "set": "coast",
+   "cam": [
+    450,
+    -600,
+    136
+   ],
+   "look": [
+    0,
+    12000,
+    1300
+   ],
+   "stand": null,
+   "hfovDeg": 46.7,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e03-p13-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー（革の胴着）",
+     "fig": "gj",
+     "at": [
+      0,
+      12000,
+      -300
+     ],
+     "facingDeg": 180.0,
+     "pose": "cheer",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e03-p13-k2-02",
+     "ch": "CH-02",
+     "name": "皇帝",
+     "fig": "emperor",
+     "at": [
+      0,
+      -900,
+      0
+     ],
+     "facingDeg": 0.0,
+     "pose": "stand",
+     "heightMm": 158
+    }
+   ],
+   "crowds": [
+    "court"
+   ],
+   "noModel": null,
+   "vessels": {
+    "fleet": {
+     "at": [
+      -405,
+      14952,
+      0
+     ]
+    },
+    "cords": {
+     "at": [
+      -405,
+      11952,
+      1752
+     ]
+    },
+    "fleet2": {
+     "at": [
+      -405,
+      14952,
+      0
+     ]
+    }
+   },
+   "points": [
+    {
+     "fig": "gj",
+     "head": [
+      0,
+      11991,
+      1328
+     ],
+     "eye": [
+      0,
+      11913,
+      1336
+     ],
+     "palmR": [
+      -405,
+      11952,
+      1752
+     ],
+     "palmL": [
+      405,
+      11952,
+      1752
+     ]
+    }
+   ],
+   "underlay": "underlay/e03-p13-k2.jpg",
+   "plan": "plans/e03-p13-k2.svg"
+  },
+  {
+   "panel": "e03-p14-k1",
+   "set": "coast",
+   "cam": [
+    36200,
+    -8200,
+    1500
+   ],
+   "look": [
+    44500,
+    -1000,
+    400
+   ],
+   "stand": null,
+   "hfovDeg": 39.5,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e03-p14-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー（革の胴着）",
+     "fig": "gj",
+     "at": [
+      46000,
+      -2000,
+      0
+     ],
+     "facingDeg": 90.0,
+     "pose": "kneel",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e03-p14-k1-02",
+     "ch": "CH-02",
+     "name": "皇帝",
+     "fig": "emperor",
+     "at": [
+      44000,
+      -2500,
+      450
+     ],
+     "facingDeg": -90.0,
+     "pose": "orate",
+     "heightMm": 158
+    },
+    {
+     "fg": "FG-e03-p14-k1-03",
+     "ch": "CH-06",
+     "name": "ボルゴラム",
+     "fig": "bolgolam",
+     "at": [
+      42900,
+      -3900,
+      300
+     ],
+     "facingDeg": -34.4,
+     "pose": "arms-crossed",
+     "heightMm": 148
+    }
+   ],
+   "crowds": [
+    "port"
+   ],
+   "noModel": null,
+   "vessels": {
+    "fleet": {
+     "at": [
+      38000,
+      2000,
+      0
+     ]
+    },
+    "fleet2": {
+     "at": [
+      38000,
+      2000,
+      0
+     ]
+    }
+   },
+   "points": [
+    {
+     "fig": "gj",
+     "head": [
+      46043,
+      -2000,
+      1253
+     ],
+     "eye": [
+      45974,
+      -2000,
+      1292
+     ],
+     "palmR": [
+      46000,
+      -1764,
+      403
+     ],
+     "palmL": [
+      45758,
+      -2297,
+      454
+     ]
+    }
+   ],
+   "underlay": "underlay/e03-p14-k1.jpg",
+   "plan": "plans/e03-p14-k1.svg"
+  },
+  {
+   "panel": "e03-p14-k2",
+   "set": "coast",
+   "cam": [
+    44700,
+    -2350,
+    436
+   ],
+   "look": [
+    44000,
+    -2500,
+    570
+   ],
+   "stand": "quay",
+   "hfovDeg": 56.9,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e03-p14-k2-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー（革の胴着）",
+     "fig": "gj",
+     "at": [
+      46000,
+      -2000,
+      0
+     ],
+     "facingDeg": 90.0,
+     "pose": "kneel",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e03-p14-k2-02",
+     "ch": "CH-02",
+     "name": "皇帝",
+     "fig": "emperor",
+     "at": [
+      44000,
+      -2500,
+      450
+     ],
+     "facingDeg": -90.0,
+     "pose": "orate",
+     "heightMm": 158
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {
+    "fleet": {
+     "at": [
+      38000,
+      2000,
+      0
+     ]
+    },
+    "fleet2": {
+     "at": [
+      38000,
+      2000,
+      0
+     ]
+    }
+   },
+   "points": [
+    {
+     "fig": "gj",
+     "head": [
+      46043,
+      -2000,
+      1253
+     ],
+     "eye": [
+      45974,
+      -2000,
+      1292
+     ],
+     "palmR": [
+      46000,
+      -1764,
+      403
+     ],
+     "palmL": [
+      45758,
+      -2297,
+      454
+     ]
+    }
+   ],
+   "underlay": "underlay/e03-p14-k2.jpg",
+   "plan": "plans/e03-p14-k2.svg"
+  },
+  {
+   "panel": "e03-p15-k1",
+   "set": "coast",
+   "cam": [
+    44500,
+    -1500,
+    436
+   ],
+   "look": [
+    46000,
+    -2000,
+    950
+   ],
+   "stand": "quay",
+   "hfovDeg": 62.7,
+   "vfovDeg": 29.6,
+   "figures": [
+    {
+     "fg": "FG-e03-p15-k1-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー（革の胴着）",
+     "fig": "gj",
+     "at": [
+      46000,
+      -2000,
+      0
+     ],
+     "facingDeg": 90.0,
+     "pose": "kneel",
+     "heightMm": 1750
+    },
+    {
+     "fg": "FG-e03-p15-k1-02",
+     "ch": "CH-02",
+     "name": "皇帝",
+     "fig": "emperor",
+     "at": [
+      44000,
+      -2500,
+      450
+     ],
+     "facingDeg": -90.0,
+     "pose": "orate",
+     "heightMm": 158
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {
+    "fleet": {
+     "at": [
+      38000,
+      2000,
+      0
+     ]
+    },
+    "fleet2": {
+     "at": [
+      38000,
+      2000,
+      0
+     ]
+    }
+   },
+   "points": [
+    {
+     "fig": "gj",
+     "head": [
+      46043,
+      -2000,
+      1253
+     ],
+     "eye": [
+      45974,
+      -2000,
+      1292
+     ],
+     "palmR": [
+      46000,
+      -1764,
+      403
+     ],
+     "palmL": [
+      45758,
+      -2297,
+      454
+     ]
+    }
+   ],
+   "underlay": "underlay/e03-p15-k1.jpg",
+   "plan": "plans/e03-p15-k1.svg"
+  },
+  {
+   "panel": "e03-p15-k2",
+   "set": "coast",
+   "cam": [
+    43600,
+    -5200,
+    436
+   ],
+   "look": [
+    42200,
+    -3700,
+    420
+   ],
+   "stand": "quay",
+   "hfovDeg": 57.8,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e03-p15-k2-01",
+     "ch": "CH-06",
+     "name": "ボルゴラム",
+     "fig": "bolgolam",
+     "at": [
+      42900,
+      -3900,
+      300
+     ],
+     "facingDeg": -34.4,
+     "pose": "arms-crossed",
+     "heightMm": 148
+    }
+   ],
+   "crowds": [
+    "port"
+   ],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e03-p15-k2.jpg",
+   "plan": "plans/e03-p15-k2.svg"
+  },
+  {
+   "panel": "e03-p15-k3",
+   "set": "coast",
+   "cam": [
+    43400,
+    -3750,
+    436
+   ],
+   "look": [
+    42900,
+    -3900,
+    425
+   ],
+   "stand": "quay",
+   "hfovDeg": 62.7,
+   "vfovDeg": 29.6,
+   "figures": [
+    {
+     "fg": "FG-e03-p15-k3-01",
+     "ch": "CH-06",
+     "name": "ボルゴラム",
+     "fig": "bolgolam",
+     "at": [
+      42900,
+      -3900,
+      300
+     ],
+     "facingDeg": -34.4,
+     "pose": "arms-crossed",
+     "heightMm": 148
+    }
+   ],
+   "crowds": [
+    "port"
+   ],
+   "noModel": null,
+   "vessels": {},
+   "underlay": "underlay/e03-p15-k3.jpg",
+   "plan": "plans/e03-p15-k3.svg"
+  },
+  {
+   "panel": "e03-p16-k1",
+   "set": "coast",
+   "cam": [
+    44150,
+    -3300,
+    586
+   ],
+   "look": [
+    40000,
+    200000,
+    0
+   ],
+   "stand": "dais",
+   "hfovDeg": 50.9,
+   "vfovDeg": 35.0,
+   "figures": [
+    {
+     "fg": "FG-e03-p16-k1-01",
+     "ch": "CH-02",
+     "name": "皇帝",
+     "fig": "emperor",
+     "at": [
+      44000,
+      -2500,
+      450
+     ],
+     "facingDeg": 0.0,
+     "pose": "stand",
+     "heightMm": 158
+    },
+    {
+     "fg": "FG-e03-p16-k1-02",
+     "ch": "CH-01",
+     "name": "ガリヴァー（革の胴着）",
+     "fig": "gj",
+     "at": [
+      46000,
+      -2000,
+      0
+     ],
+     "facingDeg": 90.0,
+     "pose": "kneel",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {
+    "fleet": {
+     "at": [
+      38000,
+      2000,
+      0
+     ]
+    },
+    "fleet2": {
+     "at": [
+      38000,
+      2000,
+      0
+     ]
+    }
+   },
+   "points": [
+    {
+     "fig": "gj",
+     "head": [
+      46043,
+      -2000,
+      1253
+     ],
+     "eye": [
+      45974,
+      -2000,
+      1292
+     ],
+     "palmR": [
+      46000,
+      -1764,
+      403
+     ],
+     "palmL": [
+      45758,
+      -2297,
+      454
+     ]
+    }
+   ],
+   "underlay": "underlay/e03-p16-k1.jpg",
+   "plan": "plans/e03-p16-k1.svg"
+  },
+  {
+   "panel": "e03-p16-k2",
+   "set": "coast",
+   "cam": [
+    44000,
+    -1800,
+    586
+   ],
+   "look": [
+    44000,
+    -2500,
+    575
+   ],
+   "stand": "dais",
+   "hfovDeg": 62.7,
+   "vfovDeg": 26.2,
+   "figures": [
+    {
+     "fg": "FG-e03-p16-k2-01",
+     "ch": "CH-02",
+     "name": "皇帝",
+     "fig": "emperor",
+     "at": [
+      44000,
+      -2500,
+      450
+     ],
+     "facingDeg": 0.0,
+     "pose": "point",
+     "heightMm": 158
+    },
+    {
+     "fg": "FG-e03-p16-k2-02",
+     "ch": "CH-01",
+     "name": "ガリヴァー（革の胴着）",
+     "fig": "gj",
+     "at": [
+      46000,
+      -2000,
+      0
+     ],
+     "facingDeg": 90.0,
+     "pose": "kneel",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {
+    "fleet": {
+     "at": [
+      38000,
+      2000,
+      0
+     ]
+    },
+    "fleet2": {
+     "at": [
+      38000,
+      2000,
+      0
+     ]
+    }
+   },
+   "points": [
+    {
+     "fig": "gj",
+     "head": [
+      46043,
+      -2000,
+      1253
+     ],
+     "eye": [
+      45974,
+      -2000,
+      1292
+     ],
+     "palmR": [
+      46000,
+      -1764,
+      403
+     ],
+     "palmL": [
+      45758,
+      -2297,
+      454
+     ]
+    }
+   ],
+   "underlay": "underlay/e03-p16-k2.jpg",
+   "plan": "plans/e03-p16-k2.svg"
+  },
+  {
+   "panel": "e03-p16-k3",
+   "set": "coast",
+   "cam": [
+    45343,
+    -2500,
+    1300
+   ],
+   "look": [
+    46043,
+    -2000,
+    1253
+   ],
+   "stand": null,
+   "hfovDeg": 62.7,
+   "vfovDeg": 27.0,
+   "figures": [
+    {
+     "fg": "FG-e03-p16-k3-01",
+     "ch": "CH-01",
+     "name": "ガリヴァー（革の胴着）",
+     "fig": "gj",
+     "at": [
+      46000,
+      -2000,
+      0
+     ],
+     "facingDeg": 90.0,
+     "pose": "kneel",
+     "heightMm": 1750
+    }
+   ],
+   "crowds": [],
+   "noModel": null,
+   "vessels": {
+    "fleet": {
+     "at": [
+      38000,
+      2000,
+      0
+     ]
+    },
+    "fleet2": {
+     "at": [
+      38000,
+      2000,
+      0
+     ]
+    }
+   },
+   "points": [
+    {
+     "fig": "gj",
+     "head": [
+      46043,
+      -2000,
+      1253
+     ],
+     "eye": [
+      45974,
+      -2000,
+      1292
+     ],
+     "palmR": [
+      46000,
+      -1764,
+      403
+     ],
+     "palmL": [
+      45758,
+      -2297,
+      454
+     ]
+    }
+   ],
+   "underlay": "underlay/e03-p16-k3.jpg",
+   "plan": "plans/e03-p16-k3.svg"
+  }
+ ]
+}
