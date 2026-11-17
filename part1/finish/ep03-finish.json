@@ -259,12 +259,12 @@
    "refs": [
     {
      "path": "part1/ink/layers/e03-p02-k2-LY-04.png",
-     "commit": "49a0e030908a14378e37bade49682a5810fe178f",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "5e619c5b5333083781d3eace63d81f2118c7435617f0e516f25e7b9fe201d7e0"
     },
     {
      "path": "part1/ink/layers/e03-p02-k2-LY-07.png",
-     "commit": "49a0e030908a14378e37bade49682a5810fe178f",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "228a6bf4564c6d4105f34ebf511f0c750c478979bbd12398d05819a9b58363ef"
     },
     {
@@ -274,7 +274,7 @@
     },
     {
      "path": "part1/rough/panels/e03-p02-k2.jpg",
-     "commit": "49a0e030908a14378e37bade49682a5810fe178f",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "dff7429ae5832fa8189fb3929d563e71cba0c09d559aa926c3067397036b7123"
     }
    ],
@@ -822,22 +822,22 @@
    "refs": [
     {
      "path": "part1/ink/layers/e03-p04-k4-LY-04.png",
-     "commit": "49a0e030908a14378e37bade49682a5810fe178f",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "ce715b3f2d98001bf6e45d3c0f3bd5b38e9dbb98a90f6ef8a04a112fe6ad51b7"
     },
     {
      "path": "part1/ink/layers/e03-p04-k4-LY-07.png",
-     "commit": "49a0e030908a14378e37bade49682a5810fe178f",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "1667eeeebef21fac2ad534092e21e667998645bbb732d57cf0d00e45d7e21efb"
     },
     {
      "path": "part1/ink/layers/e03-p04-k4-LY-08.png",
-     "commit": "49a0e030908a14378e37bade49682a5810fe178f",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "ec72a80744478c3f75b66daa872c11f75ffe272d59231ea7e804944acd1474ef"
     },
     {
      "path": "part1/rough/panels/e03-p04-k4.jpg",
-     "commit": "49a0e030908a14378e37bade49682a5810fe178f",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "98412f133c49c129a33b4c8ed5cb7e47e3a9942416d9d5d6b1b83c2857ac745d"
     }
    ],
@@ -1113,12 +1113,12 @@
    "refs": [
     {
      "path": "part1/ink/layers/e03-p06-k1-LY-04.png",
-     "commit": "49a0e030908a14378e37bade49682a5810fe178f",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "b1630a095505a8a5cfc8ab501b26a4453654d0fdd9f5ad68c85f80af9767c1a9"
     },
     {
      "path": "part1/ink/layers/e03-p06-k1-LY-07.png",
-     "commit": "49a0e030908a14378e37bade49682a5810fe178f",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "071daf9ebffd6bb90fbaf167c8578bd7909d8169b6abdec8bb7918d7dc4502a9"
     },
     {
@@ -1128,7 +1128,7 @@
     },
     {
      "path": "part1/rough/panels/e03-p06-k1.jpg",
-     "commit": "49a0e030908a14378e37bade49682a5810fe178f",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "834c4f5efaff29618953eea271f58ec162cdac029a6a89da586d6e9d3f0be31d"
     }
    ],
@@ -2238,17 +2238,17 @@
    "refs": [
     {
      "path": "part1/ink/layers/e03-p11-k1-LY-04.png",
-     "commit": "49a0e030908a14378e37bade49682a5810fe178f",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "d06726803054fc8806d2634abd38bc087bfe8ccd8422d673cdc3997ff5442ad6"
     },
     {
      "path": "part1/ink/layers/e03-p11-k1-LY-07.png",
-     "commit": "49a0e030908a14378e37bade49682a5810fe178f",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "da58f1294615042af6aaf61eab734145d3c49fbcdd822a4d843b9996c2f3ea06"
     },
     {
      "path": "part1/ink/layers/e03-p11-k1-LY-08.png",
-     "commit": "49a0e030908a14378e37bade49682a5810fe178f",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "6f129cf1634632ae2c447b5fcc1a01473c2bde7214bb459a18104c74be3fe26d"
     },
     {
@@ -2445,12 +2445,12 @@
    "refs": [
     {
      "path": "part1/ink/layers/e03-p12-k1-LY-04.png",
-     "commit": "49a0e030908a14378e37bade49682a5810fe178f",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "c3aa69c1d25a3bb9bfc428e8051fd15f7cf257db5a3505fc1dec986fc1d6ae96"
     },
     {
      "path": "part1/ink/layers/e03-p12-k1-LY-07.png",
-     "commit": "49a0e030908a14378e37bade49682a5810fe178f",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "45ac49872e846b350618a4830799277681362c084eecc42f4ae0690b9c799071"
     },
     {
@@ -2460,7 +2460,7 @@
     },
     {
      "path": "part1/rough/panels/e03-p12-k1.jpg",
-     "commit": "49a0e030908a14378e37bade49682a5810fe178f",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "8b66778ab20f9a576df204d7d9c7583f876d82c9e2622a52910424530bd45e5a"
     }
    ],
@@ -3076,12 +3076,12 @@
    "refs": [
     {
      "path": "part1/ink/layers/e03-p16-k1-LY-04.png",
-     "commit": "49a0e030908a14378e37bade49682a5810fe178f",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "f3b40ef2ea35c8027ded51b28663fdb46e468e082908225da483695e1abf7948"
     },
     {
      "path": "part1/ink/layers/e03-p16-k1-LY-07.png",
-     "commit": "49a0e030908a14378e37bade49682a5810fe178f",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "e0f398fd41d95114e687e0d5f8b50b9c54282602397d2bcc304126dd88fc0984"
     },
     {
@@ -3145,12 +3145,12 @@
    "refs": [
     {
      "path": "part1/ink/layers/e03-p16-k2-LY-04.png",
-     "commit": "49a0e030908a14378e37bade49682a5810fe178f",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "371ed7f7701c3a149d852838f7b4660b4f0498dffd28cc3323a031ee97d6918e"
     },
     {
      "path": "part1/ink/layers/e03-p16-k2-LY-07.png",
-     "commit": "49a0e030908a14378e37bade49682a5810fe178f",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "b7af2feedca6498a351546814a209f22867fe6159bfcddd4f0661b9a58257162"
     },
     {
