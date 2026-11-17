@@ -78,3 +78,21 @@ cp -r part1/name/stage $SB/gulliver-ep02-stage; cp -r part1/rough $SB/gulliver-e
 GM_OUT=/tmp/ink2 npx vitest run apps/artifact-host/src/creative/story-board/gulliver-ep02-ink.build.test.ts
 node gm-svg2png.tmp.mjs /tmp/ink2/pages /tmp/ink2/png
 ```
+
+# 第3話「卵の端」線画
+
+ラフ `gm1-ep03-rough@rough-ep03-v1`（16ページ・46コマ）に、第2話と同じ方法で線画を描きました。成果物は `artifacts/gm1-ep03-ink`（Design、11.4 MB）と `gm1-ep03-ink-pages`、記録は `ep03-ink.json`、ページの絵は `ep03/pages/` です。AI の提案で、確認（`ink.approved`）と直しは作者です。
+
+- 46コマとも1回で描けました（約15分）。指示はラフのときの説明（第2話の学び：続く状態・大きさ・顔を切らない・細い物・頭の上の余白）をそのまま使いました。
+- **背景の線の無いコマはありません。** 効果の線（赤）は 4-4・11-1・13-2 にだけ少しあります（AI の提案）。
+- 3-1 だけ描き直しました。ラフのとおりにガリヴァーの顎の先だけが枠の上に残り、顔が切れていたためです（作者の決まり、LN-e02-02）。3D のカメラのとおり頭を枠の外に出し、枠の上の端が首巻きを横切るようにしました（`src/ink-briefs.py` の `INK_NOTES`）。
+
+```sh
+EPISODE=3 python3 part1/ink/src/ink-briefs.py $W part1/rough      # $W はラフの作業場所（rough-briefs.py の出力）
+PAR=5 bash part1/ink/src/run-ink.sh $W $(cd $W && ls -d e03-*)
+EPISODE=3 python3 part1/ink/src/ink-assets.py $W $(git rev-parse HEAD) part1/ink
+cp part1/name/gulliver-ep0[123]-name.ts part1/rough/*.ts part1/ink/*.ts $SB/
+mkdir -p $SB/gulliver-ep03-ink; cp -r part1/ink/ep03-ink.json part1/ink/layers part1/ink/hidden part1/ink/panels part1/ink/prompts $SB/gulliver-ep03-ink/
+GM_OUT=/tmp/ink3 npx vitest run apps/artifact-host/src/creative/story-board/gulliver-ep03-ink.build.test.ts
+node gm-svg2png.tmp.mjs /tmp/ink3/pages /tmp/ink3/png
+```
