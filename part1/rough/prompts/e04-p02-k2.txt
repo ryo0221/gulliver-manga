@@ -1,0 +1,27 @@
+Use your image generation tool. Make ONE image: a manga ROUGH (ラフ) for one comic panel, drawn the way a manga artist roughs a panel before inking.
+Style: loose but clear grey pencil lines on white paper, monochrome only (no colour), light grey tone only to separate figures from the background, no finished rendering. Faces must show the direction of the face and the expression; bodies must show the pose with readable joints; contacts (hands, ropes, feet on the body) must be clear.
+The FIRST attached image fixes the composition: keep its camera angle, horizon, and where each object and figure sits and how big it is in the frame. Redraw the blocky stand-ins as real people, horses, ships and places.
+The SECOND attached image is the approved design of Gulliver (CH-01): keep that costume and face design.
+The THIRD attached image is the approved design of the Emperor of Lilliput (CH-02): keep that costume and face design.
+ Gulliver's coat is plain blue in the design but this rough is monochrome: draw it as a plain coat with buttons and NO trim or edging.
+Early-18th-century England and its ships; Lilliput is a country of people 1/12 of Gulliver's size: keep their true size against him (AR-01, no exaggeration).
+No likeness to any film, game or existing illustration. No text, no letters, no speech balloons, no panel border, no signature, no watermark.
+Landscape 1536x1024.
+
+Panel e04-p02-k2, page 2 panel 2, scene SC-012.
+Shot: 寄り. Camera: 小人の目の高さ, 586 mm above the ground (standing on: 玉座の間の屋根（創作：450 mm）); 玉座の間の屋根の上から、ガリヴァーの顔を見上げる.
+What the panel shows (storyboard memo): まっすぐ皇帝を見下ろして断るガリヴァーの顔（両目を含む顔の全体、コマの縦の真ん中に）。下から見上げる。
+Words in this panel (for the mood and the faces only, do NOT draw any text): 台詞（ガリヴァー）：陛下。それはできません。
+Figures, placed by the 3D layout (keep these places, facings and poses; draw each with a readable face direction, pose and expression):
+- FG-e04-p02-k2-01 ガリヴァー — Gulliver (CH-01): 1,750 mm, plain blue coat with brass buttons and NO gold trim, tan breeches, white stockings, black shoes, brown hair tied back; kneeling on one knee, head bowed; head at middle-centre of the frame (x 50%, y 50%), facing the camera; 1208 mm from the camera.
+- FG-e04-p02-k2-02 皇帝 — the Emperor of Lilliput (CH-02): a Lilliputian, taller than his courtiers by about the breadth of Gulliver's fingernail; standing; outside the frame (at most a cut-off sliver at the frame edge), three-quarter back view, turned to frame left; 563 mm from the camera.
+The FIRST image is the 3D layout render from this camera: figures there are blocky stand-ins, ground/sea/walls are flat placeholders. The flat grey bands at the edges of the FIRST image are padding outside the panel: continue the scene into them, nothing important there.
+Continuity: Gulliver wears his plain blue coat with brass buttons, tan breeches, white stockings and black shoes (no chain).
+Size check inside the picture (AR-01): the throne room is a Lilliputian building: its east window (400 mm wide, 280 mm high) is lower than kneeling Gulliver's hips; the Emperor (158 mm) at the window is about as tall as Gulliver's hand is long; kneeling Gulliver's head is about six times as high as the Emperor's. Never draw the palace or the Lilliputians bigger than this.
+Gulliver kneels upright with his head UP (not bowed), looking straight down at the Emperor and refusing, calm and firm; his whole face with both eyes in the vertical middle of the frame.
+This panel is a WIDE, LOW strip: the top and bottom of the drawing will be cut away, so keep every head and face in the middle band of the height (LN-e03-01).
+Extras: draw the tiny people as grown men and women of mixed ages unless the brief says children (LN-e03-02).
+Never cut a face with the frame edge, and never show only part of a face (a nose or a mouth alone): every face in the frame is drawn whole, with its eyes, or not at all (LN-e02-02).
+Always draw a background (ground, sky, walls, the street or the room) even in a close-up; never leave the space behind the figures blank.
+
+After generating, copy the generated PNG to ./raw.png in the current directory. Do not generate more than one image.

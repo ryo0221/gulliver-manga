@@ -1,0 +1,33 @@
+Use your image generation tool. Make ONE image: a manga ROUGH (ラフ) for one comic panel, drawn the way a manga artist roughs a panel before inking.
+Style: loose but clear grey pencil lines on white paper, monochrome only (no colour), light grey tone only to separate figures from the background, no finished rendering. Faces must show the direction of the face and the expression; bodies must show the pose with readable joints; contacts (hands, ropes, feet on the body) must be clear.
+The FIRST attached image fixes the composition: keep its camera angle, horizon, and where each object and figure sits and how big it is in the frame. Redraw the blocky stand-ins as real people, horses, ships and places.
+The SECOND attached image is the approved design of Gulliver (CH-01): keep that costume and face design.
+The THIRD attached image is the approved design of a Lilliputian (the envoys of Blefuscu are the same tiny people; dress them as the brief says): keep that costume and face design.
+The FOURTH attached image is the approved design of a Lilliputian (tiny people): keep that costume and face design.
+ Gulliver's coat is plain blue in the design but this rough is monochrome: draw it as a plain coat with buttons and NO trim or edging.
+Early-18th-century England and its ships; Lilliput is a country of people 1/12 of Gulliver's size: keep their true size against him (AR-01, no exaggeration).
+No likeness to any film, game or existing illustration. No text, no letters, no speech balloons, no panel border, no signature, no watermark.
+Square 1024x1024.
+
+Panel e04-p07-k1, page 7 panel 1, scene SC-013.
+Shot: 引き. Camera: 小人の目の高さ, 136 mm above the ground; 神殿の前の地面から、手のひらの上の使節と、ガリヴァーの顔を.
+What the panel shows (storyboard memo): 寝そべって肘をつくガリヴァーの右の手のひらの上で、礼をして話す使節の代表（赤い上着、白いかつら、50歳ほど）。足もとに五人の使節。【大きさ（3D）】使節の背（150 mm）は、ガリヴァーの手の長さ（約190 mm）に少し足りない。
+Words in this panel (for the mood and the faces only, do NOT draw any text): 台詞（使節）：わが皇帝は、あなたの寛大さを聞き及んでおります。
+Figures, placed by the 3D layout (keep these places, facings and poses; draw each with a readable face direction, pose and expression):
+- FG-e04-p07-k1-01 ガリヴァー — Gulliver (CH-01): 1,750 mm, plain blue coat with brass buttons and NO gold trim, tan breeches, white stockings, black shoes, brown hair tied back; lying face down, propped up on his elbows with his chin raised, his right palm open on the ground in front of his face; head at middle-centre of the frame (x 55%, y 45%); 2541 mm from the camera.
+- FG-e04-p07-k1-02 ブレフスキュの使節（代表） — the chief envoy of Blefuscu (CH-31): a Lilliputian, 150 mm, 1/12 of Gulliver, about 50 years old, a red coat and a white wig; giving a speech with one arm out; head at middle-centre of the frame (x 58%, y 57%), back to the camera; 2141 mm from the camera.
+- FG-e04-p07-k1-03 ブレフスキュの使節 1 — a Lilliputian (CH-30): 146 mm tall, 1/12 of Gulliver; standing; head at middle-right of the frame (x 99%, y 63%), three-quarter back view, turned to frame left; 2316 mm from the camera.
+- FG-e04-p07-k1-04 ブレフスキュの使節 2 — a Lilliputian (CH-30): 146 mm tall, 1/12 of Gulliver; bowing deeply from the waist; head at middle-right of the frame (x 93%, y 63%), three-quarter back view, turned to frame left; 2183 mm from the camera.
+- FG-e04-p07-k1-05 ブレフスキュの使節 3 — a Lilliputian (CH-30): 146 mm tall, 1/12 of Gulliver; standing; head at middle-right of the frame (x 86%, y 63%), three-quarter back view, turned to frame left; 2054 mm from the camera.
+- FG-e04-p07-k1-06 ブレフスキュの使節 4 — a Lilliputian (CH-30): 146 mm tall, 1/12 of Gulliver; bowing deeply from the waist; head at middle-right of the frame (x 79%, y 63%), three-quarter back view, turned to frame left; 1930 mm from the camera.
+- FG-e04-p07-k1-07 ブレフスキュの使節 5 — a Lilliputian (CH-30): 146 mm tall, 1/12 of Gulliver; standing; head at middle-right of the frame (x 71%, y 63%), three-quarter back view, turned to frame left; 1811 mm from the camera.
+The FIRST image is the 3D layout render from this camera: figures there are blocky stand-ins, ground/sea/walls are flat placeholders. The flat grey bands at the edges of the FIRST image are padding outside the panel: continue the scene into them, nothing important there.
+Continuity: Gulliver wears his plain blue coat with brass buttons, tan breeches, white stockings and black shoes (no chain).
+Size check inside the picture (AR-01): an envoy (150 mm) standing on Gulliver's open palm is a little shorter than the palm and fingers are long (about 190 mm); a Lilliputian's whole head is smaller than Gulliver's eye. Never draw the Lilliputians bigger than this.
+The chief envoy (about 50, a grown man, red coat, white wig) stands WHOLE on Gulliver's open right palm, bowing as he speaks; the other five envoys stand on the ground below.
+Gulliver is shown whole in this wide shot: keep his whole head inside the frame with about a tenth of the frame's height clear above it (LN-e02-05).
+Extras: draw the tiny people as grown men and women of mixed ages unless the brief says children (LN-e03-02).
+Never cut a face with the frame edge, and never show only part of a face (a nose or a mouth alone): every face in the frame is drawn whole, with its eyes, or not at all (LN-e02-02).
+Always draw a background (ground, sky, walls, the street or the room) even in a close-up; never leave the space behind the figures blank.
+
+After generating, copy the generated PNG to ./raw.png in the current directory. Do not generate more than one image.
