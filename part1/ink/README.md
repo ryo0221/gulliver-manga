@@ -96,3 +96,20 @@ mkdir -p $SB/gulliver-ep03-ink; cp -r part1/ink/ep03-ink.json part1/ink/layers p
 GM_OUT=/tmp/ink3 npx vitest run apps/artifact-host/src/creative/story-board/gulliver-ep03-ink.build.test.ts
 node gm-svg2png.tmp.mjs /tmp/ink3/pages /tmp/ink3/png
 ```
+
+# 第4話「火事」線画
+
+ラフ `gm1-ep04-rough@rough-ep04-v1`（16ページ・37コマ、作者確認済み 2026-11-19「よいと思います」）に、第3話と同じ方法で線画を描きました。成果物は `artifacts/gm1-ep04-ink`（Design、10.8 MB）と `gm1-ep04-ink-pages`、記録は `ep04-ink.json`、ページの絵は `ep04/pages/` です。AI の提案で、確認（`ink.approved`）と直しは作者です。
+
+- 37コマとも1回で描けました（約12分）。指示はラフのときの説明（第3話までの学び：続く状態・明かり・大きさ・顔を切らない・頭の上の余白・細い段）をそのまま使いました。描き直しはありません。
+- **背景の線の無いコマはありません。** 効果の線（赤）は描かれませんでした。炎・湯気・煙は背景の線（青）として描かれています。
+
+```sh
+EPISODE=4 python3 part1/ink/src/ink-briefs.py $W part1/rough      # $W はラフの作業場所（rough-briefs.py の出力）
+PAR=5 bash part1/ink/src/run-ink.sh $W $(cd $W && ls -d e04-*)
+EPISODE=4 python3 part1/ink/src/ink-assets.py $W $(git rev-parse HEAD) part1/ink
+cp part1/name/gulliver-ep04-name.ts part1/rough/*.ts part1/ink/*.ts $SB/
+mkdir -p $SB/gulliver-ep04-ink; cp -r part1/ink/ep04-ink.json part1/ink/layers part1/ink/hidden part1/ink/panels part1/ink/prompts $SB/gulliver-ep04-ink/
+GM_OUT=/tmp/ink4 npx vitest run apps/artifact-host/src/creative/story-board/gulliver-ep04-ink.build.test.ts
+node gm-svg2png.tmp.mjs /tmp/ink4/pages /tmp/ink4/png
+```
