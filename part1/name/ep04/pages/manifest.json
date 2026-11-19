@@ -1,0 +1,752 @@
+{
+ "schemaVersion": 1,
+ "capability": "vector",
+ "artwork": [],
+ "source": {
+  "artifactId": "gm1-ep04-name",
+  "versionId": "version_82a27014-6331-4332-8dd7-84f4bf86b872",
+  "contentHash": "e8940473de9ace99af8021166776d130faaeb792f99d3fcfe17fa61aed4c20cb"
+ },
+ "direction": "ltr",
+ "pages": [
+  {
+   "frameId": "e04-p01",
+   "panelIds": [
+    "e04-p01-k1",
+    "e04-p01-k2"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e04-p01-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 803.6
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e04-p01-k1"
+     },
+     "b": {
+      "panelId": "e04-p01-k2"
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e04-p02",
+   "panelIds": [
+    "e04-p02-k1",
+    "e04-p02-k2",
+    "e04-p02-k3"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e04-p02-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 483.2
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e04-p02-k1"
+     },
+     "b": {
+      "dividerId": "e04-p02-h2",
+      "line": {
+       "nx": 0,
+       "ny": 1,
+       "offset": 803.5999999999999
+      },
+      "gap": 16,
+      "a": {
+       "panelId": "e04-p02-k2"
+      },
+      "b": {
+       "panelId": "e04-p02-k3"
+      }
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e04-p03",
+   "panelIds": [
+    "e04-p03-k1",
+    "e04-p03-k2",
+    "e04-p03-k3"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e04-p03-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 483.2
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e04-p03-k1"
+     },
+     "b": {
+      "dividerId": "e04-p03-h2",
+      "line": {
+       "nx": 0,
+       "ny": 1,
+       "offset": 803.5999999999999
+      },
+      "gap": 16,
+      "a": {
+       "panelId": "e04-p03-k2"
+      },
+      "b": {
+       "panelId": "e04-p03-k3"
+      }
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e04-p04",
+   "panelIds": [
+    "e04-p04-k1",
+    "e04-p04-k2"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e04-p04-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 590
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e04-p04-k1"
+     },
+     "b": {
+      "panelId": "e04-p04-k2"
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e04-p05",
+   "panelIds": [
+    "e04-p05-k1",
+    "e04-p05-k2"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e04-p05-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 590
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e04-p05-k1"
+     },
+     "b": {
+      "panelId": "e04-p05-k2"
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e04-p06",
+   "panelIds": [
+    "e04-p06-k1",
+    "e04-p06-k2"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e04-p06-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 696.8
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e04-p06-k1"
+     },
+     "b": {
+      "panelId": "e04-p06-k2"
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e04-p07",
+   "panelIds": [
+    "e04-p07-k1",
+    "e04-p07-k2",
+    "e04-p07-k3"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e04-p07-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 666.2857142857143
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e04-p07-k1"
+     },
+     "b": {
+      "dividerId": "e04-p07-t2v1",
+      "line": {
+       "nx": 1,
+       "ny": 0,
+       "offset": 418.94736842105266
+      },
+      "gap": 16,
+      "a": {
+       "panelId": "e04-p07-k2"
+      },
+      "b": {
+       "panelId": "e04-p07-k3"
+      }
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e04-p08",
+   "panelIds": [
+    "e04-p08-k1",
+    "e04-p08-k2",
+    "e04-p08-k3"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e04-p08-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 483.2
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e04-p08-k1"
+     },
+     "b": {
+      "dividerId": "e04-p08-h2",
+      "line": {
+       "nx": 0,
+       "ny": 1,
+       "offset": 803.5999999999999
+      },
+      "gap": 16,
+      "a": {
+       "panelId": "e04-p08-k2"
+      },
+      "b": {
+       "panelId": "e04-p08-k3"
+      }
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e04-p09",
+   "panelIds": [
+    "e04-p09-k1",
+    "e04-p09-k2"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e04-p09-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 696.8
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e04-p09-k1"
+     },
+     "b": {
+      "panelId": "e04-p09-k2"
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e04-p10",
+   "panelIds": [
+    "e04-p10-k1",
+    "e04-p10-k2"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e04-p10-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 696.8
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e04-p10-k1"
+     },
+     "b": {
+      "panelId": "e04-p10-k2"
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e04-p11",
+   "panelIds": [
+    "e04-p11-k1",
+    "e04-p11-k2"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e04-p11-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 696.8
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e04-p11-k1"
+     },
+     "b": {
+      "panelId": "e04-p11-k2"
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e04-p12",
+   "panelIds": [
+    "e04-p12-k1",
+    "e04-p12-k2"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e04-p12-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 696.8
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e04-p12-k1"
+     },
+     "b": {
+      "panelId": "e04-p12-k2"
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e04-p13",
+   "panelIds": [
+    "e04-p13-k1",
+    "e04-p13-k2"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e04-p13-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 590
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e04-p13-k1"
+     },
+     "b": {
+      "panelId": "e04-p13-k2"
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e04-p14",
+   "panelIds": [
+    "e04-p14-k1",
+    "e04-p14-k2"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e04-p14-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 696.8
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e04-p14-k1"
+     },
+     "b": {
+      "panelId": "e04-p14-k2"
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e04-p15",
+   "panelIds": [
+    "e04-p15-k1",
+    "e04-p15-k2",
+    "e04-p15-k3"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e04-p15-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 483.2
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e04-p15-k1"
+     },
+     "b": {
+      "dividerId": "e04-p15-h2",
+      "line": {
+       "nx": 0,
+       "ny": 1,
+       "offset": 803.5999999999999
+      },
+      "gap": 16,
+      "a": {
+       "panelId": "e04-p15-k2"
+      },
+      "b": {
+       "panelId": "e04-p15-k3"
+      }
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e04-p16",
+   "panelIds": [
+    "e04-p16-k1",
+    "e04-p16-k2"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e04-p16-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 590
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e04-p16-k1"
+     },
+     "b": {
+      "panelId": "e04-p16-k2"
+     }
+    }
+   }
+  }
+ ],
+ "images": [
+  {
+   "elementId": "underlay-0001",
+   "source": "3D の舞台「王宮の玉座の間（評議の間）と、その外の庭（仮の3D、創作）」のカメラの絵（e04-p01-k1、横 34.1°×縦 35°）。モデル：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0009",
+   "source": "3D の舞台「王宮の玉座の間（評議の間）と、その外の庭（仮の3D、創作）」のカメラの絵（e04-p01-k2、横 62.7°×縦 29.6°）。モデル：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0016",
+   "source": "3D の舞台「王宮の玉座の間（評議の間）と、その外の庭（仮の3D、創作）」のカメラの絵（e04-p02-k1、横 56.9°×縦 35°）。モデル：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0021",
+   "source": "3D の舞台「王宮の玉座の間（評議の間）と、その外の庭（仮の3D、創作）」のカメラの絵（e04-p02-k2、横 62.7°×縦 28.9°）。モデル：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0028",
+   "source": "3D の舞台「王宮の玉座の間（評議の間）と、その外の庭（仮の3D、創作）」のカメラの絵（e04-p02-k3、横 62.7°×縦 29.6°）。モデル：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0031",
+   "source": "3D の舞台「王宮の玉座の間（評議の間）と、その外の庭（仮の3D、創作）」のカメラの絵（e04-p03-k1、横 56.9°×縦 35°）。モデル：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0038",
+   "source": "3D の舞台「王宮の玉座の間（評議の間）と、その外の庭（仮の3D、創作）」のカメラの絵（e04-p03-k2、横 62.7°×縦 28.9°）。モデル：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0041",
+   "source": "3D の舞台「王宮の玉座の間（評議の間）と、その外の庭（仮の3D、創作）」のカメラの絵（e04-p03-k3、横 62.7°×縦 29.6°）。モデル：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0046",
+   "source": "3D の舞台「王宮の玉座の間（評議の間）と、その外の庭（仮の3D、創作）」のカメラの絵（e04-p04-k1、横 46.7°×縦 35°）。モデル：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0051",
+   "source": "3D の舞台「王宮の玉座の間（評議の間）と、その外の庭（仮の3D、創作）」のカメラの絵（e04-p04-k2、横 46.7°×縦 35°）。モデル：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0054",
+   "source": "3D の舞台「王宮の玉座の間（評議の間）と、その外の庭（仮の3D、創作）」のカメラの絵（e04-p05-k1、横 46.7°×縦 35°）。モデル：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0061",
+   "source": "3D の舞台「王宮の玉座の間（評議の間）と、その外の庭（仮の3D、創作）」のカメラの絵（e04-p05-k2、横 46.7°×縦 35°）。モデル：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0064",
+   "source": "3D の舞台「都ミルデンドウ（F105）の大通りと王宮：使節の行列、火事、朝」のカメラの絵（e04-p06-k1、横 39.5°×縦 35°）。モデル：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0069",
+   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：使節の訪問と、真夜中の戸口」のカメラの絵（e04-p06-k2、横 56.9°×縦 35°）。モデル：F106 古い神殿 artifact_43381302-b044-4992-a107-209efb10c14f@version_c2334107-1277-4289-b44a-f68dc36f9b38、舞台 gate artifact_e6934c86-2efc-47ea-8027-fe00b4c1edd4@version_c1d47c94-7452-4f39-ab99-3f2402e42286",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0072",
+   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：使節の訪問と、真夜中の戸口」のカメラの絵（e04-p07-k1、横 41.3°×縦 35°）。モデル：F106 古い神殿 artifact_43381302-b044-4992-a107-209efb10c14f@version_c2334107-1277-4289-b44a-f68dc36f9b38、舞台 gate artifact_e6934c86-2efc-47ea-8027-fe00b4c1edd4@version_c1d47c94-7452-4f39-ab99-3f2402e42286",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0079",
+   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：使節の訪問と、真夜中の戸口」のカメラの絵（e04-p07-k2、横 29.2°×縦 35°）。モデル：F106 古い神殿 artifact_43381302-b044-4992-a107-209efb10c14f@version_c2334107-1277-4289-b44a-f68dc36f9b38、舞台 gate artifact_e6934c86-2efc-47ea-8027-fe00b4c1edd4@version_c1d47c94-7452-4f39-ab99-3f2402e42286",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0086",
+   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：使節の訪問と、真夜中の戸口」のカメラの絵（e04-p07-k3、横 26.3°×縦 35°）。モデル：F106 古い神殿 artifact_43381302-b044-4992-a107-209efb10c14f@version_c2334107-1277-4289-b44a-f68dc36f9b38、舞台 gate artifact_e6934c86-2efc-47ea-8027-fe00b4c1edd4@version_c1d47c94-7452-4f39-ab99-3f2402e42286",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0093",
+   "source": "3D の舞台「王宮の玉座の間（評議の間）と、その外の庭（仮の3D、創作）」のカメラの絵（e04-p08-k1、横 56.9°×縦 35°）。モデル：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0098",
+   "source": "3D の舞台「王宮の玉座の間（評議の間）と、その外の庭（仮の3D、創作）」のカメラの絵（e04-p08-k2、横 62.7°×縦 28.9°）。モデル：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0101",
+   "source": "3D の舞台「王宮の玉座の間（評議の間）と、その外の庭（仮の3D、創作）」のカメラの絵（e04-p08-k3、横 62.7°×縦 29.6°）。モデル：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0108",
+   "source": "3D の舞台「王宮の玉座の間（評議の間）と、その外の庭（仮の3D、創作）」のカメラの絵（e04-p09-k1、横 39.5°×縦 35°）。モデル：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0113",
+   "source": "3D の舞台「王宮の玉座の間（評議の間）と、その外の庭（仮の3D、創作）」のカメラの絵（e04-p09-k2、横 56.9°×縦 35°）。モデル：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0116",
+   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：使節の訪問と、真夜中の戸口」のカメラの絵（e04-p10-k1、横 39.5°×縦 35°）。モデル：F106 古い神殿 artifact_43381302-b044-4992-a107-209efb10c14f@version_c2334107-1277-4289-b44a-f68dc36f9b38、舞台 gate artifact_e6934c86-2efc-47ea-8027-fe00b4c1edd4@version_c1d47c94-7452-4f39-ab99-3f2402e42286",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0123",
+   "source": "3D の舞台「ガリヴァーの家（古い神殿 F106）の前：使節の訪問と、真夜中の戸口」のカメラの絵（e04-p10-k2、横 56.9°×縦 35°）。モデル：F106 古い神殿 artifact_43381302-b044-4992-a107-209efb10c14f@version_c2334107-1277-4289-b44a-f68dc36f9b38、舞台 gate artifact_e6934c86-2efc-47ea-8027-fe00b4c1edd4@version_c1d47c94-7452-4f39-ab99-3f2402e42286",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0128",
+   "source": "3D の舞台「都ミルデンドウ（F105）の大通りと王宮：使節の行列、火事、朝」のカメラの絵（e04-p11-k1、横 39.5°×縦 35°）。モデル：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0131",
+   "source": "3D の舞台「都ミルデンドウ（F105）の大通りと王宮：使節の行列、火事、朝」のカメラの絵（e04-p11-k2、横 56.9°×縦 35°）。モデル：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0134",
+   "source": "3D の舞台「都ミルデンドウ（F105）の大通りと王宮：使節の行列、火事、朝」のカメラの絵（e04-p12-k1、横 39.5°×縦 35°）。モデル：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0138",
+   "source": "3D の舞台「都ミルデンドウ（F105）の大通りと王宮：使節の行列、火事、朝」のカメラの絵（e04-p12-k2、横 56.9°×縦 35°）。モデル：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0143",
+   "source": "3D の舞台「都ミルデンドウ（F105）の大通りと王宮：使節の行列、火事、朝」のカメラの絵（e04-p13-k1、横 46.7°×縦 35°）。モデル：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0146",
+   "source": "3D の舞台「都ミルデンドウ（F105）の大通りと王宮：使節の行列、火事、朝」のカメラの絵（e04-p13-k2、横 46.7°×縦 35°）。モデル：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0151",
+   "source": "3D の舞台「都ミルデンドウ（F105）の大通りと王宮：使節の行列、火事、朝」のカメラの絵（e04-p14-k1、横 39.5°×縦 35°）。モデル：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0155",
+   "source": "3D の舞台「都ミルデンドウ（F105）の大通りと王宮：使節の行列、火事、朝」のカメラの絵（e04-p14-k2、横 56.9°×縦 35°）。モデル：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0158",
+   "source": "3D の舞台「都ミルデンドウ（F105）の大通りと王宮：使節の行列、火事、朝」のカメラの絵（e04-p15-k1、横 56.9°×縦 35°）。モデル：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0161",
+   "source": "3D の舞台「都ミルデンドウ（F105）の大通りと王宮：使節の行列、火事、朝」のカメラの絵（e04-p15-k2、横 62.7°×縦 28.9°）。モデル：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0168",
+   "source": "3D の舞台「都ミルデンドウ（F105）の大通りと王宮：使節の行列、火事、朝」のカメラの絵（e04-p15-k3、横 62.7°×縦 29.6°）。モデル：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0171",
+   "source": "3D の舞台「都ミルデンドウ（F105）の大通りと王宮：使節の行列、火事、朝」のカメラの絵（e04-p16-k1、横 46.7°×縦 35°）。モデル：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  },
+  {
+   "elementId": "underlay-0176",
+   "source": "3D の舞台「都ミルデンドウ（F105）の大通りと王宮：使節の行列、火事、朝」のカメラの絵（e04-p16-k2、横 46.7°×縦 35°）。モデル：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
+   "license": "gulliver-manga の自作（Editor Platform で描いた 3D の下絵）"
+  }
+ ],
+ "diagnostics": [
+  {
+   "code": "raster-pdf",
+   "severity": "warning",
+   "message": "PNG/PDF are derived raster representations; native editing, annotations, typography and vector fidelity are not preserved. Vertical text and ruby are unsupported."
+  }
+ ]
+}

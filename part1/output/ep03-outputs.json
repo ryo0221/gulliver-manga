@@ -1,0 +1,179 @@
+{
+ "name": "gulliver-ep03",
+ "scale": 3,
+ "source": {
+  "artifactId": "gm1-ep03-finish",
+  "versionId": "finish-ep03-v2",
+  "contentHash": "410d40c24e3a8d6e36b875abdacc1d23ba5b52be85a518940e14c27bd43b7a6b",
+  "exportFilter": "メモのグループ（カメラの札と描き方の覚え書き）を隠した（forExport）",
+  "exportContentHash": "333414bcf4b80f8a3c844e32e1c76deb1195daf09a03394c62ef3792b52da621"
+ },
+ "files": [
+  {
+   "file": "png/gulliver-ep03-p01.png",
+   "format": "PNG",
+   "page": 1,
+   "width": 2400,
+   "height": 3540,
+   "bytes": 2628428,
+   "sha256": "9a4944ca9495a89e3fe78a33f61c237a32221388ac3f6fa71ae11b62349df976"
+  },
+  {
+   "file": "png/gulliver-ep03-p02.png",
+   "format": "PNG",
+   "page": 2,
+   "width": 2400,
+   "height": 3540,
+   "bytes": 2500565,
+   "sha256": "140ba6f97084d5264e75718c217b48985e8b907e24371b85fcf5d827925b1430"
+  },
+  {
+   "file": "png/gulliver-ep03-p03.png",
+   "format": "PNG",
+   "page": 3,
+   "width": 2400,
+   "height": 3540,
+   "bytes": 2361373,
+   "sha256": "46c26958644255f76b2439e075fc6c8e5a38272596ea1c9af0c875a49b8b3e6e"
+  },
+  {
+   "file": "png/gulliver-ep03-p04.png",
+   "format": "PNG",
+   "page": 4,
+   "width": 2400,
+   "height": 3540,
+   "bytes": 2794539,
+   "sha256": "f046ae0b8966dc8047f1e1282c22053bd48acc7627a4dd6c19aed4234856df19"
+  },
+  {
+   "file": "png/gulliver-ep03-p05.png",
+   "format": "PNG",
+   "page": 5,
+   "width": 2400,
+   "height": 3540,
+   "bytes": 2141577,
+   "sha256": "2e5cd94df8217151fb5f162d9e70bd747110dd6209b4169f97bc56a6ebe344f0"
+  },
+  {
+   "file": "png/gulliver-ep03-p06.png",
+   "format": "PNG",
+   "page": 6,
+   "width": 2400,
+   "height": 3540,
+   "bytes": 2598963,
+   "sha256": "68248cefec1644dc95b817b04c601bfabcaeb6ea55be2cb703ad76b2adaef40e"
+  },
+  {
+   "file": "png/gulliver-ep03-p07.png",
+   "format": "PNG",
+   "page": 7,
+   "width": 2400,
+   "height": 3540,
+   "bytes": 1876856,
+   "sha256": "65c841b09b0f3b52ea0d5b8f97eaf1acffd02fcc524cc9d5769e7b545461dfaf"
+  },
+  {
+   "file": "png/gulliver-ep03-p08.png",
+   "format": "PNG",
+   "page": 8,
+   "width": 2400,
+   "height": 3540,
+   "bytes": 2942976,
+   "sha256": "7c7abdccc743e7d1dfe2db92406fb1dd6a6b3f03641fdc5977c873eb576b1d76"
+  },
+  {
+   "file": "png/gulliver-ep03-p09.png",
+   "format": "PNG",
+   "page": 9,
+   "width": 2400,
+   "height": 3540,
+   "bytes": 2386976,
+   "sha256": "ab8db230ef9921ccff61e9b37d7b6589bb42786253adb5e6b13690cc29ef8298"
+  },
+  {
+   "file": "png/gulliver-ep03-p10.png",
+   "format": "PNG",
+   "page": 10,
+   "width": 2400,
+   "height": 3540,
+   "bytes": 3275759,
+   "sha256": "627e2021f029aaa25db3ef97ebc80e5b59a5f363362889459f233bde8504d1be"
+  },
+  {
+   "file": "png/gulliver-ep03-p11.png",
+   "format": "PNG",
+   "page": 11,
+   "width": 2400,
+   "height": 3540,
+   "bytes": 2808971,
+   "sha256": "434d24423b7dced747923c8545620b35a7f51f4495a5618a8e4fd4f3be517903"
+  },
+  {
+   "file": "png/gulliver-ep03-p12.png",
+   "format": "PNG",
+   "page": 12,
+   "width": 2400,
+   "height": 3540,
+   "bytes": 1892497,
+   "sha256": "b8e5234c3383975672f20d38c83029a2444db0d2d99c9afb52f5b5c9d9822ab6"
+  },
+  {
+   "file": "png/gulliver-ep03-p13.png",
+   "format": "PNG",
+   "page": 13,
+   "width": 2400,
+   "height": 3540,
+   "bytes": 2337215,
+   "sha256": "2580e8757ed973b5c536dc09f842bb12f599e2a6abc1c60302a1673aaea0d9d0"
+  },
+  {
+   "file": "png/gulliver-ep03-p14.png",
+   "format": "PNG",
+   "page": 14,
+   "width": 2400,
+   "height": 3540,
+   "bytes": 2544291,
+   "sha256": "4631260276e2382e65dd4b8e1bb42d13d261ecd67d9198cbdd62d274832a97e7"
+  },
+  {
+   "file": "png/gulliver-ep03-p15.png",
+   "format": "PNG",
+   "page": 15,
+   "width": 2400,
+   "height": 3540,
+   "bytes": 2222714,
+   "sha256": "f370afafabaaa18a814b96a55c24d0a14851cecf168dd5bc0a4ae264dfa122cb"
+  },
+  {
+   "file": "png/gulliver-ep03-p16.png",
+   "format": "PNG",
+   "page": 16,
+   "width": 2400,
+   "height": 3540,
+   "bytes": 2223143,
+   "sha256": "9457a4506a5395e16e8117c597e5ed2c79af76476a4b5eca98e45e8979c523ec"
+  },
+  {
+   "file": "png/gulliver-ep03-colophon.png",
+   "format": "PNG",
+   "page": "colophon",
+   "width": 2400,
+   "height": 3540,
+   "bytes": 608804,
+   "sha256": "2c8d4a6932e06b0dc824a8b43d9192f8e4b8df32ad3705be8ec05b03352cd453"
+  },
+  {
+   "file": "gulliver-ep03.pdf",
+   "format": "PDF",
+   "pages": 17,
+   "colophon": true,
+   "pointSize": [
+    600,
+    885
+   ],
+   "embedded": "JPEG q92",
+   "bytes": 21530329,
+   "sha256": "cd3625c6b4ab9560bbd6cfe0924ebae679a04b56d1cb36a29e26633d22b29d07"
+  }
+ ]
+}

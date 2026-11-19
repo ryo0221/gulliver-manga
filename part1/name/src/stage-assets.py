@@ -13,7 +13,7 @@ stage_dir, design_path, out = sys.argv[1:4]
 VFOV = 35.0  # the character view's PerspectiveCamera (fixed vertical field of view)
 EPISODE = int(sys.argv[4]) if len(sys.argv) > 4 else 1
 WHO = {'CH-01': 'ガリヴァー', 'CH-10': 'メアリー', 'CH-02': '皇帝', 'CH-03': '皇后', 'CH-04': 'フリムナップ', 'CH-05': 'レルドレサル', 'CH-06': 'ボルゴラム', 'CH-30': '小人', 'EX': '端役', 'horse': '馬'}
-SETS = {1: ['stable', 'port', 'sea', 'beach', 'temple'], 2: ['court', 'council', 'city'], 3: ['house', 'past', 'eggs', 'strait', 'coast', 'fleet']}[EPISODE]
+SETS = {1: ['stable', 'port', 'sea', 'beach', 'temple'], 2: ['court', 'council', 'city'], 3: ['house', 'past', 'eggs', 'strait', 'coast', 'fleet'], 4: ['throne', 'gate', 'palace']}[EPISODE]
 if os.environ.get('STAGE_SETS'): SETS = os.environ['STAGE_SETS'].split(',')  # a re-run of some sets only
 
 design = json.load(open(design_path))['draft']['content']

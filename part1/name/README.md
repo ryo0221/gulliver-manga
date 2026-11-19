@@ -87,7 +87,7 @@ cp -r <gm>/part1/name/stage $SB/gulliver-ep02-stage
 GM_OUT=/tmp/name2 npx vitest run apps/artifact-host/src/creative/story-board/gulliver-ep02-name.build.test.ts
 ```
 
-## 第3話「卵の端」（下書き、作者の確認待ち）
+## 第3話「卵の端」（完成）
 
 `gulliver-ep03-name.ts`（16ページ・46コマ、`name-ep03-v1`）。成果物は `artifacts/gm1-ep03-name`（Design）と `artifacts/gm1-ep03-name-panels`（コマの表）、ページの絵は `ep03/pages/` です。舞台は `src/gulliver-ep03-stage.demo.ts` の4つで、記録は `stage/ep03-stage.json` です。
 
@@ -113,4 +113,25 @@ GM_STAGE=/nonexistent GM_NO_STAGE=1 GM_OUT=/tmp/name3 npx vitest run apps/artifa
 python3 <gm>/part1/name/src/stage-assets.py /tmp/stage3 /tmp/name3/artifacts/gm1-ep03-name.artifact.json <gm>/part1/name/stage 3
 cp -r <gm>/part1/name/stage/. $SB/gulliver-ep03-stage/
 GM_OUT=/tmp/name3 npx vitest run apps/artifact-host/src/creative/story-board/gulliver-ep03-name.build.test.ts
+```
+
+## 第4話「火事」（下書き、作者の確認待ち）
+
+`gulliver-ep04-name.ts`（16ページ・37コマ、`name-ep04-v1`）。成果物は `artifacts/gm1-ep04-name`（Design）と `artifacts/gm1-ep04-name-panels`（コマの表）、ページの絵は `ep04/pages/` です。舞台は `src/gulliver-ep04-stage.demo.ts` の3つで、記録は `stage/ep04-stage.json` です。
+
+- throne：王宮の玉座の間（評議の間）と外の庭（創作）。再現の王宮（F105）には部屋の中が無く、ガリヴァーが入れる部屋も無いので、第2話の評議の間と同じ大きさの部屋の東の面を大窓（幅400 mm、高さ280 mm）にし、窓の外の露台（60 mm）に皇帝が立ち、庭にガリヴァーがひざまずく形にした（SC-012、SC-013 の許しを願うところ）。
+- gate：ガリヴァーの家（F106、第3話の house と同じ場所。モデルの記録の置き場所を分けるため別の名前）。使節の訪問（使節の代表は手のひらの上）と、真夜中に門から這い出るところ。
+- palace：都ミルデンドウ（F105）。大通りを上る使節の行列（王宮の囲いの壁の上から）、夜の大通りを急ぐガリヴァー、王の住まいの火事と湯気、朝の焼けた屋根。炎・湯気・焼けた屋根は王の住まいの屋根の上の箱（創作の形）で、コマごとに出し入れした（`vessels`）。ガリヴァーは外庭と二の庭の間の8フィートの庭に立つ。
+- 第2話の学び LN-e02-01〜06 は第3話と同じくテストで確かめています。第3話の学び LN-e03-01〜06 は、作者の選択（2026-11-19「採って」）で全部採りました：横に細いコマ（段の高さ3以下）では、ガリヴァーの目がコマの縦の真ん中の帯にあるか、枠の外で「顔は描かない」と書いてあること（LN-e03-01、テスト）。上着を置いてきた SC-014 の衣装は、どのコマも同じ言葉（上着なし、ボタン留めのチョッキ）で書くこと（LN-e03-05、テスト）。侍女・使節には年と背の比べを書いた（LN-e03-02）。
+- 脚本の「ガリヴァーが炎に背を向け……（直接は描かず）」は、ガリヴァーを描かず、屋根を見上げる群衆の驚いた顔と湯気のコマにした（14-1）。
+- 夜のコマ（10〜14ページ）は、3D の舞台では昼の明かりのままで、夜は覚え書きに書いた（ラフで描く）。
+
+```sh
+cp <gm>/part1/name/src/gulliver-ep04-stage.demo.ts <gm>/part1/name/src/gulliver-stage-poses.ts tests/demo/
+cp <gm>/part1/name/src/gulliver-ep04-stage.config.ts gm-stage4.config.ts
+CAD_OCCT_DIST=$PWD/work/cad-kernel STAGE_OUT=/tmp/stage4 npx playwright test -c gm-stage4.config.ts --trace off   # 3つの舞台（throne 約1.5分、house 約40秒、palace は F105 で長い）
+GM_STAGE=/nonexistent GM_NO_STAGE=1 GM_OUT=/tmp/name4 npx vitest run apps/artifact-host/src/creative/story-board/gulliver-ep04-name.build.test.ts   # 先にページだけ
+python3 <gm>/part1/name/src/stage-assets.py /tmp/stage4 /tmp/name4/artifacts/gm1-ep04-name.artifact.json <gm>/part1/name/stage 4
+cp -r <gm>/part1/name/stage/. $SB/gulliver-ep04-stage/
+GM_OUT=/tmp/name4 npx vitest run apps/artifact-host/src/creative/story-board/gulliver-ep04-name.build.test.ts
 ```

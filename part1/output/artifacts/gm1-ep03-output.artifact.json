@@ -1,0 +1,419 @@
+{
+ "schemaVersion": 1,
+ "id": "gm1-ep03-output",
+ "name": "第3話 出力の記録",
+ "kind": "data",
+ "provenance": {
+  "source": "created"
+ },
+ "draft": {
+  "baseVersionId": "output-ep03-v1",
+  "updatedAt": "2026-11-19T00:00:00.000Z",
+  "content": {
+   "schemaVersion": 2,
+   "columns": [
+    {
+     "id": "or.section",
+     "name": "項目",
+     "type": "select",
+     "options": [
+      "出力物",
+      "書誌情報と紹介文",
+      "AI の関わり"
+     ],
+     "required": true
+    },
+    {
+     "id": "or.item",
+     "name": "中身",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "or.value",
+     "name": "記録",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "or.source",
+     "name": "もとにした固定した版",
+     "type": "text"
+    }
+   ],
+   "rows": [
+    {
+     "id": "OR-e03-01",
+     "values": {
+      "or.section": "出力物",
+      "or.item": "元の原稿（レイヤーを残す）",
+      "or.value": "第3話「卵の端」仕上げ（白黒、16ページ、Design）。Design（漫画ワークスペース）、コマごとに LY-03〜LY-10 のレイヤーのグループ。part1/finish/artifacts/gm1-ep03-finish.artifact.json",
+      "or.source": "gm1-ep03-finish@finish-ep03-v2"
+     }
+    },
+    {
+     "id": "OR-e03-02",
+     "values": {
+      "or.section": "出力物",
+      "or.item": "PNG（ページごと）",
+      "or.value": "16枚、2400×3540 px（原稿の枠 800×1180 の 3 倍）。png/gulliver-ep03-p01.png sha256:9a4944ca9495、png/gulliver-ep03-p02.png sha256:140ba6f97084、png/gulliver-ep03-p03.png sha256:46c269586442、png/gulliver-ep03-p04.png sha256:f046ae0b8966、png/gulliver-ep03-p05.png sha256:2e5cd94df821、png/gulliver-ep03-p06.png sha256:68248cefec16、png/gulliver-ep03-p07.png sha256:65c841b09b0f、png/gulliver-ep03-p08.png sha256:7c7abdccc743、png/gulliver-ep03-p09.png sha256:ab8db230ef99、png/gulliver-ep03-p10.png sha256:627e2021f029、png/gulliver-ep03-p11.png sha256:434d24423b7d、png/gulliver-ep03-p12.png sha256:b8e5234c3383、png/gulliver-ep03-p13.png sha256:2580e8757ed9、png/gulliver-ep03-p14.png sha256:4631260276e2、png/gulliver-ep03-p15.png sha256:f370afafabaa、png/gulliver-ep03-p16.png sha256:9457a4506a53",
+      "or.source": "gm1-ep03-finish@finish-ep03-v2（contentHash 410d40c24e3a、コミット 99527acc）。書き出しではメモのグループ（カメラの札と描き方の覚え書き）を隠した（forExport）"
+     }
+    },
+    {
+     "id": "OR-e03-03b",
+     "values": {
+      "or.section": "出力物",
+      "or.item": "奥付（話の最後のページ）",
+      "or.value": "png/gulliver-ep03-colophon.png、2400×3540 px。書誌情報と AI の関わり（この表の「AI の関わり」と同じ中身）。sha256:2c8d4a6932e0",
+      "or.source": "gm1-ep03-finish@finish-ep03-v2（contentHash 410d40c24e3a、コミット 99527acc）。書き出しではメモのグループ（カメラの札と描き方の覚え書き）を隠した（forExport）"
+     }
+    },
+    {
+     "id": "OR-e03-03",
+     "values": {
+      "or.section": "出力物",
+      "or.item": "PDF（話ごと）",
+      "or.value": "gulliver-ep03.pdf、17ページ（漫画16ページ＋奥付）、600×885 pt。書き出しの元の版（references.json）を添付。sha256:cd3625c6b4ab、21026 KB",
+      "or.source": "gm1-ep03-finish@finish-ep03-v2（contentHash 410d40c24e3a、コミット 99527acc）。書き出しではメモのグループ（カメラの札と描き方の覚え書き）を隠した（forExport）"
+     }
+    },
+    {
+     "id": "OR-e03-04",
+     "values": {
+      "or.section": "出力物",
+      "or.item": "判型",
+      "or.value": "第1話と同じ：原稿の枠 800×1180（縦横比 1:1.475）、PDF のページは 600×885 pt。作者の判断（2026-11-14）：このまま（A4 に合わせない）。第2話から白黒（作者の判断 2026-11-15）。",
+      "or.source": ""
+     }
+    },
+    {
+     "id": "OR-e03-05",
+     "values": {
+      "or.section": "書誌情報と紹介文",
+      "or.item": "題",
+      "or.value": "ガリヴァー旅行記　第3話「卵の端」",
+      "or.source": ""
+     }
+    },
+    {
+     "id": "OR-e03-06",
+     "values": {
+      "or.section": "書誌情報と紹介文",
+      "or.item": "連載",
+      "or.value": "ガリヴァー旅行記（全4部・24話）第1部 リリパット 第3話",
+      "or.source": ""
+     }
+    },
+    {
+     "id": "OR-e03-07",
+     "values": {
+      "or.section": "書誌情報と紹介文",
+      "or.item": "著者名",
+      "or.value": "ナナシ　アイ",
+      "or.source": ""
+     }
+    },
+    {
+     "id": "OR-e03-08",
+     "values": {
+      "or.section": "書誌情報と紹介文",
+      "or.item": "原作",
+      "or.value": "ジョナサン・スウィフト『ガリヴァー旅行記』（1726年）。本文は Project Gutenberg #829 の英語の原文から新しく訳した。",
+      "or.source": ""
+     }
+    },
+    {
+     "id": "OR-e03-09",
+     "values": {
+      "or.section": "書誌情報と紹介文",
+      "or.item": "あらすじ",
+      "or.value": "宮廷の大臣レルドレサルが、寝そべるガリヴァーの手のひらの上で国の内情を語る。かかとの高さで分かれる二つの党派と、卵を大きい端から割るか小さい端から割るかで始まった、隣国ブレフスキュとの長い戦争。攻め寄せる艦隊の話を聞いたガリヴァーは、北東の岸から海峡を歩いて渡り、矢を浴びながら50隻の軍艦を綱で引いて帰る。皇帝はナルダックの位を授けるが、その目はまだ海の向こうを見ていた。",
+      "or.source": ""
+     }
+    },
+    {
+     "id": "OR-e03-10",
+     "values": {
+      "or.section": "書誌情報と紹介文",
+      "or.item": "紹介文",
+      "or.value": "卵の割り方で始まった戦争。原作に忠実に、大きさの違いを実寸の3Dで確かめながら描く、ガリヴァー旅行記の漫画連載。第3話は、二つの党派の話から、海峡を渡ってブレフスキュの艦隊を引いて来るまで。",
+      "or.source": ""
+     }
+    },
+    {
+     "id": "OR-e03-11",
+     "values": {
+      "or.section": "AI の関わり",
+      "or.item": "企画・人物と世界",
+      "or.value": "頼んだこと：第1話と同じ（企画書・画作りガイド・人物表・世界の覚え書き・地図の草案、設定画）。採ったもの：作者が受け入れた設定画を、ラフ以降の参照に使った",
+      "or.source": ""
+     }
+    },
+    {
+     "id": "OR-e03-12",
+     "values": {
+      "or.section": "AI の関わり",
+      "or.item": "筋と構成・脚本",
+      "or.value": "頼んだこと：原文からの新しい訳と、シーン・台詞・ト書きの草案。採ったもの：作者が受け入れた脚本の行（gm1-script-lines@script-v1）の第3話をそのまま写植した。台詞は変えていない",
+      "or.source": ""
+     }
+    },
+    {
+     "id": "OR-e03-13",
+     "values": {
+      "or.section": "AI の関わり",
+      "or.item": "ネーム",
+      "or.value": "頼んだこと：ページ割り・コマ・カメラと、3D の舞台（デジタルツイン）での人物の配置。通読のあとの撮り直し（2-2、6-1）。採ったもの：コマ割りとカメラ（作者の確認と直しのあと）",
+      "or.source": ""
+     }
+    },
+    {
+     "id": "OR-e03-14",
+     "values": {
+      "or.section": "AI の関わり",
+      "or.item": "ラフ",
+      "or.value": "頼んだこと：コマごとのラフ絵（Codex CLI の画像生成、3D のカメラの絵と設定画を渡した）。採ったもの：LY-02 アタリ（線画で隠して残した）と、仕上げのトーンの濃淡の元",
+      "or.source": ""
+     }
+    },
+    {
+     "id": "OR-e03-15",
+     "values": {
+      "or.section": "AI の関わり",
+      "or.item": "線画",
+      "or.value": "頼んだこと：ラフをなぞった線画（3色で描かせ、色で LY-04・LY-07・LY-08 に分けた）。通読のあとに描き直したコマ（2-2・4-4・6-1・11-1・12-1・16-1・16-2）。採ったもの：LY-04 背景の線画、LY-07 人物の線画、LY-08 効果（効果は AI の提案）",
+      "or.source": ""
+     }
+    },
+    {
+     "id": "OR-e03-16",
+     "values": {
+      "or.section": "AI の関わり",
+      "or.item": "仕上げと写植",
+      "or.value": "頼んだこと：白黒の仕上げ（画像の生成は使わず、ラフの濃淡を線画に合わせてトーンと影にした。広い空と海・室内は平らなトーン（FLAT_BG・SKY_WHITE））。脚本の行を吹き出しと枠に置いた。採ったもの：LY-03 背景のトーン、LY-05 人物のトーン、LY-06 影、LY-09 吹き出し、LY-10 文字",
+      "or.source": ""
+     }
+    },
+    {
+     "id": "OR-e03-17",
+     "values": {
+      "or.section": "AI の関わり",
+      "or.item": "通読",
+      "or.value": "頼んだこと：固定した版の通読と指摘の草案。採ったもの：指摘の判断と完成の判断は作者（gm1-ep03-read）",
+      "or.source": ""
+     }
+    }
+   ]
+  }
+ },
+ "versions": [
+  {
+   "artifactId": "gm1-ep03-output",
+   "versionId": "output-ep03-v1",
+   "parentVersionId": null,
+   "schemaVersion": 1,
+   "createdAt": "2026-11-19T00:00:00.000Z",
+   "createdBy": null,
+   "reason": "ガリヴァー旅行記 第3話の出版準備（fiction-manga@1.3.0 出版準備：出力の記録。確かめるのは作者）",
+   "content": {
+    "schemaVersion": 2,
+    "columns": [
+     {
+      "id": "or.section",
+      "name": "項目",
+      "type": "select",
+      "options": [
+       "出力物",
+       "書誌情報と紹介文",
+       "AI の関わり"
+      ],
+      "required": true
+     },
+     {
+      "id": "or.item",
+      "name": "中身",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "or.value",
+      "name": "記録",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "or.source",
+      "name": "もとにした固定した版",
+      "type": "text"
+     }
+    ],
+    "rows": [
+     {
+      "id": "OR-e03-01",
+      "values": {
+       "or.section": "出力物",
+       "or.item": "元の原稿（レイヤーを残す）",
+       "or.value": "第3話「卵の端」仕上げ（白黒、16ページ、Design）。Design（漫画ワークスペース）、コマごとに LY-03〜LY-10 のレイヤーのグループ。part1/finish/artifacts/gm1-ep03-finish.artifact.json",
+       "or.source": "gm1-ep03-finish@finish-ep03-v2"
+      }
+     },
+     {
+      "id": "OR-e03-02",
+      "values": {
+       "or.section": "出力物",
+       "or.item": "PNG（ページごと）",
+       "or.value": "16枚、2400×3540 px（原稿の枠 800×1180 の 3 倍）。png/gulliver-ep03-p01.png sha256:9a4944ca9495、png/gulliver-ep03-p02.png sha256:140ba6f97084、png/gulliver-ep03-p03.png sha256:46c269586442、png/gulliver-ep03-p04.png sha256:f046ae0b8966、png/gulliver-ep03-p05.png sha256:2e5cd94df821、png/gulliver-ep03-p06.png sha256:68248cefec16、png/gulliver-ep03-p07.png sha256:65c841b09b0f、png/gulliver-ep03-p08.png sha256:7c7abdccc743、png/gulliver-ep03-p09.png sha256:ab8db230ef99、png/gulliver-ep03-p10.png sha256:627e2021f029、png/gulliver-ep03-p11.png sha256:434d24423b7d、png/gulliver-ep03-p12.png sha256:b8e5234c3383、png/gulliver-ep03-p13.png sha256:2580e8757ed9、png/gulliver-ep03-p14.png sha256:4631260276e2、png/gulliver-ep03-p15.png sha256:f370afafabaa、png/gulliver-ep03-p16.png sha256:9457a4506a53",
+       "or.source": "gm1-ep03-finish@finish-ep03-v2（contentHash 410d40c24e3a、コミット 99527acc）。書き出しではメモのグループ（カメラの札と描き方の覚え書き）を隠した（forExport）"
+      }
+     },
+     {
+      "id": "OR-e03-03b",
+      "values": {
+       "or.section": "出力物",
+       "or.item": "奥付（話の最後のページ）",
+       "or.value": "png/gulliver-ep03-colophon.png、2400×3540 px。書誌情報と AI の関わり（この表の「AI の関わり」と同じ中身）。sha256:2c8d4a6932e0",
+       "or.source": "gm1-ep03-finish@finish-ep03-v2（contentHash 410d40c24e3a、コミット 99527acc）。書き出しではメモのグループ（カメラの札と描き方の覚え書き）を隠した（forExport）"
+      }
+     },
+     {
+      "id": "OR-e03-03",
+      "values": {
+       "or.section": "出力物",
+       "or.item": "PDF（話ごと）",
+       "or.value": "gulliver-ep03.pdf、17ページ（漫画16ページ＋奥付）、600×885 pt。書き出しの元の版（references.json）を添付。sha256:cd3625c6b4ab、21026 KB",
+       "or.source": "gm1-ep03-finish@finish-ep03-v2（contentHash 410d40c24e3a、コミット 99527acc）。書き出しではメモのグループ（カメラの札と描き方の覚え書き）を隠した（forExport）"
+      }
+     },
+     {
+      "id": "OR-e03-04",
+      "values": {
+       "or.section": "出力物",
+       "or.item": "判型",
+       "or.value": "第1話と同じ：原稿の枠 800×1180（縦横比 1:1.475）、PDF のページは 600×885 pt。作者の判断（2026-11-14）：このまま（A4 に合わせない）。第2話から白黒（作者の判断 2026-11-15）。",
+       "or.source": ""
+      }
+     },
+     {
+      "id": "OR-e03-05",
+      "values": {
+       "or.section": "書誌情報と紹介文",
+       "or.item": "題",
+       "or.value": "ガリヴァー旅行記　第3話「卵の端」",
+       "or.source": ""
+      }
+     },
+     {
+      "id": "OR-e03-06",
+      "values": {
+       "or.section": "書誌情報と紹介文",
+       "or.item": "連載",
+       "or.value": "ガリヴァー旅行記（全4部・24話）第1部 リリパット 第3話",
+       "or.source": ""
+      }
+     },
+     {
+      "id": "OR-e03-07",
+      "values": {
+       "or.section": "書誌情報と紹介文",
+       "or.item": "著者名",
+       "or.value": "ナナシ　アイ",
+       "or.source": ""
+      }
+     },
+     {
+      "id": "OR-e03-08",
+      "values": {
+       "or.section": "書誌情報と紹介文",
+       "or.item": "原作",
+       "or.value": "ジョナサン・スウィフト『ガリヴァー旅行記』（1726年）。本文は Project Gutenberg #829 の英語の原文から新しく訳した。",
+       "or.source": ""
+      }
+     },
+     {
+      "id": "OR-e03-09",
+      "values": {
+       "or.section": "書誌情報と紹介文",
+       "or.item": "あらすじ",
+       "or.value": "宮廷の大臣レルドレサルが、寝そべるガリヴァーの手のひらの上で国の内情を語る。かかとの高さで分かれる二つの党派と、卵を大きい端から割るか小さい端から割るかで始まった、隣国ブレフスキュとの長い戦争。攻め寄せる艦隊の話を聞いたガリヴァーは、北東の岸から海峡を歩いて渡り、矢を浴びながら50隻の軍艦を綱で引いて帰る。皇帝はナルダックの位を授けるが、その目はまだ海の向こうを見ていた。",
+       "or.source": ""
+      }
+     },
+     {
+      "id": "OR-e03-10",
+      "values": {
+       "or.section": "書誌情報と紹介文",
+       "or.item": "紹介文",
+       "or.value": "卵の割り方で始まった戦争。原作に忠実に、大きさの違いを実寸の3Dで確かめながら描く、ガリヴァー旅行記の漫画連載。第3話は、二つの党派の話から、海峡を渡ってブレフスキュの艦隊を引いて来るまで。",
+       "or.source": ""
+      }
+     },
+     {
+      "id": "OR-e03-11",
+      "values": {
+       "or.section": "AI の関わり",
+       "or.item": "企画・人物と世界",
+       "or.value": "頼んだこと：第1話と同じ（企画書・画作りガイド・人物表・世界の覚え書き・地図の草案、設定画）。採ったもの：作者が受け入れた設定画を、ラフ以降の参照に使った",
+       "or.source": ""
+      }
+     },
+     {
+      "id": "OR-e03-12",
+      "values": {
+       "or.section": "AI の関わり",
+       "or.item": "筋と構成・脚本",
+       "or.value": "頼んだこと：原文からの新しい訳と、シーン・台詞・ト書きの草案。採ったもの：作者が受け入れた脚本の行（gm1-script-lines@script-v1）の第3話をそのまま写植した。台詞は変えていない",
+       "or.source": ""
+      }
+     },
+     {
+      "id": "OR-e03-13",
+      "values": {
+       "or.section": "AI の関わり",
+       "or.item": "ネーム",
+       "or.value": "頼んだこと：ページ割り・コマ・カメラと、3D の舞台（デジタルツイン）での人物の配置。通読のあとの撮り直し（2-2、6-1）。採ったもの：コマ割りとカメラ（作者の確認と直しのあと）",
+       "or.source": ""
+      }
+     },
+     {
+      "id": "OR-e03-14",
+      "values": {
+       "or.section": "AI の関わり",
+       "or.item": "ラフ",
+       "or.value": "頼んだこと：コマごとのラフ絵（Codex CLI の画像生成、3D のカメラの絵と設定画を渡した）。採ったもの：LY-02 アタリ（線画で隠して残した）と、仕上げのトーンの濃淡の元",
+       "or.source": ""
+      }
+     },
+     {
+      "id": "OR-e03-15",
+      "values": {
+       "or.section": "AI の関わり",
+       "or.item": "線画",
+       "or.value": "頼んだこと：ラフをなぞった線画（3色で描かせ、色で LY-04・LY-07・LY-08 に分けた）。通読のあとに描き直したコマ（2-2・4-4・6-1・11-1・12-1・16-1・16-2）。採ったもの：LY-04 背景の線画、LY-07 人物の線画、LY-08 効果（効果は AI の提案）",
+       "or.source": ""
+      }
+     },
+     {
+      "id": "OR-e03-16",
+      "values": {
+       "or.section": "AI の関わり",
+       "or.item": "仕上げと写植",
+       "or.value": "頼んだこと：白黒の仕上げ（画像の生成は使わず、ラフの濃淡を線画に合わせてトーンと影にした。広い空と海・室内は平らなトーン（FLAT_BG・SKY_WHITE））。脚本の行を吹き出しと枠に置いた。採ったもの：LY-03 背景のトーン、LY-05 人物のトーン、LY-06 影、LY-09 吹き出し、LY-10 文字",
+       "or.source": ""
+      }
+     },
+     {
+      "id": "OR-e03-17",
+      "values": {
+       "or.section": "AI の関わり",
+       "or.item": "通読",
+       "or.value": "頼んだこと：固定した版の通読と指摘の草案。採ったもの：指摘の判断と完成の判断は作者（gm1-ep03-read）",
+       "or.source": ""
+      }
+     }
+    ]
+   },
+   "contentHash": "cdc2b96a28135d62ed14dc8537a39b4bfdbf2faba7a2cd170ddae15f009ef069"
+  }
+ ]
+}

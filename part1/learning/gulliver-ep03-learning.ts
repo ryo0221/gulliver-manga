@@ -1,0 +1,100 @@
+/**
+ * ガリヴァー旅行記 第3話「卵の端」の学び（fiction-manga@1.3.0 学び、話ごと）。
+ *
+ * 成果物は「学びの記録」(learning-record、表)：第3話の制作で分かったこと、どこで分かったか（指摘・工程）、
+ * 次の話でどうするか。並べたのは AI の提案で、次の話に持ち込む学びを選ぶのは作者（learning.chosen）。
+ * 第2話の学び（gulliver-ep02-learning.ts、作者が全部採った）を使って作り、新しく分かったことを並べた。
+ */
+import { contentHash, type Artifact } from '@editor-platform/artifact-core';
+import type { StructuredData } from '@editor-platform/structured-data/model';
+
+import type { Choice, Learning } from './gulliver-ep01-learning';
+
+export const LEARNINGS_EP03: Learning[] = [
+  {
+    id: 'LN-e03-01', phase: 'ネーム・ラフ・線画（横に細いコマ）',
+    learned: '横に細いコマ（段の高さ3以下）は、絵を作る画像の生成が 3:2 の絵で描くので、上と下がコマで切れる。ネームで頭が枠の外だったガリヴァーの顔を、ラフや線画が絵の上の端に描き足し、コマの上で切れた。描き直しで人物を大きくなぞったときも頭が切れた。',
+    source: 'RV-e03-01（2-2）、RV-e03-02（6-1）、線画 3-1',
+    next: 'ネームで、横に細いコマの主役の頭（3D の頭の位置）がコマの縦の真ん中の帯にあるか、はっきり枠の外かのどちらかにする。枠の外なら覚え書きに「顔は描かない」と書く。ラフと線画の指示には「3D の絵と同じ大きさでなぞる」を入れる。',
+  },
+  {
+    id: 'LN-e03-02', phase: 'ネーム・ラフ（年と身なり）',
+    learned: '「幼い王子」と書いただけでは、かつらと上着の大人に描かれた。人物表に無い子ども・端役は、言葉の役名だけでは年が伝わらない。',
+    source: 'RV-e03-03（4-4）',
+    next: '人物表に無い人物（子ども・侍女・使者など）は、覚え書きに年（7歳ほど）と背の比べ（大人の3分の2）と身なり（かつら無し）を書く。',
+  },
+  {
+    id: 'LN-e03-03', phase: 'ネーム・ラフ（水や地面との関係）',
+    learned: '「胸まで海につかって」が、ラフでは脛ほどの水になり、海の上に立つように見えた。3D の舞台では深さが合っていたが、言葉の覚え書きが短かった。',
+    source: 'RV-e03-04（12-1）',
+    next: '水・雪・草むら・人込みなど体を隠す物は、覚え書きに「水面は胸の高さ」のように体のどこまでかを書き、3D の舞台の深さから測った数字を添える。',
+  },
+  {
+    id: 'LN-e03-04', phase: '仕上げ（白黒）',
+    learned: '広い空・海・平らな台は、ラフの鉛筆のむらがトーンのしみや灰色の板になった（FLAT_BG は室内と海だけに使っていた）。細い綱の束の間も、くさび形のむらになった。',
+    source: 'RV-e03-05（12-1）、RV-e03-06（16-1・16-2）、RV-e03-09（15-1・16-3）',
+    next: '仕上げの前に、空・海・平らな床や台のあるコマを並べ、最初から SKY_WHITE（空は白）と FLAT_BG（平らな面は一つのトーン）にする。細い物の束は線画の線だけにして、間を塗らない。',
+  },
+  {
+    id: 'LN-e03-05', phase: 'ネーム・ラフ（衣装のつながり）',
+    learned: '着替えたあと（革の胴着）の胴着の前が、1コマだけボタン留めでなくひも締めに描かれた。「革の胴着」とだけ書くと、留め方は画像の生成が選ぶ。',
+    source: 'RV-e03-08（11-1）',
+    next: '着替えた衣装は、初めて出るコマで留め方・丈・色の濃さまで決め、その衣装で出るコマのラフの指示すべてに同じ言葉で書く。',
+  },
+  {
+    id: 'LN-e03-06', phase: '通読の直し（記録の参照）',
+    learned: '描き直した絵の記録が、描き直す前のコミットを参照していた（sha256 は新しい絵なのに、参照先のコミットには前の絵がある）。',
+    source: 'PR #19 のレビュー（Codex）',
+    next: '描き直した絵は先にコミットし、その絵を含むコミットで記録を作り直してから、もう一度コミットする。',
+  },
+].map((l) => ({ ...l, choice: '採る' as Choice }));
+/** 作者の選択（learning.chosen）：2026-11-19「採って」（全部採る）。第4話のネームに入れた。 */
+export const CHOSEN_BY_EP03 = '作者（2026-11-19「採って」）';
+
+const stamp = '2026-11-19T00:00:00.000Z';
+const VERSION = 'learning-ep03-v2';
+async function native(kind: string, id: string, name: string, content: unknown) {
+  const artifact: Artifact<unknown> = {
+    schemaVersion: 1,
+    id,
+    name,
+    kind,
+    provenance: { source: 'created' },
+    draft: { baseVersionId: VERSION, updatedAt: stamp, content: structuredClone(content) },
+    versions: [
+      {
+        artifactId: id,
+        versionId: VERSION,
+        parentVersionId: null,
+        schemaVersion: 1,
+        createdAt: stamp,
+        createdBy: null,
+        reason: 'ガリヴァー旅行記 第3話の学び（fiction-manga@1.3.0 学び：学びの記録。次の話に持ち込む学びを選ぶのは作者）',
+        content,
+        contentHash: await contentHash(content),
+      },
+    ],
+  };
+  return artifact;
+}
+
+function learningTable(): StructuredData {
+  return {
+    schemaVersion: 2,
+    columns: [
+      { id: 'ln.phase', name: '工程', type: 'text', required: true },
+      { id: 'ln.learned', name: '分かったこと', type: 'text', required: true },
+      { id: 'ln.source', name: 'どこで（指摘・工程）', type: 'text', required: true },
+      { id: 'ln.next', name: '次の話でどうする（AI の提案）', type: 'text', required: true },
+      { id: 'ln.choice', name: '作者の選択', type: 'select', options: ['作者の選択待ち', '採る', '採らない'], required: true },
+    ],
+    rows: LEARNINGS_EP03.map((l) => ({
+      id: l.id,
+      values: { 'ln.phase': l.phase, 'ln.learned': l.learned, 'ln.source': l.source, 'ln.next': l.next, 'ln.choice': l.choice },
+    })),
+  };
+}
+
+export async function buildGulliverEp03Learning() {
+  return [await native('data', 'gm1-ep03-learning', '第3話 学びの記録', learningTable())];
+}

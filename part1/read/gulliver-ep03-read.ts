@@ -14,10 +14,10 @@ export const READ_VERSIONS_EP03 = [
   { artifact: 'gm1-ep03-lettering', version: 'finish-ep03-v2', what: '第3話 写植の記録' },
   { artifact: 'gm1-script-lines', version: 'script-v1', what: '第1部 脚本の行（台詞の全文の照合）' },
 ] as const;
-/** はじめに通読した版（直す前）を main に入れたコミット（PR #18 のマージ）。 */
-export const READ_COMMIT_EP03 = '294641e2cf89cbac0ecba344f06fed2374bd4e88';
+/** 完成とした版（直した版 finish-ep03-v2）を main に入れたコミット（PR #19 のマージ）。出版準備はここから作る。 */
+export const READ_COMMIT_EP03 = '99527acc26d5a30027051f3463691a3191c773d6';
 /** はじめに通読した版。 */
-export const FIRST_READ_EP03 = { finish: 'gm1-ep03-finish@finish-ep03-v1', commit: READ_COMMIT_EP03 };
+export const FIRST_READ_EP03 = { finish: 'gm1-ep03-finish@finish-ep03-v1', commit: '294641e2cf89cbac0ecba344f06fed2374bd4e88' };
 
 export const FINDINGS_EP03: Finding[] = [
   {
@@ -131,23 +131,23 @@ export const FINDINGS_EP03: Finding[] = [
 ];
 
 export const VERDICT_EP03 = {
-  status: '作者の判断待ち',
-  decidedBy: '作者',
+  status: '完成',
+  decidedBy: '作者（2026-11-19「第3話を完成として、書き出しと学びも作りますか」に「完成として両方作る」）',
   proposal:
-    '作者の判断（2026-11-17「おすすめ通り直して」）で RV-e03-01〜09 を直した版（finish-ep03-v2）を、直したページ（2・4・6・10・11・12・15・16）を中心に読み直した。2-2・6-1 で描き直しの1回目にガリヴァーの顔がコマの上で切れたので、顔を入れずに描き直した。RV-e03-10・11 は意図として残す。完成とするかは作者が決める。',
+    '作者の判断（2026-11-17「おすすめ通り直して」）で RV-e03-01〜09 を直した版（finish-ep03-v2）を、直したページ（2・4・6・10・11・12・15・16）を中心に読み直した。2-2・6-1 で描き直しの1回目にガリヴァーの顔がコマの上で切れたので、顔を入れずに描き直した。RV-e03-10・11 は意図として残す。指摘はすべて決まった。出版準備はこの版から作る。',
 };
 
 export const EP03_READ: ReadEpisode = {
   episode: 3,
   title: '卵の端',
   versions: READ_VERSIONS_EP03,
-  readNote: `はじめの通読は ${FIRST_READ_EP03.finish}（コミット ${READ_COMMIT_EP03.slice(0, 8)}、PR #18 のマージ）を1ページ目から読み、指摘を直した版 ${READ_VERSIONS_EP03[0].version} を読み直した。ページは part1/finish/ep03/pages/page-01〜16.png。白黒の仕上げ。`,
+  readNote: `はじめの通読は ${FIRST_READ_EP03.finish}（コミット ${FIRST_READ_EP03.commit.slice(0, 8)}、PR #18 のマージ）を1ページ目から読み、指摘を直した版 ${READ_VERSIONS_EP03[0].version} を読み直した。ページは part1/finish/ep03/pages/page-01〜16.png。白黒の仕上げ。`,
   findings: FINDINGS_EP03,
   verdict: VERDICT_EP03,
 };
 
 const stamp = '2026-11-17T00:00:00.000Z';
-const VERSION = 'read-ep03-v2';
+const VERSION = 'read-ep03-v3';
 async function native(kind: string, id: string, name: string, content: unknown) {
   const artifact: Artifact<unknown> = {
     schemaVersion: 1,
