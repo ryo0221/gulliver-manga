@@ -84,7 +84,9 @@ GM_OUT=/tmp/read npx vitest run apps/artifact-host/src/creative/story-board/gull
 # 第3話「卵の端」通読
 
 `gm1-ep03-read`（編集の記録）と `gm1-ep03-read-findings`（指摘の表）。はじめに読んだ版は `gm1-ep03-finish@finish-ep03-v1`（コミット 294641e2、PR #18 のマージ、白黒）、
-作者の判断（2026-11-17「おすすめ通り直して」）で直した版 `finish-ep03-v2` を読み直した。ページは `../finish/ep03/pages/`。完成とするかは作者の判断待ち。
+作者の判断（2026-11-17「おすすめ通り直して」）で直した版 `finish-ep03-v2` を読み直した。ページは `../finish/ep03/pages/`。
+
+作者の判断（2026-11-19、「第3話を完成として、書き出しと学びも作りますか」に「完成として両方作る」）：完成。出版準備は `finish-ep03-v2`（コミット 99527ac、PR #19 のマージ）から作る。
 
 | 指摘 | 対象 | 判断と直し方 |
 | --- | --- | --- |
