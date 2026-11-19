@@ -7,7 +7,7 @@
   "source": "created"
  },
  "draft": {
-  "baseVersionId": "rough-ep03-v1",
+  "baseVersionId": "rough-ep03-v2",
   "updatedAt": "2026-11-17T00:00:00.000Z",
   "content": {
    "schemaVersion": 2,
@@ -185,10 +185,10 @@
       "rf.ch": "CH-01",
       "rf.name": "ガリヴァー",
       "rf.pose": "prone-palm",
-      "rf.drawn": false,
-      "rf.drawing": "",
-      "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
-      "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+      "rf.drawn": true,
+      "rf.drawing": "ラフ絵 e03-p02-k2（panels/e03-p02-k2.jpg）",
+      "rf.where": "head at top-right of the frame (x 83%, y 18%)",
+      "rf.note": ""
      }
     },
     {
@@ -201,7 +201,7 @@
       "rf.pose": "point",
       "rf.drawn": true,
       "rf.drawing": "ラフ絵 e03-p02-k2（panels/e03-p02-k2.jpg）",
-      "rf.where": "head at top-centre of the frame (x 50%, y 23%)",
+      "rf.where": "head at middle-centre of the frame (x 50%, y 40%)",
       "rf.note": ""
      }
     },
@@ -509,7 +509,7 @@
       "rf.pose": "prone-palm",
       "rf.drawn": true,
       "rf.drawing": "ラフ絵 e03-p06-k1（panels/e03-p06-k1.jpg）",
-      "rf.where": "head outside the frame, hips at bottom-left of the frame (x 3%, y 81%)",
+      "rf.where": "head at top-centre of the frame (x 43%, y 20%)",
       "rf.note": ""
      }
     },
@@ -523,7 +523,7 @@
       "rf.pose": "stand",
       "rf.drawn": true,
       "rf.drawing": "ラフ絵 e03-p06-k1（panels/e03-p06-k1.jpg）",
-      "rf.where": "head at top-centre of the frame (x 50%, y 17%)",
+      "rf.where": "head at middle-centre of the frame (x 51%, y 54%)",
       "rf.note": ""
      }
     },
@@ -1107,7 +1107,7 @@
  "versions": [
   {
    "artifactId": "gm1-ep03-rough-figures",
-   "versionId": "rough-ep03-v1",
+   "versionId": "rough-ep03-v2",
    "parentVersionId": null,
    "schemaVersion": 1,
    "createdAt": "2026-11-17T00:00:00.000Z",
@@ -1289,10 +1289,10 @@
        "rf.ch": "CH-01",
        "rf.name": "ガリヴァー",
        "rf.pose": "prone-palm",
-       "rf.drawn": false,
-       "rf.drawing": "",
-       "rf.where": "outside the frame (at most a cut-off sliver at the frame edge)",
-       "rf.note": "画角の外（3D のカメラで確かめた）。ネームで置いた位置のまま、このコマには描かない"
+       "rf.drawn": true,
+       "rf.drawing": "ラフ絵 e03-p02-k2（panels/e03-p02-k2.jpg）",
+       "rf.where": "head at top-right of the frame (x 83%, y 18%)",
+       "rf.note": ""
       }
      },
      {
@@ -1305,7 +1305,7 @@
        "rf.pose": "point",
        "rf.drawn": true,
        "rf.drawing": "ラフ絵 e03-p02-k2（panels/e03-p02-k2.jpg）",
-       "rf.where": "head at top-centre of the frame (x 50%, y 23%)",
+       "rf.where": "head at middle-centre of the frame (x 50%, y 40%)",
        "rf.note": ""
       }
      },
@@ -1613,7 +1613,7 @@
        "rf.pose": "prone-palm",
        "rf.drawn": true,
        "rf.drawing": "ラフ絵 e03-p06-k1（panels/e03-p06-k1.jpg）",
-       "rf.where": "head outside the frame, hips at bottom-left of the frame (x 3%, y 81%)",
+       "rf.where": "head at top-centre of the frame (x 43%, y 20%)",
        "rf.note": ""
       }
      },
@@ -1627,7 +1627,7 @@
        "rf.pose": "stand",
        "rf.drawn": true,
        "rf.drawing": "ラフ絵 e03-p06-k1（panels/e03-p06-k1.jpg）",
-       "rf.where": "head at top-centre of the frame (x 50%, y 17%)",
+       "rf.where": "head at middle-centre of the frame (x 51%, y 54%)",
        "rf.note": ""
       }
      },
@@ -2207,7 +2207,7 @@
      }
     ]
    },
-   "contentHash": "40f81a95e92185b50c09c0e03c4ee3da91f2ecc29c062ec911296f464e34fbbf"
+   "contentHash": "dd74d9ac8cc2353323c3656eb756b1004e1433707ea3368fe606d004032c99e5"
   }
  ]
 }

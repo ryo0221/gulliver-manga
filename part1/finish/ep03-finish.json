@@ -214,30 +214,30 @@
    "layers": {
     "LY-03": {
      "image": "layers/e03-p02-k2-LY-03.webp",
-     "bytes": 2462,
-     "share": 0.151
+     "bytes": 7108,
+     "share": 0.518
     },
     "LY-05": {
      "image": "layers/e03-p02-k2-LY-05.webp",
-     "bytes": 6050,
-     "share": 0.362
+     "bytes": 5830,
+     "share": 0.358
     },
     "LY-06": {
      "image": "layers/e03-p02-k2-LY-06.webp",
-     "bytes": 2808,
-     "share": 0.034
+     "bytes": 2024,
+     "share": 0.018
     }
    },
    "lines": {
     "LY-04": {
      "image": "lines/e03-p02-k2-LY-04.webp",
      "from": "part1/ink/layers/e03-p02-k2-LY-04.png",
-     "bytes": 12452
+     "bytes": 18534
     },
     "LY-07": {
      "image": "lines/e03-p02-k2-LY-07.webp",
      "from": "part1/ink/layers/e03-p02-k2-LY-07.png",
-     "bytes": 15146
+     "bytes": 17576
     },
     "LY-08": {
      "image": "lines/e03-p02-k2-LY-08.webp",
@@ -251,7 +251,7 @@
    "codexModel": null,
    "imageModel": "none",
    "codexSession": null,
-   "rawSha256": "9499da47a8e11259fa133d3b8f259cd0a2b742e5cfb6a1986a8d6e122d851ed8",
+   "rawSha256": "dff7429ae5832fa8189fb3929d563e71cba0c09d559aa926c3067397036b7123",
    "rawSize": [
     900,
     381
@@ -259,13 +259,13 @@
    "refs": [
     {
      "path": "part1/ink/layers/e03-p02-k2-LY-04.png",
-     "commit": "10b115eb7c38fcae57f5d2ea08e75e0814d93232",
-     "sha256": "b08b6ccce4b2a1364f52535edd19dd1c9e4178ddba9b16179df855db1a9699e7"
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
+     "sha256": "5e619c5b5333083781d3eace63d81f2118c7435617f0e516f25e7b9fe201d7e0"
     },
     {
      "path": "part1/ink/layers/e03-p02-k2-LY-07.png",
-     "commit": "10b115eb7c38fcae57f5d2ea08e75e0814d93232",
-     "sha256": "6c063778dc5449f9dd5a50eb51afa329606937069b9c39fed01598fe83af5b53"
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
+     "sha256": "228a6bf4564c6d4105f34ebf511f0c750c478979bbd12398d05819a9b58363ef"
     },
     {
      "path": "part1/ink/layers/e03-p02-k2-LY-08.png",
@@ -274,10 +274,21 @@
     },
     {
      "path": "part1/rough/panels/e03-p02-k2.jpg",
-     "commit": "10b115eb7c38fcae57f5d2ea08e75e0814d93232",
-     "sha256": "9499da47a8e11259fa133d3b8f259cd0a2b742e5cfb6a1986a8d6e122d851ed8"
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
+     "sha256": "dff7429ae5832fa8189fb3929d563e71cba0c09d559aa926c3067397036b7123"
     }
-   ]
+   ],
+   "revision": {
+    "finding": "RV-e03-01",
+    "date": "2026-11-17",
+    "what": "線画（とラフ）を描き直したので作り直した",
+    "previousRefs": {
+     "part1/ink/layers/e03-p02-k2-LY-04.png": "b08b6ccce4b2a1364f52535edd19dd1c9e4178ddba9b16179df855db1a9699e7",
+     "part1/ink/layers/e03-p02-k2-LY-07.png": "6c063778dc5449f9dd5a50eb51afa329606937069b9c39fed01598fe83af5b53",
+     "part1/ink/layers/e03-p02-k2-LY-08.png": "1c45c2733a5fc56dc0de80592b5d7db585512e5705271a12dc04194b1bd3e2c2",
+     "part1/rough/panels/e03-p02-k2.jpg": "9499da47a8e11259fa133d3b8f259cd0a2b742e5cfb6a1986a8d6e122d851ed8"
+    }
+   }
   },
   "e03-p02-k3": {
    "layers": {
@@ -766,17 +777,17 @@
    "layers": {
     "LY-03": {
      "image": "layers/e03-p04-k4-LY-03.webp",
-     "bytes": 4130,
-     "share": 1.0
+     "bytes": 6026,
+     "share": 0.999
     },
     "LY-05": {
      "image": "layers/e03-p04-k4-LY-05.webp",
-     "bytes": 3720,
-     "share": 0.171
+     "bytes": 4192,
+     "share": 0.158
     },
     "LY-06": {
      "image": "layers/e03-p04-k4-LY-06.webp",
-     "bytes": 1014,
+     "bytes": 1008,
      "share": 0.002
     }
    },
@@ -784,17 +795,17 @@
     "LY-04": {
      "image": "lines/e03-p04-k4-LY-04.webp",
      "from": "part1/ink/layers/e03-p04-k4-LY-04.png",
-     "bytes": 7328
+     "bytes": 17646
     },
     "LY-07": {
      "image": "lines/e03-p04-k4-LY-07.webp",
      "from": "part1/ink/layers/e03-p04-k4-LY-07.png",
-     "bytes": 10392
+     "bytes": 15258
     },
     "LY-08": {
      "image": "lines/e03-p04-k4-LY-08.webp",
      "from": "part1/ink/layers/e03-p04-k4-LY-08.png",
-     "bytes": 144
+     "bytes": 300
     }
    },
    "review": "panels/e03-p04-k4.jpg",
@@ -803,7 +814,7 @@
    "codexModel": null,
    "imageModel": "none",
    "codexSession": null,
-   "rawSha256": "7af199aac0f7400ff3821a52851213205c9f53925b3b7b328c34d5adaa09841d",
+   "rawSha256": "98412f133c49c129a33b4c8ed5cb7e47e3a9942416d9d5d6b1b83c2857ac745d",
    "rawSize": [
     900,
     391
@@ -811,23 +822,23 @@
    "refs": [
     {
      "path": "part1/ink/layers/e03-p04-k4-LY-04.png",
-     "commit": "10b115eb7c38fcae57f5d2ea08e75e0814d93232",
-     "sha256": "6626e7285331295671eb5ada06de03bb6abae2cbaad2b0170588e45270a4ca41"
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
+     "sha256": "ce715b3f2d98001bf6e45d3c0f3bd5b38e9dbb98a90f6ef8a04a112fe6ad51b7"
     },
     {
      "path": "part1/ink/layers/e03-p04-k4-LY-07.png",
-     "commit": "10b115eb7c38fcae57f5d2ea08e75e0814d93232",
-     "sha256": "e043aaacdc4982f468857a27d071c24be15013e0af4fa2f3f3d70e02aae63725"
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
+     "sha256": "1667eeeebef21fac2ad534092e21e667998645bbb732d57cf0d00e45d7e21efb"
     },
     {
      "path": "part1/ink/layers/e03-p04-k4-LY-08.png",
-     "commit": "10b115eb7c38fcae57f5d2ea08e75e0814d93232",
-     "sha256": "24c14d202a62ab37371f416b6d46a97671bd7b0c4c68231d2c647d6a2f44973d"
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
+     "sha256": "ec72a80744478c3f75b66daa872c11f75ffe272d59231ea7e804944acd1474ef"
     },
     {
      "path": "part1/rough/panels/e03-p04-k4.jpg",
-     "commit": "10b115eb7c38fcae57f5d2ea08e75e0814d93232",
-     "sha256": "7af199aac0f7400ff3821a52851213205c9f53925b3b7b328c34d5adaa09841d"
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
+     "sha256": "98412f133c49c129a33b4c8ed5cb7e47e3a9942416d9d5d6b1b83c2857ac745d"
     }
    ],
    "revision": {
@@ -1057,30 +1068,30 @@
    "layers": {
     "LY-03": {
      "image": "layers/e03-p06-k1-LY-03.webp",
-     "bytes": 4514,
-     "share": 0.838
+     "bytes": 3204,
+     "share": 0.898
     },
     "LY-05": {
      "image": "layers/e03-p06-k1-LY-05.webp",
-     "bytes": 13080,
-     "share": 0.633
+     "bytes": 9070,
+     "share": 0.668
     },
     "LY-06": {
      "image": "layers/e03-p06-k1-LY-06.webp",
-     "bytes": 4718,
-     "share": 0.076
+     "bytes": 6184,
+     "share": 0.116
     }
    },
    "lines": {
     "LY-04": {
      "image": "lines/e03-p06-k1-LY-04.webp",
      "from": "part1/ink/layers/e03-p06-k1-LY-04.png",
-     "bytes": 8272
+     "bytes": 6862
     },
     "LY-07": {
      "image": "lines/e03-p06-k1-LY-07.webp",
      "from": "part1/ink/layers/e03-p06-k1-LY-07.png",
-     "bytes": 25056
+     "bytes": 20656
     },
     "LY-08": {
      "image": "lines/e03-p06-k1-LY-08.webp",
@@ -1094,7 +1105,7 @@
    "codexModel": null,
    "imageModel": "none",
    "codexSession": null,
-   "rawSha256": "e084278cd46a1de3bc306fe0c30a52bf0acb986e9ee1891ef8d9d227abe59c6a",
+   "rawSha256": "834c4f5efaff29618953eea271f58ec162cdac029a6a89da586d6e9d3f0be31d",
    "rawSize": [
     900,
     391
@@ -1102,13 +1113,13 @@
    "refs": [
     {
      "path": "part1/ink/layers/e03-p06-k1-LY-04.png",
-     "commit": "10b115eb7c38fcae57f5d2ea08e75e0814d93232",
-     "sha256": "92610678a332dc1c43f4be82bf891efc211dd605c6bc9634f51c02fc1df657ba"
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
+     "sha256": "b1630a095505a8a5cfc8ab501b26a4453654d0fdd9f5ad68c85f80af9767c1a9"
     },
     {
      "path": "part1/ink/layers/e03-p06-k1-LY-07.png",
-     "commit": "10b115eb7c38fcae57f5d2ea08e75e0814d93232",
-     "sha256": "c6bbb648b96bbacb9faafe3a5cbdd76da0e608ca7cb4a16246b7ed01eeee6b1a"
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
+     "sha256": "071daf9ebffd6bb90fbaf167c8578bd7909d8169b6abdec8bb7918d7dc4502a9"
     },
     {
      "path": "part1/ink/layers/e03-p06-k1-LY-08.png",
@@ -1117,10 +1128,21 @@
     },
     {
      "path": "part1/rough/panels/e03-p06-k1.jpg",
-     "commit": "10b115eb7c38fcae57f5d2ea08e75e0814d93232",
-     "sha256": "e084278cd46a1de3bc306fe0c30a52bf0acb986e9ee1891ef8d9d227abe59c6a"
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
+     "sha256": "834c4f5efaff29618953eea271f58ec162cdac029a6a89da586d6e9d3f0be31d"
     }
-   ]
+   ],
+   "revision": {
+    "finding": "RV-e03-02",
+    "date": "2026-11-17",
+    "what": "線画（とラフ）を描き直したので作り直した",
+    "previousRefs": {
+     "part1/ink/layers/e03-p06-k1-LY-04.png": "92610678a332dc1c43f4be82bf891efc211dd605c6bc9634f51c02fc1df657ba",
+     "part1/ink/layers/e03-p06-k1-LY-07.png": "c6bbb648b96bbacb9faafe3a5cbdd76da0e608ca7cb4a16246b7ed01eeee6b1a",
+     "part1/ink/layers/e03-p06-k1-LY-08.png": "19726432e55930b738aaebec9d2945d5677e2f5bafc5d59c7dd75206e378a065",
+     "part1/rough/panels/e03-p06-k1.jpg": "e084278cd46a1de3bc306fe0c30a52bf0acb986e9ee1891ef8d9d227abe59c6a"
+    }
+   }
   },
   "e03-p06-k2": {
    "layers": {
@@ -2171,35 +2193,35 @@
    "layers": {
     "LY-03": {
      "image": "layers/e03-p11-k1-LY-03.webp",
-     "bytes": 3028,
-     "share": 0.479
+     "bytes": 4224,
+     "share": 0.469
     },
     "LY-05": {
      "image": "layers/e03-p11-k1-LY-05.webp",
-     "bytes": 6154,
-     "share": 0.354
+     "bytes": 6204,
+     "share": 0.357
     },
     "LY-06": {
      "image": "layers/e03-p11-k1-LY-06.webp",
-     "bytes": 1420,
-     "share": 0.007
+     "bytes": 1764,
+     "share": 0.011
     }
    },
    "lines": {
     "LY-04": {
      "image": "lines/e03-p11-k1-LY-04.webp",
      "from": "part1/ink/layers/e03-p11-k1-LY-04.png",
-     "bytes": 4904
+     "bytes": 6548
     },
     "LY-07": {
      "image": "lines/e03-p11-k1-LY-07.webp",
      "from": "part1/ink/layers/e03-p11-k1-LY-07.png",
-     "bytes": 15014
+     "bytes": 17822
     },
     "LY-08": {
      "image": "lines/e03-p11-k1-LY-08.webp",
      "from": "part1/ink/layers/e03-p11-k1-LY-08.png",
-     "bytes": 184
+     "bytes": 328
     }
    },
    "review": "panels/e03-p11-k1.jpg",
@@ -2216,18 +2238,18 @@
    "refs": [
     {
      "path": "part1/ink/layers/e03-p11-k1-LY-04.png",
-     "commit": "10b115eb7c38fcae57f5d2ea08e75e0814d93232",
-     "sha256": "b8db65503998613a644c8abd66449ce2c3a1c1ceb3fcea98f7e8197004301eae"
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
+     "sha256": "d06726803054fc8806d2634abd38bc087bfe8ccd8422d673cdc3997ff5442ad6"
     },
     {
      "path": "part1/ink/layers/e03-p11-k1-LY-07.png",
-     "commit": "10b115eb7c38fcae57f5d2ea08e75e0814d93232",
-     "sha256": "8f69c5db004e12418f3c87eaa94d8b993f927e5e50c2e6792951c26d7618a11b"
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
+     "sha256": "da58f1294615042af6aaf61eab734145d3c49fbcdd822a4d843b9996c2f3ea06"
     },
     {
      "path": "part1/ink/layers/e03-p11-k1-LY-08.png",
-     "commit": "10b115eb7c38fcae57f5d2ea08e75e0814d93232",
-     "sha256": "13db453dd7f9cca0456f85e215078c6a6d16425fae78c84f50ba87a343860160"
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
+     "sha256": "6f129cf1634632ae2c447b5fcc1a01473c2bde7214bb459a18104c74be3fe26d"
     },
     {
      "path": "part1/rough/panels/e03-p11-k1.jpg",
@@ -2378,30 +2400,30 @@
    "layers": {
     "LY-03": {
      "image": "layers/e03-p12-k1-LY-03.webp",
-     "bytes": 6956,
-     "share": 0.75
+     "bytes": 5768,
+     "share": 0.737
     },
     "LY-05": {
      "image": "layers/e03-p12-k1-LY-05.webp",
-     "bytes": 3946,
-     "share": 0.037
+     "bytes": 3664,
+     "share": 0.032
     },
     "LY-06": {
      "image": "layers/e03-p12-k1-LY-06.webp",
-     "bytes": 1264,
-     "share": 0.0
+     "bytes": 1468,
+     "share": 0.001
     }
    },
    "lines": {
     "LY-04": {
      "image": "lines/e03-p12-k1-LY-04.webp",
      "from": "part1/ink/layers/e03-p12-k1-LY-04.png",
-     "bytes": 31550
+     "bytes": 18888
     },
     "LY-07": {
      "image": "lines/e03-p12-k1-LY-07.webp",
      "from": "part1/ink/layers/e03-p12-k1-LY-07.png",
-     "bytes": 15254
+     "bytes": 5078
     },
     "LY-08": {
      "image": "lines/e03-p12-k1-LY-08.webp",
@@ -2415,7 +2437,7 @@
    "codexModel": null,
    "imageModel": "none",
    "codexSession": null,
-   "rawSha256": "9a7287e5965b5a736068a3030e370fa04cb13be4b498e650d19b217d4c4902a1",
+   "rawSha256": "8b66778ab20f9a576df204d7d9c7583f876d82c9e2622a52910424530bd45e5a",
    "rawSize": [
     848,
     745
@@ -2423,13 +2445,13 @@
    "refs": [
     {
      "path": "part1/ink/layers/e03-p12-k1-LY-04.png",
-     "commit": "10b115eb7c38fcae57f5d2ea08e75e0814d93232",
-     "sha256": "1f612162255a2f3877c3c2c2b2ec1205e81ac7fd7a9173edecb68dd0d91c9adc"
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
+     "sha256": "c3aa69c1d25a3bb9bfc428e8051fd15f7cf257db5a3505fc1dec986fc1d6ae96"
     },
     {
      "path": "part1/ink/layers/e03-p12-k1-LY-07.png",
-     "commit": "10b115eb7c38fcae57f5d2ea08e75e0814d93232",
-     "sha256": "e2fb2c20fceadd8234d8948d33d9beaec399900e82dadda2c9d777ed80293b8c"
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
+     "sha256": "45ac49872e846b350618a4830799277681362c084eecc42f4ae0690b9c799071"
     },
     {
      "path": "part1/ink/layers/e03-p12-k1-LY-08.png",
@@ -2438,8 +2460,8 @@
     },
     {
      "path": "part1/rough/panels/e03-p12-k1.jpg",
-     "commit": "10b115eb7c38fcae57f5d2ea08e75e0814d93232",
-     "sha256": "9a7287e5965b5a736068a3030e370fa04cb13be4b498e650d19b217d4c4902a1"
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
+     "sha256": "8b66778ab20f9a576df204d7d9c7583f876d82c9e2622a52910424530bd45e5a"
     }
    ],
    "revision": {
@@ -2807,8 +2829,8 @@
     },
     "LY-06": {
      "image": "layers/e03-p15-k1-LY-06.webp",
-     "bytes": 1508,
-     "share": 0.01
+     "bytes": 1342,
+     "share": 0.008
     }
    },
    "lines": {
@@ -2860,7 +2882,12 @@
      "commit": "10b115eb7c38fcae57f5d2ea08e75e0814d93232",
      "sha256": "7e934da5e5b94f0183718bdacb993b6c071775bdc89c76dc6ae8180a437f8c6d"
     }
-   ]
+   ],
+   "revision": {
+    "finding": "RV-e03-09",
+    "date": "2026-11-17",
+    "what": "水平線より上の背景（空）を白にした"
+   }
   },
   "e03-p15-k2": {
    "layers": {
@@ -3004,30 +3031,30 @@
    "layers": {
     "LY-03": {
      "image": "layers/e03-p16-k1-LY-03.webp",
-     "bytes": 10008,
-     "share": 0.448
+     "bytes": 9014,
+     "share": 0.431
     },
     "LY-05": {
      "image": "layers/e03-p16-k1-LY-05.webp",
-     "bytes": 3140,
-     "share": 0.022
+     "bytes": 3058,
+     "share": 0.024
     },
     "LY-06": {
      "image": "layers/e03-p16-k1-LY-06.webp",
-     "bytes": 1970,
-     "share": 0.012
+     "bytes": 1324,
+     "share": 0.001
     }
    },
    "lines": {
     "LY-04": {
      "image": "lines/e03-p16-k1-LY-04.webp",
      "from": "part1/ink/layers/e03-p16-k1-LY-04.png",
-     "bytes": 25240
+     "bytes": 29694
     },
     "LY-07": {
      "image": "lines/e03-p16-k1-LY-07.webp",
      "from": "part1/ink/layers/e03-p16-k1-LY-07.png",
-     "bytes": 9326
+     "bytes": 10426
     },
     "LY-08": {
      "image": "lines/e03-p16-k1-LY-08.webp",
@@ -3049,13 +3076,13 @@
    "refs": [
     {
      "path": "part1/ink/layers/e03-p16-k1-LY-04.png",
-     "commit": "10b115eb7c38fcae57f5d2ea08e75e0814d93232",
-     "sha256": "b657ee6170ea5e8959a43013d864f95dd08fe484a9759ca1cd96c0c1f8b2273a"
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
+     "sha256": "f3b40ef2ea35c8027ded51b28663fdb46e468e082908225da483695e1abf7948"
     },
     {
      "path": "part1/ink/layers/e03-p16-k1-LY-07.png",
-     "commit": "10b115eb7c38fcae57f5d2ea08e75e0814d93232",
-     "sha256": "631849fb3c3805a545b8c6acbcc016d7de0a442d620ebe215e887dca144b1f3e"
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
+     "sha256": "e0f398fd41d95114e687e0d5f8b50b9c54282602397d2bcc304126dd88fc0984"
     },
     {
      "path": "part1/ink/layers/e03-p16-k1-LY-08.png",
@@ -3073,13 +3100,13 @@
    "layers": {
     "LY-03": {
      "image": "layers/e03-p16-k2-LY-03.webp",
-     "bytes": 4066,
-     "share": 0.172
+     "bytes": 3816,
+     "share": 0.168
     },
     "LY-05": {
      "image": "layers/e03-p16-k2-LY-05.webp",
-     "bytes": 3014,
-     "share": 0.063
+     "bytes": 2974,
+     "share": 0.06
     },
     "LY-06": {
      "image": "layers/e03-p16-k2-LY-06.webp",
@@ -3091,12 +3118,12 @@
     "LY-04": {
      "image": "lines/e03-p16-k2-LY-04.webp",
      "from": "part1/ink/layers/e03-p16-k2-LY-04.png",
-     "bytes": 12842
+     "bytes": 15224
     },
     "LY-07": {
      "image": "lines/e03-p16-k2-LY-07.webp",
      "from": "part1/ink/layers/e03-p16-k2-LY-07.png",
-     "bytes": 7084
+     "bytes": 8450
     },
     "LY-08": {
      "image": "lines/e03-p16-k2-LY-08.webp",
@@ -3118,13 +3145,13 @@
    "refs": [
     {
      "path": "part1/ink/layers/e03-p16-k2-LY-04.png",
-     "commit": "10b115eb7c38fcae57f5d2ea08e75e0814d93232",
-     "sha256": "0a8d9ab60ad85af204a47d5a7a543874b877035d60b04afea001337b93337f06"
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
+     "sha256": "371ed7f7701c3a149d852838f7b4660b4f0498dffd28cc3323a031ee97d6918e"
     },
     {
      "path": "part1/ink/layers/e03-p16-k2-LY-07.png",
-     "commit": "10b115eb7c38fcae57f5d2ea08e75e0814d93232",
-     "sha256": "2d5f50e759afdf3dc55589a5e1c2829e14ca5f4320d500322b18ce9c3eff6194"
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
+     "sha256": "b7af2feedca6498a351546814a209f22867fe6159bfcddd4f0661b9a58257162"
     },
     {
      "path": "part1/ink/layers/e03-p16-k2-LY-08.png",
@@ -3142,7 +3169,7 @@
    "layers": {
     "LY-03": {
      "image": "layers/e03-p16-k3-LY-03.webp",
-     "bytes": 4704,
+     "bytes": 4670,
      "share": 0.596
     },
     "LY-05": {
@@ -3152,8 +3179,8 @@
     },
     "LY-06": {
      "image": "layers/e03-p16-k3-LY-06.webp",
-     "bytes": 2744,
-     "share": 0.033
+     "bytes": 2386,
+     "share": 0.027
     }
    },
    "lines": {
@@ -3205,7 +3232,12 @@
      "commit": "10b115eb7c38fcae57f5d2ea08e75e0814d93232",
      "sha256": "769c6539d38e65a7106a2d8ca00943dd430ecfa8a3b936072bc0a319c5b8be99"
     }
-   ]
+   ],
+   "revision": {
+    "finding": "RV-e03-09",
+    "date": "2026-11-17",
+    "what": "水平線より上の背景（空）を白にした"
+   }
   }
  }
 }

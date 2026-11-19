@@ -1,0 +1,405 @@
+{
+ "schemaVersion": 1,
+ "id": "gm1-ep03-read-findings",
+ "name": "第3話 通読の指摘",
+ "kind": "data",
+ "provenance": {
+  "source": "created"
+ },
+ "draft": {
+  "baseVersionId": "read-ep03-v2",
+  "updatedAt": "2026-11-17T00:00:00.000Z",
+  "content": {
+   "schemaVersion": 2,
+   "columns": [
+    {
+     "id": "rv.target",
+     "name": "対象（コマ・ページ・シーン・台詞の行）",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "rv.by",
+     "name": "出し手",
+     "type": "select",
+     "options": [
+      "作者",
+      "AI"
+     ],
+     "required": true
+    },
+    {
+     "id": "rv.when",
+     "name": "いつ・どの工程で",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "rv.text",
+     "name": "指摘",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "rv.decision",
+     "name": "判断",
+     "type": "select",
+     "options": [
+      "直す",
+      "直さない",
+      "意図として残す",
+      "作者の判断待ち"
+     ],
+     "required": true
+    },
+    {
+     "id": "rv.reason",
+     "name": "理由（判断待ちは AI の提案）",
+     "type": "text",
+     "required": true
+    },
+    {
+     "id": "rv.fixedIn",
+     "name": "直した後の版",
+     "type": "text"
+    }
+   ],
+   "rows": [
+    {
+     "id": "RV-e03-01",
+     "values": {
+      "rv.target": "e03-p02-k2",
+      "rv.by": "AI",
+      "rv.when": "2026-11-17 通読",
+      "rv.text": "2-2 で話しているレルドレサル（「一つは内の党派…」）の頭が枠の上の外にあり、首から下だけが見える。話す人の顔が見えず、誰が話しているか分かりにくい（顔を枠で切らない決まり）。",
+      "rv.decision": "直す",
+      "rv.reason": "作者の判断（2026-11-17「おすすめ通り直して」、提案どおり）：直す。舞台のカメラを引いて撮り直し（stage の revised）、ラフ・線画・仕上げを描き直した。コマは横に細く絵の上下が切れるので、ガリヴァーの顔は入れず（手のひらと袖だけ）、レルドレサルの全身と頭の上の余白を入れた。",
+      "rv.fixedIn": "gm1-ep03-finish@finish-ep03-v2（ラフ rough-ep03-v2、線画 ink-ep03-v2）"
+     }
+    },
+    {
+     "id": "RV-e03-02",
+     "values": {
+      "rv.target": "e03-p06-k1",
+      "rv.by": "AI",
+      "rv.when": "2026-11-17 通読",
+      "rv.text": "6-1 で経典を引いて肩をすくめるレルドレサルも、頭が枠の上の外で、胸から下だけ。2-2 と同じく話す人の顔が無い。",
+      "rv.decision": "直す",
+      "rv.reason": "作者の判断（2026-11-17「おすすめ通り直して」、提案どおり）：直す。舞台のカメラを引いて撮り直し、ラフ・線画・仕上げを描き直した。ガリヴァーの頭は枠の上の外（胸と腕と手のひら）、レルドレサルの全身と頭の上の余白を入れた。",
+      "rv.fixedIn": "gm1-ep03-finish@finish-ep03-v2（ラフ rough-ep03-v2、線画 ink-ep03-v2）"
+     }
+    },
+    {
+     "id": "RV-e03-03",
+     "values": {
+      "rv.target": "e03-p04-k4",
+      "rv.by": "AI",
+      "rv.when": "2026-11-17 通読",
+      "rv.text": "回想の 4-4 で指を切る「幼い王子（今の皇帝の祖父）」が、かつらと上着の大人の青年に見え、子どもに見えない。",
+      "rv.decision": "直す",
+      "rv.reason": "作者の判断（2026-11-17「おすすめ通り直して」、提案どおり）：直す。ラフの説明に「7歳ほどの子ども、かつら無し」を足してラフ・線画・仕上げを描き直した。",
+      "rv.fixedIn": "gm1-ep03-finish@finish-ep03-v2（ラフ rough-ep03-v2、線画 ink-ep03-v2）"
+     }
+    },
+    {
+     "id": "RV-e03-04",
+     "values": {
+      "rv.target": "e03-p12-k1",
+      "rv.by": "AI",
+      "rv.when": "2026-11-17 通読",
+      "rv.text": "12-1 は、ネームでは「胸まで海につかって海峡を戻る」だが、水が脛ほどで、素足が水面の上に見え、海の上に立っているように見える。海峡の中ほどの深さ（約6フィート）とも合わない。",
+      "rv.decision": "直す",
+      "rv.reason": "作者の判断（2026-11-17「おすすめ通り直して」、提案どおり）：直す。ラフの説明に「水面は胸の高さ」を足してラフ・線画・仕上げを描き直した。",
+      "rv.fixedIn": "gm1-ep03-finish@finish-ep03-v2（ラフ rough-ep03-v2、線画 ink-ep03-v2）"
+     }
+    },
+    {
+     "id": "RV-e03-05",
+     "values": {
+      "rv.target": "e03-p12-k1",
+      "rv.by": "AI",
+      "rv.when": "2026-11-17 通読",
+      "rv.text": "12-1 の手から艦隊へのびる綱の束の間が、白とグレーのくさび形の面で塗られ、綱の束に見えない（細い領域の仕上げのむら）。",
+      "rv.decision": "直す",
+      "rv.reason": "作者の判断（2026-11-17「おすすめ通り直して」、提案どおり）：直す。線画で綱を1本ずつの細い線にし、間を塗らないようにした（RV-e03-04 と一緒に描き直し）。",
+      "rv.fixedIn": "gm1-ep03-finish@finish-ep03-v2（線画 ink-ep03-v2）"
+     }
+    },
+    {
+     "id": "RV-e03-06",
+     "values": {
+      "rv.target": "e03-p16-k1 e03-p16-k2",
+      "rv.by": "AI",
+      "rv.when": "2026-11-17 通読",
+      "rv.text": "16-1・16-2 で皇帝が立つ岸壁の上の台が、模様の無い灰色の板（3D の置き物のまま）に見える。",
+      "rv.decision": "直す",
+      "rv.reason": "作者の判断（2026-11-17「おすすめ通り直して」、提案どおり）：直す。線画の説明に「石を敷いた低い壇、縁に彫りのある石」を足して線画から描き直した（ラフはそのまま）。",
+      "rv.fixedIn": "gm1-ep03-finish@finish-ep03-v2（線画 ink-ep03-v2）"
+     }
+    },
+    {
+     "id": "RV-e03-07",
+     "values": {
+      "rv.target": "e03-p10-k2",
+      "rv.by": "AI",
+      "rv.when": "2026-11-17 通読",
+      "rv.text": "効果音「ヒュンヒュンヒュン」が「ヒュンヒュンヒュ／ン」と折り返され、最後の「ン」だけが次の行にある。",
+      "rv.decision": "直す",
+      "rv.reason": "作者の判断（2026-11-17「おすすめ通り直して」、提案どおり）：直す。写植で、擬音は折り返さず1行に収まる大きさに字を小さくした（gulliver-ep01-name.ts。第1話・第2話の擬音は変わらない）。",
+      "rv.fixedIn": "gm1-ep03-finish@finish-ep03-v2"
+     }
+    },
+    {
+     "id": "RV-e03-08",
+     "values": {
+      "rv.target": "e03-p11-k1",
+      "rv.by": "AI",
+      "rv.when": "2026-11-17 通読",
+      "rv.text": "11-1 だけ、胴着の前がひも締め（交差したひも）で、ほかのコマのボタン留めの胴着と違う。",
+      "rv.decision": "直す",
+      "rv.reason": "作者の判断（2026-11-17「おすすめ通り直して」、提案どおり）：直す。線画の説明に「ボタン留めの胴着」を足して線画から描き直した（ラフはそのまま）。",
+      "rv.fixedIn": "gm1-ep03-finish@finish-ep03-v2（線画 ink-ep03-v2）"
+     }
+    },
+    {
+     "id": "RV-e03-09",
+     "values": {
+      "rv.target": "e03-p15-k1 e03-p16-k3",
+      "rv.by": "AI",
+      "rv.when": "2026-11-17 通読",
+      "rv.text": "空に、線の無いグレーのしみが出ている（15-1 左下の帆柱の近く、16-3 右上）。仕上げのトーンの取り違え。",
+      "rv.decision": "直す",
+      "rv.reason": "作者の判断（2026-11-17「おすすめ通り直して」、提案どおり）：直す。仕上げ（finish-mono.py の SKY_WHITE）で、水平線より上の背景を白にした。",
+      "rv.fixedIn": "gm1-ep03-finish@finish-ep03-v2"
+     }
+    },
+    {
+     "id": "RV-e03-10",
+     "values": {
+      "rv.target": "e03-p09-k2",
+      "rv.by": "AI",
+      "rv.when": "2026-11-17 通読",
+      "rv.text": "9-2 はガリヴァーの頭が枠の上の外で、首から下だけ。",
+      "rv.decision": "意図として残す",
+      "rv.reason": "意図として残す（提案）：ネームのメモ「海に踏み込む大きな足。しぶき」のとおり、足としぶきの寄りで、顔を入れない構図。",
+      "rv.fixedIn": ""
+     }
+    },
+    {
+     "id": "RV-e03-11",
+     "values": {
+      "rv.target": "e03-p05-k2",
+      "rv.by": "AI",
+      "rv.when": "2026-11-17 通読",
+      "rv.text": "回想の 5-2 で、卓の上の卵が大きく、大きさを比べる物が無い。",
+      "rv.decision": "意図として残す",
+      "rv.reason": "意図として残す（提案）：小人の目の高さから卓の上の卵を見た寄りで、回想の中は小人の世界なので、ガリヴァーとの比べは要らない。",
+      "rv.fixedIn": ""
+     }
+    }
+   ]
+  }
+ },
+ "versions": [
+  {
+   "artifactId": "gm1-ep03-read-findings",
+   "versionId": "read-ep03-v2",
+   "parentVersionId": null,
+   "schemaVersion": 1,
+   "createdAt": "2026-11-17T00:00:00.000Z",
+   "createdBy": null,
+   "reason": "ガリヴァー旅行記 第3話の通読（fiction-manga@1.3.0 通読：編集の記録。指摘の判断と完成の判断は作者）",
+   "content": {
+    "schemaVersion": 2,
+    "columns": [
+     {
+      "id": "rv.target",
+      "name": "対象（コマ・ページ・シーン・台詞の行）",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "rv.by",
+      "name": "出し手",
+      "type": "select",
+      "options": [
+       "作者",
+       "AI"
+      ],
+      "required": true
+     },
+     {
+      "id": "rv.when",
+      "name": "いつ・どの工程で",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "rv.text",
+      "name": "指摘",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "rv.decision",
+      "name": "判断",
+      "type": "select",
+      "options": [
+       "直す",
+       "直さない",
+       "意図として残す",
+       "作者の判断待ち"
+      ],
+      "required": true
+     },
+     {
+      "id": "rv.reason",
+      "name": "理由（判断待ちは AI の提案）",
+      "type": "text",
+      "required": true
+     },
+     {
+      "id": "rv.fixedIn",
+      "name": "直した後の版",
+      "type": "text"
+     }
+    ],
+    "rows": [
+     {
+      "id": "RV-e03-01",
+      "values": {
+       "rv.target": "e03-p02-k2",
+       "rv.by": "AI",
+       "rv.when": "2026-11-17 通読",
+       "rv.text": "2-2 で話しているレルドレサル（「一つは内の党派…」）の頭が枠の上の外にあり、首から下だけが見える。話す人の顔が見えず、誰が話しているか分かりにくい（顔を枠で切らない決まり）。",
+       "rv.decision": "直す",
+       "rv.reason": "作者の判断（2026-11-17「おすすめ通り直して」、提案どおり）：直す。舞台のカメラを引いて撮り直し（stage の revised）、ラフ・線画・仕上げを描き直した。コマは横に細く絵の上下が切れるので、ガリヴァーの顔は入れず（手のひらと袖だけ）、レルドレサルの全身と頭の上の余白を入れた。",
+       "rv.fixedIn": "gm1-ep03-finish@finish-ep03-v2（ラフ rough-ep03-v2、線画 ink-ep03-v2）"
+      }
+     },
+     {
+      "id": "RV-e03-02",
+      "values": {
+       "rv.target": "e03-p06-k1",
+       "rv.by": "AI",
+       "rv.when": "2026-11-17 通読",
+       "rv.text": "6-1 で経典を引いて肩をすくめるレルドレサルも、頭が枠の上の外で、胸から下だけ。2-2 と同じく話す人の顔が無い。",
+       "rv.decision": "直す",
+       "rv.reason": "作者の判断（2026-11-17「おすすめ通り直して」、提案どおり）：直す。舞台のカメラを引いて撮り直し、ラフ・線画・仕上げを描き直した。ガリヴァーの頭は枠の上の外（胸と腕と手のひら）、レルドレサルの全身と頭の上の余白を入れた。",
+       "rv.fixedIn": "gm1-ep03-finish@finish-ep03-v2（ラフ rough-ep03-v2、線画 ink-ep03-v2）"
+      }
+     },
+     {
+      "id": "RV-e03-03",
+      "values": {
+       "rv.target": "e03-p04-k4",
+       "rv.by": "AI",
+       "rv.when": "2026-11-17 通読",
+       "rv.text": "回想の 4-4 で指を切る「幼い王子（今の皇帝の祖父）」が、かつらと上着の大人の青年に見え、子どもに見えない。",
+       "rv.decision": "直す",
+       "rv.reason": "作者の判断（2026-11-17「おすすめ通り直して」、提案どおり）：直す。ラフの説明に「7歳ほどの子ども、かつら無し」を足してラフ・線画・仕上げを描き直した。",
+       "rv.fixedIn": "gm1-ep03-finish@finish-ep03-v2（ラフ rough-ep03-v2、線画 ink-ep03-v2）"
+      }
+     },
+     {
+      "id": "RV-e03-04",
+      "values": {
+       "rv.target": "e03-p12-k1",
+       "rv.by": "AI",
+       "rv.when": "2026-11-17 通読",
+       "rv.text": "12-1 は、ネームでは「胸まで海につかって海峡を戻る」だが、水が脛ほどで、素足が水面の上に見え、海の上に立っているように見える。海峡の中ほどの深さ（約6フィート）とも合わない。",
+       "rv.decision": "直す",
+       "rv.reason": "作者の判断（2026-11-17「おすすめ通り直して」、提案どおり）：直す。ラフの説明に「水面は胸の高さ」を足してラフ・線画・仕上げを描き直した。",
+       "rv.fixedIn": "gm1-ep03-finish@finish-ep03-v2（ラフ rough-ep03-v2、線画 ink-ep03-v2）"
+      }
+     },
+     {
+      "id": "RV-e03-05",
+      "values": {
+       "rv.target": "e03-p12-k1",
+       "rv.by": "AI",
+       "rv.when": "2026-11-17 通読",
+       "rv.text": "12-1 の手から艦隊へのびる綱の束の間が、白とグレーのくさび形の面で塗られ、綱の束に見えない（細い領域の仕上げのむら）。",
+       "rv.decision": "直す",
+       "rv.reason": "作者の判断（2026-11-17「おすすめ通り直して」、提案どおり）：直す。線画で綱を1本ずつの細い線にし、間を塗らないようにした（RV-e03-04 と一緒に描き直し）。",
+       "rv.fixedIn": "gm1-ep03-finish@finish-ep03-v2（線画 ink-ep03-v2）"
+      }
+     },
+     {
+      "id": "RV-e03-06",
+      "values": {
+       "rv.target": "e03-p16-k1 e03-p16-k2",
+       "rv.by": "AI",
+       "rv.when": "2026-11-17 通読",
+       "rv.text": "16-1・16-2 で皇帝が立つ岸壁の上の台が、模様の無い灰色の板（3D の置き物のまま）に見える。",
+       "rv.decision": "直す",
+       "rv.reason": "作者の判断（2026-11-17「おすすめ通り直して」、提案どおり）：直す。線画の説明に「石を敷いた低い壇、縁に彫りのある石」を足して線画から描き直した（ラフはそのまま）。",
+       "rv.fixedIn": "gm1-ep03-finish@finish-ep03-v2（線画 ink-ep03-v2）"
+      }
+     },
+     {
+      "id": "RV-e03-07",
+      "values": {
+       "rv.target": "e03-p10-k2",
+       "rv.by": "AI",
+       "rv.when": "2026-11-17 通読",
+       "rv.text": "効果音「ヒュンヒュンヒュン」が「ヒュンヒュンヒュ／ン」と折り返され、最後の「ン」だけが次の行にある。",
+       "rv.decision": "直す",
+       "rv.reason": "作者の判断（2026-11-17「おすすめ通り直して」、提案どおり）：直す。写植で、擬音は折り返さず1行に収まる大きさに字を小さくした（gulliver-ep01-name.ts。第1話・第2話の擬音は変わらない）。",
+       "rv.fixedIn": "gm1-ep03-finish@finish-ep03-v2"
+      }
+     },
+     {
+      "id": "RV-e03-08",
+      "values": {
+       "rv.target": "e03-p11-k1",
+       "rv.by": "AI",
+       "rv.when": "2026-11-17 通読",
+       "rv.text": "11-1 だけ、胴着の前がひも締め（交差したひも）で、ほかのコマのボタン留めの胴着と違う。",
+       "rv.decision": "直す",
+       "rv.reason": "作者の判断（2026-11-17「おすすめ通り直して」、提案どおり）：直す。線画の説明に「ボタン留めの胴着」を足して線画から描き直した（ラフはそのまま）。",
+       "rv.fixedIn": "gm1-ep03-finish@finish-ep03-v2（線画 ink-ep03-v2）"
+      }
+     },
+     {
+      "id": "RV-e03-09",
+      "values": {
+       "rv.target": "e03-p15-k1 e03-p16-k3",
+       "rv.by": "AI",
+       "rv.when": "2026-11-17 通読",
+       "rv.text": "空に、線の無いグレーのしみが出ている（15-1 左下の帆柱の近く、16-3 右上）。仕上げのトーンの取り違え。",
+       "rv.decision": "直す",
+       "rv.reason": "作者の判断（2026-11-17「おすすめ通り直して」、提案どおり）：直す。仕上げ（finish-mono.py の SKY_WHITE）で、水平線より上の背景を白にした。",
+       "rv.fixedIn": "gm1-ep03-finish@finish-ep03-v2"
+      }
+     },
+     {
+      "id": "RV-e03-10",
+      "values": {
+       "rv.target": "e03-p09-k2",
+       "rv.by": "AI",
+       "rv.when": "2026-11-17 通読",
+       "rv.text": "9-2 はガリヴァーの頭が枠の上の外で、首から下だけ。",
+       "rv.decision": "意図として残す",
+       "rv.reason": "意図として残す（提案）：ネームのメモ「海に踏み込む大きな足。しぶき」のとおり、足としぶきの寄りで、顔を入れない構図。",
+       "rv.fixedIn": ""
+      }
+     },
+     {
+      "id": "RV-e03-11",
+      "values": {
+       "rv.target": "e03-p05-k2",
+       "rv.by": "AI",
+       "rv.when": "2026-11-17 通読",
+       "rv.text": "回想の 5-2 で、卓の上の卵が大きく、大きさを比べる物が無い。",
+       "rv.decision": "意図として残す",
+       "rv.reason": "意図として残す（提案）：小人の目の高さから卓の上の卵を見た寄りで、回想の中は小人の世界なので、ガリヴァーとの比べは要らない。",
+       "rv.fixedIn": ""
+      }
+     }
+    ]
+   },
+   "contentHash": "51dfe2fc398fac5dc725b53c78bcb86c6a952cebb0d43ffb9c359ae6ef9c47a8"
+  }
+ ]
+}

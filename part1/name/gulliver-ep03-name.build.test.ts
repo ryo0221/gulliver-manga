@@ -170,7 +170,11 @@ test('episode 3 ネーム covers every script line, reads left to right and fits
     expect(set.props.length, r.id).toBeGreaterThan(0);
     for (const m of set.props) expect(m.versionId && m.contentHash, `${r.id} ${m.name}`).toBeTruthy();
     // The camera stands where the panel table says: its height is the table's eye height.
-    expect(Math.abs(sp.cam[2] - r.panel.cam.mm), `${r.id} camera height`).toBeLessThanOrEqual(1);
+    // A camera revised after the read-through (stage record `revised`: the finding, why, the camera before) keeps
+    // the table's eye height in its `before` camera.
+    const revised = (sp as { revised?: { finding: string; why: string; before: { cam: number[] } } }).revised;
+    if (revised) expect(revised.finding && revised.why, `${r.id} revised`).toBeTruthy();
+    expect(Math.abs((revised ? revised.before.cam[2]! : sp.cam[2]) - r.panel.cam.mm), `${r.id} camera height`).toBeLessThanOrEqual(1);
     if (r.panel.cam.stand) expect(sp.stand, `${r.id} stand`).toBeTruthy();
     expect(existsSync(`${STAGE}/${sp.plan}`), `${r.id} plan`).toBe(true);
     // Every figure has an FG id and a character from the cast list.

@@ -1791,14 +1791,14 @@
    "panel": "e03-p02-k2",
    "set": "house",
    "cam": [
-    0,
-    1605,
-    357
+    -85,
+    1498,
+    441
    ],
    "look": [
     212,
     1872,
-    148
+    175
    ],
    "stand": null,
    "hfovDeg": 62.7,
@@ -1862,7 +1862,41 @@
     }
    ],
    "underlay": "underlay/e03-p02-k2.jpg",
-   "plan": "plans/e03-p02-k2.svg"
+   "plan": "plans/e03-p02-k2.svg",
+   "revised": {
+    "finding": "RV-e03-01",
+    "date": "2026-11-17",
+    "why": "話すレルドレサルの頭が枠の外だった。引いて頭の上に余白を取った",
+    "before": {
+     "cam": [
+      0,
+      1605,
+      357
+     ],
+     "look": [
+      212,
+      1872,
+      148
+     ]
+    },
+    "models": "models/house-rv-e03-01/",
+    "props": [
+     {
+      "name": "F106 古い神殿",
+      "kind": "bim",
+      "artifactId": "artifact_6ba9ec9e-0920-4e22-8368-51d1052f910b",
+      "versionId": "version_37343ed6-815e-4d08-8875-68d1da502c50",
+      "contentHash": "d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384"
+     },
+     {
+      "name": "舞台 house",
+      "kind": "cad",
+      "artifactId": "artifact_46e09753-f8bd-41ab-8631-d522398b2710",
+      "versionId": "version_4b59b52f-cd98-4761-962c-8437679df7c0",
+      "contentHash": "7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f"
+     }
+    ]
+   }
   },
   {
    "panel": "e03-p02-k3",
@@ -2556,14 +2590,14 @@
    "panel": "e03-p06-k1",
    "set": "house",
    "cam": [
-    470,
-    2080,
-    136
+    760,
+    2350,
+    200
    ],
    "look": [
-    212,
-    1872,
-    150
+    140,
+    1800,
+    225
    ],
    "stand": null,
    "hfovDeg": 62.7,
@@ -2627,7 +2661,41 @@
     }
    ],
    "underlay": "underlay/e03-p06-k1.jpg",
-   "plan": "plans/e03-p06-k1.svg"
+   "plan": "plans/e03-p06-k1.svg",
+   "revised": {
+    "finding": "RV-e03-02",
+    "date": "2026-11-17",
+    "why": "話すレルドレサルの頭が枠の外だった。引いてレルドレサルの全身を入れた。コマは横に細く上下が切れるので、ガリヴァーの顔は枠の上の外に出して描く（ラフ・線画の説明）",
+    "before": {
+     "cam": [
+      470,
+      2080,
+      136
+     ],
+     "look": [
+      212,
+      1872,
+      150
+     ]
+    },
+    "models": "models/house-rv-e03-02/",
+    "props": [
+     {
+      "name": "F106 古い神殿",
+      "kind": "bim",
+      "artifactId": "artifact_6ba9ec9e-0920-4e22-8368-51d1052f910b",
+      "versionId": "version_37343ed6-815e-4d08-8875-68d1da502c50",
+      "contentHash": "d82088212fb9ab6d03436ef8251697bc39d4f48af45145e108b808f02f5d1384"
+     },
+     {
+      "name": "舞台 house",
+      "kind": "cad",
+      "artifactId": "artifact_46e09753-f8bd-41ab-8631-d522398b2710",
+      "versionId": "version_4b59b52f-cd98-4761-962c-8437679df7c0",
+      "contentHash": "7d1c2e129dd5ee58c609e437fa4b18b5d185cf1d2a29fbed4c632f28c237cc3f"
+     }
+    ]
+   }
   },
   {
    "panel": "e03-p06-k2",

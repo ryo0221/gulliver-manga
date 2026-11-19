@@ -221,13 +221,13 @@
    "layers": {
     "LY-07": {
      "image": "layers/e03-p02-k2-LY-07.png",
-     "share": 0.608,
-     "bytes": 23452
+     "share": 0.578,
+     "bytes": 26475
     },
     "LY-04": {
      "image": "layers/e03-p02-k2-LY-04.png",
-     "share": 0.392,
-     "bytes": 20803
+     "share": 0.422,
+     "bytes": 28375
     },
     "LY-08": {
      "image": "layers/e03-p02-k2-LY-08.png",
@@ -238,10 +238,10 @@
    "review": "panels/e03-p02-k2.jpg",
    "prompt": "prompts/e03-p02-k2.txt",
    "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
-   "codexModel": "gpt-6.1-sol",
+   "codexModel": "gpt-6.2-sol",
    "imageModel": "not exposed by the Codex image tool",
-   "codexSession": "01a1e9c9-9c00-76d2-91ad-657598940121",
-   "rawSha256": "7dba63f1d92f3a2de9b81cb1a3af2ff207694d3934da64c6ecf785b6201672bd",
+   "codexSession": "01a1eab1-b9fa-7300-9fde-f97cb6267051",
+   "rawSha256": "2c0357b734fa5799c6ac53f62c5ec1fe287ae40c238b75cb0a0202fdf3d48049",
    "rawSize": [
     1536,
     1024
@@ -265,25 +265,30 @@
    "refs": [
     {
      "path": "part1/rough/panels/e03-p02-k2.jpg",
-     "commit": "153209c3a9741b4c4947f2d24498a8c284048710",
-     "sha256": "9499da47a8e11259fa133d3b8f259cd0a2b742e5cfb6a1986a8d6e122d851ed8"
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
+     "sha256": "dff7429ae5832fa8189fb3929d563e71cba0c09d559aa926c3067397036b7123"
     },
     {
      "path": "part1/name/stage/underlay/e03-p02-k2.jpg",
-     "commit": "153209c3a9741b4c4947f2d24498a8c284048710",
-     "sha256": "a3870c91ef808d66a9068476566ee4d1a6f582956f19fbcbab420f916d0ef9ae"
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
+     "sha256": "40f0b44e9b336eea9eab9734b962bf0b8914259e58044a739c3c84170c75f515"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "153209c3a9741b4c4947f2d24498a8c284048710",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     },
     {
      "path": "part1/codex/ch05-reldresal/ch05-reldresal-raw.png",
-     "commit": "153209c3a9741b4c4947f2d24498a8c284048710",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "30c27a3250c13f638976456ecc7862c23671b6525123b9e8b7b59d69075327b8"
     }
-   ]
+   ],
+   "revision": {
+    "finding": "RV-e03-01",
+    "date": "2026-11-17",
+    "previousRawSha256": "7dba63f1d92f3a2de9b81cb1a3af2ff207694d3934da64c6ecf785b6201672bd"
+   }
   },
   "e03-p02-k3": {
    "layers": {
@@ -750,27 +755,27 @@
    "layers": {
     "LY-07": {
      "image": "layers/e03-p04-k4-LY-07.png",
-     "share": 0.519,
-     "bytes": 16413
+     "share": 0.418,
+     "bytes": 23732
     },
     "LY-04": {
      "image": "layers/e03-p04-k4-LY-04.png",
-     "share": 0.48,
-     "bytes": 11729
+     "share": 0.579,
+     "bytes": 27364
     },
     "LY-08": {
      "image": "layers/e03-p04-k4-LY-08.png",
-     "share": 0.002,
-     "bytes": 861
+     "share": 0.003,
+     "bytes": 1103
     }
    },
    "review": "panels/e03-p04-k4.jpg",
    "prompt": "prompts/e03-p04-k4.txt",
    "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
-   "codexModel": "gpt-6.1-sol",
+   "codexModel": "gpt-6.2-astra",
    "imageModel": "not exposed by the Codex image tool",
-   "codexSession": "01a1e9cc-261e-7cd0-a005-b2954feb5d68",
-   "rawSha256": "787f79234475f6825b2fffb2184970372442f0388639e81a627c96ee910a9377",
+   "codexSession": "01a1eaa4-489c-77a0-8d63-b3f40e9ccc7b",
+   "rawSha256": "011c32a9e332df6505b225bce66d1589fa0ec2a2620ce21c51c835e7b7eea73e",
    "rawSize": [
     1536,
     1024
@@ -794,20 +799,25 @@
    "refs": [
     {
      "path": "part1/rough/panels/e03-p04-k4.jpg",
-     "commit": "153209c3a9741b4c4947f2d24498a8c284048710",
-     "sha256": "7af199aac0f7400ff3821a52851213205c9f53925b3b7b328c34d5adaa09841d"
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
+     "sha256": "98412f133c49c129a33b4c8ed5cb7e47e3a9942416d9d5d6b1b83c2857ac745d"
     },
     {
      "path": "part1/name/stage/underlay/e03-p04-k4.jpg",
-     "commit": "153209c3a9741b4c4947f2d24498a8c284048710",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "a21f09d79389aa176f216900a462b9294dd2c0f4015c7b6bcfd955a98c8285bb"
     },
     {
      "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
-     "commit": "153209c3a9741b4c4947f2d24498a8c284048710",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
     }
-   ]
+   ],
+   "revision": {
+    "finding": "RV-e03-03",
+    "date": "2026-11-17",
+    "previousRawSha256": "787f79234475f6825b2fffb2184970372442f0388639e81a627c96ee910a9377"
+   }
   },
   "e03-p05-k1": {
    "layers": {
@@ -997,13 +1007,13 @@
    "layers": {
     "LY-07": {
      "image": "layers/e03-p06-k1-LY-07.png",
-     "share": 0.811,
-     "bytes": 36343
+     "share": 0.771,
+     "bytes": 28426
     },
     "LY-04": {
      "image": "layers/e03-p06-k1-LY-04.png",
-     "share": 0.189,
-     "bytes": 14571
+     "share": 0.229,
+     "bytes": 12974
     },
     "LY-08": {
      "image": "layers/e03-p06-k1-LY-08.png",
@@ -1014,10 +1024,10 @@
    "review": "panels/e03-p06-k1.jpg",
    "prompt": "prompts/e03-p06-k1.txt",
    "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
-   "codexModel": "gpt-6.1-sol",
+   "codexModel": "gpt-6.2-sol",
    "imageModel": "not exposed by the Codex image tool",
-   "codexSession": "01a1e9cd-1724-78a0-90b0-7ee1d9989e21",
-   "rawSha256": "bf4122dc9b2c1571db0717b8a27c8712dc01123c0398788f4b4efe1fb6ed3eb8",
+   "codexSession": "01a1eaae-3140-7b13-8d57-dc82c891e6e5",
+   "rawSha256": "e14dd38a4a9bcb78a8bf56aa550f0aade6a95cca9825d8dca716c90130b8b1e5",
    "rawSize": [
     1536,
     1024
@@ -1041,25 +1051,30 @@
    "refs": [
     {
      "path": "part1/rough/panels/e03-p06-k1.jpg",
-     "commit": "153209c3a9741b4c4947f2d24498a8c284048710",
-     "sha256": "e084278cd46a1de3bc306fe0c30a52bf0acb986e9ee1891ef8d9d227abe59c6a"
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
+     "sha256": "834c4f5efaff29618953eea271f58ec162cdac029a6a89da586d6e9d3f0be31d"
     },
     {
      "path": "part1/name/stage/underlay/e03-p06-k1.jpg",
-     "commit": "153209c3a9741b4c4947f2d24498a8c284048710",
-     "sha256": "00b337c40934765e0eaec8b9b0e343b3fc5bc6c2b7bed24b88fb196b57b37a3f"
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
+     "sha256": "889629fdba7ca276b63fcb39a243e740b2aedad6f7d65282e7dc6f4714e44fbc"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "153209c3a9741b4c4947f2d24498a8c284048710",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     },
     {
      "path": "part1/codex/ch05-reldresal/ch05-reldresal-raw.png",
-     "commit": "153209c3a9741b4c4947f2d24498a8c284048710",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "30c27a3250c13f638976456ecc7862c23671b6525123b9e8b7b59d69075327b8"
     }
-   ]
+   ],
+   "revision": {
+    "finding": "RV-e03-02",
+    "date": "2026-11-17",
+    "previousRawSha256": "bf4122dc9b2c1571db0717b8a27c8712dc01123c0398788f4b4efe1fb6ed3eb8"
+   }
   },
   "e03-p06-k2": {
    "layers": {
@@ -2025,27 +2040,27 @@
    "layers": {
     "LY-07": {
      "image": "layers/e03-p11-k1-LY-07.png",
-     "share": 0.713,
-     "bytes": 21710
+     "share": 0.692,
+     "bytes": 25797
     },
     "LY-04": {
      "image": "layers/e03-p11-k1-LY-04.png",
-     "share": 0.285,
-     "bytes": 8323
+     "share": 0.303,
+     "bytes": 11580
     },
     "LY-08": {
      "image": "layers/e03-p11-k1-LY-08.png",
-     "share": 0.002,
-     "bytes": 912
+     "share": 0.006,
+     "bytes": 1100
     }
    },
    "review": "panels/e03-p11-k1.jpg",
    "prompt": "prompts/e03-p11-k1.txt",
    "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
-   "codexModel": "gpt-6.1-sol",
+   "codexModel": "gpt-6.2-astra",
    "imageModel": "not exposed by the Codex image tool",
-   "codexSession": "01a1e9d0-8acf-7df0-a477-1ceaf08331c3",
-   "rawSha256": "01fa503ab2c716a9fea78fe2a5d4c2f265db6ee07f71e3da68a11ab75b5f00e1",
+   "codexSession": "01a1eaa5-4dc0-7093-b5f6-cef57041a889",
+   "rawSha256": "615b32623e4925b59f74235a568e5da86a83d9f131430f3536553a4a84ada6d1",
    "rawSize": [
     1536,
     1024
@@ -2069,20 +2084,25 @@
    "refs": [
     {
      "path": "part1/rough/panels/e03-p11-k1.jpg",
-     "commit": "153209c3a9741b4c4947f2d24498a8c284048710",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "e188858329d61684db42c1d526daf2aa9539e3a590e1f73af3799baad0efe3aa"
     },
     {
      "path": "part1/name/stage/underlay/e03-p11-k1.jpg",
-     "commit": "153209c3a9741b4c4947f2d24498a8c284048710",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "18264004f804a0c1e78e912766a7f4327bfdd6bb3130d3953e1db2b82c74590f"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "153209c3a9741b4c4947f2d24498a8c284048710",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
-   ]
+   ],
+   "revision": {
+    "finding": "RV-e03-08",
+    "date": "2026-11-17",
+    "previousRawSha256": "01fa503ab2c716a9fea78fe2a5d4c2f265db6ee07f71e3da68a11ab75b5f00e1"
+   }
   },
   "e03-p11-k2": {
    "layers": {
@@ -2214,13 +2234,13 @@
    "layers": {
     "LY-07": {
      "image": "layers/e03-p12-k1-LY-07.png",
-     "share": 0.27,
-     "bytes": 22163
+     "share": 0.243,
+     "bytes": 9013
     },
     "LY-04": {
      "image": "layers/e03-p12-k1-LY-04.png",
-     "share": 0.73,
-     "bytes": 49563
+     "share": 0.757,
+     "bytes": 31847
     },
     "LY-08": {
      "image": "layers/e03-p12-k1-LY-08.png",
@@ -2231,13 +2251,13 @@
    "review": "panels/e03-p12-k1.jpg",
    "prompt": "prompts/e03-p12-k1.txt",
    "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
-   "codexModel": "gpt-6.1-sol",
+   "codexModel": "gpt-6.2-astra",
    "imageModel": "not exposed by the Codex image tool",
-   "codexSession": "01a1e9d1-84ad-7270-af79-137f744e3e89",
-   "rawSha256": "5aa6d235d289caf34343f4821c020650d0c5f755b999bf63013d1a13f5309fae",
+   "codexSession": "01a1eaa4-489b-7ce2-b364-783e05d69e56",
+   "rawSha256": "c12cec9be02cf521b9d54d765e6d69efcc62946171951811c29f128073c59eeb",
    "rawSize": [
-    1254,
-    1254
+    1024,
+    1024
    ],
    "frame": {
     "canvas": [
@@ -2258,20 +2278,25 @@
    "refs": [
     {
      "path": "part1/rough/panels/e03-p12-k1.jpg",
-     "commit": "153209c3a9741b4c4947f2d24498a8c284048710",
-     "sha256": "9a7287e5965b5a736068a3030e370fa04cb13be4b498e650d19b217d4c4902a1"
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
+     "sha256": "8b66778ab20f9a576df204d7d9c7583f876d82c9e2622a52910424530bd45e5a"
     },
     {
      "path": "part1/name/stage/underlay/e03-p12-k1.jpg",
-     "commit": "153209c3a9741b4c4947f2d24498a8c284048710",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "02bd69447fc279004b7fc683a56297073aecb246826503e61459cd04e0f3574b"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "153209c3a9741b4c4947f2d24498a8c284048710",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
-   ]
+   ],
+   "revision": {
+    "finding": "RV-e03-04",
+    "date": "2026-11-17",
+    "previousRawSha256": "5aa6d235d289caf34343f4821c020650d0c5f755b999bf63013d1a13f5309fae"
+   }
   },
   "e03-p12-k2": {
    "layers": {
@@ -2811,13 +2836,13 @@
    "layers": {
     "LY-07": {
      "image": "layers/e03-p16-k1-LY-07.png",
-     "share": 0.29,
-     "bytes": 14994
+     "share": 0.251,
+     "bytes": 16044
     },
     "LY-04": {
      "image": "layers/e03-p16-k1-LY-04.png",
-     "share": 0.71,
-     "bytes": 38346
+     "share": 0.749,
+     "bytes": 45548
     },
     "LY-08": {
      "image": "layers/e03-p16-k1-LY-08.png",
@@ -2828,10 +2853,10 @@
    "review": "panels/e03-p16-k1.jpg",
    "prompt": "prompts/e03-p16-k1.txt",
    "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
-   "codexModel": "gpt-6.1-sol",
+   "codexModel": "gpt-6.2-astra",
    "imageModel": "not exposed by the Codex image tool",
-   "codexSession": "01a1e9d4-13f2-7672-add0-d2d29e30be69",
-   "rawSha256": "c21197a1c875f78559a4865b9d5405e71fe555e94e0308108dd0839a7bf32ee3",
+   "codexSession": "01a1eaa5-6515-7222-b059-7a064d5ede6d",
+   "rawSha256": "0e4d92f560d3c887b92d7060609dc841adf41a6e82a8fb9bd9e2375851730f5c",
    "rawSize": [
     1536,
     1024
@@ -2855,37 +2880,42 @@
    "refs": [
     {
      "path": "part1/rough/panels/e03-p16-k1.jpg",
-     "commit": "153209c3a9741b4c4947f2d24498a8c284048710",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "72fd89949ef53a6f7cae887d53cba10c54dfffe1c1ef240e555d915e9b8b8d13"
     },
     {
      "path": "part1/name/stage/underlay/e03-p16-k1.jpg",
-     "commit": "153209c3a9741b4c4947f2d24498a8c284048710",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "b083691bc598632c6c0a9d52f88fa9e385d080924115a7fff76bd0cf2784e0d9"
     },
     {
      "path": "part1/codex/ch02-emperor/ch02-emperor-raw.png",
-     "commit": "153209c3a9741b4c4947f2d24498a8c284048710",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "50970136e0807db55316ebf15536ae2c7a6be805090603292d80d7094815f14a"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "153209c3a9741b4c4947f2d24498a8c284048710",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
-   ]
+   ],
+   "revision": {
+    "finding": "RV-e03-06",
+    "date": "2026-11-17",
+    "previousRawSha256": "c21197a1c875f78559a4865b9d5405e71fe555e94e0308108dd0839a7bf32ee3"
+   }
   },
   "e03-p16-k2": {
    "layers": {
     "LY-07": {
      "image": "layers/e03-p16-k2-LY-07.png",
-     "share": 0.369,
-     "bytes": 11972
+     "share": 0.365,
+     "bytes": 13653
     },
     "LY-04": {
      "image": "layers/e03-p16-k2-LY-04.png",
-     "share": 0.631,
-     "bytes": 19610
+     "share": 0.635,
+     "bytes": 23478
     },
     "LY-08": {
      "image": "layers/e03-p16-k2-LY-08.png",
@@ -2896,10 +2926,10 @@
    "review": "panels/e03-p16-k2.jpg",
    "prompt": "prompts/e03-p16-k2.txt",
    "tool": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in",
-   "codexModel": "gpt-6.1-sol",
+   "codexModel": "gpt-6.2-astra",
    "imageModel": "not exposed by the Codex image tool",
-   "codexSession": "01a1e9d4-1d09-7910-adb9-032daf6b2e4d",
-   "rawSha256": "30020644d736382faee0093c2ec131d708ea5c4a7fb16b3aa626e2acf60d3bb9",
+   "codexSession": "01a1eaa5-f25a-7371-979a-5b153a4d2843",
+   "rawSha256": "2437c4000c3bfa2a13410575ec3d496ff1fd6abb45236809591299027a9c20b2",
    "rawSize": [
     1536,
     1024
@@ -2923,25 +2953,30 @@
    "refs": [
     {
      "path": "part1/rough/panels/e03-p16-k2.jpg",
-     "commit": "153209c3a9741b4c4947f2d24498a8c284048710",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "9ad567d400615194dfcc1a8c94c78328ad98354aecd41a4a9bcb1de458c3e58b"
     },
     {
      "path": "part1/name/stage/underlay/e03-p16-k2.jpg",
-     "commit": "153209c3a9741b4c4947f2d24498a8c284048710",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "5a62488c2d72e8bf4193bb3978ff598ab3b99d825784a49394fe330e1e644c5f"
     },
     {
      "path": "part1/codex/ch02-emperor/ch02-emperor-raw.png",
-     "commit": "153209c3a9741b4c4947f2d24498a8c284048710",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "50970136e0807db55316ebf15536ae2c7a6be805090603292d80d7094815f14a"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "153209c3a9741b4c4947f2d24498a8c284048710",
+     "commit": "2ea15cae74d3edb8deb11a1607c3b90815dbfab4",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
-   ]
+   ],
+   "revision": {
+    "finding": "RV-e03-06",
+    "date": "2026-11-17",
+    "previousRawSha256": "30020644d736382faee0093c2ec131d708ea5c4a7fb16b3aa626e2acf60d3bb9"
+   }
   },
   "e03-p16-k3": {
    "layers": {

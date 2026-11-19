@@ -26,5 +26,6 @@ Continuity: Gulliver still wears only the sleeveless leather jerkin over his shi
 Size check inside the picture (AR-01): a Lilliputian (150 mm) reaches only a little above Gulliver's ankle; the quay (300 mm high) comes to about the middle of his shin. Never draw the Lilliputians bigger than this.
 Never cut a face with the frame edge, and never show only part of a face (a nose or a mouth alone): every face in the frame is drawn whole, with its eyes, or not at all (LN-e02-02).
 Always draw a background (ground, sky, sea, walls or the room) even in a close-up; never leave the space behind the figures blank.
+Line-art correction after the author's rough review: Read-through correction (RV-e03-06): the low platform under the Emperor was a blank grey slab. Draw it as a low dais of laid stone slabs, about one step high, with the joints between the stones and a carved stone edge, the same stone as the quay paving. Keep the Emperor pointing out to sea, the parapet and the sea behind.
 
 After generating, copy the generated PNG to ./ink-raw.png in the current directory. Do not generate more than one image.

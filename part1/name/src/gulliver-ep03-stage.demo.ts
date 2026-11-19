@@ -186,7 +186,8 @@ const SETS: SetDef[] = [
       { panel: 'e03-p01-k1', cam: [1700, 3700, 136], look: [120, 1500, 330], places: [LIE, rel()] },
       { panel: 'e03-p01-k2', cam: [1350, 2650, 136], look: [350, 2050, 260], places: [LIE, { fig: 'reldresal', at: [480, 2150, 0], facing: Math.PI + 0.4, pose: 'walk' }, { fig: 'sv', at: [640, 2300, 0], facing: Math.PI + 0.4, pose: 'walk' }] },
       { panel: 'e03-p02-k1', cam: [650, 2500, 160], look: [120, 1700, 300], places: [LIE, rel(), { fig: 'sv', at: [560, 2050, 0], facing: Math.PI, pose: 'stand' }] },
-      { panel: 'e03-p02-k2', cam: EYE, look: [ON_PALM[0], ON_PALM[1], ON_PALM[2] + 80], places: [LIE, rel('point', Math.PI + 0.3)] },
+      { panel: 'e03-p02-k2', cam: [-85, 1498, 441], look: [ON_PALM[0], ON_PALM[1], 175], // RV-e03-01：引いて頭の上に余白（前は cam EYE、look z +80）
+        places: [LIE, rel('point', Math.PI + 0.3)] },
       { panel: 'e03-p02-k3', cam: [3200, 2650, 70], look: [3200, 3000, 85], places: [
         { fig: 'hi1', at: [3020, 3000, 0], facing: -Math.PI / 2, pose: 'glare' }, { fig: 'hi2', at: [2960, 3080, 0], facing: -Math.PI / 2, pose: 'arms-crossed' },
         { fig: 'lo1', at: [3380, 3000, 0], facing: Math.PI / 2, pose: 'glare' }, { fig: 'lo2', at: [3440, 2930, 0], facing: Math.PI / 2, pose: 'arms-crossed' }] },
@@ -196,7 +197,8 @@ const SETS: SetDef[] = [
       { panel: 'e03-p04-k1', cam: [950, 2350, 136], look: [130, 1700, 260], places: [LIE, rel('orate', Math.PI + 0.5)] },
       { panel: 'e03-p04-k2', cam: [440, 2200, 170], look: [ON_PALM[0] + 50, ON_PALM[1], 170], places: [LIE, rel('point')] },
       { panel: 'e03-p04-k3', cam: [260, 2100, 320], look: [HEAD[0], HEAD[1], HEAD[2]], places: [LIE, rel()] },
-      { panel: 'e03-p06-k1', cam: [470, 2080, 136], look: [ON_PALM[0], ON_PALM[1], 150], places: [LIE, rel('stand')] },
+      { panel: 'e03-p06-k1', cam: [760, 2350, 200], look: [140, 1800, 225], // RV-e03-02：引いて、レルドレサルの全身と見下ろすガリヴァーの顔の全体を入れる（前は cam [470, 2080, 136]、look z 150）
+        places: [LIE, rel('stand')] },
       { panel: 'e03-p06-k2', cam: [-260, 2080, 330], look: [HEAD[0], HEAD[1], HEAD[2]], places: [LIE, rel('stand')] },
       { panel: 'e03-p06-k3', cam: [640, 1900, 130], look: [ON_PALM[0], ON_PALM[1], 150], places: [LIE, rel('bow', Math.PI - 0.6)] },
       { panel: 'e03-p06-k4', cam: [-2300, 3900, 650], look: [0, 1200, 300], places: [LIE, rel('stand')] },

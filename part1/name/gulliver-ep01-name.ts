@@ -689,7 +689,9 @@ function layoutPanel(panel: DesignElement, record: PanelRecord): { placed: Place
       const { line } = l;
       if (line.k === 'T') continue;
       const base = line.k === 'N' ? FONT.narration : line.k === 'S' ? FONT.sfx : isShout(line) ? FONT.shout : FONT.dialogue;
-      const font = Math.max(base.min, base.size - shrink);
+      let font = Math.max(base.min, base.size - shrink);
+      // 擬音は1行に収める：長い擬音（第3話 10-2「ヒュンヒュンヒュン」、RV-e03-07）は、折り返す代わりに字を小さくする。
+      if (line.k === 'S') font = Math.max(base.min, Math.min(font, Math.floor(Math.min(260, inner.width) / (line.text.length + 1))));
       items.push({
         line: l,
         kind: line.k,

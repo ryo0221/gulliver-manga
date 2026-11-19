@@ -4,8 +4,8 @@
  "artwork": [],
  "source": {
   "artifactId": "gm1-ep03-rough",
-  "versionId": "version_2f4440e5-fce3-49a8-ba64-31873cb49b4f",
-  "contentHash": "75fcc5a41bac84b7646010a5700b7af35e50233ccd259cef037147a29e2879c3"
+  "versionId": "version_462d998a-54b9-4ab8-a41b-c14273d5c1a3",
+  "contentHash": "aafe0c747c5e68e44f5d6227be7dd7575697c3e3924497167eaf34b052531f3b"
  },
  "direction": "ltr",
  "pages": [
@@ -680,7 +680,7 @@
   },
   {
    "elementId": "rough-0006",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p01-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@7b0cf4c6 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1）。生の出力 sha256:e74d71214c5b",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p01-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@49a0e030 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1）。生の出力 sha256:e74d71214c5b",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -690,7 +690,7 @@
   },
   {
    "elementId": "rough-0015",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p01-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@7b0cf4c6 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1）、CH-30 小人の設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:9181307600f5",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p01-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@49a0e030 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1）、CH-30 小人の設定画（正面）（gulliver-manga@49a0e030 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:9181307600f5",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -700,7 +700,7 @@
   },
   {
    "elementId": "rough-0023",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p02-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@7b0cf4c6 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1）、CH-30 小人の設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:6516970c6bd2",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p02-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@49a0e030 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1）、CH-30 小人の設定画（正面）（gulliver-manga@49a0e030 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:6516970c6bd2",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -710,7 +710,7 @@
   },
   {
    "elementId": "rough-0035",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p02-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@7b0cf4c6 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1）。生の出力 sha256:f14d6918ee34",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p02-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@49a0e030 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1）。生の出力 sha256:6ae90cdfd341",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -720,7 +720,7 @@
   },
   {
    "elementId": "rough-0047",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p02-k3.jpg、CH-30 小人の設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:dd744e85ae5d",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p02-k3.jpg、CH-30 小人の設定画（正面）（gulliver-manga@49a0e030 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:dd744e85ae5d",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -730,7 +730,7 @@
   },
   {
    "elementId": "rough-0055",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p03-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@7b0cf4c6 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1）。生の出力 sha256:9184411967b3",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p03-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@49a0e030 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1）。生の出力 sha256:9184411967b3",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -740,7 +740,7 @@
   },
   {
    "elementId": "rough-0067",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p03-k2.jpg、CH-30 小人の設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:9e0fb1ed6bf1",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p03-k2.jpg、CH-30 小人の設定画（正面）（gulliver-manga@49a0e030 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:9e0fb1ed6bf1",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -750,7 +750,7 @@
   },
   {
    "elementId": "rough-0075",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p03-k3.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:db4acc76e778",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p03-k3.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:db4acc76e778",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -760,7 +760,7 @@
   },
   {
    "elementId": "rough-0087",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p04-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@7b0cf4c6 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1）。生の出力 sha256:4c16ee73678b",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p04-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@49a0e030 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1）。生の出力 sha256:4c16ee73678b",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -770,7 +770,7 @@
   },
   {
    "elementId": "rough-0099",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p04-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@7b0cf4c6 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1）。生の出力 sha256:a928dba0afab",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p04-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@49a0e030 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1）。生の出力 sha256:a928dba0afab",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -780,7 +780,7 @@
   },
   {
    "elementId": "rough-0111",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p04-k3.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@7b0cf4c6 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1）。生の出力 sha256:a257b9e99f84",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p04-k3.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@49a0e030 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1）。生の出力 sha256:a257b9e99f84",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -790,7 +790,7 @@
   },
   {
    "elementId": "rough-0123",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p04-k4.jpg、CH-30 小人の設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:294714f94d43",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-astra（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p04-k4.jpg、CH-30 小人の設定画（正面）（gulliver-manga@49a0e030 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:922cf75c10ae",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -800,7 +800,7 @@
   },
   {
    "elementId": "rough-0135",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p05-k1.jpg、CH-30 小人の設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:c2037d09d508",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p05-k1.jpg、CH-30 小人の設定画（正面）（gulliver-manga@49a0e030 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:c2037d09d508",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -820,7 +820,7 @@
   },
   {
    "elementId": "rough-0155",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p05-k3.jpg、CH-30 小人の設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:edfcec4b2974",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p05-k3.jpg、CH-30 小人の設定画（正面）（gulliver-manga@49a0e030 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:edfcec4b2974",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -830,7 +830,7 @@
   },
   {
    "elementId": "rough-0167",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p06-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@7b0cf4c6 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1）。生の出力 sha256:c0d61c51cdfb",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p06-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@49a0e030 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1）。生の出力 sha256:a1f78b645e19",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -840,7 +840,7 @@
   },
   {
    "elementId": "rough-0179",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p06-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@7b0cf4c6 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1）。生の出力 sha256:8108399db4dc",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p06-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@49a0e030 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1）。生の出力 sha256:8108399db4dc",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -850,7 +850,7 @@
   },
   {
    "elementId": "rough-0191",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p06-k3.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@7b0cf4c6 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1）。生の出力 sha256:c39834e60f6a",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p06-k3.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@49a0e030 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1）。生の出力 sha256:c39834e60f6a",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -860,7 +860,7 @@
   },
   {
    "elementId": "rough-0203",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p06-k4.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@7b0cf4c6 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1）。生の出力 sha256:34670866dbe6",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p06-k4.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、part1/codex/ch05-reldresal/ch05-reldresal-raw.png（gulliver-manga@49a0e030 part1/codex/ch05-reldresal/ch05-reldresal-raw.png sha256:30c27a3250c1）。生の出力 sha256:34670866dbe6",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -870,7 +870,7 @@
   },
   {
    "elementId": "rough-0214",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p07-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:b978cb0bcb47",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p07-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:b978cb0bcb47",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -880,7 +880,7 @@
   },
   {
    "elementId": "rough-0222",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p07-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:3213723cfb09",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p07-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:3213723cfb09",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -890,7 +890,7 @@
   },
   {
    "elementId": "rough-0233",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p07-k3.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-30 小人の設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:4f683efa9baa",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p07-k3.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-30 小人の設定画（正面）（gulliver-manga@49a0e030 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:4f683efa9baa",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -910,7 +910,7 @@
   },
   {
    "elementId": "rough-0252",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p08-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:84dae26e808d",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p08-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:84dae26e808d",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -920,7 +920,7 @@
   },
   {
    "elementId": "rough-0263",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p09-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:3815a1eff543",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p09-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:3815a1eff543",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -930,7 +930,7 @@
   },
   {
    "elementId": "rough-0271",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p09-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:a4306d27de19",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p09-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:a4306d27de19",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -940,7 +940,7 @@
   },
   {
    "elementId": "rough-0280",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p09-k3.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:7fd435e065a1",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p09-k3.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:7fd435e065a1",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -950,7 +950,7 @@
   },
   {
    "elementId": "rough-0288",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p10-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:fb837c5b7803",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p10-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:fb837c5b7803",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -960,7 +960,7 @@
   },
   {
    "elementId": "rough-0296",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p10-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:05597b65185f",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p10-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:05597b65185f",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -970,7 +970,7 @@
   },
   {
    "elementId": "rough-0305",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p10-k3.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:cc0c1bf5bd98",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p10-k3.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:cc0c1bf5bd98",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -980,7 +980,7 @@
   },
   {
    "elementId": "rough-0316",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p10-k4.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:2228a737e362",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p10-k4.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:2228a737e362",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -990,7 +990,7 @@
   },
   {
    "elementId": "rough-0324",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p11-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:164411853701",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p11-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:164411853701",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -1000,7 +1000,7 @@
   },
   {
    "elementId": "rough-0333",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p11-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:2c34ba364c82",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p11-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:2c34ba364c82",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -1010,7 +1010,7 @@
   },
   {
    "elementId": "rough-0341",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p11-k3.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:305b2aa3a969",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p11-k3.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:305b2aa3a969",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -1020,7 +1020,7 @@
   },
   {
    "elementId": "rough-0349",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p12-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:25aef1b9970f",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-astra（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p12-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:a189fc8f2578",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -1030,7 +1030,7 @@
   },
   {
    "elementId": "rough-0357",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p12-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:71a595bb6af4",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p12-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:71a595bb6af4",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -1040,7 +1040,7 @@
   },
   {
    "elementId": "rough-0369",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p13-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-02 皇帝の設定画（gulliver-manga@7b0cf4c6 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080）。生の出力 sha256:ed36f5f9e9e3",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p13-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-02 皇帝の設定画（gulliver-manga@49a0e030 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080）。生の出力 sha256:ed36f5f9e9e3",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -1050,7 +1050,7 @@
   },
   {
    "elementId": "rough-0377",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p13-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-02 皇帝の設定画（gulliver-manga@7b0cf4c6 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080）。生の出力 sha256:1e8ebe84bc36",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p13-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-02 皇帝の設定画（gulliver-manga@49a0e030 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080）。生の出力 sha256:1e8ebe84bc36",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -1060,7 +1060,7 @@
   },
   {
    "elementId": "rough-0389",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p14-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-02 皇帝の設定画（gulliver-manga@7b0cf4c6 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080）、CH-06 ボルゴラムの設定画（gulliver-manga@7b0cf4c6 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）。生の出力 sha256:12be4fcc3143",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p14-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-02 皇帝の設定画（gulliver-manga@49a0e030 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080）、CH-06 ボルゴラムの設定画（gulliver-manga@49a0e030 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）。生の出力 sha256:12be4fcc3143",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -1070,7 +1070,7 @@
   },
   {
    "elementId": "rough-0397",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p14-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-02 皇帝の設定画（gulliver-manga@7b0cf4c6 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080）。生の出力 sha256:132ba222aec2",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p14-k2.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-02 皇帝の設定画（gulliver-manga@49a0e030 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080）。生の出力 sha256:132ba222aec2",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -1080,7 +1080,7 @@
   },
   {
    "elementId": "rough-0409",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p15-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-02 皇帝の設定画（gulliver-manga@7b0cf4c6 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080）。生の出力 sha256:bc7ee103740d",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p15-k1.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-02 皇帝の設定画（gulliver-manga@49a0e030 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080）。生の出力 sha256:bc7ee103740d",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -1090,7 +1090,7 @@
   },
   {
    "elementId": "rough-0420",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p15-k2.jpg、CH-06 ボルゴラムの設定画（gulliver-manga@7b0cf4c6 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）。生の出力 sha256:2f11f86db439",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p15-k2.jpg、CH-06 ボルゴラムの設定画（gulliver-manga@49a0e030 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）。生の出力 sha256:2f11f86db439",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -1100,7 +1100,7 @@
   },
   {
    "elementId": "rough-0428",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p15-k3.jpg、CH-06 ボルゴラムの設定画（gulliver-manga@7b0cf4c6 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）。生の出力 sha256:8ba58181bca6",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p15-k3.jpg、CH-06 ボルゴラムの設定画（gulliver-manga@49a0e030 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）。生の出力 sha256:8ba58181bca6",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -1110,7 +1110,7 @@
   },
   {
    "elementId": "rough-0440",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p16-k1.jpg、CH-02 皇帝の設定画（gulliver-manga@7b0cf4c6 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:704eead8bc62",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p16-k1.jpg、CH-02 皇帝の設定画（gulliver-manga@49a0e030 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:704eead8bc62",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -1120,7 +1120,7 @@
   },
   {
    "elementId": "rough-0448",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p16-k2.jpg、CH-02 皇帝の設定画（gulliver-manga@7b0cf4c6 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:8a313ad6ac0c",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p16-k2.jpg、CH-02 皇帝の設定画（gulliver-manga@49a0e030 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:8a313ad6ac0c",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   },
   {
@@ -1130,7 +1130,7 @@
   },
   {
    "elementId": "rough-0460",
-   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p16-k3.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@7b0cf4c6 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:5a5d8f211887",
+   "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.1-sol（画像のモデルは出ない）。渡した参照：gm1-ep03-name@name-ep03-v1 のカメラの絵 part1/name/stage/underlay/e03-p16-k3.jpg、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@49a0e030 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:5a5d8f211887",
    "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
   }
  ],
