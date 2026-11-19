@@ -1,3 +1,4 @@
+import math
 # Per-episode notes for rough-briefs.py (exec'd; defines notes(pid, v, p) -> list of lines).
 # 第1話の学び：LN-e01-02（絵の中の物どうしで大きさを比べて書く）、LN-e01-03（寄りのコマにも背景を描く）、
 # LN-e01-04（シーンをまたいで続く状態を表にして、そのシーンのコマの指示に入れる）。第1話のコマには何も足さない。
@@ -83,7 +84,77 @@ def notes_e03(pid, v, p):
     out.append("Always draw a background (ground, sky, sea, walls or the room) even in a close-up; never leave the space behind the figures blank.")
     return out
 
+# 第4話。第3話の学び LN-e03-01〜06 は作者が全部採った（2026-11-19）：細い段は上下が切れる（大事な物は縦の真ん中へ）、
+# 子ども・侍女などの脇役は年と背を書く、着ている物の言い方をどこでも同じに。
+# 続く状態：1〜9ページ（SC-012・013）は上着の姿。10-2 から（本文 "I ... got up in an instant ... without my coat"）は上着なし。
+# 夜は 10〜14ページ（松明と炎の明かり）、15〜16ページは朝。
+COAT_E04 = "Continuity: Gulliver wears his plain blue coat with brass buttons, tan breeches, white stockings and black shoes (no chain)."
+WAISTCOAT_E04 = "Continuity: Gulliver has left his coat behind in his hurry: he wears a white shirt with a buttoned pale-brown sleeveless waistcoat over it, tan breeches, white stockings and black shoes (NO coat)."
+CONTINUITY_E04 = [((1, 1), (9, 2), COAT_E04), ((10, 2), (16, 2), WAISTCOAT_E04)]
+TIME_E04 = [
+    ((10, 1), (11, 2), "Time: MIDNIGHT. Dark sky; the light comes from torches and lanterns carried by the tiny people (and, far off, a red glow in the sky)."),
+    ((12, 1), (14, 2), "Time: NIGHT. The fire on the palace roof lights the scene from above and behind: strong flickering light and deep shadows; smoke against the night sky."),
+    ((15, 1), (16, 2), "Time: early MORNING, pale clear light, a little smoke still rising."),
+]
+SIZE_E04 = {
+    'throne': "Size check inside the picture (AR-01): the throne room is a Lilliputian building: its east window (400 mm wide, 280 mm high) is lower than kneeling Gulliver's hips; the Emperor (158 mm) at the window is about as tall as Gulliver's hand is long; kneeling Gulliver's head is about six times as high as the Emperor's. Never draw the palace or the Lilliputians bigger than this.",
+    'gate': "Size check inside the picture (AR-01): an envoy (150 mm) standing on Gulliver's open palm is a little shorter than the palm and fingers are long (about 190 mm); a Lilliputian's whole head is smaller than Gulliver's eye. Never draw the Lilliputians bigger than this.",
+    'palace': "Size check inside the picture (AR-01): the houses of the capital (3 to 5 storeys, 0.75 to 1.25 m) come up to about Gulliver's waist; the great street (1.5 m wide) is about one stride; a Lilliputian (150 mm) reaches only the lower third of his shin; the buildings of the palace's second court (1.52 m) reach below his chest and the eaves of the royal apartments (1.83 m) are a little above the top of his head. Never draw the city bigger than this.",
+}
+PANEL_E04 = {
+    'e04-p01-k1': "This is the episode's cover (扉): BOTH kneeling Gulliver's whole face (head up, attentive, NOT bowed) and the tiny Emperor on the terrace before the big window must be clearly seen. Keep a tenth of the frame clear above Gulliver's head.",
+    'e04-p02-k2': "Gulliver kneels upright with his head UP (not bowed), looking straight down at the Emperor and refusing, calm and firm; his whole face with both eyes in the vertical middle of the frame.",
+    'e04-p03-k1': "Gulliver kneels upright with his head UP (not bowed), speaking clearly and calmly.",
+    'e04-p04-k1': "The Emperor turns his back to the window and walks back into the room.",
+    'e04-p05-k1': "Flimnap leans close to Bolgolam's ear and whispers, one hand raised beside his mouth.",
+    'e04-p05-k2': "Gulliver kneels upright, alone, his head a little lowered and thoughtful; the window and the terrace before him are empty.",
+    'e04-p06-k1': "The six envoys of Blefuscu are grown men in RED coats and white wigs; behind them a long train (about five hundred) of servants on foot and horseback fills the street.",
+    'e04-p06-k2': "The envoys are grown men in red coats and white wigs; their chief is about 50. Their faces, with the eyes, are seen.",
+    'e04-p07-k1': "The chief envoy (about 50, a grown man, red coat, white wig) stands WHOLE on Gulliver's open right palm, bowing as he speaks; the other five envoys stand on the ground below.",
+    'e04-p08-k1': "Gulliver kneels upright with his head up, asking politely.",
+    'e04-p09-k1': "The Emperor sits or stands by the throne; Flimnap shows an open ledger; Bolgolam points out of the window.",
+    'e04-p10-k1': "Hundreds of tiny people (each 150 mm, smaller than the bottom step of the great gate is wide) crowd with torches before the great gate of the old temple (Gulliver's house) at midnight, shouting and waving their arms. No giant in this panel.",
+    'e04-p10-k2': "Gulliver crawls out on his elbows through the great door of the old temple, face down, head raised; his whole face with both eyes is seen; the tiny crowd with torches makes way below his chin.",
+    'e04-p11-k2': "A huge black shoe comes down very carefully into the street between the fleeing tiny people; only his shoe and the lower part of his leg are seen.",
+    # 作者に見せる前の描き直し：12-1 は、ガリヴァーが二の庭の建物の上に立っているように見えた。
+    'e04-p12-k1': "Retake: in the first try Gulliver seemed to stand ON TOP of the building. He stands on the GROUND of the palace court, seen from behind at an angle, from the knees up: the low buildings of the second court (1.52 m) stand in front of him and reach only to below his CHEST, so his chest, shoulders and head rise above their roofs; beyond them the roof of the royal apartments (eaves a little above his head) is in flames, the flames rising higher than his head. The camera looks from the roof of an outer-court building, a little above the tiny people. On the ground at his feet, tiny people (each 150 mm, up to the lower third of his shin) pass thimble-sized buckets hand to hand.",
+    'e04-p12-k2': "Each bucket is as big as a thimble: it fits in a tiny person's two hands. Gulliver's shoe and shin stand huge behind them; his face is NOT drawn.",
+    'e04-p13-k1': "Gulliver turns his head and looks around, helpless, the fire behind him lighting one side of his face.",
+    'e04-p14-k1': "Steam (not smoke) falls down into the frame from above; the tiny people below look UP toward the top of the frame, mouths open in astonishment. Gulliver is NOT drawn at all.",
+    'e04-p14-k2': "The fire is out: thick white steam rises from the dark roof of the royal apartments; the night sky. No figures.",
+    'e04-p15-k1': "Draw the royal apartments with the roof burnt through: black charred rafters standing against the morning sky, scorched walls, thin smoke. No figures. (The 3D view here is mostly walls: draw the burnt roof clearly.)",
+    'e04-p15-k2': "The Empress (a grown woman, a crown) looks at her burnt rooms, cold and hurt; her whole face is seen.",
+    'e04-p15-k3': "The Empress walks away without looking back; behind her two maids-in-waiting (grown women, a little shorter than the Empress) cover their faces with both hands. Gulliver is NOT seen (he is beyond the buildings of the second court).",
+    'e04-p16-k1': "Gulliver kneels upright in the great street outside the palace wall, looking at the burnt palace, regretful; his whole face is seen with a tenth of the frame clear above his head.",
+}
+
+def notes_e04(pid, v, p):
+    out = []
+    k = _key(v)
+    gul = any(g['ch'] == 'CH-01' for g in p['figures'])
+    if gul:
+        for a, b, t in CONTINUITY_E04:
+            if a <= k <= b: out.append(t)
+    for a, b, t in TIME_E04:
+        if a <= k <= b: out.append(t)
+    if p['set'] in SIZE_E04 and (gul or p['set'] != 'gate'): out.append(SIZE_E04[p['set']])
+    if pid in PANEL_E04: out.append(PANEL_E04[pid])
+    if gul and v['nm.shot'] in ('引き', '大引き') and '膝から上' not in v['nm.art']:
+        out.append("Gulliver is shown whole in this wide shot: keep his whole head inside the frame with about a tenth of the frame's height clear above it (LN-e02-05).")
+    elif gul and v['nm.shot'] in ('引き', '大引き'):
+        out.append("Gulliver is shown from the knees up: keep his whole head inside the frame with about a tenth of the frame's height clear above it (LN-e02-05).")
+    if '描かない' in v['nm.art']:
+        out.append("Where the storyboard memo says a face is NOT drawn (描かない), draw no part of that face at all: not the chin, not the nose, not an eye.")
+    aspect = math.tan(math.radians(p['hfovDeg']) / 2) / math.tan(math.radians(p['vfovDeg']) / 2)
+    if aspect > 2.2:
+        out.append("This panel is a WIDE, LOW strip: the top and bottom of the drawing will be cut away, so keep every head and face in the middle band of the height (LN-e03-01).")
+    out.append("Extras: draw the tiny people as grown men and women of mixed ages unless the brief says children (LN-e03-02).")
+    out.append("Never cut a face with the frame edge, and never show only part of a face (a nose or a mouth alone): every face in the frame is drawn whole, with its eyes, or not at all (LN-e02-02).")
+    out.append("Always draw a background (ground, sky, walls, the street or the room) even in a close-up; never leave the space behind the figures blank.")
+    return out
+
 def notes(pid, v, p):
+    if pid.startswith('e04-'): return notes_e04(pid, v, p)
     if pid.startswith('e03-'): return notes_e03(pid, v, p)
     if not pid.startswith('e02-'): return []
     out = []

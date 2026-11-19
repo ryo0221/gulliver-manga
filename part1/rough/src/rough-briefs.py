@@ -52,6 +52,7 @@ REFS = {
     'CH-04': ('part1/codex/ch04-flimnap/ch04-flimnap-raw.png', 'the approved design of Flimnap, the Treasurer (CH-04)'),
     'CH-05': ('part1/codex/ch05-reldresal/ch05-reldresal-raw.png', 'the approved design of Reldresal, Principal Secretary of private affairs (CH-05)'),
     'CH-06': ('part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png', 'the approved design of Skyresh Bolgolam, the High Admiral (CH-06)'),
+    'CH-31': ('part1/codex/lilliputian-front/lilliputian-front-raw.png', 'the approved design of a Lilliputian (the envoys of Blefuscu are the same tiny people; dress them as the brief says)'),
     'LO-03': ('part1/codex/lo03-temple/lo03-temple-raw.png', 'the approved setting art of the old temple (LO-03), where Gulliver is chained'),
     'LO-04': ('part1/codex/lo04-mildendo/lo04-mildendo-raw.png', 'the approved setting art of the capital Mildendo (LO-04)'),
 }
@@ -84,6 +85,7 @@ WHO = {
     'CH-04': 'Flimnap, the Treasurer (CH-04): a lean, tall Lilliputian, 1/12 of Gulliver',
     'CH-05': 'Reldresal, Principal Secretary of private affairs (CH-05): a Lilliputian, 1/12 of Gulliver, narrow eyes, calm and kind',
     'CH-06': 'Skyresh Bolgolam, the High Admiral (CH-06): a stout, sour-faced Lilliputian, 1/12 of Gulliver',
+    'CH-31': 'the chief envoy of Blefuscu (CH-31): a Lilliputian, 150 mm, 1/12 of Gulliver, about 50 years old, a red coat and a white wig',
     'EX': 'an extra',
     'horse': 'a young horse',
 }
@@ -184,6 +186,7 @@ for p in stage['panels']:
                     'head': [round(sh[0], 3), round(sh[1], 3)] if sh is not None else None, 'headR': hr})
         who = WHO['CH-30'] if g['ch'] == 'EX' and lilli else WHO.get(g['ch'], g['name'])
         if g.get('fig') == 'gj': who = 'Gulliver (CH-01): 1,750 mm, coat, shoes and stockings OFF: a sleeveless leather jerkin over his shirt, breeches, bare legs and bare feet, brown hair tied back'
+        if g.get('fig') == 'gw': who = 'Gulliver (CH-01): 1,750 mm, coat OFF (he left it behind in his hurry): a white shirt with a buttoned pale-brown sleeveless waistcoat over it, tan breeches, white stockings, black shoes, brown hair tied back'
         if g['ch'] == 'EX' and not lilli: who = 'an early-18th-century English sailor or townsperson (extra)'
         figs.append(f"- {g['fg']} {g['name']} — {who}; {POSE.get(g['pose'], g['pose'])}; {orient}; {round(dist)} mm from the camera.")
         key = 'EX-L' if g['ch'] == 'EX' and lilli else g['ch']

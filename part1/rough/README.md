@@ -147,3 +147,43 @@ cp -r part1/name/stage/. $SB/gulliver-ep03-stage/; mkdir -p $SB/gulliver-ep03-ro
 GM_OUT=/tmp/rough3 npx vitest run apps/artifact-host/src/creative/story-board/gulliver-ep03-rough.build.test.ts
 node gm-svg2png.tmp.mjs /tmp/rough3/pages /tmp/rough3/png
 ```
+
+# 第4話「火事」ラフ
+
+ネーム `gm1-ep04-name@name-ep04-v1`（16ページ・37コマ）に、第3話と同じ方法でラフ絵を描きました。成果物は `artifacts/gm1-ep04-rough`（Design）、`gm1-ep04-rough-pages`、`gm1-ep04-rough-figures`、記録は `ep04-rough.json`、ページの絵は `ep04/pages/` です。人物にブレフスキュの使節（CH-31、設定画は小人の絵を使い、赤い上着と白いかつらを説明に書く）が加わりました。
+
+## 第3話の学びの入れ方
+
+- `src/episode-notes.py` の第4話の覚え書き：
+  - 続く状態（LN-e03-05、言い方を一つに）：9-2 まで上着。10-2 から「上着なし、白いシャツにボタン留めの淡い茶のチョッキ」。`rough-briefs.py` の人物の行（gw）も同じ言い方です。
+  - 明かり：10〜11ページは真夜中（松明）、12〜14ページは夜（炎）、15〜16ページは朝。
+  - 大きさ：玉座の間・神殿の前・都と王宮ごとの比べ（ネームの【大きさ（3D）】の数値と同じ）。
+  - LN-e03-01：横に長く低いコマ（画角の縦横比 2.2 より横長）には、顔を縦の真ん中の帯に置くよう書きました。
+  - LN-e03-02：脇役（使節・侍女・群衆）は大人の年と背を書きました。
+  - ネームで「描かない」顔は、ラフでも顔のどこも描かないよう書きました。
+- `gulliver-ep04-rough.build.test.ts` は、上の覚え書きが説明に入っていることを確かめます。14-1 はネームのとおりガリヴァーを描かない（群衆の顔と湯気で表す）ので、「人物を一人は描く」の確かめから外しました。
+
+## 描き直したコマ（作者に見せる前）
+
+| コマ | 理由 | 直し方 |
+| --- | --- | --- |
+| 12-1 | ガリヴァーが二の庭の建物の上に立っているように見えた | 地面に立ち、建物は胸の下まで、と覚え書きに書いて描き直した |
+
+## 作者に見てほしいところ
+
+- 12-1：描き直しで地面に立ちましたが、手前の建物が近いぶん、胸の下より高く見えます。
+- 14-1：群衆が上を見上げず、前を向いています。
+- 15-3：皇后と侍女が小さく、侍女が顔を覆う仕草が読みにくいです。
+- 1-2：玉座の間の卓が寝台のようにも見えます。
+
+## 作り直し方
+
+```sh
+python3 part1/rough/src/rough-briefs.py part1/name/artifacts/gm1-ep04-name-panels.artifact.json part1/name/stage/ep04-stage.json part1/name/stage/underlay $W
+PAR=5 bash part1/rough/src/run-rough.sh $W            # 37コマで約15分
+EPISODE=4 python3 part1/rough/src/rough-assets.py $W $(git rev-parse HEAD) part1/rough
+cp part1/name/gulliver-ep04-name.ts part1/rough/gulliver-ep04-rough*.ts $SB/
+cp -r part1/name/stage/. $SB/gulliver-ep04-stage/; mkdir -p $SB/gulliver-ep04-rough; cp -r part1/rough/ep04-rough.json part1/rough/panels part1/rough/prompts $SB/gulliver-ep04-rough/
+GM_OUT=/tmp/rough4 npx vitest run apps/artifact-host/src/creative/story-board/gulliver-ep04-rough.build.test.ts
+node gm-svg2png.tmp.mjs /tmp/rough4/pages /tmp/rough4/png
+```

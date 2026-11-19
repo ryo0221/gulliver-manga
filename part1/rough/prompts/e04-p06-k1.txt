@@ -1,0 +1,29 @@
+Use your image generation tool. Make ONE image: a manga ROUGH (ラフ) for one comic panel, drawn the way a manga artist roughs a panel before inking.
+Style: loose but clear grey pencil lines on white paper, monochrome only (no colour), light grey tone only to separate figures from the background, no finished rendering. Faces must show the direction of the face and the expression; bodies must show the pose with readable joints; contacts (hands, ropes, feet on the body) must be clear.
+The FIRST attached image fixes the composition: keep its camera angle, horizon, and where each object and figure sits and how big it is in the frame. Redraw the blocky stand-ins as real people, horses, ships and places.
+The SECOND attached image is the approved design of a Lilliputian (the envoys of Blefuscu are the same tiny people; dress them as the brief says): keep that costume and face design.
+The THIRD attached image is the approved design of a Lilliputian (tiny people): keep that costume and face design.
+ Gulliver's coat is plain blue in the design but this rough is monochrome: draw it as a plain coat with buttons and NO trim or edging.
+Early-18th-century England and its ships; Lilliput is a country of people 1/12 of Gulliver's size: keep their true size against him (AR-01, no exaggeration).
+No likeness to any film, game or existing illustration. No text, no letters, no speech balloons, no panel border, no signature, no watermark.
+Square 1024x1024.
+
+Panel e04-p06-k1, page 6 panel 1, scene SC-013.
+Shot: 大引き. Camera: 小人の目の高さ, 746 mm above the ground (standing on: 王宮の囲いの壁（本文：2フィート、610 mm）); 王宮の囲いの壁の上から、大通りを上ってくる使節の行列を.
+What the panel shows (storyboard memo): 3週間後。大通りを王宮の門へ上ってくるブレフスキュの使節（赤い上着の六人、白いかつら）と、長く続く従者の列（五百人ほど）。通りの両脇の家並み。
+Words in this panel (for the mood and the faces only, do NOT draw any text): ナレーション（ガリヴァー）：私の艦隊奪取から3週間ほどして、ブレフスキュから使節が和を求めて来た。
+Figures, placed by the 3D layout (keep these places, facings and poses; draw each with a readable face direction, pose and expression):
+- FG-e04-p06-k1-01 ブレフスキュの使節（代表） — the chief envoy of Blefuscu (CH-31): a Lilliputian, 150 mm, 1/12 of Gulliver, about 50 years old, a red coat and a white wig; walking; outside the frame (at most a cut-off sliver at the frame edge), facing the camera; 2013 mm from the camera.
+- FG-e04-p06-k1-02 ブレフスキュの使節 1 — a Lilliputian (CH-30): 146 mm tall, 1/12 of Gulliver; walking; head at bottom-left of the frame (x 17%, y 75%), facing the camera; 2033 mm from the camera.
+- FG-e04-p06-k1-03 ブレフスキュの使節 2 — a Lilliputian (CH-30): 146 mm tall, 1/12 of Gulliver; walking; head at bottom-left of the frame (x 11%, y 73%), facing the camera; 2175 mm from the camera.
+- FG-e04-p06-k1-04 ブレフスキュの使節 3 — a Lilliputian (CH-30): 146 mm tall, 1/12 of Gulliver; walking; head at bottom-left of the frame (x -1%, y 73%), facing the camera; 2197 mm from the camera.
+- FG-e04-p06-k1-05 ブレフスキュの使節 4 — a Lilliputian (CH-30): 146 mm tall, 1/12 of Gulliver; walking; outside the frame (at most a cut-off sliver at the frame edge), facing the camera; 2347 mm from the camera.
+- FG-e04-p06-k1-06 ブレフスキュの使節 5 — a Lilliputian (CH-30): 146 mm tall, 1/12 of Gulliver; walking; outside the frame (at most a cut-off sliver at the frame edge), facing the camera; 2386 mm from the camera.
+The FIRST image is the 3D layout render from this camera: figures there are blocky stand-ins, ground/sea/walls are flat placeholders. The flat grey bands at the edges of the FIRST image are padding outside the panel: continue the scene into them, nothing important there.
+Size check inside the picture (AR-01): the houses of the capital (3 to 5 storeys, 0.75 to 1.25 m) come up to about Gulliver's waist; the great street (1.5 m wide) is about one stride; a Lilliputian (150 mm) reaches only the lower third of his shin; the buildings of the palace's second court (1.52 m) reach below his chest and the eaves of the royal apartments (1.83 m) are a little above the top of his head. Never draw the city bigger than this.
+The six envoys of Blefuscu are grown men in RED coats and white wigs; behind them a long train (about five hundred) of servants on foot and horseback fills the street.
+Extras: draw the tiny people as grown men and women of mixed ages unless the brief says children (LN-e03-02).
+Never cut a face with the frame edge, and never show only part of a face (a nose or a mouth alone): every face in the frame is drawn whole, with its eyes, or not at all (LN-e02-02).
+Always draw a background (ground, sky, walls, the street or the room) even in a close-up; never leave the space behind the figures blank.
+
+After generating, copy the generated PNG to ./raw.png in the current directory. Do not generate more than one image.
