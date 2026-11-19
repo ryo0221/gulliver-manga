@@ -5,7 +5,7 @@
  * ページとコマへ順に割り当て、Design 原稿（漫画ワークスペース）とコマ表にする。コマごとに 3D の舞台で
  * 人物とカメラを置き（stage/ep04-stage.json、src/gulliver-ep04-stage.demo.ts）、カメラの絵をコマに敷く。
  * 構図・間・めくりは AI の提案で、採否は作者。第2話の学び（LN-e02-01〜06、作者が全部採った）に加え、
- * 第3話の学び（LN-e03-01〜06、作者の選択待ち）を提案として使った：横に細いコマでは主役の顔を縦の真ん中の帯に
+ * 第3話の学び（LN-e03-01〜06、作者が 2026-11-19「採って」で全部採った）を入れた：横に細いコマでは主役の顔を縦の真ん中の帯に
  * 置くか、はっきり枠の外にして「顔は描かない」と書き、端役には年と背の比べ、着替えた衣装には同じ言葉を書いた。
  */
 import { buildEpisodeName, G, L, native, panelTable, type NamePage, type Stand, type StageInput } from './gulliver-ep01-name';

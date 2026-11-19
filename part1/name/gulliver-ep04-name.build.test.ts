@@ -131,7 +131,7 @@ test('episode 4 ネーム covers every script line, reads left to right and fits
       if (!pts || !env || env.at[2] < 20) continue;
       expect(Math.hypot(env.at[0] - pts.palmR[0], env.at[1] - pts.palmR[1]), sp.panel).toBeLessThan(60);
     }
-    // LN-e03-01 (proposal): in a narrow strip (a tier 3 high or less), Gulliver's eyes, when they are across the frame, are
+    // LN-e03-01: in a narrow strip (a tier 3 high or less), Gulliver's eyes, when they are across the frame, are
     // either in the middle band of the frame (not near the top or bottom edge the image generation crops) or above or below
     // it with the note
     // 「顔は描かない」/「顔は…外」.

@@ -47,12 +47,12 @@ export const LEARNINGS_EP03: Learning[] = [
     source: 'PR #19 のレビュー（Codex）',
     next: '描き直した絵は先にコミットし、その絵を含むコミットで記録を作り直してから、もう一度コミットする。',
   },
-].map((l) => ({ ...l, choice: '作者の選択待ち' as Choice }));
-/** 作者の選択（learning.chosen）：まだ。第4話のネームには提案として入れた。 */
-export const CHOSEN_BY_EP03 = '作者の選択待ち';
+].map((l) => ({ ...l, choice: '採る' as Choice }));
+/** 作者の選択（learning.chosen）：2026-11-19「採って」（全部採る）。第4話のネームに入れた。 */
+export const CHOSEN_BY_EP03 = '作者（2026-11-19「採って」）';
 
 const stamp = '2026-11-19T00:00:00.000Z';
-const VERSION = 'learning-ep03-v1';
+const VERSION = 'learning-ep03-v2';
 async function native(kind: string, id: string, name: string, content: unknown) {
   const artifact: Artifact<unknown> = {
     schemaVersion: 1,
