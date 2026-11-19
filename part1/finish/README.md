@@ -116,3 +116,17 @@ EPISODE=3 python3 src/finish-mono.py <gulliver-manga のコミット>
 # $SB に gulliver-ep0[123]-finish*.ts と gulliver-ep03-finish/（ep03-finish.json・layers・lines）を置いて
 GM_OUT=/tmp/fin3 npx vitest run apps/artifact-host/src/creative/story-board/gulliver-ep03-finish.build.test.ts
 ```
+
+# 第4話「火事」仕上げと写植（白黒）
+
+第3話と同じ白黒の作り（`src/finish-mono.py`、画像生成なし）。もとは線画 `gm1-ep04-ink@ink-ep04-v1`。
+
+- 原稿 `artifacts/gm1-ep04-finish.artifact.json`（16 ページ）、ページ表 `gm1-ep04-finish-pages`、写植の記録 `gm1-ep04-lettering`（第4話の台詞・ナレーション・効果音をすべて `gm1-script-lines@script-v1` から）。ページの画像は `ep04/pages/`。
+- 第3話の学び LN-e03-04（作者が採る、2026-11-19）：最初から、昼と朝の空のコマ（1-1・2-2・3-1・5-2・8-1・9-2・15-2・16-1・16-2）は `SKY_WHITE`、玉座の間と壁ばかりのコマ（1-2・2-3・3-2・3-3・4-2・5-1・8-2・8-3・9-1・14-1・15-1・15-3）は `FLAT_BG` にした。夜（10〜14ページ）の空は暗いままにした。
+- 作者に見せる前に、夜の空にラフのむらがまだらに出た 11-1 も `FLAT_BG` にした。
+
+```sh
+EPISODE=4 python3 src/finish-mono.py <gulliver-manga のコミット>
+# $SB に gulliver-ep0[1234]-finish*.ts と gulliver-ep04-finish/（ep04-finish.json・layers・lines）を置いて
+GM_OUT=/tmp/fin4 npx vitest run apps/artifact-host/src/creative/story-board/gulliver-ep04-finish.build.test.ts
+```

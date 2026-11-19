@@ -1,0 +1,2343 @@
+{
+ "schemaVersion": 1,
+ "capability": "vector",
+ "artwork": [],
+ "source": {
+  "artifactId": "gm1-ep04-finish",
+  "versionId": "version_ecba699d-cf5e-4c58-936f-6917e666608f",
+  "contentHash": "4b0b298abde7aea9e80a011944c0fc0d500e4135ed9c023eb28de96900d82a8a"
+ },
+ "direction": "ltr",
+ "pages": [
+  {
+   "frameId": "e04-p01",
+   "panelIds": [
+    "e04-p01-k1",
+    "e04-p01-k2"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e04-p01-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 803.6
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e04-p01-k1"
+     },
+     "b": {
+      "panelId": "e04-p01-k2"
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e04-p02",
+   "panelIds": [
+    "e04-p02-k1",
+    "e04-p02-k2",
+    "e04-p02-k3"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e04-p02-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 483.2
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e04-p02-k1"
+     },
+     "b": {
+      "dividerId": "e04-p02-h2",
+      "line": {
+       "nx": 0,
+       "ny": 1,
+       "offset": 803.5999999999999
+      },
+      "gap": 16,
+      "a": {
+       "panelId": "e04-p02-k2"
+      },
+      "b": {
+       "panelId": "e04-p02-k3"
+      }
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e04-p03",
+   "panelIds": [
+    "e04-p03-k1",
+    "e04-p03-k2",
+    "e04-p03-k3"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e04-p03-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 483.2
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e04-p03-k1"
+     },
+     "b": {
+      "dividerId": "e04-p03-h2",
+      "line": {
+       "nx": 0,
+       "ny": 1,
+       "offset": 803.5999999999999
+      },
+      "gap": 16,
+      "a": {
+       "panelId": "e04-p03-k2"
+      },
+      "b": {
+       "panelId": "e04-p03-k3"
+      }
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e04-p04",
+   "panelIds": [
+    "e04-p04-k1",
+    "e04-p04-k2"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e04-p04-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 590
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e04-p04-k1"
+     },
+     "b": {
+      "panelId": "e04-p04-k2"
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e04-p05",
+   "panelIds": [
+    "e04-p05-k1",
+    "e04-p05-k2"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e04-p05-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 590
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e04-p05-k1"
+     },
+     "b": {
+      "panelId": "e04-p05-k2"
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e04-p06",
+   "panelIds": [
+    "e04-p06-k1",
+    "e04-p06-k2"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e04-p06-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 696.8
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e04-p06-k1"
+     },
+     "b": {
+      "panelId": "e04-p06-k2"
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e04-p07",
+   "panelIds": [
+    "e04-p07-k1",
+    "e04-p07-k2",
+    "e04-p07-k3"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e04-p07-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 666.2857142857143
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e04-p07-k1"
+     },
+     "b": {
+      "dividerId": "e04-p07-t2v1",
+      "line": {
+       "nx": 1,
+       "ny": 0,
+       "offset": 418.94736842105266
+      },
+      "gap": 16,
+      "a": {
+       "panelId": "e04-p07-k2"
+      },
+      "b": {
+       "panelId": "e04-p07-k3"
+      }
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e04-p08",
+   "panelIds": [
+    "e04-p08-k1",
+    "e04-p08-k2",
+    "e04-p08-k3"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e04-p08-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 483.2
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e04-p08-k1"
+     },
+     "b": {
+      "dividerId": "e04-p08-h2",
+      "line": {
+       "nx": 0,
+       "ny": 1,
+       "offset": 803.5999999999999
+      },
+      "gap": 16,
+      "a": {
+       "panelId": "e04-p08-k2"
+      },
+      "b": {
+       "panelId": "e04-p08-k3"
+      }
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e04-p09",
+   "panelIds": [
+    "e04-p09-k1",
+    "e04-p09-k2"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e04-p09-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 696.8
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e04-p09-k1"
+     },
+     "b": {
+      "panelId": "e04-p09-k2"
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e04-p10",
+   "panelIds": [
+    "e04-p10-k1",
+    "e04-p10-k2"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e04-p10-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 696.8
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e04-p10-k1"
+     },
+     "b": {
+      "panelId": "e04-p10-k2"
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e04-p11",
+   "panelIds": [
+    "e04-p11-k1",
+    "e04-p11-k2"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e04-p11-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 696.8
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e04-p11-k1"
+     },
+     "b": {
+      "panelId": "e04-p11-k2"
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e04-p12",
+   "panelIds": [
+    "e04-p12-k1",
+    "e04-p12-k2"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e04-p12-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 696.8
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e04-p12-k1"
+     },
+     "b": {
+      "panelId": "e04-p12-k2"
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e04-p13",
+   "panelIds": [
+    "e04-p13-k1",
+    "e04-p13-k2"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e04-p13-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 590
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e04-p13-k1"
+     },
+     "b": {
+      "panelId": "e04-p13-k2"
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e04-p14",
+   "panelIds": [
+    "e04-p14-k1",
+    "e04-p14-k2"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e04-p14-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 696.8
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e04-p14-k1"
+     },
+     "b": {
+      "panelId": "e04-p14-k2"
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e04-p15",
+   "panelIds": [
+    "e04-p15-k1",
+    "e04-p15-k2",
+    "e04-p15-k3"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e04-p15-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 483.2
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e04-p15-k1"
+     },
+     "b": {
+      "dividerId": "e04-p15-h2",
+      "line": {
+       "nx": 0,
+       "ny": 1,
+       "offset": 803.5999999999999
+      },
+      "gap": 16,
+      "a": {
+       "panelId": "e04-p15-k2"
+      },
+      "b": {
+       "panelId": "e04-p15-k3"
+      }
+     }
+    }
+   }
+  },
+  {
+   "frameId": "e04-p16",
+   "panelIds": [
+    "e04-p16-k1",
+    "e04-p16-k2"
+   ],
+   "division": {
+    "region": {
+     "x": 40,
+     "y": 56,
+     "width": 720,
+     "height": 1068
+    },
+    "root": {
+     "dividerId": "e04-p16-h1",
+     "line": {
+      "nx": 0,
+      "ny": 1,
+      "offset": 590
+     },
+     "gap": 16,
+     "a": {
+      "panelId": "e04-p16-k1"
+     },
+     "b": {
+      "panelId": "e04-p16-k2"
+     }
+    }
+   }
+  }
+ ],
+ "images": [
+  {
+   "elementId": "finish-bgFill-0009",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p01-k1-LY-04.png sha256:42ce33ef98c7、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p01-k1-LY-07.png sha256:303a2193fc27、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p01-k1-LY-08.png sha256:6e271fcfd301、採ったラフ part1/rough/panels/e04-p01-k1.jpg sha256:ca642d467b1d。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-03 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-figFill-0010",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p01-k1-LY-04.png sha256:42ce33ef98c7、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p01-k1-LY-07.png sha256:303a2193fc27、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p01-k1-LY-08.png sha256:6e271fcfd301、採ったラフ part1/rough/panels/e04-p01-k1.jpg sha256:ca642d467b1d。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-05 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-shadow-0011",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p01-k1-LY-04.png sha256:42ce33ef98c7、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p01-k1-LY-07.png sha256:303a2193fc27、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p01-k1-LY-08.png sha256:6e271fcfd301、採ったラフ part1/rough/panels/e04-p01-k1.jpg sha256:ca642d467b1d。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-06 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-bg-0012",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-04（part1/ink/layers/e04-p01-k1-LY-04.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p01-k1-LY-04.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:b9c44cdb8254）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fig-0013",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-07（part1/ink/layers/e04-p01-k1-LY-07.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p01-k1-LY-07.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:b9c44cdb8254）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fx-0014",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-08（part1/ink/layers/e04-p01-k1-LY-08.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p01-k1-LY-08.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:b9c44cdb8254）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-bgFill-0039",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p01-k2-LY-04.png sha256:7d0b110aa461、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p01-k2-LY-07.png sha256:b425467503ce、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p01-k2-LY-08.png sha256:19726432e559、採ったラフ part1/rough/panels/e04-p01-k2.jpg sha256:b2a00a9d8a70。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-03 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-figFill-0040",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p01-k2-LY-04.png sha256:7d0b110aa461、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p01-k2-LY-07.png sha256:b425467503ce、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p01-k2-LY-08.png sha256:19726432e559、採ったラフ part1/rough/panels/e04-p01-k2.jpg sha256:b2a00a9d8a70。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-05 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-shadow-0041",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p01-k2-LY-04.png sha256:7d0b110aa461、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p01-k2-LY-07.png sha256:b425467503ce、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p01-k2-LY-08.png sha256:19726432e559、採ったラフ part1/rough/panels/e04-p01-k2.jpg sha256:b2a00a9d8a70。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-06 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-bg-0042",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-04（part1/ink/layers/e04-p01-k2-LY-04.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p01-k2-LY-04.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:5323630d767d）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fig-0043",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-07（part1/ink/layers/e04-p01-k2-LY-07.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p01-k2-LY-07.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:5323630d767d）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fx-0044",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-08（part1/ink/layers/e04-p01-k2-LY-08.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p01-k2-LY-08.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:5323630d767d）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-bgFill-0059",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p02-k1-LY-04.png sha256:9cbb336b5167、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p02-k1-LY-07.png sha256:39c0158d9e67、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p02-k1-LY-08.png sha256:9bb28396272b、採ったラフ part1/rough/panels/e04-p02-k1.jpg sha256:1a32a7de9341。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-03 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-figFill-0060",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p02-k1-LY-04.png sha256:9cbb336b5167、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p02-k1-LY-07.png sha256:39c0158d9e67、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p02-k1-LY-08.png sha256:9bb28396272b、採ったラフ part1/rough/panels/e04-p02-k1.jpg sha256:1a32a7de9341。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-05 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-shadow-0061",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p02-k1-LY-04.png sha256:9cbb336b5167、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p02-k1-LY-07.png sha256:39c0158d9e67、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p02-k1-LY-08.png sha256:9bb28396272b、採ったラフ part1/rough/panels/e04-p02-k1.jpg sha256:1a32a7de9341。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-06 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-bg-0062",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-04（part1/ink/layers/e04-p02-k1-LY-04.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p02-k1-LY-04.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:efce9c11f845）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fig-0063",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-07（part1/ink/layers/e04-p02-k1-LY-07.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p02-k1-LY-07.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:efce9c11f845）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fx-0064",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-08（part1/ink/layers/e04-p02-k1-LY-08.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p02-k1-LY-08.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:efce9c11f845）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-bgFill-0078",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p02-k2-LY-04.png sha256:3ad729dca3a9、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p02-k2-LY-07.png sha256:86dd9233b895、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p02-k2-LY-08.png sha256:1c45c2733a5f、採ったラフ part1/rough/panels/e04-p02-k2.jpg sha256:ea36ef2b8d6a。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-03 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-figFill-0079",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p02-k2-LY-04.png sha256:3ad729dca3a9、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p02-k2-LY-07.png sha256:86dd9233b895、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p02-k2-LY-08.png sha256:1c45c2733a5f、採ったラフ part1/rough/panels/e04-p02-k2.jpg sha256:ea36ef2b8d6a。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-05 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-shadow-0080",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p02-k2-LY-04.png sha256:3ad729dca3a9、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p02-k2-LY-07.png sha256:86dd9233b895、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p02-k2-LY-08.png sha256:1c45c2733a5f、採ったラフ part1/rough/panels/e04-p02-k2.jpg sha256:ea36ef2b8d6a。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-06 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-bg-0081",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-04（part1/ink/layers/e04-p02-k2-LY-04.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p02-k2-LY-04.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:7f300973fc59）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fig-0082",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-07（part1/ink/layers/e04-p02-k2-LY-07.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p02-k2-LY-07.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:7f300973fc59）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fx-0083",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-08（part1/ink/layers/e04-p02-k2-LY-08.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p02-k2-LY-08.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:7f300973fc59）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-bgFill-0098",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p02-k3-LY-04.png sha256:4af3dd6e2443、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p02-k3-LY-07.png sha256:b988c95db508、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p02-k3-LY-08.png sha256:19726432e559、採ったラフ part1/rough/panels/e04-p02-k3.jpg sha256:aa64a80693c8。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-03 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-figFill-0099",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p02-k3-LY-04.png sha256:4af3dd6e2443、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p02-k3-LY-07.png sha256:b988c95db508、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p02-k3-LY-08.png sha256:19726432e559、採ったラフ part1/rough/panels/e04-p02-k3.jpg sha256:aa64a80693c8。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-05 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-shadow-0100",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p02-k3-LY-04.png sha256:4af3dd6e2443、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p02-k3-LY-07.png sha256:b988c95db508、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p02-k3-LY-08.png sha256:19726432e559、採ったラフ part1/rough/panels/e04-p02-k3.jpg sha256:aa64a80693c8。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-06 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-bg-0101",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-04（part1/ink/layers/e04-p02-k3-LY-04.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p02-k3-LY-04.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:fcf1a2f64389）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fig-0102",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-07（part1/ink/layers/e04-p02-k3-LY-07.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p02-k3-LY-07.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:fcf1a2f64389）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fx-0103",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-08（part1/ink/layers/e04-p02-k3-LY-08.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p02-k3-LY-08.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:fcf1a2f64389）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-bgFill-0114",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p03-k1-LY-04.png sha256:22fef9bc2149、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p03-k1-LY-07.png sha256:0cc28b3d2f1d、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p03-k1-LY-08.png sha256:9bb28396272b、採ったラフ part1/rough/panels/e04-p03-k1.jpg sha256:cee392401430。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-03 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-figFill-0115",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p03-k1-LY-04.png sha256:22fef9bc2149、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p03-k1-LY-07.png sha256:0cc28b3d2f1d、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p03-k1-LY-08.png sha256:9bb28396272b、採ったラフ part1/rough/panels/e04-p03-k1.jpg sha256:cee392401430。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-05 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-shadow-0116",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p03-k1-LY-04.png sha256:22fef9bc2149、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p03-k1-LY-07.png sha256:0cc28b3d2f1d、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p03-k1-LY-08.png sha256:9bb28396272b、採ったラフ part1/rough/panels/e04-p03-k1.jpg sha256:cee392401430。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-06 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-bg-0117",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-04（part1/ink/layers/e04-p03-k1-LY-04.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p03-k1-LY-04.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:bb06c085160d）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fig-0118",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-07（part1/ink/layers/e04-p03-k1-LY-07.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p03-k1-LY-07.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:bb06c085160d）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fx-0119",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-08（part1/ink/layers/e04-p03-k1-LY-08.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p03-k1-LY-08.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:bb06c085160d）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-bgFill-0134",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p03-k2-LY-04.png sha256:17bbc2d3520f、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p03-k2-LY-07.png sha256:aa3f2b7c9758、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p03-k2-LY-08.png sha256:1c45c2733a5f、採ったラフ part1/rough/panels/e04-p03-k2.jpg sha256:5ca398819f3c。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-03 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-figFill-0135",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p03-k2-LY-04.png sha256:17bbc2d3520f、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p03-k2-LY-07.png sha256:aa3f2b7c9758、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p03-k2-LY-08.png sha256:1c45c2733a5f、採ったラフ part1/rough/panels/e04-p03-k2.jpg sha256:5ca398819f3c。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-05 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-shadow-0136",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p03-k2-LY-04.png sha256:17bbc2d3520f、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p03-k2-LY-07.png sha256:aa3f2b7c9758、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p03-k2-LY-08.png sha256:1c45c2733a5f、採ったラフ part1/rough/panels/e04-p03-k2.jpg sha256:5ca398819f3c。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-06 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-bg-0137",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-04（part1/ink/layers/e04-p03-k2-LY-04.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p03-k2-LY-04.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:644d28cda18a）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fig-0138",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-07（part1/ink/layers/e04-p03-k2-LY-07.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p03-k2-LY-07.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:644d28cda18a）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fx-0139",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-08（part1/ink/layers/e04-p03-k2-LY-08.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p03-k2-LY-08.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:644d28cda18a）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-bgFill-0150",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p03-k3-LY-04.png sha256:855f633d0cc5、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p03-k3-LY-07.png sha256:f2fc03d54fc2、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p03-k3-LY-08.png sha256:19726432e559、採ったラフ part1/rough/panels/e04-p03-k3.jpg sha256:dadf2ca0ad58。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-03 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-figFill-0151",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p03-k3-LY-04.png sha256:855f633d0cc5、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p03-k3-LY-07.png sha256:f2fc03d54fc2、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p03-k3-LY-08.png sha256:19726432e559、採ったラフ part1/rough/panels/e04-p03-k3.jpg sha256:dadf2ca0ad58。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-05 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-shadow-0152",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p03-k3-LY-04.png sha256:855f633d0cc5、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p03-k3-LY-07.png sha256:f2fc03d54fc2、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p03-k3-LY-08.png sha256:19726432e559、採ったラフ part1/rough/panels/e04-p03-k3.jpg sha256:dadf2ca0ad58。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-06 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-bg-0153",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-04（part1/ink/layers/e04-p03-k3-LY-04.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p03-k3-LY-04.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:edd1a1bfb498）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fig-0154",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-07（part1/ink/layers/e04-p03-k3-LY-07.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p03-k3-LY-07.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:edd1a1bfb498）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fx-0155",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-08（part1/ink/layers/e04-p03-k3-LY-08.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p03-k3-LY-08.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:edd1a1bfb498）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-bgFill-0169",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p04-k1-LY-04.png sha256:acb3156a596d、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p04-k1-LY-07.png sha256:3983904ffa48、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p04-k1-LY-08.png sha256:0b60524335cd、採ったラフ part1/rough/panels/e04-p04-k1.jpg sha256:fc1883efa936。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-03 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-figFill-0170",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p04-k1-LY-04.png sha256:acb3156a596d、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p04-k1-LY-07.png sha256:3983904ffa48、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p04-k1-LY-08.png sha256:0b60524335cd、採ったラフ part1/rough/panels/e04-p04-k1.jpg sha256:fc1883efa936。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-05 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-shadow-0171",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p04-k1-LY-04.png sha256:acb3156a596d、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p04-k1-LY-07.png sha256:3983904ffa48、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p04-k1-LY-08.png sha256:0b60524335cd、採ったラフ part1/rough/panels/e04-p04-k1.jpg sha256:fc1883efa936。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-06 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-bg-0172",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-04（part1/ink/layers/e04-p04-k1-LY-04.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p04-k1-LY-04.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:e6ce3dc3301d）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fig-0173",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-07（part1/ink/layers/e04-p04-k1-LY-07.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p04-k1-LY-07.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:e6ce3dc3301d）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fx-0174",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-08（part1/ink/layers/e04-p04-k1-LY-08.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p04-k1-LY-08.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:e6ce3dc3301d）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-bgFill-0188",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p04-k2-LY-04.png sha256:64182f104fa8、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p04-k2-LY-07.png sha256:3cf65a35cb09、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p04-k2-LY-08.png sha256:0b60524335cd、採ったラフ part1/rough/panels/e04-p04-k2.jpg sha256:b5f71cb507f3。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-03 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-figFill-0189",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p04-k2-LY-04.png sha256:64182f104fa8、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p04-k2-LY-07.png sha256:3cf65a35cb09、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p04-k2-LY-08.png sha256:0b60524335cd、採ったラフ part1/rough/panels/e04-p04-k2.jpg sha256:b5f71cb507f3。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-05 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-shadow-0190",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p04-k2-LY-04.png sha256:64182f104fa8、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p04-k2-LY-07.png sha256:3cf65a35cb09、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p04-k2-LY-08.png sha256:0b60524335cd、採ったラフ part1/rough/panels/e04-p04-k2.jpg sha256:b5f71cb507f3。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-06 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-bg-0191",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-04（part1/ink/layers/e04-p04-k2-LY-04.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p04-k2-LY-04.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:e17fa78669cc）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fig-0192",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-07（part1/ink/layers/e04-p04-k2-LY-07.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p04-k2-LY-07.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:e17fa78669cc）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fx-0193",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-08（part1/ink/layers/e04-p04-k2-LY-08.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p04-k2-LY-08.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:e17fa78669cc）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-bgFill-0204",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p05-k1-LY-04.png sha256:af6915fe22f1、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p05-k1-LY-07.png sha256:4443b50d716c、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p05-k1-LY-08.png sha256:0b60524335cd、採ったラフ part1/rough/panels/e04-p05-k1.jpg sha256:eb13338dc072。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-03 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-figFill-0205",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p05-k1-LY-04.png sha256:af6915fe22f1、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p05-k1-LY-07.png sha256:4443b50d716c、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p05-k1-LY-08.png sha256:0b60524335cd、採ったラフ part1/rough/panels/e04-p05-k1.jpg sha256:eb13338dc072。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-05 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-shadow-0206",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p05-k1-LY-04.png sha256:af6915fe22f1、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p05-k1-LY-07.png sha256:4443b50d716c、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p05-k1-LY-08.png sha256:0b60524335cd、採ったラフ part1/rough/panels/e04-p05-k1.jpg sha256:eb13338dc072。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-06 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-bg-0207",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-04（part1/ink/layers/e04-p05-k1-LY-04.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p05-k1-LY-04.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:1d6f6979dfa4）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fig-0208",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-07（part1/ink/layers/e04-p05-k1-LY-07.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p05-k1-LY-07.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:1d6f6979dfa4）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fx-0209",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-08（part1/ink/layers/e04-p05-k1-LY-08.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p05-k1-LY-08.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:1d6f6979dfa4）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-bgFill-0224",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p05-k2-LY-04.png sha256:8fa2a274aa58、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p05-k2-LY-07.png sha256:decc8bf18e6c、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p05-k2-LY-08.png sha256:0b60524335cd、採ったラフ part1/rough/panels/e04-p05-k2.jpg sha256:6b4b9eb1c4bf。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-03 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-figFill-0225",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p05-k2-LY-04.png sha256:8fa2a274aa58、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p05-k2-LY-07.png sha256:decc8bf18e6c、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p05-k2-LY-08.png sha256:0b60524335cd、採ったラフ part1/rough/panels/e04-p05-k2.jpg sha256:6b4b9eb1c4bf。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-05 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-shadow-0226",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p05-k2-LY-04.png sha256:8fa2a274aa58、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p05-k2-LY-07.png sha256:decc8bf18e6c、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p05-k2-LY-08.png sha256:0b60524335cd、採ったラフ part1/rough/panels/e04-p05-k2.jpg sha256:6b4b9eb1c4bf。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-06 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-bg-0227",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-04（part1/ink/layers/e04-p05-k2-LY-04.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p05-k2-LY-04.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:50c9100cf749）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fig-0228",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-07（part1/ink/layers/e04-p05-k2-LY-07.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p05-k2-LY-07.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:50c9100cf749）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fx-0229",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-08（part1/ink/layers/e04-p05-k2-LY-08.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p05-k2-LY-08.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:50c9100cf749）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-bgFill-0240",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p06-k1-LY-04.png sha256:f38d2fadce25、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p06-k1-LY-07.png sha256:cf0cae22faa6、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p06-k1-LY-08.png sha256:47aa5a41eb12、採ったラフ part1/rough/panels/e04-p06-k1.jpg sha256:9b7fa0b3efbe。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-03 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-figFill-0241",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p06-k1-LY-04.png sha256:f38d2fadce25、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p06-k1-LY-07.png sha256:cf0cae22faa6、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p06-k1-LY-08.png sha256:47aa5a41eb12、採ったラフ part1/rough/panels/e04-p06-k1.jpg sha256:9b7fa0b3efbe。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-05 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-shadow-0242",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p06-k1-LY-04.png sha256:f38d2fadce25、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p06-k1-LY-07.png sha256:cf0cae22faa6、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p06-k1-LY-08.png sha256:47aa5a41eb12、採ったラフ part1/rough/panels/e04-p06-k1.jpg sha256:9b7fa0b3efbe。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-06 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-bg-0243",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-04（part1/ink/layers/e04-p06-k1-LY-04.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p06-k1-LY-04.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:9d3d022be2e7）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fig-0244",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-07（part1/ink/layers/e04-p06-k1-LY-07.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p06-k1-LY-07.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:9d3d022be2e7）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fx-0245",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-08（part1/ink/layers/e04-p06-k1-LY-08.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p06-k1-LY-08.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:9d3d022be2e7）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-bgFill-0259",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p06-k2-LY-04.png sha256:ca5cfff68609、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p06-k2-LY-07.png sha256:23b1026aae53、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p06-k2-LY-08.png sha256:9bb28396272b、採ったラフ part1/rough/panels/e04-p06-k2.jpg sha256:3ff3f8e49d44。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-03 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-figFill-0260",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p06-k2-LY-04.png sha256:ca5cfff68609、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p06-k2-LY-07.png sha256:23b1026aae53、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p06-k2-LY-08.png sha256:9bb28396272b、採ったラフ part1/rough/panels/e04-p06-k2.jpg sha256:3ff3f8e49d44。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-05 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-shadow-0261",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p06-k2-LY-04.png sha256:ca5cfff68609、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p06-k2-LY-07.png sha256:23b1026aae53、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p06-k2-LY-08.png sha256:9bb28396272b、採ったラフ part1/rough/panels/e04-p06-k2.jpg sha256:3ff3f8e49d44。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-06 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-bg-0262",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-04（part1/ink/layers/e04-p06-k2-LY-04.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p06-k2-LY-04.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:71283be8a216）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fig-0263",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-07（part1/ink/layers/e04-p06-k2-LY-07.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p06-k2-LY-07.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:71283be8a216）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fx-0264",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-08（part1/ink/layers/e04-p06-k2-LY-08.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p06-k2-LY-08.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:71283be8a216）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-bgFill-0275",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p07-k1-LY-04.png sha256:afa22db1c4da、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p07-k1-LY-07.png sha256:249d59b9395d、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p07-k1-LY-08.png sha256:571cf0d0c308、採ったラフ part1/rough/panels/e04-p07-k1.jpg sha256:54e2b67d5d98。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-03 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-figFill-0276",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p07-k1-LY-04.png sha256:afa22db1c4da、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p07-k1-LY-07.png sha256:249d59b9395d、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p07-k1-LY-08.png sha256:571cf0d0c308、採ったラフ part1/rough/panels/e04-p07-k1.jpg sha256:54e2b67d5d98。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-05 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-shadow-0277",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p07-k1-LY-04.png sha256:afa22db1c4da、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p07-k1-LY-07.png sha256:249d59b9395d、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p07-k1-LY-08.png sha256:571cf0d0c308、採ったラフ part1/rough/panels/e04-p07-k1.jpg sha256:54e2b67d5d98。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-06 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-bg-0278",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-04（part1/ink/layers/e04-p07-k1-LY-04.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p07-k1-LY-04.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:ee75887c70ca）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fig-0279",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-07（part1/ink/layers/e04-p07-k1-LY-07.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p07-k1-LY-07.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:ee75887c70ca）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fx-0280",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-08（part1/ink/layers/e04-p07-k1-LY-08.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p07-k1-LY-08.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:ee75887c70ca）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-bgFill-0295",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p07-k2-LY-04.png sha256:12d17ce4b8d9、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p07-k2-LY-07.png sha256:4db215eb0c80、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p07-k2-LY-08.png sha256:582c9bc3ad33、採ったラフ part1/rough/panels/e04-p07-k2.jpg sha256:cc3ad73f7c9b。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-03 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-figFill-0296",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p07-k2-LY-04.png sha256:12d17ce4b8d9、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p07-k2-LY-07.png sha256:4db215eb0c80、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p07-k2-LY-08.png sha256:582c9bc3ad33、採ったラフ part1/rough/panels/e04-p07-k2.jpg sha256:cc3ad73f7c9b。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-05 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-shadow-0297",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p07-k2-LY-04.png sha256:12d17ce4b8d9、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p07-k2-LY-07.png sha256:4db215eb0c80、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p07-k2-LY-08.png sha256:582c9bc3ad33、採ったラフ part1/rough/panels/e04-p07-k2.jpg sha256:cc3ad73f7c9b。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-06 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-bg-0298",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-04（part1/ink/layers/e04-p07-k2-LY-04.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p07-k2-LY-04.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:bc1cf5ed9ac8）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fig-0299",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-07（part1/ink/layers/e04-p07-k2-LY-07.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p07-k2-LY-07.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:bc1cf5ed9ac8）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fx-0300",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-08（part1/ink/layers/e04-p07-k2-LY-08.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p07-k2-LY-08.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:bc1cf5ed9ac8）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-bgFill-0315",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p07-k3-LY-04.png sha256:0c037cd37bfd、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p07-k3-LY-07.png sha256:83dbead4eead、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p07-k3-LY-08.png sha256:358988940aac、採ったラフ part1/rough/panels/e04-p07-k3.jpg sha256:6f54ecaa839a。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-03 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-figFill-0316",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p07-k3-LY-04.png sha256:0c037cd37bfd、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p07-k3-LY-07.png sha256:83dbead4eead、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p07-k3-LY-08.png sha256:358988940aac、採ったラフ part1/rough/panels/e04-p07-k3.jpg sha256:6f54ecaa839a。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-05 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-shadow-0317",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p07-k3-LY-04.png sha256:0c037cd37bfd、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p07-k3-LY-07.png sha256:83dbead4eead、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p07-k3-LY-08.png sha256:358988940aac、採ったラフ part1/rough/panels/e04-p07-k3.jpg sha256:6f54ecaa839a。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-06 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-bg-0318",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-04（part1/ink/layers/e04-p07-k3-LY-04.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p07-k3-LY-04.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:147206d93f62）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fig-0319",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-07（part1/ink/layers/e04-p07-k3-LY-07.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p07-k3-LY-07.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:147206d93f62）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fx-0320",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-08（part1/ink/layers/e04-p07-k3-LY-08.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p07-k3-LY-08.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:147206d93f62）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-bgFill-0335",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p08-k1-LY-04.png sha256:63016c95c11b、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p08-k1-LY-07.png sha256:68a8bf427050、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p08-k1-LY-08.png sha256:9bb28396272b、採ったラフ part1/rough/panels/e04-p08-k1.jpg sha256:11315a37c8db。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-03 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-figFill-0336",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p08-k1-LY-04.png sha256:63016c95c11b、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p08-k1-LY-07.png sha256:68a8bf427050、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p08-k1-LY-08.png sha256:9bb28396272b、採ったラフ part1/rough/panels/e04-p08-k1.jpg sha256:11315a37c8db。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-05 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-shadow-0337",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p08-k1-LY-04.png sha256:63016c95c11b、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p08-k1-LY-07.png sha256:68a8bf427050、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p08-k1-LY-08.png sha256:9bb28396272b、採ったラフ part1/rough/panels/e04-p08-k1.jpg sha256:11315a37c8db。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-06 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-bg-0338",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-04（part1/ink/layers/e04-p08-k1-LY-04.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p08-k1-LY-04.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:e2809f1b7fd5）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fig-0339",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-07（part1/ink/layers/e04-p08-k1-LY-07.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p08-k1-LY-07.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:e2809f1b7fd5）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fx-0340",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-08（part1/ink/layers/e04-p08-k1-LY-08.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p08-k1-LY-08.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:e2809f1b7fd5）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-bgFill-0354",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p08-k2-LY-04.png sha256:e48717bc9ad3、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p08-k2-LY-07.png sha256:357fefe2b116、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p08-k2-LY-08.png sha256:1c45c2733a5f、採ったラフ part1/rough/panels/e04-p08-k2.jpg sha256:c5787577913d。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-03 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-figFill-0355",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p08-k2-LY-04.png sha256:e48717bc9ad3、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p08-k2-LY-07.png sha256:357fefe2b116、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p08-k2-LY-08.png sha256:1c45c2733a5f、採ったラフ part1/rough/panels/e04-p08-k2.jpg sha256:c5787577913d。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-05 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-shadow-0356",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p08-k2-LY-04.png sha256:e48717bc9ad3、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p08-k2-LY-07.png sha256:357fefe2b116、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p08-k2-LY-08.png sha256:1c45c2733a5f、採ったラフ part1/rough/panels/e04-p08-k2.jpg sha256:c5787577913d。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-06 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-bg-0357",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-04（part1/ink/layers/e04-p08-k2-LY-04.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p08-k2-LY-04.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:9b0c52badb3e）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fig-0358",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-07（part1/ink/layers/e04-p08-k2-LY-07.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p08-k2-LY-07.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:9b0c52badb3e）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fx-0359",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-08（part1/ink/layers/e04-p08-k2-LY-08.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p08-k2-LY-08.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:9b0c52badb3e）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-bgFill-0370",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p08-k3-LY-04.png sha256:0b0086211c5b、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p08-k3-LY-07.png sha256:e5f61aa7eef5、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p08-k3-LY-08.png sha256:19726432e559、採ったラフ part1/rough/panels/e04-p08-k3.jpg sha256:6ee794677470。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-03 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-figFill-0371",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p08-k3-LY-04.png sha256:0b0086211c5b、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p08-k3-LY-07.png sha256:e5f61aa7eef5、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p08-k3-LY-08.png sha256:19726432e559、採ったラフ part1/rough/panels/e04-p08-k3.jpg sha256:6ee794677470。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-05 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-shadow-0372",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p08-k3-LY-04.png sha256:0b0086211c5b、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p08-k3-LY-07.png sha256:e5f61aa7eef5、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p08-k3-LY-08.png sha256:19726432e559、採ったラフ part1/rough/panels/e04-p08-k3.jpg sha256:6ee794677470。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-06 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-bg-0373",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-04（part1/ink/layers/e04-p08-k3-LY-04.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p08-k3-LY-04.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:69ec5f09c444）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fig-0374",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-07（part1/ink/layers/e04-p08-k3-LY-07.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p08-k3-LY-07.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:69ec5f09c444）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fx-0375",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-08（part1/ink/layers/e04-p08-k3-LY-08.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p08-k3-LY-08.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:69ec5f09c444）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-bgFill-0390",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p09-k1-LY-04.png sha256:2dfcea0f2903、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p09-k1-LY-07.png sha256:e6c57ae4d996、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p09-k1-LY-08.png sha256:47aa5a41eb12、採ったラフ part1/rough/panels/e04-p09-k1.jpg sha256:b53132a7c28c。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-03 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-figFill-0391",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p09-k1-LY-04.png sha256:2dfcea0f2903、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p09-k1-LY-07.png sha256:e6c57ae4d996、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p09-k1-LY-08.png sha256:47aa5a41eb12、採ったラフ part1/rough/panels/e04-p09-k1.jpg sha256:b53132a7c28c。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-05 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-shadow-0392",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p09-k1-LY-04.png sha256:2dfcea0f2903、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p09-k1-LY-07.png sha256:e6c57ae4d996、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p09-k1-LY-08.png sha256:47aa5a41eb12、採ったラフ part1/rough/panels/e04-p09-k1.jpg sha256:b53132a7c28c。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-06 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-bg-0393",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-04（part1/ink/layers/e04-p09-k1-LY-04.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p09-k1-LY-04.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:fae52ab0ba8f）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fig-0394",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-07（part1/ink/layers/e04-p09-k1-LY-07.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p09-k1-LY-07.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:fae52ab0ba8f）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fx-0395",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-08（part1/ink/layers/e04-p09-k1-LY-08.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p09-k1-LY-08.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:fae52ab0ba8f）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-bgFill-0409",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p09-k2-LY-04.png sha256:1abfd420c769、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p09-k2-LY-07.png sha256:8ab8c2c43672、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p09-k2-LY-08.png sha256:9bb28396272b、採ったラフ part1/rough/panels/e04-p09-k2.jpg sha256:a4385108f328。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-03 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-figFill-0410",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p09-k2-LY-04.png sha256:1abfd420c769、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p09-k2-LY-07.png sha256:8ab8c2c43672、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p09-k2-LY-08.png sha256:9bb28396272b、採ったラフ part1/rough/panels/e04-p09-k2.jpg sha256:a4385108f328。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-05 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-shadow-0411",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p09-k2-LY-04.png sha256:1abfd420c769、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p09-k2-LY-07.png sha256:8ab8c2c43672、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p09-k2-LY-08.png sha256:9bb28396272b、採ったラフ part1/rough/panels/e04-p09-k2.jpg sha256:a4385108f328。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-06 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-bg-0412",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-04（part1/ink/layers/e04-p09-k2-LY-04.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p09-k2-LY-04.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:db783679f79e）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fig-0413",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-07（part1/ink/layers/e04-p09-k2-LY-07.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p09-k2-LY-07.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:db783679f79e）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fx-0414",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-08（part1/ink/layers/e04-p09-k2-LY-08.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p09-k2-LY-08.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:db783679f79e）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-bgFill-0425",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p10-k1-LY-04.png sha256:6199f2227f99、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p10-k1-LY-07.png sha256:a5139a311ecc、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p10-k1-LY-08.png sha256:47aa5a41eb12、採ったラフ part1/rough/panels/e04-p10-k1.jpg sha256:111af45c87c6。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-03 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-figFill-0426",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p10-k1-LY-04.png sha256:6199f2227f99、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p10-k1-LY-07.png sha256:a5139a311ecc、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p10-k1-LY-08.png sha256:47aa5a41eb12、採ったラフ part1/rough/panels/e04-p10-k1.jpg sha256:111af45c87c6。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-05 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-shadow-0427",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p10-k1-LY-04.png sha256:6199f2227f99、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p10-k1-LY-07.png sha256:a5139a311ecc、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p10-k1-LY-08.png sha256:47aa5a41eb12、採ったラフ part1/rough/panels/e04-p10-k1.jpg sha256:111af45c87c6。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-06 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-bg-0428",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-04（part1/ink/layers/e04-p10-k1-LY-04.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p10-k1-LY-04.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:0287418b16e7）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fig-0429",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-07（part1/ink/layers/e04-p10-k1-LY-07.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p10-k1-LY-07.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:0287418b16e7）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fx-0430",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-08（part1/ink/layers/e04-p10-k1-LY-08.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p10-k1-LY-08.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:0287418b16e7）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-bgFill-0445",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p10-k2-LY-04.png sha256:bc4bd31b12e7、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p10-k2-LY-07.png sha256:ff6ab6d469dd、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p10-k2-LY-08.png sha256:9bb28396272b、採ったラフ part1/rough/panels/e04-p10-k2.jpg sha256:63bdd2173cff。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-03 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-figFill-0446",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p10-k2-LY-04.png sha256:bc4bd31b12e7、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p10-k2-LY-07.png sha256:ff6ab6d469dd、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p10-k2-LY-08.png sha256:9bb28396272b、採ったラフ part1/rough/panels/e04-p10-k2.jpg sha256:63bdd2173cff。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-05 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-shadow-0447",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p10-k2-LY-04.png sha256:bc4bd31b12e7、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p10-k2-LY-07.png sha256:ff6ab6d469dd、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p10-k2-LY-08.png sha256:9bb28396272b、採ったラフ part1/rough/panels/e04-p10-k2.jpg sha256:63bdd2173cff。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-06 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-bg-0448",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-04（part1/ink/layers/e04-p10-k2-LY-04.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p10-k2-LY-04.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:a3131e051a65）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fig-0449",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-07（part1/ink/layers/e04-p10-k2-LY-07.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p10-k2-LY-07.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:a3131e051a65）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fx-0450",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-08（part1/ink/layers/e04-p10-k2-LY-08.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p10-k2-LY-08.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:a3131e051a65）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-bgFill-0464",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p11-k1-LY-04.png sha256:6af6777bad61、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p11-k1-LY-07.png sha256:aafb267e489e、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p11-k1-LY-08.png sha256:47aa5a41eb12、採ったラフ part1/rough/panels/e04-p11-k1.jpg sha256:eeb18952a80c。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-03 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-figFill-0465",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p11-k1-LY-04.png sha256:6af6777bad61、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p11-k1-LY-07.png sha256:aafb267e489e、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p11-k1-LY-08.png sha256:47aa5a41eb12、採ったラフ part1/rough/panels/e04-p11-k1.jpg sha256:eeb18952a80c。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-05 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-shadow-0466",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p11-k1-LY-04.png sha256:6af6777bad61、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p11-k1-LY-07.png sha256:aafb267e489e、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p11-k1-LY-08.png sha256:47aa5a41eb12、採ったラフ part1/rough/panels/e04-p11-k1.jpg sha256:eeb18952a80c。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-06 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-bg-0467",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-04（part1/ink/layers/e04-p11-k1-LY-04.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p11-k1-LY-04.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:80ebf63589df）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fig-0468",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-07（part1/ink/layers/e04-p11-k1-LY-07.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p11-k1-LY-07.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:80ebf63589df）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fx-0469",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-08（part1/ink/layers/e04-p11-k1-LY-08.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p11-k1-LY-08.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:80ebf63589df）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-bgFill-0480",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p11-k2-LY-04.png sha256:09479c7058ad、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p11-k2-LY-07.png sha256:7f65084bf231、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p11-k2-LY-08.png sha256:9bb28396272b、採ったラフ part1/rough/panels/e04-p11-k2.jpg sha256:4d81b9b504b3。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-03 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-figFill-0481",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p11-k2-LY-04.png sha256:09479c7058ad、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p11-k2-LY-07.png sha256:7f65084bf231、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p11-k2-LY-08.png sha256:9bb28396272b、採ったラフ part1/rough/panels/e04-p11-k2.jpg sha256:4d81b9b504b3。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-05 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-shadow-0482",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p11-k2-LY-04.png sha256:09479c7058ad、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p11-k2-LY-07.png sha256:7f65084bf231、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p11-k2-LY-08.png sha256:9bb28396272b、採ったラフ part1/rough/panels/e04-p11-k2.jpg sha256:4d81b9b504b3。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-06 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-bg-0483",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-04（part1/ink/layers/e04-p11-k2-LY-04.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p11-k2-LY-04.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:7b677e0c5b53）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fig-0484",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-07（part1/ink/layers/e04-p11-k2-LY-07.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p11-k2-LY-07.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:7b677e0c5b53）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fx-0485",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-08（part1/ink/layers/e04-p11-k2-LY-08.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p11-k2-LY-08.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:7b677e0c5b53）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-bgFill-0496",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p12-k1-LY-04.png sha256:864fd27f38a3、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p12-k1-LY-07.png sha256:737745543c32、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p12-k1-LY-08.png sha256:47aa5a41eb12、採ったラフ part1/rough/panels/e04-p12-k1.jpg sha256:b62c1c9707ae。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-03 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-figFill-0497",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p12-k1-LY-04.png sha256:864fd27f38a3、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p12-k1-LY-07.png sha256:737745543c32、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p12-k1-LY-08.png sha256:47aa5a41eb12、採ったラフ part1/rough/panels/e04-p12-k1.jpg sha256:b62c1c9707ae。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-05 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-shadow-0498",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p12-k1-LY-04.png sha256:864fd27f38a3、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p12-k1-LY-07.png sha256:737745543c32、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p12-k1-LY-08.png sha256:47aa5a41eb12、採ったラフ part1/rough/panels/e04-p12-k1.jpg sha256:b62c1c9707ae。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-06 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-bg-0499",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-04（part1/ink/layers/e04-p12-k1-LY-04.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p12-k1-LY-04.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:d61720be2568）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fig-0500",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-07（part1/ink/layers/e04-p12-k1-LY-07.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p12-k1-LY-07.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:d61720be2568）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fx-0501",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-08（part1/ink/layers/e04-p12-k1-LY-08.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p12-k1-LY-08.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:d61720be2568）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-bgFill-0522",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p12-k2-LY-04.png sha256:7e998204f3ce、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p12-k2-LY-07.png sha256:0c849cb9563f、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p12-k2-LY-08.png sha256:9bb28396272b、採ったラフ part1/rough/panels/e04-p12-k2.jpg sha256:3a6e3b233ec4。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-03 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-figFill-0523",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p12-k2-LY-04.png sha256:7e998204f3ce、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p12-k2-LY-07.png sha256:0c849cb9563f、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p12-k2-LY-08.png sha256:9bb28396272b、採ったラフ part1/rough/panels/e04-p12-k2.jpg sha256:3a6e3b233ec4。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-05 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-shadow-0524",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p12-k2-LY-04.png sha256:7e998204f3ce、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p12-k2-LY-07.png sha256:0c849cb9563f、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p12-k2-LY-08.png sha256:9bb28396272b、採ったラフ part1/rough/panels/e04-p12-k2.jpg sha256:3a6e3b233ec4。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-06 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-bg-0525",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-04（part1/ink/layers/e04-p12-k2-LY-04.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p12-k2-LY-04.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:d56a4165206b）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fig-0526",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-07（part1/ink/layers/e04-p12-k2-LY-07.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p12-k2-LY-07.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:d56a4165206b）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fx-0527",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-08（part1/ink/layers/e04-p12-k2-LY-08.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p12-k2-LY-08.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:d56a4165206b）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-bgFill-0541",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p13-k1-LY-04.png sha256:0d05b37d2640、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p13-k1-LY-07.png sha256:e695046757e6、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p13-k1-LY-08.png sha256:0b60524335cd、採ったラフ part1/rough/panels/e04-p13-k1.jpg sha256:19521f80154b。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-03 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-figFill-0542",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p13-k1-LY-04.png sha256:0d05b37d2640、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p13-k1-LY-07.png sha256:e695046757e6、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p13-k1-LY-08.png sha256:0b60524335cd、採ったラフ part1/rough/panels/e04-p13-k1.jpg sha256:19521f80154b。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-05 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-shadow-0543",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p13-k1-LY-04.png sha256:0d05b37d2640、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p13-k1-LY-07.png sha256:e695046757e6、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p13-k1-LY-08.png sha256:0b60524335cd、採ったラフ part1/rough/panels/e04-p13-k1.jpg sha256:19521f80154b。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-06 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-bg-0544",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-04（part1/ink/layers/e04-p13-k1-LY-04.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p13-k1-LY-04.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:222f3ec7bacb）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fig-0545",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-07（part1/ink/layers/e04-p13-k1-LY-07.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p13-k1-LY-07.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:222f3ec7bacb）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fx-0546",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-08（part1/ink/layers/e04-p13-k1-LY-08.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p13-k1-LY-08.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:222f3ec7bacb）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-bgFill-0557",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p13-k2-LY-04.png sha256:c31767479d29、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p13-k2-LY-07.png sha256:887e8136dc15、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p13-k2-LY-08.png sha256:0b60524335cd、採ったラフ part1/rough/panels/e04-p13-k2.jpg sha256:8f08cce439e5。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-03 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-figFill-0558",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p13-k2-LY-04.png sha256:c31767479d29、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p13-k2-LY-07.png sha256:887e8136dc15、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p13-k2-LY-08.png sha256:0b60524335cd、採ったラフ part1/rough/panels/e04-p13-k2.jpg sha256:8f08cce439e5。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-05 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-shadow-0559",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p13-k2-LY-04.png sha256:c31767479d29、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p13-k2-LY-07.png sha256:887e8136dc15、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p13-k2-LY-08.png sha256:0b60524335cd、採ったラフ part1/rough/panels/e04-p13-k2.jpg sha256:8f08cce439e5。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-06 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-bg-0560",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-04（part1/ink/layers/e04-p13-k2-LY-04.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p13-k2-LY-04.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:792bfb85064b）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fig-0561",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-07（part1/ink/layers/e04-p13-k2-LY-07.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p13-k2-LY-07.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:792bfb85064b）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fx-0562",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-08（part1/ink/layers/e04-p13-k2-LY-08.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p13-k2-LY-08.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:792bfb85064b）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-bgFill-0576",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p14-k1-LY-04.png sha256:8914f05ce708、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p14-k1-LY-07.png sha256:07d31c26b86d、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p14-k1-LY-08.png sha256:47aa5a41eb12、採ったラフ part1/rough/panels/e04-p14-k1.jpg sha256:ba4006c6497b。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-03 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-figFill-0577",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p14-k1-LY-04.png sha256:8914f05ce708、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p14-k1-LY-07.png sha256:07d31c26b86d、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p14-k1-LY-08.png sha256:47aa5a41eb12、採ったラフ part1/rough/panels/e04-p14-k1.jpg sha256:ba4006c6497b。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-05 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-shadow-0578",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p14-k1-LY-04.png sha256:8914f05ce708、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p14-k1-LY-07.png sha256:07d31c26b86d、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p14-k1-LY-08.png sha256:47aa5a41eb12、採ったラフ part1/rough/panels/e04-p14-k1.jpg sha256:ba4006c6497b。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-06 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-bg-0579",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-04（part1/ink/layers/e04-p14-k1-LY-04.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p14-k1-LY-04.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:5febe0bd8ed7）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fig-0580",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-07（part1/ink/layers/e04-p14-k1-LY-07.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p14-k1-LY-07.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:5febe0bd8ed7）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fx-0581",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-08（part1/ink/layers/e04-p14-k1-LY-08.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p14-k1-LY-08.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:5febe0bd8ed7）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-bgFill-0602",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p14-k2-LY-04.png sha256:34ebf23d8ee7、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p14-k2-LY-07.png sha256:1c8e9a5a405c、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p14-k2-LY-08.png sha256:9bb28396272b、採ったラフ part1/rough/panels/e04-p14-k2.jpg sha256:b490d4e067e2。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-03 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-figFill-0603",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p14-k2-LY-04.png sha256:34ebf23d8ee7、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p14-k2-LY-07.png sha256:1c8e9a5a405c、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p14-k2-LY-08.png sha256:9bb28396272b、採ったラフ part1/rough/panels/e04-p14-k2.jpg sha256:b490d4e067e2。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-05 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-shadow-0604",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p14-k2-LY-04.png sha256:34ebf23d8ee7、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p14-k2-LY-07.png sha256:1c8e9a5a405c、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p14-k2-LY-08.png sha256:9bb28396272b、採ったラフ part1/rough/panels/e04-p14-k2.jpg sha256:b490d4e067e2。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-06 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-bg-0605",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-04（part1/ink/layers/e04-p14-k2-LY-04.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p14-k2-LY-04.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:e46018bd1ed4）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fig-0606",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-07（part1/ink/layers/e04-p14-k2-LY-07.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p14-k2-LY-07.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:e46018bd1ed4）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fx-0607",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-08（part1/ink/layers/e04-p14-k2-LY-08.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p14-k2-LY-08.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:e46018bd1ed4）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-bgFill-0618",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p15-k1-LY-04.png sha256:6a65663dc6e9、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p15-k1-LY-07.png sha256:9ba4e28a091b、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p15-k1-LY-08.png sha256:9bb28396272b、採ったラフ part1/rough/panels/e04-p15-k1.jpg sha256:66ed00683b01。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-03 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-figFill-0619",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p15-k1-LY-04.png sha256:6a65663dc6e9、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p15-k1-LY-07.png sha256:9ba4e28a091b、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p15-k1-LY-08.png sha256:9bb28396272b、採ったラフ part1/rough/panels/e04-p15-k1.jpg sha256:66ed00683b01。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-05 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-shadow-0620",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p15-k1-LY-04.png sha256:6a65663dc6e9、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p15-k1-LY-07.png sha256:9ba4e28a091b、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p15-k1-LY-08.png sha256:9bb28396272b、採ったラフ part1/rough/panels/e04-p15-k1.jpg sha256:66ed00683b01。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-06 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-bg-0621",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-04（part1/ink/layers/e04-p15-k1-LY-04.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p15-k1-LY-04.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:20e8f22ed07b）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fig-0622",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-07（part1/ink/layers/e04-p15-k1-LY-07.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p15-k1-LY-07.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:20e8f22ed07b）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fx-0623",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-08（part1/ink/layers/e04-p15-k1-LY-08.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p15-k1-LY-08.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:20e8f22ed07b）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-bgFill-0634",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p15-k2-LY-04.png sha256:6f7305ede242、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p15-k2-LY-07.png sha256:bb4db8dde8fc、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p15-k2-LY-08.png sha256:1c45c2733a5f、採ったラフ part1/rough/panels/e04-p15-k2.jpg sha256:910f0640df50。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-03 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-figFill-0635",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p15-k2-LY-04.png sha256:6f7305ede242、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p15-k2-LY-07.png sha256:bb4db8dde8fc、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p15-k2-LY-08.png sha256:1c45c2733a5f、採ったラフ part1/rough/panels/e04-p15-k2.jpg sha256:910f0640df50。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-05 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-shadow-0636",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p15-k2-LY-04.png sha256:6f7305ede242、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p15-k2-LY-07.png sha256:bb4db8dde8fc、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p15-k2-LY-08.png sha256:1c45c2733a5f、採ったラフ part1/rough/panels/e04-p15-k2.jpg sha256:910f0640df50。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-06 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-bg-0637",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-04（part1/ink/layers/e04-p15-k2-LY-04.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p15-k2-LY-04.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:10643aa0b1c3）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fig-0638",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-07（part1/ink/layers/e04-p15-k2-LY-07.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p15-k2-LY-07.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:10643aa0b1c3）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fx-0639",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-08（part1/ink/layers/e04-p15-k2-LY-08.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p15-k2-LY-08.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:10643aa0b1c3）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-bgFill-0654",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p15-k3-LY-04.png sha256:6fbc837d3ac9、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p15-k3-LY-07.png sha256:8a52680840e6、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p15-k3-LY-08.png sha256:19726432e559、採ったラフ part1/rough/panels/e04-p15-k3.jpg sha256:3fac1a93afc6。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-03 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-figFill-0655",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p15-k3-LY-04.png sha256:6fbc837d3ac9、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p15-k3-LY-07.png sha256:8a52680840e6、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p15-k3-LY-08.png sha256:19726432e559、採ったラフ part1/rough/panels/e04-p15-k3.jpg sha256:3fac1a93afc6。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-05 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-shadow-0656",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p15-k3-LY-04.png sha256:6fbc837d3ac9、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p15-k3-LY-07.png sha256:8a52680840e6、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p15-k3-LY-08.png sha256:19726432e559、採ったラフ part1/rough/panels/e04-p15-k3.jpg sha256:3fac1a93afc6。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-06 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-bg-0657",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-04（part1/ink/layers/e04-p15-k3-LY-04.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p15-k3-LY-04.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:f4c241a919df）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fig-0658",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-07（part1/ink/layers/e04-p15-k3-LY-07.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p15-k3-LY-07.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:f4c241a919df）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fx-0659",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-08（part1/ink/layers/e04-p15-k3-LY-08.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p15-k3-LY-08.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:f4c241a919df）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-bgFill-0670",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p16-k1-LY-04.png sha256:2555bb41c836、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p16-k1-LY-07.png sha256:eae8c9c261f8、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p16-k1-LY-08.png sha256:0b60524335cd、採ったラフ part1/rough/panels/e04-p16-k1.jpg sha256:1c9fd28ab6af。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-03 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-figFill-0671",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p16-k1-LY-04.png sha256:2555bb41c836、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p16-k1-LY-07.png sha256:eae8c9c261f8、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p16-k1-LY-08.png sha256:0b60524335cd、採ったラフ part1/rough/panels/e04-p16-k1.jpg sha256:1c9fd28ab6af。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-05 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-shadow-0672",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p16-k1-LY-04.png sha256:2555bb41c836、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p16-k1-LY-07.png sha256:eae8c9c261f8、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p16-k1-LY-08.png sha256:0b60524335cd、採ったラフ part1/rough/panels/e04-p16-k1.jpg sha256:1c9fd28ab6af。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-06 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-bg-0673",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-04（part1/ink/layers/e04-p16-k1-LY-04.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p16-k1-LY-04.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:0285096d8573）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fig-0674",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-07（part1/ink/layers/e04-p16-k1-LY-07.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p16-k1-LY-07.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:0285096d8573）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fx-0675",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-08（part1/ink/layers/e04-p16-k1-LY-08.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p16-k1-LY-08.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:0285096d8573）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-bgFill-0689",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p16-k2-LY-04.png sha256:977d4917be92、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p16-k2-LY-07.png sha256:272bd6f1ac65、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p16-k2-LY-08.png sha256:0b60524335cd、採ったラフ part1/rough/panels/e04-p16-k2.jpg sha256:764d456c282a。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-03 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-figFill-0690",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p16-k2-LY-04.png sha256:977d4917be92、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p16-k2-LY-07.png sha256:272bd6f1ac65、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p16-k2-LY-08.png sha256:0b60524335cd、採ったラフ part1/rough/panels/e04-p16-k2.jpg sha256:764d456c282a。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-05 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "finish-shadow-0691",
+   "source": "no image generation: grey tones from the accepted rough (part1/finish/src/finish-mono.py)。もと：gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p16-k2-LY-04.png sha256:977d4917be92、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p16-k2-LY-07.png sha256:272bd6f1ac65、gm1-ep04-ink@ink-ep04-v1 の線画 part1/ink/layers/e04-p16-k2-LY-08.png sha256:0b60524335cd、採ったラフ part1/rough/panels/e04-p16-k2.jpg sha256:764d456c282a。ラフを線画へ合わせ（オプティカルフロー）、ぼかして濃さを領域ごとに段階のトーンにし、LY-06 を取り出した",
+   "license": "この仕上げのための画像生成は無い。もとにしたラフと線画は OpenAI の生成画像（Codex）で、利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-bg-0692",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-04（part1/ink/layers/e04-p16-k2-LY-04.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p16-k2-LY-04.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:80c2f3d02386）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fig-0693",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-07（part1/ink/layers/e04-p16-k2-LY-07.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p16-k2-LY-07.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:80c2f3d02386）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  },
+  {
+   "elementId": "ink-fx-0694",
+   "source": "gm1-ep04-ink@ink-ep04-v1 の LY-08（part1/ink/layers/e04-p16-k2-LY-08.png を同じ画素のまま可逆の WebP にした写し part1/finish/lines/e04-p16-k2-LY-08.webp。Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、生の出力 sha256:80c2f3d02386）",
+   "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
+  }
+ ],
+ "diagnostics": [
+  {
+   "code": "raster-pdf",
+   "severity": "warning",
+   "message": "PNG/PDF are derived raster representations; native editing, annotations, typography and vector fidelity are not preserved. Vertical text and ruby are unsupported."
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0008",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0015",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0030",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0038",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0045",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0050",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0058",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0065",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0069",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0077",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0084",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0089",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0097",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0104",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0105",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0113",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0120",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0125",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0133",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0140",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0141",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0149",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0156",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0160",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0168",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0175",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0179",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0187",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0194",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0195",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0203",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0210",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0215",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0223",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0230",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0231",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0239",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0246",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0250",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0258",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0265",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0266",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0274",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0281",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0286",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0294",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0301",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0306",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0314",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0321",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0326",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0334",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0341",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0345",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0353",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0360",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0361",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0369",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0376",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0381",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0389",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0396",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0400",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0408",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0415",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0416",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0424",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0431",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0436",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0444",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0451",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0455",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0463",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0470",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0471",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0479",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0486",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0487",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0495",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0502",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0513",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0521",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0528",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0532",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0540",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0547",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0548",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0556",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0563",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0567",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0575",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0582",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0593",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0601",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0608",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0609",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0617",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0624",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0625",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0633",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0640",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0645",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0653",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0660",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0661",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0669",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0676",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0680",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "layer-memo-0688",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0695",
+   "message": "Hidden element is omitted"
+  },
+  {
+   "code": "hidden",
+   "severity": "warning",
+   "elementId": "tx-0699",
+   "message": "Hidden element is omitted"
+  }
+ ]
+}
