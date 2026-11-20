@@ -112,3 +112,25 @@ GM_OUT=/tmp/read npx vitest run apps/artifact-host/src/creative/story-board/gull
 cp part1/read/*.ts part1/name/gulliver-ep0{1,2,3}-name.ts part1/script/gulliver-part1-script.ts $SB/
 GM_OUT=/tmp/read npx vitest run apps/artifact-host/src/creative/story-board/gulliver-ep03-read.build.test.ts
 ```
+
+# 第4話「火事」通読
+
+`gm1-ep04-read`（編集の記録）と `gm1-ep04-read-findings`（指摘の表）。読んだ版は `gm1-ep04-finish@finish-ep04-v1`（コミット b7bc2633、PR #23 のマージ、白黒）。ページは `../finish/ep04/pages/`。判断は作者の判断待ち。
+
+| 指摘 | 対象 | 提案 |
+| --- | --- | --- |
+| RV-e04-01 皇帝の顔の濃さがコマで違う | 1-2 8-3 | 直す（仕上げ） |
+| RV-e04-02 ささやく相手が部屋の反対側 | 5-1 | 直す（ラフから） |
+| RV-e04-03 二人が離れ、上半分が白い壁 | 4-2 | 直す（ラフから） |
+| RV-e04-04 建物の上に立って見える | 12-1 | 直す（線画から） |
+| RV-e04-05 ナレーションが靴を隠す | 12-2 | 直す（写植） |
+| RV-e04-06 皇后と侍女が小さく、右半分が壁 | 15-3 | 直す（ラフから） |
+| RV-e04-07 背景の建物が彼より大きい | 16-1 | 直す（線画から） |
+| RV-e04-08 夜空の白いしみ | 13-1 | 直す（仕上げ、`FLAT_BG`） |
+| RV-e04-09 周りが地面と空だけ | 9-2 | 意図として残す |
+| RV-e04-10 人のいない壁と屋根のコマ | 14-2 15-1 | 意図として残す |
+
+```sh
+cp part1/read/*.ts part1/name/gulliver-ep04-name.ts part1/script/gulliver-part1-script.ts $SB/
+GM_OUT=/tmp/read npx vitest run apps/artifact-host/src/creative/story-board/gulliver-ep04-read.build.test.ts
+```
