@@ -693,29 +693,29 @@
    "refs": [
     {
      "path": "part1/rough/panels/e04-p04-k2.jpg",
-     "commit": "af6ea506d301babf365cb185fda4cbd2d38f5296",
+     "commit": "1a044b3af26f0bc39d7d3f7191210130a5ddcf29",
      "sha256": "4dff5b56a20430923f0925af462051ab65a0aae6e2906e033726da45b1e9cbdd"
     },
     {
      "path": "part1/name/stage/underlay/e04-p04-k2.jpg",
-     "commit": "af6ea506d301babf365cb185fda4cbd2d38f5296",
+     "commit": "1a044b3af26f0bc39d7d3f7191210130a5ddcf29",
      "sha256": "0da9e7fa85841fd3d7500d2f23494eee3a1729833c12432a7c4f1cccd081339f"
     },
     {
      "path": "part1/codex/ch04-flimnap/ch04-flimnap-raw.png",
-     "commit": "af6ea506d301babf365cb185fda4cbd2d38f5296",
+     "commit": "1a044b3af26f0bc39d7d3f7191210130a5ddcf29",
      "sha256": "12fa65f6a12c7b3add039a2d972d596eb2beb72d006f73475001884113c57495"
     },
     {
      "path": "part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png",
-     "commit": "af6ea506d301babf365cb185fda4cbd2d38f5296",
+     "commit": "1a044b3af26f0bc39d7d3f7191210130a5ddcf29",
      "sha256": "ded968d6ef87216ffa6a903d0b53cc9747bd4caa5dd65b1ab245ef33786d5dcf"
     }
    ],
    "revision": {
     "finding": "RV-e04-03",
     "date": "2026-11-20",
-    "previousRawSha256": "e17fa78669ccd3f6cdcb527ba456b8e800fd4125d632f39ce9778459631b2043"
+    "previousRawSha256": "2f1ec2a8ce33db8b1ede8ce8355ce25b0ac0e18d641e8ba844084fa347612e32"
    }
   },
   "e04-p05-k1": {
@@ -766,29 +766,29 @@
    "refs": [
     {
      "path": "part1/rough/panels/e04-p05-k1.jpg",
-     "commit": "af6ea506d301babf365cb185fda4cbd2d38f5296",
+     "commit": "1a044b3af26f0bc39d7d3f7191210130a5ddcf29",
      "sha256": "5f38bebd09f96ebccef60d6da2f593d64d038f1f400609a1672be3326fd5364b"
     },
     {
      "path": "part1/name/stage/underlay/e04-p05-k1.jpg",
-     "commit": "af6ea506d301babf365cb185fda4cbd2d38f5296",
+     "commit": "1a044b3af26f0bc39d7d3f7191210130a5ddcf29",
      "sha256": "40d2ad1795ccc43a1b9a7043f138f0c69436f23af6c0e4fd022f09fc2f7ceda1"
     },
     {
      "path": "part1/codex/ch04-flimnap/ch04-flimnap-raw.png",
-     "commit": "af6ea506d301babf365cb185fda4cbd2d38f5296",
+     "commit": "1a044b3af26f0bc39d7d3f7191210130a5ddcf29",
      "sha256": "12fa65f6a12c7b3add039a2d972d596eb2beb72d006f73475001884113c57495"
     },
     {
      "path": "part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png",
-     "commit": "af6ea506d301babf365cb185fda4cbd2d38f5296",
+     "commit": "1a044b3af26f0bc39d7d3f7191210130a5ddcf29",
      "sha256": "ded968d6ef87216ffa6a903d0b53cc9747bd4caa5dd65b1ab245ef33786d5dcf"
     }
    ],
    "revision": {
     "finding": "RV-e04-02",
     "date": "2026-11-20",
-    "previousRawSha256": "1d6f6979dfa498e6cda14361a473f1b852d9430f0b57b53bea2877eb446e1354"
+    "previousRawSha256": "1d2721f58d1e39733ea936df1a0806fef764b78ae7b9e4e25f76f0cebb6b000d"
    }
   },
   "e04-p05-k2": {
@@ -1854,24 +1854,24 @@
    "refs": [
     {
      "path": "part1/rough/panels/e04-p12-k1.jpg",
-     "commit": "af6ea506d301babf365cb185fda4cbd2d38f5296",
+     "commit": "1a044b3af26f0bc39d7d3f7191210130a5ddcf29",
      "sha256": "ccf059186cc961985d69f43ed49b84452f0fdb47ed0fbb4067efe3ada2eefca9"
     },
     {
      "path": "part1/name/stage/underlay/e04-p12-k1.jpg",
-     "commit": "af6ea506d301babf365cb185fda4cbd2d38f5296",
+     "commit": "1a044b3af26f0bc39d7d3f7191210130a5ddcf29",
      "sha256": "16a600c1d5f25ee523db031bc4ab15dbc4739a604b3564892894485cbd2b5e33"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "af6ea506d301babf365cb185fda4cbd2d38f5296",
+     "commit": "1a044b3af26f0bc39d7d3f7191210130a5ddcf29",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
    ],
    "revision": {
     "finding": "RV-e04-04",
     "date": "2026-11-20",
-    "previousRawSha256": "d61720be256882be71ffb3b6b3f84d75db349aa66ffc6a631f4ce27f6423ebec"
+    "previousRawSha256": "0d4b88321728b43093bea9a77608c7122b7dc5070ebf19eac393b3039af0dc2f"
    }
   },
   "e04-p12-k2": {
@@ -2353,34 +2353,34 @@
    "refs": [
     {
      "path": "part1/rough/panels/e04-p15-k3.jpg",
-     "commit": "af6ea506d301babf365cb185fda4cbd2d38f5296",
+     "commit": "1a044b3af26f0bc39d7d3f7191210130a5ddcf29",
      "sha256": "0e651f2b3da81ac518ac67366da66448ea6b70bd1df386f47ceb231b4d8c5fd8"
     },
     {
      "path": "part1/name/stage/underlay/e04-p15-k3.jpg",
-     "commit": "af6ea506d301babf365cb185fda4cbd2d38f5296",
+     "commit": "1a044b3af26f0bc39d7d3f7191210130a5ddcf29",
      "sha256": "b0643dd5493245fdb360fb23b554f0f7a6f8c6138825f0dedca63d3b842eca02"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "af6ea506d301babf365cb185fda4cbd2d38f5296",
+     "commit": "1a044b3af26f0bc39d7d3f7191210130a5ddcf29",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     },
     {
      "path": "part1/codex/ch03-empress/ch03-empress-raw.png",
-     "commit": "af6ea506d301babf365cb185fda4cbd2d38f5296",
+     "commit": "1a044b3af26f0bc39d7d3f7191210130a5ddcf29",
      "sha256": "14a89aa3dc1dbeeae666a3be9960c634951f0a4d1d8cbcd976314490953e8b69"
     },
     {
      "path": "part1/codex/lilliputian-front/lilliputian-front-raw.png",
-     "commit": "af6ea506d301babf365cb185fda4cbd2d38f5296",
+     "commit": "1a044b3af26f0bc39d7d3f7191210130a5ddcf29",
      "sha256": "fde2075b3ef577c39c7ad5c87969e090df3c0ddbdc5f7c7f5e9ce298e018d37f"
     }
    ],
    "revision": {
     "finding": "RV-e04-06",
     "date": "2026-11-20",
-    "previousRawSha256": "f4c241a919dff9b2a8c86bf2ed111552697ecffcbb1291ff0226fbee5d41e713"
+    "previousRawSha256": "6ec432d1567cd936a5798170fc87407137c2c4600a885d1d2d35678da83c002f"
    }
   },
   "e04-p16-k1": {
@@ -2431,24 +2431,24 @@
    "refs": [
     {
      "path": "part1/rough/panels/e04-p16-k1.jpg",
-     "commit": "af6ea506d301babf365cb185fda4cbd2d38f5296",
+     "commit": "1a044b3af26f0bc39d7d3f7191210130a5ddcf29",
      "sha256": "8fc1be9d594301c1b935a0067db260ea4a472d03bfcfe3b74c3cbb82bbd0fba5"
     },
     {
      "path": "part1/name/stage/underlay/e04-p16-k1.jpg",
-     "commit": "af6ea506d301babf365cb185fda4cbd2d38f5296",
+     "commit": "1a044b3af26f0bc39d7d3f7191210130a5ddcf29",
      "sha256": "348ad2be0119ca63087a7d3a1cda4ecbcd705304da388d3057b5b118dd680a66"
     },
     {
      "path": "part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png",
-     "commit": "af6ea506d301babf365cb185fda4cbd2d38f5296",
+     "commit": "1a044b3af26f0bc39d7d3f7191210130a5ddcf29",
      "sha256": "0bf9ffde718355e52d656f1553171267851949723fc16313e45dab236c268237"
     }
    ],
    "revision": {
     "finding": "RV-e04-07",
     "date": "2026-11-20",
-    "previousRawSha256": "0285096d85737281042c5df5fbc4c4027b6c5d093abc89d641b6b6da994a941c"
+    "previousRawSha256": "8d64bdcfead2db14e72f596a4f07c3cd506401366418b2e57522ce5235e81727"
    }
   },
   "e04-p16-k2": {

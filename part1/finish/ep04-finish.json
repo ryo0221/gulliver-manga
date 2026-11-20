@@ -708,12 +708,12 @@
    "refs": [
     {
      "path": "part1/ink/layers/e04-p04-k2-LY-04.png",
-     "commit": "af6ea506d301babf365cb185fda4cbd2d38f5296",
+     "commit": "1a044b3af26f0bc39d7d3f7191210130a5ddcf29",
      "sha256": "4bbc9c28ae791f0c5a1c19e4051ce2076b98783d36e7a9092852f220e8c455bd"
     },
     {
      "path": "part1/ink/layers/e04-p04-k2-LY-07.png",
-     "commit": "af6ea506d301babf365cb185fda4cbd2d38f5296",
+     "commit": "1a044b3af26f0bc39d7d3f7191210130a5ddcf29",
      "sha256": "6e38d3ce8969132804685de4d7a69a56c90d181302a9642114adf9c57219260e"
     },
     {
@@ -723,7 +723,7 @@
     },
     {
      "path": "part1/rough/panels/e04-p04-k2.jpg",
-     "commit": "af6ea506d301babf365cb185fda4cbd2d38f5296",
+     "commit": "1a044b3af26f0bc39d7d3f7191210130a5ddcf29",
      "sha256": "4dff5b56a20430923f0925af462051ab65a0aae6e2906e033726da45b1e9cbdd"
     }
    ],
@@ -782,12 +782,12 @@
    "refs": [
     {
      "path": "part1/ink/layers/e04-p05-k1-LY-04.png",
-     "commit": "af6ea506d301babf365cb185fda4cbd2d38f5296",
+     "commit": "1a044b3af26f0bc39d7d3f7191210130a5ddcf29",
      "sha256": "08c3cb35f3dac51cfdbf5d0220b23fd31a06cce05eb839668dcac42e6df8985b"
     },
     {
      "path": "part1/ink/layers/e04-p05-k1-LY-07.png",
-     "commit": "af6ea506d301babf365cb185fda4cbd2d38f5296",
+     "commit": "1a044b3af26f0bc39d7d3f7191210130a5ddcf29",
      "sha256": "8a6a7cf03d31233dc1c57e0ec93b490511074a4a671b42a174c36506ac4571e6"
     },
     {
@@ -797,7 +797,7 @@
     },
     {
      "path": "part1/rough/panels/e04-p05-k1.jpg",
-     "commit": "af6ea506d301babf365cb185fda4cbd2d38f5296",
+     "commit": "1a044b3af26f0bc39d7d3f7191210130a5ddcf29",
      "sha256": "5f38bebd09f96ebccef60d6da2f593d64d038f1f400609a1672be3326fd5364b"
     }
    ],
@@ -1926,12 +1926,12 @@
    "refs": [
     {
      "path": "part1/ink/layers/e04-p12-k1-LY-04.png",
-     "commit": "af6ea506d301babf365cb185fda4cbd2d38f5296",
+     "commit": "1a044b3af26f0bc39d7d3f7191210130a5ddcf29",
      "sha256": "953960f264d8e477c5a4eeacdd64d7f4bf4d0ca4e351de65f1fba63ce8ad10ed"
     },
     {
      "path": "part1/ink/layers/e04-p12-k1-LY-07.png",
-     "commit": "af6ea506d301babf365cb185fda4cbd2d38f5296",
+     "commit": "1a044b3af26f0bc39d7d3f7191210130a5ddcf29",
      "sha256": "8b873e74faddfd3be222835757324cf988aafa9b51596fb2e5f494a8eec25dc0"
     },
     {
@@ -1941,7 +1941,7 @@
     },
     {
      "path": "part1/rough/panels/e04-p12-k1.jpg",
-     "commit": "af6ea506d301babf365cb185fda4cbd2d38f5296",
+     "commit": "1a044b3af26f0bc39d7d3f7191210130a5ddcf29",
      "sha256": "ccf059186cc961985d69f43ed49b84452f0fdb47ed0fbb4067efe3ada2eefca9"
     }
    ],
@@ -2509,12 +2509,12 @@
    "refs": [
     {
      "path": "part1/ink/layers/e04-p15-k3-LY-04.png",
-     "commit": "af6ea506d301babf365cb185fda4cbd2d38f5296",
+     "commit": "1a044b3af26f0bc39d7d3f7191210130a5ddcf29",
      "sha256": "95f6ca3cb921cd17cf50c4befbeefad6b99d343d9a10b853789b29bcf2144152"
     },
     {
      "path": "part1/ink/layers/e04-p15-k3-LY-07.png",
-     "commit": "af6ea506d301babf365cb185fda4cbd2d38f5296",
+     "commit": "1a044b3af26f0bc39d7d3f7191210130a5ddcf29",
      "sha256": "682b7333d20ee5e6a461ddf4d68724e19624f10a7193884d1152242c90cce179"
     },
     {
@@ -2524,7 +2524,7 @@
     },
     {
      "path": "part1/rough/panels/e04-p15-k3.jpg",
-     "commit": "af6ea506d301babf365cb185fda4cbd2d38f5296",
+     "commit": "1a044b3af26f0bc39d7d3f7191210130a5ddcf29",
      "sha256": "0e651f2b3da81ac518ac67366da66448ea6b70bd1df386f47ceb231b4d8c5fd8"
     }
    ],
@@ -2583,12 +2583,12 @@
    "refs": [
     {
      "path": "part1/ink/layers/e04-p16-k1-LY-04.png",
-     "commit": "af6ea506d301babf365cb185fda4cbd2d38f5296",
+     "commit": "1a044b3af26f0bc39d7d3f7191210130a5ddcf29",
      "sha256": "139afaaf6a8a67149f370112b13cb979fc8e6034fd494ba8e68479d1fc092a2b"
     },
     {
      "path": "part1/ink/layers/e04-p16-k1-LY-07.png",
-     "commit": "af6ea506d301babf365cb185fda4cbd2d38f5296",
+     "commit": "1a044b3af26f0bc39d7d3f7191210130a5ddcf29",
      "sha256": "ee8021076a4f83bf7b6a0456ccb46e074c2d6e6705d301d28665d38f10fccd31"
     },
     {
@@ -2598,7 +2598,7 @@
     },
     {
      "path": "part1/rough/panels/e04-p16-k1.jpg",
-     "commit": "af6ea506d301babf365cb185fda4cbd2d38f5296",
+     "commit": "1a044b3af26f0bc39d7d3f7191210130a5ddcf29",
      "sha256": "8fc1be9d594301c1b935a0067db260ea4a472d03bfcfe3b74c3cbb82bbd0fba5"
     }
    ],

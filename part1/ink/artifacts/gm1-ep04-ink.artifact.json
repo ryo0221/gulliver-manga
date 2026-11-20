@@ -12889,17 +12889,17 @@
      },
      {
       "elementId": "ink-bg-0162",
-      "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@af6ea506 part1/rough/panels/e04-p04-k2.jpg sha256:4dff5b56a204）、3D の舞台のカメラの絵（gulliver-manga@af6ea506 part1/name/stage/underlay/e04-p04-k2.jpg sha256:0da9e7fa8584）、CH-04 フリムナップの設定画（gulliver-manga@af6ea506 part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c）、CH-06 ボルゴラムの設定画（gulliver-manga@af6ea506 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）。生の出力 sha256:2f1ec2a8ce33。3色で描かせ、LY-04 の色の線だけを取り出した",
+      "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@1a044b3a part1/rough/panels/e04-p04-k2.jpg sha256:4dff5b56a204）、3D の舞台のカメラの絵（gulliver-manga@1a044b3a part1/name/stage/underlay/e04-p04-k2.jpg sha256:0da9e7fa8584）、CH-04 フリムナップの設定画（gulliver-manga@1a044b3a part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c）、CH-06 ボルゴラムの設定画（gulliver-manga@1a044b3a part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）。生の出力 sha256:2f1ec2a8ce33。3色で描かせ、LY-04 の色の線だけを取り出した",
       "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
      },
      {
       "elementId": "ink-fig-0163",
-      "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@af6ea506 part1/rough/panels/e04-p04-k2.jpg sha256:4dff5b56a204）、3D の舞台のカメラの絵（gulliver-manga@af6ea506 part1/name/stage/underlay/e04-p04-k2.jpg sha256:0da9e7fa8584）、CH-04 フリムナップの設定画（gulliver-manga@af6ea506 part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c）、CH-06 ボルゴラムの設定画（gulliver-manga@af6ea506 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）。生の出力 sha256:2f1ec2a8ce33。3色で描かせ、LY-07 の色の線だけを取り出した",
+      "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@1a044b3a part1/rough/panels/e04-p04-k2.jpg sha256:4dff5b56a204）、3D の舞台のカメラの絵（gulliver-manga@1a044b3a part1/name/stage/underlay/e04-p04-k2.jpg sha256:0da9e7fa8584）、CH-04 フリムナップの設定画（gulliver-manga@1a044b3a part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c）、CH-06 ボルゴラムの設定画（gulliver-manga@1a044b3a part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）。生の出力 sha256:2f1ec2a8ce33。3色で描かせ、LY-07 の色の線だけを取り出した",
       "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
      },
      {
       "elementId": "ink-fx-0164",
-      "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@af6ea506 part1/rough/panels/e04-p04-k2.jpg sha256:4dff5b56a204）、3D の舞台のカメラの絵（gulliver-manga@af6ea506 part1/name/stage/underlay/e04-p04-k2.jpg sha256:0da9e7fa8584）、CH-04 フリムナップの設定画（gulliver-manga@af6ea506 part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c）、CH-06 ボルゴラムの設定画（gulliver-manga@af6ea506 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）。生の出力 sha256:2f1ec2a8ce33。3色で描かせ、LY-08 の色の線だけを取り出した",
+      "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@1a044b3a part1/rough/panels/e04-p04-k2.jpg sha256:4dff5b56a204）、3D の舞台のカメラの絵（gulliver-manga@1a044b3a part1/name/stage/underlay/e04-p04-k2.jpg sha256:0da9e7fa8584）、CH-04 フリムナップの設定画（gulliver-manga@1a044b3a part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c）、CH-06 ボルゴラムの設定画（gulliver-manga@1a044b3a part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）。生の出力 sha256:2f1ec2a8ce33。3色で描かせ、LY-08 の色の線だけを取り出した",
       "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
      },
      {
@@ -12914,17 +12914,17 @@
      },
      {
       "elementId": "ink-bg-0176",
-      "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@af6ea506 part1/rough/panels/e04-p05-k1.jpg sha256:5f38bebd09f9）、3D の舞台のカメラの絵（gulliver-manga@af6ea506 part1/name/stage/underlay/e04-p05-k1.jpg sha256:40d2ad1795cc）、CH-04 フリムナップの設定画（gulliver-manga@af6ea506 part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c）、CH-06 ボルゴラムの設定画（gulliver-manga@af6ea506 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）。生の出力 sha256:1d2721f58d1e。3色で描かせ、LY-04 の色の線だけを取り出した",
+      "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@1a044b3a part1/rough/panels/e04-p05-k1.jpg sha256:5f38bebd09f9）、3D の舞台のカメラの絵（gulliver-manga@1a044b3a part1/name/stage/underlay/e04-p05-k1.jpg sha256:40d2ad1795cc）、CH-04 フリムナップの設定画（gulliver-manga@1a044b3a part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c）、CH-06 ボルゴラムの設定画（gulliver-manga@1a044b3a part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）。生の出力 sha256:1d2721f58d1e。3色で描かせ、LY-04 の色の線だけを取り出した",
       "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
      },
      {
       "elementId": "ink-fig-0177",
-      "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@af6ea506 part1/rough/panels/e04-p05-k1.jpg sha256:5f38bebd09f9）、3D の舞台のカメラの絵（gulliver-manga@af6ea506 part1/name/stage/underlay/e04-p05-k1.jpg sha256:40d2ad1795cc）、CH-04 フリムナップの設定画（gulliver-manga@af6ea506 part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c）、CH-06 ボルゴラムの設定画（gulliver-manga@af6ea506 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）。生の出力 sha256:1d2721f58d1e。3色で描かせ、LY-07 の色の線だけを取り出した",
+      "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@1a044b3a part1/rough/panels/e04-p05-k1.jpg sha256:5f38bebd09f9）、3D の舞台のカメラの絵（gulliver-manga@1a044b3a part1/name/stage/underlay/e04-p05-k1.jpg sha256:40d2ad1795cc）、CH-04 フリムナップの設定画（gulliver-manga@1a044b3a part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c）、CH-06 ボルゴラムの設定画（gulliver-manga@1a044b3a part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）。生の出力 sha256:1d2721f58d1e。3色で描かせ、LY-07 の色の線だけを取り出した",
       "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
      },
      {
       "elementId": "ink-fx-0178",
-      "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@af6ea506 part1/rough/panels/e04-p05-k1.jpg sha256:5f38bebd09f9）、3D の舞台のカメラの絵（gulliver-manga@af6ea506 part1/name/stage/underlay/e04-p05-k1.jpg sha256:40d2ad1795cc）、CH-04 フリムナップの設定画（gulliver-manga@af6ea506 part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c）、CH-06 ボルゴラムの設定画（gulliver-manga@af6ea506 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）。生の出力 sha256:1d2721f58d1e。3色で描かせ、LY-08 の色の線だけを取り出した",
+      "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@1a044b3a part1/rough/panels/e04-p05-k1.jpg sha256:5f38bebd09f9）、3D の舞台のカメラの絵（gulliver-manga@1a044b3a part1/name/stage/underlay/e04-p05-k1.jpg sha256:40d2ad1795cc）、CH-04 フリムナップの設定画（gulliver-manga@1a044b3a part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c）、CH-06 ボルゴラムの設定画（gulliver-manga@1a044b3a part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）。生の出力 sha256:1d2721f58d1e。3色で描かせ、LY-08 の色の線だけを取り出した",
       "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
      },
      {
@@ -13314,17 +13314,17 @@
      },
      {
       "elementId": "ink-bg-0436",
-      "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@af6ea506 part1/rough/panels/e04-p12-k1.jpg sha256:ccf059186cc9）、3D の舞台のカメラの絵（gulliver-manga@af6ea506 part1/name/stage/underlay/e04-p12-k1.jpg sha256:16a600c1d5f2）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@af6ea506 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:0d4b88321728。3色で描かせ、LY-04 の色の線だけを取り出した",
+      "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@1a044b3a part1/rough/panels/e04-p12-k1.jpg sha256:ccf059186cc9）、3D の舞台のカメラの絵（gulliver-manga@1a044b3a part1/name/stage/underlay/e04-p12-k1.jpg sha256:16a600c1d5f2）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1a044b3a part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:0d4b88321728。3色で描かせ、LY-04 の色の線だけを取り出した",
       "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
      },
      {
       "elementId": "ink-fig-0437",
-      "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@af6ea506 part1/rough/panels/e04-p12-k1.jpg sha256:ccf059186cc9）、3D の舞台のカメラの絵（gulliver-manga@af6ea506 part1/name/stage/underlay/e04-p12-k1.jpg sha256:16a600c1d5f2）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@af6ea506 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:0d4b88321728。3色で描かせ、LY-07 の色の線だけを取り出した",
+      "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@1a044b3a part1/rough/panels/e04-p12-k1.jpg sha256:ccf059186cc9）、3D の舞台のカメラの絵（gulliver-manga@1a044b3a part1/name/stage/underlay/e04-p12-k1.jpg sha256:16a600c1d5f2）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1a044b3a part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:0d4b88321728。3色で描かせ、LY-07 の色の線だけを取り出した",
       "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
      },
      {
       "elementId": "ink-fx-0438",
-      "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@af6ea506 part1/rough/panels/e04-p12-k1.jpg sha256:ccf059186cc9）、3D の舞台のカメラの絵（gulliver-manga@af6ea506 part1/name/stage/underlay/e04-p12-k1.jpg sha256:16a600c1d5f2）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@af6ea506 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:0d4b88321728。3色で描かせ、LY-08 の色の線だけを取り出した",
+      "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@1a044b3a part1/rough/panels/e04-p12-k1.jpg sha256:ccf059186cc9）、3D の舞台のカメラの絵（gulliver-manga@1a044b3a part1/name/stage/underlay/e04-p12-k1.jpg sha256:16a600c1d5f2）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1a044b3a part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:0d4b88321728。3色で描かせ、LY-08 の色の線だけを取り出した",
       "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
      },
      {
@@ -13514,17 +13514,17 @@
      },
      {
       "elementId": "ink-bg-0560",
-      "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@af6ea506 part1/rough/panels/e04-p15-k3.jpg sha256:0e651f2b3da8）、3D の舞台のカメラの絵（gulliver-manga@af6ea506 part1/name/stage/underlay/e04-p15-k3.jpg sha256:b0643dd54932）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@af6ea506 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-03 皇后の設定画（gulliver-manga@af6ea506 part1/codex/ch03-empress/ch03-empress-raw.png sha256:14a89aa3dc1d）、CH-30 小人の設定画（正面）（gulliver-manga@af6ea506 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:6ec432d1567c。3色で描かせ、LY-04 の色の線だけを取り出した",
+      "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@1a044b3a part1/rough/panels/e04-p15-k3.jpg sha256:0e651f2b3da8）、3D の舞台のカメラの絵（gulliver-manga@1a044b3a part1/name/stage/underlay/e04-p15-k3.jpg sha256:b0643dd54932）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1a044b3a part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-03 皇后の設定画（gulliver-manga@1a044b3a part1/codex/ch03-empress/ch03-empress-raw.png sha256:14a89aa3dc1d）、CH-30 小人の設定画（正面）（gulliver-manga@1a044b3a part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:6ec432d1567c。3色で描かせ、LY-04 の色の線だけを取り出した",
       "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
      },
      {
       "elementId": "ink-fig-0561",
-      "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@af6ea506 part1/rough/panels/e04-p15-k3.jpg sha256:0e651f2b3da8）、3D の舞台のカメラの絵（gulliver-manga@af6ea506 part1/name/stage/underlay/e04-p15-k3.jpg sha256:b0643dd54932）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@af6ea506 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-03 皇后の設定画（gulliver-manga@af6ea506 part1/codex/ch03-empress/ch03-empress-raw.png sha256:14a89aa3dc1d）、CH-30 小人の設定画（正面）（gulliver-manga@af6ea506 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:6ec432d1567c。3色で描かせ、LY-07 の色の線だけを取り出した",
+      "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@1a044b3a part1/rough/panels/e04-p15-k3.jpg sha256:0e651f2b3da8）、3D の舞台のカメラの絵（gulliver-manga@1a044b3a part1/name/stage/underlay/e04-p15-k3.jpg sha256:b0643dd54932）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1a044b3a part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-03 皇后の設定画（gulliver-manga@1a044b3a part1/codex/ch03-empress/ch03-empress-raw.png sha256:14a89aa3dc1d）、CH-30 小人の設定画（正面）（gulliver-manga@1a044b3a part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:6ec432d1567c。3色で描かせ、LY-07 の色の線だけを取り出した",
       "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
      },
      {
       "elementId": "ink-fx-0562",
-      "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@af6ea506 part1/rough/panels/e04-p15-k3.jpg sha256:0e651f2b3da8）、3D の舞台のカメラの絵（gulliver-manga@af6ea506 part1/name/stage/underlay/e04-p15-k3.jpg sha256:b0643dd54932）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@af6ea506 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-03 皇后の設定画（gulliver-manga@af6ea506 part1/codex/ch03-empress/ch03-empress-raw.png sha256:14a89aa3dc1d）、CH-30 小人の設定画（正面）（gulliver-manga@af6ea506 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:6ec432d1567c。3色で描かせ、LY-08 の色の線だけを取り出した",
+      "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@1a044b3a part1/rough/panels/e04-p15-k3.jpg sha256:0e651f2b3da8）、3D の舞台のカメラの絵（gulliver-manga@1a044b3a part1/name/stage/underlay/e04-p15-k3.jpg sha256:b0643dd54932）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1a044b3a part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-03 皇后の設定画（gulliver-manga@1a044b3a part1/codex/ch03-empress/ch03-empress-raw.png sha256:14a89aa3dc1d）、CH-30 小人の設定画（正面）（gulliver-manga@1a044b3a part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:6ec432d1567c。3色で描かせ、LY-08 の色の線だけを取り出した",
       "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
      },
      {
@@ -13539,17 +13539,17 @@
      },
      {
       "elementId": "ink-bg-0574",
-      "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@af6ea506 part1/rough/panels/e04-p16-k1.jpg sha256:8fc1be9d5943）、3D の舞台のカメラの絵（gulliver-manga@af6ea506 part1/name/stage/underlay/e04-p16-k1.jpg sha256:348ad2be0119）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@af6ea506 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:8d64bdcfead2。3色で描かせ、LY-04 の色の線だけを取り出した",
+      "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@1a044b3a part1/rough/panels/e04-p16-k1.jpg sha256:8fc1be9d5943）、3D の舞台のカメラの絵（gulliver-manga@1a044b3a part1/name/stage/underlay/e04-p16-k1.jpg sha256:348ad2be0119）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1a044b3a part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:8d64bdcfead2。3色で描かせ、LY-04 の色の線だけを取り出した",
       "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
      },
      {
       "elementId": "ink-fig-0575",
-      "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@af6ea506 part1/rough/panels/e04-p16-k1.jpg sha256:8fc1be9d5943）、3D の舞台のカメラの絵（gulliver-manga@af6ea506 part1/name/stage/underlay/e04-p16-k1.jpg sha256:348ad2be0119）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@af6ea506 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:8d64bdcfead2。3色で描かせ、LY-07 の色の線だけを取り出した",
+      "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@1a044b3a part1/rough/panels/e04-p16-k1.jpg sha256:8fc1be9d5943）、3D の舞台のカメラの絵（gulliver-manga@1a044b3a part1/name/stage/underlay/e04-p16-k1.jpg sha256:348ad2be0119）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1a044b3a part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:8d64bdcfead2。3色で描かせ、LY-07 の色の線だけを取り出した",
       "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
      },
      {
       "elementId": "ink-fx-0576",
-      "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@af6ea506 part1/rough/panels/e04-p16-k1.jpg sha256:8fc1be9d5943）、3D の舞台のカメラの絵（gulliver-manga@af6ea506 part1/name/stage/underlay/e04-p16-k1.jpg sha256:348ad2be0119）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@af6ea506 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:8d64bdcfead2。3色で描かせ、LY-08 の色の線だけを取り出した",
+      "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@1a044b3a part1/rough/panels/e04-p16-k1.jpg sha256:8fc1be9d5943）、3D の舞台のカメラの絵（gulliver-manga@1a044b3a part1/name/stage/underlay/e04-p16-k1.jpg sha256:348ad2be0119）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1a044b3a part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:8d64bdcfead2。3色で描かせ、LY-08 の色の線だけを取り出した",
       "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
      },
      {
@@ -26470,17 +26470,17 @@
       },
       {
        "elementId": "ink-bg-0162",
-       "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@af6ea506 part1/rough/panels/e04-p04-k2.jpg sha256:4dff5b56a204）、3D の舞台のカメラの絵（gulliver-manga@af6ea506 part1/name/stage/underlay/e04-p04-k2.jpg sha256:0da9e7fa8584）、CH-04 フリムナップの設定画（gulliver-manga@af6ea506 part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c）、CH-06 ボルゴラムの設定画（gulliver-manga@af6ea506 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）。生の出力 sha256:2f1ec2a8ce33。3色で描かせ、LY-04 の色の線だけを取り出した",
+       "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@1a044b3a part1/rough/panels/e04-p04-k2.jpg sha256:4dff5b56a204）、3D の舞台のカメラの絵（gulliver-manga@1a044b3a part1/name/stage/underlay/e04-p04-k2.jpg sha256:0da9e7fa8584）、CH-04 フリムナップの設定画（gulliver-manga@1a044b3a part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c）、CH-06 ボルゴラムの設定画（gulliver-manga@1a044b3a part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）。生の出力 sha256:2f1ec2a8ce33。3色で描かせ、LY-04 の色の線だけを取り出した",
        "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
       },
       {
        "elementId": "ink-fig-0163",
-       "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@af6ea506 part1/rough/panels/e04-p04-k2.jpg sha256:4dff5b56a204）、3D の舞台のカメラの絵（gulliver-manga@af6ea506 part1/name/stage/underlay/e04-p04-k2.jpg sha256:0da9e7fa8584）、CH-04 フリムナップの設定画（gulliver-manga@af6ea506 part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c）、CH-06 ボルゴラムの設定画（gulliver-manga@af6ea506 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）。生の出力 sha256:2f1ec2a8ce33。3色で描かせ、LY-07 の色の線だけを取り出した",
+       "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@1a044b3a part1/rough/panels/e04-p04-k2.jpg sha256:4dff5b56a204）、3D の舞台のカメラの絵（gulliver-manga@1a044b3a part1/name/stage/underlay/e04-p04-k2.jpg sha256:0da9e7fa8584）、CH-04 フリムナップの設定画（gulliver-manga@1a044b3a part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c）、CH-06 ボルゴラムの設定画（gulliver-manga@1a044b3a part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）。生の出力 sha256:2f1ec2a8ce33。3色で描かせ、LY-07 の色の線だけを取り出した",
        "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
       },
       {
        "elementId": "ink-fx-0164",
-       "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@af6ea506 part1/rough/panels/e04-p04-k2.jpg sha256:4dff5b56a204）、3D の舞台のカメラの絵（gulliver-manga@af6ea506 part1/name/stage/underlay/e04-p04-k2.jpg sha256:0da9e7fa8584）、CH-04 フリムナップの設定画（gulliver-manga@af6ea506 part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c）、CH-06 ボルゴラムの設定画（gulliver-manga@af6ea506 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）。生の出力 sha256:2f1ec2a8ce33。3色で描かせ、LY-08 の色の線だけを取り出した",
+       "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@1a044b3a part1/rough/panels/e04-p04-k2.jpg sha256:4dff5b56a204）、3D の舞台のカメラの絵（gulliver-manga@1a044b3a part1/name/stage/underlay/e04-p04-k2.jpg sha256:0da9e7fa8584）、CH-04 フリムナップの設定画（gulliver-manga@1a044b3a part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c）、CH-06 ボルゴラムの設定画（gulliver-manga@1a044b3a part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）。生の出力 sha256:2f1ec2a8ce33。3色で描かせ、LY-08 の色の線だけを取り出した",
        "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
       },
       {
@@ -26495,17 +26495,17 @@
       },
       {
        "elementId": "ink-bg-0176",
-       "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@af6ea506 part1/rough/panels/e04-p05-k1.jpg sha256:5f38bebd09f9）、3D の舞台のカメラの絵（gulliver-manga@af6ea506 part1/name/stage/underlay/e04-p05-k1.jpg sha256:40d2ad1795cc）、CH-04 フリムナップの設定画（gulliver-manga@af6ea506 part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c）、CH-06 ボルゴラムの設定画（gulliver-manga@af6ea506 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）。生の出力 sha256:1d2721f58d1e。3色で描かせ、LY-04 の色の線だけを取り出した",
+       "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@1a044b3a part1/rough/panels/e04-p05-k1.jpg sha256:5f38bebd09f9）、3D の舞台のカメラの絵（gulliver-manga@1a044b3a part1/name/stage/underlay/e04-p05-k1.jpg sha256:40d2ad1795cc）、CH-04 フリムナップの設定画（gulliver-manga@1a044b3a part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c）、CH-06 ボルゴラムの設定画（gulliver-manga@1a044b3a part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）。生の出力 sha256:1d2721f58d1e。3色で描かせ、LY-04 の色の線だけを取り出した",
        "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
       },
       {
        "elementId": "ink-fig-0177",
-       "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@af6ea506 part1/rough/panels/e04-p05-k1.jpg sha256:5f38bebd09f9）、3D の舞台のカメラの絵（gulliver-manga@af6ea506 part1/name/stage/underlay/e04-p05-k1.jpg sha256:40d2ad1795cc）、CH-04 フリムナップの設定画（gulliver-manga@af6ea506 part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c）、CH-06 ボルゴラムの設定画（gulliver-manga@af6ea506 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）。生の出力 sha256:1d2721f58d1e。3色で描かせ、LY-07 の色の線だけを取り出した",
+       "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@1a044b3a part1/rough/panels/e04-p05-k1.jpg sha256:5f38bebd09f9）、3D の舞台のカメラの絵（gulliver-manga@1a044b3a part1/name/stage/underlay/e04-p05-k1.jpg sha256:40d2ad1795cc）、CH-04 フリムナップの設定画（gulliver-manga@1a044b3a part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c）、CH-06 ボルゴラムの設定画（gulliver-manga@1a044b3a part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）。生の出力 sha256:1d2721f58d1e。3色で描かせ、LY-07 の色の線だけを取り出した",
        "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
       },
       {
        "elementId": "ink-fx-0178",
-       "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@af6ea506 part1/rough/panels/e04-p05-k1.jpg sha256:5f38bebd09f9）、3D の舞台のカメラの絵（gulliver-manga@af6ea506 part1/name/stage/underlay/e04-p05-k1.jpg sha256:40d2ad1795cc）、CH-04 フリムナップの設定画（gulliver-manga@af6ea506 part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c）、CH-06 ボルゴラムの設定画（gulliver-manga@af6ea506 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）。生の出力 sha256:1d2721f58d1e。3色で描かせ、LY-08 の色の線だけを取り出した",
+       "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@1a044b3a part1/rough/panels/e04-p05-k1.jpg sha256:5f38bebd09f9）、3D の舞台のカメラの絵（gulliver-manga@1a044b3a part1/name/stage/underlay/e04-p05-k1.jpg sha256:40d2ad1795cc）、CH-04 フリムナップの設定画（gulliver-manga@1a044b3a part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c）、CH-06 ボルゴラムの設定画（gulliver-manga@1a044b3a part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）。生の出力 sha256:1d2721f58d1e。3色で描かせ、LY-08 の色の線だけを取り出した",
        "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
       },
       {
@@ -26895,17 +26895,17 @@
       },
       {
        "elementId": "ink-bg-0436",
-       "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@af6ea506 part1/rough/panels/e04-p12-k1.jpg sha256:ccf059186cc9）、3D の舞台のカメラの絵（gulliver-manga@af6ea506 part1/name/stage/underlay/e04-p12-k1.jpg sha256:16a600c1d5f2）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@af6ea506 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:0d4b88321728。3色で描かせ、LY-04 の色の線だけを取り出した",
+       "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@1a044b3a part1/rough/panels/e04-p12-k1.jpg sha256:ccf059186cc9）、3D の舞台のカメラの絵（gulliver-manga@1a044b3a part1/name/stage/underlay/e04-p12-k1.jpg sha256:16a600c1d5f2）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1a044b3a part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:0d4b88321728。3色で描かせ、LY-04 の色の線だけを取り出した",
        "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
       },
       {
        "elementId": "ink-fig-0437",
-       "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@af6ea506 part1/rough/panels/e04-p12-k1.jpg sha256:ccf059186cc9）、3D の舞台のカメラの絵（gulliver-manga@af6ea506 part1/name/stage/underlay/e04-p12-k1.jpg sha256:16a600c1d5f2）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@af6ea506 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:0d4b88321728。3色で描かせ、LY-07 の色の線だけを取り出した",
+       "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@1a044b3a part1/rough/panels/e04-p12-k1.jpg sha256:ccf059186cc9）、3D の舞台のカメラの絵（gulliver-manga@1a044b3a part1/name/stage/underlay/e04-p12-k1.jpg sha256:16a600c1d5f2）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1a044b3a part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:0d4b88321728。3色で描かせ、LY-07 の色の線だけを取り出した",
        "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
       },
       {
        "elementId": "ink-fx-0438",
-       "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@af6ea506 part1/rough/panels/e04-p12-k1.jpg sha256:ccf059186cc9）、3D の舞台のカメラの絵（gulliver-manga@af6ea506 part1/name/stage/underlay/e04-p12-k1.jpg sha256:16a600c1d5f2）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@af6ea506 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:0d4b88321728。3色で描かせ、LY-08 の色の線だけを取り出した",
+       "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@1a044b3a part1/rough/panels/e04-p12-k1.jpg sha256:ccf059186cc9）、3D の舞台のカメラの絵（gulliver-manga@1a044b3a part1/name/stage/underlay/e04-p12-k1.jpg sha256:16a600c1d5f2）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1a044b3a part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:0d4b88321728。3色で描かせ、LY-08 の色の線だけを取り出した",
        "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
       },
       {
@@ -27095,17 +27095,17 @@
       },
       {
        "elementId": "ink-bg-0560",
-       "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@af6ea506 part1/rough/panels/e04-p15-k3.jpg sha256:0e651f2b3da8）、3D の舞台のカメラの絵（gulliver-manga@af6ea506 part1/name/stage/underlay/e04-p15-k3.jpg sha256:b0643dd54932）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@af6ea506 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-03 皇后の設定画（gulliver-manga@af6ea506 part1/codex/ch03-empress/ch03-empress-raw.png sha256:14a89aa3dc1d）、CH-30 小人の設定画（正面）（gulliver-manga@af6ea506 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:6ec432d1567c。3色で描かせ、LY-04 の色の線だけを取り出した",
+       "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@1a044b3a part1/rough/panels/e04-p15-k3.jpg sha256:0e651f2b3da8）、3D の舞台のカメラの絵（gulliver-manga@1a044b3a part1/name/stage/underlay/e04-p15-k3.jpg sha256:b0643dd54932）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1a044b3a part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-03 皇后の設定画（gulliver-manga@1a044b3a part1/codex/ch03-empress/ch03-empress-raw.png sha256:14a89aa3dc1d）、CH-30 小人の設定画（正面）（gulliver-manga@1a044b3a part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:6ec432d1567c。3色で描かせ、LY-04 の色の線だけを取り出した",
        "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
       },
       {
        "elementId": "ink-fig-0561",
-       "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@af6ea506 part1/rough/panels/e04-p15-k3.jpg sha256:0e651f2b3da8）、3D の舞台のカメラの絵（gulliver-manga@af6ea506 part1/name/stage/underlay/e04-p15-k3.jpg sha256:b0643dd54932）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@af6ea506 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-03 皇后の設定画（gulliver-manga@af6ea506 part1/codex/ch03-empress/ch03-empress-raw.png sha256:14a89aa3dc1d）、CH-30 小人の設定画（正面）（gulliver-manga@af6ea506 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:6ec432d1567c。3色で描かせ、LY-07 の色の線だけを取り出した",
+       "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@1a044b3a part1/rough/panels/e04-p15-k3.jpg sha256:0e651f2b3da8）、3D の舞台のカメラの絵（gulliver-manga@1a044b3a part1/name/stage/underlay/e04-p15-k3.jpg sha256:b0643dd54932）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1a044b3a part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-03 皇后の設定画（gulliver-manga@1a044b3a part1/codex/ch03-empress/ch03-empress-raw.png sha256:14a89aa3dc1d）、CH-30 小人の設定画（正面）（gulliver-manga@1a044b3a part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:6ec432d1567c。3色で描かせ、LY-07 の色の線だけを取り出した",
        "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
       },
       {
        "elementId": "ink-fx-0562",
-       "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@af6ea506 part1/rough/panels/e04-p15-k3.jpg sha256:0e651f2b3da8）、3D の舞台のカメラの絵（gulliver-manga@af6ea506 part1/name/stage/underlay/e04-p15-k3.jpg sha256:b0643dd54932）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@af6ea506 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-03 皇后の設定画（gulliver-manga@af6ea506 part1/codex/ch03-empress/ch03-empress-raw.png sha256:14a89aa3dc1d）、CH-30 小人の設定画（正面）（gulliver-manga@af6ea506 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:6ec432d1567c。3色で描かせ、LY-08 の色の線だけを取り出した",
+       "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@1a044b3a part1/rough/panels/e04-p15-k3.jpg sha256:0e651f2b3da8）、3D の舞台のカメラの絵（gulliver-manga@1a044b3a part1/name/stage/underlay/e04-p15-k3.jpg sha256:b0643dd54932）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1a044b3a part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）、CH-03 皇后の設定画（gulliver-manga@1a044b3a part1/codex/ch03-empress/ch03-empress-raw.png sha256:14a89aa3dc1d）、CH-30 小人の設定画（正面）（gulliver-manga@1a044b3a part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）。生の出力 sha256:6ec432d1567c。3色で描かせ、LY-08 の色の線だけを取り出した",
        "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
       },
       {
@@ -27120,17 +27120,17 @@
       },
       {
        "elementId": "ink-bg-0574",
-       "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@af6ea506 part1/rough/panels/e04-p16-k1.jpg sha256:8fc1be9d5943）、3D の舞台のカメラの絵（gulliver-manga@af6ea506 part1/name/stage/underlay/e04-p16-k1.jpg sha256:348ad2be0119）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@af6ea506 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:8d64bdcfead2。3色で描かせ、LY-04 の色の線だけを取り出した",
+       "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@1a044b3a part1/rough/panels/e04-p16-k1.jpg sha256:8fc1be9d5943）、3D の舞台のカメラの絵（gulliver-manga@1a044b3a part1/name/stage/underlay/e04-p16-k1.jpg sha256:348ad2be0119）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1a044b3a part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:8d64bdcfead2。3色で描かせ、LY-04 の色の線だけを取り出した",
        "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
       },
       {
        "elementId": "ink-fig-0575",
-       "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@af6ea506 part1/rough/panels/e04-p16-k1.jpg sha256:8fc1be9d5943）、3D の舞台のカメラの絵（gulliver-manga@af6ea506 part1/name/stage/underlay/e04-p16-k1.jpg sha256:348ad2be0119）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@af6ea506 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:8d64bdcfead2。3色で描かせ、LY-07 の色の線だけを取り出した",
+       "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@1a044b3a part1/rough/panels/e04-p16-k1.jpg sha256:8fc1be9d5943）、3D の舞台のカメラの絵（gulliver-manga@1a044b3a part1/name/stage/underlay/e04-p16-k1.jpg sha256:348ad2be0119）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1a044b3a part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:8d64bdcfead2。3色で描かせ、LY-07 の色の線だけを取り出した",
        "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
       },
       {
        "elementId": "ink-fx-0576",
-       "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@af6ea506 part1/rough/panels/e04-p16-k1.jpg sha256:8fc1be9d5943）、3D の舞台のカメラの絵（gulliver-manga@af6ea506 part1/name/stage/underlay/e04-p16-k1.jpg sha256:348ad2be0119）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@af6ea506 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:8d64bdcfead2。3色で描かせ、LY-08 の色の線だけを取り出した",
+       "source": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、Codex のモデル gpt-6.2-sol（画像のモデルは出ない）。渡した参照：gm1-ep04-rough@rough-ep04-v2 のラフ絵（gulliver-manga@1a044b3a part1/rough/panels/e04-p16-k1.jpg sha256:8fc1be9d5943）、3D の舞台のカメラの絵（gulliver-manga@1a044b3a part1/name/stage/underlay/e04-p16-k1.jpg sha256:348ad2be0119）、CH-01 ガリヴァーの設定画（正面）（gulliver-manga@1a044b3a part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）。生の出力 sha256:8d64bdcfead2。3色で描かせ、LY-08 の色の線だけを取り出した",
        "license": "OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う"
       },
       {
@@ -27161,7 +27161,7 @@
      ]
     }
    },
-   "contentHash": "5e7d5e5eca86136375bc3f7d4c96cf886c3fc26c469d71e89521f30c7e63085e"
+   "contentHash": "191ca0dcfe5162d428b1705860fcb18b5949a58d3eee8b49fb264f6510a83648"
   }
  ]
 }
