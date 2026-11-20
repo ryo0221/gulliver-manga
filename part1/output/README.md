@@ -70,3 +70,21 @@ GM_FINISH=$GM/part1/finish GM_OUT=/tmp/out3 npx vitest run apps/artifact-host/sr
 node gm-export-ep.tmp.mjs /tmp/out3 /tmp/out3/export gulliver-ep03 3
 GM_FINISH=$GM/part1/finish GM_OUT=/tmp/out3 GM_OUTPUTS=/tmp/out3/export npx vitest run apps/artifact-host/src/creative/story-board/gulliver-ep03-output.build.test.ts
 ```
+
+# 第4話「火事」出版準備
+
+通読で完成とした（作者の判断 2026-11-20「マージして」「完成」）固定した版 `gm1-ep04-finish@finish-ep04-v2`（コミット d34fcab、PR #24 のマージ）から、第3話と同じ手順で書き出しました。白黒です。
+
+| 資料 | 中身 |
+| --- | --- |
+| `artifacts/gm1-ep04-output` 第4話 出力の記録（Structured Data） | 出力物、書誌情報と紹介文（題は脚本、あらすじ・紹介文は AI の草案、著者名・原作は第1話と同じ）、AI の関わり（仕上げに画像の生成は使っていない） |
+| `ep04-outputs.json` | 書き出した各ファイルの大きさと sha256、もとにした版 |
+| PNG（ページごと） | 2400×3540 px 16枚と奥付1枚。プロジェクトのファイル `gulliver-manga/part1/output-ep04/png/` |
+| PDF（話ごと） | `gulliver-ep04.pdf`、漫画16ページ＋奥付、600×885 pt。プロジェクトのファイル `gulliver-manga/part1/output-ep04/` |
+
+```sh
+cp part1/read/*.ts part1/output/*.ts $SB/; cp part1/output/src/export-ep.mjs gm-export-ep.tmp.mjs   # editor-platform で
+GM_FINISH=$GM/part1/finish GM_OUT=/tmp/out4 npx vitest run apps/artifact-host/src/creative/story-board/gulliver-ep04-output.build.test.ts
+node gm-export-ep.tmp.mjs /tmp/out4 /tmp/out4/export gulliver-ep04 3
+GM_FINISH=$GM/part1/finish GM_OUT=/tmp/out4 GM_OUTPUTS=/tmp/out4/export npx vitest run apps/artifact-host/src/creative/story-board/gulliver-ep04-output.build.test.ts
+```
