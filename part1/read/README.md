@@ -116,7 +116,9 @@ GM_OUT=/tmp/read npx vitest run apps/artifact-host/src/creative/story-board/gull
 # 第4話「火事」通読
 
 `gm1-ep04-read`（編集の記録）と `gm1-ep04-read-findings`（指摘の表）。はじめに読んだ版は `gm1-ep04-finish@finish-ep04-v1`（コミット b7bc2633、PR #23 のマージ、白黒）、
-作者の判断（2026-11-20「おすすめ通り直す」）で直した版 `finish-ep04-v2` を読み直した。ページは `../finish/ep04/pages/`。完成とするかは作者の判断待ち。
+作者の判断（2026-11-20「おすすめ通り直す」）で直した版 `finish-ep04-v2` を読み直した。ページは `../finish/ep04/pages/`。
+
+作者の判断（2026-11-20「マージして」「完成」）：完成。出版準備は `finish-ep04-v2`（コミット d34fcab、PR #24 のマージ）から作る。
 
 | 指摘 | 対象 | 判断と直し方 |
 | --- | --- | --- |
@@ -133,7 +135,7 @@ GM_OUT=/tmp/read npx vitest run apps/artifact-host/src/creative/story-board/gull
 
 直し方と罠：
 - ラフは `rough-briefs.py` の `REVISED_NOTE`、線画は `ink-briefs.py` の `INK_NOTES` と `INK_ONLY`、仕上げは `finish-mono.py` の `FACE_LIGHT`・`FLAT_BG`、写植の避けは `rough-assets.py` の `AVOID_EXTRA`。
-- **12-1・16-1 は線画だけでは直らない。** 線画は下敷きの3Dの手前の壁と、ラフのトーンに引っぱられる。ラフから描き直し、12-1 は「1枚目（3D）の手前の大きな壁を写さない」と書いて3回目で収まった。
+- **12-1・16-1 はラフから描き直した**（仕上げのトーンはラフから取るので、線画だけでは合わない）。12-1 は描き直しでも 3D の手前の大きな壁をまた写したので、「1枚目（3D）の手前の大きな壁を写さない」と書いて3回目で収まった。
 - 仕上げのトーンはラフから取るので、構図を変えたコマはラフも描き直す。
 
 ```sh

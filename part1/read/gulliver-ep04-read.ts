@@ -13,10 +13,10 @@ export const READ_VERSIONS_EP04 = [
   { artifact: 'gm1-ep04-lettering', version: 'finish-ep04-v2', what: '第4話 写植の記録' },
   { artifact: 'gm1-script-lines', version: 'script-v1', what: '第1部 脚本の行（台詞の全文の照合）' },
 ] as const;
-/** はじめに通読した版（直す前）を main に入れたコミット（PR #23 のマージ）。 */
-export const READ_COMMIT_EP04 = 'b7bc2633b4cc2c25c2bec6c4d5455840e5ea206f';
+/** 完成とした版（直した版 finish-ep04-v2）を main に入れたコミット（PR #24 のマージ）。出版準備はここから作る。 */
+export const READ_COMMIT_EP04 = 'd34fcab7f22d700c883172fe3acc255a2fecb95c';
 /** はじめに通読した版。 */
-export const FIRST_READ_EP04 = { finish: 'gm1-ep04-finish@finish-ep04-v1', commit: READ_COMMIT_EP04 };
+export const FIRST_READ_EP04 = { finish: 'gm1-ep04-finish@finish-ep04-v1', commit: 'b7bc2633b4cc2c25c2bec6c4d5455840e5ea206f' };
 
 export const FINDINGS_EP04: Finding[] = [
   {
@@ -120,23 +120,23 @@ export const FINDINGS_EP04: Finding[] = [
 ];
 
 export const VERDICT_EP04 = {
-  status: '作者の判断待ち',
-  decidedBy: '作者',
+  status: '完成',
+  decidedBy: '作者（2026-11-20「マージして」「完成」）',
   proposal:
-    '作者の判断（2026-11-20「おすすめ通り直す」）で RV-e04-01〜08 を直した版（finish-ep04-v2）を、直したページ（1・4・5・8・12・13・15・16）を中心に読み直した。12-1 は描き直しの1回目が前と同じ大きな壁の絵になったので、指示を足して描き直した。新しい指摘は無い。RV-e04-09・10 は意図として残す。完成とするかは作者が決める。',
+    '作者の判断（2026-11-20「おすすめ通り直す」）で RV-e04-01〜08 を直した版（finish-ep04-v2）を、直したページ（1・4・5・8・12・13・15・16）を中心に読み直した。12-1 は描き直しの1回目が前と同じ大きな壁の絵になったので、指示を足して描き直した。新しい指摘は無い。RV-e04-09・10 は意図として残す。指摘はすべて決まった。出版準備はこの版から作る。',
 };
 
 export const EP04_READ: ReadEpisode = {
   episode: 4,
   title: '火事',
   versions: READ_VERSIONS_EP04,
-  readNote: `はじめの通読は ${FIRST_READ_EP04.finish}（コミット ${READ_COMMIT_EP04.slice(0, 8)}、PR #23 のマージ）を1ページ目から読み、指摘を直した版 ${READ_VERSIONS_EP04[0].version} を読み直した。ページは part1/finish/ep04/pages/page-01〜16.png。白黒の仕上げ。`,
+  readNote: `はじめの通読は ${FIRST_READ_EP04.finish}（コミット ${FIRST_READ_EP04.commit.slice(0, 8)}、PR #23 のマージ）を1ページ目から読み、指摘を直した版 ${READ_VERSIONS_EP04[0].version} を読み直した。ページは part1/finish/ep04/pages/page-01〜16.png。白黒の仕上げ。`,
   findings: FINDINGS_EP04,
   verdict: VERDICT_EP04,
 };
 
 const stamp = '2026-11-20T00:00:00.000Z';
-const VERSION = 'read-ep04-v2';
+const VERSION = 'read-ep04-v3';
 async function native(kind: string, id: string, name: string, content: unknown) {
   const artifact: Artifact<unknown> = {
     schemaVersion: 1,
