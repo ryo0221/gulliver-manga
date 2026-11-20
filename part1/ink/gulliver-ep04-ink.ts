@@ -12,14 +12,14 @@ import type { RoughInput } from './gulliver-ep01-rough';
 import { buildEpisodeInk, pageTable, type InkInput } from './gulliver-ep01-ink';
 
 /** ラフの固定した版（線画のもと）。 */
-export const ROUGH_VERSION_EP04 = 'gm1-ep04-rough@rough-ep04-v1';
+export const ROUGH_VERSION_EP04 = 'gm1-ep04-rough@rough-ep04-v2';
 
 export function buildEpisode4Ink(stage: StageInput, rough: RoughInput, ink: InkInput) {
   return buildEpisodeInk(stage, rough, ink, { episode: 4, name: EP04_NAME, roughVersion: ROUGH_VERSION_EP04 });
 }
 
 const stamp = '2026-11-19T00:00:00.000Z';
-const VERSION = 'ink-ep04-v1';
+const VERSION = 'ink-ep04-v2';
 async function native(kind: string, id: string, name: string, content: unknown) {
   const artifact: Artifact<unknown> = {
     schemaVersion: 1,

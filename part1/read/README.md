@@ -112,3 +112,31 @@ GM_OUT=/tmp/read npx vitest run apps/artifact-host/src/creative/story-board/gull
 cp part1/read/*.ts part1/name/gulliver-ep0{1,2,3}-name.ts part1/script/gulliver-part1-script.ts $SB/
 GM_OUT=/tmp/read npx vitest run apps/artifact-host/src/creative/story-board/gulliver-ep03-read.build.test.ts
 ```
+
+# 第4話「火事」通読
+
+`gm1-ep04-read`（編集の記録）と `gm1-ep04-read-findings`（指摘の表）。はじめに読んだ版は `gm1-ep04-finish@finish-ep04-v1`（コミット b7bc2633、PR #23 のマージ、白黒）、
+作者の判断（2026-11-20「おすすめ通り直す」）で直した版 `finish-ep04-v2` を読み直した。ページは `../finish/ep04/pages/`。完成とするかは作者の判断待ち。
+
+| 指摘 | 対象 | 判断と直し方 |
+| --- | --- | --- |
+| RV-e04-01 皇帝の顔の濃さがコマで違う | 1-2 8-3 | 直す（仕上げ：`FACE_LIGHT` で顔のトーンを抜く） |
+| RV-e04-02 ささやく相手が部屋の反対側 | 5-1 | 直す（ラフから、玉座の脇で耳もとにささやく） |
+| RV-e04-03 二人が離れ、上半分が白い壁 | 4-2 | 直す（ラフから、玉座の両脇に近く立つ） |
+| RV-e04-04 建物の上に立って見える | 12-1 | 直す（ラフから、地面に立ち低い建物は向こう） |
+| RV-e04-05 ナレーションが靴を隠す | 12-2 | 直す（写植：`AVOID_EXTRA` で靴と脛を避ける） |
+| RV-e04-06 皇后と侍女が小さく、右半分が壁 | 15-3 | 直す（ラフから、人物をコマの半分ほどに） |
+| RV-e04-07 背景の建物が彼より大きい | 16-1 | 直す（ラフから、背景は肩より低い） |
+| RV-e04-08 夜空の白いしみ | 13-1 | 直す（仕上げ、`FLAT_BG`） |
+| RV-e04-09 周りが地面と空だけ | 9-2 | 意図として残す |
+| RV-e04-10 人のいない壁と屋根のコマ | 14-2 15-1 | 意図として残す |
+
+直し方と罠：
+- ラフは `rough-briefs.py` の `REVISED_NOTE`、線画は `ink-briefs.py` の `INK_NOTES` と `INK_ONLY`、仕上げは `finish-mono.py` の `FACE_LIGHT`・`FLAT_BG`、写植の避けは `rough-assets.py` の `AVOID_EXTRA`。
+- **12-1・16-1 は線画だけでは直らない。** 線画は下敷きの3Dの手前の壁と、ラフのトーンに引っぱられる。ラフから描き直し、12-1 は「1枚目（3D）の手前の大きな壁を写さない」と書いて3回目で収まった。
+- 仕上げのトーンはラフから取るので、構図を変えたコマはラフも描き直す。
+
+```sh
+cp part1/read/*.ts part1/name/gulliver-ep04-name.ts part1/script/gulliver-part1-script.ts $SB/
+GM_OUT=/tmp/read npx vitest run apps/artifact-host/src/creative/story-board/gulliver-ep04-read.build.test.ts
+```

@@ -152,6 +152,8 @@ node gm-svg2png.tmp.mjs /tmp/rough3/pages /tmp/rough3/png
 
 ネーム `gm1-ep04-name@name-ep04-v1`（16ページ・37コマ）に、第3話と同じ方法でラフ絵を描きました。成果物は `artifacts/gm1-ep04-rough`（Design）、`gm1-ep04-rough-pages`、`gm1-ep04-rough-figures`、記録は `ep04-rough.json`、ページの絵は `ep04/pages/` です。人物にブレフスキュの使節（CH-31、設定画は小人の絵を使い、赤い上着と白いかつらを説明に書く）が加わりました。
 
+通読の直し（2026-11-20、作者「おすすめ通り直す」）：`rough-ep04-v2` で 4-2・5-1・12-1・15-3・16-1 を描き直した（RV-e04-02・03・04・06・07、`rough-briefs.py` の `REVISED_NOTE`）。12-2 はナレーションが奥のガリヴァーの靴と脛を避ける点を `rough-assets.py` の `AVOID_EXTRA` に足した（RV-e04-05）。もとの絵は作業フォルダの `prev/`・`try2/` に残す。
+
 ## 第3話の学びの入れ方
 
 - `src/episode-notes.py` の第4話の覚え書き：

@@ -7,7 +7,7 @@
   "source": "created"
  },
  "draft": {
-  "baseVersionId": "rough-ep04-v1",
+  "baseVersionId": "rough-ep04-v2",
   "updatedAt": "2026-11-19T00:00:00.000Z",
   "content": {
    "schemaVersion": 2,
@@ -1359,7 +1359,7 @@
  "versions": [
   {
    "artifactId": "gm1-ep04-rough-figures",
-   "versionId": "rough-ep04-v1",
+   "versionId": "rough-ep04-v2",
    "parentVersionId": null,
    "schemaVersion": 1,
    "createdAt": "2026-11-19T00:00:00.000Z",

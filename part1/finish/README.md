@@ -121,6 +121,8 @@ GM_OUT=/tmp/fin3 npx vitest run apps/artifact-host/src/creative/story-board/gull
 
 第3話と同じ白黒の作り（`src/finish-mono.py`、画像生成なし）。もとは線画 `gm1-ep04-ink@ink-ep04-v1`。
 
+通読の直し（2026-11-20）：`finish-ep04-v2`。描き直した5コマのほか、1-2・8-3 の皇帝の顔を `FACE_LIGHT`（顔の楕円の中で人物のトーンを抜く）、13-1 の夜空を `FLAT_BG` にした（RV-e04-01・08）。改訂の日付は `READ_DATE`。
+
 - 原稿 `artifacts/gm1-ep04-finish.artifact.json`（16 ページ）、ページ表 `gm1-ep04-finish-pages`、写植の記録 `gm1-ep04-lettering`（第4話の台詞・ナレーション・効果音をすべて `gm1-script-lines@script-v1` から）。ページの画像は `ep04/pages/`。
 - 第3話の学び LN-e03-04（作者が採る、2026-11-19）：最初から、昼と朝の空のコマ（1-1・2-2・3-1・5-2・8-1・9-2・15-2・16-1・16-2）は `SKY_WHITE`、玉座の間と壁ばかりのコマ（1-2・2-3・3-2・3-3・4-2・5-1・8-2・8-3・9-1・14-1・15-1・15-3）は `FLAT_BG` にした。夜（10〜14ページ）の空は暗いままにした。
 - 作者に見せる前に、夜の空にラフのむらがまだらに出た 11-1 も `FLAT_BG` にした。
