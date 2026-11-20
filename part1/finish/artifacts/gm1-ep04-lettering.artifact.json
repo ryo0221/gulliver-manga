@@ -7,7 +7,7 @@
   "source": "created"
  },
  "draft": {
-  "baseVersionId": "finish-ep04-v1",
+  "baseVersionId": "finish-ep04-v2",
   "updatedAt": "2026-11-19T00:00:00.000Z",
   "content": {
    "schemaVersion": 2,
@@ -204,7 +204,7 @@
       "lt.shape": "楕円の吹き出し、尾は話す人（フリムナップ）へ",
       "lt.font": "ゴシック（Noto Sans CJK JP）、19 px",
       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
-      "lt.where": "x 3492、y 84、幅 303、高さ 72（原稿の座標。エディタで動かせる）",
+      "lt.where": "x 3870、y 84、幅 303、高さ 72（原稿の座標。エディタで動かせる）",
       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
      }
     },
@@ -354,7 +354,7 @@
       "lt.shape": "枠なしの文字に白い縁取り（仮。手書きは LY-08）",
       "lt.font": "ゴシック（Noto Sans CJK JP）、太字、30 px",
       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
-      "lt.where": "x 10010、y 84、幅 120、高さ 35（原稿の座標。エディタで動かせる）",
+      "lt.where": "x 10088、y 84、幅 120、高さ 35（原稿の座標。エディタで動かせる）",
       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
      }
     },
@@ -369,7 +369,7 @@
       "lt.shape": "四角の枠（ナレーション）",
       "lt.font": "明朝（Noto Serif CJK JP）、17 px",
       "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
-      "lt.where": "x 9800、y 795、幅 330、高さ 85（原稿の座標。エディタで動かせる）",
+      "lt.where": "x 9512、y 771、幅 330、高さ 85（原稿の座標。エディタで動かせる）",
       "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
      }
     },
@@ -454,12 +454,12 @@
  "versions": [
   {
    "artifactId": "gm1-ep04-lettering",
-   "versionId": "finish-ep04-v1",
+   "versionId": "finish-ep04-v2",
    "parentVersionId": null,
    "schemaVersion": 1,
    "createdAt": "2026-11-19T00:00:00.000Z",
    "createdBy": null,
-   "reason": "ガリヴァー旅行記 第4話の仕上げと写植（白黒。fiction-manga@1.3.0 仕上げと写植、gm1-ep04-ink@ink-ep04-v1 から。AI の提案）",
+   "reason": "ガリヴァー旅行記 第4話の仕上げと写植（白黒。fiction-manga@1.3.0 仕上げと写植、gm1-ep04-ink@ink-ep04-v2 から。AI の提案）",
    "content": {
     "schemaVersion": 2,
     "columns": [
@@ -655,7 +655,7 @@
        "lt.shape": "楕円の吹き出し、尾は話す人（フリムナップ）へ",
        "lt.font": "ゴシック（Noto Sans CJK JP）、19 px",
        "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
-       "lt.where": "x 3492、y 84、幅 303、高さ 72（原稿の座標。エディタで動かせる）",
+       "lt.where": "x 3870、y 84、幅 303、高さ 72（原稿の座標。エディタで動かせる）",
        "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
       }
      },
@@ -805,7 +805,7 @@
        "lt.shape": "枠なしの文字に白い縁取り（仮。手書きは LY-08）",
        "lt.font": "ゴシック（Noto Sans CJK JP）、太字、30 px",
        "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
-       "lt.where": "x 10010、y 84、幅 120、高さ 35（原稿の座標。エディタで動かせる）",
+       "lt.where": "x 10088、y 84、幅 120、高さ 35（原稿の座標。エディタで動かせる）",
        "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
       }
      },
@@ -820,7 +820,7 @@
        "lt.shape": "四角の枠（ナレーション）",
        "lt.font": "明朝（Noto Serif CJK JP）、17 px",
        "lt.direction": "横書き（左から右。Editor の漫画ワークスペースは縦書きを持たない）",
-       "lt.where": "x 9800、y 795、幅 330、高さ 85（原稿の座標。エディタで動かせる）",
+       "lt.where": "x 9512、y 771、幅 330、高さ 85（原稿の座標。エディタで動かせる）",
        "lt.clear": "人物の頭（3D のカメラ）とラフの線の濃いところを避けて置いた。被せたところは無い"
       }
      },
@@ -901,7 +901,7 @@
      }
     ]
    },
-   "contentHash": "f3dd2d3823678899d0ec9d944cabfecfd49503965c8444407e55b14d805fe165"
+   "contentHash": "3521dbc9d6a293169b492e6d840b396aa44ca3a6b57411716db8e2cd4917f4cb"
   }
  ]
 }

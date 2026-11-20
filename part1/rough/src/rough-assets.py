@@ -14,7 +14,10 @@ root, commit, out = sys.argv[1:4]
 EP = int(os.environ.get('EPISODE', '1'))
 # 通読の直しで描き直したコマ（第2話、2026-11-15）：前の生の出力の sha256 を残す。
 REVISED = {'e02-p07-k4': 'RV-e02-02', 'e02-p16-k1': 'RV-e02-09',
-           'e03-p02-k2': 'RV-e03-01', 'e03-p06-k1': 'RV-e03-02', 'e03-p04-k4': 'RV-e03-03', 'e03-p12-k1': 'RV-e03-04'}
+           'e03-p02-k2': 'RV-e03-01', 'e03-p06-k1': 'RV-e03-02', 'e03-p04-k4': 'RV-e03-03', 'e03-p12-k1': 'RV-e03-04',
+           'e04-p04-k2': 'RV-e04-03', 'e04-p05-k1': 'RV-e04-02', 'e04-p15-k3': 'RV-e04-06', 'e04-p12-k1': 'RV-e04-04', 'e04-p16-k1': 'RV-e04-07'}
+# 第4話の通読の直し（RV-e04-05、2026-11-20）：12-2 のナレーションが奥のガリヴァーの靴と脛を隠した。文字を置かない所として足す。
+AVOID_EXTRA = {'e04-p12-k2': [('RV-e04-05 ガリヴァーの靴', 0.60, 0.44, 0.10), ('RV-e04-05 ガリヴァーの脛', 0.60, 0.18, 0.10)]}
 GM = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../..'))
 briefs = json.load(open(f'{root}/briefs.json'))
 os.makedirs(f'{out}/panels', exist_ok=True); os.makedirs(f'{out}/prompts', exist_ok=True)
@@ -58,6 +61,14 @@ for pid, b in briefs.items():
     k = min(1, 900 / max(W, H))
     ImageOps.grayscale(cut).resize((round(W * k), round(H * k)), Image.LANCZOS).save(f'{out}/panels/{pid}.jpg', quality=72, optimize=True)
     occupancy = occupancy_grid(ImageOps.grayscale(cut), b['figures'])
+    for name, hx, hy, r in AVOID_EXTRA.get(pid, []):
+        # 人物の頭のほかに、文字で隠さない物（大きさの比べになる物など）。
+        rows = occupancy['rows']; Wc, Hc = cut.size
+        occupancy['heads'].append({'fg': name, 'x': hx, 'y': hy, 'r': r})
+        for j in range(rows):
+            for i in range(COLS):
+                dx = ((i + 0.5) / COLS - hx) * Wc / Hc; dy = (j + 0.5) / rows - hy
+                if dx * dx + dy * dy <= (r * 1.15) ** 2: occupancy['cells'][j * COLS + i] = 1.0
     prompt = open(f'{d}/prompt.txt').read()
     open(f'{out}/prompts/{pid}.txt', 'w').write(prompt)
     log = open(f'{d}/codex.log', errors='replace').read()
@@ -84,7 +95,7 @@ for pid, b in briefs.items():
     if os.path.exists(f'{d}/try1/raw.png'):
         panels[pid]['retake'] = {'reason': open(f'{d}/retake.txt').read().strip() if os.path.exists(f'{d}/retake.txt') else '', 'firstRawSha256': sha(f'{d}/try1/raw.png')}
     if pid in REVISED and pid in before and before[pid]['rawSha256'] != panels[pid]['rawSha256']:
-        panels[pid]['revision'] = {'finding': REVISED[pid], 'date': {'e02': '2026-11-15'}.get(pid[:3], '2026-11-17'), 'previousRawSha256': before[pid]['rawSha256']}
+        panels[pid]['revision'] = {'finding': REVISED[pid], 'date': {'e02': '2026-11-15', 'e04': '2026-11-20'}.get(pid[:3], '2026-11-17'), 'previousRawSha256': before[pid]['rawSha256']}
     elif pid in before and before[pid].get('revision'):
         panels[pid]['revision'] = before[pid]['revision']
 json.dump({'schemaVersion': 1, 'episode': EP, 'generatedAt': '2026-11-14', 'panels': panels}, open(f'{out}/ep{EP:02d}-rough.json', 'w'), ensure_ascii=False, indent=1)

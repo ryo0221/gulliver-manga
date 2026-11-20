@@ -37,6 +37,9 @@ INK_NOTES = {
     'e03-p16-k1': "Read-through correction (RV-e03-06): the low platform the Emperor stands on was a blank grey slab. Draw it as a low dais of laid stone slabs, about one step high, with the joints between the stones and a carved stone edge, the same stone as the quay paving around it. Keep the Emperor seen from behind, the moored ships on the left and Blefuscu on the horizon.",
     'e03-p16-k2': "Read-through correction (RV-e03-06): the low platform under the Emperor was a blank grey slab. Draw it as a low dais of laid stone slabs, about one step high, with the joints between the stones and a carved stone edge, the same stone as the quay paving. Keep the Emperor pointing out to sea, the parapet and the sea behind.",
     'e03-p12-k1': "Read-through correction (RV-e03-04/05): follow the redrawn rough: the sea comes up to Gulliver's chest. Draw the cables as separate thin single lines (one line each), running from his fist to the bows of the ships, with open sea visible between them; do not fill or shade the spaces between the cables.",
+    # 第4話の通読の直し（2026-11-20、作者「おすすめ通り直す」）
+    'e04-p12-k1': "Read-through correction (RV-e04-04): follow the redrawn FIRST image (the rough), not the big near wall of the SECOND image: Gulliver stands on the open ground of the court; the low second-court buildings beyond him reach only his lower chest; the burning roof beyond; tiny people with buckets on the ground at his feet.",
+    'e04-p16-k1': "Read-through correction (RV-e04-07): the building behind him was drawn bigger than Gulliver. He kneels in the great street outside the palace. Everything around is Lilliputian and LOW: the palace enclosure wall (2 feet) reaches only to about his knee; the buildings beyond it and the burnt roof of the royal apartments reach no higher than his shoulders. Keep his pose (kneeling, looking at the burnt palace, regretful, his whole face) and the morning light.",
 }
 
 for pid, b in briefs.items():

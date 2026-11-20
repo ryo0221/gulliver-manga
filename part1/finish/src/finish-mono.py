@@ -55,10 +55,16 @@ SKY_WHITE = {'e03-p15-k1': (0.9, 'RV-e03-09'), 'e03-p16-k3': (0.45, 'RV-e03-09')
 SKY_WHITE.update({f'e04-{k}': (v, 'LN-e03-04') for k, v in {
     'p01-k1': 0.55, 'p02-k2': 0.75, 'p03-k1': 0.65, 'p05-k2': 0.6, 'p08-k1': 0.5, 'p09-k2': 0.85,
     'p15-k2': 0.35, 'p16-k1': 0.2, 'p16-k2': 0.45}.items()})
-FLAT_BG.update({f'e04-{k}': 'LN-e03-04' for k in (
+FLAT_BG.update({f'e04-{k}': 'RV-e04-08' if k == 'p13-k1' else 'LN-e03-04' for k in (
     'p01-k2', 'p02-k3', 'p03-k2', 'p03-k3', 'p04-k2', 'p05-k1', 'p08-k2', 'p08-k3', 'p09-k1', 'p14-k1', 'p15-k1', 'p15-k3',
     # 夜の空にラフのむらがまだらのグレーで出た（作者に見せる前に直した）
-    'p11-k1')})
+    'p11-k1',
+    # 第4話の通読の直し（RV-e04-08、2026-11-20）：夜空にラフのむらが白いしみで出た。
+    'p13-k1')})
+# 第4話の通読の直し（RV-e04-01、2026-11-20）：1-2・8-3 の皇帝の顔がラフの鉛筆で濃いグレーになり、ほかのコマの明るい顔と
+# 違って見えた。顔のまわり（コマの幅と高さに対する割合の楕円：中心 x, y、半径 x, y）の人物の領域は白い紙のままにする。
+FACE_LIGHT = {'e04-p01-k2': (0.505, 0.33, 0.035, 0.09, 'RV-e04-01'), 'e04-p08-k3': (0.49, 0.39, 0.065, 0.17, 'RV-e04-01')}
+READ_DATE = {'e04': '2026-11-20'}
 DATE = {2: '2026-11-15', 4: '2026-11-19'}.get(EP, '2026-11-17')
 FLAT_SHARE = 0.01   # a region wider than this share of the panel is a wall or a table top (the figures are cut into small regions)
 
@@ -139,7 +145,8 @@ before = json.load(open(_old))['panels'] if os.path.exists(_old) else {}
 # 通読の直しで線画（とラフ）を描き直したコマ：前の版の sha256 を残す。
 REDRAWN = {'e02-p03-k1': 'RV-e02-01', 'e02-p07-k4': 'RV-e02-02', 'e02-p11-k1': 'RV-e02-04', 'e02-p11-k2': 'RV-e02-05',
            'e02-p16-k2': 'RV-e02-06', 'e02-p16-k1': 'RV-e02-09',
-           'e03-p02-k2': 'RV-e03-01', 'e03-p06-k1': 'RV-e03-02', 'e03-p04-k4': 'RV-e03-03', 'e03-p12-k1': 'RV-e03-04'}
+           'e03-p02-k2': 'RV-e03-01', 'e03-p06-k1': 'RV-e03-02', 'e03-p04-k4': 'RV-e03-03', 'e03-p12-k1': 'RV-e03-04',
+           'e04-p04-k2': 'RV-e04-03', 'e04-p05-k1': 'RV-e04-02', 'e04-p15-k3': 'RV-e04-06', 'e04-p12-k1': 'RV-e04-04', 'e04-p16-k1': 'RV-e04-07'}
 # 線画だけを描き直したコマ（ラフは前のまま）：前のラフは構図が違い、線画へ合わせられず灰色のむらになる。
 # これらのコマは、ラフの代わりに線画そのもの（線と斜線の濃さ）をトーンのもとにする。
 INK_TONE = {'e02-p03-k1', 'e02-p11-k1', 'e02-p11-k2', 'e02-p16-k2'}
@@ -157,6 +164,11 @@ for pid, ip in sorted(inkdata['panels'].items()):
     lo, hi = np.percentile(Y, 1), np.percentile(Y, 99.5)
     Y = np.clip((Y - lo) / max(hi - lo, 1) * 255, 0, 255)
     darkness, figmask, shadow = split(Y, lines, pid in FLAT_BG, cv2.GaussianBlur(Y, (0, 0), FLAT_BG_BLUR) if pid in FLAT_BG else None)
+    if pid in FACE_LIGHT:
+        cx, cy, rx, ry, _ = FACE_LIGHT[pid]
+        yy, xx = np.mgrid[0:H, 0:W]
+        face = figmask & (((xx / W - cx) / rx) ** 2 + ((yy / H - cy) / ry) ** 2 <= 1)
+        darkness = np.where(face, 0, darkness); shadow = np.where(face, 0, shadow)
     if pid in SKY_WHITE:
         # 空（水平線より上の背景）は白い紙のまま：トーンも影も置かない。
         sky = ~figmask & (np.arange(H)[:, None] < SKY_WHITE[pid][0] * H)
@@ -194,12 +206,13 @@ for pid, ip in sorted(inkdata['panels'].items()):
         'refs': refs,
     }
     if pid in REDRAWN and pid in before and before[pid]['rawSha256'] != panels[pid]['rawSha256']:
-        panels[pid]['revision'] = {'finding': REDRAWN[pid], 'date': DATE, 'what': '線画（とラフ）を描き直したので作り直した',
+        panels[pid]['revision'] = {'finding': REDRAWN[pid], 'date': READ_DATE.get(E, DATE), 'what': '線画（とラフ）を描き直したので作り直した',
                                    'previousRefs': {r['path']: r['sha256'] for r in before[pid]['refs']}}
     elif pid in before and before[pid].get('revision', {}).get('finding') in REDRAWN.values():
         panels[pid]['revision'] = before[pid]['revision']
     if pid in SKY_WHITE: panels[pid]['revision'] = {'finding': SKY_WHITE[pid][1], 'date': DATE, 'what': '水平線より上の背景（空）を白にした'}
-    if pid in FLAT_BG: panels[pid]['revision'] = {'finding': FLAT_BG[pid], 'date': DATE, 'what': '背景に影を付けず、背景のトーンを強くぼかしたラフから取った'}
+    if pid in FLAT_BG: panels[pid]['revision'] = {'finding': FLAT_BG[pid], 'date': READ_DATE[E] if FLAT_BG[pid].startswith('RV-') and E in READ_DATE else DATE, 'what': '背景に影を付けず、背景のトーンを強くぼかしたラフから取った'}
+    if pid in FACE_LIGHT: panels[pid]['revision'] = {'finding': FACE_LIGHT[pid][4], 'date': READ_DATE[E], 'what': '皇帝の顔のトーンを、ほかのコマと同じ白い紙にした'}
     print(pid, files['LY-05']['share'], files['LY-03']['share'], files['LY-06']['share'], sum(v['bytes'] for v in files.values()) // 1024, 'KB')
 json.dump({'schemaVersion': 1, 'episode': EP, 'generatedAt': DATE, 'panels': panels}, open(f'{out}/ep{EP:02d}-finish.json', 'w'), ensure_ascii=False, indent=1)
 print(len(panels), 'panels')

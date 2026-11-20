@@ -7,7 +7,7 @@
   "source": "created"
  },
  "draft": {
-  "baseVersionId": "ink-ep04-v1",
+  "baseVersionId": "ink-ep04-v2",
   "updatedAt": "2026-11-19T00:00:00.000Z",
   "content": {
    "schemaVersion": 2,
@@ -95,13 +95,13 @@
       "ik.scene": "SC-012",
       "ik.panels": "e04-p01-k1 e04-p01-k2",
       "ik.method": "ラフ絵をなぞる AI の画像生成（Codex）。構図・人物の位置と大きさは、ラフと 3D の舞台で決めたまま",
-      "ik.rough": "gm1-ep04-rough@rough-ep04-v1：part1/rough/panels/e04-p01-k1.jpg sha256:ca642d467b1d、part1/rough/panels/e04-p01-k2.jpg sha256:b2a00a9d8a70。3D の舞台：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
+      "ik.rough": "gm1-ep04-rough@rough-ep04-v2：part1/rough/panels/e04-p01-k1.jpg sha256:ca642d467b1d、part1/rough/panels/e04-p01-k2.jpg sha256:b2a00a9d8a70。3D の舞台：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
       "ik.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-02 皇帝の設定画（gulliver-manga@5a4d46d1 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080） / CH-30 小人の設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
       "ik.layers": "LY-01 下絵（3D）（隠す）、LY-02 アタリ（ラフ絵、隠す）、LY-04 背景の線画、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
       "ik.byHuman": "まだ無い（作者が確かめて直す）",
       "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v2 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
       "ik.fx": "無し",
       "ik.noBg": ""
      }
@@ -113,13 +113,13 @@
       "ik.scene": "SC-012",
       "ik.panels": "e04-p02-k1 e04-p02-k2 e04-p02-k3",
       "ik.method": "ラフ絵をなぞる AI の画像生成（Codex）。構図・人物の位置と大きさは、ラフと 3D の舞台で決めたまま",
-      "ik.rough": "gm1-ep04-rough@rough-ep04-v1：part1/rough/panels/e04-p02-k1.jpg sha256:1a32a7de9341、part1/rough/panels/e04-p02-k2.jpg sha256:ea36ef2b8d6a、part1/rough/panels/e04-p02-k3.jpg sha256:aa64a80693c8。3D の舞台：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
+      "ik.rough": "gm1-ep04-rough@rough-ep04-v2：part1/rough/panels/e04-p02-k1.jpg sha256:1a32a7de9341、part1/rough/panels/e04-p02-k2.jpg sha256:ea36ef2b8d6a、part1/rough/panels/e04-p02-k3.jpg sha256:aa64a80693c8。3D の舞台：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
       "ik.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-02 皇帝の設定画（gulliver-manga@5a4d46d1 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080） / CH-30 小人の設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5） / CH-04 フリムナップの設定画（gulliver-manga@5a4d46d1 part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c） / CH-06 ボルゴラムの設定画（gulliver-manga@5a4d46d1 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）",
       "ik.layers": "LY-01 下絵（3D）（隠す）、LY-02 アタリ（ラフ絵、隠す）、LY-04 背景の線画、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
       "ik.byHuman": "まだ無い（作者が確かめて直す）",
       "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v2 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
       "ik.fx": "無し",
       "ik.noBg": ""
      }
@@ -131,13 +131,13 @@
       "ik.scene": "SC-012",
       "ik.panels": "e04-p03-k1 e04-p03-k2 e04-p03-k3",
       "ik.method": "ラフ絵をなぞる AI の画像生成（Codex）。構図・人物の位置と大きさは、ラフと 3D の舞台で決めたまま",
-      "ik.rough": "gm1-ep04-rough@rough-ep04-v1：part1/rough/panels/e04-p03-k1.jpg sha256:cee392401430、part1/rough/panels/e04-p03-k2.jpg sha256:5ca398819f3c、part1/rough/panels/e04-p03-k3.jpg sha256:dadf2ca0ad58。3D の舞台：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
+      "ik.rough": "gm1-ep04-rough@rough-ep04-v2：part1/rough/panels/e04-p03-k1.jpg sha256:cee392401430、part1/rough/panels/e04-p03-k2.jpg sha256:5ca398819f3c、part1/rough/panels/e04-p03-k3.jpg sha256:dadf2ca0ad58。3D の舞台：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
       "ik.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-02 皇帝の設定画（gulliver-manga@5a4d46d1 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080） / CH-30 小人の設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5） / CH-04 フリムナップの設定画（gulliver-manga@5a4d46d1 part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c） / CH-06 ボルゴラムの設定画（gulliver-manga@5a4d46d1 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）",
       "ik.layers": "LY-01 下絵（3D）（隠す）、LY-02 アタリ（ラフ絵、隠す）、LY-04 背景の線画、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
       "ik.byHuman": "まだ無い（作者が確かめて直す）",
       "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v2 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
       "ik.fx": "無し",
       "ik.noBg": ""
      }
@@ -149,13 +149,13 @@
       "ik.scene": "SC-012",
       "ik.panels": "e04-p04-k1 e04-p04-k2",
       "ik.method": "ラフ絵をなぞる AI の画像生成（Codex）。構図・人物の位置と大きさは、ラフと 3D の舞台で決めたまま",
-      "ik.rough": "gm1-ep04-rough@rough-ep04-v1：part1/rough/panels/e04-p04-k1.jpg sha256:fc1883efa936、part1/rough/panels/e04-p04-k2.jpg sha256:b5f71cb507f3。3D の舞台：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
-      "ik.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-02 皇帝の設定画（gulliver-manga@5a4d46d1 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080） / CH-04 フリムナップの設定画（gulliver-manga@5a4d46d1 part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c） / CH-06 ボルゴラムの設定画（gulliver-manga@5a4d46d1 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）",
+      "ik.rough": "gm1-ep04-rough@rough-ep04-v2：part1/rough/panels/e04-p04-k1.jpg sha256:fc1883efa936、part1/rough/panels/e04-p04-k2.jpg sha256:4dff5b56a204。3D の舞台：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
+      "ik.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-02 皇帝の設定画（gulliver-manga@5a4d46d1 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080） / CH-04 フリムナップの設定画（gulliver-manga@af6ea506 part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c） / CH-06 ボルゴラムの設定画（gulliver-manga@af6ea506 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）",
       "ik.layers": "LY-01 下絵（3D）（隠す）、LY-02 アタリ（ラフ絵、隠す）、LY-04 背景の線画、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
       "ik.byHuman": "まだ無い（作者が確かめて直す）",
       "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v2 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
       "ik.fx": "無し",
       "ik.noBg": ""
      }
@@ -167,13 +167,13 @@
       "ik.scene": "SC-012",
       "ik.panels": "e04-p05-k1 e04-p05-k2",
       "ik.method": "ラフ絵をなぞる AI の画像生成（Codex）。構図・人物の位置と大きさは、ラフと 3D の舞台で決めたまま",
-      "ik.rough": "gm1-ep04-rough@rough-ep04-v1：part1/rough/panels/e04-p05-k1.jpg sha256:eb13338dc072、part1/rough/panels/e04-p05-k2.jpg sha256:6b4b9eb1c4bf。3D の舞台：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
-      "ik.art": "CH-04 フリムナップの設定画（gulliver-manga@5a4d46d1 part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c） / CH-06 ボルゴラムの設定画（gulliver-manga@5a4d46d1 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87） / CH-01 ガリヴァーの設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
+      "ik.rough": "gm1-ep04-rough@rough-ep04-v2：part1/rough/panels/e04-p05-k1.jpg sha256:5f38bebd09f9、part1/rough/panels/e04-p05-k2.jpg sha256:6b4b9eb1c4bf。3D の舞台：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
+      "ik.art": "CH-04 フリムナップの設定画（gulliver-manga@af6ea506 part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c） / CH-06 ボルゴラムの設定画（gulliver-manga@af6ea506 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87） / CH-01 ガリヴァーの設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
       "ik.layers": "LY-01 下絵（3D）（隠す）、LY-02 アタリ（ラフ絵、隠す）、LY-04 背景の線画、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
       "ik.byHuman": "まだ無い（作者が確かめて直す）",
       "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v2 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
       "ik.fx": "無し",
       "ik.noBg": ""
      }
@@ -185,13 +185,13 @@
       "ik.scene": "SC-013",
       "ik.panels": "e04-p06-k1 e04-p06-k2",
       "ik.method": "ラフ絵をなぞる AI の画像生成（Codex）。構図・人物の位置と大きさは、ラフと 3D の舞台で決めたまま",
-      "ik.rough": "gm1-ep04-rough@rough-ep04-v1：part1/rough/panels/e04-p06-k1.jpg sha256:9b7fa0b3efbe、part1/rough/panels/e04-p06-k2.jpg sha256:3ff3f8e49d44。3D の舞台：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76、F106 古い神殿 artifact_43381302-b044-4992-a107-209efb10c14f@version_c2334107-1277-4289-b44a-f68dc36f9b38、舞台 gate artifact_e6934c86-2efc-47ea-8027-fe00b4c1edd4@version_c1d47c94-7452-4f39-ab99-3f2402e42286",
+      "ik.rough": "gm1-ep04-rough@rough-ep04-v2：part1/rough/panels/e04-p06-k1.jpg sha256:9b7fa0b3efbe、part1/rough/panels/e04-p06-k2.jpg sha256:3ff3f8e49d44。3D の舞台：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76、F106 古い神殿 artifact_43381302-b044-4992-a107-209efb10c14f@version_c2334107-1277-4289-b44a-f68dc36f9b38、舞台 gate artifact_e6934c86-2efc-47ea-8027-fe00b4c1edd4@version_c1d47c94-7452-4f39-ab99-3f2402e42286",
       "ik.art": "CH-30 小人の設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5） / CH-01 ガリヴァーの設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
       "ik.layers": "LY-01 下絵（3D）（隠す）、LY-02 アタリ（ラフ絵、隠す）、LY-04 背景の線画、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
       "ik.byHuman": "まだ無い（作者が確かめて直す）",
       "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v2 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
       "ik.fx": "無し",
       "ik.noBg": ""
      }
@@ -203,13 +203,13 @@
       "ik.scene": "SC-013",
       "ik.panels": "e04-p07-k1 e04-p07-k2 e04-p07-k3",
       "ik.method": "ラフ絵をなぞる AI の画像生成（Codex）。構図・人物の位置と大きさは、ラフと 3D の舞台で決めたまま",
-      "ik.rough": "gm1-ep04-rough@rough-ep04-v1：part1/rough/panels/e04-p07-k1.jpg sha256:54e2b67d5d98、part1/rough/panels/e04-p07-k2.jpg sha256:cc3ad73f7c9b、part1/rough/panels/e04-p07-k3.jpg sha256:6f54ecaa839a。3D の舞台：F106 古い神殿 artifact_43381302-b044-4992-a107-209efb10c14f@version_c2334107-1277-4289-b44a-f68dc36f9b38、舞台 gate artifact_e6934c86-2efc-47ea-8027-fe00b4c1edd4@version_c1d47c94-7452-4f39-ab99-3f2402e42286",
+      "ik.rough": "gm1-ep04-rough@rough-ep04-v2：part1/rough/panels/e04-p07-k1.jpg sha256:54e2b67d5d98、part1/rough/panels/e04-p07-k2.jpg sha256:cc3ad73f7c9b、part1/rough/panels/e04-p07-k3.jpg sha256:6f54ecaa839a。3D の舞台：F106 古い神殿 artifact_43381302-b044-4992-a107-209efb10c14f@version_c2334107-1277-4289-b44a-f68dc36f9b38、舞台 gate artifact_e6934c86-2efc-47ea-8027-fe00b4c1edd4@version_c1d47c94-7452-4f39-ab99-3f2402e42286",
       "ik.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-30 小人の設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
       "ik.layers": "LY-01 下絵（3D）（隠す）、LY-02 アタリ（ラフ絵、隠す）、LY-04 背景の線画、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
       "ik.byHuman": "まだ無い（作者が確かめて直す）",
       "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v2 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
       "ik.fx": "無し",
       "ik.noBg": ""
      }
@@ -221,13 +221,13 @@
       "ik.scene": "SC-013",
       "ik.panels": "e04-p08-k1 e04-p08-k2 e04-p08-k3",
       "ik.method": "ラフ絵をなぞる AI の画像生成（Codex）。構図・人物の位置と大きさは、ラフと 3D の舞台で決めたまま",
-      "ik.rough": "gm1-ep04-rough@rough-ep04-v1：part1/rough/panels/e04-p08-k1.jpg sha256:11315a37c8db、part1/rough/panels/e04-p08-k2.jpg sha256:c5787577913d、part1/rough/panels/e04-p08-k3.jpg sha256:6ee794677470。3D の舞台：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
+      "ik.rough": "gm1-ep04-rough@rough-ep04-v2：part1/rough/panels/e04-p08-k1.jpg sha256:11315a37c8db、part1/rough/panels/e04-p08-k2.jpg sha256:c5787577913d、part1/rough/panels/e04-p08-k3.jpg sha256:6ee794677470。3D の舞台：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
       "ik.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-02 皇帝の設定画（gulliver-manga@5a4d46d1 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080） / CH-04 フリムナップの設定画（gulliver-manga@5a4d46d1 part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c）",
       "ik.layers": "LY-01 下絵（3D）（隠す）、LY-02 アタリ（ラフ絵、隠す）、LY-04 背景の線画、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
       "ik.byHuman": "まだ無い（作者が確かめて直す）",
       "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v2 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
       "ik.fx": "無し",
       "ik.noBg": ""
      }
@@ -239,13 +239,13 @@
       "ik.scene": "SC-013",
       "ik.panels": "e04-p09-k1 e04-p09-k2",
       "ik.method": "ラフ絵をなぞる AI の画像生成（Codex）。構図・人物の位置と大きさは、ラフと 3D の舞台で決めたまま",
-      "ik.rough": "gm1-ep04-rough@rough-ep04-v1：part1/rough/panels/e04-p09-k1.jpg sha256:b53132a7c28c、part1/rough/panels/e04-p09-k2.jpg sha256:a4385108f328。3D の舞台：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
+      "ik.rough": "gm1-ep04-rough@rough-ep04-v2：part1/rough/panels/e04-p09-k1.jpg sha256:b53132a7c28c、part1/rough/panels/e04-p09-k2.jpg sha256:a4385108f328。3D の舞台：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
       "ik.art": "CH-02 皇帝の設定画（gulliver-manga@5a4d46d1 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080） / CH-04 フリムナップの設定画（gulliver-manga@5a4d46d1 part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c） / CH-06 ボルゴラムの設定画（gulliver-manga@5a4d46d1 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87） / CH-01 ガリヴァーの設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
       "ik.layers": "LY-01 下絵（3D）（隠す）、LY-02 アタリ（ラフ絵、隠す）、LY-04 背景の線画、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
       "ik.byHuman": "まだ無い（作者が確かめて直す）",
       "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v2 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
       "ik.fx": "無し",
       "ik.noBg": ""
      }
@@ -257,13 +257,13 @@
       "ik.scene": "SC-014",
       "ik.panels": "e04-p10-k1 e04-p10-k2",
       "ik.method": "ラフ絵をなぞる AI の画像生成（Codex）。構図・人物の位置と大きさは、ラフと 3D の舞台で決めたまま",
-      "ik.rough": "gm1-ep04-rough@rough-ep04-v1：part1/rough/panels/e04-p10-k1.jpg sha256:111af45c87c6、part1/rough/panels/e04-p10-k2.jpg sha256:63bdd2173cff。3D の舞台：F106 古い神殿 artifact_43381302-b044-4992-a107-209efb10c14f@version_c2334107-1277-4289-b44a-f68dc36f9b38、舞台 gate artifact_e6934c86-2efc-47ea-8027-fe00b4c1edd4@version_c1d47c94-7452-4f39-ab99-3f2402e42286",
+      "ik.rough": "gm1-ep04-rough@rough-ep04-v2：part1/rough/panels/e04-p10-k1.jpg sha256:111af45c87c6、part1/rough/panels/e04-p10-k2.jpg sha256:63bdd2173cff。3D の舞台：F106 古い神殿 artifact_43381302-b044-4992-a107-209efb10c14f@version_c2334107-1277-4289-b44a-f68dc36f9b38、舞台 gate artifact_e6934c86-2efc-47ea-8027-fe00b4c1edd4@version_c1d47c94-7452-4f39-ab99-3f2402e42286",
       "ik.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
       "ik.layers": "LY-01 下絵（3D）（隠す）、LY-02 アタリ（ラフ絵、隠す）、LY-04 背景の線画、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
       "ik.byHuman": "まだ無い（作者が確かめて直す）",
       "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v2 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
       "ik.fx": "無し",
       "ik.noBg": ""
      }
@@ -275,13 +275,13 @@
       "ik.scene": "SC-014",
       "ik.panels": "e04-p11-k1 e04-p11-k2",
       "ik.method": "ラフ絵をなぞる AI の画像生成（Codex）。構図・人物の位置と大きさは、ラフと 3D の舞台で決めたまま",
-      "ik.rough": "gm1-ep04-rough@rough-ep04-v1：part1/rough/panels/e04-p11-k1.jpg sha256:eeb18952a80c、part1/rough/panels/e04-p11-k2.jpg sha256:4d81b9b504b3。3D の舞台：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
+      "ik.rough": "gm1-ep04-rough@rough-ep04-v2：part1/rough/panels/e04-p11-k1.jpg sha256:eeb18952a80c、part1/rough/panels/e04-p11-k2.jpg sha256:4d81b9b504b3。3D の舞台：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
       "ik.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / LO-04 都ミルドゥンドの舞台の設定画（gulliver-manga@5a4d46d1 part1/codex/lo04-mildendo/lo04-mildendo-raw.png sha256:5a161ac8ecd7）",
       "ik.layers": "LY-01 下絵（3D）（隠す）、LY-02 アタリ（ラフ絵、隠す）、LY-04 背景の線画、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
       "ik.byHuman": "まだ無い（作者が確かめて直す）",
       "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v2 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
       "ik.fx": "無し",
       "ik.noBg": ""
      }
@@ -293,13 +293,13 @@
       "ik.scene": "SC-014",
       "ik.panels": "e04-p12-k1 e04-p12-k2",
       "ik.method": "ラフ絵をなぞる AI の画像生成（Codex）。構図・人物の位置と大きさは、ラフと 3D の舞台で決めたまま",
-      "ik.rough": "gm1-ep04-rough@rough-ep04-v1：part1/rough/panels/e04-p12-k1.jpg sha256:b62c1c9707ae、part1/rough/panels/e04-p12-k2.jpg sha256:3a6e3b233ec4。3D の舞台：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
+      "ik.rough": "gm1-ep04-rough@rough-ep04-v2：part1/rough/panels/e04-p12-k1.jpg sha256:ccf059186cc9、part1/rough/panels/e04-p12-k2.jpg sha256:3a6e3b233ec4。3D の舞台：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
       "ik.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
       "ik.layers": "LY-01 下絵（3D）（隠す）、LY-02 アタリ（ラフ絵、隠す）、LY-04 背景の線画、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
       "ik.byHuman": "まだ無い（作者が確かめて直す）",
       "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v2 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
       "ik.fx": "無し",
       "ik.noBg": ""
      }
@@ -311,13 +311,13 @@
       "ik.scene": "SC-014",
       "ik.panels": "e04-p13-k1 e04-p13-k2",
       "ik.method": "ラフ絵をなぞる AI の画像生成（Codex）。構図・人物の位置と大きさは、ラフと 3D の舞台で決めたまま",
-      "ik.rough": "gm1-ep04-rough@rough-ep04-v1：part1/rough/panels/e04-p13-k1.jpg sha256:19521f80154b、part1/rough/panels/e04-p13-k2.jpg sha256:8f08cce439e5。3D の舞台：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
+      "ik.rough": "gm1-ep04-rough@rough-ep04-v2：part1/rough/panels/e04-p13-k1.jpg sha256:19521f80154b、part1/rough/panels/e04-p13-k2.jpg sha256:8f08cce439e5。3D の舞台：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
       "ik.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
       "ik.layers": "LY-01 下絵（3D）（隠す）、LY-02 アタリ（ラフ絵、隠す）、LY-04 背景の線画、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
       "ik.byHuman": "まだ無い（作者が確かめて直す）",
       "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v2 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
       "ik.fx": "無し",
       "ik.noBg": ""
      }
@@ -329,13 +329,13 @@
       "ik.scene": "SC-014",
       "ik.panels": "e04-p14-k1 e04-p14-k2",
       "ik.method": "ラフ絵をなぞる AI の画像生成（Codex）。構図・人物の位置と大きさは、ラフと 3D の舞台で決めたまま",
-      "ik.rough": "gm1-ep04-rough@rough-ep04-v1：part1/rough/panels/e04-p14-k1.jpg sha256:ba4006c6497b、part1/rough/panels/e04-p14-k2.jpg sha256:b490d4e067e2。3D の舞台：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
+      "ik.rough": "gm1-ep04-rough@rough-ep04-v2：part1/rough/panels/e04-p14-k1.jpg sha256:ba4006c6497b、part1/rough/panels/e04-p14-k2.jpg sha256:b490d4e067e2。3D の舞台：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
       "ik.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
       "ik.layers": "LY-01 下絵（3D）（隠す）、LY-02 アタリ（ラフ絵、隠す）、LY-04 背景の線画、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
       "ik.byHuman": "まだ無い（作者が確かめて直す）",
       "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v2 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
       "ik.fx": "無し",
       "ik.noBg": ""
      }
@@ -347,13 +347,13 @@
       "ik.scene": "SC-014",
       "ik.panels": "e04-p15-k1 e04-p15-k2 e04-p15-k3",
       "ik.method": "ラフ絵をなぞる AI の画像生成（Codex）。構図・人物の位置と大きさは、ラフと 3D の舞台で決めたまま",
-      "ik.rough": "gm1-ep04-rough@rough-ep04-v1：part1/rough/panels/e04-p15-k1.jpg sha256:66ed00683b01、part1/rough/panels/e04-p15-k2.jpg sha256:910f0640df50、part1/rough/panels/e04-p15-k3.jpg sha256:3fac1a93afc6。3D の舞台：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
-      "ik.art": "CH-03 皇后の設定画（gulliver-manga@5a4d46d1 part1/codex/ch03-empress/ch03-empress-raw.png sha256:14a89aa3dc1d） / CH-01 ガリヴァーの設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-30 小人の設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
+      "ik.rough": "gm1-ep04-rough@rough-ep04-v2：part1/rough/panels/e04-p15-k1.jpg sha256:66ed00683b01、part1/rough/panels/e04-p15-k2.jpg sha256:910f0640df50、part1/rough/panels/e04-p15-k3.jpg sha256:0e651f2b3da8。3D の舞台：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
+      "ik.art": "CH-03 皇后の設定画（gulliver-manga@af6ea506 part1/codex/ch03-empress/ch03-empress-raw.png sha256:14a89aa3dc1d） / CH-01 ガリヴァーの設定画（正面）（gulliver-manga@af6ea506 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-30 小人の設定画（正面）（gulliver-manga@af6ea506 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
       "ik.layers": "LY-01 下絵（3D）（隠す）、LY-02 アタリ（ラフ絵、隠す）、LY-04 背景の線画、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
       "ik.byHuman": "まだ無い（作者が確かめて直す）",
       "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v2 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
       "ik.fx": "無し",
       "ik.noBg": ""
      }
@@ -365,13 +365,13 @@
       "ik.scene": "SC-014",
       "ik.panels": "e04-p16-k1 e04-p16-k2",
       "ik.method": "ラフ絵をなぞる AI の画像生成（Codex）。構図・人物の位置と大きさは、ラフと 3D の舞台で決めたまま",
-      "ik.rough": "gm1-ep04-rough@rough-ep04-v1：part1/rough/panels/e04-p16-k1.jpg sha256:1c9fd28ab6af、part1/rough/panels/e04-p16-k2.jpg sha256:764d456c282a。3D の舞台：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
+      "ik.rough": "gm1-ep04-rough@rough-ep04-v2：part1/rough/panels/e04-p16-k1.jpg sha256:8fc1be9d5943、part1/rough/panels/e04-p16-k2.jpg sha256:764d456c282a。3D の舞台：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
       "ik.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
       "ik.layers": "LY-01 下絵（3D）（隠す）、LY-02 アタリ（ラフ絵、隠す）、LY-04 背景の線画、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
       "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
       "ik.byHuman": "まだ無い（作者が確かめて直す）",
       "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+      "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v2 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
       "ik.fx": "無し",
       "ik.noBg": ""
      }
@@ -382,12 +382,12 @@
  "versions": [
   {
    "artifactId": "gm1-ep04-ink-pages",
-   "versionId": "ink-ep04-v1",
+   "versionId": "ink-ep04-v2",
    "parentVersionId": null,
    "schemaVersion": 1,
    "createdAt": "2026-11-19T00:00:00.000Z",
    "createdBy": null,
-   "reason": "ガリヴァー旅行記 第4話の線画（fiction-manga@1.3.0 線画、gm1-ep04-rough@rough-ep04-v1 から。AI の提案）",
+   "reason": "ガリヴァー旅行記 第4話の線画（fiction-manga@1.3.0 線画、gm1-ep04-rough@rough-ep04-v2 から。AI の提案）",
    "content": {
     "schemaVersion": 2,
     "columns": [
@@ -474,13 +474,13 @@
        "ik.scene": "SC-012",
        "ik.panels": "e04-p01-k1 e04-p01-k2",
        "ik.method": "ラフ絵をなぞる AI の画像生成（Codex）。構図・人物の位置と大きさは、ラフと 3D の舞台で決めたまま",
-       "ik.rough": "gm1-ep04-rough@rough-ep04-v1：part1/rough/panels/e04-p01-k1.jpg sha256:ca642d467b1d、part1/rough/panels/e04-p01-k2.jpg sha256:b2a00a9d8a70。3D の舞台：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
+       "ik.rough": "gm1-ep04-rough@rough-ep04-v2：part1/rough/panels/e04-p01-k1.jpg sha256:ca642d467b1d、part1/rough/panels/e04-p01-k2.jpg sha256:b2a00a9d8a70。3D の舞台：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
        "ik.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-02 皇帝の設定画（gulliver-manga@5a4d46d1 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080） / CH-30 小人の設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
        "ik.layers": "LY-01 下絵（3D）（隠す）、LY-02 アタリ（ラフ絵、隠す）、LY-04 背景の線画、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
        "ik.byHuman": "まだ無い（作者が確かめて直す）",
        "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v2 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
        "ik.fx": "無し",
        "ik.noBg": ""
       }
@@ -492,13 +492,13 @@
        "ik.scene": "SC-012",
        "ik.panels": "e04-p02-k1 e04-p02-k2 e04-p02-k3",
        "ik.method": "ラフ絵をなぞる AI の画像生成（Codex）。構図・人物の位置と大きさは、ラフと 3D の舞台で決めたまま",
-       "ik.rough": "gm1-ep04-rough@rough-ep04-v1：part1/rough/panels/e04-p02-k1.jpg sha256:1a32a7de9341、part1/rough/panels/e04-p02-k2.jpg sha256:ea36ef2b8d6a、part1/rough/panels/e04-p02-k3.jpg sha256:aa64a80693c8。3D の舞台：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
+       "ik.rough": "gm1-ep04-rough@rough-ep04-v2：part1/rough/panels/e04-p02-k1.jpg sha256:1a32a7de9341、part1/rough/panels/e04-p02-k2.jpg sha256:ea36ef2b8d6a、part1/rough/panels/e04-p02-k3.jpg sha256:aa64a80693c8。3D の舞台：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
        "ik.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-02 皇帝の設定画（gulliver-manga@5a4d46d1 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080） / CH-30 小人の設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5） / CH-04 フリムナップの設定画（gulliver-manga@5a4d46d1 part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c） / CH-06 ボルゴラムの設定画（gulliver-manga@5a4d46d1 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）",
        "ik.layers": "LY-01 下絵（3D）（隠す）、LY-02 アタリ（ラフ絵、隠す）、LY-04 背景の線画、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
        "ik.byHuman": "まだ無い（作者が確かめて直す）",
        "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v2 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
        "ik.fx": "無し",
        "ik.noBg": ""
       }
@@ -510,13 +510,13 @@
        "ik.scene": "SC-012",
        "ik.panels": "e04-p03-k1 e04-p03-k2 e04-p03-k3",
        "ik.method": "ラフ絵をなぞる AI の画像生成（Codex）。構図・人物の位置と大きさは、ラフと 3D の舞台で決めたまま",
-       "ik.rough": "gm1-ep04-rough@rough-ep04-v1：part1/rough/panels/e04-p03-k1.jpg sha256:cee392401430、part1/rough/panels/e04-p03-k2.jpg sha256:5ca398819f3c、part1/rough/panels/e04-p03-k3.jpg sha256:dadf2ca0ad58。3D の舞台：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
+       "ik.rough": "gm1-ep04-rough@rough-ep04-v2：part1/rough/panels/e04-p03-k1.jpg sha256:cee392401430、part1/rough/panels/e04-p03-k2.jpg sha256:5ca398819f3c、part1/rough/panels/e04-p03-k3.jpg sha256:dadf2ca0ad58。3D の舞台：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
        "ik.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-02 皇帝の設定画（gulliver-manga@5a4d46d1 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080） / CH-30 小人の設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5） / CH-04 フリムナップの設定画（gulliver-manga@5a4d46d1 part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c） / CH-06 ボルゴラムの設定画（gulliver-manga@5a4d46d1 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）",
        "ik.layers": "LY-01 下絵（3D）（隠す）、LY-02 アタリ（ラフ絵、隠す）、LY-04 背景の線画、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
        "ik.byHuman": "まだ無い（作者が確かめて直す）",
        "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v2 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
        "ik.fx": "無し",
        "ik.noBg": ""
       }
@@ -528,13 +528,13 @@
        "ik.scene": "SC-012",
        "ik.panels": "e04-p04-k1 e04-p04-k2",
        "ik.method": "ラフ絵をなぞる AI の画像生成（Codex）。構図・人物の位置と大きさは、ラフと 3D の舞台で決めたまま",
-       "ik.rough": "gm1-ep04-rough@rough-ep04-v1：part1/rough/panels/e04-p04-k1.jpg sha256:fc1883efa936、part1/rough/panels/e04-p04-k2.jpg sha256:b5f71cb507f3。3D の舞台：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
-       "ik.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-02 皇帝の設定画（gulliver-manga@5a4d46d1 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080） / CH-04 フリムナップの設定画（gulliver-manga@5a4d46d1 part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c） / CH-06 ボルゴラムの設定画（gulliver-manga@5a4d46d1 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）",
+       "ik.rough": "gm1-ep04-rough@rough-ep04-v2：part1/rough/panels/e04-p04-k1.jpg sha256:fc1883efa936、part1/rough/panels/e04-p04-k2.jpg sha256:4dff5b56a204。3D の舞台：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
+       "ik.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-02 皇帝の設定画（gulliver-manga@5a4d46d1 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080） / CH-04 フリムナップの設定画（gulliver-manga@af6ea506 part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c） / CH-06 ボルゴラムの設定画（gulliver-manga@af6ea506 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87）",
        "ik.layers": "LY-01 下絵（3D）（隠す）、LY-02 アタリ（ラフ絵、隠す）、LY-04 背景の線画、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
        "ik.byHuman": "まだ無い（作者が確かめて直す）",
        "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v2 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
        "ik.fx": "無し",
        "ik.noBg": ""
       }
@@ -546,13 +546,13 @@
        "ik.scene": "SC-012",
        "ik.panels": "e04-p05-k1 e04-p05-k2",
        "ik.method": "ラフ絵をなぞる AI の画像生成（Codex）。構図・人物の位置と大きさは、ラフと 3D の舞台で決めたまま",
-       "ik.rough": "gm1-ep04-rough@rough-ep04-v1：part1/rough/panels/e04-p05-k1.jpg sha256:eb13338dc072、part1/rough/panels/e04-p05-k2.jpg sha256:6b4b9eb1c4bf。3D の舞台：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
-       "ik.art": "CH-04 フリムナップの設定画（gulliver-manga@5a4d46d1 part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c） / CH-06 ボルゴラムの設定画（gulliver-manga@5a4d46d1 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87） / CH-01 ガリヴァーの設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
+       "ik.rough": "gm1-ep04-rough@rough-ep04-v2：part1/rough/panels/e04-p05-k1.jpg sha256:5f38bebd09f9、part1/rough/panels/e04-p05-k2.jpg sha256:6b4b9eb1c4bf。3D の舞台：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
+       "ik.art": "CH-04 フリムナップの設定画（gulliver-manga@af6ea506 part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c） / CH-06 ボルゴラムの設定画（gulliver-manga@af6ea506 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87） / CH-01 ガリヴァーの設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
        "ik.layers": "LY-01 下絵（3D）（隠す）、LY-02 アタリ（ラフ絵、隠す）、LY-04 背景の線画、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
        "ik.byHuman": "まだ無い（作者が確かめて直す）",
        "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v2 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
        "ik.fx": "無し",
        "ik.noBg": ""
       }
@@ -564,13 +564,13 @@
        "ik.scene": "SC-013",
        "ik.panels": "e04-p06-k1 e04-p06-k2",
        "ik.method": "ラフ絵をなぞる AI の画像生成（Codex）。構図・人物の位置と大きさは、ラフと 3D の舞台で決めたまま",
-       "ik.rough": "gm1-ep04-rough@rough-ep04-v1：part1/rough/panels/e04-p06-k1.jpg sha256:9b7fa0b3efbe、part1/rough/panels/e04-p06-k2.jpg sha256:3ff3f8e49d44。3D の舞台：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76、F106 古い神殿 artifact_43381302-b044-4992-a107-209efb10c14f@version_c2334107-1277-4289-b44a-f68dc36f9b38、舞台 gate artifact_e6934c86-2efc-47ea-8027-fe00b4c1edd4@version_c1d47c94-7452-4f39-ab99-3f2402e42286",
+       "ik.rough": "gm1-ep04-rough@rough-ep04-v2：part1/rough/panels/e04-p06-k1.jpg sha256:9b7fa0b3efbe、part1/rough/panels/e04-p06-k2.jpg sha256:3ff3f8e49d44。3D の舞台：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76、F106 古い神殿 artifact_43381302-b044-4992-a107-209efb10c14f@version_c2334107-1277-4289-b44a-f68dc36f9b38、舞台 gate artifact_e6934c86-2efc-47ea-8027-fe00b4c1edd4@version_c1d47c94-7452-4f39-ab99-3f2402e42286",
        "ik.art": "CH-30 小人の設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5） / CH-01 ガリヴァーの設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
        "ik.layers": "LY-01 下絵（3D）（隠す）、LY-02 アタリ（ラフ絵、隠す）、LY-04 背景の線画、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
        "ik.byHuman": "まだ無い（作者が確かめて直す）",
        "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v2 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
        "ik.fx": "無し",
        "ik.noBg": ""
       }
@@ -582,13 +582,13 @@
        "ik.scene": "SC-013",
        "ik.panels": "e04-p07-k1 e04-p07-k2 e04-p07-k3",
        "ik.method": "ラフ絵をなぞる AI の画像生成（Codex）。構図・人物の位置と大きさは、ラフと 3D の舞台で決めたまま",
-       "ik.rough": "gm1-ep04-rough@rough-ep04-v1：part1/rough/panels/e04-p07-k1.jpg sha256:54e2b67d5d98、part1/rough/panels/e04-p07-k2.jpg sha256:cc3ad73f7c9b、part1/rough/panels/e04-p07-k3.jpg sha256:6f54ecaa839a。3D の舞台：F106 古い神殿 artifact_43381302-b044-4992-a107-209efb10c14f@version_c2334107-1277-4289-b44a-f68dc36f9b38、舞台 gate artifact_e6934c86-2efc-47ea-8027-fe00b4c1edd4@version_c1d47c94-7452-4f39-ab99-3f2402e42286",
+       "ik.rough": "gm1-ep04-rough@rough-ep04-v2：part1/rough/panels/e04-p07-k1.jpg sha256:54e2b67d5d98、part1/rough/panels/e04-p07-k2.jpg sha256:cc3ad73f7c9b、part1/rough/panels/e04-p07-k3.jpg sha256:6f54ecaa839a。3D の舞台：F106 古い神殿 artifact_43381302-b044-4992-a107-209efb10c14f@version_c2334107-1277-4289-b44a-f68dc36f9b38、舞台 gate artifact_e6934c86-2efc-47ea-8027-fe00b4c1edd4@version_c1d47c94-7452-4f39-ab99-3f2402e42286",
        "ik.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-30 小人の設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
        "ik.layers": "LY-01 下絵（3D）（隠す）、LY-02 アタリ（ラフ絵、隠す）、LY-04 背景の線画、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
        "ik.byHuman": "まだ無い（作者が確かめて直す）",
        "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v2 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
        "ik.fx": "無し",
        "ik.noBg": ""
       }
@@ -600,13 +600,13 @@
        "ik.scene": "SC-013",
        "ik.panels": "e04-p08-k1 e04-p08-k2 e04-p08-k3",
        "ik.method": "ラフ絵をなぞる AI の画像生成（Codex）。構図・人物の位置と大きさは、ラフと 3D の舞台で決めたまま",
-       "ik.rough": "gm1-ep04-rough@rough-ep04-v1：part1/rough/panels/e04-p08-k1.jpg sha256:11315a37c8db、part1/rough/panels/e04-p08-k2.jpg sha256:c5787577913d、part1/rough/panels/e04-p08-k3.jpg sha256:6ee794677470。3D の舞台：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
+       "ik.rough": "gm1-ep04-rough@rough-ep04-v2：part1/rough/panels/e04-p08-k1.jpg sha256:11315a37c8db、part1/rough/panels/e04-p08-k2.jpg sha256:c5787577913d、part1/rough/panels/e04-p08-k3.jpg sha256:6ee794677470。3D の舞台：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
        "ik.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-02 皇帝の設定画（gulliver-manga@5a4d46d1 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080） / CH-04 フリムナップの設定画（gulliver-manga@5a4d46d1 part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c）",
        "ik.layers": "LY-01 下絵（3D）（隠す）、LY-02 アタリ（ラフ絵、隠す）、LY-04 背景の線画、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
        "ik.byHuman": "まだ無い（作者が確かめて直す）",
        "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v2 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
        "ik.fx": "無し",
        "ik.noBg": ""
       }
@@ -618,13 +618,13 @@
        "ik.scene": "SC-013",
        "ik.panels": "e04-p09-k1 e04-p09-k2",
        "ik.method": "ラフ絵をなぞる AI の画像生成（Codex）。構図・人物の位置と大きさは、ラフと 3D の舞台で決めたまま",
-       "ik.rough": "gm1-ep04-rough@rough-ep04-v1：part1/rough/panels/e04-p09-k1.jpg sha256:b53132a7c28c、part1/rough/panels/e04-p09-k2.jpg sha256:a4385108f328。3D の舞台：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
+       "ik.rough": "gm1-ep04-rough@rough-ep04-v2：part1/rough/panels/e04-p09-k1.jpg sha256:b53132a7c28c、part1/rough/panels/e04-p09-k2.jpg sha256:a4385108f328。3D の舞台：舞台 throne artifact_9122ad7e-7ba0-4292-94bc-2d8a70fe8a1b@version_5a47895c-d9d7-417a-9545-d0524fb312cd",
        "ik.art": "CH-02 皇帝の設定画（gulliver-manga@5a4d46d1 part1/codex/ch02-emperor/ch02-emperor-raw.png sha256:50970136e080） / CH-04 フリムナップの設定画（gulliver-manga@5a4d46d1 part1/codex/ch04-flimnap/ch04-flimnap-raw.png sha256:12fa65f6a12c） / CH-06 ボルゴラムの設定画（gulliver-manga@5a4d46d1 part1/codex/ch06-bolgolam/ch06-bolgolam-raw.png sha256:ded968d6ef87） / CH-01 ガリヴァーの設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
        "ik.layers": "LY-01 下絵（3D）（隠す）、LY-02 アタリ（ラフ絵、隠す）、LY-04 背景の線画、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
        "ik.byHuman": "まだ無い（作者が確かめて直す）",
        "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v2 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
        "ik.fx": "無し",
        "ik.noBg": ""
       }
@@ -636,13 +636,13 @@
        "ik.scene": "SC-014",
        "ik.panels": "e04-p10-k1 e04-p10-k2",
        "ik.method": "ラフ絵をなぞる AI の画像生成（Codex）。構図・人物の位置と大きさは、ラフと 3D の舞台で決めたまま",
-       "ik.rough": "gm1-ep04-rough@rough-ep04-v1：part1/rough/panels/e04-p10-k1.jpg sha256:111af45c87c6、part1/rough/panels/e04-p10-k2.jpg sha256:63bdd2173cff。3D の舞台：F106 古い神殿 artifact_43381302-b044-4992-a107-209efb10c14f@version_c2334107-1277-4289-b44a-f68dc36f9b38、舞台 gate artifact_e6934c86-2efc-47ea-8027-fe00b4c1edd4@version_c1d47c94-7452-4f39-ab99-3f2402e42286",
+       "ik.rough": "gm1-ep04-rough@rough-ep04-v2：part1/rough/panels/e04-p10-k1.jpg sha256:111af45c87c6、part1/rough/panels/e04-p10-k2.jpg sha256:63bdd2173cff。3D の舞台：F106 古い神殿 artifact_43381302-b044-4992-a107-209efb10c14f@version_c2334107-1277-4289-b44a-f68dc36f9b38、舞台 gate artifact_e6934c86-2efc-47ea-8027-fe00b4c1edd4@version_c1d47c94-7452-4f39-ab99-3f2402e42286",
        "ik.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
        "ik.layers": "LY-01 下絵（3D）（隠す）、LY-02 アタリ（ラフ絵、隠す）、LY-04 背景の線画、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
        "ik.byHuman": "まだ無い（作者が確かめて直す）",
        "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v2 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
        "ik.fx": "無し",
        "ik.noBg": ""
       }
@@ -654,13 +654,13 @@
        "ik.scene": "SC-014",
        "ik.panels": "e04-p11-k1 e04-p11-k2",
        "ik.method": "ラフ絵をなぞる AI の画像生成（Codex）。構図・人物の位置と大きさは、ラフと 3D の舞台で決めたまま",
-       "ik.rough": "gm1-ep04-rough@rough-ep04-v1：part1/rough/panels/e04-p11-k1.jpg sha256:eeb18952a80c、part1/rough/panels/e04-p11-k2.jpg sha256:4d81b9b504b3。3D の舞台：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
+       "ik.rough": "gm1-ep04-rough@rough-ep04-v2：part1/rough/panels/e04-p11-k1.jpg sha256:eeb18952a80c、part1/rough/panels/e04-p11-k2.jpg sha256:4d81b9b504b3。3D の舞台：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
        "ik.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / LO-04 都ミルドゥンドの舞台の設定画（gulliver-manga@5a4d46d1 part1/codex/lo04-mildendo/lo04-mildendo-raw.png sha256:5a161ac8ecd7）",
        "ik.layers": "LY-01 下絵（3D）（隠す）、LY-02 アタリ（ラフ絵、隠す）、LY-04 背景の線画、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
        "ik.byHuman": "まだ無い（作者が確かめて直す）",
        "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v2 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
        "ik.fx": "無し",
        "ik.noBg": ""
       }
@@ -672,13 +672,13 @@
        "ik.scene": "SC-014",
        "ik.panels": "e04-p12-k1 e04-p12-k2",
        "ik.method": "ラフ絵をなぞる AI の画像生成（Codex）。構図・人物の位置と大きさは、ラフと 3D の舞台で決めたまま",
-       "ik.rough": "gm1-ep04-rough@rough-ep04-v1：part1/rough/panels/e04-p12-k1.jpg sha256:b62c1c9707ae、part1/rough/panels/e04-p12-k2.jpg sha256:3a6e3b233ec4。3D の舞台：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
+       "ik.rough": "gm1-ep04-rough@rough-ep04-v2：part1/rough/panels/e04-p12-k1.jpg sha256:ccf059186cc9、part1/rough/panels/e04-p12-k2.jpg sha256:3a6e3b233ec4。3D の舞台：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
        "ik.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
        "ik.layers": "LY-01 下絵（3D）（隠す）、LY-02 アタリ（ラフ絵、隠す）、LY-04 背景の線画、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
        "ik.byHuman": "まだ無い（作者が確かめて直す）",
        "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v2 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
        "ik.fx": "無し",
        "ik.noBg": ""
       }
@@ -690,13 +690,13 @@
        "ik.scene": "SC-014",
        "ik.panels": "e04-p13-k1 e04-p13-k2",
        "ik.method": "ラフ絵をなぞる AI の画像生成（Codex）。構図・人物の位置と大きさは、ラフと 3D の舞台で決めたまま",
-       "ik.rough": "gm1-ep04-rough@rough-ep04-v1：part1/rough/panels/e04-p13-k1.jpg sha256:19521f80154b、part1/rough/panels/e04-p13-k2.jpg sha256:8f08cce439e5。3D の舞台：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
+       "ik.rough": "gm1-ep04-rough@rough-ep04-v2：part1/rough/panels/e04-p13-k1.jpg sha256:19521f80154b、part1/rough/panels/e04-p13-k2.jpg sha256:8f08cce439e5。3D の舞台：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
        "ik.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
        "ik.layers": "LY-01 下絵（3D）（隠す）、LY-02 アタリ（ラフ絵、隠す）、LY-04 背景の線画、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
        "ik.byHuman": "まだ無い（作者が確かめて直す）",
        "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v2 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
        "ik.fx": "無し",
        "ik.noBg": ""
       }
@@ -708,13 +708,13 @@
        "ik.scene": "SC-014",
        "ik.panels": "e04-p14-k1 e04-p14-k2",
        "ik.method": "ラフ絵をなぞる AI の画像生成（Codex）。構図・人物の位置と大きさは、ラフと 3D の舞台で決めたまま",
-       "ik.rough": "gm1-ep04-rough@rough-ep04-v1：part1/rough/panels/e04-p14-k1.jpg sha256:ba4006c6497b、part1/rough/panels/e04-p14-k2.jpg sha256:b490d4e067e2。3D の舞台：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
+       "ik.rough": "gm1-ep04-rough@rough-ep04-v2：part1/rough/panels/e04-p14-k1.jpg sha256:ba4006c6497b、part1/rough/panels/e04-p14-k2.jpg sha256:b490d4e067e2。3D の舞台：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
        "ik.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
        "ik.layers": "LY-01 下絵（3D）（隠す）、LY-02 アタリ（ラフ絵、隠す）、LY-04 背景の線画、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
        "ik.byHuman": "まだ無い（作者が確かめて直す）",
        "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v2 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
        "ik.fx": "無し",
        "ik.noBg": ""
       }
@@ -726,13 +726,13 @@
        "ik.scene": "SC-014",
        "ik.panels": "e04-p15-k1 e04-p15-k2 e04-p15-k3",
        "ik.method": "ラフ絵をなぞる AI の画像生成（Codex）。構図・人物の位置と大きさは、ラフと 3D の舞台で決めたまま",
-       "ik.rough": "gm1-ep04-rough@rough-ep04-v1：part1/rough/panels/e04-p15-k1.jpg sha256:66ed00683b01、part1/rough/panels/e04-p15-k2.jpg sha256:910f0640df50、part1/rough/panels/e04-p15-k3.jpg sha256:3fac1a93afc6。3D の舞台：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
-       "ik.art": "CH-03 皇后の設定画（gulliver-manga@5a4d46d1 part1/codex/ch03-empress/ch03-empress-raw.png sha256:14a89aa3dc1d） / CH-01 ガリヴァーの設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-30 小人の設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
+       "ik.rough": "gm1-ep04-rough@rough-ep04-v2：part1/rough/panels/e04-p15-k1.jpg sha256:66ed00683b01、part1/rough/panels/e04-p15-k2.jpg sha256:910f0640df50、part1/rough/panels/e04-p15-k3.jpg sha256:0e651f2b3da8。3D の舞台：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
+       "ik.art": "CH-03 皇后の設定画（gulliver-manga@af6ea506 part1/codex/ch03-empress/ch03-empress-raw.png sha256:14a89aa3dc1d） / CH-01 ガリヴァーの設定画（正面）（gulliver-manga@af6ea506 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183） / CH-30 小人の設定画（正面）（gulliver-manga@af6ea506 part1/codex/lilliputian-front/lilliputian-front-raw.png sha256:fde2075b3ef5）",
        "ik.layers": "LY-01 下絵（3D）（隠す）、LY-02 アタリ（ラフ絵、隠す）、LY-04 背景の線画、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
        "ik.byHuman": "まだ無い（作者が確かめて直す）",
        "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v2 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
        "ik.fx": "無し",
        "ik.noBg": ""
       }
@@ -744,20 +744,20 @@
        "ik.scene": "SC-014",
        "ik.panels": "e04-p16-k1 e04-p16-k2",
        "ik.method": "ラフ絵をなぞる AI の画像生成（Codex）。構図・人物の位置と大きさは、ラフと 3D の舞台で決めたまま",
-       "ik.rough": "gm1-ep04-rough@rough-ep04-v1：part1/rough/panels/e04-p16-k1.jpg sha256:1c9fd28ab6af、part1/rough/panels/e04-p16-k2.jpg sha256:764d456c282a。3D の舞台：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
+       "ik.rough": "gm1-ep04-rough@rough-ep04-v2：part1/rough/panels/e04-p16-k1.jpg sha256:8fc1be9d5943、part1/rough/panels/e04-p16-k2.jpg sha256:764d456c282a。3D の舞台：F105 都ミルデンドウ artifact_d67ae917-e819-4a3f-b443-9773d2ac66e2@version_bbaabc14-8645-47fe-a04f-f9573014d31a、舞台 palace artifact_a2a2573f-e9c9-48c5-b024-45157b3b0ec9@version_6ef8f2e0-3356-43d8-a769-22c8895e6277、舞台 palace fire artifact_29802364-c183-41dd-82c0-fce918e40590@version_dc026cfe-da7b-4fff-9dc9-ae182d5a9b48、舞台 palace steam artifact_a7481ee9-b102-4857-8753-56fc14376243@version_da6ef457-e18f-47b1-9927-8275e4cd6d89、舞台 palace char artifact_ced01117-eb93-4b3f-a188-bcbd7366bd9a@version_e7403100-9684-4303-8a32-9e0b9d992b76",
        "ik.art": "CH-01 ガリヴァーの設定画（正面）（gulliver-manga@5a4d46d1 part1/codex/ch01-gulliver-front/ch01-gulliver-front-raw.png sha256:0bf9ffde7183）",
        "ik.layers": "LY-01 下絵（3D）（隠す）、LY-02 アタリ（ラフ絵、隠す）、LY-04 背景の線画、LY-07 人物の線画、LY-08 効果、LY-09 吹き出し（仮、吹き出しと枠ごとのグループ）、LY-10 文字（仮。擬音と題）、メモ（ラフの指示。レイヤーの決まりの外、書き出しでは隠す）",
        "ik.layerNotes": "LY-01 と LY-02 は、画作りガイドの決まりのとおり線画では隠して残した。Playground の読み込みの上限（16 MB）に収めるため、どちらも長い辺 480 px に縮めた写し（part1/ink/hidden/）にした。元はネームとラフの資料にある。LY-04・LY-07・LY-08 は、Codex が1コマを1枚で描くので、黒（人物）・青（背景）・赤（効果）の3色で描かせ、色で分けた。人物の手に持つ物・体に付いた鎖と縄は人物（LY-07）に入る。色が混ざったところ（人物と背景の境目）は、どちらかに入っていることがある。LY-08 効果は、画作りガイドでは人の描くレイヤー。ここに入れた効果の線は AI の提案で、作者が採るか描き直す。手書きの擬音は作者が LY-08 に描く。それまで擬音は LY-10 の仮の文字のまま。吹き出しとナレーションの枠は、ラフと同じく LY-09 の文字と一つのグループでコマの直下に置き、エディタで一つずつ動かせる。絵のレイヤー（LY-01・LY-02・LY-04・LY-07・LY-08）とメモは固定した。「メモ」はネームのタグと絵のメモで、決まりの外。書き出しでは隠す。",
        "ik.byHuman": "まだ無い（作者が確かめて直す）",
        "ik.byAi": "LY-04 背景の線画・LY-07 人物の線画・LY-08 効果（画像生成）、LY-09 吹き出し・LY-10 文字（仮。擬音と題）（脚本の台詞を置いただけ）",
-       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v1 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
+       "ik.generated": "Codex CLI 0.169.0 (codex exec), built-in image generation tool, ChatGPT sign-in、モデル gpt-6.2-sol。コマごとに、gm1-ep04-rough@rough-ep04-v2 のラフ絵（part1/rough/panels/）、ネームの 3D の舞台のカメラの絵（part1/name/stage/underlay/）と上の設定画を渡した。プロンプトは part1/ink/prompts/。出典と利用条件：OpenAI の生成画像（Codex）。他の作品の絵は渡していない。利用条件は OpenAI の利用規約に従う",
        "ik.fx": "無し",
        "ik.noBg": ""
       }
      }
     ]
    },
-   "contentHash": "843d34b46861dc3b6b1a781fc1a8d363ed48fdf5eb0c2d8f274d0a9a11819d70"
+   "contentHash": "215eef0ad0c1fbec585766962be13ac84d62dc8f8dd677dfbcbb326a4d181d8b"
   }
  ]
 }
